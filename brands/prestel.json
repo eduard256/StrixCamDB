@@ -6,7 +6,6 @@
     {
       "id": "prestel-1",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "prestel-2",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

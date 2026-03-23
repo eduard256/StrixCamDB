@@ -6,7 +6,6 @@
     {
       "id": "procctv-1",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "procctv-2",
       "url": "snapshot.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "procctv-3",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "procctv-4",
       "url": "mjpegStreamer.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "procctv-5",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "procctv-6",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -70,7 +64,6 @@
     {
       "id": "procctv-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -80,7 +73,6 @@
     {
       "id": "procctv-8",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -90,7 +82,6 @@
     {
       "id": "procctv-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -100,7 +91,6 @@
     {
       "id": "procctv-10",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

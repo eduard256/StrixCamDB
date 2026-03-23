@@ -6,7 +6,6 @@
     {
       "id": "mobotix-1",
       "url": "control/faststream.jpg?stream=full",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -54,7 +53,6 @@
     {
       "id": "mobotix-2",
       "url": "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -80,7 +78,6 @@
     {
       "id": "mobotix-3",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -138,7 +135,6 @@
     {
       "id": "mobotix-4",
       "url": "record/current.jpg?sync=-99",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +173,6 @@
     {
       "id": "mobotix-5",
       "url": "cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -200,7 +195,6 @@
     {
       "id": "mobotix-6",
       "url": "/control/faststream.jpg?stream=full",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 9083,
       "models": [
@@ -239,7 +233,6 @@
     {
       "id": "mobotix-7",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -253,7 +246,6 @@
     {
       "id": "mobotix-8",
       "url": "/control/faststream.jpg?stream=MxPEG&preview&previewsize=1280x960&quality=70&fps=24&camera=auto",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -264,7 +256,6 @@
     {
       "id": "mobotix-9",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -274,7 +265,6 @@
     {
       "id": "mobotix-10",
       "url": "record/current.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -307,7 +297,6 @@
     {
       "id": "mobotix-11",
       "url": "cgi-bin/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -327,7 +316,6 @@
     {
       "id": "mobotix-12",
       "url": "/cgi-bin/faststream.jpg?stream=full&fps=10.0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -341,7 +329,6 @@
     {
       "id": "mobotix-13",
       "url": "/record/current.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -356,7 +343,6 @@
     {
       "id": "mobotix-14",
       "url": "/stream0/mobotix.mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -367,7 +353,6 @@
     {
       "id": "mobotix-15",
       "url": "/record/current.jpg?sync=-99",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -380,7 +365,6 @@
     {
       "id": "mobotix-16",
       "url": "/mobotix.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -391,7 +375,6 @@
     {
       "id": "mobotix-17",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -401,7 +384,6 @@
     {
       "id": "mobotix-18",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1&resolution=320x240",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -411,7 +393,6 @@
     {
       "id": "mobotix-19",
       "url": "/cgi-bin/image.jpg?imgprof=VGA-L",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -422,7 +403,6 @@
     {
       "id": "mobotix-20",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=24",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -434,7 +414,6 @@
     {
       "id": "mobotix-21",
       "url": "/cgi-bin/image.jpg?size=320x240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 20001,
       "models": [
@@ -445,7 +424,6 @@
     {
       "id": "mobotix-22",
       "url": "/control/userimage.html",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 20004,
       "models": [
@@ -455,7 +433,6 @@
     {
       "id": "mobotix-23",
       "url": "/onvif/mobotix.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -469,7 +446,6 @@
     {
       "id": "mobotix-24",
       "url": "/cgi-bin/image.jpg?imgprof=CIF",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -479,7 +455,6 @@
     {
       "id": "mobotix-25",
       "url": "/cgi-bin/image.jpg?imgprof=MEGA",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -489,7 +464,6 @@
     {
       "id": "mobotix-26",
       "url": "/cgi-bin/image.jpg?imgprof=VGA",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -499,7 +473,6 @@
     {
       "id": "mobotix-27",
       "url": "/cgi-bin/image.jpg?imgprof=CIF-R",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -509,7 +482,6 @@
     {
       "id": "mobotix-28",
       "url": "/cgi-bin/image.jpg?imgprof=CIF-L",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -519,7 +491,6 @@
     {
       "id": "mobotix-29",
       "url": "/cgi-bin/image.jpg?imgprof=VGA-R",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -529,7 +500,6 @@
     {
       "id": "mobotix-30",
       "url": "/cgi-bin/image.jpg?imgprof=CIF-2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8011,
       "models": [
@@ -539,7 +509,6 @@
     {
       "id": "mobotix-31",
       "url": "/cgi-bin/image.jpg?imgprof=CIF-1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8011,
       "models": [
@@ -549,7 +518,6 @@
     {
       "id": "mobotix-32",
       "url": "/control/event.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8011,
       "models": [
@@ -559,7 +527,6 @@
     {
       "id": "mobotix-33",
       "url": "faststream.jpg?stream=full&fps=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -572,7 +539,6 @@
     {
       "id": "mobotix-34",
       "url": "/cgi-bin/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -582,7 +548,6 @@
     {
       "id": "mobotix-35",
       "url": "/control/faststream.jpg?stream=full&preview&previewsize=640x480&quality=40&fps=20.0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -593,7 +558,6 @@
     {
       "id": "mobotix-36",
       "url": "/control/faststream.jpg?stream=full&preview&previewsize=800x600&quality=80&fps=30.0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -603,7 +567,6 @@
     {
       "id": "mobotix-37",
       "url": "/stream/profile0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -613,7 +576,6 @@
     {
       "id": "mobotix-38",
       "url": "/onvif/stream3/mobotix.mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -624,7 +586,6 @@
     {
       "id": "mobotix-39",
       "url": "/cgi-bin/guestimage.html",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8038,
       "models": [
@@ -635,7 +596,6 @@
     {
       "id": "mobotix-40",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -645,7 +605,6 @@
     {
       "id": "mobotix-41",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -655,7 +614,6 @@
     {
       "id": "mobotix-42",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -665,7 +623,6 @@
     {
       "id": "mobotix-43",
       "url": "-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -675,7 +632,6 @@
     {
       "id": "mobotix-44",
       "url": "jpeg/vga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -685,7 +641,6 @@
     {
       "id": "mobotix-45",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -695,7 +650,6 @@
     {
       "id": "mobotix-46",
       "url": "/control/faststream.jpg?stream=MxPEG&preview&previewsize=2048x1536&quality=100&fps=20&camera=auto",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -706,7 +660,6 @@
     {
       "id": "mobotix-47",
       "url": "/cgi-bin/image.jpg?display_mode=simple&size=3072x2048",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -716,7 +669,6 @@
     {
       "id": "mobotix-48",
       "url": "/cgi-bin/image.jpg?display_mode=simple&size=3072x2048&textdisplay=datetime&displayfontsize=24&rotate=180",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -726,7 +678,6 @@
     {
       "id": "mobotix-49",
       "url": "mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -736,7 +687,6 @@
     {
       "id": "mobotix-50",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -746,7 +696,6 @@
     {
       "id": "mobotix-51",
       "url": "/cgi-bin/image.jpg?imgprof=CIF-B",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -756,7 +705,6 @@
     {
       "id": "mobotix-52",
       "url": "/stream1/mobotix.mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -766,7 +714,6 @@
     {
       "id": "mobotix-53",
       "url": "/stream1/mobotix.mxg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -776,7 +723,6 @@
     {
       "id": "mobotix-54",
       "url": "/stream0/mobotix.mxg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

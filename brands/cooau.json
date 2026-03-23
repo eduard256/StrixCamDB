@@ -6,7 +6,6 @@
     {
       "id": "cooau-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +26,6 @@
     {
       "id": "cooau-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -50,7 +48,6 @@
     {
       "id": "cooau-3",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +57,6 @@
     {
       "id": "cooau-4",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -72,7 +68,6 @@
     {
       "id": "cooau-5",
       "url": "snap.jpg?JpegSize=M",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

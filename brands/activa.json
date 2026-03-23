@@ -6,7 +6,6 @@
     {
       "id": "activa-1",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "activa-2",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "fayele-1",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "fayele-2",
       "url": "mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "fayele-3",
       "url": "cam[CHANNEL]/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "fayele-4",
       "url": "mpeg4/media.amp?resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

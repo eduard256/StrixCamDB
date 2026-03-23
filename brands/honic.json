@@ -6,7 +6,6 @@
     {
       "id": "honic-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "honic-2",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "honic-3",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "honic-4",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

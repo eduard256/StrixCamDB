@@ -6,7 +6,6 @@
     {
       "id": "yoosee-1",
       "url": "/onvif2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +25,6 @@
     {
       "id": "yoosee-2",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "yoosee-3",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -88,7 +85,6 @@
     {
       "id": "yoosee-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -104,7 +100,6 @@
     {
       "id": "yoosee-5",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -114,7 +109,6 @@
     {
       "id": "yoosee-6",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -124,7 +118,6 @@
     {
       "id": "yoosee-7",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -134,7 +127,6 @@
     {
       "id": "yoosee-8",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -144,7 +136,6 @@
     {
       "id": "yoosee-9",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -154,7 +145,6 @@
     {
       "id": "yoosee-10",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -164,7 +154,6 @@
     {
       "id": "yoosee-11",
       "url": "/video.mjpg?oids=1&username=[USERNAME]&password=adminpass&balls=balls5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -174,7 +163,6 @@
     {
       "id": "yoosee-12",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [

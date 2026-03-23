@@ -6,7 +6,6 @@
     {
       "id": "st-(spacetechnology)-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "st-(spacetechnology)-2",
       "url": "/h264Preview_01_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

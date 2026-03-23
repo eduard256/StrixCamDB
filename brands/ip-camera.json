@@ -6,7 +6,6 @@
     {
       "id": "ip-camera-1",
       "url": "/ch0_0.264",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 80,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ip-camera-2",
       "url": "/ch0_1.264",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 80,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "ip-camera-3",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "ip-camera-4",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

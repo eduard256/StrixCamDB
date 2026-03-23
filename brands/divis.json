@@ -6,7 +6,6 @@
     {
       "id": "divis-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "divis-2",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "divis-3",
       "url": "special/Cam[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "divis-4",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "divis-5",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "divis-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -66,7 +60,6 @@
     {
       "id": "divis-7",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "gid20m-pvir-1",
       "url": "/onvif/media",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "veroyi-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "veroyi-2",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [

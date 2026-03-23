@@ -6,7 +6,6 @@
     {
       "id": "security-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "security-2",
       "url": "Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "security-3",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "security-4",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "security-5",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "security-6",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "powerbizt-1",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

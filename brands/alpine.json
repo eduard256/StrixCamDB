@@ -6,7 +6,6 @@
     {
       "id": "alpine-1",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

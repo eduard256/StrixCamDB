@@ -6,7 +6,6 @@
     {
       "id": "cubitech-1",
       "url": "/streaming/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

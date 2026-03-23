@@ -6,7 +6,6 @@
     {
       "id": "runyan-gate-1",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "runyan-gate-2",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

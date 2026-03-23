@@ -6,7 +6,6 @@
     {
       "id": "control4-1",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

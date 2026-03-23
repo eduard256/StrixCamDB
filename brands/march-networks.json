@@ -6,7 +6,6 @@
     {
       "id": "march-networks-1",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "march-networks-2",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "march-networks-3",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "march-networks-4",
       "url": "/VideoInput/1/h264/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "march-networks-5",
       "url": "VideoInput/1/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "march-networks-6",
       "url": "/live/h264/HD1080P",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

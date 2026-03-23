@@ -6,7 +6,6 @@
     {
       "id": "minking-1",
       "url": "/ch0.liv",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

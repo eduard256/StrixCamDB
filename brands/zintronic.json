@@ -6,7 +6,6 @@
     {
       "id": "zintronic-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "zintronic-2",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "zintronic-3",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -42,7 +39,6 @@
     {
       "id": "zintronic-4",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -52,7 +48,6 @@
     {
       "id": "zintronic-5",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

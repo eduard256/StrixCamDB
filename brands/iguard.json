@@ -6,7 +6,6 @@
     {
       "id": "iguard-1",
       "url": "showimg_pda.cgi?cam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "iguard-2",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "qgs-1",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "qgs-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

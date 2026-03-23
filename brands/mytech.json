@@ -6,7 +6,6 @@
     {
       "id": "mytech-1",
       "url": "cam2/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "htcone-1",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "htcone-2",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "htcone-3",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ingresso-1",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ingresso-2",
       "url": "/rtsp_tunnel",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "ingresso-3",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "ingresso-4",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

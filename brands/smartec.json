@@ -6,7 +6,6 @@
     {
       "id": "smartec-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "smartec-2",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 5544,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "smartec-3",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "smartec-4",
       "url": "/PSIA/Streaming/channels/1?videoCodecType=MPEG4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "smartec-5",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "smartec-6",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

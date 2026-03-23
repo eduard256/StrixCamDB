@@ -6,7 +6,6 @@
     {
       "id": "upcam-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "upcam-2",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

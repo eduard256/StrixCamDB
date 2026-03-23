@@ -6,7 +6,6 @@
     {
       "id": "defeway-1",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "defeway-2",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "defeway-3",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "defeway-4",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=2_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -57,7 +53,6 @@
     {
       "id": "defeway-5",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -69,7 +64,6 @@
     {
       "id": "defeway-6",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8000,
       "models": [
@@ -79,7 +73,6 @@
     {
       "id": "defeway-7",
       "url": "mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -90,7 +83,6 @@
     {
       "id": "defeway-8",
       "url": "/cgi-bin/snapshot.cgi?chn=8&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 60001,
       "models": [
@@ -100,7 +92,6 @@
     {
       "id": "defeway-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -110,7 +101,6 @@
     {
       "id": "defeway-10",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -120,7 +110,6 @@
     {
       "id": "defeway-11",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -130,7 +119,6 @@
     {
       "id": "defeway-12",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 60001,
       "models": [

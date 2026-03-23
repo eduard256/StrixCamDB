@@ -6,7 +6,6 @@
     {
       "id": "altasec-1",
       "url": "/ch01/1/live.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "altasec-2",
       "url": "/ch01/0/live.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "altasec-3",
       "url": "/ch00/0/live.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "altasec-4",
       "url": "/ch00/1/live.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

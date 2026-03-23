@@ -6,7 +6,6 @@
     {
       "id": "linia-1",
       "url": "/live/h264/VGA",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

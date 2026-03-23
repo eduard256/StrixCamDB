@@ -6,7 +6,6 @@
     {
       "id": "oneteck-1",
       "url": "video2.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "oneteck-2",
       "url": "cgi-bin/stream.cgi?stream=MainStream&Audio=1",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "oneteck-3",
       "url": "imagep/picture.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

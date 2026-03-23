@@ -6,7 +6,6 @@
     {
       "id": "economato-1",
       "url": "/live/video_audio/profile3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [

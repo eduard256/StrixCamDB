@@ -6,7 +6,6 @@
     {
       "id": "bu-720-1",
       "url": "/video.pro1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "bu-720-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

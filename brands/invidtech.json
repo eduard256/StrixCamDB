@@ -6,7 +6,6 @@
     {
       "id": "invidtech-1",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "invidtech-2",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

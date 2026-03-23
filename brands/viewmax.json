@@ -6,7 +6,6 @@
     {
       "id": "viewmax-1",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "viewmax-2",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "viewmax-3",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "viewmax-4",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

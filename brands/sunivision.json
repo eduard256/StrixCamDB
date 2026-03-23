@@ -6,7 +6,6 @@
     {
       "id": "sunivision-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8080,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "sunivision-2",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "sunivision-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "sunivision-4",
       "url": "MediaInput/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "sunivision-5",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

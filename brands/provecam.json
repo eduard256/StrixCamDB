@@ -6,7 +6,6 @@
     {
       "id": "provecam-1",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "provecam-2",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "provecam-3",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "provecam-4",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

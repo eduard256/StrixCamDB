@@ -6,7 +6,6 @@
     {
       "id": "babycam-1",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "babycam-2",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "babycam-3",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 2600,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "babycam-4",
       "url": "live_mpeg4_1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "babycam-5",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

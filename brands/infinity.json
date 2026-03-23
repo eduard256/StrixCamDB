@@ -6,7 +6,6 @@
     {
       "id": "infinity-1",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "infinity-2",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "infinity-3",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "infinity-4",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

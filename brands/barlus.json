@@ -6,7 +6,6 @@
     {
       "id": "barlus-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "barlus-2",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "barlus-3",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -44,7 +41,6 @@
     {
       "id": "barlus-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [

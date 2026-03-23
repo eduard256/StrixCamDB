@@ -6,7 +6,6 @@
     {
       "id": "airlive-1",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "airlive-2",
       "url": "/rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -42,7 +40,6 @@
     {
       "id": "airlive-3",
       "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -64,7 +61,6 @@
     {
       "id": "airlive-4",
       "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +78,6 @@
     {
       "id": "airlive-5",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -94,7 +89,6 @@
     {
       "id": "airlive-6",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -108,7 +102,6 @@
     {
       "id": "airlive-7",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -129,7 +122,6 @@
     {
       "id": "airlive-8",
       "url": "mpeg4/media.amp?resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -142,7 +134,6 @@
     {
       "id": "airlive-9",
       "url": "/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -156,7 +147,6 @@
     {
       "id": "airlive-10",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8000,
       "models": [
@@ -169,7 +159,6 @@
     {
       "id": "airlive-11",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -197,7 +186,6 @@
     {
       "id": "airlive-12",
       "url": "ipcam/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -210,7 +198,6 @@
     {
       "id": "airlive-13",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -226,7 +213,6 @@
     {
       "id": "airlive-14",
       "url": "/mobile",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8000,
       "models": [
@@ -236,7 +222,6 @@
     {
       "id": "airlive-15",
       "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -254,7 +239,6 @@
     {
       "id": "airlive-16",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -266,7 +250,6 @@
     {
       "id": "airlive-17",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -276,7 +259,6 @@
     {
       "id": "airlive-18",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -286,7 +268,6 @@
     {
       "id": "airlive-19",
       "url": "cgi-bin/view/image?pro_[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -301,7 +282,6 @@
     {
       "id": "airlive-20",
       "url": "/video.pro1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -313,7 +293,6 @@
     {
       "id": "airlive-21",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -325,7 +304,6 @@
     {
       "id": "airlive-22",
       "url": "medias2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -335,7 +313,6 @@
     {
       "id": "airlive-23",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -356,7 +333,6 @@
     {
       "id": "airlive-24",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -366,7 +342,6 @@
     {
       "id": "airlive-25",
       "url": "tmp/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -377,7 +352,6 @@
     {
       "id": "airlive-26",
       "url": "cgi-bin/admin/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -390,7 +364,6 @@
     {
       "id": "airlive-27",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -404,7 +377,6 @@
     {
       "id": "airlive-28",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -415,7 +387,6 @@
     {
       "id": "airlive-29",
       "url": "vdata.v",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -425,7 +396,6 @@
     {
       "id": "airlive-30",
       "url": "/cgi-bin/view/image?pro_0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -435,7 +405,6 @@
     {
       "id": "airlive-31",
       "url": "/video.pro2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -445,7 +414,6 @@
     {
       "id": "airlive-32",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -460,7 +428,6 @@
     {
       "id": "airlive-33",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -470,7 +437,6 @@
     {
       "id": "airlive-34",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -489,7 +455,6 @@
     {
       "id": "airlive-35",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -499,7 +464,6 @@
     {
       "id": "airlive-36",
       "url": "live",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -510,7 +474,6 @@
     {
       "id": "airlive-37",
       "url": "/Video?Codec=MPEG4&Width=720&Height=576&Fps=30",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -520,7 +483,6 @@
     {
       "id": "airlive-38",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -530,7 +492,6 @@
     {
       "id": "airlive-39",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -540,7 +501,6 @@
     {
       "id": "airlive-40",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -550,7 +510,6 @@
     {
       "id": "airlive-41",
       "url": "/live/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -561,7 +520,6 @@
     {
       "id": "airlive-42",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -571,7 +529,6 @@
     {
       "id": "airlive-43",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -581,7 +538,6 @@
     {
       "id": "airlive-44",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -591,7 +547,6 @@
     {
       "id": "airlive-45",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -601,7 +556,6 @@
     {
       "id": "airlive-46",
       "url": "video.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -611,7 +565,6 @@
     {
       "id": "airlive-47",
       "url": "current[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -621,7 +574,6 @@
     {
       "id": "airlive-48",
       "url": "ipcam/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -631,7 +583,6 @@
     {
       "id": "airlive-49",
       "url": "/mjpg/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -641,7 +592,6 @@
     {
       "id": "airlive-50",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

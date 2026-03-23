@@ -6,7 +6,6 @@
     {
       "id": "yunsye-1",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "yunsye-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "living-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "living-2",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "living-3",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

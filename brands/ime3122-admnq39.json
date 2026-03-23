@@ -6,7 +6,6 @@
     {
       "id": "ime3122-admnq39-1",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ime3122-admnq39-2",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

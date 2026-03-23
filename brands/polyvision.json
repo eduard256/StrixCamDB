@@ -6,7 +6,6 @@
     {
       "id": "polyvision-1",
       "url": "/live/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "polyvision-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "polyvision-3",
       "url": "/live/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

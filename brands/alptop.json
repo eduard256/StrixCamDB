@@ -6,7 +6,6 @@
     {
       "id": "alptop-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -34,7 +33,6 @@
     {
       "id": "alptop-2",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -56,7 +54,6 @@
     {
       "id": "alptop-3",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -74,7 +71,6 @@
     {
       "id": "alptop-4",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -97,7 +93,6 @@
     {
       "id": "alptop-5",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

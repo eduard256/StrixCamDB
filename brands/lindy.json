@@ -6,7 +6,6 @@
     {
       "id": "lindy-1",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "lindy-2",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

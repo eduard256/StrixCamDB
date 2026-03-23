@@ -6,7 +6,6 @@
     {
       "id": "universal-1",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

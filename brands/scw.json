@@ -6,7 +6,6 @@
     {
       "id": "scw-1",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1025,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "scw-2",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "scw-3",
       "url": "/Streaming/Channels/3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

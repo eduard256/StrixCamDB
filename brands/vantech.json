@@ -6,7 +6,6 @@
     {
       "id": "vantech-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "vantech-2",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "vantech-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -42,7 +39,6 @@
     {
       "id": "vantech-4",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -53,7 +49,6 @@
     {
       "id": "vantech-5",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -64,7 +59,6 @@
     {
       "id": "vantech-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +68,6 @@
     {
       "id": "vantech-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -84,7 +77,6 @@
     {
       "id": "vantech-8",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -94,7 +86,6 @@
     {
       "id": "vantech-9",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -104,7 +95,6 @@
     {
       "id": "vantech-10",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -114,7 +104,6 @@
     {
       "id": "vantech-11",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +113,6 @@
     {
       "id": "vantech-12",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -134,7 +122,6 @@
     {
       "id": "vantech-13",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -145,7 +132,6 @@
     {
       "id": "vantech-14",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -155,7 +141,6 @@
     {
       "id": "vantech-15",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -167,7 +152,6 @@
     {
       "id": "vantech-16",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -177,7 +161,6 @@
     {
       "id": "vantech-17",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -187,7 +170,6 @@
     {
       "id": "vantech-18",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

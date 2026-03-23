@@ -6,7 +6,6 @@
     {
       "id": "mwr-1",
       "url": "/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "mwr-2",
       "url": "/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

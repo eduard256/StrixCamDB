@@ -6,7 +6,6 @@
     {
       "id": "avantgarde-1",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "avantgarde-2",
       "url": "/live/av1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "avantgarde-3",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

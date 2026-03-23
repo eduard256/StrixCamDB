@@ -6,7 +6,6 @@
     {
       "id": "lexy-1",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

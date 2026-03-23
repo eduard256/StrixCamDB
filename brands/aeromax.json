@@ -6,7 +6,6 @@
     {
       "id": "aeromax-1",
       "url": "cgi-bin/admin/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "aeromax-2",
       "url": "tmp/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

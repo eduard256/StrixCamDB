@@ -6,7 +6,6 @@
     {
       "id": "ebw-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ebw-2",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

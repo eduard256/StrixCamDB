@@ -6,7 +6,6 @@
     {
       "id": "upupin-1",
       "url": "/LowResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "upupin-2",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "upupin-3",
       "url": "/live/h264/HD1080",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

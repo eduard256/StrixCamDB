@@ -6,7 +6,6 @@
     {
       "id": "toshiba-1",
       "url": "/cgi-bin/net_jpeg.cgi?ch=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8088,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "toshiba-2",
       "url": "admin/cgi-bin/getstream.cgi?10&&&&&0&0&0&0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "toshiba-3",
       "url": "live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +44,6 @@
     {
       "id": "toshiba-4",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -69,7 +65,6 @@
     {
       "id": "toshiba-5",
       "url": "GetData.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -83,7 +78,6 @@
     {
       "id": "toshiba-6",
       "url": "__live.jpg?&&&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -98,7 +92,6 @@
     {
       "id": "toshiba-7",
       "url": "__live.jpg?&&[USERNAME]&[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -109,7 +102,6 @@
     {
       "id": "toshiba-8",
       "url": "getstream.cgi?10&10&&&10&0&0&0&0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +116,6 @@
     {
       "id": "toshiba-9",
       "url": "user/cgi-bin/getstream.cgi?10&&&&0&0&0&0&0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -137,7 +128,6 @@
     {
       "id": "toshiba-10",
       "url": "Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -149,7 +139,6 @@
     {
       "id": "toshiba-11",
       "url": "GetData.cgi?Status=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -160,7 +149,6 @@
     {
       "id": "toshiba-12",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +165,6 @@
     {
       "id": "toshiba-13",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -196,7 +183,6 @@
     {
       "id": "toshiba-14",
       "url": "live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -222,7 +208,6 @@
     {
       "id": "toshiba-15",
       "url": "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -239,7 +224,6 @@
     {
       "id": "toshiba-16",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -251,7 +235,6 @@
     {
       "id": "toshiba-17",
       "url": "/live2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -264,7 +247,6 @@
     {
       "id": "toshiba-18",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -275,7 +257,6 @@
     {
       "id": "toshiba-19",
       "url": "video[USERNAME].mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -286,7 +267,6 @@
     {
       "id": "toshiba-20",
       "url": "/live4.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -298,7 +278,6 @@
     {
       "id": "toshiba-21",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -311,7 +290,6 @@
     {
       "id": "toshiba-22",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -321,7 +299,6 @@
     {
       "id": "toshiba-23",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -331,7 +308,6 @@
     {
       "id": "toshiba-24",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -341,7 +317,6 @@
     {
       "id": "toshiba-25",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -352,7 +327,6 @@
     {
       "id": "toshiba-26",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -363,7 +337,6 @@
     {
       "id": "toshiba-27",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -373,7 +346,6 @@
     {
       "id": "toshiba-28",
       "url": "cgi-bin/mjpeg?stream=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -383,7 +355,6 @@
     {
       "id": "toshiba-29",
       "url": "/cgi-bin/mjpeg?stream=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -394,7 +365,6 @@
     {
       "id": "toshiba-30",
       "url": "/nphMotionJpeg?Resolution=1280x720&Quality=Standard",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "viral-1",
       "url": "cgi-bin/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

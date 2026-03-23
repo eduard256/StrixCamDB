@@ -6,7 +6,6 @@
     {
       "id": "tbs-1",
       "url": "/hdmi",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

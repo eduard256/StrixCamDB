@@ -6,7 +6,6 @@
     {
       "id": "inngang-1",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "inngang-2",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "inngang-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

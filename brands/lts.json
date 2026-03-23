@@ -6,7 +6,6 @@
     {
       "id": "lts-1",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +46,6 @@
     {
       "id": "lts-2",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +55,6 @@
     {
       "id": "lts-3",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -68,7 +65,6 @@
     {
       "id": "lts-4",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -79,7 +75,6 @@
     {
       "id": "lts-5",
       "url": "snapshot_3gp.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +84,6 @@
     {
       "id": "lts-6",
       "url": "stream.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -100,7 +94,6 @@
     {
       "id": "lts-7",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -116,7 +109,6 @@
     {
       "id": "lts-8",
       "url": "HighResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5554,
       "models": [
@@ -134,7 +126,6 @@
     {
       "id": "lts-9",
       "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5554,
       "models": [
@@ -150,7 +141,6 @@
     {
       "id": "lts-10",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -161,7 +151,6 @@
     {
       "id": "lts-11",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -172,7 +161,6 @@
     {
       "id": "lts-12",
       "url": "/rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -185,7 +173,6 @@
     {
       "id": "lts-13",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -197,7 +184,6 @@
     {
       "id": "lts-14",
       "url": "/HighResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -212,7 +198,6 @@
     {
       "id": "lts-15",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -231,7 +216,6 @@
     {
       "id": "lts-16",
       "url": "live.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -246,7 +230,6 @@
     {
       "id": "lts-17",
       "url": "/live.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -256,7 +239,6 @@
     {
       "id": "lts-18",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -267,7 +249,6 @@
     {
       "id": "lts-19",
       "url": "//Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -277,7 +258,6 @@
     {
       "id": "lts-20",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -289,7 +269,6 @@
     {
       "id": "lts-21",
       "url": "channel[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -301,7 +280,6 @@
     {
       "id": "lts-22",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -312,7 +290,6 @@
     {
       "id": "lts-23",
       "url": "/Streaming/Channels/103",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -322,7 +299,6 @@
     {
       "id": "lts-24",
       "url": "/Streaming/Channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -332,7 +308,6 @@
     {
       "id": "lts-25",
       "url": "/LowResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -342,7 +317,6 @@
     {
       "id": "lts-26",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -352,7 +326,6 @@
     {
       "id": "lts-27",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -363,7 +336,6 @@
     {
       "id": "lts-28",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -373,7 +345,6 @@
     {
       "id": "lts-29",
       "url": "3gpp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -383,7 +354,6 @@
     {
       "id": "lts-30",
       "url": "hiQ.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -393,7 +363,6 @@
     {
       "id": "lts-31",
       "url": "GetData.cgi",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -403,7 +372,6 @@
     {
       "id": "lts-32",
       "url": "h264/ch1/sub/",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -413,7 +381,6 @@
     {
       "id": "lts-33",
       "url": "av0_[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -423,7 +390,6 @@
     {
       "id": "lts-34",
       "url": "jpeg",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -435,7 +401,6 @@
     {
       "id": "lts-35",
       "url": "stillimg[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -445,7 +410,6 @@
     {
       "id": "lts-36",
       "url": "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -455,7 +419,6 @@
     {
       "id": "lts-37",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -465,7 +428,6 @@
     {
       "id": "lts-38",
       "url": "/Streaming/Unicast/channels/801",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5554,
       "models": [

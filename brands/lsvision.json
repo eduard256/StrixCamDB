@@ -6,7 +6,6 @@
     {
       "id": "lsvision-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "lsvision-2",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "lsvision-3",
       "url": "/Onvif/live/1/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "lsvision-4",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [

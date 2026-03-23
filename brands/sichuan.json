@@ -6,7 +6,6 @@
     {
       "id": "sichuan-1",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "sichuan-2",
       "url": "/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "sichuan-3",
       "url": "/cam/realmonitor?channel=1&subtype=01&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "sichuan-4",
       "url": "/s2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "sichuan-5",
       "url": "/Streaming/Channels/103",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "sichuan-6",
       "url": "ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

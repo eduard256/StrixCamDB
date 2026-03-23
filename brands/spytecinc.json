@@ -6,7 +6,6 @@
     {
       "id": "spytecinc-1",
       "url": "img/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "spytecinc-2",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "spytecinc-3",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "spytecinc-4",
       "url": "h264/ch1/sub/",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -48,7 +44,6 @@
     {
       "id": "spytecinc-5",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

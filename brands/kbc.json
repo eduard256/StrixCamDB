@@ -6,7 +6,6 @@
     {
       "id": "kbc-1",
       "url": "cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

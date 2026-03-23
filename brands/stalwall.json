@@ -6,7 +6,6 @@
     {
       "id": "stalwall-1",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "stalwall-2",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp?real_stream--rtp-caching=100",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "stalwall-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=0.sdp?real_stream",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "mazi-1",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "mazi-2",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

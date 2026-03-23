@@ -6,7 +6,6 @@
     {
       "id": "ip4112poe-1",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

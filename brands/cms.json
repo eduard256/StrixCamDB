@@ -6,7 +6,6 @@
     {
       "id": "cms-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "cms-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "cms-3",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8899,
       "models": [

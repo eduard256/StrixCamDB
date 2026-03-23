@@ -6,7 +6,6 @@
     {
       "id": "green-feathers-1",
       "url": "/live/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "green-feathers-2",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "green-feathers-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "green-feathers-4",
       "url": "/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "green-feathers-5",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "green-feathers-6",
       "url": "/onvif/live/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -70,7 +64,6 @@
     {
       "id": "green-feathers-7",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -81,7 +74,6 @@
     {
       "id": "green-feathers-8",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

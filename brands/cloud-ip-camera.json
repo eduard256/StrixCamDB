@@ -6,7 +6,6 @@
     {
       "id": "cloud-ip-camera-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "cloud-ip-camera-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "cloud-ip-camera-3",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "cloud-ip-camera-4",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -52,7 +48,6 @@
     {
       "id": "cloud-ip-camera-5",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -62,7 +57,6 @@
     {
       "id": "cloud-ip-camera-6",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -72,7 +66,6 @@
     {
       "id": "cloud-ip-camera-7",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -82,7 +75,6 @@
     {
       "id": "cloud-ip-camera-8",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -92,7 +84,6 @@
     {
       "id": "cloud-ip-camera-9",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -102,7 +93,6 @@
     {
       "id": "cloud-ip-camera-10",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -112,7 +102,6 @@
     {
       "id": "cloud-ip-camera-11",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -125,7 +114,6 @@
     {
       "id": "cloud-ip-camera-12",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -135,7 +123,6 @@
     {
       "id": "cloud-ip-camera-13",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -145,7 +132,6 @@
     {
       "id": "cloud-ip-camera-14",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -155,7 +141,6 @@
     {
       "id": "cloud-ip-camera-15",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -165,7 +150,6 @@
     {
       "id": "cloud-ip-camera-16",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

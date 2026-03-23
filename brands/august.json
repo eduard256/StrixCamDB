@@ -6,7 +6,6 @@
     {
       "id": "august-1",
       "url": "/live/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "august-2",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "august-3",
       "url": "1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "august-4",
       "url": "stream[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "august-5",
       "url": "/onvif/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "august-6",
       "url": "1/stream[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -66,7 +60,6 @@
     {
       "id": "august-7",
       "url": "/stream1_v",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

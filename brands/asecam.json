@@ -6,7 +6,6 @@
     {
       "id": "asecam-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "asecam-2",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "asecam-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "asecam-4",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

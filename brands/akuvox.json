@@ -6,7 +6,6 @@
     {
       "id": "akuvox-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "akuvox-2",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "akuvox-3",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -44,7 +41,6 @@
     {
       "id": "akuvox-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

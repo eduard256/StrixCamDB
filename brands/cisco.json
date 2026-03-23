@@ -6,7 +6,6 @@
     {
       "id": "cisco-1",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +37,6 @@
     {
       "id": "cisco-2",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -58,7 +56,6 @@
     {
       "id": "cisco-3",
       "url": "img/media.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -83,7 +80,6 @@
     {
       "id": "cisco-4",
       "url": "jpeg/qvga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -99,7 +95,6 @@
     {
       "id": "cisco-5",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -109,7 +104,6 @@
     {
       "id": "cisco-6",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -140,7 +134,6 @@
     {
       "id": "cisco-7",
       "url": "[code]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -155,7 +148,6 @@
     {
       "id": "cisco-8",
       "url": "img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -171,7 +163,6 @@
     {
       "id": "cisco-9",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -181,7 +172,6 @@
     {
       "id": "cisco-10",
       "url": "video2.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -195,7 +185,6 @@
     {
       "id": "cisco-11",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -205,7 +194,6 @@
     {
       "id": "cisco-12",
       "url": "img/video.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -221,7 +209,6 @@
     {
       "id": "cisco-13",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -244,7 +231,6 @@
     {
       "id": "cisco-14",
       "url": "/StreamingSetting?version=1.0&action=getRTSPStream&ChannelID=1&ChannelName=Channel1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -255,7 +241,6 @@
     {
       "id": "cisco-15",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -266,7 +251,6 @@
     {
       "id": "cisco-16",
       "url": "/img/video.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -277,7 +261,6 @@
     {
       "id": "cisco-17",
       "url": "live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -292,7 +275,6 @@
     {
       "id": "cisco-18",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -302,7 +284,6 @@
     {
       "id": "cisco-19",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -322,7 +303,6 @@
     {
       "id": "cisco-20",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -332,7 +312,6 @@
     {
       "id": "cisco-21",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -342,7 +321,6 @@
     {
       "id": "cisco-22",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -353,7 +331,6 @@
     {
       "id": "cisco-23",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -363,7 +340,6 @@
     {
       "id": "cisco-24",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -374,7 +350,6 @@
     {
       "id": "cisco-25",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -385,7 +360,6 @@
     {
       "id": "cisco-26",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -395,7 +369,6 @@
     {
       "id": "cisco-27",
       "url": "cgi-bin/viewer/snapshot.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -410,7 +383,6 @@
     {
       "id": "cisco-28",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -423,7 +395,6 @@
     {
       "id": "cisco-29",
       "url": "/[code]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -434,7 +405,6 @@
     {
       "id": "cisco-30",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -444,7 +414,6 @@
     {
       "id": "cisco-31",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -454,7 +423,6 @@
     {
       "id": "cisco-32",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -464,7 +432,6 @@
     {
       "id": "cisco-33",
       "url": "/img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -474,7 +441,6 @@
     {
       "id": "cisco-34",
       "url": "video/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -484,7 +450,6 @@
     {
       "id": "cisco-35",
       "url": "play3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -494,7 +459,6 @@
     {
       "id": "cisco-36",
       "url": "play1.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -505,7 +469,6 @@
     {
       "id": "cisco-37",
       "url": "/img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -515,7 +478,6 @@
     {
       "id": "cisco-38",
       "url": "tmp/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

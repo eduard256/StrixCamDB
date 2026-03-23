@@ -6,7 +6,6 @@
     {
       "id": "intellinet-1",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +44,6 @@
     {
       "id": "intellinet-2",
       "url": "temp/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +59,6 @@
     {
       "id": "intellinet-3",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +71,6 @@
     {
       "id": "intellinet-4",
       "url": "video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -88,7 +84,6 @@
     {
       "id": "intellinet-5",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -114,7 +109,6 @@
     {
       "id": "intellinet-6",
       "url": "image.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -127,7 +121,6 @@
     {
       "id": "intellinet-7",
       "url": "cgi-bin/jpg/image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -143,7 +136,6 @@
     {
       "id": "intellinet-8",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -159,7 +151,6 @@
     {
       "id": "intellinet-9",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +168,6 @@
     {
       "id": "intellinet-10",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -197,7 +187,6 @@
     {
       "id": "intellinet-11",
       "url": "/video.pro1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -208,7 +197,6 @@
     {
       "id": "intellinet-12",
       "url": "cgi-bin/view/image?pro_[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -222,7 +210,6 @@
     {
       "id": "intellinet-13",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -233,7 +220,6 @@
     {
       "id": "intellinet-14",
       "url": "/image.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -244,7 +230,6 @@
     {
       "id": "intellinet-15",
       "url": "/jpg/image.jpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -255,7 +240,6 @@
     {
       "id": "intellinet-16",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -270,7 +254,6 @@
     {
       "id": "intellinet-17",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -281,7 +264,6 @@
     {
       "id": "intellinet-18",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -292,7 +274,6 @@
     {
       "id": "intellinet-19",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -302,7 +283,6 @@
     {
       "id": "intellinet-20",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -312,7 +292,6 @@
     {
       "id": "intellinet-21",
       "url": "loginfree.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -322,7 +301,6 @@
     {
       "id": "intellinet-22",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -332,7 +310,6 @@
     {
       "id": "intellinet-23",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

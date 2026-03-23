@@ -6,7 +6,6 @@
     {
       "id": "planet-1",
       "url": "ipcam.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +26,6 @@
     {
       "id": "planet-2",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -43,7 +41,6 @@
     {
       "id": "planet-3",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +54,6 @@
     {
       "id": "planet-4",
       "url": "/stander/livestream/0/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -74,7 +70,6 @@
     {
       "id": "planet-5",
       "url": "/stander/livestream/0/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -89,7 +84,6 @@
     {
       "id": "planet-6",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -121,7 +115,6 @@
     {
       "id": "planet-7",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -153,7 +146,6 @@
     {
       "id": "planet-8",
       "url": "GetData.cgi?Status=false",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -171,7 +163,6 @@
     {
       "id": "planet-9",
       "url": "v2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -186,7 +177,6 @@
     {
       "id": "planet-10",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -210,7 +200,6 @@
     {
       "id": "planet-11",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -222,7 +211,6 @@
     {
       "id": "planet-12",
       "url": "jpeg",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -243,7 +231,6 @@
     {
       "id": "planet-13",
       "url": "cgi-bin/admin/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -256,7 +243,6 @@
     {
       "id": "planet-14",
       "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -277,7 +263,6 @@
     {
       "id": "planet-15",
       "url": "axis-media/media.amp?videocodec=h264&resolution=640x480",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -287,7 +272,6 @@
     {
       "id": "planet-16",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -306,7 +290,6 @@
     {
       "id": "planet-17",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -323,7 +306,6 @@
     {
       "id": "planet-18",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -337,7 +319,6 @@
     {
       "id": "planet-19",
       "url": "GetData.cgi?CH=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -354,7 +335,6 @@
     {
       "id": "planet-20",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -366,7 +346,6 @@
     {
       "id": "planet-21",
       "url": "mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -387,7 +366,6 @@
     {
       "id": "planet-22",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -397,7 +375,6 @@
     {
       "id": "planet-23",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -410,7 +387,6 @@
     {
       "id": "planet-24",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -420,7 +396,6 @@
     {
       "id": "planet-25",
       "url": "img/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -435,7 +410,6 @@
     {
       "id": "planet-26",
       "url": "IMAGE.JPG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -448,7 +422,6 @@
     {
       "id": "planet-27",
       "url": "img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -463,7 +436,6 @@
     {
       "id": "planet-28",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -478,7 +450,6 @@
     {
       "id": "planet-29",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -493,7 +464,6 @@
     {
       "id": "planet-30",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -507,7 +477,6 @@
     {
       "id": "planet-31",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -521,7 +490,6 @@
     {
       "id": "planet-32",
       "url": "GetData.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -533,7 +501,6 @@
     {
       "id": "planet-33",
       "url": "goform/capture",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -546,7 +513,6 @@
     {
       "id": "planet-34",
       "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -561,7 +527,6 @@
     {
       "id": "planet-35",
       "url": "goform/video2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -574,7 +539,6 @@
     {
       "id": "planet-36",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -588,7 +552,6 @@
     {
       "id": "planet-37",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -599,7 +562,6 @@
     {
       "id": "planet-38",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -609,7 +571,6 @@
     {
       "id": "planet-39",
       "url": "Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -622,7 +583,6 @@
     {
       "id": "planet-40",
       "url": "/Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -632,7 +592,6 @@
     {
       "id": "planet-41",
       "url": "img/media.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -643,7 +602,6 @@
     {
       "id": "planet-42",
       "url": "ipcam_h264.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -653,7 +611,6 @@
     {
       "id": "planet-43",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -665,7 +622,6 @@
     {
       "id": "planet-44",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -675,7 +631,6 @@
     {
       "id": "planet-45",
       "url": "media/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -685,7 +640,6 @@
     {
       "id": "planet-46",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -696,7 +650,6 @@
     {
       "id": "planet-47",
       "url": "h264/ch1/sub/",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -707,7 +660,6 @@
     {
       "id": "planet-48",
       "url": "snapshot.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -717,7 +669,6 @@
     {
       "id": "planet-49",
       "url": "live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -728,7 +679,6 @@
     {
       "id": "planet-50",
       "url": "/ipcam.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -738,7 +688,6 @@
     {
       "id": "planet-51",
       "url": "tmp/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -748,7 +697,6 @@
     {
       "id": "planet-52",
       "url": "video",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -758,7 +706,6 @@
     {
       "id": "planet-53",
       "url": "/onvif-stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -768,7 +715,6 @@
     {
       "id": "planet-54",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "vision-gs-1",
       "url": "video/pull-[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

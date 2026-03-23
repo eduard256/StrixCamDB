@@ -6,7 +6,6 @@
     {
       "id": "ipnetcam-1",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "ipnetcam-2",
       "url": "[CHANNEL]/1:1/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "ipnetcam-3",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "ipnetcam-4",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "ipnetcam-5",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "ipnetcam-6",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -74,7 +68,6 @@
     {
       "id": "ipnetcam-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -84,7 +77,6 @@
     {
       "id": "ipnetcam-8",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -95,7 +87,6 @@
     {
       "id": "ipnetcam-9",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -105,7 +96,6 @@
     {
       "id": "ipnetcam-10",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -115,7 +105,6 @@
     {
       "id": "ipnetcam-11",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -126,7 +115,6 @@
     {
       "id": "ipnetcam-12",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -137,7 +125,6 @@
     {
       "id": "ipnetcam-13",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

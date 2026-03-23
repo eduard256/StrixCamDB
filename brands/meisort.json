@@ -6,7 +6,6 @@
     {
       "id": "meisort-1",
       "url": "/1EDBA8F05638533F788D8B5E71187399&0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "meisort-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

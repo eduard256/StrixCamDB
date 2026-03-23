@@ -6,7 +6,6 @@
     {
       "id": "vistacam-1",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "vistacam-2",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "vistacam-3",
       "url": "/img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "vistacam-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "vistacam-5",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1935,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "vistacam-6",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1935,
       "models": [

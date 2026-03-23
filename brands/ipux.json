@@ -6,7 +6,6 @@
     {
       "id": "ipux-1",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +25,6 @@
     {
       "id": "ipux-2",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +43,6 @@
     {
       "id": "ipux-3",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -63,7 +60,6 @@
     {
       "id": "ipux-4",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -79,7 +75,6 @@
     {
       "id": "ipux-5",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -89,7 +84,6 @@
     {
       "id": "ipux-6",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

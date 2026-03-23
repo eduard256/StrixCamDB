@@ -6,7 +6,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-1",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-2",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=[CHANNEL].sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-3",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-4",
       "url": "cgi-bin/view/image?pro_[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-5",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-6",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -66,7 +60,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-7",
       "url": "nphMotionJpeg?Resolution=640x480&Quality=Standard",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -76,7 +69,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-8",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +78,6 @@
     {
       "id": "h.264-vga-wireless-cube-camera-9",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [

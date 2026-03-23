@@ -6,7 +6,6 @@
     {
       "id": "hdp-1100pt-1",
       "url": "/cam1/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

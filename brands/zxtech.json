@@ -6,7 +6,6 @@
     {
       "id": "zxtech-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +27,6 @@
     {
       "id": "zxtech-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -42,7 +40,6 @@
     {
       "id": "zxtech-3",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -58,7 +55,6 @@
     {
       "id": "zxtech-4",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +70,6 @@
     {
       "id": "zxtech-5",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +81,6 @@
     {
       "id": "zxtech-6",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +90,6 @@
     {
       "id": "zxtech-7",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -109,7 +102,6 @@
     {
       "id": "zxtech-8",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -126,7 +118,6 @@
     {
       "id": "zxtech-9",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -136,7 +127,6 @@
     {
       "id": "zxtech-10",
       "url": "/snap.jpg?JpegCam=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -146,7 +136,6 @@
     {
       "id": "zxtech-11",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -156,7 +145,6 @@
     {
       "id": "zxtech-12",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -166,7 +154,6 @@
     {
       "id": "zxtech-13",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -177,7 +164,6 @@
     {
       "id": "zxtech-14",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -187,7 +173,6 @@
     {
       "id": "zxtech-15",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

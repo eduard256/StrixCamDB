@@ -6,7 +6,6 @@
     {
       "id": "vchod-1",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

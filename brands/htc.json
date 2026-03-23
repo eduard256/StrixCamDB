@@ -6,7 +6,6 @@
     {
       "id": "htc-1",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -59,7 +58,6 @@
     {
       "id": "htc-2",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -81,7 +79,6 @@
     {
       "id": "htc-3",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -105,7 +102,6 @@
     {
       "id": "htc-4",
       "url": "now.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -115,7 +111,6 @@
     {
       "id": "htc-5",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -131,7 +126,6 @@
     {
       "id": "htc-6",
       "url": "mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -142,7 +136,6 @@
     {
       "id": "htc-7",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "android-1",
       "url": "/video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -33,7 +32,6 @@
     {
       "id": "android-2",
       "url": "/videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -48,7 +46,6 @@
     {
       "id": "android-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -59,7 +56,6 @@
     {
       "id": "android-4",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5554,
       "models": [
@@ -69,7 +65,6 @@
     {
       "id": "android-5",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +81,6 @@
     {
       "id": "android-6",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -98,7 +92,6 @@
     {
       "id": "android-7",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -112,7 +105,6 @@
     {
       "id": "android-8",
       "url": "/h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8080,
       "models": [
@@ -124,7 +116,6 @@
     {
       "id": "android-9",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -136,7 +127,6 @@
     {
       "id": "android-10",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -146,7 +136,6 @@
     {
       "id": "android-11",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -156,7 +145,6 @@
     {
       "id": "android-12",
       "url": "/video?1920x1080",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 4747,
       "models": [
@@ -168,7 +156,6 @@
     {
       "id": "android-13",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -178,7 +165,6 @@
     {
       "id": "android-14",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -188,7 +174,6 @@
     {
       "id": "android-15",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -198,7 +183,6 @@
     {
       "id": "android-16",
       "url": "jpeg/qvga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -208,7 +192,6 @@
     {
       "id": "android-17",
       "url": "now.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -218,7 +201,6 @@
     {
       "id": "android-18",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -228,7 +210,6 @@
     {
       "id": "android-19",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -238,7 +219,6 @@
     {
       "id": "android-20",
       "url": "mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -248,7 +228,6 @@
     {
       "id": "android-21",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -258,7 +237,6 @@
     {
       "id": "android-22",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -268,7 +246,6 @@
     {
       "id": "android-23",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -278,7 +255,6 @@
     {
       "id": "android-24",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -288,7 +264,6 @@
     {
       "id": "android-25",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -298,7 +273,6 @@
     {
       "id": "android-26",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -308,7 +282,6 @@
     {
       "id": "android-27",
       "url": "video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -318,7 +291,6 @@
     {
       "id": "android-28",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -328,7 +300,6 @@
     {
       "id": "android-29",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -338,7 +309,6 @@
     {
       "id": "android-30",
       "url": "config/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -348,7 +318,6 @@
     {
       "id": "android-31",
       "url": "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -358,7 +327,6 @@
     {
       "id": "android-32",
       "url": "video?submenu=jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -368,7 +336,6 @@
     {
       "id": "android-33",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -378,7 +345,6 @@
     {
       "id": "android-34",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -388,7 +354,6 @@
     {
       "id": "android-35",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -398,7 +363,6 @@
     {
       "id": "android-36",
       "url": "?action=snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -408,7 +372,6 @@
     {
       "id": "android-37",
       "url": "/stream.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -418,7 +381,6 @@
     {
       "id": "android-38",
       "url": "/video/mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -428,7 +390,6 @@
     {
       "id": "android-39",
       "url": "/video?1280x720",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 4747,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "afidus-1",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "afidus-2",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "afidus-3",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "afidus-4",
       "url": "/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "afidus-5",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

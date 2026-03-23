@@ -6,7 +6,6 @@
     {
       "id": "nettoly-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "nettoly-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "cnet-1",
       "url": "vdata.v",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "cnet-2",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "cnet-3",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "cnet-4",
       "url": "cgi-bin/getimage.cgi?motion=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

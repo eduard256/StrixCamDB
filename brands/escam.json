@@ -6,7 +6,6 @@
     {
       "id": "escam-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +46,6 @@
     {
       "id": "escam-2",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -73,7 +71,6 @@
     {
       "id": "escam-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -164,7 +161,6 @@
     {
       "id": "escam-4",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -187,7 +183,6 @@
     {
       "id": "escam-5",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -247,7 +242,6 @@
     {
       "id": "escam-6",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -263,7 +257,6 @@
     {
       "id": "escam-7",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -287,7 +280,6 @@
     {
       "id": "escam-8",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -303,7 +295,6 @@
     {
       "id": "escam-9",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -321,7 +312,6 @@
     {
       "id": "escam-10",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -344,7 +334,6 @@
     {
       "id": "escam-11",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -364,7 +353,6 @@
     {
       "id": "escam-12",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -378,7 +366,6 @@
     {
       "id": "escam-13",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -388,7 +375,6 @@
     {
       "id": "escam-14",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -398,7 +384,6 @@
     {
       "id": "escam-15",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -409,7 +394,6 @@
     {
       "id": "escam-16",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -419,7 +403,6 @@
     {
       "id": "escam-17",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -429,7 +412,6 @@
     {
       "id": "escam-18",
       "url": "/live/ch00_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -440,7 +422,6 @@
     {
       "id": "escam-19",
       "url": "/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -453,7 +434,6 @@
     {
       "id": "escam-20",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -464,7 +444,6 @@
     {
       "id": "escam-21",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -477,7 +456,6 @@
     {
       "id": "escam-22",
       "url": "/mjpeg?res=full&x0=0&y0=0&x1=100%25&y1=100%25&quality=12&doublescan=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -487,7 +465,6 @@
     {
       "id": "escam-23",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -497,7 +474,6 @@
     {
       "id": "escam-24",
       "url": "live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -508,7 +484,6 @@
     {
       "id": "escam-25",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -518,7 +493,6 @@
     {
       "id": "escam-26",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -531,7 +505,6 @@
     {
       "id": "escam-27",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -545,7 +518,6 @@
     {
       "id": "escam-28",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=2&stream=0.sdp?real_stream%22",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -555,7 +527,6 @@
     {
       "id": "escam-29",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream%22",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -566,7 +537,6 @@
     {
       "id": "escam-30",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -577,7 +547,6 @@
     {
       "id": "escam-31",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -588,7 +557,6 @@
     {
       "id": "escam-32",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -599,7 +567,6 @@
     {
       "id": "escam-33",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=[CHANNEL].sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -611,7 +578,6 @@
     {
       "id": "escam-34",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -621,7 +587,6 @@
     {
       "id": "escam-35",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8010,
       "models": [
@@ -631,7 +596,6 @@
     {
       "id": "escam-36",
       "url": "live/h264/ch[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -641,7 +605,6 @@
     {
       "id": "escam-37",
       "url": "/ch01.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -654,7 +617,6 @@
     {
       "id": "escam-38",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -665,7 +627,6 @@
     {
       "id": "escam-39",
       "url": "/img/video.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -676,7 +637,6 @@
     {
       "id": "escam-40",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 10554,
       "models": [
@@ -686,7 +646,6 @@
     {
       "id": "escam-41",
       "url": "/H264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -696,7 +655,6 @@
     {
       "id": "escam-42",
       "url": "/user=admin_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -706,7 +664,6 @@
     {
       "id": "escam-43",
       "url": "/ch01.264?dev=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -716,7 +673,6 @@
     {
       "id": "escam-44",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -726,7 +682,6 @@
     {
       "id": "escam-45",
       "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 7070,
       "models": [

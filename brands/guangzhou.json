@@ -6,7 +6,6 @@
     {
       "id": "guangzhou-1",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 5544,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "guangzhou-2",
       "url": "/snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "guangzhou-3",
       "url": "/snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "guangzhou-4",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -59,7 +55,6 @@
     {
       "id": "guangzhou-5",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -75,7 +70,6 @@
     {
       "id": "guangzhou-6",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -85,7 +79,6 @@
     {
       "id": "guangzhou-7",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -95,7 +88,6 @@
     {
       "id": "guangzhou-8",
       "url": "/gnz_media/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "shenzhen-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -24,7 +23,6 @@
     {
       "id": "shenzhen-2",
       "url": "/H264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -49,7 +47,6 @@
     {
       "id": "shenzhen-3",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -62,7 +59,6 @@
     {
       "id": "shenzhen-4",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -77,7 +73,6 @@
     {
       "id": "shenzhen-5",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +84,6 @@
     {
       "id": "shenzhen-6",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -99,7 +93,6 @@
     {
       "id": "shenzhen-7",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -112,7 +105,6 @@
     {
       "id": "shenzhen-8",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 555,
       "models": [
@@ -132,7 +124,6 @@
     {
       "id": "shenzhen-9",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -147,7 +138,6 @@
     {
       "id": "shenzhen-10",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -161,7 +151,6 @@
     {
       "id": "shenzhen-11",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -171,7 +160,6 @@
     {
       "id": "shenzhen-12",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -184,7 +172,6 @@
     {
       "id": "shenzhen-13",
       "url": "/4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -195,7 +182,6 @@
     {
       "id": "shenzhen-14",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -208,7 +194,6 @@
     {
       "id": "shenzhen-15",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -219,7 +204,6 @@
     {
       "id": "shenzhen-16",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -231,7 +215,6 @@
     {
       "id": "shenzhen-17",
       "url": "snapshot/view[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -241,7 +224,6 @@
     {
       "id": "shenzhen-18",
       "url": "/H264/ch0/raw/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -254,7 +236,6 @@
     {
       "id": "shenzhen-19",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -265,7 +246,6 @@
     {
       "id": "shenzhen-20",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -276,7 +256,6 @@
     {
       "id": "shenzhen-21",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 555,
       "models": [
@@ -287,7 +266,6 @@
     {
       "id": "shenzhen-22",
       "url": "/live/ch00_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -301,7 +279,6 @@
     {
       "id": "shenzhen-23",
       "url": "/H264/ch1/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -312,7 +289,6 @@
     {
       "id": "shenzhen-24",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -323,7 +299,6 @@
     {
       "id": "shenzhen-25",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -333,7 +308,6 @@
     {
       "id": "shenzhen-26",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -344,7 +318,6 @@
     {
       "id": "shenzhen-27",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -354,7 +327,6 @@
     {
       "id": "shenzhen-28",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -364,7 +336,6 @@
     {
       "id": "shenzhen-29",
       "url": "/?chID=2&streamType=main&linkType=tcp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -374,7 +345,6 @@
     {
       "id": "shenzhen-30",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -384,7 +354,6 @@
     {
       "id": "shenzhen-31",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -394,7 +363,6 @@
     {
       "id": "shenzhen-32",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -405,7 +373,6 @@
     {
       "id": "shenzhen-33",
       "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -415,7 +382,6 @@
     {
       "id": "shenzhen-34",
       "url": "/snap.jpg?JpegCam=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [

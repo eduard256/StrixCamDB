@@ -6,7 +6,6 @@
     {
       "id": "targa-1",
       "url": "/554/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

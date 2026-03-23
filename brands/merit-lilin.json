@@ -6,7 +6,6 @@
     {
       "id": "merit-lilin-1",
       "url": "rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +36,6 @@
     {
       "id": "merit-lilin-2",
       "url": "rtsph264480p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -62,7 +60,6 @@
     {
       "id": "merit-lilin-3",
       "url": "rtspjpeg480p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -87,7 +84,6 @@
     {
       "id": "merit-lilin-4",
       "url": "rtsph264720p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -104,7 +100,6 @@
     {
       "id": "merit-lilin-5",
       "url": "rtspjpeg720p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -119,7 +114,6 @@
     {
       "id": "merit-lilin-6",
       "url": "rtspjpegcif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -134,7 +128,6 @@
     {
       "id": "merit-lilin-7",
       "url": "rtsph2643m",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -145,7 +138,6 @@
     {
       "id": "merit-lilin-8",
       "url": "getimage[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -165,7 +157,6 @@
     {
       "id": "merit-lilin-9",
       "url": "rtsph2645m",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -176,7 +167,6 @@
     {
       "id": "merit-lilin-10",
       "url": "/rtsph264480p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -200,7 +190,6 @@
     {
       "id": "merit-lilin-11",
       "url": "rtsph264960h",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -213,7 +202,6 @@
     {
       "id": "merit-lilin-12",
       "url": "sub_[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -223,7 +211,6 @@
     {
       "id": "merit-lilin-13",
       "url": "main_[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -233,7 +220,6 @@
     {
       "id": "merit-lilin-14",
       "url": "/cgi-bin/net_jpeg.cgi?ch=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -243,7 +229,6 @@
     {
       "id": "merit-lilin-15",
       "url": "/cgi-bin/net_jpeg.cgi?ch=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -253,7 +238,6 @@
     {
       "id": "merit-lilin-16",
       "url": "GetStream.cgi?Video=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -263,7 +247,6 @@
     {
       "id": "merit-lilin-17",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -273,7 +256,6 @@
     {
       "id": "merit-lilin-18",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -287,7 +269,6 @@
     {
       "id": "merit-lilin-19",
       "url": "snap",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -308,7 +289,6 @@
     {
       "id": "merit-lilin-20",
       "url": "getimage?camera=[CHANNEL]&fmt=vga",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -323,7 +303,6 @@
     {
       "id": "merit-lilin-21",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -333,7 +312,6 @@
     {
       "id": "merit-lilin-22",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -344,7 +322,6 @@
     {
       "id": "merit-lilin-23",
       "url": "getimage",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -355,7 +332,6 @@
     {
       "id": "merit-lilin-24",
       "url": "/rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -371,7 +347,6 @@
     {
       "id": "merit-lilin-25",
       "url": "/rtsph264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -381,7 +356,6 @@
     {
       "id": "merit-lilin-26",
       "url": "/rtsph2641024p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -391,7 +365,6 @@
     {
       "id": "merit-lilin-27",
       "url": "/rtsph264720p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -401,7 +374,6 @@
     {
       "id": "merit-lilin-28",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -412,7 +384,6 @@
     {
       "id": "merit-lilin-29",
       "url": "rtsph264sxga",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -425,7 +396,6 @@
     {
       "id": "merit-lilin-30",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -435,7 +405,6 @@
     {
       "id": "merit-lilin-31",
       "url": "/getimage0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -445,7 +414,6 @@
     {
       "id": "merit-lilin-32",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -455,7 +423,6 @@
     {
       "id": "merit-lilin-33",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -465,7 +432,6 @@
     {
       "id": "merit-lilin-34",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 8085,
       "models": [
@@ -475,7 +441,6 @@
     {
       "id": "merit-lilin-35",
       "url": "rtsph264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -485,7 +450,6 @@
     {
       "id": "merit-lilin-36",
       "url": "rtspjpeg",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -495,7 +459,6 @@
     {
       "id": "merit-lilin-37",
       "url": "cgi-bin/Stream?Video",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

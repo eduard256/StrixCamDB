@@ -6,7 +6,6 @@
     {
       "id": "ipcameros-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "ipcameros-2",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

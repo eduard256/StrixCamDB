@@ -6,7 +6,6 @@
     {
       "id": "secu-first-1",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "secu-first-2",
       "url": "/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 26337,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "secu-first-3",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

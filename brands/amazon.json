@@ -6,7 +6,6 @@
     {
       "id": "amazon-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "amazon-2",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "amazon-3",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "amazon-4",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "amazon-5",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

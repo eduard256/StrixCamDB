@@ -6,7 +6,6 @@
     {
       "id": "roidmi-1",
       "url": "/rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "roidmi-2",
       "url": "/live/h264/HD1080P",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

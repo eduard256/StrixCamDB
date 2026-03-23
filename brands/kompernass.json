@@ -6,7 +6,6 @@
     {
       "id": "kompernass-1",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "kompernass-2",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

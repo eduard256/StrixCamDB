@@ -6,7 +6,6 @@
     {
       "id": "abs-1",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "abs-2",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "abs-3",
       "url": "jpg/1/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "abs-4",
       "url": "mpeg4/[CHANNEL]/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -54,7 +50,6 @@
     {
       "id": "abs-5",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -65,7 +60,6 @@
     {
       "id": "abs-6",
       "url": "mjpg/[CHANNEL]/video.mjpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -76,7 +70,6 @@
     {
       "id": "abs-7",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +79,6 @@
     {
       "id": "abs-8",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +88,6 @@
     {
       "id": "abs-9",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -106,7 +97,6 @@
     {
       "id": "abs-10",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

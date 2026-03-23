@@ -6,7 +6,6 @@
     {
       "id": "gotme-1",
       "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

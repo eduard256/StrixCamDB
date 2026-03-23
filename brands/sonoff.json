@@ -6,7 +6,6 @@
     {
       "id": "sonoff-1",
       "url": "/av_stream/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -25,7 +24,6 @@
     {
       "id": "sonoff-2",
       "url": "/av_stream/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -38,7 +36,6 @@
     {
       "id": "sonoff-3",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -52,7 +49,6 @@
     {
       "id": "sonoff-4",
       "url": "/cgi-bin/snapshot.sh?res=low",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -62,7 +58,6 @@
     {
       "id": "sonoff-5",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [
@@ -72,7 +67,6 @@
     {
       "id": "sonoff-6",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -82,7 +76,6 @@
     {
       "id": "sonoff-7",
       "url": "/snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "grandstream-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -85,7 +84,6 @@
     {
       "id": "grandstream-2",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -103,7 +101,6 @@
     {
       "id": "grandstream-3",
       "url": "/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -122,7 +119,6 @@
     {
       "id": "grandstream-4",
       "url": "/3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -138,7 +134,6 @@
     {
       "id": "grandstream-5",
       "url": "ipcam_h264.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -167,7 +162,6 @@
     {
       "id": "grandstream-6",
       "url": "[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -204,7 +198,6 @@
     {
       "id": "grandstream-7",
       "url": "snapshot/view[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -259,7 +252,6 @@
     {
       "id": "grandstream-8",
       "url": "live",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -272,7 +264,6 @@
     {
       "id": "grandstream-9",
       "url": "/0/888888:888888/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -289,7 +280,6 @@
     {
       "id": "grandstream-10",
       "url": "/4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -316,7 +306,6 @@
     {
       "id": "grandstream-11",
       "url": "goform/stream?cmd=get&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -344,7 +333,6 @@
     {
       "id": "grandstream-12",
       "url": "/0/",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -356,7 +344,6 @@
     {
       "id": "grandstream-13",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -369,7 +356,6 @@
     {
       "id": "grandstream-14",
       "url": "ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 11018,
       "models": [
@@ -384,7 +370,6 @@
     {
       "id": "grandstream-15",
       "url": "/snapshot/view0.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -394,7 +379,6 @@
     {
       "id": "grandstream-16",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -405,7 +389,6 @@
     {
       "id": "grandstream-17",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -422,7 +405,6 @@
     {
       "id": "grandstream-18",
       "url": "/5",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -432,7 +414,6 @@
     {
       "id": "grandstream-19",
       "url": "live/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -444,7 +425,6 @@
     {
       "id": "grandstream-20",
       "url": "/ipcam:h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 2151,
       "models": [
@@ -454,7 +434,6 @@
     {
       "id": "grandstream-21",
       "url": "/goform/stream?cmd=get&channel=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 151,
       "models": [
@@ -464,7 +443,6 @@
     {
       "id": "grandstream-22",
       "url": "cgi-bin/still.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -474,7 +452,6 @@
     {
       "id": "grandstream-23",
       "url": "media/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -485,7 +462,6 @@
     {
       "id": "grandstream-24",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -496,7 +472,6 @@
     {
       "id": "grandstream-25",
       "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -508,7 +483,6 @@
     {
       "id": "grandstream-26",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 10082,
       "models": [
@@ -518,7 +492,6 @@
     {
       "id": "grandstream-27",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -528,7 +501,6 @@
     {
       "id": "grandstream-28",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -538,7 +510,6 @@
     {
       "id": "grandstream-29",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

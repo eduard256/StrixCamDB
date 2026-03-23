@@ -6,7 +6,6 @@
     {
       "id": "unview-1",
       "url": "/media/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "unview-2",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 85,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "unview-3",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -46,7 +43,6 @@
     {
       "id": "unview-4",
       "url": "/unicast/c1/s1/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 30002,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "unview-5",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -67,7 +62,6 @@
     {
       "id": "unview-6",
       "url": "/media/video3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -77,7 +71,6 @@
     {
       "id": "unview-7",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -87,7 +80,6 @@
     {
       "id": "unview-8",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -97,7 +89,6 @@
     {
       "id": "unview-9",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -108,7 +99,6 @@
     {
       "id": "unview-10",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -119,7 +109,6 @@
     {
       "id": "unview-11",
       "url": "/media/video2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -130,7 +119,6 @@
     {
       "id": "unview-12",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -140,7 +128,6 @@
     {
       "id": "unview-13",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -150,7 +137,6 @@
     {
       "id": "unview-14",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [
@@ -160,7 +146,6 @@
     {
       "id": "unview-15",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -170,7 +155,6 @@
     {
       "id": "unview-16",
       "url": "/unicast/c9/s0/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

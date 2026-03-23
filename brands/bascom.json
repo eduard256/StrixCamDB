@@ -6,7 +6,6 @@
     {
       "id": "bascom-1",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "bascom-2",
       "url": "/live/video_audio/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "bascom-3",
       "url": "/live/video_audio/profile2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "bascom-4",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

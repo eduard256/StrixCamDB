@@ -6,7 +6,6 @@
     {
       "id": "gertec-1",
       "url": "/videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

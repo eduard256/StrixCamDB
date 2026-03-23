@@ -6,7 +6,6 @@
     {
       "id": "scs-1",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "scs-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "scs-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "scs-4",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "scs-5",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "scs-6",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +65,6 @@
     {
       "id": "scs-7",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -81,7 +74,6 @@
     {
       "id": "scs-8",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

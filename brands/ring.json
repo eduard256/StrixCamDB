@@ -6,7 +6,6 @@
     {
       "id": "ring-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "ring-2",
       "url": "/ring.0/doorbell_82595437/livestream.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8082,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "ring-3",
       "url": "/image.cgi?type=motion&camera=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "ring-4",
       "url": "/image.cgi?type=motion&camera=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "ring-5",
       "url": "/343ea4d97645_live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "ring-6",
       "url": "image.cgi?type=motion&camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +65,6 @@
     {
       "id": "ring-7",
       "url": "/api/camera_proxy_stream/camera.front_live_view",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8123,
       "models": [
@@ -81,7 +74,6 @@
     {
       "id": "ring-8",
       "url": "/api/camera_proxy_stream/camera.gate_live_view",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8123,
       "models": [
@@ -91,7 +83,6 @@
     {
       "id": "ring-9",
       "url": "/api/camera_proxy_stream/camera.garden_live_view",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

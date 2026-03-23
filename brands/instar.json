@@ -6,7 +6,6 @@
     {
       "id": "instar-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -44,7 +43,6 @@
     {
       "id": "instar-2",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -55,7 +53,6 @@
     {
       "id": "instar-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -80,7 +77,6 @@
     {
       "id": "instar-4",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -92,7 +88,6 @@
     {
       "id": "instar-5",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -104,7 +99,6 @@
     {
       "id": "instar-6",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -114,7 +108,6 @@
     {
       "id": "instar-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -128,7 +121,6 @@
     {
       "id": "instar-8",
       "url": "/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -138,7 +130,6 @@
     {
       "id": "instar-9",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -150,7 +141,6 @@
     {
       "id": "instar-10",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -164,7 +154,6 @@
     {
       "id": "instar-11",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +166,6 @@
     {
       "id": "instar-12",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -188,7 +176,6 @@
     {
       "id": "instar-13",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -198,7 +185,6 @@
     {
       "id": "instar-14",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -212,7 +198,6 @@
     {
       "id": "instar-15",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -224,7 +209,6 @@
     {
       "id": "instar-16",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -256,7 +240,6 @@
     {
       "id": "instar-17",
       "url": "MediaInput/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -270,7 +253,6 @@
     {
       "id": "instar-18",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -281,7 +263,6 @@
     {
       "id": "instar-19",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -297,7 +278,6 @@
     {
       "id": "instar-20",
       "url": "medias[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -307,7 +287,6 @@
     {
       "id": "instar-21",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -324,7 +303,6 @@
     {
       "id": "instar-22",
       "url": "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -334,7 +312,6 @@
     {
       "id": "instar-23",
       "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -345,7 +322,6 @@
     {
       "id": "instar-24",
       "url": "snap.jpg?JpegSize=M",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -355,7 +331,6 @@
     {
       "id": "instar-25",
       "url": "/livestream/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -371,7 +346,6 @@
     {
       "id": "instar-26",
       "url": "/livestream/13",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -383,7 +357,6 @@
     {
       "id": "instar-27",
       "url": "/livestream/11?action=play&media=mjpeg&user=[USERNAME]&pwd=TestInstar12345%21",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -393,7 +366,6 @@
     {
       "id": "instar-28",
       "url": "/livestream/13?action=play&media=mjpeg&user=[USERNAME]&pwd=TestInstar12345%21",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -403,7 +375,6 @@
     {
       "id": "instar-29",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -416,7 +387,6 @@
     {
       "id": "instar-30",
       "url": "/MediaInput/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -428,7 +398,6 @@
     {
       "id": "instar-31",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -440,7 +409,6 @@
     {
       "id": "instar-32",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -450,7 +418,6 @@
     {
       "id": "instar-33",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -461,7 +428,6 @@
     {
       "id": "instar-34",
       "url": "/livestream/12?action=play&media=mjpeg&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -471,7 +437,6 @@
     {
       "id": "instar-35",
       "url": "/13",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -481,7 +446,6 @@
     {
       "id": "instar-36",
       "url": "/livestream/12",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -491,7 +455,6 @@
     {
       "id": "instar-37",
       "url": "/livestream/12?action=play&media=mjpeg&user=[USERNAME]&pwd=Bellavista%40213695",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -501,7 +464,6 @@
     {
       "id": "instar-38",
       "url": "/livestream/11?action=play&media=mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

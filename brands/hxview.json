@@ -6,7 +6,6 @@
     {
       "id": "hxview-1",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8082,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "hxview-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

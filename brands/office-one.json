@@ -6,7 +6,6 @@
     {
       "id": "office-one-1",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "office-one-2",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "office-one-3",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +44,6 @@
     {
       "id": "office-one-4",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -66,7 +62,6 @@
     {
       "id": "office-one-5",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -79,7 +74,6 @@
     {
       "id": "office-one-6",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -89,7 +83,6 @@
     {
       "id": "office-one-7",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -100,7 +93,6 @@
     {
       "id": "office-one-8",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -111,7 +103,6 @@
     {
       "id": "office-one-9",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +115,6 @@
     {
       "id": "office-one-10",
       "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -136,7 +126,6 @@
     {
       "id": "office-one-11",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -147,7 +136,6 @@
     {
       "id": "office-one-12",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -157,7 +145,6 @@
     {
       "id": "office-one-13",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -167,7 +154,6 @@
     {
       "id": "office-one-14",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -178,7 +164,6 @@
     {
       "id": "office-one-15",
       "url": "HighResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -188,7 +173,6 @@
     {
       "id": "office-one-16",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -198,7 +182,6 @@
     {
       "id": "office-one-17",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -208,7 +191,6 @@
     {
       "id": "office-one-18",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

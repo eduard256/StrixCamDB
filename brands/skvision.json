@@ -6,7 +6,6 @@
     {
       "id": "skvision-1",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "skvision-2",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

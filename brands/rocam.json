@@ -6,7 +6,6 @@
     {
       "id": "rocam-1",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "rocam-2",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "rocam-3",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "rocam-4",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -58,7 +54,6 @@
     {
       "id": "rocam-5",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -68,7 +63,6 @@
     {
       "id": "rocam-6",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -80,7 +74,6 @@
     {
       "id": "rocam-7",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -92,7 +85,6 @@
     {
       "id": "rocam-8",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -104,7 +96,6 @@
     {
       "id": "rocam-9",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -115,7 +106,6 @@
     {
       "id": "rocam-10",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -126,7 +116,6 @@
     {
       "id": "rocam-11",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -136,7 +125,6 @@
     {
       "id": "rocam-12",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -149,7 +137,6 @@
     {
       "id": "rocam-13",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -160,7 +147,6 @@
     {
       "id": "rocam-14",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -170,7 +156,6 @@
     {
       "id": "rocam-15",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -182,7 +167,6 @@
     {
       "id": "rocam-16",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -194,7 +178,6 @@
     {
       "id": "rocam-17",
       "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -205,7 +188,6 @@
     {
       "id": "rocam-18",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

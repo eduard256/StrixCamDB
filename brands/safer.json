@@ -6,7 +6,6 @@
     {
       "id": "safer-1",
       "url": "/stander/livestream/0/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "safer-2",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "safer-3",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "safer-4",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "safer-5",
       "url": "mpeg4cif",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

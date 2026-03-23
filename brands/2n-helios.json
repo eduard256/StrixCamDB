@@ -6,7 +6,6 @@
     {
       "id": "2n-helios-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "2n-helios-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "2n-helios-3",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "2n-helios-4",
       "url": "snapshot/view[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "2n-helios-5",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

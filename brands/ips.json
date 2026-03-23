@@ -6,7 +6,6 @@
     {
       "id": "ips-1",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ips-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "ips-3",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -53,7 +50,6 @@
     {
       "id": "ips-4",
       "url": "/ch0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -70,7 +66,6 @@
     {
       "id": "ips-5",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -101,7 +96,6 @@
     {
       "id": "ips-6",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -112,7 +106,6 @@
     {
       "id": "ips-7",
       "url": "ch0_[CHANNEL].H264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -122,7 +115,6 @@
     {
       "id": "ips-8",
       "url": "cgi-bin/net_jpeg.cgi?ch=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "niutek-1",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

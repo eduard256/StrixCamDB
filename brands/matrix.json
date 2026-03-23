@@ -6,7 +6,6 @@
     {
       "id": "matrix-1",
       "url": "/mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "matrix-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "matrix-3",
       "url": "/cam0/mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "matrix-4",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -48,7 +44,6 @@
     {
       "id": "matrix-5",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

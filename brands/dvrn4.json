@@ -6,7 +6,6 @@
     {
       "id": "dvrn4-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "dvrn4-2",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "dvrn4-3",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "dvrn4-4",
       "url": "live/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "dvrn4-5",
       "url": "live/h264/ch[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

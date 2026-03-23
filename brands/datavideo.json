@@ -6,7 +6,6 @@
     {
       "id": "datavideo-1",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

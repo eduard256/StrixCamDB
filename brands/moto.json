@@ -6,7 +6,6 @@
     {
       "id": "moto-1",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "moto-2",
       "url": "/video?profile=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8056,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "moto-3",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "moto-4",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "genbolt-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -57,7 +56,6 @@
     {
       "id": "genbolt-2",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -73,7 +71,6 @@
     {
       "id": "genbolt-3",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -94,7 +91,6 @@
     {
       "id": "genbolt-4",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -122,7 +118,6 @@
     {
       "id": "genbolt-5",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -141,7 +136,6 @@
     {
       "id": "genbolt-6",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -153,7 +147,6 @@
     {
       "id": "genbolt-7",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -165,7 +158,6 @@
     {
       "id": "genbolt-8",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -176,7 +168,6 @@
     {
       "id": "genbolt-9",
       "url": "/web/admin.html",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -186,7 +177,6 @@
     {
       "id": "genbolt-10",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 10554,
       "models": [
@@ -196,7 +186,6 @@
     {
       "id": "genbolt-11",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -207,7 +196,6 @@
     {
       "id": "genbolt-12",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -217,7 +205,6 @@
     {
       "id": "genbolt-13",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "eickhoff-1",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

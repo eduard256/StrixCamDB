@@ -6,7 +6,6 @@
     {
       "id": "gds-1",
       "url": "/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

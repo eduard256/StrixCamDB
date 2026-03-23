@@ -6,7 +6,6 @@
     {
       "id": "ap-tech-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ap-tech-2",
       "url": "1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [

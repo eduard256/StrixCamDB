@@ -6,7 +6,6 @@
     {
       "id": "cyrus-1",
       "url": "/1/cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "cyrus-2",
       "url": "/2/cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

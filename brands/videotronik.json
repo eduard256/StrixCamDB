@@ -6,7 +6,6 @@
     {
       "id": "videotronik-1",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

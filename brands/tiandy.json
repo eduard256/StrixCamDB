@@ -6,7 +6,6 @@
     {
       "id": "tiandy-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "tiandy-2",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "tiandy-3",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "tiandy-4",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "tiandy-5",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

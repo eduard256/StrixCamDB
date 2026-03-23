@@ -6,7 +6,6 @@
     {
       "id": "eurolook-1",
       "url": "ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "eurolook-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "eurolook-3",
       "url": "/cgi-bin/net_jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [

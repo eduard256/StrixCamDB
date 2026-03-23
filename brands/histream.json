@@ -6,7 +6,6 @@
     {
       "id": "histream-1",
       "url": "/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "histream-2",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "histream-3",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "histream-4",
       "url": "av0_[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -48,7 +44,6 @@
     {
       "id": "histream-5",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

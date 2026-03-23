@@ -6,7 +6,6 @@
     {
       "id": "supercircuits-1",
       "url": "ivop.get?action=live&THREAD_ID=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "supercircuits-2",
       "url": "nvc-cgi/operator/snapshot.fcgi?channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "supercircuits-3",
       "url": "ch0_unicast_firststream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "supercircuits-4",
       "url": "Getvideo.cgi?Cookie=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "supercircuits-5",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -59,7 +54,6 @@
     {
       "id": "supercircuits-6",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -69,7 +63,6 @@
     {
       "id": "supercircuits-7",
       "url": "ch0_unicast_secondstream",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -79,7 +72,6 @@
     {
       "id": "supercircuits-8",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +81,6 @@
     {
       "id": "supercircuits-9",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "neos-1",
       "url": "/unicast",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "esypop-1",
       "url": "/udp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "owsoo-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "owsoo-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "owsoo-3",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "owsoo-4",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -48,7 +44,6 @@
     {
       "id": "owsoo-5",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -58,7 +53,6 @@
     {
       "id": "owsoo-6",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -68,7 +62,6 @@
     {
       "id": "owsoo-7",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -78,7 +71,6 @@
     {
       "id": "owsoo-8",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [

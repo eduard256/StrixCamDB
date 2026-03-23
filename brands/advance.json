@@ -6,7 +6,6 @@
     {
       "id": "advance-1",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "advance-2",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "advance-3",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "advance-4",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -48,7 +44,6 @@
     {
       "id": "advance-5",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -58,7 +53,6 @@
     {
       "id": "advance-6",
       "url": "/videostream.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -68,7 +62,6 @@
     {
       "id": "advance-7",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 82,
       "models": [
@@ -78,7 +71,6 @@
     {
       "id": "advance-8",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +81,6 @@
     {
       "id": "advance-9",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -99,7 +90,6 @@
     {
       "id": "advance-10",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -110,7 +100,6 @@
     {
       "id": "advance-11",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -120,7 +109,6 @@
     {
       "id": "advance-12",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -130,7 +118,6 @@
     {
       "id": "advance-13",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -140,7 +127,6 @@
     {
       "id": "advance-14",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -150,7 +136,6 @@
     {
       "id": "advance-15",
       "url": "cgi-bin/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -160,7 +145,6 @@
     {
       "id": "advance-16",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -170,7 +154,6 @@
     {
       "id": "advance-17",
       "url": "/video.cgi?resolution=VGA",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -181,7 +164,6 @@
     {
       "id": "advance-18",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -191,7 +173,6 @@
     {
       "id": "advance-19",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -201,7 +182,6 @@
     {
       "id": "advance-20",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -211,7 +191,6 @@
     {
       "id": "advance-21",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -221,7 +200,6 @@
     {
       "id": "advance-22",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -231,7 +209,6 @@
     {
       "id": "advance-23",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

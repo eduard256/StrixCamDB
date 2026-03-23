@@ -6,7 +6,6 @@
     {
       "id": "q-see-1",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 85,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "q-see-2",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -46,7 +44,6 @@
     {
       "id": "q-see-3",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1&authBasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -65,7 +62,6 @@
     {
       "id": "q-see-4",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -79,7 +75,6 @@
     {
       "id": "q-see-5",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -122,7 +117,6 @@
     {
       "id": "q-see-6",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -136,7 +130,6 @@
     {
       "id": "q-see-7",
       "url": "PSIA/Streaming/channels/0?videoCodecType=H.264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -150,7 +143,6 @@
     {
       "id": "q-see-8",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -161,7 +153,6 @@
     {
       "id": "q-see-9",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -178,7 +169,6 @@
     {
       "id": "q-see-10",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -191,7 +181,6 @@
     {
       "id": "q-see-11",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -202,7 +191,6 @@
     {
       "id": "q-see-12",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -218,7 +206,6 @@
     {
       "id": "q-see-13",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -228,7 +215,6 @@
     {
       "id": "q-see-14",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -238,7 +224,6 @@
     {
       "id": "q-see-15",
       "url": "/cam/realmonitor?channel=8&subtype=1&authBasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -248,7 +233,6 @@
     {
       "id": "q-see-16",
       "url": "/PSIA/Streaming/channels/0?videoCodecType=H.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -258,7 +242,6 @@
     {
       "id": "q-see-17",
       "url": "/cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -268,7 +251,6 @@
     {
       "id": "q-see-18",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -293,7 +275,6 @@
     {
       "id": "q-see-19",
       "url": "stillimg[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -304,7 +285,6 @@
     {
       "id": "q-see-20",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -316,7 +296,6 @@
     {
       "id": "q-see-21",
       "url": "/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -331,7 +310,6 @@
     {
       "id": "q-see-22",
       "url": "images/stream_[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -341,7 +319,6 @@
     {
       "id": "q-see-23",
       "url": "image.jpg?type=motion",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -351,7 +328,6 @@
     {
       "id": "q-see-24",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -361,7 +337,6 @@
     {
       "id": "q-see-25",
       "url": "ch0_unicast_firststream",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -371,7 +346,6 @@
     {
       "id": "q-see-26",
       "url": "VideoInput/1/mpeg4/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -382,7 +356,6 @@
     {
       "id": "q-see-27",
       "url": "VideoInput/1/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -393,7 +366,6 @@
     {
       "id": "q-see-28",
       "url": "[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -403,7 +375,6 @@
     {
       "id": "q-see-29",
       "url": "/cgi-bin/snapshot.cgi?3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 85,
       "models": [
@@ -413,7 +384,6 @@
     {
       "id": "q-see-30",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -425,7 +395,6 @@
     {
       "id": "q-see-31",
       "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 85,
       "models": [
@@ -435,7 +404,6 @@
     {
       "id": "q-see-32",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 85,
       "models": [
@@ -445,7 +413,6 @@
     {
       "id": "q-see-33",
       "url": "/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -455,7 +422,6 @@
     {
       "id": "q-see-34",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -465,7 +431,6 @@
     {
       "id": "q-see-35",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -475,7 +440,6 @@
     {
       "id": "q-see-36",
       "url": "/cam/realmonitor?channel=1&subtype=1&authBasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

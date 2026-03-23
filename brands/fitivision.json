@@ -6,7 +6,6 @@
     {
       "id": "fitivision-1",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "fitivision-2",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "fitivision-3",
       "url": "img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

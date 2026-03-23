@@ -6,7 +6,6 @@
     {
       "id": "etrovision-1",
       "url": "config/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +27,6 @@
     {
       "id": "etrovision-2",
       "url": "MediaInput/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -38,7 +36,6 @@
     {
       "id": "etrovision-3",
       "url": "video",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -48,7 +45,6 @@
     {
       "id": "etrovision-4",
       "url": "rtpvideo[CHANNEL].sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -60,7 +56,6 @@
     {
       "id": "etrovision-5",
       "url": "/rtpvideo1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -70,7 +65,6 @@
     {
       "id": "etrovision-6",
       "url": "/rtpvideoch12.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

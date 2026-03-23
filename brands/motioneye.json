@@ -6,7 +6,6 @@
     {
       "id": "motioneye-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "motioneye-2",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -40,7 +38,6 @@
     {
       "id": "motioneye-3",
       "url": "/stream",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "motioneye-4",
       "url": "/81",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -60,7 +56,6 @@
     {
       "id": "motioneye-5",
       "url": "/live/video/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8151,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "hd-cloudcam-1",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "hd-cloudcam-2",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

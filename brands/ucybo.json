@@ -6,7 +6,6 @@
     {
       "id": "ucybo-1",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

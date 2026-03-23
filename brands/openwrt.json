@@ -6,7 +6,6 @@
     {
       "id": "openwrt-1",
       "url": "/?action=stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 28080,
       "models": [

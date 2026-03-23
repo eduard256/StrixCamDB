@@ -6,7 +6,6 @@
     {
       "id": "fine-1",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "fine-2",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -38,7 +36,6 @@
     {
       "id": "fine-3",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -49,7 +46,6 @@
     {
       "id": "fine-4",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -62,7 +58,6 @@
     {
       "id": "fine-5",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -72,7 +67,6 @@
     {
       "id": "fine-6",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -83,7 +77,6 @@
     {
       "id": "fine-7",
       "url": "channel2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -93,7 +86,6 @@
     {
       "id": "fine-8",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -103,7 +95,6 @@
     {
       "id": "fine-9",
       "url": "screen.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -113,7 +104,6 @@
     {
       "id": "fine-10",
       "url": "v2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -123,7 +113,6 @@
     {
       "id": "fine-11",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -133,7 +122,6 @@
     {
       "id": "fine-12",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -143,7 +131,6 @@
     {
       "id": "fine-13",
       "url": "/s1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "saance-1",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "saance-2",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "saance-3",
       "url": "/ch0_1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "saance-4",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "saance-5",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [

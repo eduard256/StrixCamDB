@@ -6,7 +6,6 @@
     {
       "id": "dinox-1",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "dinox-2",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "dinox-3",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "odesys-1",
       "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "odesys-2",
       "url": "media/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "odesys-3",
       "url": "img/media.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "odesys-4",
       "url": "/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

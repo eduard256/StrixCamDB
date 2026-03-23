@@ -6,7 +6,6 @@
     {
       "id": "jyacam-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "jyacam-2",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

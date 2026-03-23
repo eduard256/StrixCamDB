@@ -6,7 +6,6 @@
     {
       "id": "kodak-1",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "kodak-2",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "kodak-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "kodak-4",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "kodak-5",
       "url": "IMAGE.JPG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "kodak-6",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -66,7 +60,6 @@
     {
       "id": "kodak-7",
       "url": "image.jpg?type=motion",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

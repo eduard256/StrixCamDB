@@ -6,7 +6,6 @@
     {
       "id": "skyway-security-1",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "skyway-security-2",
       "url": "Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "skyway-security-3",
       "url": "GetData.cgi?Status=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

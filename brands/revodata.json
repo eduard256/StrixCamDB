@@ -6,7 +6,6 @@
     {
       "id": "revodata-1",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +25,6 @@
     {
       "id": "revodata-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "revodata-3",
       "url": "/profile0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "grandtec-1",
       "url": "Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "grandtec-2",
       "url": "still.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "grandtec-3",
       "url": "video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -53,7 +50,6 @@
     {
       "id": "grandtec-4",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -70,7 +66,6 @@
     {
       "id": "grandtec-5",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -81,7 +76,6 @@
     {
       "id": "grandtec-6",
       "url": "[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -93,7 +87,6 @@
     {
       "id": "grandtec-7",
       "url": "cgi-bin/still.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -106,7 +99,6 @@
     {
       "id": "grandtec-8",
       "url": "PSIA/Streaming/channels/0?videoCodecType=H.264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -116,7 +108,6 @@
     {
       "id": "grandtec-9",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -126,7 +117,6 @@
     {
       "id": "grandtec-10",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

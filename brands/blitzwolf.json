@@ -6,7 +6,6 @@
     {
       "id": "blitzwolf-1",
       "url": "/1.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "blitzwolf-2",
       "url": "/2.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

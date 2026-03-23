@@ -6,7 +6,6 @@
     {
       "id": "z5s-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "z5s-2",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "z5s-3",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

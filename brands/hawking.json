@@ -6,7 +6,6 @@
     {
       "id": "hawking-1",
       "url": "IMAGE.JPG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "hawking-2",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "hawking-3",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "hawking-4",
       "url": "cgi-bin/video.jpg?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -62,7 +58,6 @@
     {
       "id": "hawking-5",
       "url": "loginfree.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -77,7 +72,6 @@
     {
       "id": "hawking-6",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -88,7 +82,6 @@
     {
       "id": "hawking-7",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -98,7 +91,6 @@
     {
       "id": "hawking-8",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -108,7 +100,6 @@
     {
       "id": "hawking-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -118,7 +109,6 @@
     {
       "id": "hawking-10",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

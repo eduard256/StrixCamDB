@@ -6,7 +6,6 @@
     {
       "id": "eyenix-1",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

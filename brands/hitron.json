@@ -6,7 +6,6 @@
     {
       "id": "hitron-1",
       "url": "/onvif-stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "hitron-2",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "hitron-3",
       "url": "1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "qihan-1",
       "url": "/tcp_live/ch0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "qihan-2",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "qihan-3",
       "url": "/tcp_live/ch0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "qihan-4",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "qihan-5",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "qihan-6",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

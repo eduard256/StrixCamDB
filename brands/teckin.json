@@ -6,7 +6,6 @@
     {
       "id": "teckin-1",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "teckin-2",
       "url": "/video0_unicast",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

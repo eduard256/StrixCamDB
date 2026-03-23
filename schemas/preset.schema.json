@@ -36,16 +36,12 @@
   "$defs": {
     "preset_stream": {
       "type": "object",
-      "required": ["url", "type", "protocol", "port"],
+      "required": ["url", "protocol", "port"],
       "additionalProperties": false,
       "properties": {
         "url": {
           "type": "string",
           "description": "URL path with optional placeholders"
-        },
-        "type": {
-          "type": "string",
-          "description": "Stream type"
         },
         "protocol": {
           "type": "string",

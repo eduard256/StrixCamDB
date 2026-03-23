@@ -6,7 +6,6 @@
     {
       "id": "atlona-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtp",
       "port": 4000,
       "models": [

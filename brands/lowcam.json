@@ -6,7 +6,6 @@
     {
       "id": "lowcam-1",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

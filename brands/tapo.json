@@ -6,7 +6,6 @@
     {
       "id": "tapo-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -155,7 +154,6 @@
     {
       "id": "tapo-2",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -210,7 +208,6 @@
     {
       "id": "tapo-3",
       "url": "/onvif/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -246,7 +243,6 @@
     {
       "id": "tapo-4",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -314,7 +310,6 @@
     {
       "id": "tapo-5",
       "url": "/live/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -362,7 +357,6 @@
     {
       "id": "tapo-6",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -381,7 +375,6 @@
     {
       "id": "tapo-7",
       "url": "/1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -392,7 +385,6 @@
     {
       "id": "tapo-8",
       "url": "/onvif/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -418,7 +410,6 @@
     {
       "id": "tapo-9",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -441,7 +432,6 @@
     {
       "id": "tapo-10",
       "url": "/?action=stream",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -452,7 +442,6 @@
     {
       "id": "tapo-11",
       "url": "/stream2%20640%20x%20360",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -467,7 +456,6 @@
     {
       "id": "tapo-12",
       "url": "/live/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -482,7 +470,6 @@
     {
       "id": "tapo-13",
       "url": "/stream11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -492,7 +479,6 @@
     {
       "id": "tapo-14",
       "url": "/video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -502,7 +488,6 @@
     {
       "id": "tapo-15",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -516,7 +501,6 @@
     {
       "id": "tapo-16",
       "url": "/Stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -528,7 +512,6 @@
     {
       "id": "tapo-17",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -539,7 +522,6 @@
     {
       "id": "tapo-18",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -549,7 +531,6 @@
     {
       "id": "tapo-19",
       "url": "/stream=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -560,7 +541,6 @@
     {
       "id": "tapo-20",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -570,7 +550,6 @@
     {
       "id": "tapo-21",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -584,7 +563,6 @@
     {
       "id": "tapo-22",
       "url": "/stream1r",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -595,7 +573,6 @@
     {
       "id": "tapo-23",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -605,7 +582,6 @@
     {
       "id": "tapo-24",
       "url": "/stream8",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -615,7 +591,6 @@
     {
       "id": "tapo-25",
       "url": "/onvif/device_service",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 2020,
       "models": [
@@ -627,7 +602,6 @@
     {
       "id": "tapo-26",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -637,7 +611,6 @@
     {
       "id": "tapo-27",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -647,7 +620,6 @@
     {
       "id": "tapo-28",
       "url": "/H264/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [

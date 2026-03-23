@@ -6,7 +6,6 @@
     {
       "id": "brovision-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "brovision-2",
       "url": "/Streaming/channels/202",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "brovision-3",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

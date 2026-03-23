@@ -6,7 +6,6 @@
     {
       "id": "acumen-1",
       "url": "/rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "acumen-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "acumen-3",
       "url": "mpg4/rtsp.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "acumen-4",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

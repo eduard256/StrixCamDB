@@ -6,7 +6,6 @@
     {
       "id": "h.264-network-dvr-1",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "h.264-network-dvr-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "h.264-network-dvr-3",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -52,7 +49,6 @@
     {
       "id": "h.264-network-dvr-4",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -65,7 +61,6 @@
     {
       "id": "h.264-network-dvr-5",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -85,7 +80,6 @@
     {
       "id": "h.264-network-dvr-6",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +90,6 @@
     {
       "id": "h.264-network-dvr-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -107,7 +100,6 @@
     {
       "id": "h.264-network-dvr-8",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -117,7 +109,6 @@
     {
       "id": "h.264-network-dvr-9",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -128,7 +119,6 @@
     {
       "id": "h.264-network-dvr-10",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -139,7 +129,6 @@
     {
       "id": "h.264-network-dvr-11",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -149,7 +138,6 @@
     {
       "id": "h.264-network-dvr-12",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -163,7 +151,6 @@
     {
       "id": "h.264-network-dvr-13",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +164,6 @@
     {
       "id": "h.264-network-dvr-14",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -187,7 +173,6 @@
     {
       "id": "h.264-network-dvr-15",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=[CHANNEL].sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -199,7 +184,6 @@
     {
       "id": "h.264-network-dvr-16",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -210,7 +194,6 @@
     {
       "id": "h.264-network-dvr-17",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -221,7 +204,6 @@
     {
       "id": "h.264-network-dvr-18",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -231,7 +213,6 @@
     {
       "id": "h.264-network-dvr-19",
       "url": "[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -241,7 +222,6 @@
     {
       "id": "h.264-network-dvr-20",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -251,7 +231,6 @@
     {
       "id": "h.264-network-dvr-21",
       "url": "/cgi-bin/guest/Video?format=MJPEG",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -263,7 +242,6 @@
     {
       "id": "h.264-network-dvr-22",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -273,7 +251,6 @@
     {
       "id": "h.264-network-dvr-23",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -283,7 +260,6 @@
     {
       "id": "h.264-network-dvr-24",
       "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -293,7 +269,6 @@
     {
       "id": "h.264-network-dvr-25",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -303,7 +278,6 @@
     {
       "id": "h.264-network-dvr-26",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -313,7 +287,6 @@
     {
       "id": "h.264-network-dvr-27",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -323,7 +296,6 @@
     {
       "id": "h.264-network-dvr-28",
       "url": "/cgi-bin/guest/Video?format=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -333,7 +305,6 @@
     {
       "id": "h.264-network-dvr-29",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -343,7 +314,6 @@
     {
       "id": "h.264-network-dvr-30",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -353,7 +323,6 @@
     {
       "id": "h.264-network-dvr-31",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

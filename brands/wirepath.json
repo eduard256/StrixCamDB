@@ -6,7 +6,6 @@
     {
       "id": "wirepath-1",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "wirepath-2",
       "url": "cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "wirepath-3",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

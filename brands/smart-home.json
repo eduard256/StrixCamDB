@@ -6,7 +6,6 @@
     {
       "id": "smart-home-1",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "smart-home-2",
       "url": "/h264.sdp?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "smart-home-3",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "smart-home-4",
       "url": "h264.sdp?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "smart-home-5",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "smart-home-6",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -67,7 +61,6 @@
     {
       "id": "smart-home-7",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -77,7 +70,6 @@
     {
       "id": "smart-home-8",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

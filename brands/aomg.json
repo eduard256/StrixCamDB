@@ -6,7 +6,6 @@
     {
       "id": "aomg-1",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

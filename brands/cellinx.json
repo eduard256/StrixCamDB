@@ -6,7 +6,6 @@
     {
       "id": "cellinx-1",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "cellinx-2",
       "url": "/AVStream1_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

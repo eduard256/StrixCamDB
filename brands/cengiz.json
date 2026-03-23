@@ -6,7 +6,6 @@
     {
       "id": "cengiz-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "cengiz-2",
       "url": "/stream2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "cengiz-3",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

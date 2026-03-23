@@ -6,7 +6,6 @@
     {
       "id": "techview-1",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "techview-2",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "techview-3",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "techview-4",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +57,6 @@
     {
       "id": "techview-5",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -83,7 +78,6 @@
     {
       "id": "techview-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +90,6 @@
     {
       "id": "techview-7",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -119,7 +112,6 @@
     {
       "id": "techview-8",
       "url": "/videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -129,7 +121,6 @@
     {
       "id": "techview-9",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -149,7 +140,6 @@
     {
       "id": "techview-10",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -161,7 +151,6 @@
     {
       "id": "techview-11",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -173,7 +162,6 @@
     {
       "id": "techview-12",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -184,7 +172,6 @@
     {
       "id": "techview-13",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -194,7 +181,6 @@
     {
       "id": "techview-14",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -204,7 +190,6 @@
     {
       "id": "techview-15",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -215,7 +200,6 @@
     {
       "id": "techview-16",
       "url": "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -225,7 +209,6 @@
     {
       "id": "techview-17",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -235,7 +218,6 @@
     {
       "id": "techview-18",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -247,7 +229,6 @@
     {
       "id": "techview-19",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -257,7 +238,6 @@
     {
       "id": "techview-20",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -268,7 +248,6 @@
     {
       "id": "techview-21",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

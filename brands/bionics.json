@@ -6,7 +6,6 @@
     {
       "id": "bionics-1",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "bionics-2",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "bionics-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -42,7 +39,6 @@
     {
       "id": "bionics-4",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -54,7 +50,6 @@
     {
       "id": "bionics-5",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -64,7 +59,6 @@
     {
       "id": "bionics-6",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +68,6 @@
     {
       "id": "bionics-7",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -88,7 +81,6 @@
     {
       "id": "bionics-8",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -99,7 +91,6 @@
     {
       "id": "bionics-9",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

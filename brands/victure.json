@@ -6,7 +6,6 @@
     {
       "id": "victure-1",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1&authBasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "victure-2",
       "url": "h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "victure-3",
       "url": "/cam0/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -44,7 +41,6 @@
     {
       "id": "victure-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -58,7 +54,6 @@
     {
       "id": "victure-5",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -72,7 +67,6 @@
     {
       "id": "victure-6",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -84,7 +78,6 @@
     {
       "id": "victure-7",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -98,7 +91,6 @@
     {
       "id": "victure-8",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -108,7 +100,6 @@
     {
       "id": "victure-9",
       "url": "/cam/realmonitor?channel=0&subtype=1&authBasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -121,7 +112,6 @@
     {
       "id": "victure-10",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -135,7 +125,6 @@
     {
       "id": "victure-11",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -155,7 +144,6 @@
     {
       "id": "victure-12",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -171,7 +159,6 @@
     {
       "id": "victure-13",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -181,7 +168,6 @@
     {
       "id": "victure-14",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -195,7 +181,6 @@
     {
       "id": "victure-15",
       "url": "/cam/realmonitor?channel=0&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -208,7 +193,6 @@
     {
       "id": "victure-16",
       "url": "/cam/realmonit",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -218,7 +202,6 @@
     {
       "id": "victure-17",
       "url": "h264_2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -230,7 +213,6 @@
     {
       "id": "victure-18",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -241,7 +223,6 @@
     {
       "id": "victure-19",
       "url": "/h264_2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -252,7 +233,6 @@
     {
       "id": "victure-20",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -266,7 +246,6 @@
     {
       "id": "victure-21",
       "url": "/cam/realmonitor?channel=1&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -276,7 +255,6 @@
     {
       "id": "victure-22",
       "url": "/cam/realmonitor?channel=1&subtype=1&authBasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -286,7 +264,6 @@
     {
       "id": "victure-23",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -297,7 +274,6 @@
     {
       "id": "victure-24",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -308,7 +284,6 @@
     {
       "id": "victure-25",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=Z3VycmllcmlyZ0BnbWFpbC5jb206MzAwNTc4cmc=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -318,7 +293,6 @@
     {
       "id": "victure-26",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

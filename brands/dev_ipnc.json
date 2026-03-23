@@ -6,7 +6,6 @@
     {
       "id": "dev_ipnc-1",
       "url": "/Onvif/Streaming/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

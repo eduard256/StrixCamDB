@@ -6,7 +6,6 @@
     {
       "id": "nihon-1",
       "url": "/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "nihon-2",
       "url": "/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "android-ip-webcam-1",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "android-ip-webcam-2",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "android-ip-webcam-3",
       "url": "now.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "android-ip-webcam-4",
       "url": "/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 4747,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "android-ip-webcam-5",
       "url": "video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "android-ip-webcam-6",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +65,6 @@
     {
       "id": "android-ip-webcam-7",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +75,6 @@
     {
       "id": "android-ip-webcam-8",
       "url": "/videofeed",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -92,7 +84,6 @@
     {
       "id": "android-ip-webcam-9",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -102,7 +93,6 @@
     {
       "id": "android-ip-webcam-10",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1",
-      "type": "MJPEG",
       "protocol": "https",
       "port": 8083,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "imagiatek-1",
       "url": "vdata.v",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

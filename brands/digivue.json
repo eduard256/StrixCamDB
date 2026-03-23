@@ -6,7 +6,6 @@
     {
       "id": "digivue-1",
       "url": "op?sid=0+type=203+busid=0+devid=0+chanid=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

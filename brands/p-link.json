@@ -6,7 +6,6 @@
     {
       "id": "p-link-1",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

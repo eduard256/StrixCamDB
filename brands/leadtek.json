@@ -6,7 +6,6 @@
     {
       "id": "leadtek-1",
       "url": "img/video.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "leadtek-2",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "leadtek-3",
       "url": "img/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "leadtek-4",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +57,6 @@
     {
       "id": "leadtek-5",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +66,6 @@
     {
       "id": "leadtek-6",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -81,7 +75,6 @@
     {
       "id": "leadtek-7",
       "url": "/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -93,7 +86,6 @@
     {
       "id": "leadtek-8",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -103,7 +95,6 @@
     {
       "id": "leadtek-9",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -113,7 +104,6 @@
     {
       "id": "leadtek-10",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +114,6 @@
     {
       "id": "leadtek-11",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -134,7 +123,6 @@
     {
       "id": "leadtek-12",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

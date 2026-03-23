@@ -6,7 +6,6 @@
     {
       "id": "gw-security-1",
       "url": "/mpeg4cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -38,7 +37,6 @@
     {
       "id": "gw-security-2",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -55,7 +53,6 @@
     {
       "id": "gw-security-3",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -89,7 +86,6 @@
     {
       "id": "gw-security-4",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -109,7 +105,6 @@
     {
       "id": "gw-security-5",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -120,7 +115,6 @@
     {
       "id": "gw-security-6",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -141,7 +135,6 @@
     {
       "id": "gw-security-7",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -151,7 +144,6 @@
     {
       "id": "gw-security-8",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -166,7 +158,6 @@
     {
       "id": "gw-security-9",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -184,7 +175,6 @@
     {
       "id": "gw-security-10",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -202,7 +192,6 @@
     {
       "id": "gw-security-11",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -212,7 +201,6 @@
     {
       "id": "gw-security-12",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -223,7 +211,6 @@
     {
       "id": "gw-security-13",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -234,7 +221,6 @@
     {
       "id": "gw-security-14",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -251,7 +237,6 @@
     {
       "id": "gw-security-15",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -262,7 +247,6 @@
     {
       "id": "gw-security-16",
       "url": "/Onvif/live/1/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -274,7 +258,6 @@
     {
       "id": "gw-security-17",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -284,7 +267,6 @@
     {
       "id": "gw-security-18",
       "url": "/live/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -295,7 +277,6 @@
     {
       "id": "gw-security-19",
       "url": "/live/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -305,7 +286,6 @@
     {
       "id": "gw-security-20",
       "url": "/H264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5050,
       "models": [
@@ -318,7 +298,6 @@
     {
       "id": "gw-security-21",
       "url": "/ch00/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -329,7 +308,6 @@
     {
       "id": "gw-security-22",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -347,7 +325,6 @@
     {
       "id": "gw-security-23",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -357,7 +334,6 @@
     {
       "id": "gw-security-24",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -369,7 +345,6 @@
     {
       "id": "gw-security-25",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -379,7 +354,6 @@
     {
       "id": "gw-security-26",
       "url": "/cam/realmonitor?channel=1&subtype=1&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -389,7 +363,6 @@
     {
       "id": "gw-security-27",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -400,7 +373,6 @@
     {
       "id": "gw-security-28",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -410,7 +382,6 @@
     {
       "id": "gw-security-29",
       "url": "/cam/realmonitor?channel=3&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -420,7 +391,6 @@
     {
       "id": "gw-security-30",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

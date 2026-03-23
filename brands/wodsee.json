@@ -6,7 +6,6 @@
     {
       "id": "wodsee-1",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "wodsee-2",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "wodsee-3",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -42,7 +39,6 @@
     {
       "id": "wodsee-4",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -53,7 +49,6 @@
     {
       "id": "wodsee-5",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -64,7 +59,6 @@
     {
       "id": "wodsee-6",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +68,6 @@
     {
       "id": "wodsee-7",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +79,6 @@
     {
       "id": "wodsee-8",
       "url": "/ch0_1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -96,7 +88,6 @@
     {
       "id": "wodsee-9",
       "url": "/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

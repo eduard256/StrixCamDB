@@ -6,7 +6,6 @@
     {
       "id": "eye01w-1",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "eye01w-2",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "eye01w-3",
       "url": "live_h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "eye01w-4",
       "url": "/cgi-bin/rtspStreamOvf/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "eye01w-5",
       "url": "streaming/channels/0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [

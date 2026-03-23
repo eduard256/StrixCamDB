@@ -6,7 +6,6 @@
     {
       "id": "robicam-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "robicam-2",
       "url": "/onvif/live/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

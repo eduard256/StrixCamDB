@@ -6,7 +6,6 @@
     {
       "id": "connectec-1",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "connectec-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "connectec-3",
       "url": "/video.cgi?resolution=320x240",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

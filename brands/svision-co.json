@@ -6,7 +6,6 @@
     {
       "id": "svision-co-1",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 34567,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "wevo-1",
       "url": "stream[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8081,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "wevo-2",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "zeustech-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "zeustech-2",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

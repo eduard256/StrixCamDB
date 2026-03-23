@@ -6,7 +6,6 @@
     {
       "id": "amiccom-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 2600,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "amiccom-2",
       "url": "/media/ch0/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 2600,
       "models": [

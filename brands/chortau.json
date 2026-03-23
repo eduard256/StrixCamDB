@@ -6,7 +6,6 @@
     {
       "id": "chortau-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -26,7 +25,6 @@
     {
       "id": "chortau-2",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -41,7 +39,6 @@
     {
       "id": "chortau-3",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -51,7 +48,6 @@
     {
       "id": "chortau-4",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +57,6 @@
     {
       "id": "chortau-5",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

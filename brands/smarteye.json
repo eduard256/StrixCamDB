@@ -6,7 +6,6 @@
     {
       "id": "smarteye-1",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "smarteye-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "smarteye-3",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -46,7 +43,6 @@
     {
       "id": "smarteye-4",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "smarteye-5",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -67,7 +62,6 @@
     {
       "id": "smarteye-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -78,7 +72,6 @@
     {
       "id": "smarteye-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +82,6 @@
     {
       "id": "smarteye-8",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -102,7 +94,6 @@
     {
       "id": "smarteye-9",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -113,7 +104,6 @@
     {
       "id": "smarteye-10",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -123,7 +113,6 @@
     {
       "id": "smarteye-11",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -134,7 +123,6 @@
     {
       "id": "smarteye-12",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -144,7 +132,6 @@
     {
       "id": "smarteye-13",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -154,7 +141,6 @@
     {
       "id": "smarteye-14",
       "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -165,7 +151,6 @@
     {
       "id": "smarteye-15",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -175,7 +160,6 @@
     {
       "id": "smarteye-16",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -186,7 +170,6 @@
     {
       "id": "smarteye-17",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -196,7 +179,6 @@
     {
       "id": "smarteye-18",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -206,7 +188,6 @@
     {
       "id": "smarteye-19",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -216,7 +197,6 @@
     {
       "id": "smarteye-20",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -226,7 +206,6 @@
     {
       "id": "smarteye-21",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -236,7 +215,6 @@
     {
       "id": "smarteye-22",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -246,7 +224,6 @@
     {
       "id": "smarteye-23",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -256,7 +233,6 @@
     {
       "id": "smarteye-24",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -267,7 +243,6 @@
     {
       "id": "smarteye-25",
       "url": "vdata.v",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -277,7 +252,6 @@
     {
       "id": "smarteye-26",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -288,7 +262,6 @@
     {
       "id": "smarteye-27",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

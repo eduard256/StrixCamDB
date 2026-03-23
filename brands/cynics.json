@@ -6,7 +6,6 @@
     {
       "id": "cynics-1",
       "url": "/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

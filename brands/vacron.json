@@ -6,7 +6,6 @@
     {
       "id": "vacron-1",
       "url": "/video0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "vacron-2",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "vacron-3",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "vacron-4",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

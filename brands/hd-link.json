@@ -6,7 +6,6 @@
     {
       "id": "hd-link-1",
       "url": "play1.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "hd-link-2",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "hd-link-3",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "hd-link-4",
       "url": "video/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "hd-link-5",
       "url": "MJPEG.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -62,7 +57,6 @@
     {
       "id": "hd-link-6",
       "url": "video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -72,7 +66,6 @@
     {
       "id": "hd-link-7",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +75,6 @@
     {
       "id": "hd-link-8",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -95,7 +87,6 @@
     {
       "id": "hd-link-9",
       "url": "cgi-bin/video.jpg?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -105,7 +96,6 @@
     {
       "id": "hd-link-10",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -115,7 +105,6 @@
     {
       "id": "hd-link-11",
       "url": "_gCVimage.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -125,7 +114,6 @@
     {
       "id": "hd-link-12",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 5544,
       "models": [
@@ -135,7 +123,6 @@
     {
       "id": "hd-link-13",
       "url": "play3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -145,7 +132,6 @@
     {
       "id": "hd-link-14",
       "url": "/h264_hd.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -155,7 +141,6 @@
     {
       "id": "hd-link-15",
       "url": "live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

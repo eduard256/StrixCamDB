@@ -6,7 +6,6 @@
     {
       "id": "serang-1",
       "url": "cgi-bin/jpg/image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

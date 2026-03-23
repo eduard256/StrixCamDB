@@ -6,7 +6,6 @@
     {
       "id": "elecom-1",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "elecom-2",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

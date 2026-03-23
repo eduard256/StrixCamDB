@@ -6,7 +6,6 @@
     {
       "id": "mov-cam-1",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

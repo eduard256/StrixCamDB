@@ -6,7 +6,6 @@
     {
       "id": "ganz-1",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "ganz-2",
       "url": "nvc-cgi/operator/snapshot.fcgi?channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "ganz-3",
       "url": "/ch0_unicast_firststream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "ganz-4",
       "url": "/nvc-cgi/operator/snapshot.fcgi?channel=0&name=snapshot&resolution=custom&quality=70&width=640&height=480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "ganz-5",
       "url": "/nvc-cgi/operator/snapshot.fcgi?channel=0&name=snapshot&resolution=custom&quality=70&width=320&height=240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -59,7 +54,6 @@
     {
       "id": "ganz-6",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -69,7 +63,6 @@
     {
       "id": "ganz-7",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -79,7 +72,6 @@
     {
       "id": "ganz-8",
       "url": "snapshot/view[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +81,6 @@
     {
       "id": "ganz-9",
       "url": "gnz_media/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -101,7 +92,6 @@
     {
       "id": "ganz-10",
       "url": "/gnz_media/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -111,7 +101,6 @@
     {
       "id": "ganz-11",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -121,7 +110,6 @@
     {
       "id": "ganz-12",
       "url": "/nvc-cgi/operator/snapshot.fcgi?channel=2&name=snapshot&resolution=custom&quality=70&width=320&height=240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [

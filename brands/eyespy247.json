@@ -6,7 +6,6 @@
     {
       "id": "eyespy247-1",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -24,7 +23,6 @@
     {
       "id": "eyespy247-2",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +36,6 @@
     {
       "id": "eyespy247-3",
       "url": "img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "eyespy247-4",
       "url": "/img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -60,7 +56,6 @@
     {
       "id": "eyespy247-5",
       "url": "img/media.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -73,7 +68,6 @@
     {
       "id": "eyespy247-6",
       "url": "img/video.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -86,7 +80,6 @@
     {
       "id": "eyespy247-7",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +89,6 @@
     {
       "id": "eyespy247-8",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

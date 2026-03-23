@@ -6,7 +6,6 @@
     {
       "id": "kocom-1",
       "url": "/profile/profile01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "kocom-2",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "kocom-3",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

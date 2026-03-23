@@ -6,7 +6,6 @@
     {
       "id": "sunkwang-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "sunkwang-2",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "sunkwang-3",
       "url": "/mpeg4",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "sunkwang-4",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "sunkwang-5",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "sunkwang-6",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "activecam-1",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "activecam-2",
       "url": "/streaming/video0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "activecam-3",
       "url": "/streaming/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

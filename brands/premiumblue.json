@@ -6,7 +6,6 @@
     {
       "id": "premiumblue-1",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "premiumblue-2",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "premiumblue-3",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "premiumblue-4",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -48,7 +44,6 @@
     {
       "id": "premiumblue-5",
       "url": "/videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -58,7 +53,6 @@
     {
       "id": "premiumblue-6",
       "url": "/videostream.asf",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "fujtech-1",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +25,6 @@
     {
       "id": "fujtech-2",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

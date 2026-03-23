@@ -6,7 +6,6 @@
     {
       "id": "luma-1",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -24,7 +23,6 @@
     {
       "id": "luma-2",
       "url": "/Streaming/channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "luma-3",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 65152,
       "models": [
@@ -51,7 +48,6 @@
     {
       "id": "luma-4",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [

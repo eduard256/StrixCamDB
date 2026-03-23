@@ -6,7 +6,6 @@
     {
       "id": "hama-1",
       "url": "/mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "hama-2",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "hama-3",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "hama-4",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "hama-5",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -59,7 +54,6 @@
     {
       "id": "hama-6",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -69,7 +63,6 @@
     {
       "id": "hama-7",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -80,7 +73,6 @@
     {
       "id": "hama-8",
       "url": "snapshot.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -90,7 +82,6 @@
     {
       "id": "hama-9",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -100,7 +91,6 @@
     {
       "id": "hama-10",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -110,7 +100,6 @@
     {
       "id": "hama-11",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -120,7 +109,6 @@
     {
       "id": "hama-12",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -130,7 +118,6 @@
     {
       "id": "hama-13",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

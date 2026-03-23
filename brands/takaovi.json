@@ -6,7 +6,6 @@
     {
       "id": "takaovi-1",
       "url": "mpeg4/media.amp?resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [

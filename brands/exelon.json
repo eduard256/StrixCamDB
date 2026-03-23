@@ -6,7 +6,6 @@
     {
       "id": "exelon-1",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

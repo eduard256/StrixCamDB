@@ -6,7 +6,6 @@
     {
       "id": "uniarch-1",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "uniarch-2",
       "url": "/unicast/c1/s0/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "uniarch-3",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -42,7 +39,6 @@
     {
       "id": "uniarch-4",
       "url": "videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -52,7 +48,6 @@
     {
       "id": "uniarch-5",
       "url": "/rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -62,7 +57,6 @@
     {
       "id": "uniarch-6",
       "url": "/live/h264/HD1080P",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -72,7 +66,6 @@
     {
       "id": "uniarch-7",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -82,7 +75,6 @@
     {
       "id": "uniarch-8",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -92,7 +84,6 @@
     {
       "id": "uniarch-9",
       "url": "/media/video2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

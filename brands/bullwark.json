@@ -6,7 +6,6 @@
     {
       "id": "bullwark-1",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8000,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "bullwark-2",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 7000,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "bullwark-3",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

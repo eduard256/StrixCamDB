@@ -6,7 +6,6 @@
     {
       "id": "homeviz-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8899,
       "models": [

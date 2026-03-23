@@ -6,7 +6,6 @@
     {
       "id": "hqcam-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "hqcam-2",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ipq1658x-1",
       "url": "MediaInput/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

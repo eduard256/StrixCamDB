@@ -6,7 +6,6 @@
     {
       "id": "hta-1",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "hta-2",
       "url": "/web/admin.html",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "hta-3",
       "url": "/snap.jpg?JpegCam=80",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [

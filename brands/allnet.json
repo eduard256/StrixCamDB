@@ -6,7 +6,6 @@
     {
       "id": "allnet-1",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -25,7 +24,6 @@
     {
       "id": "allnet-2",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "allnet-3",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -49,7 +46,6 @@
     {
       "id": "allnet-4",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +57,6 @@
     {
       "id": "allnet-5",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -79,7 +74,6 @@
     {
       "id": "allnet-6",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -90,7 +84,6 @@
     {
       "id": "allnet-7",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -101,7 +94,6 @@
     {
       "id": "allnet-8",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -111,7 +103,6 @@
     {
       "id": "allnet-9",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -122,7 +113,6 @@
     {
       "id": "allnet-10",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -133,7 +123,6 @@
     {
       "id": "allnet-11",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -144,7 +133,6 @@
     {
       "id": "allnet-12",
       "url": "live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -155,7 +143,6 @@
     {
       "id": "allnet-13",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -166,7 +153,6 @@
     {
       "id": "allnet-14",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -180,7 +166,6 @@
     {
       "id": "allnet-15",
       "url": "/video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -190,7 +175,6 @@
     {
       "id": "allnet-16",
       "url": "mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -202,7 +186,6 @@
     {
       "id": "allnet-17",
       "url": "live/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -214,7 +197,6 @@
     {
       "id": "allnet-18",
       "url": "video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -225,7 +207,6 @@
     {
       "id": "allnet-19",
       "url": "cgi-bin/jpg/image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -235,7 +216,6 @@
     {
       "id": "allnet-20",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -246,7 +226,6 @@
     {
       "id": "allnet-21",
       "url": "live/mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -263,7 +242,6 @@
     {
       "id": "allnet-22",
       "url": "img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -281,7 +259,6 @@
     {
       "id": "allnet-23",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -298,7 +275,6 @@
     {
       "id": "allnet-24",
       "url": "stream1.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -308,7 +284,6 @@
     {
       "id": "allnet-25",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -320,7 +295,6 @@
     {
       "id": "allnet-26",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -336,7 +310,6 @@
     {
       "id": "allnet-27",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -346,7 +319,6 @@
     {
       "id": "allnet-28",
       "url": "cam1/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -356,7 +328,6 @@
     {
       "id": "allnet-29",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -367,7 +338,6 @@
     {
       "id": "allnet-30",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -377,7 +347,6 @@
     {
       "id": "allnet-31",
       "url": "/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -387,7 +356,6 @@
     {
       "id": "allnet-32",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

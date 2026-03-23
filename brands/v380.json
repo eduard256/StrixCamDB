@@ -6,7 +6,6 @@
     {
       "id": "v380-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +26,6 @@
     {
       "id": "v380-2",
       "url": "live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -60,7 +58,6 @@
     {
       "id": "v380-3",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -78,7 +75,6 @@
     {
       "id": "v380-4",
       "url": "1/cif",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -88,7 +84,6 @@
     {
       "id": "v380-5",
       "url": "/live/ch00_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -108,7 +103,6 @@
     {
       "id": "v380-6",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -124,7 +118,6 @@
     {
       "id": "v380-7",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -137,7 +130,6 @@
     {
       "id": "v380-8",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -149,7 +141,6 @@
     {
       "id": "v380-9",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -161,7 +152,6 @@
     {
       "id": "v380-10",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -173,7 +163,6 @@
     {
       "id": "v380-11",
       "url": "/Onvif/live/1/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -183,7 +172,6 @@
     {
       "id": "v380-12",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -193,7 +181,6 @@
     {
       "id": "v380-13",
       "url": "/1/cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -205,7 +192,6 @@
     {
       "id": "v380-14",
       "url": "live_mpeg4.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

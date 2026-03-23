@@ -6,7 +6,6 @@
     {
       "id": "kpi-1",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "kpi-2",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

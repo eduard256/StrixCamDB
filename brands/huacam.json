@@ -6,7 +6,6 @@
     {
       "id": "huacam-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -49,7 +48,6 @@
     {
       "id": "huacam-2",
       "url": "snapshot/view[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -70,7 +68,6 @@
     {
       "id": "huacam-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -80,7 +77,6 @@
     {
       "id": "huacam-4",
       "url": "/4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -101,7 +97,6 @@
     {
       "id": "huacam-5",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -118,7 +113,6 @@
     {
       "id": "huacam-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -129,7 +123,6 @@
     {
       "id": "huacam-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -139,7 +132,6 @@
     {
       "id": "huacam-8",
       "url": "goform/stream?cmd=get&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -150,7 +142,6 @@
     {
       "id": "huacam-9",
       "url": "VideoInput/[CHANNEL]/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -161,7 +152,6 @@
     {
       "id": "huacam-10",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -171,7 +161,6 @@
     {
       "id": "huacam-11",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -182,7 +171,6 @@
     {
       "id": "huacam-12",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -193,7 +181,6 @@
     {
       "id": "huacam-13",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -203,7 +190,6 @@
     {
       "id": "huacam-14",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

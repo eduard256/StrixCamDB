@@ -6,7 +6,6 @@
     {
       "id": "zyxel-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "zyxel-2",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "zyxel-3",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "zyxel-4",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -64,7 +60,6 @@
     {
       "id": "zyxel-5",
       "url": "medias2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -79,7 +74,6 @@
     {
       "id": "zyxel-6",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -91,7 +85,6 @@
     {
       "id": "zyxel-7",
       "url": "mjpegStreamer.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -102,7 +95,6 @@
     {
       "id": "zyxel-8",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -112,7 +104,6 @@
     {
       "id": "zyxel-9",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -123,7 +114,6 @@
     {
       "id": "zyxel-10",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -133,7 +123,6 @@
     {
       "id": "zyxel-11",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -143,7 +132,6 @@
     {
       "id": "zyxel-12",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -153,7 +141,6 @@
     {
       "id": "zyxel-13",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -163,7 +150,6 @@
     {
       "id": "zyxel-14",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -173,7 +159,6 @@
     {
       "id": "zyxel-15",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -183,7 +168,6 @@
     {
       "id": "zyxel-16",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -193,7 +177,6 @@
     {
       "id": "zyxel-17",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -203,7 +186,6 @@
     {
       "id": "zyxel-18",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -213,7 +195,6 @@
     {
       "id": "zyxel-19",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

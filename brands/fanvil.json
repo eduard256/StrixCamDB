@@ -6,7 +6,6 @@
     {
       "id": "fanvil-1",
       "url": "/stream.live0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "fanvil-2",
       "url": "/stream.live1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "fanvil-3",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -44,7 +41,6 @@
     {
       "id": "fanvil-4",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -54,7 +50,6 @@
     {
       "id": "fanvil-5",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -64,7 +59,6 @@
     {
       "id": "fanvil-6",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -74,7 +68,6 @@
     {
       "id": "fanvil-7",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=2.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "4sdot-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "4sdot-2",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "4sdot-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "4sdot-4",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "4sdot-5",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -66,7 +61,6 @@
     {
       "id": "4sdot-6",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "suneyes-1",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "suneyes-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -40,7 +38,6 @@
     {
       "id": "suneyes-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -72,7 +69,6 @@
     {
       "id": "suneyes-4",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -82,7 +78,6 @@
     {
       "id": "suneyes-5",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -93,7 +88,6 @@
     {
       "id": "suneyes-6",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -105,7 +99,6 @@
     {
       "id": "suneyes-7",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -116,7 +109,6 @@
     {
       "id": "suneyes-8",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -138,7 +130,6 @@
     {
       "id": "suneyes-9",
       "url": "video.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -148,7 +139,6 @@
     {
       "id": "suneyes-10",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -168,7 +158,6 @@
     {
       "id": "suneyes-11",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -188,7 +177,6 @@
     {
       "id": "suneyes-12",
       "url": "H264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -202,7 +190,6 @@
     {
       "id": "suneyes-13",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -219,7 +206,6 @@
     {
       "id": "suneyes-14",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -232,7 +218,6 @@
     {
       "id": "suneyes-15",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -243,7 +228,6 @@
     {
       "id": "suneyes-16",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -253,7 +237,6 @@
     {
       "id": "suneyes-17",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -266,7 +249,6 @@
     {
       "id": "suneyes-18",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -282,7 +264,6 @@
     {
       "id": "suneyes-19",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -298,7 +279,6 @@
     {
       "id": "suneyes-20",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -308,7 +288,6 @@
     {
       "id": "suneyes-21",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -321,7 +300,6 @@
     {
       "id": "suneyes-22",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -333,7 +311,6 @@
     {
       "id": "suneyes-23",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -344,7 +321,6 @@
     {
       "id": "suneyes-24",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -354,7 +330,6 @@
     {
       "id": "suneyes-25",
       "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

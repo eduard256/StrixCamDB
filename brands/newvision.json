@@ -6,7 +6,6 @@
     {
       "id": "newvision-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "newvision-2",
       "url": "/tmpfs/auto.jpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

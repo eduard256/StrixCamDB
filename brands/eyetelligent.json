@@ -6,7 +6,6 @@
     {
       "id": "eyetelligent-1",
       "url": "images/webcam.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

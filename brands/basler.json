@@ -6,7 +6,6 @@
     {
       "id": "basler-1",
       "url": "/cgi-bin/mjpeg?session_id=0&buffer=0&prio=high&frame=4",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "basler-2",
       "url": "cgi-bin/mjpeg?session_id=[CHANNEL]&buffer=0&prio=high&frame=4",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "basler-3",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "basler-4",
       "url": "h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -53,7 +49,6 @@
     {
       "id": "basler-5",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -64,7 +59,6 @@
     {
       "id": "basler-6",
       "url": "cgi-bin/jpeg?stream=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -77,7 +71,6 @@
     {
       "id": "basler-7",
       "url": "cgi-bin/mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -90,7 +83,6 @@
     {
       "id": "basler-8",
       "url": "jpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -101,7 +93,6 @@
     {
       "id": "basler-9",
       "url": "cgi-bin/jpeg?session_id=[CHANNEL]&buffer=0&prio=high&frame=4",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -112,7 +103,6 @@
     {
       "id": "basler-10",
       "url": "cgi-bin/mjpeg?stream=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

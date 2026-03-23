@@ -6,7 +6,6 @@
     {
       "id": "simi-ip-camera-viewer-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "simi-ip-camera-viewer-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "simi-ip-camera-viewer-3",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -46,7 +43,6 @@
     {
       "id": "simi-ip-camera-viewer-4",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "simi-ip-camera-viewer-5",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -66,7 +61,6 @@
     {
       "id": "simi-ip-camera-viewer-6",
       "url": "goform/video2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -76,7 +70,6 @@
     {
       "id": "simi-ip-camera-viewer-7",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +79,6 @@
     {
       "id": "simi-ip-camera-viewer-8",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "wisenet-1",
       "url": "/profile3/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "wisenet-2",
       "url": "/profile2/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "wisenet-3",
       "url": "/onvif/profile2/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "wisenet-4",
       "url": "/onvif/profile1/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -55,7 +51,6 @@
     {
       "id": "wisenet-5",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 1935,
       "models": [
@@ -69,7 +64,6 @@
     {
       "id": "wisenet-6",
       "url": "/cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -80,7 +74,6 @@
     {
       "id": "wisenet-7",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8282,
       "models": [
@@ -90,7 +83,6 @@
     {
       "id": "wisenet-8",
       "url": "/HighResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -100,7 +92,6 @@
     {
       "id": "wisenet-9",
       "url": "/stw-cgi/video.cgi?msubmenu=snapshot&action=view",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10001,
       "models": [
@@ -111,7 +102,6 @@
     {
       "id": "wisenet-10",
       "url": "/stw-cgi/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10001,
       "models": [
@@ -121,7 +111,6 @@
     {
       "id": "wisenet-11",
       "url": "/mjpg/1/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -131,7 +120,6 @@
     {
       "id": "wisenet-12",
       "url": "/axis-media/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -142,7 +130,6 @@
     {
       "id": "wisenet-13",
       "url": "/0/onvif/profile2/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "pembroke-1",
       "url": "/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

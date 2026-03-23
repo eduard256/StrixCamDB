@@ -6,7 +6,6 @@
     {
       "id": "aliendvr-1",
       "url": "/Streaming/Channels/[CHANNEL+1]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "aliendvr-2",
       "url": "/Streaming/Channels/[CHANNEL]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "aliendvr-3",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

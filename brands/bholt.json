@@ -6,7 +6,6 @@
     {
       "id": "bholt-1",
       "url": "ipcam/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

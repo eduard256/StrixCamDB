@@ -6,7 +6,6 @@
     {
       "id": "mibao-1",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "mibao-2",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "mibao-3",
       "url": "/Streaming/Channels/01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "mibao-4",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "mibao-5",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "mibao-6",
       "url": "/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -67,7 +61,6 @@
     {
       "id": "mibao-7",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -77,7 +70,6 @@
     {
       "id": "mibao-8",
       "url": "/live/ch1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

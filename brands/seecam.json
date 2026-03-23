@@ -6,7 +6,6 @@
     {
       "id": "seecam-1",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

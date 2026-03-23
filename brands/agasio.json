@@ -6,7 +6,6 @@
     {
       "id": "agasio-1",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "agasio-2",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "agasio-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -55,7 +52,6 @@
     {
       "id": "agasio-4",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -67,7 +63,6 @@
     {
       "id": "agasio-5",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +84,6 @@
     {
       "id": "agasio-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -121,7 +115,6 @@
     {
       "id": "agasio-7",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -140,7 +133,6 @@
     {
       "id": "agasio-8",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -155,7 +147,6 @@
     {
       "id": "agasio-9",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -174,7 +165,6 @@
     {
       "id": "agasio-10",
       "url": "videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -185,7 +175,6 @@
     {
       "id": "agasio-11",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -198,7 +187,6 @@
     {
       "id": "agasio-12",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -210,7 +198,6 @@
     {
       "id": "agasio-13",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -224,7 +211,6 @@
     {
       "id": "agasio-14",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -237,7 +223,6 @@
     {
       "id": "agasio-15",
       "url": "/media/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -248,7 +233,6 @@
     {
       "id": "agasio-16",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -258,7 +242,6 @@
     {
       "id": "agasio-17",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -270,7 +253,6 @@
     {
       "id": "agasio-18",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -282,7 +264,6 @@
     {
       "id": "agasio-19",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -294,7 +275,6 @@
     {
       "id": "agasio-20",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -304,7 +284,6 @@
     {
       "id": "agasio-21",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -317,7 +296,6 @@
     {
       "id": "agasio-22",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -328,7 +306,6 @@
     {
       "id": "agasio-23",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -340,7 +317,6 @@
     {
       "id": "agasio-24",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -352,7 +328,6 @@
     {
       "id": "agasio-25",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -362,7 +337,6 @@
     {
       "id": "agasio-26",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -372,7 +346,6 @@
     {
       "id": "agasio-27",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ipcmontor-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "ipcmontor-2",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "ipcmontor-3",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "ipcmontor-4",
       "url": "snap.jpg?JpegSize=M",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "ipcmontor-5",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "ipcmontor-6",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -67,7 +61,6 @@
     {
       "id": "ipcmontor-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -77,7 +70,6 @@
     {
       "id": "ipcmontor-8",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

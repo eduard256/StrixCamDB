@@ -6,7 +6,6 @@
     {
       "id": "velleman-1",
       "url": "cgi-bin/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "velleman-2",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "velleman-3",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "velleman-4",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "velleman-5",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "velleman-6",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

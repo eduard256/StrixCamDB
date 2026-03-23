@@ -6,7 +6,6 @@
     {
       "id": "dizink-1",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

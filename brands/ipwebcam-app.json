@@ -6,7 +6,6 @@
     {
       "id": "ipwebcam-app-1",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ipwebcam-app-2",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "ipwebcam-app-3",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

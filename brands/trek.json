@@ -6,7 +6,6 @@
     {
       "id": "trek-1",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "trek-2",
       "url": "?action=snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "trek-3",
       "url": "?action=appletvstream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "trek-4",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

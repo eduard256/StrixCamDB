@@ -6,7 +6,6 @@
     {
       "id": "jmk-1",
       "url": "cgi/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "jmk-2",
       "url": "cgi-bin/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "jmk-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +44,6 @@
     {
       "id": "jmk-4",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +53,6 @@
     {
       "id": "jmk-5",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

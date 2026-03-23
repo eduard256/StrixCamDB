@@ -6,7 +6,6 @@
     {
       "id": "alecto-1",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +28,6 @@
     {
       "id": "alecto-2",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -48,7 +46,6 @@
     {
       "id": "alecto-3",
       "url": "live/av0?user=[USERNAME]&passwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -76,7 +73,6 @@
     {
       "id": "alecto-4",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -95,7 +91,6 @@
     {
       "id": "alecto-5",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -108,7 +103,6 @@
     {
       "id": "alecto-6",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -122,7 +116,6 @@
     {
       "id": "alecto-7",
       "url": "/videostream.cgi?rate=11",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -132,7 +125,6 @@
     {
       "id": "alecto-8",
       "url": "/11d=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -142,7 +134,6 @@
     {
       "id": "alecto-9",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -154,7 +145,6 @@
     {
       "id": "alecto-10",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -165,7 +155,6 @@
     {
       "id": "alecto-11",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -176,7 +165,6 @@
     {
       "id": "alecto-12",
       "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -187,7 +175,6 @@
     {
       "id": "alecto-13",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -197,7 +184,6 @@
     {
       "id": "alecto-14",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -207,7 +193,6 @@
     {
       "id": "alecto-15",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -218,7 +203,6 @@
     {
       "id": "alecto-16",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -229,7 +213,6 @@
     {
       "id": "alecto-17",
       "url": "/live/av0?user=[USERNAME]&passwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

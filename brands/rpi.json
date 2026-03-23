@@ -6,7 +6,6 @@
     {
       "id": "rpi-1",
       "url": "/stream.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8000,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "rpi-2",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "rpi-3",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "rpi-4",
       "url": "/video.mjpg?oids=1&username=[USERNAME]&password=[USERNAME]pass&balls=balls5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "netcam-1",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -115,7 +114,6 @@
     {
       "id": "netcam-2",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -133,7 +131,6 @@
     {
       "id": "netcam-3",
       "url": "/tcp/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -160,7 +157,6 @@
     {
       "id": "netcam-4",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -176,7 +172,6 @@
     {
       "id": "netcam-5",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -186,7 +181,6 @@
     {
       "id": "netcam-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -198,7 +192,6 @@
     {
       "id": "netcam-7",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -217,7 +210,6 @@
     {
       "id": "netcam-8",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -233,7 +225,6 @@
     {
       "id": "netcam-9",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -244,7 +235,6 @@
     {
       "id": "netcam-10",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -256,7 +246,6 @@
     {
       "id": "netcam-11",
       "url": "[CHANNEL]/1:1/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -268,7 +257,6 @@
     {
       "id": "netcam-12",
       "url": "jpeg/qvga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -279,7 +267,6 @@
     {
       "id": "netcam-13",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -289,7 +276,6 @@
     {
       "id": "netcam-14",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -300,7 +286,6 @@
     {
       "id": "netcam-15",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -317,7 +302,6 @@
     {
       "id": "netcam-16",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -327,7 +311,6 @@
     {
       "id": "netcam-17",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -337,7 +320,6 @@
     {
       "id": "netcam-18",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -347,7 +329,6 @@
     {
       "id": "netcam-19",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -357,7 +338,6 @@
     {
       "id": "netcam-20",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -367,7 +347,6 @@
     {
       "id": "netcam-21",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -377,7 +356,6 @@
     {
       "id": "netcam-22",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 10554,
       "models": [

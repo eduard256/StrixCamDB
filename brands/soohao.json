@@ -6,7 +6,6 @@
     {
       "id": "soohao-1",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

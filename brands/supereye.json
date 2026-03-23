@@ -6,7 +6,6 @@
     {
       "id": "supereye-1",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "supereye-2",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "supereye-3",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1&authBasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "supereye-4",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "supereye-5",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "supereye-6",
       "url": "/cam/realmonitor?channel=0&subtype=1&authBasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -67,7 +61,6 @@
     {
       "id": "supereye-7",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -78,7 +71,6 @@
     {
       "id": "supereye-8",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -88,7 +80,6 @@
     {
       "id": "supereye-9",
       "url": "/cam/realmonitor?channel=0&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -98,7 +89,6 @@
     {
       "id": "supereye-10",
       "url": "/cam/realmonitor?channel=554&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

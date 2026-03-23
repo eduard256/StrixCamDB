@@ -6,7 +6,6 @@
     {
       "id": "ezviz-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -84,7 +83,6 @@
     {
       "id": "ezviz-2",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -166,7 +164,6 @@
     {
       "id": "ezviz-3",
       "url": "/channel1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -195,7 +192,6 @@
     {
       "id": "ezviz-4",
       "url": "/H.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -276,7 +272,6 @@
     {
       "id": "ezviz-5",
       "url": "/H_264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -292,7 +287,6 @@
     {
       "id": "ezviz-6",
       "url": "/h265_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -312,7 +306,6 @@
     {
       "id": "ezviz-7",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -388,7 +381,6 @@
     {
       "id": "ezviz-8",
       "url": "/Channel/01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -404,7 +396,6 @@
     {
       "id": "ezviz-9",
       "url": "/h.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -426,7 +417,6 @@
     {
       "id": "ezviz-10",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -440,7 +430,6 @@
     {
       "id": "ezviz-11",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -460,7 +449,6 @@
     {
       "id": "ezviz-12",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -487,7 +475,6 @@
     {
       "id": "ezviz-13",
       "url": "/channel0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -511,7 +498,6 @@
     {
       "id": "ezviz-14",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -529,7 +515,6 @@
     {
       "id": "ezviz-15",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -547,7 +532,6 @@
     {
       "id": "ezviz-16",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -573,7 +557,6 @@
     {
       "id": "ezviz-17",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -585,7 +568,6 @@
     {
       "id": "ezviz-18",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -596,7 +578,6 @@
     {
       "id": "ezviz-19",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -617,7 +598,6 @@
     {
       "id": "ezviz-20",
       "url": "/h_264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -628,7 +608,6 @@
     {
       "id": "ezviz-21",
       "url": "/channel80",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -639,7 +618,6 @@
     {
       "id": "ezviz-22",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -660,7 +638,6 @@
     {
       "id": "ezviz-23",
       "url": "/h264/ch1/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -674,7 +651,6 @@
     {
       "id": "ezviz-24",
       "url": "/H.265",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -699,7 +675,6 @@
     {
       "id": "ezviz-25",
       "url": "/stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -710,7 +685,6 @@
     {
       "id": "ezviz-26",
       "url": "/cam0/mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -720,7 +694,6 @@
     {
       "id": "ezviz-27",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -733,7 +706,6 @@
     {
       "id": "ezviz-28",
       "url": "/Streaming/channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -747,7 +719,6 @@
     {
       "id": "ezviz-29",
       "url": "channel[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -761,7 +732,6 @@
     {
       "id": "ezviz-30",
       "url": "//Channel/01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -772,7 +742,6 @@
     {
       "id": "ezviz-31",
       "url": "/h.264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -786,7 +755,6 @@
     {
       "id": "ezviz-32",
       "url": "/h264_hd.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -796,7 +764,6 @@
     {
       "id": "ezviz-33",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -806,7 +773,6 @@
     {
       "id": "ezviz-34",
       "url": "/h.265",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -826,7 +792,6 @@
     {
       "id": "ezviz-35",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -838,7 +803,6 @@
     {
       "id": "ezviz-36",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -849,7 +813,6 @@
     {
       "id": "ezviz-37",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -860,7 +823,6 @@
     {
       "id": "ezviz-38",
       "url": "/channel2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -870,7 +832,6 @@
     {
       "id": "ezviz-39",
       "url": "/ch1/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -881,7 +842,6 @@
     {
       "id": "ezviz-40",
       "url": "/onvif/live/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -893,7 +853,6 @@
     {
       "id": "ezviz-41",
       "url": "/h265",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -907,7 +866,6 @@
     {
       "id": "ezviz-42",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -917,7 +875,6 @@
     {
       "id": "ezviz-43",
       "url": "/HighResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -928,7 +885,6 @@
     {
       "id": "ezviz-44",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -938,7 +894,6 @@
     {
       "id": "ezviz-45",
       "url": "/Streaming/Channels/101?transportmode=unicast&profile=Profile_2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -948,7 +903,6 @@
     {
       "id": "ezviz-46",
       "url": "/Streaming/Channels/101?transportmode=unicast&profile=Profile_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -958,7 +912,6 @@
     {
       "id": "ezviz-47",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -968,7 +921,6 @@
     {
       "id": "ezviz-48",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -979,7 +931,6 @@
     {
       "id": "ezviz-49",
       "url": "/live_mpeg4.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -989,7 +940,6 @@
     {
       "id": "ezviz-50",
       "url": "/live/h264_ulaw/HD720P",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -999,7 +949,6 @@
     {
       "id": "ezviz-51",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1009,7 +958,6 @@
     {
       "id": "ezviz-52",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1019,7 +967,6 @@
     {
       "id": "ezviz-53",
       "url": "/cam101/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1029,7 +976,6 @@
     {
       "id": "ezviz-54",
       "url": "/av_stream/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1039,7 +985,6 @@
     {
       "id": "ezviz-55",
       "url": "/h264/ch1/sub/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1049,7 +994,6 @@
     {
       "id": "ezviz-56",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1059,7 +1003,6 @@
     {
       "id": "ezviz-57",
       "url": "/streaming/Channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1069,7 +1012,6 @@
     {
       "id": "ezviz-58",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1079,7 +1021,6 @@
     {
       "id": "ezviz-59",
       "url": "/h265Preview_01_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1089,7 +1030,6 @@
     {
       "id": "ezviz-60",
       "url": "/cam1/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1099,7 +1039,6 @@
     {
       "id": "ezviz-61",
       "url": "/cam0/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

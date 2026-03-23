@@ -6,7 +6,6 @@
     {
       "id": "aes-1",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "aes-2",
       "url": "/rtsp_live0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

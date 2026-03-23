@@ -6,7 +6,6 @@
     {
       "id": "alliede-1",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "alliede-2",
       "url": "0/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "alliede-3",
       "url": "[CHANNEL]/1:1/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

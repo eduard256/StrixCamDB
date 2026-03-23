@@ -6,7 +6,6 @@
     {
       "id": "jvc-1",
       "url": "api/video?encode=jpeg&framerate=2&boundary=on",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +25,6 @@
     {
       "id": "jvc-2",
       "url": "/livestream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -39,7 +37,6 @@
     {
       "id": "jvc-3",
       "url": "api/video?encode=jpeg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +53,6 @@
     {
       "id": "jvc-4",
       "url": "still.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -68,7 +64,6 @@
     {
       "id": "jvc-5",
       "url": "java.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +77,6 @@
     {
       "id": "jvc-6",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -97,7 +91,6 @@
     {
       "id": "jvc-7",
       "url": "api/video?encode=jpeg&framerate=15&boundary=on",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -114,7 +107,6 @@
     {
       "id": "jvc-8",
       "url": "PSIA/Streaming/channels/0?videoCodecType=H.264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -127,7 +119,6 @@
     {
       "id": "jvc-9",
       "url": "PSIA/Streaming/channels/[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -142,7 +133,6 @@
     {
       "id": "jvc-10",
       "url": "/ch01_sub.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -152,7 +142,6 @@
     {
       "id": "jvc-11",
       "url": "api/video?encode=h264(1)",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -166,7 +155,6 @@
     {
       "id": "jvc-12",
       "url": "video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -178,7 +166,6 @@
     {
       "id": "jvc-13",
       "url": "/api/video?encode=jpeg&framerate=2&boundary=on",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -190,7 +177,6 @@
     {
       "id": "jvc-14",
       "url": "/api/video?encode=jpeg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -200,7 +186,6 @@
     {
       "id": "jvc-15",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -212,7 +197,6 @@
     {
       "id": "jvc-16",
       "url": "cgi-bin/view/image?pro_[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -222,7 +206,6 @@
     {
       "id": "jvc-17",
       "url": "PSIA/Streaming/channels/[CHANNEL]?maxFrameRate=15",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -233,7 +216,6 @@
     {
       "id": "jvc-18",
       "url": "/PSIA/Streaming/channels/0?videoCodecType=H.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -243,7 +225,6 @@
     {
       "id": "jvc-19",
       "url": "/ONVIF/Streaming/channels/0_a/unicast",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -253,7 +234,6 @@
     {
       "id": "jvc-20",
       "url": "1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -264,7 +244,6 @@
     {
       "id": "jvc-21",
       "url": "cgi-bin/getstream.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -274,7 +253,6 @@
     {
       "id": "jvc-22",
       "url": "cgi-bin/getstream.cgi?VideoType=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -284,7 +262,6 @@
     {
       "id": "jvc-23",
       "url": "cam[CHANNEL]/mjpeg",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -294,7 +271,6 @@
     {
       "id": "jvc-24",
       "url": "v03",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -304,7 +280,6 @@
     {
       "id": "jvc-25",
       "url": "v02",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -314,7 +289,6 @@
     {
       "id": "jvc-26",
       "url": "rtsph2641080p",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -324,7 +298,6 @@
     {
       "id": "jvc-27",
       "url": "VideoInput/[CHANNEL]/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -334,7 +307,6 @@
     {
       "id": "jvc-28",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -344,7 +316,6 @@
     {
       "id": "jvc-29",
       "url": "h264.sdp?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -354,7 +325,6 @@
     {
       "id": "jvc-30",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -364,7 +334,6 @@
     {
       "id": "jvc-31",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

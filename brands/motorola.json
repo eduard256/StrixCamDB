@@ -6,7 +6,6 @@
     {
       "id": "motorola-1",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -33,7 +32,6 @@
     {
       "id": "motorola-2",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -51,7 +49,6 @@
     {
       "id": "motorola-3",
       "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -93,7 +90,6 @@
     {
       "id": "motorola-4",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -144,7 +140,6 @@
     {
       "id": "motorola-5",
       "url": "image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -155,7 +150,6 @@
     {
       "id": "motorola-6",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -166,7 +160,6 @@
     {
       "id": "motorola-7",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -202,7 +195,6 @@
     {
       "id": "motorola-8",
       "url": "axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -225,7 +217,6 @@
     {
       "id": "motorola-9",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -239,7 +230,6 @@
     {
       "id": "motorola-10",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -261,7 +251,6 @@
     {
       "id": "motorola-11",
       "url": "-wvhttp-01-/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -282,7 +271,6 @@
     {
       "id": "motorola-12",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -301,7 +289,6 @@
     {
       "id": "motorola-13",
       "url": "?action=appletvstream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -314,7 +301,6 @@
     {
       "id": "motorola-14",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -328,7 +314,6 @@
     {
       "id": "motorola-15",
       "url": "?action=snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -342,7 +327,6 @@
     {
       "id": "motorola-16",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -356,7 +340,6 @@
     {
       "id": "motorola-17",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -378,7 +361,6 @@
     {
       "id": "motorola-18",
       "url": "image.cgi?type=motion&camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -396,7 +378,6 @@
     {
       "id": "motorola-19",
       "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -414,7 +395,6 @@
     {
       "id": "motorola-20",
       "url": "image.cgi?type=motion",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -430,7 +410,6 @@
     {
       "id": "motorola-21",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -447,7 +426,6 @@
     {
       "id": "motorola-22",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -464,7 +442,6 @@
     {
       "id": "motorola-23",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -482,7 +459,6 @@
     {
       "id": "motorola-24",
       "url": "/h264_ulaw.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8888,
       "models": [
@@ -492,7 +468,6 @@
     {
       "id": "motorola-25",
       "url": "jpeg/qvga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -502,7 +477,6 @@
     {
       "id": "motorola-26",
       "url": "/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -514,7 +488,6 @@
     {
       "id": "motorola-27",
       "url": "/video?profile=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -525,7 +498,6 @@
     {
       "id": "motorola-28",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -542,7 +514,6 @@
     {
       "id": "motorola-29",
       "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -556,7 +527,6 @@
     {
       "id": "motorola-30",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -570,7 +540,6 @@
     {
       "id": "motorola-31",
       "url": "cgi-bin/jpg/image.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -581,7 +550,6 @@
     {
       "id": "motorola-32",
       "url": "[CHANNEL]/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -593,7 +561,6 @@
     {
       "id": "motorola-33",
       "url": "/videostream.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -603,7 +570,6 @@
     {
       "id": "motorola-34",
       "url": "/blinkhd",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 6667,
       "models": [
@@ -615,7 +581,6 @@
     {
       "id": "motorola-35",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -625,7 +590,6 @@
     {
       "id": "motorola-36",
       "url": "/video.cgi?resolution=VGA",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -637,7 +601,6 @@
     {
       "id": "motorola-37",
       "url": "/media/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -651,7 +614,6 @@
     {
       "id": "motorola-38",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -663,7 +625,6 @@
     {
       "id": "motorola-39",
       "url": "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -673,7 +634,6 @@
     {
       "id": "motorola-40",
       "url": "/blinkhd/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 6667,
       "models": [
@@ -683,7 +643,6 @@
     {
       "id": "motorola-41",
       "url": "/h264_pcm.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8080,
       "models": [
@@ -693,7 +652,6 @@
     {
       "id": "motorola-42",
       "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -703,7 +661,6 @@
     {
       "id": "motorola-43",
       "url": "now.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -713,7 +670,6 @@
     {
       "id": "motorola-44",
       "url": "/videofeed",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -724,7 +680,6 @@
     {
       "id": "motorola-45",
       "url": "image.cgi?img=ch[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

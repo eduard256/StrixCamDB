@@ -6,7 +6,6 @@
     {
       "id": "optivision-1",
       "url": "ivop.get?action=live&THREAD_ID=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "optivision-2",
       "url": "jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "optivision-3",
       "url": "/Streaming/Channels/3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

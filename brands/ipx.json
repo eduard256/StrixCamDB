@@ -6,7 +6,6 @@
     {
       "id": "ipx-1",
       "url": "ipcam/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ipx-2",
       "url": "camera.stm",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "ipx-3",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "ipx-4",
       "url": "/?Video=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8050,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "ipx-5",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "ipx-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -67,7 +61,6 @@
     {
       "id": "ipx-7",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -77,7 +70,6 @@
     {
       "id": "ipx-8",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -87,7 +79,6 @@
     {
       "id": "ipx-9",
       "url": "screen.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -97,7 +88,6 @@
     {
       "id": "ipx-10",
       "url": "current[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -107,7 +97,6 @@
     {
       "id": "ipx-11",
       "url": "jpg/1/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -117,7 +106,6 @@
     {
       "id": "ipx-12",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -127,7 +115,6 @@
     {
       "id": "ipx-13",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -137,7 +124,6 @@
     {
       "id": "ipx-14",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -147,7 +133,6 @@
     {
       "id": "ipx-15",
       "url": "capture[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -157,7 +142,6 @@
     {
       "id": "ipx-16",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -167,7 +151,6 @@
     {
       "id": "ipx-17",
       "url": "cgi-bin/image640x480.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +160,6 @@
     {
       "id": "ipx-18",
       "url": "control/faststream.jpg?stream=full",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -187,7 +169,6 @@
     {
       "id": "ipx-19",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

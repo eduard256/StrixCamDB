@@ -6,7 +6,6 @@
     {
       "id": "cacagoo-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "cacagoo-2",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

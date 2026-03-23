@@ -6,7 +6,6 @@
     {
       "id": "easyn-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -112,7 +111,6 @@
     {
       "id": "easyn-2",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -153,7 +151,6 @@
     {
       "id": "easyn-3",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -168,7 +165,6 @@
     {
       "id": "easyn-4",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -185,7 +181,6 @@
     {
       "id": "easyn-5",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -254,7 +249,6 @@
     {
       "id": "easyn-6",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -285,7 +279,6 @@
     {
       "id": "easyn-7",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -324,7 +317,6 @@
     {
       "id": "easyn-8",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -366,7 +358,6 @@
     {
       "id": "easyn-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -419,7 +410,6 @@
     {
       "id": "easyn-10",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -448,7 +438,6 @@
     {
       "id": "easyn-11",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -486,7 +475,6 @@
     {
       "id": "easyn-12",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -515,7 +503,6 @@
     {
       "id": "easyn-13",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -543,7 +530,6 @@
     {
       "id": "easyn-14",
       "url": "live_h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -566,7 +552,6 @@
     {
       "id": "easyn-15",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -588,7 +573,6 @@
     {
       "id": "easyn-16",
       "url": "11",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -602,7 +586,6 @@
     {
       "id": "easyn-17",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -622,7 +605,6 @@
     {
       "id": "easyn-18",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -633,7 +615,6 @@
     {
       "id": "easyn-19",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -648,7 +629,6 @@
     {
       "id": "easyn-20",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -668,7 +648,6 @@
     {
       "id": "easyn-21",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -679,7 +658,6 @@
     {
       "id": "easyn-22",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -691,7 +669,6 @@
     {
       "id": "easyn-23",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -702,7 +679,6 @@
     {
       "id": "easyn-24",
       "url": "/videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -712,7 +688,6 @@
     {
       "id": "easyn-25",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -723,7 +698,6 @@
     {
       "id": "easyn-26",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -733,7 +707,6 @@
     {
       "id": "easyn-27",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -745,7 +718,6 @@
     {
       "id": "easyn-28",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -776,7 +748,6 @@
     {
       "id": "easyn-29",
       "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -789,7 +760,6 @@
     {
       "id": "easyn-30",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -821,7 +791,6 @@
     {
       "id": "easyn-31",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -845,7 +814,6 @@
     {
       "id": "easyn-32",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -866,7 +834,6 @@
     {
       "id": "easyn-33",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -880,7 +847,6 @@
     {
       "id": "easyn-34",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -892,7 +858,6 @@
     {
       "id": "easyn-35",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -913,7 +878,6 @@
     {
       "id": "easyn-36",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -932,7 +896,6 @@
     {
       "id": "easyn-37",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -947,7 +910,6 @@
     {
       "id": "easyn-38",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -965,7 +927,6 @@
     {
       "id": "easyn-39",
       "url": "/videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -975,7 +936,6 @@
     {
       "id": "easyn-40",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -990,7 +950,6 @@
     {
       "id": "easyn-41",
       "url": "/video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1000,7 +959,6 @@
     {
       "id": "easyn-42",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1024,7 +982,6 @@
     {
       "id": "easyn-43",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1034,7 +991,6 @@
     {
       "id": "easyn-44",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1046,7 +1002,6 @@
     {
       "id": "easyn-45",
       "url": "video/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1056,7 +1011,6 @@
     {
       "id": "easyn-46",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1068,7 +1022,6 @@
     {
       "id": "easyn-47",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1080,7 +1033,6 @@
     {
       "id": "easyn-48",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1092,7 +1044,6 @@
     {
       "id": "easyn-49",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1103,7 +1054,6 @@
     {
       "id": "easyn-50",
       "url": "vdata.v",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1114,7 +1064,6 @@
     {
       "id": "easyn-51",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1126,7 +1075,6 @@
     {
       "id": "easyn-52",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1136,7 +1084,6 @@
     {
       "id": "easyn-53",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 91,
       "models": [
@@ -1148,7 +1095,6 @@
     {
       "id": "easyn-54",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1158,7 +1104,6 @@
     {
       "id": "easyn-55",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8085,
       "models": [
@@ -1168,7 +1113,6 @@
     {
       "id": "easyn-56",
       "url": "video.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1178,7 +1122,6 @@
     {
       "id": "easyn-57",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1188,7 +1131,6 @@
     {
       "id": "easyn-58",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1198,7 +1140,6 @@
     {
       "id": "easyn-59",
       "url": "12",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1208,7 +1149,6 @@
     {
       "id": "easyn-60",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 554,
       "models": [
@@ -1219,7 +1159,6 @@
     {
       "id": "easyn-61",
       "url": "H264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1235,7 +1174,6 @@
     {
       "id": "easyn-62",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1246,7 +1184,6 @@
     {
       "id": "easyn-63",
       "url": "nphMotionJpeg?Resolution=640x480&Quality=Standard",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1256,7 +1193,6 @@
     {
       "id": "easyn-64",
       "url": "0/video[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1266,7 +1202,6 @@
     {
       "id": "easyn-65",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -1276,7 +1211,6 @@
     {
       "id": "easyn-66",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1286,7 +1220,6 @@
     {
       "id": "easyn-67",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -1296,7 +1229,6 @@
     {
       "id": "easyn-68",
       "url": "/cam1/onvif-h264-1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1306,7 +1238,6 @@
     {
       "id": "easyn-69",
       "url": "now.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1316,7 +1247,6 @@
     {
       "id": "easyn-70",
       "url": "mjpg/[CHANNEL]/video.mjpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1326,7 +1256,6 @@
     {
       "id": "easyn-71",
       "url": "[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1336,7 +1265,6 @@
     {
       "id": "easyn-72",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1346,7 +1274,6 @@
     {
       "id": "easyn-73",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=640*480",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

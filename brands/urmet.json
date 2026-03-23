@@ -6,7 +6,6 @@
     {
       "id": "urmet-1",
       "url": "/v01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "urmet-2",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "urmet-3",
       "url": "/stremming1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "urmet-4",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "urmet-5",
       "url": "VideoInput/[CHANNEL]/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

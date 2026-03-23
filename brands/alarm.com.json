@@ -6,7 +6,6 @@
     {
       "id": "alarm.com-1",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8554,
       "models": [
@@ -30,7 +29,6 @@
     {
       "id": "alarm.com-2",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1026,
       "models": [
@@ -62,7 +60,6 @@
     {
       "id": "alarm.com-3",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -79,7 +76,6 @@
     {
       "id": "alarm.com-4",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -97,7 +93,6 @@
     {
       "id": "alarm.com-5",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -109,7 +104,6 @@
     {
       "id": "alarm.com-6",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -121,7 +115,6 @@
     {
       "id": "alarm.com-7",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -133,7 +126,6 @@
     {
       "id": "alarm.com-8",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -144,7 +136,6 @@
     {
       "id": "alarm.com-9",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 0,
       "models": [
@@ -154,7 +145,6 @@
     {
       "id": "alarm.com-10",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

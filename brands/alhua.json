@@ -6,7 +6,6 @@
     {
       "id": "alhua-1",
       "url": "live",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "alhua-2",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "alhua-3",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -70,7 +67,6 @@
     {
       "id": "alhua-4",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -85,7 +81,6 @@
     {
       "id": "alhua-5",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +119,6 @@
     {
       "id": "alhua-6",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -139,7 +133,6 @@
     {
       "id": "alhua-7",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -164,7 +157,6 @@
     {
       "id": "alhua-8",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -183,7 +175,6 @@
     {
       "id": "alhua-9",
       "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -196,7 +187,6 @@
     {
       "id": "alhua-10",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -212,7 +202,6 @@
     {
       "id": "alhua-11",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1554,
       "models": [
@@ -222,7 +211,6 @@
     {
       "id": "alhua-12",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -233,7 +221,6 @@
     {
       "id": "alhua-13",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46MzIyMzExNjEzMVNoYXl0YW4=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -244,7 +231,6 @@
     {
       "id": "alhua-14",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -257,7 +243,6 @@
     {
       "id": "alhua-15",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -267,7 +252,6 @@
     {
       "id": "alhua-16",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -277,7 +261,6 @@
     {
       "id": "alhua-17",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -288,7 +271,6 @@
     {
       "id": "alhua-18",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -298,7 +280,6 @@
     {
       "id": "alhua-19",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

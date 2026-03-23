@@ -6,7 +6,6 @@
     {
       "id": "zodiac-security-1",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "zodiac-security-2",
       "url": "/videostream.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]&audiostream=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "zodiac-security-3",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "serage-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

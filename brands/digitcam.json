@@ -6,7 +6,6 @@
     {
       "id": "digitcam-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "digitcam-2",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "digitcam-3",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "digitcam-4",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "digitcam-5",
       "url": "snap.jpg?JpegSize=M",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

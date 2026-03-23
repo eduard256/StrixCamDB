@@ -6,7 +6,6 @@
     {
       "id": "nas-1",
       "url": "/live/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

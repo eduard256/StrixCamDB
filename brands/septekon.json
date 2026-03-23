@@ -6,7 +6,6 @@
     {
       "id": "septekon-1",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "septekon-2",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1000,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "septekon-3",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [

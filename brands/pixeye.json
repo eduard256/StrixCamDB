@@ -6,7 +6,6 @@
     {
       "id": "pixeye-1",
       "url": "cgi-bin/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "bardi-1",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "bardi-2",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

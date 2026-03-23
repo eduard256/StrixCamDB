@@ -6,7 +6,6 @@
     {
       "id": "shamim-1",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "shamim-2",
       "url": "/media/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "simshine-1",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

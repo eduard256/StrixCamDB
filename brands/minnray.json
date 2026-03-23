@@ -6,7 +6,6 @@
     {
       "id": "minnray-1",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

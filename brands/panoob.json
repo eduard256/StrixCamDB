@@ -6,7 +6,6 @@
     {
       "id": "panoob-1",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "panoob-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "panoob-3",
       "url": "/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

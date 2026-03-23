@@ -6,7 +6,6 @@
     {
       "id": "embedded-net-dvr-1",
       "url": "/Streaming/channels/702",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "embedded-net-dvr-2",
       "url": "/Streaming/Unicast/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8002,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "embedded-net-dvr-3",
       "url": "/Streaming/Unicast/channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8002,
       "models": [
@@ -46,7 +43,6 @@
     {
       "id": "embedded-net-dvr-4",
       "url": "/Streaming/Unicast/channels/1301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "embedded-net-dvr-5",
       "url": "/Streaming/Unicast/channels/401",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -67,7 +62,6 @@
     {
       "id": "embedded-net-dvr-6",
       "url": "/Streaming/Unicast/channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -78,7 +72,6 @@
     {
       "id": "embedded-net-dvr-7",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -97,7 +90,6 @@
     {
       "id": "embedded-net-dvr-8",
       "url": "/Streaming/channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -112,7 +104,6 @@
     {
       "id": "embedded-net-dvr-9",
       "url": "/Streaming/channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -125,7 +116,6 @@
     {
       "id": "embedded-net-dvr-10",
       "url": "/Streaming/Unicast/channels/501",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -135,7 +125,6 @@
     {
       "id": "embedded-net-dvr-11",
       "url": "/Streaming/Unicast/channels/601",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -145,7 +134,6 @@
     {
       "id": "embedded-net-dvr-12",
       "url": "/Streaming/Unicast/channels/701",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -155,7 +143,6 @@
     {
       "id": "embedded-net-dvr-13",
       "url": "/Streaming/Unicast/channels/801",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -165,7 +152,6 @@
     {
       "id": "embedded-net-dvr-14",
       "url": "/Streaming/Unicast/channels/202",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1024,
       "models": [
@@ -175,7 +161,6 @@
     {
       "id": "embedded-net-dvr-15",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -185,7 +170,6 @@
     {
       "id": "embedded-net-dvr-16",
       "url": "/Streaming/channels/402",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -196,7 +180,6 @@
     {
       "id": "embedded-net-dvr-17",
       "url": "/Streaming/channels/202",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -206,7 +189,6 @@
     {
       "id": "embedded-net-dvr-18",
       "url": "/Streaming/channels/401",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -217,7 +199,6 @@
     {
       "id": "embedded-net-dvr-19",
       "url": "/Streaming/channels/501",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -228,7 +209,6 @@
     {
       "id": "embedded-net-dvr-20",
       "url": "/Streaming/channels/601",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -238,7 +218,6 @@
     {
       "id": "embedded-net-dvr-21",
       "url": "/Streaming/channels/502",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -248,7 +227,6 @@
     {
       "id": "embedded-net-dvr-22",
       "url": "/Streaming/channels/802",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

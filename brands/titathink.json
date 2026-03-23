@@ -6,7 +6,6 @@
     {
       "id": "titathink-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "titathink-2",
       "url": "/1.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "titathink-3",
       "url": "/live/0/onvif.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "titathink-4",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -58,7 +54,6 @@
     {
       "id": "titathink-5",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -69,7 +64,6 @@
     {
       "id": "titathink-6",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

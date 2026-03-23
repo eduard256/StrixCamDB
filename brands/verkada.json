@@ -6,7 +6,6 @@
     {
       "id": "verkada-1",
       "url": "/standard",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

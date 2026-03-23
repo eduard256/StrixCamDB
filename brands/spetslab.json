@@ -6,7 +6,6 @@
     {
       "id": "spetslab-1",
       "url": "/mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

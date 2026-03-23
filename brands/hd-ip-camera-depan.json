@@ -6,7 +6,6 @@
     {
       "id": "hd-ip-camera-depan-1",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 8557,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "hd-ip-camera-depan-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

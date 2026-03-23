@@ -6,7 +6,6 @@
     {
       "id": "tsm-1",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "tsm-2",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

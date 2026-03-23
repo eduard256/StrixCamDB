@@ -6,7 +6,6 @@
     {
       "id": "cctvsecuritypros-1",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "cctvsecuritypros-2",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

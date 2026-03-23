@@ -6,7 +6,6 @@
     {
       "id": "geovision-1",
       "url": "/CH002.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -93,7 +92,6 @@
     {
       "id": "geovision-2",
       "url": "/CH001.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -279,7 +277,6 @@
     {
       "id": "geovision-3",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -321,7 +318,6 @@
     {
       "id": "geovision-4",
       "url": "snapshot/view[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -337,7 +333,6 @@
     {
       "id": "geovision-5",
       "url": "/mjpeg?cam=[USERNAME]&IDKey=cfaa5afa-fc84-4c29-bafd-6fa43ef1cd58&time=674724540681",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -347,7 +342,6 @@
     {
       "id": "geovision-6",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -359,7 +353,6 @@
     {
       "id": "geovision-7",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -379,7 +372,6 @@
     {
       "id": "geovision-8",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -389,7 +381,6 @@
     {
       "id": "geovision-9",
       "url": "cam[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -401,7 +392,6 @@
     {
       "id": "geovision-10",
       "url": "CH00[CHANNEL].sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -421,7 +411,6 @@
     {
       "id": "geovision-11",
       "url": "[USERNAME]/cam[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -432,7 +421,6 @@
     {
       "id": "geovision-12",
       "url": "GetImage.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -446,7 +434,6 @@
     {
       "id": "geovision-13",
       "url": "cgi-bin/getimage",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -462,7 +449,6 @@
     {
       "id": "geovision-14",
       "url": "/media/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -482,7 +468,6 @@
     {
       "id": "geovision-15",
       "url": "/PSIA/Streaming/channels/1?videoCodecType=MPEG4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -497,7 +482,6 @@
     {
       "id": "geovision-16",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -512,7 +496,6 @@
     {
       "id": "geovision-17",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -523,7 +506,6 @@
     {
       "id": "geovision-18",
       "url": "/rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -533,7 +515,6 @@
     {
       "id": "geovision-19",
       "url": "PSIA/Streaming/channels/1?videoCodecType=MPEG4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -551,7 +532,6 @@
     {
       "id": "geovision-20",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -561,7 +541,6 @@
     {
       "id": "geovision-21",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -574,7 +553,6 @@
     {
       "id": "geovision-22",
       "url": "/media2/video2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -584,7 +562,6 @@
     {
       "id": "geovision-23",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -597,7 +574,6 @@
     {
       "id": "geovision-24",
       "url": "dms.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -607,7 +583,6 @@
     {
       "id": "geovision-25",
       "url": "/0/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -618,7 +593,6 @@
     {
       "id": "geovision-26",
       "url": "/mjpeg?cam=8&IDKey=7646000c-b634-4941-a4bc-197f6e92fe3a&time=1691500263890",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -628,7 +602,6 @@
     {
       "id": "geovision-27",
       "url": "/mjpeg?cam=9&IDKey=7646000c-b634-4941-a4bc-197f6e92fe3a&time=1691500428125",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -638,7 +611,6 @@
     {
       "id": "geovision-28",
       "url": "/mjpeg?cam=10&IDKey=7646000c-b634-4941-a4bc-197f6e92fe3a&time=1691500492344",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -648,7 +620,6 @@
     {
       "id": "geovision-29",
       "url": "/mjpeg?cam=11&IDKey=7646000c-b634-4941-a4bc-197f6e92fe3a&time=1691500531652",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -658,7 +629,6 @@
     {
       "id": "geovision-30",
       "url": "/mjpeg?cam=12&IDKey=7646000c-b634-4941-a4bc-197f6e92fe3a&time=1691500570470",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -668,7 +638,6 @@
     {
       "id": "geovision-31",
       "url": "/mjpeg?cam=13&IDKey=7646000c-b634-4941-a4bc-197f6e92fe3a&time=1691500638126",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -678,7 +647,6 @@
     {
       "id": "geovision-32",
       "url": "/mjpeg?cam=[USERNAME]&IDKey=cfaa5afa-fc84-4c29-bafd-6fa43ef1cd58&time=[PASSWORD]674724540681",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -688,7 +656,6 @@
     {
       "id": "geovision-33",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -701,7 +668,6 @@
     {
       "id": "geovision-34",
       "url": "/CH000.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -715,7 +681,6 @@
     {
       "id": "geovision-35",
       "url": "//CH001.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -727,7 +692,6 @@
     {
       "id": "geovision-36",
       "url": "out.jpg?id=0.5",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -737,7 +701,6 @@
     {
       "id": "geovision-37",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -747,7 +710,6 @@
     {
       "id": "geovision-38",
       "url": "/CH010.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -757,7 +719,6 @@
     {
       "id": "geovision-39",
       "url": "/CH014.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -767,7 +728,6 @@
     {
       "id": "geovision-40",
       "url": "/CH012.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -777,7 +737,6 @@
     {
       "id": "geovision-41",
       "url": "/CH013.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -787,7 +746,6 @@
     {
       "id": "geovision-42",
       "url": "/0/Pinology101:has2bepuyyps/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -798,7 +756,6 @@
     {
       "id": "geovision-43",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -808,7 +765,6 @@
     {
       "id": "geovision-44",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -818,7 +774,6 @@
     {
       "id": "geovision-45",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -828,7 +783,6 @@
     {
       "id": "geovision-46",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -838,7 +792,6 @@
     {
       "id": "geovision-47",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -848,7 +801,6 @@
     {
       "id": "geovision-48",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -858,7 +810,6 @@
     {
       "id": "geovision-49",
       "url": "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -868,7 +819,6 @@
     {
       "id": "geovision-50",
       "url": "jpg/1/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

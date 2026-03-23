@@ -6,7 +6,6 @@
     {
       "id": "aiboostpro-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "aiboostpro-2",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

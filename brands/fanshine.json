@@ -6,7 +6,6 @@
     {
       "id": "fanshine-1",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

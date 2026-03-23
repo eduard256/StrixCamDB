@@ -6,7 +6,6 @@
     {
       "id": "veskys-1",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "veskys-2",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "veskys-3",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -42,7 +39,6 @@
     {
       "id": "veskys-4",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -52,7 +48,6 @@
     {
       "id": "veskys-5",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [

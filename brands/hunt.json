@@ -6,7 +6,6 @@
     {
       "id": "hunt-1",
       "url": "GetImage.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "hunt-2",
       "url": "GetStream.cgi?Video=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "hunt-3",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "hunt-4",
       "url": "cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +56,6 @@
     {
       "id": "hunt-5",
       "url": "GetImage.cgi?CH=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -81,7 +76,6 @@
     {
       "id": "hunt-6",
       "url": "GetData.cgi?Status=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +90,6 @@
     {
       "id": "hunt-7",
       "url": "GetStream.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -110,7 +103,6 @@
     {
       "id": "hunt-8",
       "url": "v2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -122,7 +114,6 @@
     {
       "id": "hunt-9",
       "url": "video1+audio1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -135,7 +126,6 @@
     {
       "id": "hunt-10",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -146,7 +136,6 @@
     {
       "id": "hunt-11",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -161,7 +150,6 @@
     {
       "id": "hunt-12",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -171,7 +159,6 @@
     {
       "id": "hunt-13",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -181,7 +168,6 @@
     {
       "id": "hunt-14",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -191,7 +177,6 @@
     {
       "id": "hunt-15",
       "url": "/GetStream.cgi?Video=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [

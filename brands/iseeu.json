@@ -6,7 +6,6 @@
     {
       "id": "iseeu-1",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "iseeu-2",
       "url": "/Streaming/channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "iseeu-3",
       "url": "/Streaming/channels/401",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "iseeu-4",
       "url": "/Streaming/channels/501",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "iseeu-5",
       "url": "/Streaming/channels/601",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "iseeu-6",
       "url": "/Streaming/channels/701",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -67,7 +61,6 @@
     {
       "id": "iseeu-7",
       "url": "/Streaming/channels/901",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -77,7 +70,6 @@
     {
       "id": "iseeu-8",
       "url": "/Streaming/channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

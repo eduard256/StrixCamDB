@@ -6,7 +6,6 @@
     {
       "id": "ipc-1",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -181,7 +180,6 @@
     {
       "id": "ipc-2",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -194,7 +192,6 @@
     {
       "id": "ipc-3",
       "url": "/ch0_1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -225,7 +222,6 @@
     {
       "id": "ipc-4",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -301,7 +297,6 @@
     {
       "id": "ipc-5",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -311,7 +306,6 @@
     {
       "id": "ipc-6",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -322,7 +316,6 @@
     {
       "id": "ipc-7",
       "url": "/ch1_s1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -332,7 +325,6 @@
     {
       "id": "ipc-8",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -346,7 +338,6 @@
     {
       "id": "ipc-9",
       "url": "/H264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -357,7 +348,6 @@
     {
       "id": "ipc-10",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -368,7 +358,6 @@
     {
       "id": "ipc-11",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -379,7 +368,6 @@
     {
       "id": "ipc-12",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -391,7 +379,6 @@
     {
       "id": "ipc-13",
       "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -401,7 +388,6 @@
     {
       "id": "ipc-14",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -412,7 +398,6 @@
     {
       "id": "ipc-15",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -426,7 +411,6 @@
     {
       "id": "ipc-16",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -436,7 +420,6 @@
     {
       "id": "ipc-17",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -449,7 +432,6 @@
     {
       "id": "ipc-18",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -465,7 +447,6 @@
     {
       "id": "ipc-19",
       "url": "/ucast/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -476,7 +457,6 @@
     {
       "id": "ipc-20",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -487,7 +467,6 @@
     {
       "id": "ipc-21",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -513,7 +492,6 @@
     {
       "id": "ipc-22",
       "url": "/Preview_01_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -523,7 +501,6 @@
     {
       "id": "ipc-23",
       "url": "/snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -534,7 +511,6 @@
     {
       "id": "ipc-24",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -545,7 +521,6 @@
     {
       "id": "ipc-25",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -558,7 +533,6 @@
     {
       "id": "ipc-26",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -568,7 +542,6 @@
     {
       "id": "ipc-27",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -579,7 +552,6 @@
     {
       "id": "ipc-28",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -601,7 +573,6 @@
     {
       "id": "ipc-29",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -612,7 +583,6 @@
     {
       "id": "ipc-30",
       "url": "/h264Preview_01_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -629,7 +599,6 @@
     {
       "id": "ipc-31",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -640,7 +609,6 @@
     {
       "id": "ipc-32",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -651,7 +619,6 @@
     {
       "id": "ipc-33",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -662,7 +629,6 @@
     {
       "id": "ipc-34",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -675,7 +641,6 @@
     {
       "id": "ipc-35",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -687,7 +652,6 @@
     {
       "id": "ipc-36",
       "url": "/onvif_1550334450_285123146",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -697,7 +661,6 @@
     {
       "id": "ipc-37",
       "url": "/MainStream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -710,7 +673,6 @@
     {
       "id": "ipc-38",
       "url": "/SubStream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -720,7 +682,6 @@
     {
       "id": "ipc-39",
       "url": "/onvif2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -741,7 +702,6 @@
     {
       "id": "ipc-40",
       "url": "/ch01/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -752,7 +712,6 @@
     {
       "id": "ipc-41",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -763,7 +722,6 @@
     {
       "id": "ipc-42",
       "url": "1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -775,7 +733,6 @@
     {
       "id": "ipc-43",
       "url": "/1.video",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -785,7 +742,6 @@
     {
       "id": "ipc-44",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -797,7 +753,6 @@
     {
       "id": "ipc-45",
       "url": "/onvif/device_service",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 556,
       "models": [
@@ -807,7 +762,6 @@
     {
       "id": "ipc-46",
       "url": "/0/888888:888888/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -817,7 +771,6 @@
     {
       "id": "ipc-47",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -831,7 +784,6 @@
     {
       "id": "ipc-48",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -842,7 +794,6 @@
     {
       "id": "ipc-49",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -855,7 +806,6 @@
     {
       "id": "ipc-50",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -866,7 +816,6 @@
     {
       "id": "ipc-51",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -877,7 +826,6 @@
     {
       "id": "ipc-52",
       "url": "/user=[USERNAME]_password=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -887,7 +835,6 @@
     {
       "id": "ipc-53",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -898,7 +845,6 @@
     {
       "id": "ipc-54",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -908,7 +854,6 @@
     {
       "id": "ipc-55",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -918,7 +863,6 @@
     {
       "id": "ipc-56",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -930,7 +874,6 @@
     {
       "id": "ipc-57",
       "url": "/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -943,7 +886,6 @@
     {
       "id": "ipc-58",
       "url": "/LiveMedia/ch1/Media1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -953,7 +895,6 @@
     {
       "id": "ipc-59",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -964,7 +905,6 @@
     {
       "id": "ipc-60",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -975,7 +915,6 @@
     {
       "id": "ipc-61",
       "url": "/id=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -986,7 +925,6 @@
     {
       "id": "ipc-62",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -996,7 +934,6 @@
     {
       "id": "ipc-63",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1008,7 +945,6 @@
     {
       "id": "ipc-64",
       "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1018,7 +954,6 @@
     {
       "id": "ipc-65",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1028,7 +963,6 @@
     {
       "id": "ipc-66",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1039,7 +973,6 @@
     {
       "id": "ipc-67",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1051,7 +984,6 @@
     {
       "id": "ipc-68",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1061,7 +993,6 @@
     {
       "id": "ipc-69",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1072,7 +1003,6 @@
     {
       "id": "ipc-70",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1082,7 +1012,6 @@
     {
       "id": "ipc-71",
       "url": "/ch01.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1092,7 +1021,6 @@
     {
       "id": "ipc-72",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1102,7 +1030,6 @@
     {
       "id": "ipc-73",
       "url": "Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1112,7 +1039,6 @@
     {
       "id": "ipc-74",
       "url": "GetData.cgi?Status=false",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1122,7 +1048,6 @@
     {
       "id": "ipc-75",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1133,7 +1058,6 @@
     {
       "id": "ipc-76",
       "url": "/media/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1143,7 +1067,6 @@
     {
       "id": "ipc-77",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1153,7 +1076,6 @@
     {
       "id": "ipc-78",
       "url": "/cgi-bin/view.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 34567,
       "models": [
@@ -1163,7 +1085,6 @@
     {
       "id": "ipc-79",
       "url": "/h264Preview_01_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1175,7 +1096,6 @@
     {
       "id": "ipc-80",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

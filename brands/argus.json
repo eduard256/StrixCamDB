@@ -6,7 +6,6 @@
     {
       "id": "argus-1",
       "url": "[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "argus-2",
       "url": "?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

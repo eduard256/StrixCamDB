@@ -6,7 +6,6 @@
     {
       "id": "gadinan-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "gadinan-2",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "gadinan-3",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "gadinan-4",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

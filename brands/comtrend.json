@@ -6,7 +6,6 @@
     {
       "id": "comtrend-1",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

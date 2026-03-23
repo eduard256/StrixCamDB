@@ -6,7 +6,6 @@
     {
       "id": "znv-1",
       "url": "/H264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "znv-2",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

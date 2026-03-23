@@ -6,7 +6,6 @@
     {
       "id": "achtertuin-1",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "achtertuin-2",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "achtertuin-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "achtertuin-4",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "achtertuin-5",
       "url": "nphMotionJpeg?Resolution=640x480&Quality=Standard",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

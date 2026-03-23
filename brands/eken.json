@@ -6,7 +6,6 @@
     {
       "id": "eken-1",
       "url": "/MJPG",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

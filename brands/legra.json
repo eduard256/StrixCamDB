@@ -6,7 +6,6 @@
     {
       "id": "legra-1",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

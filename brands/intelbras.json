@@ -6,7 +6,6 @@
     {
       "id": "intelbras-1",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "intelbras-2",
       "url": "/cam/realmonitor?channel=3&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "intelbras-3",
       "url": "/cam/realmonitor?channel=4&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -47,7 +44,6 @@
     {
       "id": "intelbras-4",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -64,7 +60,6 @@
     {
       "id": "intelbras-5",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +77,6 @@
     {
       "id": "intelbras-6",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -104,7 +98,6 @@
     {
       "id": "intelbras-7",
       "url": "/2Fonvif/2Fdevice_service",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 554,
       "models": [
@@ -114,7 +107,6 @@
     {
       "id": "intelbras-8",
       "url": "/cam/realmonitor?channel=2&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 54713,
       "models": [
@@ -124,7 +116,6 @@
     {
       "id": "intelbras-9",
       "url": "/cam/realmonitor?channel=4&subtype=1&authBasic=YWRtaW46KkFkMzFuMTV0UjJjWDAj",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -136,7 +127,6 @@
     {
       "id": "intelbras-10",
       "url": "/cgi-bin/snapshot.cgi?chn=2&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -149,7 +139,6 @@
     {
       "id": "intelbras-11",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -165,7 +154,6 @@
     {
       "id": "intelbras-12",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -180,7 +168,6 @@
     {
       "id": "intelbras-13",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -202,7 +189,6 @@
     {
       "id": "intelbras-14",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -227,7 +213,6 @@
     {
       "id": "intelbras-15",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -237,7 +222,6 @@
     {
       "id": "intelbras-16",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -248,7 +232,6 @@
     {
       "id": "intelbras-17",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=T%4001051938",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -258,7 +241,6 @@
     {
       "id": "intelbras-18",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=tkto%40070810",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -268,7 +250,6 @@
     {
       "id": "intelbras-19",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -285,7 +266,6 @@
     {
       "id": "intelbras-20",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -301,7 +281,6 @@
     {
       "id": "intelbras-21",
       "url": "/cam/realmonitor?channel=3&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 54713,
       "models": [
@@ -311,7 +290,6 @@
     {
       "id": "intelbras-22",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -324,7 +302,6 @@
     {
       "id": "intelbras-23",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=nederland1%21",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -335,7 +312,6 @@
     {
       "id": "intelbras-24",
       "url": "/cam/realmonitor?channel=1&subtype=1&authBasic=YWRtaW46KkFkMzFuMTV0UjJjWDAj",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -345,7 +321,6 @@
     {
       "id": "intelbras-25",
       "url": "/cam/realmonitor?channel=2&subtype=1&authBasic=YWRtaW46KkFkMzFuMTV0UjJjWDAj",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -355,7 +330,6 @@
     {
       "id": "intelbras-26",
       "url": "/cam/realmonitor?channel=0&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -366,7 +340,6 @@
     {
       "id": "intelbras-27",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5501,
       "models": [
@@ -377,7 +350,6 @@
     {
       "id": "intelbras-28",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Olumornezcpc11%23",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -388,7 +360,6 @@
     {
       "id": "intelbras-29",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8082,
       "models": [
@@ -400,7 +371,6 @@
     {
       "id": "intelbras-30",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -412,7 +382,6 @@
     {
       "id": "intelbras-31",
       "url": "/user=[PASSWORD]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -422,7 +391,6 @@
     {
       "id": "intelbras-32",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -434,7 +402,6 @@
     {
       "id": "intelbras-33",
       "url": "/axis-cgi/mjpg/video.cgi?camera=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -444,7 +411,6 @@
     {
       "id": "intelbras-34",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=6pRb%237h8",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -454,7 +420,6 @@
     {
       "id": "intelbras-35",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8554,
       "models": [
@@ -464,7 +429,6 @@
     {
       "id": "intelbras-36",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -474,7 +438,6 @@
     {
       "id": "intelbras-37",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

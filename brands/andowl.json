@@ -6,7 +6,6 @@
     {
       "id": "andowl-1",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "andowl-2",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "andowl-3",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "andowl-4",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -52,7 +48,6 @@
     {
       "id": "andowl-5",
       "url": "/streamtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -62,7 +57,6 @@
     {
       "id": "andowl-6",
       "url": "/streamtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -73,7 +67,6 @@
     {
       "id": "andowl-7",
       "url": "/profile0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

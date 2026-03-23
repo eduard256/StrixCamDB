@@ -6,7 +6,6 @@
     {
       "id": "hopeway-1",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [

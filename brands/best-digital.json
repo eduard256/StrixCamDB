@@ -6,7 +6,6 @@
     {
       "id": "best-digital-1",
       "url": "/ssnadmin_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

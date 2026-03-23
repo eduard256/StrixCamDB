@@ -6,7 +6,6 @@
     {
       "id": "yiliao-1",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "yiliao-2",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [

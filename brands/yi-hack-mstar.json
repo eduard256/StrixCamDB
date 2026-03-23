@@ -6,7 +6,6 @@
     {
       "id": "yi-hack-mstar-1",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "yi-hack-mstar-2",
       "url": "/ch0_1.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "yi-hack-mstar-3",
       "url": "/ch0_2.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ie-link-0-1",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

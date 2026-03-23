@@ -6,7 +6,6 @@
     {
       "id": "compro-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -42,7 +41,6 @@
     {
       "id": "compro-2",
       "url": "medias[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -65,7 +63,6 @@
     {
       "id": "compro-3",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -79,7 +76,6 @@
     {
       "id": "compro-4",
       "url": "/medias2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -91,7 +87,6 @@
     {
       "id": "compro-5",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -114,7 +109,6 @@
     {
       "id": "compro-6",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -135,7 +129,6 @@
     {
       "id": "compro-7",
       "url": "mjpegStreamer.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -152,7 +145,6 @@
     {
       "id": "compro-8",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -169,7 +161,6 @@
     {
       "id": "compro-9",
       "url": "medias2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -195,7 +186,6 @@
     {
       "id": "compro-10",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -209,7 +199,6 @@
     {
       "id": "compro-11",
       "url": "[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -220,7 +209,6 @@
     {
       "id": "compro-12",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&snapshot=on",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -230,7 +218,6 @@
     {
       "id": "compro-13",
       "url": "cam[CHANNEL]/mjpeg",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -240,7 +227,6 @@
     {
       "id": "compro-14",
       "url": "mpeg4/[CHANNEL]/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -250,7 +236,6 @@
     {
       "id": "compro-15",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -260,7 +245,6 @@
     {
       "id": "compro-16",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -270,7 +254,6 @@
     {
       "id": "compro-17",
       "url": "cgi-bin/rtspStream/[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -280,7 +263,6 @@
     {
       "id": "compro-18",
       "url": "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -291,7 +273,6 @@
     {
       "id": "compro-19",
       "url": "snapshot[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

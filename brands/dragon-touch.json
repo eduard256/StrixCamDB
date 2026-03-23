@@ -6,7 +6,6 @@
     {
       "id": "dragon-touch-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "dragon-touch-2",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "gyration-1",
       "url": "/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

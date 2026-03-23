@@ -6,7 +6,6 @@
     {
       "id": "fuswlan-1",
       "url": "/11",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 1394,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "fuswlan-2",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 1935,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "fuswlan-3",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

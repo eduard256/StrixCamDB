@@ -6,7 +6,6 @@
     {
       "id": "hengstar-1",
       "url": "img/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

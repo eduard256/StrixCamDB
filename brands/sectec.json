@@ -6,7 +6,6 @@
     {
       "id": "sectec-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[CHANNEL]_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -25,7 +24,6 @@
     {
       "id": "sectec-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[CHANNEL]_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "sectec-3",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "sectec-4",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -55,7 +51,6 @@
     {
       "id": "sectec-5",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[CHANNEL]_stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

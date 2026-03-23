@@ -6,7 +6,6 @@
     {
       "id": "tonton-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "tonton-2",
       "url": "/0/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "tonton-3",
       "url": "/cgi-bin/snapshot.cgi?chn=2&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "tonton-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -65,7 +61,6 @@
     {
       "id": "tonton-5",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 554,
       "models": [
@@ -84,7 +79,6 @@
     {
       "id": "tonton-6",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +90,6 @@
     {
       "id": "tonton-7",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -107,7 +100,6 @@
     {
       "id": "tonton-8",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -117,7 +109,6 @@
     {
       "id": "tonton-9",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

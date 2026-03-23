@@ -6,7 +6,6 @@
     {
       "id": "qvis-1",
       "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "qvis-2",
       "url": "/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "qvis-3",
       "url": "/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "qvis-4",
       "url": "/axis-cgi/mjpg/video.cgi?camera=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "qvis-5",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "qvis-6",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +65,6 @@
     {
       "id": "qvis-7",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "advidia-1",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -25,7 +24,6 @@
     {
       "id": "advidia-2",
       "url": "MediaInput/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "advidia-3",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -49,7 +46,6 @@
     {
       "id": "advidia-4",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -61,7 +57,6 @@
     {
       "id": "advidia-5",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -75,7 +70,6 @@
     {
       "id": "advidia-6",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -88,7 +82,6 @@
     {
       "id": "advidia-7",
       "url": "/Streaming/Channels/103",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -100,7 +93,6 @@
     {
       "id": "advidia-8",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -113,7 +105,6 @@
     {
       "id": "advidia-9",
       "url": "/MediaInput/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -125,7 +116,6 @@
     {
       "id": "advidia-10",
       "url": "/Streaming/channels/901",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -136,7 +126,6 @@
     {
       "id": "advidia-11",
       "url": "/cam/realmonitor?channel=2&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -147,7 +136,6 @@
     {
       "id": "advidia-12",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -159,7 +147,6 @@
     {
       "id": "advidia-13",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -169,7 +156,6 @@
     {
       "id": "advidia-14",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -180,7 +166,6 @@
     {
       "id": "advidia-15",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -190,7 +175,6 @@
     {
       "id": "advidia-16",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -201,7 +185,6 @@
     {
       "id": "advidia-17",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -212,7 +195,6 @@
     {
       "id": "advidia-18",
       "url": "cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -222,7 +204,6 @@
     {
       "id": "advidia-19",
       "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -235,7 +216,6 @@
     {
       "id": "advidia-20",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -245,7 +225,6 @@
     {
       "id": "advidia-21",
       "url": "/ONVIF/MediaInput",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -256,7 +235,6 @@
     {
       "id": "advidia-22",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -266,7 +244,6 @@
     {
       "id": "advidia-23",
       "url": "/Streaming/Channels/1103",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -276,7 +253,6 @@
     {
       "id": "advidia-24",
       "url": "/Streaming/channels/902",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -286,7 +262,6 @@
     {
       "id": "advidia-25",
       "url": "/ch2_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -296,7 +271,6 @@
     {
       "id": "advidia-26",
       "url": "//Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -306,7 +280,6 @@
     {
       "id": "advidia-27",
       "url": "//Streaming/Channels/5",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -316,7 +289,6 @@
     {
       "id": "advidia-28",
       "url": "/cam/realmonitor?channel=3&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -326,7 +298,6 @@
     {
       "id": "advidia-29",
       "url": "/cam/realmonitor?channel=101&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -336,7 +307,6 @@
     {
       "id": "advidia-30",
       "url": "//Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

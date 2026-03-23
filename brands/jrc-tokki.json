@@ -6,7 +6,6 @@
     {
       "id": "jrc-tokki-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "jrc-tokki-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "jrc-tokki-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "jrc-tokki-4",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

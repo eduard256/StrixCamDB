@@ -6,7 +6,6 @@
     {
       "id": "iptronic-1",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "iptronic-2",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "iptronic-3",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

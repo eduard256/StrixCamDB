@@ -6,7 +6,6 @@
     {
       "id": "blueeyes-1",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "blueeyes-2",
       "url": "/ipcam/stream.cgi?nowprofileid=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "blueeyes-3",
       "url": "dms",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "blueeyes-4",
       "url": "ipcam/stream.cgi?nowprofileid=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "veravista-1",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

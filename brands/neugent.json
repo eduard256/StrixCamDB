@@ -6,7 +6,6 @@
     {
       "id": "neugent-1",
       "url": "cgi-bin/stream_jpeg.cgi?channel=[CHANNEL]&fps=1&multipart=1",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "neugent-2",
       "url": "cgi-bin/grabJPEG?06678",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "neugent-3",
       "url": "cgi-bin/stream_jpeg.cgi?channel=[CHANNEL]&fps=1&multipart=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "avtech-1",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "avtech-2",
       "url": "/live/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -97,7 +95,6 @@
     {
       "id": "avtech-3",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -107,7 +104,6 @@
     {
       "id": "avtech-4",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -208,7 +204,6 @@
     {
       "id": "avtech-5",
       "url": "/live/h264_ulaw/VGA",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -247,7 +242,6 @@
     {
       "id": "avtech-6",
       "url": "/live/h264/HD1080P",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -307,7 +301,6 @@
     {
       "id": "avtech-7",
       "url": "/live/video_audio/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -334,7 +327,6 @@
     {
       "id": "avtech-8",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -371,7 +363,6 @@
     {
       "id": "avtech-9",
       "url": "live/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -404,7 +395,6 @@
     {
       "id": "avtech-10",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -462,7 +452,6 @@
     {
       "id": "avtech-11",
       "url": "Getvideo.cgi?Cookie=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -472,7 +461,6 @@
     {
       "id": "avtech-12",
       "url": "live/h264/ch[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -518,7 +506,6 @@
     {
       "id": "avtech-13",
       "url": "live/mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -541,7 +528,6 @@
     {
       "id": "avtech-14",
       "url": "/h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -553,7 +539,6 @@
     {
       "id": "avtech-15",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -568,7 +553,6 @@
     {
       "id": "avtech-16",
       "url": "/live/h264_ulaw/HD720P",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -589,7 +573,6 @@
     {
       "id": "avtech-17",
       "url": "/live/video/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8151,
       "models": [
@@ -608,7 +591,6 @@
     {
       "id": "avtech-18",
       "url": "/live/video_audio/ch01/record",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8085,
       "models": [
@@ -618,7 +600,6 @@
     {
       "id": "avtech-19",
       "url": "/live/video_audio/ch01_ch01/pc",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -629,7 +610,6 @@
     {
       "id": "avtech-20",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -640,7 +620,6 @@
     {
       "id": "avtech-21",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -651,7 +630,6 @@
     {
       "id": "avtech-22",
       "url": "/live/h264/SXGA",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -666,7 +644,6 @@
     {
       "id": "avtech-23",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -676,7 +653,6 @@
     {
       "id": "avtech-24",
       "url": "/live/h264/HD1080",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -688,7 +664,6 @@
     {
       "id": "avtech-25",
       "url": "/live/h264/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -700,7 +675,6 @@
     {
       "id": "avtech-26",
       "url": "/live/video/profile3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -710,7 +684,6 @@
     {
       "id": "avtech-27",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -720,7 +693,6 @@
     {
       "id": "avtech-28",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -731,7 +703,6 @@
     {
       "id": "avtech-29",
       "url": "live/h264_ulaw",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -742,7 +713,6 @@
     {
       "id": "avtech-30",
       "url": "live.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -753,7 +723,6 @@
     {
       "id": "avtech-31",
       "url": "/live.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 80,
       "models": [
@@ -763,7 +732,6 @@
     {
       "id": "avtech-32",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -773,7 +741,6 @@
     {
       "id": "avtech-33",
       "url": "/cgi-bin/guest/Video.cgi?media=JPEG&channel=16",
-      "type": "JPEG",
       "protocol": "http",
       "port": 554,
       "models": [
@@ -784,7 +751,6 @@
     {
       "id": "avtech-34",
       "url": "/cgi-bin/guest/Video.cgi?media=JPEG&channel=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 51938,
       "models": [
@@ -794,7 +760,6 @@
     {
       "id": "avtech-35",
       "url": "/cgi-bin/guest/Video.cgi?media=JPEG&channel=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 51938,
       "models": [
@@ -804,7 +769,6 @@
     {
       "id": "avtech-36",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -814,7 +778,6 @@
     {
       "id": "avtech-37",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -825,7 +788,6 @@
     {
       "id": "avtech-38",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -835,7 +797,6 @@
     {
       "id": "avtech-39",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

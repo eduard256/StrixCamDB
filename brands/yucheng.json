@@ -6,7 +6,6 @@
     {
       "id": "yucheng-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -34,7 +33,6 @@
     {
       "id": "yucheng-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +54,6 @@
     {
       "id": "yucheng-3",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -66,7 +63,6 @@
     {
       "id": "yucheng-4",
       "url": "/live/0/MAIN",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -79,7 +75,6 @@
     {
       "id": "yucheng-5",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -89,7 +84,6 @@
     {
       "id": "yucheng-6",
       "url": "1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -100,7 +94,6 @@
     {
       "id": "yucheng-7",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "piper-1",
       "url": "/img/video.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

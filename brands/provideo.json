@@ -6,7 +6,6 @@
     {
       "id": "provideo-1",
       "url": "MediaInput/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "provideo-2",
       "url": "/g711v1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "provideo-3",
       "url": "v2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

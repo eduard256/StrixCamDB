@@ -6,7 +6,6 @@
     {
       "id": "qtech-1",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "qtech-2",
       "url": "/H264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "qtech-3",
       "url": "/H264?ch=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "qtech-4",
       "url": "/H264?ch=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

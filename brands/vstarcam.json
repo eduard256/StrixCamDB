@@ -6,7 +6,6 @@
     {
       "id": "vstarcam-1",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -139,7 +138,6 @@
     {
       "id": "vstarcam-2",
       "url": "/tcp/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -199,7 +197,6 @@
     {
       "id": "vstarcam-3",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -241,7 +238,6 @@
     {
       "id": "vstarcam-4",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -297,7 +293,6 @@
     {
       "id": "vstarcam-5",
       "url": "/udp/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -312,7 +307,6 @@
     {
       "id": "vstarcam-6",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -346,7 +340,6 @@
     {
       "id": "vstarcam-7",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -398,7 +391,6 @@
     {
       "id": "vstarcam-8",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -415,7 +407,6 @@
     {
       "id": "vstarcam-9",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -462,7 +453,6 @@
     {
       "id": "vstarcam-10",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -498,7 +488,6 @@
     {
       "id": "vstarcam-11",
       "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -541,7 +530,6 @@
     {
       "id": "vstarcam-12",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -567,7 +555,6 @@
     {
       "id": "vstarcam-13",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -579,7 +566,6 @@
     {
       "id": "vstarcam-14",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -604,7 +590,6 @@
     {
       "id": "vstarcam-15",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -621,7 +606,6 @@
     {
       "id": "vstarcam-16",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -638,7 +622,6 @@
     {
       "id": "vstarcam-17",
       "url": "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -648,7 +631,6 @@
     {
       "id": "vstarcam-18",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -666,7 +648,6 @@
     {
       "id": "vstarcam-19",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 18028,
       "models": [
@@ -681,7 +662,6 @@
     {
       "id": "vstarcam-20",
       "url": "/cgi/mjpg/mjpeg.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 18028,
       "models": [
@@ -691,7 +671,6 @@
     {
       "id": "vstarcam-21",
       "url": "/videostream.cgi?rate=10&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8001,
       "models": [
@@ -703,7 +682,6 @@
     {
       "id": "vstarcam-22",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -714,7 +692,6 @@
     {
       "id": "vstarcam-23",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -738,7 +715,6 @@
     {
       "id": "vstarcam-24",
       "url": "/udp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -753,7 +729,6 @@
     {
       "id": "vstarcam-25",
       "url": "/11",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 8484,
       "models": [
@@ -765,7 +740,6 @@
     {
       "id": "vstarcam-26",
       "url": "/12",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 8484,
       "models": [
@@ -775,7 +749,6 @@
     {
       "id": "vstarcam-27",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8004,
       "models": [
@@ -785,7 +758,6 @@
     {
       "id": "vstarcam-28",
       "url": "/H264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -795,7 +767,6 @@
     {
       "id": "vstarcam-29",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -805,7 +776,6 @@
     {
       "id": "vstarcam-30",
       "url": "cgi-bin/view/image?pro_[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -815,7 +785,6 @@
     {
       "id": "vstarcam-31",
       "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -825,7 +794,6 @@
     {
       "id": "vstarcam-32",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8484,
       "models": [
@@ -839,7 +807,6 @@
     {
       "id": "vstarcam-33",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8484,
       "models": [
@@ -849,7 +816,6 @@
     {
       "id": "vstarcam-34",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -864,7 +830,6 @@
     {
       "id": "vstarcam-35",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -878,7 +843,6 @@
     {
       "id": "vstarcam-36",
       "url": "/livestream.cgi?user=[USERNAME]&pwd=[PASSWORD]&streamid=0&filename=",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -888,7 +852,6 @@
     {
       "id": "vstarcam-37",
       "url": "/videostream.cgi?&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -899,7 +862,6 @@
     {
       "id": "vstarcam-38",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -913,7 +875,6 @@
     {
       "id": "vstarcam-39",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=1280&rate=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 65337,
       "models": [
@@ -924,7 +885,6 @@
     {
       "id": "vstarcam-40",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=64",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8484,
       "models": [
@@ -935,7 +895,6 @@
     {
       "id": "vstarcam-41",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -948,7 +907,6 @@
     {
       "id": "vstarcam-42",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -959,7 +917,6 @@
     {
       "id": "vstarcam-43",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -972,7 +929,6 @@
     {
       "id": "vstarcam-44",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -983,7 +939,6 @@
     {
       "id": "vstarcam-45",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -994,7 +949,6 @@
     {
       "id": "vstarcam-46",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1004,7 +958,6 @@
     {
       "id": "vstarcam-47",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1014,7 +967,6 @@
     {
       "id": "vstarcam-48",
       "url": "video.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1024,7 +976,6 @@
     {
       "id": "vstarcam-49",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1039,7 +990,6 @@
     {
       "id": "vstarcam-50",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1050,7 +1000,6 @@
     {
       "id": "vstarcam-51",
       "url": "H264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1062,7 +1011,6 @@
     {
       "id": "vstarcam-52",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1072,7 +1020,6 @@
     {
       "id": "vstarcam-53",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1083,7 +1030,6 @@
     {
       "id": "vstarcam-54",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -1096,7 +1042,6 @@
     {
       "id": "vstarcam-55",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1107,7 +1052,6 @@
     {
       "id": "vstarcam-56",
       "url": "cgi-bin/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1117,7 +1061,6 @@
     {
       "id": "vstarcam-57",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1127,7 +1070,6 @@
     {
       "id": "vstarcam-58",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1137,7 +1079,6 @@
     {
       "id": "vstarcam-59",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1147,7 +1088,6 @@
     {
       "id": "vstarcam-60",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1157,7 +1097,6 @@
     {
       "id": "vstarcam-61",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -1167,7 +1106,6 @@
     {
       "id": "vstarcam-62",
       "url": "/videostream.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1177,7 +1115,6 @@
     {
       "id": "vstarcam-63",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=1280",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1187,7 +1124,6 @@
     {
       "id": "vstarcam-64",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]19",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8888,
       "models": [

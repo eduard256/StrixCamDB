@@ -6,7 +6,6 @@
     {
       "id": "cctvstar-1",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

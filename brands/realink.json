@@ -6,7 +6,6 @@
     {
       "id": "realink-1",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "realink-2",
       "url": "/h264Preview_01_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "realink-3",
       "url": "/h264Preview_01_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

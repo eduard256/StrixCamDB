@@ -6,7 +6,6 @@
     {
       "id": "holovision-1",
       "url": "ipcam/mjpeg.cgi?ch=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

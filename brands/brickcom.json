@@ -6,7 +6,6 @@
     {
       "id": "brickcom-1",
       "url": "channel2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -32,7 +31,6 @@
     {
       "id": "brickcom-2",
       "url": "/ONVIF/channel2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -54,7 +52,6 @@
     {
       "id": "brickcom-3",
       "url": "/ONVIF/channel1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -82,7 +79,6 @@
     {
       "id": "brickcom-4",
       "url": "/channel2",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 5052,
       "models": [
@@ -94,7 +90,6 @@
     {
       "id": "brickcom-5",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -118,7 +113,6 @@
     {
       "id": "brickcom-6",
       "url": "cgi-bin/media.cgi?action=getSnapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -132,7 +126,6 @@
     {
       "id": "brickcom-7",
       "url": "channel[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -150,7 +143,6 @@
     {
       "id": "brickcom-8",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -169,7 +161,6 @@
     {
       "id": "brickcom-9",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -179,7 +170,6 @@
     {
       "id": "brickcom-10",
       "url": "Channel[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -189,7 +179,6 @@
     {
       "id": "brickcom-11",
       "url": "/ONVIF/channel3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -199,7 +188,6 @@
     {
       "id": "brickcom-12",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -211,7 +199,6 @@
     {
       "id": "brickcom-13",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -221,7 +208,6 @@
     {
       "id": "brickcom-14",
       "url": "stream/bidirect/channel[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

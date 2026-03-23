@@ -6,7 +6,6 @@
     {
       "id": "vlc-1",
       "url": "/webcam",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "vlc-2",
       "url": "/stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "vlc-3",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "vlc-4",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

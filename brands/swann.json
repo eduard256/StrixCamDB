@@ -6,7 +6,6 @@
     {
       "id": "swann-1",
       "url": "/Streaming/Channels/[CHANNEL+1]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "swann-2",
       "url": "/Streaming/Channels/[CHANNEL]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "swann-3",
       "url": "/Streaming/Channels/[CHANNEL+1]02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "swann-4",
       "url": "/Streaming/Channels/[CHANNEL]02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "swann-5",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "swann-6",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -75,7 +69,6 @@
     {
       "id": "swann-7",
       "url": "/ch04/1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -90,7 +83,6 @@
     {
       "id": "swann-8",
       "url": "/ch01/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -119,7 +111,6 @@
     {
       "id": "swann-9",
       "url": "/ch02/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -139,7 +130,6 @@
     {
       "id": "swann-10",
       "url": "live/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -171,7 +161,6 @@
     {
       "id": "swann-11",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -186,7 +175,6 @@
     {
       "id": "swann-12",
       "url": "/ch07/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -199,7 +187,6 @@
     {
       "id": "swann-13",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -209,7 +196,6 @@
     {
       "id": "swann-14",
       "url": "/ch06/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -229,7 +215,6 @@
     {
       "id": "swann-15",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -249,7 +234,6 @@
     {
       "id": "swann-16",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -262,7 +246,6 @@
     {
       "id": "swann-17",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -277,7 +260,6 @@
     {
       "id": "swann-18",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -289,7 +271,6 @@
     {
       "id": "swann-19",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -305,7 +286,6 @@
     {
       "id": "swann-20",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -322,7 +302,6 @@
     {
       "id": "swann-21",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -341,7 +320,6 @@
     {
       "id": "swann-22",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -373,7 +351,6 @@
     {
       "id": "swann-23",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -385,7 +362,6 @@
     {
       "id": "swann-24",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -398,7 +374,6 @@
     {
       "id": "swann-25",
       "url": "/h264Preview_01_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -430,7 +405,6 @@
     {
       "id": "swann-26",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -440,7 +414,6 @@
     {
       "id": "swann-27",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -453,7 +426,6 @@
     {
       "id": "swann-28",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -468,7 +440,6 @@
     {
       "id": "swann-29",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -481,7 +452,6 @@
     {
       "id": "swann-30",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -493,7 +463,6 @@
     {
       "id": "swann-31",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -503,7 +472,6 @@
     {
       "id": "swann-32",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -516,7 +484,6 @@
     {
       "id": "swann-33",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -533,7 +500,6 @@
     {
       "id": "swann-34",
       "url": "/ch04/01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -543,7 +509,6 @@
     {
       "id": "swann-35",
       "url": "/ch01/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -576,7 +541,6 @@
     {
       "id": "swann-36",
       "url": "/ch03/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -589,7 +553,6 @@
     {
       "id": "swann-37",
       "url": "/h264Preview_01_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -623,7 +586,6 @@
     {
       "id": "swann-38",
       "url": "/ch02/1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -635,7 +597,6 @@
     {
       "id": "swann-39",
       "url": "/ch03/1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -646,7 +607,6 @@
     {
       "id": "swann-40",
       "url": "/ch05/1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -656,7 +616,6 @@
     {
       "id": "swann-41",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -666,7 +625,6 @@
     {
       "id": "swann-42",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -679,7 +637,6 @@
     {
       "id": "swann-43",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -690,7 +647,6 @@
     {
       "id": "swann-44",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -701,7 +657,6 @@
     {
       "id": "swann-45",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -731,7 +686,6 @@
     {
       "id": "swann-46",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -742,7 +696,6 @@
     {
       "id": "swann-47",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -752,7 +705,6 @@
     {
       "id": "swann-48",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -763,7 +715,6 @@
     {
       "id": "swann-49",
       "url": "MJPEG.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -773,7 +724,6 @@
     {
       "id": "swann-50",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -784,7 +734,6 @@
     {
       "id": "swann-51",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -795,7 +744,6 @@
     {
       "id": "swann-52",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -805,7 +753,6 @@
     {
       "id": "swann-53",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -816,7 +763,6 @@
     {
       "id": "swann-54",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -826,7 +772,6 @@
     {
       "id": "swann-55",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -840,7 +785,6 @@
     {
       "id": "swann-56",
       "url": "/live/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -872,7 +816,6 @@
     {
       "id": "swann-57",
       "url": "/ch00/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -882,7 +825,6 @@
     {
       "id": "swann-58",
       "url": "/ch04/0",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -895,7 +837,6 @@
     {
       "id": "swann-59",
       "url": "/Streaming/Unicast/channels/401",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -909,7 +850,6 @@
     {
       "id": "swann-60",
       "url": "/Streaming/Unicast/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -920,7 +860,6 @@
     {
       "id": "swann-61",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -932,7 +871,6 @@
     {
       "id": "swann-62",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -949,7 +887,6 @@
     {
       "id": "swann-63",
       "url": "/Streaming/Unicast/channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -960,7 +897,6 @@
     {
       "id": "swann-64",
       "url": "/ch08/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -971,7 +907,6 @@
     {
       "id": "swann-65",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -985,7 +920,6 @@
     {
       "id": "swann-66",
       "url": "/H264/ch1/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -996,7 +930,6 @@
     {
       "id": "swann-67",
       "url": "/H264/ch1/sub/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1006,7 +939,6 @@
     {
       "id": "swann-68",
       "url": "/H264/ch2/sub/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1016,7 +948,6 @@
     {
       "id": "swann-69",
       "url": "/H264/ch3/sub/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1026,7 +957,6 @@
     {
       "id": "swann-70",
       "url": "/H264/ch2/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1036,7 +966,6 @@
     {
       "id": "swann-71",
       "url": "/H264/ch3/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1046,7 +975,6 @@
     {
       "id": "swann-72",
       "url": "/H264/ch4/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1056,7 +984,6 @@
     {
       "id": "swann-73",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8282,
       "models": [
@@ -1070,7 +997,6 @@
     {
       "id": "swann-74",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1087,7 +1013,6 @@
     {
       "id": "swann-75",
       "url": "/ch06/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1098,7 +1023,6 @@
     {
       "id": "swann-76",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1117,7 +1041,6 @@
     {
       "id": "swann-77",
       "url": "/cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1127,7 +1050,6 @@
     {
       "id": "swann-78",
       "url": "ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1139,7 +1061,6 @@
     {
       "id": "swann-79",
       "url": "/rtsp/streaming?channel=6&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1149,7 +1070,6 @@
     {
       "id": "swann-80",
       "url": "/index.html?",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1159,7 +1079,6 @@
     {
       "id": "swann-81",
       "url": "/rtsp/streaming?channel=8&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1169,7 +1088,6 @@
     {
       "id": "swann-82",
       "url": "/rtsp/streaming?channel=11&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1179,7 +1097,6 @@
     {
       "id": "swann-83",
       "url": "/Streaming/Channel1/102",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1189,7 +1106,6 @@
     {
       "id": "swann-84",
       "url": "/Camera%201/Channel1/1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1200,7 +1116,6 @@
     {
       "id": "swann-85",
       "url": "/live/h264/HD1080P",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1212,7 +1127,6 @@
     {
       "id": "swann-86",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1223,7 +1137,6 @@
     {
       "id": "swann-87",
       "url": "stillimg[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1233,7 +1146,6 @@
     {
       "id": "swann-88",
       "url": "Getvideo.cgi?Cookie=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1243,7 +1155,6 @@
     {
       "id": "swann-89",
       "url": "cgi-bin/Stream?Video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1253,7 +1164,6 @@
     {
       "id": "swann-90",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1263,7 +1173,6 @@
     {
       "id": "swann-91",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1273,7 +1182,6 @@
     {
       "id": "swann-92",
       "url": "video.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1283,7 +1191,6 @@
     {
       "id": "swann-93",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1293,7 +1200,6 @@
     {
       "id": "swann-94",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1306,7 +1212,6 @@
     {
       "id": "swann-95",
       "url": "[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1317,7 +1222,6 @@
     {
       "id": "swann-96",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1327,7 +1231,6 @@
     {
       "id": "swann-97",
       "url": "/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1337,7 +1240,6 @@
     {
       "id": "swann-98",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1349,7 +1251,6 @@
     {
       "id": "swann-99",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1380,7 +1281,6 @@
     {
       "id": "swann-100",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1403,7 +1303,6 @@
     {
       "id": "swann-101",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1417,7 +1316,6 @@
     {
       "id": "swann-102",
       "url": "/Streaming/Channels/701",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1427,7 +1325,6 @@
     {
       "id": "swann-103",
       "url": "/Streaming/Channels/601",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1437,7 +1334,6 @@
     {
       "id": "swann-104",
       "url": "/Streaming/Channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

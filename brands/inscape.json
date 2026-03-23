@@ -6,7 +6,6 @@
     {
       "id": "inscape-1",
       "url": "stillimg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "inscape-2",
       "url": "stillimg1.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "inscape-3",
       "url": "stillimg2.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

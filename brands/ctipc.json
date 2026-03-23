@@ -6,7 +6,6 @@
     {
       "id": "ctipc-1",
       "url": "/ch01.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

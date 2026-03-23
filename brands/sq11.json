@@ -6,7 +6,6 @@
     {
       "id": "sq11-1",
       "url": "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=0.JPG&SENDEMPTYIMAGES=NO",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8090,
       "models": [

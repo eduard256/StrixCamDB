@@ -6,7 +6,6 @@
     {
       "id": "hosafe-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -34,7 +33,6 @@
     {
       "id": "hosafe-2",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -57,7 +55,6 @@
     {
       "id": "hosafe-3",
       "url": "cam[CHANNEL]/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -74,7 +71,6 @@
     {
       "id": "hosafe-4",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -93,7 +89,6 @@
     {
       "id": "hosafe-5",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -105,7 +100,6 @@
     {
       "id": "hosafe-6",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -159,7 +153,6 @@
     {
       "id": "hosafe-7",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -169,7 +162,6 @@
     {
       "id": "hosafe-8",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -179,7 +171,6 @@
     {
       "id": "hosafe-9",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -189,7 +180,6 @@
     {
       "id": "hosafe-10",
       "url": "/cam1/onvif-h264-1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -199,7 +189,6 @@
     {
       "id": "hosafe-11",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -249,7 +238,6 @@
     {
       "id": "hosafe-12",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -260,7 +248,6 @@
     {
       "id": "hosafe-13",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -275,7 +262,6 @@
     {
       "id": "hosafe-14",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -287,7 +273,6 @@
     {
       "id": "hosafe-15",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -299,7 +284,6 @@
     {
       "id": "hosafe-16",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -309,7 +293,6 @@
     {
       "id": "hosafe-17",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -322,7 +305,6 @@
     {
       "id": "hosafe-18",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -332,7 +314,6 @@
     {
       "id": "hosafe-19",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -344,7 +325,6 @@
     {
       "id": "hosafe-20",
       "url": "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -354,7 +334,6 @@
     {
       "id": "hosafe-21",
       "url": "/ch01.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

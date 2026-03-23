@@ -6,7 +6,6 @@
     {
       "id": "hds-1",
       "url": "special/Cam[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

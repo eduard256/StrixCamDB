@@ -6,7 +6,6 @@
     {
       "id": "widix-1",
       "url": "/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

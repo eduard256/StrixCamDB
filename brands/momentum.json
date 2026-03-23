@@ -6,7 +6,6 @@
     {
       "id": "momentum-1",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +25,6 @@
     {
       "id": "momentum-2",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -45,7 +43,6 @@
     {
       "id": "momentum-3",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +57,6 @@
     {
       "id": "momentum-4",
       "url": "video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -84,7 +80,6 @@
     {
       "id": "momentum-5",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -97,7 +92,6 @@
     {
       "id": "momentum-6",
       "url": "/H264/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -116,7 +110,6 @@
     {
       "id": "momentum-7",
       "url": "medias2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -127,7 +120,6 @@
     {
       "id": "momentum-8",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -145,7 +137,6 @@
     {
       "id": "momentum-9",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -157,7 +148,6 @@
     {
       "id": "momentum-10",
       "url": "mpeg4/[CHANNEL]/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -172,7 +162,6 @@
     {
       "id": "momentum-11",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -185,7 +174,6 @@
     {
       "id": "momentum-12",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -195,7 +183,6 @@
     {
       "id": "momentum-13",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -206,7 +193,6 @@
     {
       "id": "momentum-14",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -218,7 +204,6 @@
     {
       "id": "momentum-15",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -229,7 +214,6 @@
     {
       "id": "momentum-16",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -245,7 +229,6 @@
     {
       "id": "momentum-17",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -255,7 +238,6 @@
     {
       "id": "momentum-18",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -265,7 +247,6 @@
     {
       "id": "momentum-19",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -278,7 +259,6 @@
     {
       "id": "momentum-20",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -288,7 +268,6 @@
     {
       "id": "momentum-21",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -299,7 +278,6 @@
     {
       "id": "momentum-22",
       "url": "cam_1.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

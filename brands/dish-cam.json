@@ -6,7 +6,6 @@
     {
       "id": "dish-cam-1",
       "url": "VideoInput/1/h264/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

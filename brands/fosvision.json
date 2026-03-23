@@ -6,7 +6,6 @@
     {
       "id": "fosvision-1",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "fosvision-2",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "fosvision-3",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

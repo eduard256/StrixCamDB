@@ -6,7 +6,6 @@
     {
       "id": "hamlet-1",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

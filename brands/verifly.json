@@ -6,7 +6,6 @@
     {
       "id": "verifly-1",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 5554,
       "models": [

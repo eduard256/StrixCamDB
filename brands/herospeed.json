@@ -6,7 +6,6 @@
     {
       "id": "herospeed-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -103,7 +102,6 @@
     {
       "id": "herospeed-2",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -133,7 +131,6 @@
     {
       "id": "herospeed-3",
       "url": "/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7000,
       "models": [
@@ -146,7 +143,6 @@
     {
       "id": "herospeed-4",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -156,7 +152,6 @@
     {
       "id": "herospeed-5",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -172,7 +167,6 @@
     {
       "id": "herospeed-6",
       "url": "ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -184,7 +178,6 @@
     {
       "id": "herospeed-7",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -198,7 +191,6 @@
     {
       "id": "herospeed-8",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -212,7 +204,6 @@
     {
       "id": "herospeed-9",
       "url": "/Onvif/live/1/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -223,7 +214,6 @@
     {
       "id": "herospeed-10",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -235,7 +225,6 @@
     {
       "id": "herospeed-11",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7000,
       "models": [
@@ -249,7 +238,6 @@
     {
       "id": "herospeed-12",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

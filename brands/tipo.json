@@ -6,7 +6,6 @@
     {
       "id": "tipo-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

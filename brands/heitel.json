@@ -6,7 +6,6 @@
     {
       "id": "heitel-1",
       "url": "webclisession/image_req0?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

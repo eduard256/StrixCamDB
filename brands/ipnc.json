@@ -6,7 +6,6 @@
     {
       "id": "ipnc-1",
       "url": "/1.ch",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "ipnc-2",
       "url": "/h264main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "ipnc-3",
       "url": "/PSIA/Streaming/channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "ipnc-4",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -73,7 +69,6 @@
     {
       "id": "ipnc-5",
       "url": "/dev=IPC-00000000/media=0/channel=0&level=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7554,
       "models": [
@@ -84,7 +79,6 @@
     {
       "id": "ipnc-6",
       "url": "/dev=IPC-00000000/media=0/channel=0&level=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7554,
       "models": [
@@ -94,7 +88,6 @@
     {
       "id": "ipnc-7",
       "url": "/0.ch",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -111,7 +104,6 @@
     {
       "id": "ipnc-8",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -125,7 +117,6 @@
     {
       "id": "ipnc-9",
       "url": "/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -137,7 +128,6 @@
     {
       "id": "ipnc-10",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -147,7 +137,6 @@
     {
       "id": "ipnc-11",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -157,7 +146,6 @@
     {
       "id": "ipnc-12",
       "url": "/mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -167,7 +155,6 @@
     {
       "id": "ipnc-13",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "unimo-1",
       "url": "cgi-bin/webapp.cgi?MODE=8&ID=[USERNAME]&PW=[PASSWORD]&VER=3000&CH=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "unimo-2",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

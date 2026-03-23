@@ -6,7 +6,6 @@
     {
       "id": "cellinx-sth775-1",
       "url": "/AVStream1_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "aztech-1",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "aztech-2",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "aztech-3",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "aztech-4",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -55,7 +51,6 @@
     {
       "id": "aztech-5",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -67,7 +62,6 @@
     {
       "id": "aztech-6",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -78,7 +72,6 @@
     {
       "id": "aztech-7",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +82,6 @@
     {
       "id": "aztech-8",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -100,7 +92,6 @@
     {
       "id": "aztech-9",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -112,7 +103,6 @@
     {
       "id": "aztech-10",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +114,6 @@
     {
       "id": "aztech-11",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -137,7 +126,6 @@
     {
       "id": "aztech-12",
       "url": "live/h264/ch[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -150,7 +138,6 @@
     {
       "id": "aztech-13",
       "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -161,7 +148,6 @@
     {
       "id": "aztech-14",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -171,7 +157,6 @@
     {
       "id": "aztech-15",
       "url": "cgi-bin/rtspStream/[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -184,7 +169,6 @@
     {
       "id": "aztech-16",
       "url": "live1.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -195,7 +179,6 @@
     {
       "id": "aztech-17",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -205,7 +188,6 @@
     {
       "id": "aztech-18",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -217,7 +199,6 @@
     {
       "id": "aztech-19",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -227,7 +208,6 @@
     {
       "id": "aztech-20",
       "url": "live",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -239,7 +219,6 @@
     {
       "id": "aztech-21",
       "url": "cam3/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -250,7 +229,6 @@
     {
       "id": "aztech-22",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -260,7 +238,6 @@
     {
       "id": "aztech-23",
       "url": "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -270,7 +247,6 @@
     {
       "id": "aztech-24",
       "url": "medias2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -281,7 +257,6 @@
     {
       "id": "aztech-25",
       "url": "/videostream.cgi?rate=11",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

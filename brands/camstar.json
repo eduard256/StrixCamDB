@@ -6,7 +6,6 @@
     {
       "id": "camstar-1",
       "url": "img.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "camstar-2",
       "url": "/live/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "smartwares-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -31,7 +30,6 @@
     {
       "id": "smartwares-2",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +45,6 @@
     {
       "id": "smartwares-3",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -66,7 +63,6 @@
     {
       "id": "smartwares-4",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -76,7 +72,6 @@
     {
       "id": "smartwares-5",
       "url": "/live/av0?user=[USERNAME]&passwd=Djayden%2B2012",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -86,7 +81,6 @@
     {
       "id": "smartwares-6",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -96,7 +90,6 @@
     {
       "id": "smartwares-7",
       "url": "//live/av0?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -106,7 +99,6 @@
     {
       "id": "smartwares-8",
       "url": "/live/av0?user=[USERNAME]&passwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -121,7 +113,6 @@
     {
       "id": "smartwares-9",
       "url": "/live/av0?user=[USERNAME]&passwd=Atpq192000v!",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -131,7 +122,6 @@
     {
       "id": "smartwares-10",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -150,7 +140,6 @@
     {
       "id": "smartwares-11",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -168,7 +157,6 @@
     {
       "id": "smartwares-12",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -179,7 +167,6 @@
     {
       "id": "smartwares-13",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -189,7 +176,6 @@
     {
       "id": "smartwares-14",
       "url": "/live/av0?",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -199,7 +185,6 @@
     {
       "id": "smartwares-15",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 0,
       "models": [

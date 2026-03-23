@@ -6,7 +6,6 @@
     {
       "id": "ipc-bo-1",
       "url": "/h264Preview_06_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "ipc-bo-2",
       "url": "/h264Preview_03_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "ipc-bo-3",
       "url": "/h264Preview_11_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -48,7 +45,6 @@
     {
       "id": "ipc-bo-4",
       "url": "/h264Preview_01_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -71,7 +67,6 @@
     {
       "id": "ipc-bo-5",
       "url": "/h264Preview_04_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -83,7 +78,6 @@
     {
       "id": "ipc-bo-6",
       "url": "/h264Preview_01_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -97,7 +91,6 @@
     {
       "id": "ipc-bo-7",
       "url": "/MainStream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -107,7 +100,6 @@
     {
       "id": "ipc-bo-8",
       "url": "/h264Preview_03_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -117,7 +109,6 @@
     {
       "id": "ipc-bo-9",
       "url": "/h264Preview_02_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -127,7 +118,6 @@
     {
       "id": "ipc-bo-10",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

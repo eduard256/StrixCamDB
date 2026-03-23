@@ -6,7 +6,6 @@
     {
       "id": "zencam-1",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "zencam-2",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46U1owNFBhcyQ=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

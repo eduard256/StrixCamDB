@@ -6,7 +6,6 @@
     {
       "id": "asoni-1",
       "url": "GetImage.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "asoni-2",
       "url": "GetData.cgi?Status=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "asoni-3",
       "url": "v2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -47,7 +44,6 @@
     {
       "id": "asoni-4",
       "url": "/v2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -57,7 +53,6 @@
     {
       "id": "asoni-5",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -69,7 +64,6 @@
     {
       "id": "asoni-6",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -79,7 +73,6 @@
     {
       "id": "asoni-7",
       "url": "/GetImage.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

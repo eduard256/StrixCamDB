@@ -6,7 +6,6 @@
     {
       "id": "aprica-1",
       "url": "VideoInput/[CHANNEL]/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

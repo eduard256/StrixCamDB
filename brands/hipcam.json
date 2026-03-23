@@ -6,7 +6,6 @@
     {
       "id": "hipcam-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -30,7 +29,6 @@
     {
       "id": "hipcam-2",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -44,7 +42,6 @@
     {
       "id": "hipcam-3",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +58,6 @@
     {
       "id": "hipcam-4",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -71,7 +67,6 @@
     {
       "id": "hipcam-5",
       "url": "/udp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -81,7 +76,6 @@
     {
       "id": "hipcam-6",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -92,7 +86,6 @@
     {
       "id": "hipcam-7",
       "url": "/tmpfs/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -103,7 +96,6 @@
     {
       "id": "hipcam-8",
       "url": "medias2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -113,7 +105,6 @@
     {
       "id": "hipcam-9",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -124,7 +115,6 @@
     {
       "id": "hipcam-10",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [

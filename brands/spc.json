@@ -6,7 +6,6 @@
     {
       "id": "spc-1",
       "url": "/mode=real&idc=1&ids=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

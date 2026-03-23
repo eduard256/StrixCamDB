@@ -6,7 +6,6 @@
     {
       "id": "sunluxy-1",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "sunluxy-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "sunluxy-3",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +44,6 @@
     {
       "id": "sunluxy-4",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -59,7 +55,6 @@
     {
       "id": "sunluxy-5",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +69,6 @@
     {
       "id": "sunluxy-6",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -85,7 +79,6 @@
     {
       "id": "sunluxy-7",
       "url": "/mjpeg?res=full&x0=0&y0=0&x1=100%25&y1=100%25&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -96,7 +89,6 @@
     {
       "id": "sunluxy-8",
       "url": "/cgi-bin/snapshot.cgi?chn=3&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -106,7 +98,6 @@
     {
       "id": "sunluxy-9",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -121,7 +112,6 @@
     {
       "id": "sunluxy-10",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -135,7 +125,6 @@
     {
       "id": "sunluxy-11",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -147,7 +136,6 @@
     {
       "id": "sunluxy-12",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -161,7 +149,6 @@
     {
       "id": "sunluxy-13",
       "url": "/ucast/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -175,7 +162,6 @@
     {
       "id": "sunluxy-14",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -190,7 +176,6 @@
     {
       "id": "sunluxy-15",
       "url": "/tcp/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -201,7 +186,6 @@
     {
       "id": "sunluxy-16",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -212,7 +196,6 @@
     {
       "id": "sunluxy-17",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -222,7 +205,6 @@
     {
       "id": "sunluxy-18",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -236,7 +218,6 @@
     {
       "id": "sunluxy-19",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -246,7 +227,6 @@
     {
       "id": "sunluxy-20",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -256,7 +236,6 @@
     {
       "id": "sunluxy-21",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -266,7 +245,6 @@
     {
       "id": "sunluxy-22",
       "url": "cgi-bin/stream.cgi?stream=MainStream&Audio=1",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -276,7 +254,6 @@
     {
       "id": "sunluxy-23",
       "url": "/cgi-bin/view.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -286,7 +263,6 @@
     {
       "id": "sunluxy-24",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

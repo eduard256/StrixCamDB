@@ -6,7 +6,6 @@
     {
       "id": "ltv-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ltv-2",
       "url": "/live/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "ltv-3",
       "url": "live/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

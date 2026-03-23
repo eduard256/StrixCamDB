@@ -6,7 +6,6 @@
     {
       "id": "fc5415e-1",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 52623,
       "models": [

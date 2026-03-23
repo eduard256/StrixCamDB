@@ -6,7 +6,6 @@
     {
       "id": "imou-1",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "imou-2",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -57,7 +55,6 @@
     {
       "id": "imou-3",
       "url": "/video.mjpg?oids=1&username=[USERNAME]&password=[USERNAME]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -75,7 +72,6 @@
     {
       "id": "imou-4",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +92,6 @@
     {
       "id": "imou-5",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -134,7 +129,6 @@
     {
       "id": "imou-6",
       "url": "/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -152,7 +146,6 @@
     {
       "id": "imou-7",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -168,7 +161,6 @@
     {
       "id": "imou-8",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -196,7 +188,6 @@
     {
       "id": "imou-9",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -216,7 +207,6 @@
     {
       "id": "imou-10",
       "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -226,7 +216,6 @@
     {
       "id": "imou-11",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -248,7 +237,6 @@
     {
       "id": "imou-12",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -260,7 +248,6 @@
     {
       "id": "imou-13",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1&authBasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -273,7 +260,6 @@
     {
       "id": "imou-14",
       "url": "/video.mjpg?oids=1&username=[USERNAME]&password=staphi2",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -283,7 +269,6 @@
     {
       "id": "imou-15",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46bmljazEyMTk=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -297,7 +282,6 @@
     {
       "id": "imou-16",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -307,7 +291,6 @@
     {
       "id": "imou-17",
       "url": "/cam/realmonitor?channel=1&subtype=0&resolution=2560x1440",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -318,7 +301,6 @@
     {
       "id": "imou-18",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -329,7 +311,6 @@
     {
       "id": "imou-19",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -339,7 +320,6 @@
     {
       "id": "imou-20",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46bWLuaWRvMjAyMy4=]",
-      "type": "JPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -349,7 +329,6 @@
     {
       "id": "imou-21",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -359,7 +338,6 @@
     {
       "id": "imou-22",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -371,7 +349,6 @@
     {
       "id": "imou-23",
       "url": "/onvifsnapshot/media_service/snapshot?channel=1&subtype=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -381,7 +358,6 @@
     {
       "id": "imou-24",
       "url": "/cam/realmonitor?channel=1&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -392,7 +368,6 @@
     {
       "id": "imou-25",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -404,7 +379,6 @@
     {
       "id": "imou-26",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Sp%40rks73",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -414,7 +388,6 @@
     {
       "id": "imou-27",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46QmVlckNhbTM2NSU0MDExMQ==",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "unifi-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "unifi-2",
       "url": "/s0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -43,7 +41,6 @@
     {
       "id": "unifi-3",
       "url": "/Y6LkiH8UDTSbjlyR",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -53,7 +50,6 @@
     {
       "id": "unifi-4",
       "url": "/7k9wbmWV4capQOJn",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -63,7 +59,6 @@
     {
       "id": "unifi-5",
       "url": "/ZOeooeCNUzrdEMBB",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -73,7 +68,6 @@
     {
       "id": "unifi-6",
       "url": "/CfoWfNYSi2Uto1Va",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -83,7 +77,6 @@
     {
       "id": "unifi-7",
       "url": "/s1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -97,7 +90,6 @@
     {
       "id": "unifi-8",
       "url": "/gwQPQxLdpAcz83Oy?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -107,7 +99,6 @@
     {
       "id": "unifi-9",
       "url": "/FDIahGtqNYurTDpc?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -117,7 +108,6 @@
     {
       "id": "unifi-10",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -129,7 +119,6 @@
     {
       "id": "unifi-11",
       "url": "/euwkG3hjFjvc4Hgv",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -139,7 +128,6 @@
     {
       "id": "unifi-12",
       "url": "/FWIpiqzfEvvdCAAY",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -149,7 +137,6 @@
     {
       "id": "unifi-13",
       "url": "/bGQUCKWG5my3BRIt",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -159,7 +146,6 @@
     {
       "id": "unifi-14",
       "url": "/G3dyqVoAMRY4sIhg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -169,7 +155,6 @@
     {
       "id": "unifi-15",
       "url": "/s2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -182,7 +167,6 @@
     {
       "id": "unifi-16",
       "url": "/C871oCwtXekmFfOJ",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7447,
       "models": [
@@ -192,7 +176,6 @@
     {
       "id": "unifi-17",
       "url": "/hQ0t5jE5wP4yYVzD",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -202,7 +185,6 @@
     {
       "id": "unifi-18",
       "url": "/jkRzYFwDgmCnVTMB",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -212,7 +194,6 @@
     {
       "id": "unifi-19",
       "url": "/87eIzaVpJHI5qkeU",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -222,7 +203,6 @@
     {
       "id": "unifi-20",
       "url": "/4NifILe1B0uQyMcN?enablertsp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [

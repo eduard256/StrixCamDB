@@ -6,7 +6,6 @@
     {
       "id": "extron-1",
       "url": "/extron3-HS-06",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

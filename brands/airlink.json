@@ -6,7 +6,6 @@
     {
       "id": "airlink-1",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "airlink-2",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -44,7 +42,6 @@
     {
       "id": "airlink-3",
       "url": "goform/video2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +57,6 @@
     {
       "id": "airlink-4",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -73,7 +69,6 @@
     {
       "id": "airlink-5",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +81,6 @@
     {
       "id": "airlink-6",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -105,7 +99,6 @@
     {
       "id": "airlink-7",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -115,7 +108,6 @@
     {
       "id": "airlink-8",
       "url": "video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -134,7 +126,6 @@
     {
       "id": "airlink-9",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -155,7 +146,6 @@
     {
       "id": "airlink-10",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -186,7 +176,6 @@
     {
       "id": "airlink-11",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -211,7 +200,6 @@
     {
       "id": "airlink-12",
       "url": "mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -223,7 +211,6 @@
     {
       "id": "airlink-13",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -237,7 +224,6 @@
     {
       "id": "airlink-14",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -248,7 +234,6 @@
     {
       "id": "airlink-15",
       "url": "goform/capture",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -268,7 +253,6 @@
     {
       "id": "airlink-16",
       "url": "ipcam.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -280,7 +264,6 @@
     {
       "id": "airlink-17",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -292,7 +275,6 @@
     {
       "id": "airlink-18",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -302,7 +284,6 @@
     {
       "id": "airlink-19",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -312,7 +293,6 @@
     {
       "id": "airlink-20",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -323,7 +303,6 @@
     {
       "id": "airlink-21",
       "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -333,7 +312,6 @@
     {
       "id": "airlink-22",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -344,7 +322,6 @@
     {
       "id": "airlink-23",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -354,7 +331,6 @@
     {
       "id": "airlink-24",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -364,7 +340,6 @@
     {
       "id": "airlink-25",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -375,7 +350,6 @@
     {
       "id": "airlink-26",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -385,7 +359,6 @@
     {
       "id": "airlink-27",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -395,7 +368,6 @@
     {
       "id": "airlink-28",
       "url": "image.cgi?type=motion&camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -405,7 +377,6 @@
     {
       "id": "airlink-29",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -415,7 +386,6 @@
     {
       "id": "airlink-30",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -425,7 +395,6 @@
     {
       "id": "airlink-31",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -437,7 +406,6 @@
     {
       "id": "airlink-32",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -447,7 +415,6 @@
     {
       "id": "airlink-33",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -457,7 +424,6 @@
     {
       "id": "airlink-34",
       "url": "/cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "yudor-1",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "yudor-2",
       "url": "current[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "yudor-3",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "yudor-4",
       "url": "/v2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ip-phone-camera-1",
       "url": "/videofeed",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "ip-phone-camera-2",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

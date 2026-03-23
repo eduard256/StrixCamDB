@@ -6,7 +6,6 @@
     {
       "id": "denver-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -52,7 +51,6 @@
     {
       "id": "denver-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -80,7 +78,6 @@
     {
       "id": "denver-3",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -93,7 +90,6 @@
     {
       "id": "denver-4",
       "url": "/MediaInput/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -103,7 +99,6 @@
     {
       "id": "denver-5",
       "url": "/11/videostream.cgi",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -118,7 +113,6 @@
     {
       "id": "denver-6",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -131,7 +125,6 @@
     {
       "id": "denver-7",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -141,7 +134,6 @@
     {
       "id": "denver-8",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -152,7 +144,6 @@
     {
       "id": "denver-9",
       "url": "/img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -162,7 +153,6 @@
     {
       "id": "denver-10",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -172,7 +162,6 @@
     {
       "id": "denver-11",
       "url": "/videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -184,7 +173,6 @@
     {
       "id": "denver-12",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -194,7 +182,6 @@
     {
       "id": "denver-13",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -204,7 +191,6 @@
     {
       "id": "denver-14",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -214,7 +200,6 @@
     {
       "id": "denver-15",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -224,7 +209,6 @@
     {
       "id": "denver-16",
       "url": "MediaInput/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -234,7 +218,6 @@
     {
       "id": "denver-17",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -245,7 +228,6 @@
     {
       "id": "denver-18",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [

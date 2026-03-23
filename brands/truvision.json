@@ -6,7 +6,6 @@
     {
       "id": "truvision-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +26,6 @@
     {
       "id": "truvision-2",
       "url": "/Streaming/Unicast/channels/401",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -38,7 +36,6 @@
     {
       "id": "truvision-3",
       "url": "/Streaming/channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "truvision-4",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -68,7 +64,6 @@
     {
       "id": "truvision-5",
       "url": "/Streaming/channels/902",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -79,7 +74,6 @@
     {
       "id": "truvision-6",
       "url": "/Streaming/channels/702",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -89,7 +83,6 @@
     {
       "id": "truvision-7",
       "url": "/Streaming/Unicast/channels/202",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1024,
       "models": [
@@ -100,7 +93,6 @@
     {
       "id": "truvision-8",
       "url": "/Streaming/channels/901",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -110,7 +102,6 @@
     {
       "id": "truvision-9",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -120,7 +111,6 @@
     {
       "id": "truvision-10",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -135,7 +125,6 @@
     {
       "id": "truvision-11",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -146,7 +135,6 @@
     {
       "id": "truvision-12",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -156,7 +144,6 @@
     {
       "id": "truvision-13",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -168,7 +155,6 @@
     {
       "id": "truvision-14",
       "url": "/rtsph2641080p",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -178,7 +164,6 @@
     {
       "id": "truvision-15",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

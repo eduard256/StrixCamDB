@@ -6,7 +6,6 @@
     {
       "id": "platinum-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [

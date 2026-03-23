@@ -6,7 +6,6 @@
     {
       "id": "cocoon-1",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

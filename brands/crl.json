@@ -6,7 +6,6 @@
     {
       "id": "crl-1",
       "url": "/media/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

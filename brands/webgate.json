@@ -6,7 +6,6 @@
     {
       "id": "webgate-1",
       "url": "/ch5/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 60010,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "webgate-2",
       "url": "/ch1/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 60010,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "webgate-3",
       "url": "/ch2/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 60010,
       "models": [

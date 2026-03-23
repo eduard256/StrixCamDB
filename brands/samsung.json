@@ -6,7 +6,6 @@
     {
       "id": "samsung-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "samsung-2",
       "url": "cgi-bin/video.cgi?msubmenu=jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +122,6 @@
     {
       "id": "samsung-3",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -134,7 +131,6 @@
     {
       "id": "samsung-4",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -212,7 +208,6 @@
     {
       "id": "samsung-5",
       "url": "/video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -232,7 +227,6 @@
     {
       "id": "samsung-6",
       "url": "/video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -252,7 +246,6 @@
     {
       "id": "samsung-7",
       "url": "/cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -277,7 +270,6 @@
     {
       "id": "samsung-8",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -288,7 +280,6 @@
     {
       "id": "samsung-9",
       "url": "now.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -309,7 +300,6 @@
     {
       "id": "samsung-10",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -406,7 +396,6 @@
     {
       "id": "samsung-11",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -527,7 +516,6 @@
     {
       "id": "samsung-12",
       "url": "/onvif/profile1/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -564,7 +552,6 @@
     {
       "id": "samsung-13",
       "url": "video?submenu=jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -583,7 +570,6 @@
     {
       "id": "samsung-14",
       "url": "/onvif/profile4/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -601,7 +587,6 @@
     {
       "id": "samsung-15",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -612,7 +597,6 @@
     {
       "id": "samsung-16",
       "url": "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 4747,
       "models": [
@@ -626,7 +610,6 @@
     {
       "id": "samsung-17",
       "url": "/h264_pcm.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8080,
       "models": [
@@ -640,7 +623,6 @@
     {
       "id": "samsung-18",
       "url": "/videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -658,7 +640,6 @@
     {
       "id": "samsung-19",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -670,7 +651,6 @@
     {
       "id": "samsung-20",
       "url": "video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -683,7 +663,6 @@
     {
       "id": "samsung-21",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -709,7 +688,6 @@
     {
       "id": "samsung-22",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -737,7 +715,6 @@
     {
       "id": "samsung-23",
       "url": "?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -748,7 +725,6 @@
     {
       "id": "samsung-24",
       "url": "jpeg/qvga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -758,7 +734,6 @@
     {
       "id": "samsung-25",
       "url": "mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -772,7 +747,6 @@
     {
       "id": "samsung-26",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -784,7 +758,6 @@
     {
       "id": "samsung-27",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -804,7 +777,6 @@
     {
       "id": "samsung-28",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -815,7 +787,6 @@
     {
       "id": "samsung-29",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -832,7 +803,6 @@
     {
       "id": "samsung-30",
       "url": "/Browser",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -842,7 +812,6 @@
     {
       "id": "samsung-31",
       "url": "/shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -852,7 +821,6 @@
     {
       "id": "samsung-32",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1024,
       "models": [
@@ -862,7 +830,6 @@
     {
       "id": "samsung-33",
       "url": "/h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8080,
       "models": [
@@ -872,7 +839,6 @@
     {
       "id": "samsung-34",
       "url": "/profile5/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -889,7 +855,6 @@
     {
       "id": "samsung-35",
       "url": "/onvif/profile5/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -908,7 +873,6 @@
     {
       "id": "samsung-36",
       "url": "/onvif/profile2/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -936,7 +900,6 @@
     {
       "id": "samsung-37",
       "url": "/profile2/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -949,7 +912,6 @@
     {
       "id": "samsung-38",
       "url": "/qvga_livestream.avi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 7679,
       "models": [
@@ -959,7 +921,6 @@
     {
       "id": "samsung-39",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -969,7 +930,6 @@
     {
       "id": "samsung-40",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -981,7 +941,6 @@
     {
       "id": "samsung-41",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -991,7 +950,6 @@
     {
       "id": "samsung-42",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1001,7 +959,6 @@
     {
       "id": "samsung-43",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1011,7 +968,6 @@
     {
       "id": "samsung-44",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1021,7 +977,6 @@
     {
       "id": "samsung-45",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1031,7 +986,6 @@
     {
       "id": "samsung-46",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1041,7 +995,6 @@
     {
       "id": "samsung-47",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1051,7 +1004,6 @@
     {
       "id": "samsung-48",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1062,7 +1014,6 @@
     {
       "id": "samsung-49",
       "url": "snapshot/view[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1072,7 +1023,6 @@
     {
       "id": "samsung-50",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1082,7 +1032,6 @@
     {
       "id": "samsung-51",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1092,7 +1041,6 @@
     {
       "id": "samsung-52",
       "url": "live/h264/ch[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1105,7 +1053,6 @@
     {
       "id": "samsung-53",
       "url": "media/still.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1115,7 +1062,6 @@
     {
       "id": "samsung-54",
       "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1125,7 +1071,6 @@
     {
       "id": "samsung-55",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1135,7 +1080,6 @@
     {
       "id": "samsung-56",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1146,7 +1090,6 @@
     {
       "id": "samsung-57",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1156,7 +1099,6 @@
     {
       "id": "samsung-58",
       "url": "0/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1166,7 +1108,6 @@
     {
       "id": "samsung-59",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1176,7 +1117,6 @@
     {
       "id": "samsung-60",
       "url": "mpeg4unicast",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1193,7 +1133,6 @@
     {
       "id": "samsung-61",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1203,7 +1142,6 @@
     {
       "id": "samsung-62",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1213,7 +1151,6 @@
     {
       "id": "samsung-63",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1226,7 +1163,6 @@
     {
       "id": "samsung-64",
       "url": "MediaInput/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1236,7 +1172,6 @@
     {
       "id": "samsung-65",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1246,7 +1181,6 @@
     {
       "id": "samsung-66",
       "url": "profile[CHANNEL]/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1256,7 +1190,6 @@
     {
       "id": "samsung-67",
       "url": "public/video.cgi?ch=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1272,7 +1205,6 @@
     {
       "id": "samsung-68",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1288,7 +1220,6 @@
     {
       "id": "samsung-69",
       "url": "snap",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1298,7 +1229,6 @@
     {
       "id": "samsung-70",
       "url": "mpeg4/[CHANNEL]/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1308,7 +1238,6 @@
     {
       "id": "samsung-71",
       "url": "cgi-bin/checkimage.cgi?UID=[USERNAME]&CAM=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1319,7 +1248,6 @@
     {
       "id": "samsung-72",
       "url": "nphMotionJpeg?Resolution=640x480&Quality=Standard",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1329,7 +1257,6 @@
     {
       "id": "samsung-73",
       "url": "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=0.JPG&SENDEMPTYIMAGES=NO",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1339,7 +1266,6 @@
     {
       "id": "samsung-74",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1349,7 +1275,6 @@
     {
       "id": "samsung-75",
       "url": "/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1359,7 +1284,6 @@
     {
       "id": "samsung-76",
       "url": "/3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1369,7 +1293,6 @@
     {
       "id": "samsung-77",
       "url": "/4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1379,7 +1302,6 @@
     {
       "id": "samsung-78",
       "url": "/5",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1389,7 +1311,6 @@
     {
       "id": "samsung-79",
       "url": "/6",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1399,7 +1320,6 @@
     {
       "id": "samsung-80",
       "url": "/7",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1409,7 +1329,6 @@
     {
       "id": "samsung-81",
       "url": "/8",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1419,7 +1338,6 @@
     {
       "id": "samsung-82",
       "url": "/9",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1429,7 +1347,6 @@
     {
       "id": "samsung-83",
       "url": "/10",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1439,7 +1356,6 @@
     {
       "id": "samsung-84",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1449,7 +1365,6 @@
     {
       "id": "samsung-85",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1459,7 +1374,6 @@
     {
       "id": "samsung-86",
       "url": "/13",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1469,7 +1383,6 @@
     {
       "id": "samsung-87",
       "url": "/14",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1479,7 +1392,6 @@
     {
       "id": "samsung-88",
       "url": "/15",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 4524,
       "models": [
@@ -1489,7 +1401,6 @@
     {
       "id": "samsung-89",
       "url": "/profile4/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1501,7 +1412,6 @@
     {
       "id": "samsung-90",
       "url": "/onvif/profile6/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1512,7 +1422,6 @@
     {
       "id": "samsung-91",
       "url": "cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x00006784&PortId=0&CameraId=[CHANNEL]&PauseTime=0&FwCgiVer=0x0001",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1522,7 +1431,6 @@
     {
       "id": "samsung-92",
       "url": "video/cam[CHANNEL]/2.0?audio=0&stream=0",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1532,7 +1440,6 @@
     {
       "id": "samsung-93",
       "url": "mjpeg/media.smp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1542,7 +1449,6 @@
     {
       "id": "samsung-94",
       "url": "MJPEG/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1557,7 +1463,6 @@
     {
       "id": "samsung-95",
       "url": "H264/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1570,7 +1475,6 @@
     {
       "id": "samsung-96",
       "url": "/profile1/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1581,7 +1485,6 @@
     {
       "id": "samsung-97",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 0,
       "models": [
@@ -1591,7 +1494,6 @@
     {
       "id": "samsung-98",
       "url": "/public/video.cgi?ch=1",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1601,7 +1503,6 @@
     {
       "id": "samsung-99",
       "url": "/cgi-bin/video.cgi?msubmenu=jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [

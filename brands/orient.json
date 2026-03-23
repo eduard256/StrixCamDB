@@ -6,7 +6,6 @@
     {
       "id": "orient-1",
       "url": "/cam1/onvif-h264-1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "orient-2",
       "url": "/video",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "orient-3",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "orient-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "orient-5",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "orient-6",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -72,7 +66,6 @@
     {
       "id": "orient-7",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -84,7 +77,6 @@
     {
       "id": "orient-8",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -94,7 +86,6 @@
     {
       "id": "orient-9",
       "url": "/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -104,7 +95,6 @@
     {
       "id": "orient-10",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

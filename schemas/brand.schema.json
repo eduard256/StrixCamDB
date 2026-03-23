@@ -33,7 +33,7 @@
   "$defs": {
     "stream": {
       "type": "object",
-      "required": ["id", "url", "type", "protocol", "port", "models"],
+      "required": ["id", "url", "protocol", "port", "models"],
       "additionalProperties": false,
       "properties": {
         "id": {
@@ -44,10 +44,6 @@
         "url": {
           "type": "string",
           "description": "URL path with optional placeholders: [CHANNEL], [CHANNEL+1], [USERNAME], [PASSWORD], [WIDTH], [HEIGHT], [IP], [PORT], [AUTH], [TOKEN], [USER], [PASS], [PWD], [PASWORD]"
-        },
-        "type": {
-          "type": "string",
-          "description": "Stream type: FFMPEG, MJPEG, JPEG, VLC, BUBBLE, or future types"
         },
         "protocol": {
           "type": "string",

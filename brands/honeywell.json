@@ -6,7 +6,6 @@
     {
       "id": "honeywell-1",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "honeywell-2",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "honeywell-3",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -42,7 +39,6 @@
     {
       "id": "honeywell-4",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +53,6 @@
     {
       "id": "honeywell-5",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +81,6 @@
     {
       "id": "honeywell-6",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -106,7 +100,6 @@
     {
       "id": "honeywell-7",
       "url": "img/video.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -126,7 +119,6 @@
     {
       "id": "honeywell-8",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -159,7 +151,6 @@
     {
       "id": "honeywell-9",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -170,7 +161,6 @@
     {
       "id": "honeywell-10",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -182,7 +172,6 @@
     {
       "id": "honeywell-11",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -193,7 +182,6 @@
     {
       "id": "honeywell-12",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46QWRtaW4xMjMu",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -204,7 +192,6 @@
     {
       "id": "honeywell-13",
       "url": "/media",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -223,7 +210,6 @@
     {
       "id": "honeywell-14",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -243,7 +229,6 @@
     {
       "id": "honeywell-15",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46Qm91bG91ODEh",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -253,7 +238,6 @@
     {
       "id": "honeywell-16",
       "url": "/live2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -263,7 +247,6 @@
     {
       "id": "honeywell-17",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -273,7 +256,6 @@
     {
       "id": "honeywell-18",
       "url": "cam[CHANNEL]/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -290,7 +272,6 @@
     {
       "id": "honeywell-19",
       "url": "mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -302,7 +283,6 @@
     {
       "id": "honeywell-20",
       "url": "PSIA/Streaming/channels/[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -315,7 +295,6 @@
     {
       "id": "honeywell-21",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -327,7 +306,6 @@
     {
       "id": "honeywell-22",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -347,7 +325,6 @@
     {
       "id": "honeywell-23",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -357,7 +334,6 @@
     {
       "id": "honeywell-24",
       "url": "cam[CHANNEL]/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -368,7 +344,6 @@
     {
       "id": "honeywell-25",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -381,7 +356,6 @@
     {
       "id": "honeywell-26",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [
@@ -392,7 +366,6 @@
     {
       "id": "honeywell-27",
       "url": "/ch01.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -402,7 +375,6 @@
     {
       "id": "honeywell-28",
       "url": "/media/1/1/Profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -412,7 +384,6 @@
     {
       "id": "honeywell-29",
       "url": "/img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -428,7 +399,6 @@
     {
       "id": "honeywell-30",
       "url": "img/media.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -444,7 +414,6 @@
     {
       "id": "honeywell-31",
       "url": "/img/media.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -454,7 +423,6 @@
     {
       "id": "honeywell-32",
       "url": "/img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -464,7 +432,6 @@
     {
       "id": "honeywell-33",
       "url": "axis-media/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -474,7 +441,6 @@
     {
       "id": "honeywell-34",
       "url": "/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

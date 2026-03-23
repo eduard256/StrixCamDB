@@ -6,7 +6,6 @@
     {
       "id": "zkteco-1",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "zkteco-2",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "zkteco-3",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "zkteco-4",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "zkteco-5",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "zkteco-6",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -73,7 +67,6 @@
     {
       "id": "zkteco-7",
       "url": "mpeg4/media.amp?resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -83,7 +76,6 @@
     {
       "id": "zkteco-8",
       "url": "live_mpeg4.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

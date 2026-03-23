@@ -6,7 +6,6 @@
     {
       "id": "panoeagle-1",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "panoeagle-2",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 554,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "panoeagle-3",
       "url": "/h264?username=[USERNAME]&password=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

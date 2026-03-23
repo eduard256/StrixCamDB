@@ -6,7 +6,6 @@
     {
       "id": "zavio-1",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -53,7 +52,6 @@
     {
       "id": "zavio-2",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -79,7 +77,6 @@
     {
       "id": "zavio-3",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -103,7 +100,6 @@
     {
       "id": "zavio-4",
       "url": "cgi-bin/view/image?pro_[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -158,7 +154,6 @@
     {
       "id": "zavio-5",
       "url": "/video.pro2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -192,7 +187,6 @@
     {
       "id": "zavio-6",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -205,7 +199,6 @@
     {
       "id": "zavio-7",
       "url": "/video.pro1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -242,7 +235,6 @@
     {
       "id": "zavio-8",
       "url": "/video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -255,7 +247,6 @@
     {
       "id": "zavio-9",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -277,7 +268,6 @@
     {
       "id": "zavio-10",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -304,7 +294,6 @@
     {
       "id": "zavio-11",
       "url": "stream?uri=video.pro[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -315,7 +304,6 @@
     {
       "id": "zavio-12",
       "url": "cgi-bin/jpg/image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -338,7 +326,6 @@
     {
       "id": "zavio-13",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -352,7 +339,6 @@
     {
       "id": "zavio-14",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -362,7 +348,6 @@
     {
       "id": "zavio-15",
       "url": "/jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -373,7 +358,6 @@
     {
       "id": "zavio-16",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -383,7 +367,6 @@
     {
       "id": "zavio-17",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

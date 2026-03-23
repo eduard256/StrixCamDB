@@ -6,7 +6,6 @@
     {
       "id": "duhau-1",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

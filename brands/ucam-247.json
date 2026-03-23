@@ -6,7 +6,6 @@
     {
       "id": "ucam-247-1",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ucam-247-2",
       "url": "stream.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "ucam-247-3",
       "url": "/live/0/onvif.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 150,
       "models": [
@@ -44,7 +41,6 @@
     {
       "id": "ucam-247-4",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -64,7 +60,6 @@
     {
       "id": "ucam-247-5",
       "url": "live_mpeg4.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 150,
       "models": [
@@ -78,7 +73,6 @@
     {
       "id": "ucam-247-6",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -91,7 +85,6 @@
     {
       "id": "ucam-247-7",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -101,7 +94,6 @@
     {
       "id": "ucam-247-8",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -114,7 +106,6 @@
     {
       "id": "ucam-247-9",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -124,7 +115,6 @@
     {
       "id": "ucam-247-10",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

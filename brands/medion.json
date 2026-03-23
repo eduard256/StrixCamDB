@@ -6,7 +6,6 @@
     {
       "id": "medion-1",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "medion-2",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +36,6 @@
     {
       "id": "medion-3",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "medion-4",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -63,7 +59,6 @@
     {
       "id": "medion-5",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +69,6 @@
     {
       "id": "medion-6",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -84,7 +78,6 @@
     {
       "id": "medion-7",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -95,7 +88,6 @@
     {
       "id": "medion-8",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -109,7 +101,6 @@
     {
       "id": "medion-9",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -119,7 +110,6 @@
     {
       "id": "medion-10",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -129,7 +119,6 @@
     {
       "id": "medion-11",
       "url": "/mjpg/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

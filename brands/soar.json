@@ -6,7 +6,6 @@
     {
       "id": "soar-1",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 85,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "soar-2",
       "url": "/media/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

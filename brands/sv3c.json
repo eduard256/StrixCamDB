@@ -6,7 +6,6 @@
     {
       "id": "sv3c-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -136,7 +135,6 @@
     {
       "id": "sv3c-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -166,7 +164,6 @@
     {
       "id": "sv3c-3",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -219,7 +216,6 @@
     {
       "id": "sv3c-4",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -234,7 +230,6 @@
     {
       "id": "sv3c-5",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -253,7 +248,6 @@
     {
       "id": "sv3c-6",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -279,7 +273,6 @@
     {
       "id": "sv3c-7",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -313,7 +306,6 @@
     {
       "id": "sv3c-8",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -326,7 +318,6 @@
     {
       "id": "sv3c-9",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -338,7 +329,6 @@
     {
       "id": "sv3c-10",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -357,7 +347,6 @@
     {
       "id": "sv3c-11",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -374,7 +363,6 @@
     {
       "id": "sv3c-12",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -385,7 +373,6 @@
     {
       "id": "sv3c-13",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -395,7 +382,6 @@
     {
       "id": "sv3c-14",
       "url": "/0/TTTT-748045-HBNGS:ChickensRock21/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -407,7 +393,6 @@
     {
       "id": "sv3c-15",
       "url": "/0/IPCAM:Summer_2021/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -418,7 +403,6 @@
     {
       "id": "sv3c-16",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -430,7 +414,6 @@
     {
       "id": "sv3c-17",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -444,7 +427,6 @@
     {
       "id": "sv3c-18",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -455,7 +437,6 @@
     {
       "id": "sv3c-19",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -468,7 +449,6 @@
     {
       "id": "sv3c-20",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -481,7 +461,6 @@
     {
       "id": "sv3c-21",
       "url": "VideoInput/1/mpeg4/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -497,7 +476,6 @@
     {
       "id": "sv3c-22",
       "url": "admin/cgi-bin/getstream.cgi?10&&&&&0&0&0&0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -507,7 +485,6 @@
     {
       "id": "sv3c-23",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -520,7 +497,6 @@
     {
       "id": "sv3c-24",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -537,7 +513,6 @@
     {
       "id": "sv3c-25",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -550,7 +525,6 @@
     {
       "id": "sv3c-26",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -565,7 +539,6 @@
     {
       "id": "sv3c-27",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -577,7 +550,6 @@
     {
       "id": "sv3c-28",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -587,7 +559,6 @@
     {
       "id": "sv3c-29",
       "url": "/VideoInput/1/mpeg4/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -597,7 +568,6 @@
     {
       "id": "sv3c-30",
       "url": "/0/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -607,7 +577,6 @@
     {
       "id": "sv3c-31",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -617,7 +586,6 @@
     {
       "id": "sv3c-32",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -627,7 +595,6 @@
     {
       "id": "sv3c-33",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -638,7 +605,6 @@
     {
       "id": "sv3c-34",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -649,7 +615,6 @@
     {
       "id": "sv3c-35",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -661,7 +626,6 @@
     {
       "id": "sv3c-36",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -673,7 +637,6 @@
     {
       "id": "sv3c-37",
       "url": "/admin/cgi-bin/getstream.cgi?10&&&&&0&0&0&0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -683,7 +646,6 @@
     {
       "id": "sv3c-38",
       "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -693,7 +655,6 @@
     {
       "id": "sv3c-39",
       "url": "/img/snapshot.cgi?size=3",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -703,7 +664,6 @@
     {
       "id": "sv3c-40",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [

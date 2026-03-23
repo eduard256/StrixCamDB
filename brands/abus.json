@@ -6,7 +6,6 @@
     {
       "id": "abus-1",
       "url": "/Streaming/Channels/[CHANNEL+1]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "abus-2",
       "url": "/Streaming/Channels/[CHANNEL]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "abus-3",
       "url": "/Streaming/Channels/[CHANNEL+1]02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "abus-4",
       "url": "/Streaming/Channels/[CHANNEL]02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "abus-5",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -65,7 +60,6 @@
     {
       "id": "abus-6",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -85,7 +79,6 @@
     {
       "id": "abus-7",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -109,7 +102,6 @@
     {
       "id": "abus-8",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -121,7 +113,6 @@
     {
       "id": "abus-9",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -138,7 +129,6 @@
     {
       "id": "abus-10",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -164,7 +154,6 @@
     {
       "id": "abus-11",
       "url": "cgi-bin/video.jpg?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +166,6 @@
     {
       "id": "abus-12",
       "url": "live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -204,7 +192,6 @@
     {
       "id": "abus-13",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -220,7 +207,6 @@
     {
       "id": "abus-14",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -236,7 +222,6 @@
     {
       "id": "abus-15",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -275,7 +260,6 @@
     {
       "id": "abus-16",
       "url": "/Streaming/Unicast/channels/101.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -285,7 +269,6 @@
     {
       "id": "abus-17",
       "url": "/Streaming/Unicast/channels/102.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -295,7 +278,6 @@
     {
       "id": "abus-18",
       "url": "/Streaming/Unicast/channels/202.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -305,7 +287,6 @@
     {
       "id": "abus-19",
       "url": "/Streaming/Unicast/channels/201.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -315,7 +296,6 @@
     {
       "id": "abus-20",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -335,7 +315,6 @@
     {
       "id": "abus-21",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -347,7 +326,6 @@
     {
       "id": "abus-22",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -358,7 +336,6 @@
     {
       "id": "abus-23",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -371,7 +348,6 @@
     {
       "id": "abus-24",
       "url": "/s2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -382,7 +358,6 @@
     {
       "id": "abus-25",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -394,7 +369,6 @@
     {
       "id": "abus-26",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -413,7 +387,6 @@
     {
       "id": "abus-27",
       "url": "/video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -433,7 +406,6 @@
     {
       "id": "abus-28",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -443,7 +415,6 @@
     {
       "id": "abus-29",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -454,7 +425,6 @@
     {
       "id": "abus-30",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -464,7 +434,6 @@
     {
       "id": "abus-31",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -474,7 +443,6 @@
     {
       "id": "abus-32",
       "url": "cgi-bin/jpg/image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -489,7 +457,6 @@
     {
       "id": "abus-33",
       "url": "cgi-bin/view/image?pro_[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -502,7 +469,6 @@
     {
       "id": "abus-34",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -512,7 +478,6 @@
     {
       "id": "abus-35",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -535,7 +500,6 @@
     {
       "id": "abus-36",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -556,7 +520,6 @@
     {
       "id": "abus-37",
       "url": "/cgi-bin/viewer/video.jpg?resolution=320x240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -566,7 +529,6 @@
     {
       "id": "abus-38",
       "url": "/cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -577,7 +539,6 @@
     {
       "id": "abus-39",
       "url": "/jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10001,
       "models": [
@@ -589,7 +550,6 @@
     {
       "id": "abus-40",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -600,7 +560,6 @@
     {
       "id": "abus-41",
       "url": "/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -610,7 +569,6 @@
     {
       "id": "abus-42",
       "url": "video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -624,7 +582,6 @@
     {
       "id": "abus-43",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -634,7 +591,6 @@
     {
       "id": "abus-44",
       "url": "VideoInput/[CHANNEL]/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -646,7 +602,6 @@
     {
       "id": "abus-45",
       "url": "video[USERNAME].mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -656,7 +611,6 @@
     {
       "id": "abus-46",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -667,7 +621,6 @@
     {
       "id": "abus-47",
       "url": "jpeg/pull",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -678,7 +631,6 @@
     {
       "id": "abus-48",
       "url": "/VideoInput/0/h264/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -688,7 +640,6 @@
     {
       "id": "abus-49",
       "url": "/mpeg4/media.amp?resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -698,7 +649,6 @@
     {
       "id": "abus-50",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -711,7 +661,6 @@
     {
       "id": "abus-51",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

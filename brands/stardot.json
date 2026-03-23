@@ -6,7 +6,6 @@
     {
       "id": "stardot-1",
       "url": "jpeg.cgi?[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

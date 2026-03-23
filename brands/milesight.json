@@ -6,7 +6,6 @@
     {
       "id": "milesight-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "milesight-2",
       "url": "/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -77,7 +75,6 @@
     {
       "id": "milesight-3",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -92,7 +89,6 @@
     {
       "id": "milesight-4",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -109,7 +105,6 @@
     {
       "id": "milesight-5",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -119,7 +114,6 @@
     {
       "id": "milesight-6",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -132,7 +126,6 @@
     {
       "id": "milesight-7",
       "url": "SnapshotJPEG?Resolution=320x240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -142,7 +135,6 @@
     {
       "id": "milesight-8",
       "url": "/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -156,7 +148,6 @@
     {
       "id": "milesight-9",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -168,7 +159,6 @@
     {
       "id": "milesight-10",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -179,7 +169,6 @@
     {
       "id": "milesight-11",
       "url": "/ipcam/mjpeg.cgi?ch=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -190,7 +179,6 @@
     {
       "id": "milesight-12",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -200,7 +188,6 @@
     {
       "id": "milesight-13",
       "url": "/ch_101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -210,7 +197,6 @@
     {
       "id": "milesight-14",
       "url": "ipcam/mjpeg.cgi?ch=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

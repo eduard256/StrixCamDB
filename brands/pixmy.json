@@ -6,7 +6,6 @@
     {
       "id": "pixmy-1",
       "url": "/1452d3fe69e9ddfb3023db6d76f2a75f_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "pixmy-2",
       "url": "/1452d3fe69e9ddfb3023db6d76f2a75f_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

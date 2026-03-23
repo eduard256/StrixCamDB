@@ -6,7 +6,6 @@
     {
       "id": "karbontech-1",
       "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

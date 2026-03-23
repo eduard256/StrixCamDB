@@ -6,7 +6,6 @@
     {
       "id": "boavision-1",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "boavision-2",
       "url": "1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -43,7 +41,6 @@
     {
       "id": "boavision-3",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -61,7 +58,6 @@
     {
       "id": "boavision-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -94,7 +90,6 @@
     {
       "id": "boavision-5",
       "url": "/video.mjpg?oids=1&username=[USERNAME]&password=[USERNAME]pass&balls=balls5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -105,7 +100,6 @@
     {
       "id": "boavision-6",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -119,7 +113,6 @@
     {
       "id": "boavision-7",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -133,7 +126,6 @@
     {
       "id": "boavision-8",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -156,7 +148,6 @@
     {
       "id": "boavision-9",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -167,7 +158,6 @@
     {
       "id": "boavision-10",
       "url": "mpeg4/[CHANNEL]/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -177,7 +167,6 @@
     {
       "id": "boavision-11",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -190,7 +179,6 @@
     {
       "id": "boavision-12",
       "url": "/0/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -201,7 +189,6 @@
     {
       "id": "boavision-13",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -211,7 +198,6 @@
     {
       "id": "boavision-14",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -222,7 +208,6 @@
     {
       "id": "boavision-15",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -233,7 +218,6 @@
     {
       "id": "boavision-16",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -244,7 +228,6 @@
     {
       "id": "boavision-17",
       "url": "live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -257,7 +240,6 @@
     {
       "id": "boavision-18",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -269,7 +251,6 @@
     {
       "id": "boavision-19",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -279,7 +260,6 @@
     {
       "id": "boavision-20",
       "url": "mpeg4/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -289,7 +269,6 @@
     {
       "id": "boavision-21",
       "url": "/stream/1/h264minor",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

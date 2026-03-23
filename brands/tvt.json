@@ -6,7 +6,6 @@
     {
       "id": "tvt-1",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "tvt-2",
       "url": "/?chID=2&streamType=main&linkType=tcp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "tvt-3",
       "url": "/chID=1&streamType=main&linkType=tcpst",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

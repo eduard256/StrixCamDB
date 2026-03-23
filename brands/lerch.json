@@ -6,7 +6,6 @@
     {
       "id": "lerch-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [

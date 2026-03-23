@@ -6,7 +6,6 @@
     {
       "id": "sunell-security-1",
       "url": "/snl/live/1/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

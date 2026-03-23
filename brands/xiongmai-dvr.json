@@ -6,7 +6,6 @@
     {
       "id": "xiongmai-dvr-1",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "xiongmai-dvr-2",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=4&stream=1.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "xiongmai-dvr-3",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=4&stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "xiongmai-dvr-4",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "xiongmai-dvr-5",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "xiongmai-dvr-6",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -70,7 +64,6 @@
     {
       "id": "xiongmai-dvr-7",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

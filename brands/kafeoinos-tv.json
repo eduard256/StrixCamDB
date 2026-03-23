@@ -6,7 +6,6 @@
     {
       "id": "kafeoinos-tv-1",
       "url": "/mjpeg_vga.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

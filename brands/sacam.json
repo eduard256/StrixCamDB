@@ -6,7 +6,6 @@
     {
       "id": "sacam-1",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "sacam-2",
       "url": "/1.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

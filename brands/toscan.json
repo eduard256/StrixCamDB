@@ -6,7 +6,6 @@
     {
       "id": "toscan-1",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "mnet-dvr-1",
       "url": "/mnet-sd-pal.ts",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "legrand-1",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "legrand-2",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10110,
       "models": [

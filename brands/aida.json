@@ -6,7 +6,6 @@
     {
       "id": "aida-1",
       "url": "/stream/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

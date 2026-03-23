@@ -6,7 +6,6 @@
     {
       "id": "marmitek-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "marmitek-2",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "marmitek-3",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "marmitek-4",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "marmitek-5",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -67,7 +62,6 @@
     {
       "id": "marmitek-6",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +80,6 @@
     {
       "id": "marmitek-7",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -104,7 +97,6 @@
     {
       "id": "marmitek-8",
       "url": "/cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -114,7 +106,6 @@
     {
       "id": "marmitek-9",
       "url": "/cgi/mjpg/mjpg.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -127,7 +118,6 @@
     {
       "id": "marmitek-10",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -140,7 +130,6 @@
     {
       "id": "marmitek-11",
       "url": "/VIDEO.CGI",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -150,7 +139,6 @@
     {
       "id": "marmitek-12",
       "url": "/MJPEG.CGI",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -160,7 +148,6 @@
     {
       "id": "marmitek-13",
       "url": "/cgi/mjpg/mjpeg.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -170,7 +157,6 @@
     {
       "id": "marmitek-14",
       "url": "IMAGE.JPG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -181,7 +167,6 @@
     {
       "id": "marmitek-15",
       "url": "MJPEG.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -192,7 +177,6 @@
     {
       "id": "marmitek-16",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -202,7 +186,6 @@
     {
       "id": "marmitek-17",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -212,7 +195,6 @@
     {
       "id": "marmitek-18",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

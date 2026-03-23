@@ -6,7 +6,6 @@
     {
       "id": "ip-webcam-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ip-webcam-2",
       "url": "/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "ip-webcam-3",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

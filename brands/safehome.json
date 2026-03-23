@@ -6,7 +6,6 @@
     {
       "id": "safehome-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "safehome-2",
       "url": "/onvif-stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "safehome-3",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -58,7 +55,6 @@
     {
       "id": "safehome-4",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -74,7 +70,6 @@
     {
       "id": "safehome-5",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -85,7 +80,6 @@
     {
       "id": "safehome-6",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -103,7 +97,6 @@
     {
       "id": "safehome-7",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -118,7 +111,6 @@
     {
       "id": "safehome-8",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -129,7 +121,6 @@
     {
       "id": "safehome-9",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -146,7 +137,6 @@
     {
       "id": "safehome-10",
       "url": "/0/video0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -156,7 +146,6 @@
     {
       "id": "safehome-11",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -171,7 +160,6 @@
     {
       "id": "safehome-12",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8001,
       "models": [
@@ -182,7 +170,6 @@
     {
       "id": "safehome-13",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -192,7 +179,6 @@
     {
       "id": "safehome-14",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -206,7 +192,6 @@
     {
       "id": "safehome-15",
       "url": "H264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -217,7 +202,6 @@
     {
       "id": "safehome-16",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -227,7 +211,6 @@
     {
       "id": "safehome-17",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -239,7 +222,6 @@
     {
       "id": "safehome-18",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -250,7 +232,6 @@
     {
       "id": "safehome-19",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -260,7 +241,6 @@
     {
       "id": "safehome-20",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -272,7 +252,6 @@
     {
       "id": "safehome-21",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -284,7 +263,6 @@
     {
       "id": "safehome-22",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -297,7 +275,6 @@
     {
       "id": "safehome-23",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -307,7 +284,6 @@
     {
       "id": "safehome-24",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -317,7 +293,6 @@
     {
       "id": "safehome-25",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -327,7 +302,6 @@
     {
       "id": "safehome-26",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -337,7 +311,6 @@
     {
       "id": "safehome-27",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -347,7 +320,6 @@
     {
       "id": "safehome-28",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -357,7 +329,6 @@
     {
       "id": "safehome-29",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

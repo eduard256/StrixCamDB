@@ -6,7 +6,6 @@
     {
       "id": "aceri-bcn-1",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "kingcam-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "kingcam-2",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "openmiko-1",
       "url": "/video3_unicast",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

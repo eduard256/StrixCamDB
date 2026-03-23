@@ -6,7 +6,6 @@
     {
       "id": "east-1",
       "url": "/PSIA/Streaming/channels/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

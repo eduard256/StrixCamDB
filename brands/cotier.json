@@ -6,7 +6,6 @@
     {
       "id": "cotier-1",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +27,6 @@
     {
       "id": "cotier-2",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -48,7 +46,6 @@
     {
       "id": "cotier-3",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -70,7 +67,6 @@
     {
       "id": "cotier-4",
       "url": "/ch01.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -93,7 +89,6 @@
     {
       "id": "cotier-5",
       "url": "/Onvif/Streaming/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -103,7 +98,6 @@
     {
       "id": "cotier-6",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -116,7 +110,6 @@
     {
       "id": "cotier-7",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -126,7 +119,6 @@
     {
       "id": "cotier-8",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -137,7 +129,6 @@
     {
       "id": "cotier-9",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -147,7 +138,6 @@
     {
       "id": "cotier-10",
       "url": "/ch01_sub.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -160,7 +150,6 @@
     {
       "id": "cotier-11",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -172,7 +161,6 @@
     {
       "id": "cotier-12",
       "url": "cam2/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -183,7 +171,6 @@
     {
       "id": "cotier-13",
       "url": "/mpeg4cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -195,7 +182,6 @@
     {
       "id": "cotier-14",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -206,7 +192,6 @@
     {
       "id": "cotier-15",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -217,7 +202,6 @@
     {
       "id": "cotier-16",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -230,7 +214,6 @@
     {
       "id": "cotier-17",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -240,7 +223,6 @@
     {
       "id": "cotier-18",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -251,7 +233,6 @@
     {
       "id": "cotier-19",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "annke-1",
       "url": "/Streaming/Channels/[CHANNEL+1]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "annke-2",
       "url": "/Streaming/Channels/[CHANNEL]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "annke-3",
       "url": "/Streaming/Channels/[CHANNEL+1]02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "annke-4",
       "url": "/Streaming/Channels/[CHANNEL]02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "annke-5",
       "url": "/bubble/live?ch={channel}&stream=0",
-      "type": "BUBBLE",
       "protocol": "bubble",
       "port": 80,
       "models": [
@@ -62,7 +57,6 @@
     {
       "id": "annke-6",
       "url": "/bubble/live?ch={channel}&stream=1",
-      "type": "BUBBLE",
       "protocol": "bubble",
       "port": 80,
       "models": [
@@ -78,7 +72,6 @@
     {
       "id": "annke-7",
       "url": "/cam1/onvif-h264-1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -92,7 +85,6 @@
     {
       "id": "annke-8",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -105,7 +97,6 @@
     {
       "id": "annke-9",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -160,7 +151,6 @@
     {
       "id": "annke-10",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -202,7 +192,6 @@
     {
       "id": "annke-11",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -232,7 +221,6 @@
     {
       "id": "annke-12",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -250,7 +238,6 @@
     {
       "id": "annke-13",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -269,7 +256,6 @@
     {
       "id": "annke-14",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -311,7 +297,6 @@
     {
       "id": "annke-15",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -326,7 +311,6 @@
     {
       "id": "annke-16",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -336,7 +320,6 @@
     {
       "id": "annke-17",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -355,7 +338,6 @@
     {
       "id": "annke-18",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -388,7 +370,6 @@
     {
       "id": "annke-19",
       "url": "/H264/ch1/sub/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -404,7 +385,6 @@
     {
       "id": "annke-20",
       "url": "/H264/ch1/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -424,7 +404,6 @@
     {
       "id": "annke-21",
       "url": "/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -436,7 +415,6 @@
     {
       "id": "annke-22",
       "url": "/Streaming/Channels/102/?transportmode=unicast.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -449,7 +427,6 @@
     {
       "id": "annke-23",
       "url": "/Streaming/Channels/101/?transportmode=unicast.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -462,7 +439,6 @@
     {
       "id": "annke-24",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[USERNAME]_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -473,7 +449,6 @@
     {
       "id": "annke-25",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -499,7 +474,6 @@
     {
       "id": "annke-26",
       "url": "/onvif2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -511,7 +485,6 @@
     {
       "id": "annke-27",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -522,7 +495,6 @@
     {
       "id": "annke-28",
       "url": "/cam2/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -535,7 +507,6 @@
     {
       "id": "annke-29",
       "url": "/Streaming/Unicast/channels/501",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -550,7 +521,6 @@
     {
       "id": "annke-30",
       "url": "/H265/ch1/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -560,7 +530,6 @@
     {
       "id": "annke-31",
       "url": "/H265/ch1/sub/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -570,7 +539,6 @@
     {
       "id": "annke-32",
       "url": "/user=[USERNAME]_Chayse01April=tlJwpbo6_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -581,7 +549,6 @@
     {
       "id": "annke-33",
       "url": "/user=[USERNAME]_password=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -591,7 +558,6 @@
     {
       "id": "annke-34",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -606,7 +572,6 @@
     {
       "id": "annke-35",
       "url": "/snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -617,7 +582,6 @@
     {
       "id": "annke-36",
       "url": "/Streaming/Unicast/channels/401",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -631,7 +595,6 @@
     {
       "id": "annke-37",
       "url": "PSIA/Streaming/channels/[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -641,7 +604,6 @@
     {
       "id": "annke-38",
       "url": "/cgi-bin/snapshot.cgi?chn=4&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -651,7 +613,6 @@
     {
       "id": "annke-39",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -662,7 +623,6 @@
     {
       "id": "annke-40",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=&stream=.sdp?real_stream--rtp-caching=100",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -672,7 +632,6 @@
     {
       "id": "annke-41",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -682,7 +641,6 @@
     {
       "id": "annke-42",
       "url": "/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -693,7 +651,6 @@
     {
       "id": "annke-43",
       "url": "/h265_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -703,7 +660,6 @@
     {
       "id": "annke-44",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -714,7 +670,6 @@
     {
       "id": "annke-45",
       "url": "/h264/0/sub/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -724,7 +679,6 @@
     {
       "id": "annke-46",
       "url": "/h264/0/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -734,7 +688,6 @@
     {
       "id": "annke-47",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -744,7 +697,6 @@
     {
       "id": "annke-48",
       "url": "/cgi/mjpg/mjpeg.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -754,7 +706,6 @@
     {
       "id": "annke-49",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -764,7 +715,6 @@
     {
       "id": "annke-50",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -774,7 +724,6 @@
     {
       "id": "annke-51",
       "url": "/user=admin_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -784,7 +733,6 @@
     {
       "id": "annke-52",
       "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -794,7 +742,6 @@
     {
       "id": "annke-53",
       "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -804,7 +751,6 @@
     {
       "id": "annke-54",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -814,7 +760,6 @@
     {
       "id": "annke-55",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -825,7 +770,6 @@
     {
       "id": "annke-56",
       "url": "/snapshot.jpg?",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -835,7 +779,6 @@
     {
       "id": "annke-57",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -845,7 +788,6 @@
     {
       "id": "annke-58",
       "url": "/h264/ch1/main/av_stream",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -855,7 +797,6 @@
     {
       "id": "annke-59",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -905,7 +846,6 @@
     {
       "id": "annke-60",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -921,7 +861,6 @@
     {
       "id": "annke-61",
       "url": "/Streaming/channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -931,7 +870,6 @@
     {
       "id": "annke-62",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -941,7 +879,6 @@
     {
       "id": "annke-63",
       "url": "/Streaming/Channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

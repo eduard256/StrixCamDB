@@ -6,7 +6,6 @@
     {
       "id": "wifi-smart-net-camera-1",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "wifi-smart-net-camera-2",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "wifi-smart-net-camera-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "wifi-smart-net-camera-4",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [

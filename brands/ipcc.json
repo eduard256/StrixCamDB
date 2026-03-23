@@ -6,7 +6,6 @@
     {
       "id": "ipcc-1",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ipcc-2",
       "url": "11",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -51,7 +49,6 @@
     {
       "id": "ipcc-3",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -61,7 +58,6 @@
     {
       "id": "ipcc-4",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -78,7 +74,6 @@
     {
       "id": "ipcc-5",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -90,7 +85,6 @@
     {
       "id": "ipcc-6",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -105,7 +99,6 @@
     {
       "id": "ipcc-7",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -115,7 +108,6 @@
     {
       "id": "ipcc-8",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -129,7 +121,6 @@
     {
       "id": "ipcc-9",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -140,7 +131,6 @@
     {
       "id": "ipcc-10",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -152,7 +142,6 @@
     {
       "id": "ipcc-11",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -175,7 +164,6 @@
     {
       "id": "ipcc-12",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -186,7 +174,6 @@
     {
       "id": "ipcc-13",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -198,7 +185,6 @@
     {
       "id": "ipcc-14",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -210,7 +196,6 @@
     {
       "id": "ipcc-15",
       "url": "/mpeg4cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -221,7 +206,6 @@
     {
       "id": "ipcc-16",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -231,7 +215,6 @@
     {
       "id": "ipcc-17",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -241,7 +224,6 @@
     {
       "id": "ipcc-18",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -251,7 +233,6 @@
     {
       "id": "ipcc-19",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -261,7 +242,6 @@
     {
       "id": "ipcc-20",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

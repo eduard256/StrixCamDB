@@ -6,7 +6,6 @@
     {
       "id": "avicam-1",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "avicam-2",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "avicam-3",
       "url": "/live/video/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "avicam-4",
       "url": "cgi-bin/getimage.cgi?motion=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "avicam-5",
       "url": "cgi-bin/getimage.cgi?motion=1",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "h.264-1",
       "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "h.264-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -116,7 +114,6 @@
     {
       "id": "h.264-3",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -147,7 +144,6 @@
     {
       "id": "h.264-4",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -169,7 +165,6 @@
     {
       "id": "h.264-5",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -184,7 +179,6 @@
     {
       "id": "h.264-6",
       "url": "GetData.cgi",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -196,7 +190,6 @@
     {
       "id": "h.264-7",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -223,7 +216,6 @@
     {
       "id": "h.264-8",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -233,7 +225,6 @@
     {
       "id": "h.264-9",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -244,7 +235,6 @@
     {
       "id": "h.264-10",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -255,7 +245,6 @@
     {
       "id": "h.264-11",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -271,7 +260,6 @@
     {
       "id": "h.264-12",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -282,7 +270,6 @@
     {
       "id": "h.264-13",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=[CHANNEL].sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -294,7 +281,6 @@
     {
       "id": "h.264-14",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -306,7 +292,6 @@
     {
       "id": "h.264-15",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -319,7 +304,6 @@
     {
       "id": "h.264-16",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -330,7 +314,6 @@
     {
       "id": "h.264-17",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -341,7 +324,6 @@
     {
       "id": "h.264-18",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -352,7 +334,6 @@
     {
       "id": "h.264-19",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -366,7 +347,6 @@
     {
       "id": "h.264-20",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -377,7 +357,6 @@
     {
       "id": "h.264-21",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -390,7 +369,6 @@
     {
       "id": "h.264-22",
       "url": "/live/ch00_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -400,7 +378,6 @@
     {
       "id": "h.264-23",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -412,7 +389,6 @@
     {
       "id": "h.264-24",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -423,7 +399,6 @@
     {
       "id": "h.264-25",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -433,7 +408,6 @@
     {
       "id": "h.264-26",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -443,7 +417,6 @@
     {
       "id": "h.264-27",
       "url": "nvc-cgi/operator/snapshot.fcgi?channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -453,7 +426,6 @@
     {
       "id": "h.264-28",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -463,7 +435,6 @@
     {
       "id": "h.264-29",
       "url": "cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -473,7 +444,6 @@
     {
       "id": "h.264-30",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -483,7 +453,6 @@
     {
       "id": "h.264-31",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -493,7 +462,6 @@
     {
       "id": "h.264-32",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -503,7 +471,6 @@
     {
       "id": "h.264-33",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -513,7 +480,6 @@
     {
       "id": "h.264-34",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -523,7 +489,6 @@
     {
       "id": "h.264-35",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -533,7 +498,6 @@
     {
       "id": "h.264-36",
       "url": "/0/mobile2:818181/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "dgsol-1",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "multilaser-1",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

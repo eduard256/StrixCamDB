@@ -6,7 +6,6 @@
     {
       "id": "devant-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "turing-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "turing-2",
       "url": "/LowResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

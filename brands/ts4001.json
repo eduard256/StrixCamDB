@@ -6,7 +6,6 @@
     {
       "id": "ts4001-1",
       "url": "/0/video0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8080,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "ts4001-2",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "ts4001-3",
       "url": "/0/av1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [

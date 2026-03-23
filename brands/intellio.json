@@ -6,7 +6,6 @@
     {
       "id": "intellio-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

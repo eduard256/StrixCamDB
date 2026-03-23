@@ -6,7 +6,6 @@
     {
       "id": "pelco-1",
       "url": "jpeg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -62,7 +61,6 @@
     {
       "id": "pelco-2",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -145,7 +143,6 @@
     {
       "id": "pelco-3",
       "url": "jpeg/qvga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -157,7 +154,6 @@
     {
       "id": "pelco-4",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8088,
       "models": [
@@ -167,7 +163,6 @@
     {
       "id": "pelco-5",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -177,7 +172,6 @@
     {
       "id": "pelco-6",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -197,7 +191,6 @@
     {
       "id": "pelco-7",
       "url": "[CHANNEL]/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -211,7 +204,6 @@
     {
       "id": "pelco-8",
       "url": "1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -225,7 +217,6 @@
     {
       "id": "pelco-9",
       "url": "jpeg.fcgi?mode=real&si=[USERNAME]&mon=1&ch=[CHANNEL]&width=[WIDTH]&height=[HEIGHT]&quality=7&fps=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -236,7 +227,6 @@
     {
       "id": "pelco-10",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -246,7 +236,6 @@
     {
       "id": "pelco-11",
       "url": "/LowResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -256,7 +245,6 @@
     {
       "id": "pelco-12",
       "url": "/1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -268,7 +256,6 @@
     {
       "id": "pelco-13",
       "url": "/sstream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -278,7 +265,6 @@
     {
       "id": "pelco-14",
       "url": "/jpeg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -289,7 +275,6 @@
     {
       "id": "pelco-15",
       "url": "api/jpegControl.php?frameRate=10",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -305,7 +290,6 @@
     {
       "id": "pelco-16",
       "url": "stream[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -316,7 +300,6 @@
     {
       "id": "pelco-17",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -329,7 +312,6 @@
     {
       "id": "pelco-18",
       "url": "snap.jpg?JpegSize=M",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -339,7 +321,6 @@
     {
       "id": "pelco-19",
       "url": "jpeg/pull",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -356,7 +337,6 @@
     {
       "id": "pelco-20",
       "url": "vid.cgi?id=[USERNAME]&doc=[PASSWORD]&nc=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -366,7 +346,6 @@
     {
       "id": "pelco-21",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -376,7 +355,6 @@
     {
       "id": "pelco-22",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -386,7 +364,6 @@
     {
       "id": "pelco-23",
       "url": "img.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -396,7 +373,6 @@
     {
       "id": "pelco-24",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -406,7 +382,6 @@
     {
       "id": "pelco-25",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -416,7 +391,6 @@
     {
       "id": "pelco-26",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -426,7 +400,6 @@
     {
       "id": "pelco-27",
       "url": "jpeg?id=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -437,7 +410,6 @@
     {
       "id": "pelco-28",
       "url": "-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -447,7 +419,6 @@
     {
       "id": "pelco-29",
       "url": "-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

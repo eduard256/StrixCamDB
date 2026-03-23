@@ -6,7 +6,6 @@
     {
       "id": "plustek-1",
       "url": "cgi-bin/Stream?Video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "plustek-2",
       "url": "cgi-bin/Stream?Video?Acc=[USERNAME]?Pwd=[PASSWORD]?webcamPWD=UserCookie00000",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "plustek-3",
       "url": "/cgi-bin/Stream?Video?Acc=[USERNAME]?Pwd=[PASSWORD]?webcamPWD=UserCookie00000",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "plustek-4",
       "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

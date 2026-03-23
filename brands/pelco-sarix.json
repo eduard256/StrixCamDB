@@ -6,7 +6,6 @@
     {
       "id": "pelco-sarix-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -51,7 +50,6 @@
     {
       "id": "pelco-sarix-2",
       "url": "jpeg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +72,6 @@
     {
       "id": "pelco-sarix-3",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -86,7 +83,6 @@
     {
       "id": "pelco-sarix-4",
       "url": "jpeg/pull",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -101,7 +97,6 @@
     {
       "id": "pelco-sarix-5",
       "url": "1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -111,7 +106,6 @@
     {
       "id": "pelco-sarix-6",
       "url": "jpeg/qvga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -125,7 +119,6 @@
     {
       "id": "pelco-sarix-7",
       "url": "jpeg.fcgi?mode=real&si=[USERNAME]&mon=1&ch=[CHANNEL]&width=[WIDTH]&height=[HEIGHT]&quality=7&fps=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

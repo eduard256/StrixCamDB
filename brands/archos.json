@@ -6,7 +6,6 @@
     {
       "id": "archos-1",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

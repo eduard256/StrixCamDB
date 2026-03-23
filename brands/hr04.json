@@ -6,7 +6,6 @@
     {
       "id": "hr04-1",
       "url": "jstream.cgi?chid=[CHANNEL]&cnt=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

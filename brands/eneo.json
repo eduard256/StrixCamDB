@@ -6,7 +6,6 @@
     {
       "id": "eneo-1",
       "url": "dms",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "eneo-2",
       "url": "/live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "eneo-3",
       "url": "/ipcam/stream.cgi?nowprofileid=2",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "eneo-4",
       "url": "dms?nowprofileid=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -52,7 +48,6 @@
     {
       "id": "eneo-5",
       "url": "dms?nowprofileid=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -64,7 +59,6 @@
     {
       "id": "eneo-6",
       "url": "ipcam/stream.cgi?nowprofileid=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +68,6 @@
     {
       "id": "eneo-7",
       "url": "ipcam/stream.cgi?nowprofileid=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -85,7 +78,6 @@
     {
       "id": "eneo-8",
       "url": "/1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -95,7 +87,6 @@
     {
       "id": "eneo-9",
       "url": "/1/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -105,7 +96,6 @@
     {
       "id": "eneo-10",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -115,7 +105,6 @@
     {
       "id": "eneo-11",
       "url": "stream[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -125,7 +114,6 @@
     {
       "id": "eneo-12",
       "url": "1/stream[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -135,7 +123,6 @@
     {
       "id": "eneo-13",
       "url": "/ch1/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -146,7 +133,6 @@
     {
       "id": "eneo-14",
       "url": "/live2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -156,7 +142,6 @@
     {
       "id": "eneo-15",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -166,7 +151,6 @@
     {
       "id": "eneo-16",
       "url": "live/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -178,7 +162,6 @@
     {
       "id": "eneo-17",
       "url": "cam0_[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -189,7 +172,6 @@
     {
       "id": "eneo-18",
       "url": "h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -199,7 +181,6 @@
     {
       "id": "eneo-19",
       "url": "h264_2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -209,7 +190,6 @@
     {
       "id": "eneo-20",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

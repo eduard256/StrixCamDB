@@ -6,7 +6,6 @@
     {
       "id": "arecont-1",
       "url": "image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -62,7 +61,6 @@
     {
       "id": "arecont-2",
       "url": "/mjpeg?res=full&x0=0&y0=0&x1=100%25&y1=100%25&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -75,7 +73,6 @@
     {
       "id": "arecont-3",
       "url": "PSIA/Streaming/channels/0?videoCodecType=H.264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -99,7 +96,6 @@
     {
       "id": "arecont-4",
       "url": "mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -142,7 +138,6 @@
     {
       "id": "arecont-5",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -180,7 +175,6 @@
     {
       "id": "arecont-6",
       "url": "/mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -201,7 +195,6 @@
     {
       "id": "arecont-7",
       "url": "/h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -249,7 +242,6 @@
     {
       "id": "arecont-8",
       "url": "/image?res=full&x0=0%25&y0=[object%20Window]%25&x1=100%25&y1=100%25&quality=21&doublescan=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -261,7 +253,6 @@
     {
       "id": "arecont-9",
       "url": "mjpeg[CHANNEL]?res=half&x1=0&y1=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -276,7 +267,6 @@
     {
       "id": "arecont-10",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -292,7 +282,6 @@
     {
       "id": "arecont-11",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -310,7 +299,6 @@
     {
       "id": "arecont-12",
       "url": "/ch0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -333,7 +321,6 @@
     {
       "id": "arecont-13",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -353,7 +340,6 @@
     {
       "id": "arecont-14",
       "url": "img.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -396,7 +382,6 @@
     {
       "id": "arecont-15",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -408,7 +393,6 @@
     {
       "id": "arecont-16",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -422,7 +406,6 @@
     {
       "id": "arecont-17",
       "url": "h264.sdp?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -451,7 +434,6 @@
     {
       "id": "arecont-18",
       "url": "/cam5/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -461,7 +443,6 @@
     {
       "id": "arecont-19",
       "url": "/img.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -472,7 +453,6 @@
     {
       "id": "arecont-20",
       "url": "/h264.sdp1?res=half&doublescan=0&ssn=901",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -482,7 +462,6 @@
     {
       "id": "arecont-21",
       "url": "/cam1/mpeg4",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -492,7 +471,6 @@
     {
       "id": "arecont-22",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -509,7 +487,6 @@
     {
       "id": "arecont-23",
       "url": "/PSIA/Streaming/channels/0?videoCodecType=H.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -527,7 +504,6 @@
     {
       "id": "arecont-24",
       "url": "Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -545,7 +521,6 @@
     {
       "id": "arecont-25",
       "url": "/onvif-media/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -556,7 +531,6 @@
     {
       "id": "arecont-26",
       "url": "/h264.sdp?res=full&x0=0&y0=0&x1=2048&y1=1536&qp=20&ratelimit=10000&doublescan=0&ssn=7329",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -566,7 +540,6 @@
     {
       "id": "arecont-27",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -577,7 +550,6 @@
     {
       "id": "arecont-28",
       "url": "/image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -587,7 +559,6 @@
     {
       "id": "arecont-29",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -600,7 +571,6 @@
     {
       "id": "arecont-30",
       "url": "/h264.sdp3?res=half&doublescan=0&ssn=603",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -610,7 +580,6 @@
     {
       "id": "arecont-31",
       "url": "/h264.sdp1?res=half&doublescan=0&ssn=601",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -620,7 +589,6 @@
     {
       "id": "arecont-32",
       "url": "image[CHANNEL]?res=half&x1=0&y1=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -638,7 +606,6 @@
     {
       "id": "arecont-33",
       "url": "/h264.sdp1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -650,7 +617,6 @@
     {
       "id": "arecont-34",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -660,7 +626,6 @@
     {
       "id": "arecont-35",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -674,7 +639,6 @@
     {
       "id": "arecont-36",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -687,7 +651,6 @@
     {
       "id": "arecont-37",
       "url": "/mjpeg1?res=half&x1=0&y1=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -697,7 +660,6 @@
     {
       "id": "arecont-38",
       "url": "/live/h264.sdp3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -708,7 +670,6 @@
     {
       "id": "arecont-39",
       "url": "/h264.sdp3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -718,7 +679,6 @@
     {
       "id": "arecont-40",
       "url": "/mjpeg4?res=half&x1=0&y1=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -728,7 +688,6 @@
     {
       "id": "arecont-41",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -738,7 +697,6 @@
     {
       "id": "arecont-42",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -748,7 +706,6 @@
     {
       "id": "arecont-43",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -759,7 +716,6 @@
     {
       "id": "arecont-44",
       "url": "/ONVIF/channel2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -769,7 +725,6 @@
     {
       "id": "arecont-45",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -779,7 +734,6 @@
     {
       "id": "arecont-46",
       "url": "cam4/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -793,7 +747,6 @@
     {
       "id": "arecont-47",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -803,7 +756,6 @@
     {
       "id": "arecont-48",
       "url": "/h264.sdp?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

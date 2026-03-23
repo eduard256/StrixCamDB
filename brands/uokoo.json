@@ -6,7 +6,6 @@
     {
       "id": "uokoo-1",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -46,7 +45,6 @@
     {
       "id": "uokoo-2",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -66,7 +64,6 @@
     {
       "id": "uokoo-3",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -77,7 +74,6 @@
     {
       "id": "uokoo-4",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -87,7 +83,6 @@
     {
       "id": "uokoo-5",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -97,7 +92,6 @@
     {
       "id": "uokoo-6",
       "url": "/ROH/channel/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -107,7 +101,6 @@
     {
       "id": "uokoo-7",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -117,7 +110,6 @@
     {
       "id": "uokoo-8",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -127,7 +119,6 @@
     {
       "id": "uokoo-9",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -137,7 +128,6 @@
     {
       "id": "uokoo-10",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -147,7 +137,6 @@
     {
       "id": "uokoo-11",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

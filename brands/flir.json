@@ -6,7 +6,6 @@
     {
       "id": "flir-1",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +27,6 @@
     {
       "id": "flir-2",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -46,7 +44,6 @@
     {
       "id": "flir-3",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -57,7 +54,6 @@
     {
       "id": "flir-4",
       "url": "/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -76,7 +72,6 @@
     {
       "id": "flir-5",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=QWRtaW46MTIzNA==",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -88,7 +83,6 @@
     {
       "id": "flir-6",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46OFM9KmdjI2c=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -98,7 +92,6 @@
     {
       "id": "flir-7",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -108,7 +101,6 @@
     {
       "id": "flir-8",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -125,7 +117,6 @@
     {
       "id": "flir-9",
       "url": "/avc",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -140,7 +131,6 @@
     {
       "id": "flir-10",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -152,7 +142,6 @@
     {
       "id": "flir-11",
       "url": "ch0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -165,7 +154,6 @@
     {
       "id": "flir-12",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -189,7 +177,6 @@
     {
       "id": "flir-13",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -204,7 +191,6 @@
     {
       "id": "flir-14",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -232,7 +218,6 @@
     {
       "id": "flir-15",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -244,7 +229,6 @@
     {
       "id": "flir-16",
       "url": "/ch07/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -254,7 +238,6 @@
     {
       "id": "flir-17",
       "url": "/ch09/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -264,7 +247,6 @@
     {
       "id": "flir-18",
       "url": "/ch02/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -274,7 +256,6 @@
     {
       "id": "flir-19",
       "url": "/ch012/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -284,7 +265,6 @@
     {
       "id": "flir-20",
       "url": "/ch01/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -294,7 +274,6 @@
     {
       "id": "flir-21",
       "url": "/ch10/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -304,7 +283,6 @@
     {
       "id": "flir-22",
       "url": "/ch05",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -314,7 +292,6 @@
     {
       "id": "flir-23",
       "url": "/ch05/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -324,7 +301,6 @@
     {
       "id": "flir-24",
       "url": "/ch03/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -334,7 +310,6 @@
     {
       "id": "flir-25",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -344,7 +319,6 @@
     {
       "id": "flir-26",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -357,7 +331,6 @@
     {
       "id": "flir-27",
       "url": "/cam/realmonitor?channel=2&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -368,7 +341,6 @@
     {
       "id": "flir-28",
       "url": "/ir.1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -378,7 +350,6 @@
     {
       "id": "flir-29",
       "url": "/ir.0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -388,7 +359,6 @@
     {
       "id": "flir-30",
       "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -400,7 +370,6 @@
     {
       "id": "flir-31",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -410,7 +379,6 @@
     {
       "id": "flir-32",
       "url": "/axis-cgi/mjpg/video.cgi?camera=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -420,7 +388,6 @@
     {
       "id": "flir-33",
       "url": "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=0&resolution=320x240",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -430,7 +397,6 @@
     {
       "id": "flir-34",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1&resolution=320x240",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -440,7 +406,6 @@
     {
       "id": "flir-35",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -453,7 +418,6 @@
     {
       "id": "flir-36",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -464,7 +428,6 @@
     {
       "id": "flir-37",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -475,7 +438,6 @@
     {
       "id": "flir-38",
       "url": "/cam/realmonitor?channel=4&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -485,7 +447,6 @@
     {
       "id": "flir-39",
       "url": "0/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -495,7 +456,6 @@
     {
       "id": "flir-40",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -505,7 +465,6 @@
     {
       "id": "flir-41",
       "url": "/cgi-bin/snapshot.cgi?loginuse=&loginpas=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -515,7 +474,6 @@
     {
       "id": "flir-42",
       "url": "vis",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -525,7 +483,6 @@
     {
       "id": "flir-43",
       "url": "wfov",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -535,7 +492,6 @@
     {
       "id": "flir-44",
       "url": "/ch04/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

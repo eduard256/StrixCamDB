@@ -6,7 +6,6 @@
     {
       "id": "blackat-1",
       "url": "/0/888888:888888/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

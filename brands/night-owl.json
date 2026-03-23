@@ -6,7 +6,6 @@
     {
       "id": "night-owl-1",
       "url": "/Streaming/Channels/[CHANNEL+1]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "night-owl-2",
       "url": "/Streaming/Channels/[CHANNEL]01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "night-owl-3",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -58,7 +55,6 @@
     {
       "id": "night-owl-4",
       "url": "/ch1_1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -74,7 +70,6 @@
     {
       "id": "night-owl-5",
       "url": "/ch2_1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -91,7 +86,6 @@
     {
       "id": "night-owl-6",
       "url": "/ch3_1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -108,7 +102,6 @@
     {
       "id": "night-owl-7",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -125,7 +118,6 @@
     {
       "id": "night-owl-8",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -146,7 +138,6 @@
     {
       "id": "night-owl-9",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -164,7 +155,6 @@
     {
       "id": "night-owl-10",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -183,7 +173,6 @@
     {
       "id": "night-owl-11",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -206,7 +195,6 @@
     {
       "id": "night-owl-12",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -219,7 +207,6 @@
     {
       "id": "night-owl-13",
       "url": "/ch0_1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -242,7 +229,6 @@
     {
       "id": "night-owl-14",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -254,7 +240,6 @@
     {
       "id": "night-owl-15",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -273,7 +258,6 @@
     {
       "id": "night-owl-16",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=5&stream=1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -283,7 +267,6 @@
     {
       "id": "night-owl-17",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=3&stream=1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -293,7 +276,6 @@
     {
       "id": "night-owl-18",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -303,7 +285,6 @@
     {
       "id": "night-owl-19",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -313,7 +294,6 @@
     {
       "id": "night-owl-20",
       "url": "current[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -323,7 +303,6 @@
     {
       "id": "night-owl-21",
       "url": "video.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -333,7 +312,6 @@
     {
       "id": "night-owl-22",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -343,7 +321,6 @@
     {
       "id": "night-owl-23",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -354,7 +331,6 @@
     {
       "id": "night-owl-24",
       "url": "/snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -365,7 +341,6 @@
     {
       "id": "night-owl-25",
       "url": "/snapshot.jpg?user=jeremy.jarrad%40gmail.com&pwd=[PASSWORD]&strm=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -375,7 +350,6 @@
     {
       "id": "night-owl-26",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -386,7 +360,6 @@
     {
       "id": "night-owl-27",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -396,7 +369,6 @@
     {
       "id": "night-owl-28",
       "url": "/Streaming/channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

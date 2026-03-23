@@ -6,7 +6,6 @@
     {
       "id": "evolution-1",
       "url": "/video.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "evolution-2",
       "url": "/PSIA/Streaming/channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

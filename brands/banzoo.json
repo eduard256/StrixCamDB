@@ -6,7 +6,6 @@
     {
       "id": "banzoo-1",
       "url": "img/video.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "banzoo-2",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

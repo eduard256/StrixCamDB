@@ -6,7 +6,6 @@
     {
       "id": "provision-1",
       "url": "/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +26,6 @@
     {
       "id": "provision-2",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -40,7 +38,6 @@
     {
       "id": "provision-3",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +54,6 @@
     {
       "id": "provision-4",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -73,7 +69,6 @@
     {
       "id": "provision-5",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -84,7 +79,6 @@
     {
       "id": "provision-6",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -94,7 +88,6 @@
     {
       "id": "provision-7",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -104,7 +97,6 @@
     {
       "id": "provision-8",
       "url": "/profile3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -115,7 +107,6 @@
     {
       "id": "provision-9",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -126,7 +117,6 @@
     {
       "id": "provision-10",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -143,7 +133,6 @@
     {
       "id": "provision-11",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -153,7 +142,6 @@
     {
       "id": "provision-12",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -163,7 +151,6 @@
     {
       "id": "provision-13",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 10080,
       "models": [
@@ -173,7 +160,6 @@
     {
       "id": "provision-14",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 911,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ipr712m-1",
       "url": "/rtsph264vga",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

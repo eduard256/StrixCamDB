@@ -6,7 +6,6 @@
     {
       "id": "polaroid-1",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "polaroid-2",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "polaroid-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +54,6 @@
     {
       "id": "polaroid-4",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +67,6 @@
     {
       "id": "polaroid-5",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 152,
       "models": [
@@ -84,7 +79,6 @@
     {
       "id": "polaroid-6",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -111,7 +105,6 @@
     {
       "id": "polaroid-7",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -121,7 +114,6 @@
     {
       "id": "polaroid-8",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -131,7 +123,6 @@
     {
       "id": "polaroid-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -148,7 +139,6 @@
     {
       "id": "polaroid-10",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -158,7 +148,6 @@
     {
       "id": "polaroid-11",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -168,7 +157,6 @@
     {
       "id": "polaroid-12",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -181,7 +169,6 @@
     {
       "id": "polaroid-13",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -191,7 +178,6 @@
     {
       "id": "polaroid-14",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -201,7 +187,6 @@
     {
       "id": "polaroid-15",
       "url": "/videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -211,7 +196,6 @@
     {
       "id": "polaroid-16",
       "url": "/videostream.cgi?rate=11",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -221,7 +205,6 @@
     {
       "id": "polaroid-17",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -231,7 +214,6 @@
     {
       "id": "polaroid-18",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

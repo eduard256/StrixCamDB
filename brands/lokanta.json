@@ -6,7 +6,6 @@
     {
       "id": "lokanta-1",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [

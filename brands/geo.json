@@ -6,7 +6,6 @@
     {
       "id": "geo-1",
       "url": "/CH001.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

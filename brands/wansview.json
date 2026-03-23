@@ -6,7 +6,6 @@
     {
       "id": "wansview-1",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -172,7 +171,6 @@
     {
       "id": "wansview-2",
       "url": "/videostream.cgi?resolution=64&rate=30",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 1125,
       "models": [
@@ -186,7 +184,6 @@
     {
       "id": "wansview-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -214,7 +211,6 @@
     {
       "id": "wansview-4",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -235,7 +231,6 @@
     {
       "id": "wansview-5",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -261,7 +256,6 @@
     {
       "id": "wansview-6",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -332,7 +326,6 @@
     {
       "id": "wansview-7",
       "url": "/live/ch2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -358,7 +351,6 @@
     {
       "id": "wansview-8",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -372,7 +364,6 @@
     {
       "id": "wansview-9",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -394,7 +385,6 @@
     {
       "id": "wansview-10",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -416,7 +406,6 @@
     {
       "id": "wansview-11",
       "url": "/mjpeg/stream.cgi?chn=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -437,7 +426,6 @@
     {
       "id": "wansview-12",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -460,7 +448,6 @@
     {
       "id": "wansview-13",
       "url": "/camera",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -470,7 +457,6 @@
     {
       "id": "wansview-14",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -483,7 +469,6 @@
     {
       "id": "wansview-15",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -495,7 +480,6 @@
     {
       "id": "wansview-16",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -508,7 +492,6 @@
     {
       "id": "wansview-17",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -521,7 +504,6 @@
     {
       "id": "wansview-18",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -533,7 +515,6 @@
     {
       "id": "wansview-19",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -546,7 +527,6 @@
     {
       "id": "wansview-20",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -573,7 +553,6 @@
     {
       "id": "wansview-21",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -594,7 +573,6 @@
     {
       "id": "wansview-22",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -608,7 +586,6 @@
     {
       "id": "wansview-23",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -632,7 +609,6 @@
     {
       "id": "wansview-24",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -650,7 +626,6 @@
     {
       "id": "wansview-25",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -660,7 +635,6 @@
     {
       "id": "wansview-26",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -677,7 +651,6 @@
     {
       "id": "wansview-27",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -688,7 +661,6 @@
     {
       "id": "wansview-28",
       "url": "live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -698,7 +670,6 @@
     {
       "id": "wansview-29",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -713,7 +684,6 @@
     {
       "id": "wansview-30",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -724,7 +694,6 @@
     {
       "id": "wansview-31",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -739,7 +708,6 @@
     {
       "id": "wansview-32",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -753,7 +721,6 @@
     {
       "id": "wansview-33",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -769,7 +736,6 @@
     {
       "id": "wansview-34",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -783,7 +749,6 @@
     {
       "id": "wansview-35",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -797,7 +762,6 @@
     {
       "id": "wansview-36",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -808,7 +772,6 @@
     {
       "id": "wansview-37",
       "url": "/videostream.cgi?rate=11",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -819,7 +782,6 @@
     {
       "id": "wansview-38",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -831,7 +793,6 @@
     {
       "id": "wansview-39",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -844,7 +805,6 @@
     {
       "id": "wansview-40",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -854,7 +814,6 @@
     {
       "id": "wansview-41",
       "url": "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -864,7 +823,6 @@
     {
       "id": "wansview-42",
       "url": "/videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -874,7 +832,6 @@
     {
       "id": "wansview-43",
       "url": "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -884,7 +841,6 @@
     {
       "id": "wansview-44",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 1025,
       "models": [
@@ -894,7 +850,6 @@
     {
       "id": "wansview-45",
       "url": "/web/mobile.html",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -904,7 +859,6 @@
     {
       "id": "wansview-46",
       "url": "/web/admin.html",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -914,7 +868,6 @@
     {
       "id": "wansview-47",
       "url": "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -924,7 +877,6 @@
     {
       "id": "wansview-48",
       "url": "/snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -935,7 +887,6 @@
     {
       "id": "wansview-49",
       "url": "/h264Preview_01_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -945,7 +896,6 @@
     {
       "id": "wansview-50",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8887,
       "models": [
@@ -955,7 +905,6 @@
     {
       "id": "wansview-51",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -965,7 +914,6 @@
     {
       "id": "wansview-52",
       "url": "current[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -975,7 +923,6 @@
     {
       "id": "wansview-53",
       "url": "jpg/1/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -985,7 +932,6 @@
     {
       "id": "wansview-54",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -995,7 +941,6 @@
     {
       "id": "wansview-55",
       "url": "snapshot.html",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1005,7 +950,6 @@
     {
       "id": "wansview-56",
       "url": "vdata.v",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1015,7 +959,6 @@
     {
       "id": "wansview-57",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1025,7 +968,6 @@
     {
       "id": "wansview-58",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1035,7 +977,6 @@
     {
       "id": "wansview-59",
       "url": "/snap.jpg?JpegCam=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [

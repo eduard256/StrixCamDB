@@ -6,7 +6,6 @@
     {
       "id": "gifran-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "gifran-2",
       "url": "ipcam/mjpeg.cgi?ch=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

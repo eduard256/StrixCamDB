@@ -6,7 +6,6 @@
     {
       "id": "empire-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -25,7 +24,6 @@
     {
       "id": "empire-2",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp?real_stream--rtp-caching=100",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "empire-3",
       "url": "/cam/realmonitor?channel=1&subtype=2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -47,7 +44,6 @@
     {
       "id": "empire-4",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

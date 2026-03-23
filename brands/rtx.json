@@ -6,7 +6,6 @@
     {
       "id": "rtx-1",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "rtx-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -39,7 +37,6 @@
     {
       "id": "rtx-3",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -53,7 +50,6 @@
     {
       "id": "rtx-4",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -63,7 +59,6 @@
     {
       "id": "rtx-5",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -75,7 +70,6 @@
     {
       "id": "rtx-6",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +80,6 @@
     {
       "id": "rtx-7",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -97,7 +90,6 @@
     {
       "id": "rtx-8",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -108,7 +100,6 @@
     {
       "id": "rtx-9",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -118,7 +109,6 @@
     {
       "id": "rtx-10",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -128,7 +118,6 @@
     {
       "id": "rtx-11",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -139,7 +128,6 @@
     {
       "id": "rtx-12",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -150,7 +138,6 @@
     {
       "id": "rtx-13",
       "url": "/videostream.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -160,7 +147,6 @@
     {
       "id": "rtx-14",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -170,7 +156,6 @@
     {
       "id": "rtx-15",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -180,7 +165,6 @@
     {
       "id": "rtx-16",
       "url": "images/stream_[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

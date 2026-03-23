@@ -6,7 +6,6 @@
     {
       "id": "onwote-1",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "onwote-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "onwote-3",
       "url": "/live/0/h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -46,7 +43,6 @@
     {
       "id": "onwote-4",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -59,7 +55,6 @@
     {
       "id": "onwote-5",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 30050,
       "models": [
@@ -69,7 +64,6 @@
     {
       "id": "onwote-6",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 30050,
       "models": [
@@ -79,7 +73,6 @@
     {
       "id": "onwote-7",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -89,7 +82,6 @@
     {
       "id": "onwote-8",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [

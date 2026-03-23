@@ -6,7 +6,6 @@
     {
       "id": "ipcam-2015-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "ipcam-2015-2",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "ipcam-2015-3",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "ipcam-2015-4",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -53,7 +49,6 @@
     {
       "id": "ipcam-2015-5",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -68,7 +63,6 @@
     {
       "id": "ipcam-2015-6",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -78,7 +72,6 @@
     {
       "id": "ipcam-2015-7",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -88,7 +81,6 @@
     {
       "id": "ipcam-2015-8",
       "url": "cam[CHANNEL]/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

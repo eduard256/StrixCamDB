@@ -64,7 +64,6 @@ def main():
         for stream in data.get("streams", []):
             key = (
                 stream.get("url", ""),
-                stream.get("type", ""),
                 stream.get("protocol", ""),
                 stream.get("port", 0),
             )
@@ -81,10 +80,9 @@ def main():
     # Generate each preset
     for preset_id, name, description, limit in PRESETS:
         streams = []
-        for (url, stype, protocol, port), brands in sorted_patterns[:limit]:
+        for (url, protocol, port), brands in sorted_patterns[:limit]:
             entry = {
                 "url": url,
-                "type": stype,
                 "protocol": protocol,
                 "port": port,
                 "brand_count": len(brands),

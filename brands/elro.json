@@ -6,7 +6,6 @@
     {
       "id": "elro-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -33,7 +32,6 @@
     {
       "id": "elro-2",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -51,7 +49,6 @@
     {
       "id": "elro-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +79,6 @@
     {
       "id": "elro-4",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -103,7 +99,6 @@
     {
       "id": "elro-5",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -120,7 +115,6 @@
     {
       "id": "elro-6",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -144,7 +138,6 @@
     {
       "id": "elro-7",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -161,7 +154,6 @@
     {
       "id": "elro-8",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -176,7 +168,6 @@
     {
       "id": "elro-9",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -192,7 +183,6 @@
     {
       "id": "elro-10",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -213,7 +203,6 @@
     {
       "id": "elro-11",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -225,7 +214,6 @@
     {
       "id": "elro-12",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -244,7 +232,6 @@
     {
       "id": "elro-13",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -265,7 +252,6 @@
     {
       "id": "elro-14",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -282,7 +268,6 @@
     {
       "id": "elro-15",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -300,7 +285,6 @@
     {
       "id": "elro-16",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -321,7 +305,6 @@
     {
       "id": "elro-17",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -339,7 +322,6 @@
     {
       "id": "elro-18",
       "url": "MJPEG.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -358,7 +340,6 @@
     {
       "id": "elro-19",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -378,7 +359,6 @@
     {
       "id": "elro-20",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -396,7 +376,6 @@
     {
       "id": "elro-21",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -412,7 +391,6 @@
     {
       "id": "elro-22",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -436,7 +414,6 @@
     {
       "id": "elro-23",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -449,7 +426,6 @@
     {
       "id": "elro-24",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -465,7 +441,6 @@
     {
       "id": "elro-25",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -478,7 +453,6 @@
     {
       "id": "elro-26",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -490,7 +464,6 @@
     {
       "id": "elro-27",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -501,7 +474,6 @@
     {
       "id": "elro-28",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -511,7 +483,6 @@
     {
       "id": "elro-29",
       "url": "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 5000,
       "models": [
@@ -521,7 +492,6 @@
     {
       "id": "elro-30",
       "url": "/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -532,7 +502,6 @@
     {
       "id": "elro-31",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -542,7 +511,6 @@
     {
       "id": "elro-32",
       "url": "IMAGE.JPG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -558,7 +526,6 @@
     {
       "id": "elro-33",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -568,7 +535,6 @@
     {
       "id": "elro-34",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -579,7 +545,6 @@
     {
       "id": "elro-35",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -591,7 +556,6 @@
     {
       "id": "elro-36",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 83,
       "models": [
@@ -601,7 +565,6 @@
     {
       "id": "elro-37",
       "url": "/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -611,7 +574,6 @@
     {
       "id": "elro-38",
       "url": "/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -621,7 +583,6 @@
     {
       "id": "elro-39",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -631,7 +592,6 @@
     {
       "id": "elro-40",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -642,7 +602,6 @@
     {
       "id": "elro-41",
       "url": "/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -652,7 +611,6 @@
     {
       "id": "elro-42",
       "url": "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -662,7 +620,6 @@
     {
       "id": "elro-43",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -672,7 +629,6 @@
     {
       "id": "elro-44",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -682,7 +638,6 @@
     {
       "id": "elro-45",
       "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -692,7 +647,6 @@
     {
       "id": "elro-46",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -702,7 +656,6 @@
     {
       "id": "elro-47",
       "url": "current[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -712,7 +665,6 @@
     {
       "id": "elro-48",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

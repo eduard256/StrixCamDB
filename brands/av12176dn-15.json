@@ -6,7 +6,6 @@
     {
       "id": "av12176dn-15-1",
       "url": "/h264.sdp1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "av12176dn-15-2",
       "url": "/h264.sdp2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

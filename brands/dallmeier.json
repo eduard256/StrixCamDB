@@ -6,7 +6,6 @@
     {
       "id": "dallmeier-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "dallmeier-2",
       "url": "encoder[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

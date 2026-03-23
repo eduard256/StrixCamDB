@@ -6,7 +6,6 @@
     {
       "id": "comcast-1",
       "url": "img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "comcast-2",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "comcast-3",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [

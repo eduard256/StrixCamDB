@@ -6,7 +6,6 @@
     {
       "id": "hikity-1",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

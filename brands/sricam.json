@@ -6,7 +6,6 @@
     {
       "id": "sricam-1",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -50,7 +49,6 @@
     {
       "id": "sricam-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -77,7 +75,6 @@
     {
       "id": "sricam-3",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -113,7 +110,6 @@
     {
       "id": "sricam-4",
       "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -153,7 +149,6 @@
     {
       "id": "sricam-5",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -185,7 +180,6 @@
     {
       "id": "sricam-6",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -211,7 +205,6 @@
     {
       "id": "sricam-7",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -232,7 +225,6 @@
     {
       "id": "sricam-8",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -267,7 +259,6 @@
     {
       "id": "sricam-9",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -279,7 +270,6 @@
     {
       "id": "sricam-10",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -289,7 +279,6 @@
     {
       "id": "sricam-11",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -316,7 +305,6 @@
     {
       "id": "sricam-12",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -330,7 +318,6 @@
     {
       "id": "sricam-13",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -353,7 +340,6 @@
     {
       "id": "sricam-14",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -377,7 +363,6 @@
     {
       "id": "sricam-15",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -397,7 +382,6 @@
     {
       "id": "sricam-16",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -407,7 +391,6 @@
     {
       "id": "sricam-17",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -424,7 +407,6 @@
     {
       "id": "sricam-18",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -440,7 +422,6 @@
     {
       "id": "sricam-19",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -510,7 +491,6 @@
     {
       "id": "sricam-20",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 8080,
       "models": [
@@ -524,7 +504,6 @@
     {
       "id": "sricam-21",
       "url": "/profile0",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -541,7 +520,6 @@
     {
       "id": "sricam-22",
       "url": "/rtsp_live1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -553,7 +531,6 @@
     {
       "id": "sricam-23",
       "url": "/onvif2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -580,7 +557,6 @@
     {
       "id": "sricam-24",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -590,7 +566,6 @@
     {
       "id": "sricam-25",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -601,7 +576,6 @@
     {
       "id": "sricam-26",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -633,7 +607,6 @@
     {
       "id": "sricam-27",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -645,7 +618,6 @@
     {
       "id": "sricam-28",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -662,7 +634,6 @@
     {
       "id": "sricam-29",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -682,7 +653,6 @@
     {
       "id": "sricam-30",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -694,7 +664,6 @@
     {
       "id": "sricam-31",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -704,7 +673,6 @@
     {
       "id": "sricam-32",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -721,7 +689,6 @@
     {
       "id": "sricam-33",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -732,7 +699,6 @@
     {
       "id": "sricam-34",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -744,7 +710,6 @@
     {
       "id": "sricam-35",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -754,7 +719,6 @@
     {
       "id": "sricam-36",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -767,7 +731,6 @@
     {
       "id": "sricam-37",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -777,7 +740,6 @@
     {
       "id": "sricam-38",
       "url": "/ucast/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -791,7 +753,6 @@
     {
       "id": "sricam-39",
       "url": "/1/h264major",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -808,7 +769,6 @@
     {
       "id": "sricam-40",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -819,7 +779,6 @@
     {
       "id": "sricam-41",
       "url": "1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -832,7 +791,6 @@
     {
       "id": "sricam-42",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -842,7 +800,6 @@
     {
       "id": "sricam-43",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -852,7 +809,6 @@
     {
       "id": "sricam-44",
       "url": "mpeg4/media.amp?resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -865,7 +821,6 @@
     {
       "id": "sricam-45",
       "url": "/cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -875,7 +830,6 @@
     {
       "id": "sricam-46",
       "url": "/mpeg4/media.amp?resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -886,7 +840,6 @@
     {
       "id": "sricam-47",
       "url": "/user/videostream.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -896,7 +849,6 @@
     {
       "id": "sricam-48",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -906,7 +858,6 @@
     {
       "id": "sricam-49",
       "url": "/onvif-stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -916,7 +867,6 @@
     {
       "id": "sricam-50",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -926,7 +876,6 @@
     {
       "id": "sricam-51",
       "url": "/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -936,7 +885,6 @@
     {
       "id": "sricam-52",
       "url": "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -946,7 +894,6 @@
     {
       "id": "sricam-53",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -956,7 +903,6 @@
     {
       "id": "sricam-54",
       "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -966,7 +912,6 @@
     {
       "id": "sricam-55",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -976,7 +921,6 @@
     {
       "id": "sricam-56",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -987,7 +931,6 @@
     {
       "id": "sricam-57",
       "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8040,
       "models": [

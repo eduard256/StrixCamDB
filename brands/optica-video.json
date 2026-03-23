@@ -6,7 +6,6 @@
     {
       "id": "optica-video-1",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "optica-video-2",
       "url": "cam[CHANNEL]/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "optica-video-3",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -48,7 +45,6 @@
     {
       "id": "optica-video-4",
       "url": "videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -60,7 +56,6 @@
     {
       "id": "optica-video-5",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -70,7 +65,6 @@
     {
       "id": "optica-video-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +76,6 @@
     {
       "id": "optica-video-7",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -94,7 +87,6 @@
     {
       "id": "optica-video-8",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -104,7 +96,6 @@
     {
       "id": "optica-video-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -116,7 +107,6 @@
     {
       "id": "optica-video-10",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -127,7 +117,6 @@
     {
       "id": "optica-video-11",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -137,7 +126,6 @@
     {
       "id": "optica-video-12",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -147,7 +135,6 @@
     {
       "id": "optica-video-13",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -157,7 +144,6 @@
     {
       "id": "optica-video-14",
       "url": "cgi/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -167,7 +153,6 @@
     {
       "id": "optica-video-15",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +162,6 @@
     {
       "id": "optica-video-16",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -187,7 +171,6 @@
     {
       "id": "optica-video-17",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "lizvie-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "lizvie-2",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

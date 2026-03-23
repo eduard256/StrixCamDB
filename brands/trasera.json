@@ -6,7 +6,6 @@
     {
       "id": "trasera-1",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

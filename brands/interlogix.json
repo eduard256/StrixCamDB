@@ -6,7 +6,6 @@
     {
       "id": "interlogix-1",
       "url": "video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "interlogix-2",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 64001,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "interlogix-3",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "interlogix-4",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 64001,
       "models": [
@@ -64,7 +60,6 @@
     {
       "id": "interlogix-5",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -75,7 +70,6 @@
     {
       "id": "interlogix-6",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -85,7 +79,6 @@
     {
       "id": "interlogix-7",
       "url": "/video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

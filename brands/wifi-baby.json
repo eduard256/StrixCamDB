@@ -6,7 +6,6 @@
     {
       "id": "wifi-baby-1",
       "url": "live_h264.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

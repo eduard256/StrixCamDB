@@ -6,7 +6,6 @@
     {
       "id": "jennov-1",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +26,6 @@
     {
       "id": "jennov-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -58,7 +56,6 @@
     {
       "id": "jennov-3",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +68,6 @@
     {
       "id": "jennov-4",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -84,7 +80,6 @@
     {
       "id": "jennov-5",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -96,7 +91,6 @@
     {
       "id": "jennov-6",
       "url": "11",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -106,7 +100,6 @@
     {
       "id": "jennov-7",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -123,7 +116,6 @@
     {
       "id": "jennov-8",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -138,7 +130,6 @@
     {
       "id": "jennov-9",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -150,7 +141,6 @@
     {
       "id": "jennov-10",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -163,7 +153,6 @@
     {
       "id": "jennov-11",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -175,7 +164,6 @@
     {
       "id": "jennov-12",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -185,7 +173,6 @@
     {
       "id": "jennov-13",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -197,7 +184,6 @@
     {
       "id": "jennov-14",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -219,7 +205,6 @@
     {
       "id": "jennov-15",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -230,7 +215,6 @@
     {
       "id": "jennov-16",
       "url": "/snap.jpg?JpegCam=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -240,7 +224,6 @@
     {
       "id": "jennov-17",
       "url": "/?action=stream",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -250,7 +233,6 @@
     {
       "id": "jennov-18",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -260,7 +242,6 @@
     {
       "id": "jennov-19",
       "url": "/H.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -270,7 +251,6 @@
     {
       "id": "jennov-20",
       "url": "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -280,7 +260,6 @@
     {
       "id": "jennov-21",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -291,7 +270,6 @@
     {
       "id": "jennov-22",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -301,7 +279,6 @@
     {
       "id": "jennov-23",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

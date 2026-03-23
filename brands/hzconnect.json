@@ -6,7 +6,6 @@
     {
       "id": "hzconnect-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "hzconnect-2",
       "url": "/mobile",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8000,
       "models": [

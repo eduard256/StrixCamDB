@@ -6,7 +6,6 @@
     {
       "id": "galaxy-1",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "galaxy-2",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "galaxy-3",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "galaxy-4",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -53,7 +49,6 @@
     {
       "id": "galaxy-5",
       "url": "video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -63,7 +58,6 @@
     {
       "id": "galaxy-6",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

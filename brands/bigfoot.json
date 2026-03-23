@@ -6,7 +6,6 @@
     {
       "id": "bigfoot-1",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

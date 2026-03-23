@@ -6,7 +6,6 @@
     {
       "id": "netview-1",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "netview-2",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "netview-3",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "netview-4",
       "url": "/snap.jpg?JpegCam=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "netview-5",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

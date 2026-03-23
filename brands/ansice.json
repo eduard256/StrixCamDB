@@ -6,7 +6,6 @@
     {
       "id": "ansice-1",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

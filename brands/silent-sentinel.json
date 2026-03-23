@@ -6,7 +6,6 @@
     {
       "id": "silent-sentinel-1",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "silent-sentinel-2",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "silent-sentinel-3",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "silent-sentinel-4",
       "url": "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "silent-sentinel-5",
       "url": "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "silent-sentinel-6",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

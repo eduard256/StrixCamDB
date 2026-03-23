@@ -6,7 +6,6 @@
     {
       "id": "avue-1",
       "url": "/live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

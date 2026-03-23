@@ -6,7 +6,6 @@
     {
       "id": "soho-1",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "soho-2",
       "url": "goform/capture",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

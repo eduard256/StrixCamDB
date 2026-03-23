@@ -6,7 +6,6 @@
     {
       "id": "general-1",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -94,7 +93,6 @@
     {
       "id": "general-2",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -105,7 +103,6 @@
     {
       "id": "general-3",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -119,7 +116,6 @@
     {
       "id": "general-4",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -131,7 +127,6 @@
     {
       "id": "general-5",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -143,7 +138,6 @@
     {
       "id": "general-6",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -154,7 +148,6 @@
     {
       "id": "general-7",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -166,7 +159,6 @@
     {
       "id": "general-8",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -178,7 +170,6 @@
     {
       "id": "general-9",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -192,7 +183,6 @@
     {
       "id": "general-10",
       "url": "/Streaming/Channel/301/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -202,7 +192,6 @@
     {
       "id": "general-11",
       "url": "/Streaming/Channel/302/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -212,7 +201,6 @@
     {
       "id": "general-12",
       "url": "/Streaming/Channel/102/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -222,7 +210,6 @@
     {
       "id": "general-13",
       "url": "/Streaming/Channel/101/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -232,7 +219,6 @@
     {
       "id": "general-14",
       "url": "/Streaming/Channels/302/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -242,7 +228,6 @@
     {
       "id": "general-15",
       "url": "/Streaming/Channels/301/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -252,7 +237,6 @@
     {
       "id": "general-16",
       "url": "/Streaming/Channels/101/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -262,7 +246,6 @@
     {
       "id": "general-17",
       "url": "/Streaming/Channels/102/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -272,7 +255,6 @@
     {
       "id": "general-18",
       "url": "/Streaming/Channels/201/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -282,7 +264,6 @@
     {
       "id": "general-19",
       "url": "/Streaming/Channels/202/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -292,7 +273,6 @@
     {
       "id": "general-20",
       "url": "/Streaming/Channels/401/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -302,7 +282,6 @@
     {
       "id": "general-21",
       "url": "/Streaming/Channels/402/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -312,7 +291,6 @@
     {
       "id": "general-22",
       "url": "/Streaming/Channels/501/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -322,7 +300,6 @@
     {
       "id": "general-23",
       "url": "/Streaming/Channels/502/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -332,7 +309,6 @@
     {
       "id": "general-24",
       "url": "/Streaming/Channels/002/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -342,7 +318,6 @@
     {
       "id": "general-25",
       "url": "/Streaming/Channels/001/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9550,
       "models": [
@@ -352,7 +327,6 @@
     {
       "id": "general-26",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -362,7 +336,6 @@
     {
       "id": "general-27",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -372,7 +345,6 @@
     {
       "id": "general-28",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -382,7 +354,6 @@
     {
       "id": "general-29",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -392,7 +363,6 @@
     {
       "id": "general-30",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -402,7 +372,6 @@
     {
       "id": "general-31",
       "url": "live/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -412,7 +381,6 @@
     {
       "id": "general-32",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -422,7 +390,6 @@
     {
       "id": "general-33",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -432,7 +399,6 @@
     {
       "id": "general-34",
       "url": "/streaming/mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

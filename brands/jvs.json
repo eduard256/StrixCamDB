@@ -6,7 +6,6 @@
     {
       "id": "jvs-1",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

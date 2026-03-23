@@ -6,7 +6,6 @@
     {
       "id": "wanscam-1",
       "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "wanscam-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -148,7 +146,6 @@
     {
       "id": "wanscam-3",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -238,7 +235,6 @@
     {
       "id": "wanscam-4",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -299,7 +295,6 @@
     {
       "id": "wanscam-5",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -471,7 +466,6 @@
     {
       "id": "wanscam-6",
       "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -485,7 +479,6 @@
     {
       "id": "wanscam-7",
       "url": "/videostream.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -502,7 +495,6 @@
     {
       "id": "wanscam-8",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -567,7 +559,6 @@
     {
       "id": "wanscam-9",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -584,7 +575,6 @@
     {
       "id": "wanscam-10",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -612,7 +602,6 @@
     {
       "id": "wanscam-11",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1935,
       "models": [
@@ -638,7 +627,6 @@
     {
       "id": "wanscam-12",
       "url": "11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -682,7 +670,6 @@
     {
       "id": "wanscam-13",
       "url": "/tmpfs/auto.jpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 89,
       "models": [
@@ -699,7 +686,6 @@
     {
       "id": "wanscam-14",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -719,7 +705,6 @@
     {
       "id": "wanscam-15",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -741,7 +726,6 @@
     {
       "id": "wanscam-16",
       "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -781,7 +765,6 @@
     {
       "id": "wanscam-17",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -824,7 +807,6 @@
     {
       "id": "wanscam-18",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -838,7 +820,6 @@
     {
       "id": "wanscam-19",
       "url": "/bcs/channel0_main.bcs?token=[TOKEN]&channel=0&stream=0",
-      "type": "FFMPEG",
       "protocol": "rtmp",
       "port": 554,
       "models": [
@@ -852,7 +833,6 @@
     {
       "id": "wanscam-20",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -933,7 +913,6 @@
     {
       "id": "wanscam-21",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -945,7 +924,6 @@
     {
       "id": "wanscam-22",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -1003,7 +981,6 @@
     {
       "id": "wanscam-23",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1038,7 +1015,6 @@
     {
       "id": "wanscam-24",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1121,7 +1097,6 @@
     {
       "id": "wanscam-25",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1025,
       "models": [
@@ -1179,7 +1154,6 @@
     {
       "id": "wanscam-26",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1193,7 +1167,6 @@
     {
       "id": "wanscam-27",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1248,7 +1221,6 @@
     {
       "id": "wanscam-28",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1283,7 +1255,6 @@
     {
       "id": "wanscam-29",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1336,7 +1307,6 @@
     {
       "id": "wanscam-30",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1363,7 +1333,6 @@
     {
       "id": "wanscam-31",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -1398,7 +1367,6 @@
     {
       "id": "wanscam-32",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1422,7 +1390,6 @@
     {
       "id": "wanscam-33",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1454,7 +1421,6 @@
     {
       "id": "wanscam-34",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1491,7 +1457,6 @@
     {
       "id": "wanscam-35",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1516,7 +1481,6 @@
     {
       "id": "wanscam-36",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1550,7 +1514,6 @@
     {
       "id": "wanscam-37",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1566,7 +1529,6 @@
     {
       "id": "wanscam-38",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1602,7 +1564,6 @@
     {
       "id": "wanscam-39",
       "url": "Image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1616,7 +1577,6 @@
     {
       "id": "wanscam-40",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1645,7 +1605,6 @@
     {
       "id": "wanscam-41",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1682,7 +1641,6 @@
     {
       "id": "wanscam-42",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1700,7 +1658,6 @@
     {
       "id": "wanscam-43",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1710,7 +1667,6 @@
     {
       "id": "wanscam-44",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1730,7 +1686,6 @@
     {
       "id": "wanscam-45",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1743,7 +1698,6 @@
     {
       "id": "wanscam-46",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1770,7 +1724,6 @@
     {
       "id": "wanscam-47",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1808,7 +1761,6 @@
     {
       "id": "wanscam-48",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1822,7 +1774,6 @@
     {
       "id": "wanscam-49",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1839,7 +1790,6 @@
     {
       "id": "wanscam-50",
       "url": "/video.cgi?resolution=QVGA",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 28202,
       "models": [
@@ -1849,7 +1799,6 @@
     {
       "id": "wanscam-51",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1859,7 +1808,6 @@
     {
       "id": "wanscam-52",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1879,7 +1827,6 @@
     {
       "id": "wanscam-53",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1891,7 +1838,6 @@
     {
       "id": "wanscam-54",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1902,7 +1848,6 @@
     {
       "id": "wanscam-55",
       "url": "video.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1913,7 +1858,6 @@
     {
       "id": "wanscam-56",
       "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1930,7 +1874,6 @@
     {
       "id": "wanscam-57",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1949,7 +1892,6 @@
     {
       "id": "wanscam-58",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1959,7 +1901,6 @@
     {
       "id": "wanscam-59",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1986,7 +1927,6 @@
     {
       "id": "wanscam-60",
       "url": "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -1996,7 +1936,6 @@
     {
       "id": "wanscam-61",
       "url": "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -2008,7 +1947,6 @@
     {
       "id": "wanscam-62",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2026,7 +1964,6 @@
     {
       "id": "wanscam-63",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2036,7 +1973,6 @@
     {
       "id": "wanscam-64",
       "url": "img/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2056,7 +1992,6 @@
     {
       "id": "wanscam-65",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -2070,7 +2005,6 @@
     {
       "id": "wanscam-66",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -2095,7 +2029,6 @@
     {
       "id": "wanscam-67",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -2109,7 +2042,6 @@
     {
       "id": "wanscam-68",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2122,7 +2054,6 @@
     {
       "id": "wanscam-69",
       "url": "/videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2132,7 +2063,6 @@
     {
       "id": "wanscam-70",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2143,7 +2073,6 @@
     {
       "id": "wanscam-71",
       "url": "play1.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2153,7 +2082,6 @@
     {
       "id": "wanscam-72",
       "url": "play2.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2163,7 +2091,6 @@
     {
       "id": "wanscam-73",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2173,7 +2100,6 @@
     {
       "id": "wanscam-74",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -2192,7 +2118,6 @@
     {
       "id": "wanscam-75",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -2205,7 +2130,6 @@
     {
       "id": "wanscam-76",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -2225,7 +2149,6 @@
     {
       "id": "wanscam-77",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2254,7 +2177,6 @@
     {
       "id": "wanscam-78",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 81,
       "models": [
@@ -2264,7 +2186,6 @@
     {
       "id": "wanscam-79",
       "url": "/iphone/11?[USERNAME]:[PASWORD]&",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 9100,
       "models": [
@@ -2274,7 +2195,6 @@
     {
       "id": "wanscam-80",
       "url": "live/h264/ch[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -2289,7 +2209,6 @@
     {
       "id": "wanscam-81",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2300,7 +2219,6 @@
     {
       "id": "wanscam-82",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2310,7 +2228,6 @@
     {
       "id": "wanscam-83",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=1280x720",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2320,7 +2237,6 @@
     {
       "id": "wanscam-84",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=1080x1920",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 60752,
       "models": [
@@ -2331,7 +2247,6 @@
     {
       "id": "wanscam-85",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -2344,7 +2259,6 @@
     {
       "id": "wanscam-86",
       "url": "snap.jpg?JpegSize=M",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -2359,7 +2273,6 @@
     {
       "id": "wanscam-87",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2369,7 +2282,6 @@
     {
       "id": "wanscam-88",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2381,7 +2293,6 @@
     {
       "id": "wanscam-89",
       "url": "/snapshot.cgi?user=[USERNAME]&pwd=Tedicek15%40",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2391,7 +2302,6 @@
     {
       "id": "wanscam-90",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 99,
       "models": [
@@ -2401,7 +2311,6 @@
     {
       "id": "wanscam-91",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&res=1920x1080",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 60752,
       "models": [
@@ -2411,7 +2320,6 @@
     {
       "id": "wanscam-92",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2422,7 +2330,6 @@
     {
       "id": "wanscam-93",
       "url": "/snapshot.cgi?camera=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 3333,
       "models": [
@@ -2432,7 +2339,6 @@
     {
       "id": "wanscam-94",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2442,7 +2348,6 @@
     {
       "id": "wanscam-95",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -2452,7 +2357,6 @@
     {
       "id": "wanscam-96",
       "url": "/img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2462,7 +2366,6 @@
     {
       "id": "wanscam-97",
       "url": "/video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -2472,7 +2375,6 @@
     {
       "id": "wanscam-98",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

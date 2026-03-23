@@ -6,7 +6,6 @@
     {
       "id": "adt-1",
       "url": "img/video.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -51,7 +50,6 @@
     {
       "id": "adt-2",
       "url": "img/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +80,6 @@
     {
       "id": "adt-3",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -125,7 +122,6 @@
     {
       "id": "adt-4",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -137,7 +133,6 @@
     {
       "id": "adt-5",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -152,7 +147,6 @@
     {
       "id": "adt-6",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +171,6 @@
     {
       "id": "adt-7",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -197,7 +190,6 @@
     {
       "id": "adt-8",
       "url": "cam4/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -207,7 +199,6 @@
     {
       "id": "adt-9",
       "url": "img/video.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -222,7 +213,6 @@
     {
       "id": "adt-10",
       "url": "/cam/realmonitor?channel=2&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -232,7 +222,6 @@
     {
       "id": "adt-11",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -242,7 +231,6 @@
     {
       "id": "adt-12",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -252,7 +240,6 @@
     {
       "id": "adt-13",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -262,7 +249,6 @@
     {
       "id": "adt-14",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -281,7 +267,6 @@
     {
       "id": "adt-15",
       "url": "img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -301,7 +286,6 @@
     {
       "id": "adt-16",
       "url": "/img/video.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -314,7 +298,6 @@
     {
       "id": "adt-17",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -326,7 +309,6 @@
     {
       "id": "adt-18",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -336,7 +318,6 @@
     {
       "id": "adt-19",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -347,7 +328,6 @@
     {
       "id": "adt-20",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -358,7 +338,6 @@
     {
       "id": "adt-21",
       "url": "/img/video.mjpeg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -371,7 +350,6 @@
     {
       "id": "adt-22",
       "url": "/img/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -381,7 +359,6 @@
     {
       "id": "adt-23",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -391,7 +368,6 @@
     {
       "id": "adt-24",
       "url": "/cam4/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -401,7 +377,6 @@
     {
       "id": "adt-25",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -411,7 +386,6 @@
     {
       "id": "adt-26",
       "url": "/img/main.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -421,7 +395,6 @@
     {
       "id": "adt-27",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -431,7 +404,6 @@
     {
       "id": "adt-28",
       "url": "/img/mjpeg.jpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -441,7 +413,6 @@
     {
       "id": "adt-29",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -451,7 +422,6 @@
     {
       "id": "adt-30",
       "url": "/img/main.cgi?next_file=main.htm",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

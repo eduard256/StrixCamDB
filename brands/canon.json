@@ -6,7 +6,6 @@
     {
       "id": "canon-1",
       "url": "/stream/profile2=r",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "canon-2",
       "url": "-wvhttp-01-/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -53,7 +51,6 @@
     {
       "id": "canon-3",
       "url": "/-wvhttp-01-/GetOneShot?image_size=320x240&frame_count=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -64,7 +61,6 @@
     {
       "id": "canon-4",
       "url": "/-wvhttp-01-/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -84,7 +80,6 @@
     {
       "id": "canon-5",
       "url": "?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -94,7 +89,6 @@
     {
       "id": "canon-6",
       "url": "-wvhttp-01-/GetLiveImage",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -108,7 +102,6 @@
     {
       "id": "canon-7",
       "url": "-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -137,7 +130,6 @@
     {
       "id": "canon-8",
       "url": "-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -163,7 +155,6 @@
     {
       "id": "canon-9",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -173,7 +164,6 @@
     {
       "id": "canon-10",
       "url": "vdata.v",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -183,7 +173,6 @@
     {
       "id": "canon-11",
       "url": "/stream/profile1=r",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -201,7 +190,6 @@
     {
       "id": "canon-12",
       "url": "/stream/profile0=r",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -212,7 +200,6 @@
     {
       "id": "canon-13",
       "url": "profile1=u",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -222,7 +209,6 @@
     {
       "id": "canon-14",
       "url": "profile1=r",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -232,7 +218,6 @@
     {
       "id": "canon-15",
       "url": "/-wvhttp-01-/GetOneShot?image_size=320x240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -243,7 +228,6 @@
     {
       "id": "canon-16",
       "url": "/viewer/admin/index.html?lang=en",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -253,7 +237,6 @@
     {
       "id": "canon-17",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

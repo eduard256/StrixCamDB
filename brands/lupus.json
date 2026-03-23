@@ -6,7 +6,6 @@
     {
       "id": "lupus-1",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "lupus-2",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "lupus-3",
       "url": "/GetImage.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "lupus-4",
       "url": "/v1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "lupus-5",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "lupus-6",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -70,7 +64,6 @@
     {
       "id": "lupus-7",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -80,7 +73,6 @@
     {
       "id": "lupus-8",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -90,7 +82,6 @@
     {
       "id": "lupus-9",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -101,7 +92,6 @@
     {
       "id": "lupus-10",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -111,7 +101,6 @@
     {
       "id": "lupus-11",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=TWFpazpDYW0zTWFpazYq",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -122,7 +111,6 @@
     {
       "id": "lupus-12",
       "url": "cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -133,7 +121,6 @@
     {
       "id": "lupus-13",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -143,7 +130,6 @@
     {
       "id": "lupus-14",
       "url": "GetImage.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -158,7 +144,6 @@
     {
       "id": "lupus-15",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -168,7 +153,6 @@
     {
       "id": "lupus-16",
       "url": "/v2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -178,7 +162,6 @@
     {
       "id": "lupus-17",
       "url": "GetData.cgi?Status=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -191,7 +174,6 @@
     {
       "id": "lupus-18",
       "url": "stream.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -201,7 +183,6 @@
     {
       "id": "lupus-19",
       "url": "cgi-bin/getstream.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -211,7 +192,6 @@
     {
       "id": "lupus-20",
       "url": "GetData.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "hy-outdoor-ip-camera-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [

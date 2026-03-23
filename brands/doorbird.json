@@ -6,7 +6,6 @@
     {
       "id": "doorbird-1",
       "url": "/mpeg/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -24,7 +23,6 @@
     {
       "id": "doorbird-2",
       "url": "bha-api/image.cgi?http-user=[USERNAME]&http-password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8557,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "doorbird-3",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -44,7 +41,6 @@
     {
       "id": "doorbird-4",
       "url": "/bha-api/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -54,7 +50,6 @@
     {
       "id": "doorbird-5",
       "url": "bha-api/video.cgi?http-user=[USERNAME]&http-password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8557,
       "models": [

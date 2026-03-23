@@ -6,7 +6,6 @@
     {
       "id": "cricket-1",
       "url": "/rtsp/unicast/DefaultProfile-02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10556,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "cricket-2",
       "url": "/rtsp/unicast/DefaultProfile-01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

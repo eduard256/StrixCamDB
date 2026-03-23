@@ -6,7 +6,6 @@
     {
       "id": "lum-700-bul-iph-gr-1",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

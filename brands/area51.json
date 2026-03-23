@@ -6,7 +6,6 @@
     {
       "id": "area51-1",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "area51-2",
       "url": "/Streaming/channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "area51-3",
       "url": "/Streaming/channels/501",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [

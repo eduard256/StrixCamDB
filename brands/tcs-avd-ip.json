@@ -6,7 +6,6 @@
     {
       "id": "tcs-avd-ip-1",
       "url": "/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

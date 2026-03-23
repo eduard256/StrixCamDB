@@ -6,7 +6,6 @@
     {
       "id": "dm365-ipnc-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -89,7 +88,6 @@
     {
       "id": "dm365-ipnc-2",
       "url": "/Onvif/Streaming/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8557,
       "models": [
@@ -162,7 +160,6 @@
     {
       "id": "dm365-ipnc-3",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -183,7 +180,6 @@
     {
       "id": "dm365-ipnc-4",
       "url": "/PSIA/Streaming/channels/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -193,7 +189,6 @@
     {
       "id": "dm365-ipnc-5",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -203,7 +198,6 @@
     {
       "id": "dm365-ipnc-6",
       "url": "/stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -213,7 +207,6 @@
     {
       "id": "dm365-ipnc-7",
       "url": "/PSIA/Streaming/channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

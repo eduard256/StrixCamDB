@@ -6,7 +6,6 @@
     {
       "id": "balzan-1",
       "url": "Image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "balzan-2",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

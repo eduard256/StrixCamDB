@@ -6,7 +6,6 @@
     {
       "id": "hichip-1",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "adc-1",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1026,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "adc-2",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1026,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "adc-3",
       "url": "/live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -47,7 +44,6 @@
     {
       "id": "adc-4",
       "url": "/live2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -60,7 +56,6 @@
     {
       "id": "adc-5",
       "url": "dms",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +66,6 @@
     {
       "id": "adc-6",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -82,7 +76,6 @@
     {
       "id": "adc-7",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -94,7 +87,6 @@
     {
       "id": "adc-8",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1026,
       "models": [
@@ -108,7 +100,6 @@
     {
       "id": "adc-9",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -118,7 +109,6 @@
     {
       "id": "adc-10",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1032,
       "models": [
@@ -129,7 +119,6 @@
     {
       "id": "adc-11",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

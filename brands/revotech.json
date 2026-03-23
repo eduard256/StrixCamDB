@@ -6,7 +6,6 @@
     {
       "id": "revotech-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "revotech-2",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "revotech-3",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -54,7 +51,6 @@
     {
       "id": "revotech-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -68,7 +64,6 @@
     {
       "id": "revotech-5",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -83,7 +78,6 @@
     {
       "id": "revotech-6",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -93,7 +87,6 @@
     {
       "id": "revotech-7",
       "url": "/1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -106,7 +99,6 @@
     {
       "id": "revotech-8",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -116,7 +108,6 @@
     {
       "id": "revotech-9",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -127,7 +118,6 @@
     {
       "id": "revotech-10",
       "url": "1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -144,7 +134,6 @@
     {
       "id": "revotech-11",
       "url": "/profile0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -162,7 +151,6 @@
     {
       "id": "revotech-12",
       "url": "jpeg/1/jpeg.php",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -172,7 +160,6 @@
     {
       "id": "revotech-13",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -184,7 +171,6 @@
     {
       "id": "revotech-14",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -201,7 +187,6 @@
     {
       "id": "revotech-15",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 0,
       "models": [
@@ -211,7 +196,6 @@
     {
       "id": "revotech-16",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -225,7 +209,6 @@
     {
       "id": "revotech-17",
       "url": "/cam0/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -235,7 +218,6 @@
     {
       "id": "revotech-18",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -245,7 +227,6 @@
     {
       "id": "revotech-19",
       "url": "/profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -256,7 +237,6 @@
     {
       "id": "revotech-20",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -266,7 +246,6 @@
     {
       "id": "revotech-21",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -276,7 +255,6 @@
     {
       "id": "revotech-22",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

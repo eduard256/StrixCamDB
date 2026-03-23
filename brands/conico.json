@@ -6,7 +6,6 @@
     {
       "id": "conico-1",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "conico-2",
       "url": "/ccm/ccm_pic_get.jpg?hfrom_handle=887330&dsess=1&dsess_nid=MHkMHqeZgXPcaHyOZ.AyecFCDdpjEF7g&dsess_sn=1jfiegbqtkbxa&dtoken=p1_xxxxxxxxxx",
-      "type": "MJPEG",
       "protocol": "https",
       "port": 7443,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "conico-3",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "rainbow-1",
       "url": "cgi-bin/jpg/image.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "rainbow-2",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

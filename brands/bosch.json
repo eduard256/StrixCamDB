@@ -6,7 +6,6 @@
     {
       "id": "bosch-1",
       "url": "snap.jpg?JpegSize=M",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10600,
       "models": [
@@ -41,7 +40,6 @@
     {
       "id": "bosch-2",
       "url": "/rtsp_tunnel",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10600,
       "models": [
@@ -126,7 +124,6 @@
     {
       "id": "bosch-3",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10600,
       "models": [
@@ -198,7 +195,6 @@
     {
       "id": "bosch-4",
       "url": "video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10600,
       "models": [
@@ -223,7 +219,6 @@
     {
       "id": "bosch-5",
       "url": "snap.jpg?JpegSize=XL",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -273,7 +268,6 @@
     {
       "id": "bosch-6",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -292,7 +286,6 @@
     {
       "id": "bosch-7",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -323,7 +316,6 @@
     {
       "id": "bosch-8",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -335,7 +327,6 @@
     {
       "id": "bosch-9",
       "url": "/1/stream1/Profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -354,7 +345,6 @@
     {
       "id": "bosch-10",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -391,7 +381,6 @@
     {
       "id": "bosch-11",
       "url": "video",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -413,7 +402,6 @@
     {
       "id": "bosch-12",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -425,7 +413,6 @@
     {
       "id": "bosch-13",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -445,7 +432,6 @@
     {
       "id": "bosch-14",
       "url": "/snap.jpg?JpegSize=M",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -455,7 +441,6 @@
     {
       "id": "bosch-15",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -466,7 +451,6 @@
     {
       "id": "bosch-16",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -499,7 +483,6 @@
     {
       "id": "bosch-17",
       "url": "/snap.jpg?JpegCam=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8075,
       "models": [
@@ -510,7 +493,6 @@
     {
       "id": "bosch-18",
       "url": "cgi-bin/rtspStream/[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -527,7 +509,6 @@
     {
       "id": "bosch-19",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -541,7 +522,6 @@
     {
       "id": "bosch-20",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -553,7 +533,6 @@
     {
       "id": "bosch-21",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -564,7 +543,6 @@
     {
       "id": "bosch-22",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -575,7 +553,6 @@
     {
       "id": "bosch-23",
       "url": "/ch1-s1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -586,7 +563,6 @@
     {
       "id": "bosch-24",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -598,7 +574,6 @@
     {
       "id": "bosch-25",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=[CHANNEL].sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -608,7 +583,6 @@
     {
       "id": "bosch-26",
       "url": "rtsp_tunnel",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -620,7 +594,6 @@
     {
       "id": "bosch-27",
       "url": "/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -631,7 +604,6 @@
     {
       "id": "bosch-28",
       "url": "/video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -650,7 +622,6 @@
     {
       "id": "bosch-29",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 10600,
       "models": [
@@ -663,7 +634,6 @@
     {
       "id": "bosch-30",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -674,7 +644,6 @@
     {
       "id": "bosch-31",
       "url": "/?inst=2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -684,7 +653,6 @@
     {
       "id": "bosch-32",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -694,7 +662,6 @@
     {
       "id": "bosch-33",
       "url": "11",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -705,7 +672,6 @@
     {
       "id": "bosch-34",
       "url": "/video",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -715,7 +681,6 @@
     {
       "id": "bosch-35",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -725,7 +690,6 @@
     {
       "id": "bosch-36",
       "url": "img.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -737,7 +701,6 @@
     {
       "id": "bosch-37",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -748,7 +711,6 @@
     {
       "id": "bosch-38",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -758,7 +720,6 @@
     {
       "id": "bosch-39",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -768,7 +729,6 @@
     {
       "id": "bosch-40",
       "url": "12",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -778,7 +738,6 @@
     {
       "id": "bosch-41",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -788,7 +747,6 @@
     {
       "id": "bosch-42",
       "url": "/line=2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -798,7 +756,6 @@
     {
       "id": "bosch-43",
       "url": "tmp/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "tl-sc3130g-1",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

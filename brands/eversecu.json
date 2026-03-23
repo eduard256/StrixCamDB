@@ -6,7 +6,6 @@
     {
       "id": "eversecu-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "eversecu-2",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "eversecu-3",
       "url": "/tcp/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -42,7 +39,6 @@
     {
       "id": "eversecu-4",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -53,7 +49,6 @@
     {
       "id": "eversecu-5",
       "url": "ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -63,7 +58,6 @@
     {
       "id": "eversecu-6",
       "url": "/onvif-stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -75,7 +69,6 @@
     {
       "id": "eversecu-7",
       "url": "/onvif/stream3/mobotix.mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -87,7 +80,6 @@
     {
       "id": "eversecu-8",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -97,7 +89,6 @@
     {
       "id": "eversecu-9",
       "url": "/mpeg4/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -107,7 +98,6 @@
     {
       "id": "eversecu-10",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -118,7 +108,6 @@
     {
       "id": "eversecu-11",
       "url": "mpeg4/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

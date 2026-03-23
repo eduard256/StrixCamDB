@@ -6,7 +6,6 @@
     {
       "id": "pasillo-1",
       "url": "cgi/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

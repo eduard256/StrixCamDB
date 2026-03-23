@@ -6,7 +6,6 @@
     {
       "id": "techage-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "techage-2",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "techage-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -61,7 +58,6 @@
     {
       "id": "techage-4",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -71,7 +67,6 @@
     {
       "id": "techage-5",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -81,7 +76,6 @@
     {
       "id": "techage-6",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -97,7 +91,6 @@
     {
       "id": "techage-7",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -107,7 +100,6 @@
     {
       "id": "techage-8",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -126,7 +118,6 @@
     {
       "id": "techage-9",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -142,7 +133,6 @@
     {
       "id": "techage-10",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -152,7 +142,6 @@
     {
       "id": "techage-11",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -162,7 +151,6 @@
     {
       "id": "techage-12",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -172,7 +160,6 @@
     {
       "id": "techage-13",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -182,7 +169,6 @@
     {
       "id": "techage-14",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -192,7 +178,6 @@
     {
       "id": "techage-15",
       "url": "/onvif/device_service",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8899,
       "models": [

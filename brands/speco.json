@@ -6,7 +6,6 @@
     {
       "id": "speco-1",
       "url": "stillimg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -33,7 +32,6 @@
     {
       "id": "speco-2",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -48,7 +46,6 @@
     {
       "id": "speco-3",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -62,7 +59,6 @@
     {
       "id": "speco-4",
       "url": "/ch01/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9008,
       "models": [
@@ -73,7 +69,6 @@
     {
       "id": "speco-5",
       "url": "/ch01/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9008,
       "models": [
@@ -83,7 +78,6 @@
     {
       "id": "speco-6",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -98,7 +92,6 @@
     {
       "id": "speco-7",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -109,7 +102,6 @@
     {
       "id": "speco-8",
       "url": "/Master-0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -122,7 +114,6 @@
     {
       "id": "speco-9",
       "url": "/main_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -132,7 +123,6 @@
     {
       "id": "speco-10",
       "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -146,7 +136,6 @@
     {
       "id": "speco-11",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -157,7 +146,6 @@
     {
       "id": "speco-12",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -169,7 +157,6 @@
     {
       "id": "speco-13",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -179,7 +166,6 @@
     {
       "id": "speco-14",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -189,7 +175,6 @@
     {
       "id": "speco-15",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -199,7 +184,6 @@
     {
       "id": "speco-16",
       "url": "/profile2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9008,
       "models": [
@@ -209,7 +193,6 @@
     {
       "id": "speco-17",
       "url": "/chID=3&streamType=main&linkType=tcp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -219,7 +202,6 @@
     {
       "id": "speco-18",
       "url": "jpeg/1/jpeg.php",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -230,7 +212,6 @@
     {
       "id": "speco-19",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -240,7 +221,6 @@
     {
       "id": "speco-20",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -250,7 +230,6 @@
     {
       "id": "speco-21",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -260,7 +239,6 @@
     {
       "id": "speco-22",
       "url": "Live/Channel=[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -271,7 +249,6 @@
     {
       "id": "speco-23",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -281,7 +258,6 @@
     {
       "id": "speco-24",
       "url": "cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -292,7 +268,6 @@
     {
       "id": "speco-25",
       "url": "mobile/channel[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -302,7 +277,6 @@
     {
       "id": "speco-26",
       "url": "ivop.get?action=live&THREAD_ID=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -312,7 +286,6 @@
     {
       "id": "speco-27",
       "url": "images[CHANNEL]sif",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -322,7 +295,6 @@
     {
       "id": "speco-28",
       "url": "images[CHANNEL]full",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -332,7 +304,6 @@
     {
       "id": "speco-29",
       "url": "getimage?camera=[CHANNEL]&fmt=full",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -342,7 +313,6 @@
     {
       "id": "speco-30",
       "url": "1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -355,7 +325,6 @@
     {
       "id": "speco-31",
       "url": "/1/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -365,7 +334,6 @@
     {
       "id": "speco-32",
       "url": "/stream0/Channel=0;Profile=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

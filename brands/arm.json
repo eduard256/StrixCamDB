@@ -6,7 +6,6 @@
     {
       "id": "arm-1",
       "url": "ivop.get?action=live&THREAD_ID=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "arm-2",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

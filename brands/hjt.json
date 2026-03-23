@@ -6,7 +6,6 @@
     {
       "id": "hjt-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -24,7 +23,6 @@
     {
       "id": "hjt-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -44,7 +42,6 @@
     {
       "id": "hjt-3",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -54,7 +51,6 @@
     {
       "id": "hjt-4",
       "url": "/1/[USERNAME]:[PASSWORD]/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -64,7 +60,6 @@
     {
       "id": "hjt-5",
       "url": "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -74,7 +69,6 @@
     {
       "id": "hjt-6",
       "url": "/Onvif/live/1/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -85,7 +79,6 @@
     {
       "id": "hjt-7",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -95,7 +88,6 @@
     {
       "id": "hjt-8",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

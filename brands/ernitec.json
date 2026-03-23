@@ -6,7 +6,6 @@
     {
       "id": "ernitec-1",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "ernitec-2",
       "url": "cgi-bin/jpg/image.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +34,6 @@
     {
       "id": "ernitec-3",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -48,7 +45,6 @@
     {
       "id": "ernitec-4",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -58,7 +54,6 @@
     {
       "id": "ernitec-5",
       "url": "h264_2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -68,7 +63,6 @@
     {
       "id": "ernitec-6",
       "url": "h264_3",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -78,7 +72,6 @@
     {
       "id": "ernitec-7",
       "url": "h264_4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -88,7 +81,6 @@
     {
       "id": "ernitec-8",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -98,7 +90,6 @@
     {
       "id": "ernitec-9",
       "url": "jpeg",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

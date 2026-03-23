@@ -6,7 +6,6 @@
     {
       "id": "sunchan-1",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

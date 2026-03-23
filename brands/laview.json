@@ -6,7 +6,6 @@
     {
       "id": "laview-1",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -33,7 +32,6 @@
     {
       "id": "laview-2",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -69,7 +67,6 @@
     {
       "id": "laview-3",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -83,7 +80,6 @@
     {
       "id": "laview-4",
       "url": "/h264/ch01/main/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -97,7 +93,6 @@
     {
       "id": "laview-5",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -120,7 +115,6 @@
     {
       "id": "laview-6",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -132,7 +126,6 @@
     {
       "id": "laview-7",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -149,7 +142,6 @@
     {
       "id": "laview-8",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -163,7 +155,6 @@
     {
       "id": "laview-9",
       "url": "ipcam.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -174,7 +165,6 @@
     {
       "id": "laview-10",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -186,7 +176,6 @@
     {
       "id": "laview-11",
       "url": "/PSIA/streaming/channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -197,7 +186,6 @@
     {
       "id": "laview-12",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -210,7 +198,6 @@
     {
       "id": "laview-13",
       "url": "/Streaming/Channels/201",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -221,7 +208,6 @@
     {
       "id": "laview-14",
       "url": "/cam/realmonitor?channel=0&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -231,7 +217,6 @@
     {
       "id": "laview-15",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -243,7 +228,6 @@
     {
       "id": "laview-16",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -253,7 +237,6 @@
     {
       "id": "laview-17",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -263,7 +246,6 @@
     {
       "id": "laview-18",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -273,7 +255,6 @@
     {
       "id": "laview-19",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -284,7 +265,6 @@
     {
       "id": "laview-20",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -295,7 +275,6 @@
     {
       "id": "laview-21",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -306,7 +285,6 @@
     {
       "id": "laview-22",
       "url": "/Streaming/Channels/101/?transportmode=unicast.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -316,7 +294,6 @@
     {
       "id": "laview-23",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -326,7 +303,6 @@
     {
       "id": "laview-24",
       "url": "/live/channel0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5543,
       "models": [
@@ -336,7 +312,6 @@
     {
       "id": "laview-25",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -346,7 +321,6 @@
     {
       "id": "laview-26",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -356,7 +330,6 @@
     {
       "id": "laview-27",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

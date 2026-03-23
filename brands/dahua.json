@@ -6,7 +6,6 @@
     {
       "id": "dahua-1",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -34,7 +33,6 @@
     {
       "id": "dahua-2",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -56,7 +54,6 @@
     {
       "id": "dahua-3",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -237,7 +234,6 @@
     {
       "id": "dahua-4",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -556,7 +552,6 @@
     {
       "id": "dahua-5",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -748,7 +743,6 @@
     {
       "id": "dahua-6",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -939,7 +933,6 @@
     {
       "id": "dahua-7",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1020,7 +1013,6 @@
     {
       "id": "dahua-8",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1057,7 +1049,6 @@
     {
       "id": "dahua-9",
       "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1096,7 +1087,6 @@
     {
       "id": "dahua-10",
       "url": "live",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1163,7 +1153,6 @@
     {
       "id": "dahua-11",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1175,7 +1164,6 @@
     {
       "id": "dahua-12",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1505,7 +1493,6 @@
     {
       "id": "dahua-13",
       "url": "/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1538,7 +1525,6 @@
     {
       "id": "dahua-14",
       "url": "VideoInput/1/mpeg4/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1550,7 +1536,6 @@
     {
       "id": "dahua-15",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1624,7 +1609,6 @@
     {
       "id": "dahua-16",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1645,7 +1629,6 @@
     {
       "id": "dahua-17",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1673,7 +1656,6 @@
     {
       "id": "dahua-18",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1&authBasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1696,7 +1678,6 @@
     {
       "id": "dahua-19",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1711,7 +1692,6 @@
     {
       "id": "dahua-20",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1736,7 +1716,6 @@
     {
       "id": "dahua-21",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1780,7 +1759,6 @@
     {
       "id": "dahua-22",
       "url": "/onvifsnapshot/media_service/snapshot?channel=1&subtype=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1797,7 +1775,6 @@
     {
       "id": "dahua-23",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1839,7 +1816,6 @@
     {
       "id": "dahua-24",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1871,7 +1847,6 @@
     {
       "id": "dahua-25",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1915,7 +1890,6 @@
     {
       "id": "dahua-26",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1946,7 +1920,6 @@
     {
       "id": "dahua-27",
       "url": "live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 85,
       "models": [
@@ -1957,7 +1930,6 @@
     {
       "id": "dahua-28",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Abougu55555%3F",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1967,7 +1939,6 @@
     {
       "id": "dahua-29",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -2009,7 +1980,6 @@
     {
       "id": "dahua-30",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46MzIyMzExNjEzMVNoYXl0YW4=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2021,7 +1991,6 @@
     {
       "id": "dahua-31",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 80,
       "models": [
@@ -2056,7 +2025,6 @@
     {
       "id": "dahua-32",
       "url": "/?action=stream",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2066,7 +2034,6 @@
     {
       "id": "dahua-33",
       "url": "/cam/realmonitor?channel=2&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2077,7 +2044,6 @@
     {
       "id": "dahua-34",
       "url": "/axis-cgi/mjpg/video.cgi?camera=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2095,7 +2061,6 @@
     {
       "id": "dahua-35",
       "url": "/video.pro2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2105,7 +2070,6 @@
     {
       "id": "dahua-36",
       "url": "/rtsp_live0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2116,7 +2080,6 @@
     {
       "id": "dahua-37",
       "url": "/cam/realmonitor?channel=3&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2128,7 +2091,6 @@
     {
       "id": "dahua-38",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2138,7 +2100,6 @@
     {
       "id": "dahua-39",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2152,7 +2113,6 @@
     {
       "id": "dahua-40",
       "url": "/cgi-bin/mjpg/video.cgi?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2193,7 +2153,6 @@
     {
       "id": "dahua-41",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2203,7 +2162,6 @@
     {
       "id": "dahua-42",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2214,7 +2172,6 @@
     {
       "id": "dahua-43",
       "url": "/cgi-bin/snapshot.cgi?chn=8&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2227,7 +2184,6 @@
     {
       "id": "dahua-44",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2259,7 +2215,6 @@
     {
       "id": "dahua-45",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46RmVlZGIlNDBjazIwMjA=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2271,7 +2226,6 @@
     {
       "id": "dahua-46",
       "url": "/cam/realmonitor?channel=6&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2281,7 +2235,6 @@
     {
       "id": "dahua-47",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=viVA97%23%23",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2291,7 +2244,6 @@
     {
       "id": "dahua-48",
       "url": "/cam/realmonitor?channel=1&subtype=01&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2313,7 +2265,6 @@
     {
       "id": "dahua-49",
       "url": "/cam/realmonitor?channel=2&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2325,7 +2276,6 @@
     {
       "id": "dahua-50",
       "url": "/cam/realmonitor?channel=1&subtype=2&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2335,7 +2285,6 @@
     {
       "id": "dahua-51",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46c2VwcDQxMjM=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2351,7 +2300,6 @@
     {
       "id": "dahua-52",
       "url": "/cam/realmonitor?channel=3&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2362,7 +2310,6 @@
     {
       "id": "dahua-53",
       "url": "/cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2378,7 +2325,6 @@
     {
       "id": "dahua-54",
       "url": "/cgi-bin/mjpg/video.cgi?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2389,7 +2335,6 @@
     {
       "id": "dahua-55",
       "url": "/1/stream1/Profile1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2399,7 +2344,6 @@
     {
       "id": "dahua-56",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2409,7 +2353,6 @@
     {
       "id": "dahua-57",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2424,7 +2367,6 @@
     {
       "id": "dahua-58",
       "url": "/cam/realmonitor?channel=1&subtype=1&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2434,7 +2376,6 @@
     {
       "id": "dahua-59",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Da135888%2A",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2444,7 +2385,6 @@
     {
       "id": "dahua-60",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=nederland1%21",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2455,7 +2395,6 @@
     {
       "id": "dahua-61",
       "url": "/cam/realmonitor?channel=1&subtype=2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8081,
       "models": [
@@ -2466,7 +2405,6 @@
     {
       "id": "dahua-62",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2477,7 +2415,6 @@
     {
       "id": "dahua-63",
       "url": "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2490,7 +2427,6 @@
     {
       "id": "dahua-64",
       "url": "/cgi-bin/snapshot.cgi?chn=8&u=[USERNAME]&p=VIDI3%23com",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2500,7 +2436,6 @@
     {
       "id": "dahua-65",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2513,7 +2448,6 @@
     {
       "id": "dahua-66",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Devote%40m1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2523,7 +2457,6 @@
     {
       "id": "dahua-67",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Feedb%40ck2020",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2533,7 +2466,6 @@
     {
       "id": "dahua-68",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 85,
       "models": [
@@ -2546,7 +2478,6 @@
     {
       "id": "dahua-69",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Hhgnbx233112%40",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2556,7 +2487,6 @@
     {
       "id": "dahua-70",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2567,7 +2497,6 @@
     {
       "id": "dahua-71",
       "url": "/cam/realmonitor?channel=2&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2578,7 +2507,6 @@
     {
       "id": "dahua-72",
       "url": "/cam/realmonitor?channel=3&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2588,7 +2516,6 @@
     {
       "id": "dahua-73",
       "url": "/cam/realmonitor?channel=3&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2598,7 +2525,6 @@
     {
       "id": "dahua-74",
       "url": "/cam/realmonitor?channel=0&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2610,7 +2536,6 @@
     {
       "id": "dahua-75",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2622,7 +2547,6 @@
     {
       "id": "dahua-76",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2633,7 +2557,6 @@
     {
       "id": "dahua-77",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2644,7 +2567,6 @@
     {
       "id": "dahua-78",
       "url": "video/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2655,7 +2577,6 @@
     {
       "id": "dahua-79",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2665,7 +2586,6 @@
     {
       "id": "dahua-80",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2675,7 +2595,6 @@
     {
       "id": "dahua-81",
       "url": "/cam/realmonitor?channel=4&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2685,7 +2604,6 @@
     {
       "id": "dahua-82",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2696,7 +2614,6 @@
     {
       "id": "dahua-83",
       "url": "/cgi-bin/jpeg?connect=start&vmdinfo=none&UID=9&ch=1&resolution=",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2706,7 +2623,6 @@
     {
       "id": "dahua-84",
       "url": "/cam/realmonitor?channel=1&%20subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2716,7 +2632,6 @@
     {
       "id": "dahua-85",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Jack%21000",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2727,7 +2642,6 @@
     {
       "id": "dahua-86",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 0,
       "models": [
@@ -2738,7 +2652,6 @@
     {
       "id": "dahua-87",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=Iws2006%40B",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2748,7 +2661,6 @@
     {
       "id": "dahua-88",
       "url": "/cam/realmonitor?channel=[PASSWORD]&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2759,7 +2671,6 @@
     {
       "id": "dahua-89",
       "url": "/cam/realmonitor?channel=1&subtype=1&unicast=false",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2770,7 +2681,6 @@
     {
       "id": "dahua-90",
       "url": "/cam/realmonitor?channel=4&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2780,7 +2690,6 @@
     {
       "id": "dahua-91",
       "url": "/cam/realmonitor?channel=1&subtype=1&authBasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2794,7 +2703,6 @@
     {
       "id": "dahua-92",
       "url": "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2804,7 +2712,6 @@
     {
       "id": "dahua-93",
       "url": "/cgi-bin/mjpg/video.cgi?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2815,7 +2722,6 @@
     {
       "id": "dahua-94",
       "url": "/cgi-bin/video.jpg?cam=0&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2825,7 +2731,6 @@
     {
       "id": "dahua-95",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=Alert%401942",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2838,7 +2743,6 @@
     {
       "id": "dahua-96",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=12345%40Qwerty",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2848,7 +2752,6 @@
     {
       "id": "dahua-97",
       "url": "/live2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2858,7 +2761,6 @@
     {
       "id": "dahua-98",
       "url": "/cam/realmonitor?channel=0&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2868,7 +2770,6 @@
     {
       "id": "dahua-99",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=ADminC%40mH%40bs16",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2878,7 +2779,6 @@
     {
       "id": "dahua-100",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

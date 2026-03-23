@@ -6,7 +6,6 @@
     {
       "id": "jovision-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +25,6 @@
     {
       "id": "jovision-2",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -41,7 +39,6 @@
     {
       "id": "jovision-3",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -66,7 +63,6 @@
     {
       "id": "jovision-4",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -77,7 +73,6 @@
     {
       "id": "jovision-5",
       "url": "/0/cloud:Baltu912/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -87,7 +82,6 @@
     {
       "id": "jovision-6",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -97,7 +91,6 @@
     {
       "id": "jovision-7",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -107,7 +100,6 @@
     {
       "id": "jovision-8",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -117,7 +109,6 @@
     {
       "id": "jovision-9",
       "url": "live/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -128,7 +119,6 @@
     {
       "id": "jovision-10",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -138,7 +128,6 @@
     {
       "id": "jovision-11",
       "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -149,7 +138,6 @@
     {
       "id": "jovision-12",
       "url": "/live/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -159,7 +147,6 @@
     {
       "id": "jovision-13",
       "url": "/live/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -169,7 +156,6 @@
     {
       "id": "jovision-14",
       "url": "/live/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -179,7 +165,6 @@
     {
       "id": "jovision-15",
       "url": "medias2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -190,7 +175,6 @@
     {
       "id": "jovision-16",
       "url": "/0/admin:ZaZa1970/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -200,7 +184,6 @@
     {
       "id": "jovision-17",
       "url": "live_mpeg4.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -210,7 +193,6 @@
     {
       "id": "jovision-18",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -220,7 +202,6 @@
     {
       "id": "jovision-19",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -230,7 +211,6 @@
     {
       "id": "jovision-20",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -240,7 +220,6 @@
     {
       "id": "jovision-21",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "microseven-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -49,7 +48,6 @@
     {
       "id": "microseven-2",
       "url": "ipcam_h264.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -63,7 +61,6 @@
     {
       "id": "microseven-3",
       "url": "snapshot_ch0[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -73,7 +70,6 @@
     {
       "id": "microseven-4",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 31391,
       "models": [
@@ -90,7 +86,6 @@
     {
       "id": "microseven-5",
       "url": "snapshot_ch[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -100,7 +95,6 @@
     {
       "id": "microseven-6",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -122,7 +116,6 @@
     {
       "id": "microseven-7",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -138,7 +131,6 @@
     {
       "id": "microseven-8",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -149,7 +141,6 @@
     {
       "id": "microseven-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -159,7 +150,6 @@
     {
       "id": "microseven-10",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -169,7 +159,6 @@
     {
       "id": "microseven-11",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -179,7 +168,6 @@
     {
       "id": "microseven-12",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -189,7 +177,6 @@
     {
       "id": "microseven-13",
       "url": "video/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "network-video-recorder-1",
       "url": "/Streaming/Unicast/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

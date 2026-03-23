@@ -6,7 +6,6 @@
     {
       "id": "sudvision-1",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

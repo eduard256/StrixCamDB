@@ -6,7 +6,6 @@
     {
       "id": "seenergy-1",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "levelone-1",
       "url": "/Streaming/Channels/[CHANNEL+1]02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "levelone-2",
       "url": "/Streaming/Channels/[CHANNEL]02",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "levelone-3",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -46,7 +43,6 @@
     {
       "id": "levelone-4",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -74,7 +70,6 @@
     {
       "id": "levelone-5",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -103,7 +98,6 @@
     {
       "id": "levelone-6",
       "url": "img/video.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -126,7 +120,6 @@
     {
       "id": "levelone-7",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -147,7 +140,6 @@
     {
       "id": "levelone-8",
       "url": "cgi-bin/media.cgi?action=getSnapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -161,7 +153,6 @@
     {
       "id": "levelone-9",
       "url": "channel2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -183,7 +174,6 @@
     {
       "id": "levelone-10",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -199,7 +189,6 @@
     {
       "id": "levelone-11",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -213,7 +202,6 @@
     {
       "id": "levelone-12",
       "url": "channel[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -231,7 +219,6 @@
     {
       "id": "levelone-13",
       "url": "/channel1",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -243,7 +230,6 @@
     {
       "id": "levelone-14",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -256,7 +242,6 @@
     {
       "id": "levelone-15",
       "url": "cgi-bin/video.jpg?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -291,7 +276,6 @@
     {
       "id": "levelone-16",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -301,7 +285,6 @@
     {
       "id": "levelone-17",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -316,7 +299,6 @@
     {
       "id": "levelone-18",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -334,7 +316,6 @@
     {
       "id": "levelone-19",
       "url": "h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -356,7 +337,6 @@
     {
       "id": "levelone-20",
       "url": "cgi-bin/jpg/image.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -371,7 +351,6 @@
     {
       "id": "levelone-21",
       "url": "/live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -391,7 +370,6 @@
     {
       "id": "levelone-22",
       "url": "video2.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -403,7 +381,6 @@
     {
       "id": "levelone-23",
       "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -421,7 +398,6 @@
     {
       "id": "levelone-24",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -438,7 +414,6 @@
     {
       "id": "levelone-25",
       "url": "/onvif-stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -452,7 +427,6 @@
     {
       "id": "levelone-26",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -463,7 +437,6 @@
     {
       "id": "levelone-27",
       "url": "imagep/picture.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -480,7 +453,6 @@
     {
       "id": "levelone-28",
       "url": "access_code",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -491,7 +463,6 @@
     {
       "id": "levelone-29",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -504,7 +475,6 @@
     {
       "id": "levelone-30",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -515,7 +485,6 @@
     {
       "id": "levelone-31",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -526,7 +495,6 @@
     {
       "id": "levelone-32",
       "url": "/live.sdp",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -537,7 +505,6 @@
     {
       "id": "levelone-33",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -550,7 +517,6 @@
     {
       "id": "levelone-34",
       "url": "img/video.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -561,7 +527,6 @@
     {
       "id": "levelone-35",
       "url": "cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -572,7 +537,6 @@
     {
       "id": "levelone-36",
       "url": "/onvif&event&video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -583,7 +547,6 @@
     {
       "id": "levelone-37",
       "url": "tmp/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -594,7 +557,6 @@
     {
       "id": "levelone-38",
       "url": "cgi-bin/admin/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -606,7 +568,6 @@
     {
       "id": "levelone-39",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -631,7 +592,6 @@
     {
       "id": "levelone-40",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -643,7 +603,6 @@
     {
       "id": "levelone-41",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -654,7 +613,6 @@
     {
       "id": "levelone-42",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -666,7 +624,6 @@
     {
       "id": "levelone-43",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -677,7 +634,6 @@
     {
       "id": "levelone-44",
       "url": "/onvif-stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -690,7 +646,6 @@
     {
       "id": "levelone-45",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -700,7 +655,6 @@
     {
       "id": "levelone-46",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -711,7 +665,6 @@
     {
       "id": "levelone-47",
       "url": "/channel0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -722,7 +675,6 @@
     {
       "id": "levelone-48",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -735,7 +687,6 @@
     {
       "id": "levelone-49",
       "url": "IEIDVR?CH=[USERNAME]&CARD=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -745,7 +696,6 @@
     {
       "id": "levelone-50",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -755,7 +705,6 @@
     {
       "id": "levelone-51",
       "url": "//Hauptstream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -765,7 +714,6 @@
     {
       "id": "levelone-52",
       "url": "stream/bidirect/channel[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -776,7 +724,6 @@
     {
       "id": "levelone-53",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -786,7 +733,6 @@
     {
       "id": "levelone-54",
       "url": "loginfree.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -796,7 +742,6 @@
     {
       "id": "levelone-55",
       "url": "img/media.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -807,7 +752,6 @@
     {
       "id": "levelone-56",
       "url": "/cgi-bin/video.jpg?cam=1&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -817,7 +761,6 @@
     {
       "id": "levelone-57",
       "url": "/cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -827,7 +770,6 @@
     {
       "id": "levelone-58",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

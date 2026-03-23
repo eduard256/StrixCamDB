@@ -6,7 +6,6 @@
     {
       "id": "zsgl-1",
       "url": "/H264?ch=1&subtype=0&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "dextel-1",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "tidetech-1",
       "url": "live_mpeg4_1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "tidetech-2",
       "url": "mpeg4/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "tidetech-3",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

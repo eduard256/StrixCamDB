@@ -6,7 +6,6 @@
     {
       "id": "camhi-1",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "camhi-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -40,7 +38,6 @@
     {
       "id": "camhi-3",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -52,7 +49,6 @@
     {
       "id": "camhi-4",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -74,7 +70,6 @@
     {
       "id": "camhi-5",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8082,
       "models": [
@@ -85,7 +80,6 @@
     {
       "id": "camhi-6",
       "url": "/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -96,7 +90,6 @@
     {
       "id": "camhi-7",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -109,7 +102,6 @@
     {
       "id": "camhi-8",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

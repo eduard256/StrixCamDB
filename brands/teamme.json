@@ -6,7 +6,6 @@
     {
       "id": "teamme-1",
       "url": "/H264/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [

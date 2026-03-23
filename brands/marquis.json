@@ -6,7 +6,6 @@
     {
       "id": "marquis-1",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "marquis-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "marquis-3",
       "url": "/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "marquis-4",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -48,7 +44,6 @@
     {
       "id": "marquis-5",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

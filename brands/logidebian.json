@@ -6,7 +6,6 @@
     {
       "id": "logidebian-1",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

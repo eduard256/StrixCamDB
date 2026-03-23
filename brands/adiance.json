@@ -6,7 +6,6 @@
     {
       "id": "adiance-1",
       "url": "image.cgi?type=motion",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

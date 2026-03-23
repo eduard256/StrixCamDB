@@ -6,7 +6,6 @@
     {
       "id": "santachi-1",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

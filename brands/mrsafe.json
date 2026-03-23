@@ -6,7 +6,6 @@
     {
       "id": "mrsafe-1",
       "url": "/1.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "mrsafe-2",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "mrsafe-3",
       "url": "/2.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

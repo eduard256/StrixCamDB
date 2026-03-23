@@ -6,7 +6,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-4",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-5",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -62,7 +57,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-6",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -74,7 +68,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-7",
       "url": "GetData.cgi",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -84,7 +77,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-8",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -94,7 +86,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-9",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -104,7 +95,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-10",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -114,7 +104,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-11",
       "url": "current[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +113,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-12",
       "url": "live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -134,7 +122,6 @@
     {
       "id": "netsurveillance-dvr-h.264-network-video-recorder-13",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

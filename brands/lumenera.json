@@ -6,7 +6,6 @@
     {
       "id": "lumenera-1",
       "url": "cgi-usr/nph-video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "lumenera-2",
       "url": "cgi-usr/nph-image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "lumenera-3",
       "url": "cgi-usr/image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "lumenera-4",
       "url": "cgi-bin/nph-video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

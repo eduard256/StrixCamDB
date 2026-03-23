@@ -6,7 +6,6 @@
     {
       "id": "ar3210-1",
       "url": "/Onvif/Streaming/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8557,
       "models": [

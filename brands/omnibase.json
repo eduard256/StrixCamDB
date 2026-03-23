@@ -6,7 +6,6 @@
     {
       "id": "omnibase-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 80,
       "models": [

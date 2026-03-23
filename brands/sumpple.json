@@ -6,7 +6,6 @@
     {
       "id": "sumpple-1",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "sumpple-2",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +43,6 @@
     {
       "id": "sumpple-3",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +58,6 @@
     {
       "id": "sumpple-4",
       "url": "live/av0?user=[USERNAME]&passwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -75,7 +71,6 @@
     {
       "id": "sumpple-5",
       "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -87,7 +82,6 @@
     {
       "id": "sumpple-6",
       "url": "/live/av1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5546,
       "models": [
@@ -97,7 +91,6 @@
     {
       "id": "sumpple-7",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [

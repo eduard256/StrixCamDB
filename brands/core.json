@@ -6,7 +6,6 @@
     {
       "id": "core-1",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

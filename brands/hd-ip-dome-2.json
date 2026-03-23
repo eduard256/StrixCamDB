@@ -6,7 +6,6 @@
     {
       "id": "hd-ip-dome-2-1",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "hd-ip-dome-2-2",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

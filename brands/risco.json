@@ -6,7 +6,6 @@
     {
       "id": "risco-1",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 64272,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "risco-2",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

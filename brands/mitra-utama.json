@@ -6,7 +6,6 @@
     {
       "id": "mitra-utama-1",
       "url": "stream1.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "mitra-utama-2",
       "url": "stream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

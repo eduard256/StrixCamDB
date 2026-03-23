@@ -6,7 +6,6 @@
     {
       "id": "commend-1",
       "url": "3.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "commend-2",
       "url": "/mjpeg/video.mjpg?resolution=1280x960&fps=15",
-      "type": "MJPEG",
       "protocol": "https",
       "port": 443,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "commend-3",
       "url": "video",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -38,7 +35,6 @@
     {
       "id": "commend-4",
       "url": "mjpeg/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -48,7 +44,6 @@
     {
       "id": "commend-5",
       "url": "video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

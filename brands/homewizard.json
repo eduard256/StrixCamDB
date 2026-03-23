@@ -6,7 +6,6 @@
     {
       "id": "homewizard-1",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "homewizard-2",
       "url": "/live/av0?user=[USERNAME]&passwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "homewizard-3",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 88,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "lumens-1",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "lumens-2",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8557,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "lumens-3",
       "url": "/hevc",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

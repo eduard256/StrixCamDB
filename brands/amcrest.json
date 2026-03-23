@@ -6,7 +6,6 @@
     {
       "id": "amcrest-1",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -209,7 +208,6 @@
     {
       "id": "amcrest-2",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -377,7 +375,6 @@
     {
       "id": "amcrest-3",
       "url": "/cam/realmonitor?channel=1&subtype=0&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -391,7 +388,6 @@
     {
       "id": "amcrest-4",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -440,7 +436,6 @@
     {
       "id": "amcrest-5",
       "url": "live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -467,7 +462,6 @@
     {
       "id": "amcrest-6",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -543,7 +537,6 @@
     {
       "id": "amcrest-7",
       "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -576,7 +569,6 @@
     {
       "id": "amcrest-8",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -681,7 +673,6 @@
     {
       "id": "amcrest-9",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -722,7 +713,6 @@
     {
       "id": "amcrest-10",
       "url": "cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -752,7 +742,6 @@
     {
       "id": "amcrest-11",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -859,7 +848,6 @@
     {
       "id": "amcrest-12",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -870,7 +858,6 @@
     {
       "id": "amcrest-13",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -890,7 +877,6 @@
     {
       "id": "amcrest-14",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -902,7 +888,6 @@
     {
       "id": "amcrest-15",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -931,7 +916,6 @@
     {
       "id": "amcrest-16",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -948,7 +932,6 @@
     {
       "id": "amcrest-17",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=R%40mcorpsCamera",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -968,7 +951,6 @@
     {
       "id": "amcrest-18",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -987,7 +969,6 @@
     {
       "id": "amcrest-19",
       "url": "/cam/realmonitor?channel=1&subtype=1&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1006,7 +987,6 @@
     {
       "id": "amcrest-20",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1027,7 +1007,6 @@
     {
       "id": "amcrest-21",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1059,7 +1038,6 @@
     {
       "id": "amcrest-22",
       "url": "/cam/realmonitor?channel=1&subtype=02&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1070,7 +1048,6 @@
     {
       "id": "amcrest-23",
       "url": "/cam/realmonitor?channel=1&subtype=01&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1092,7 +1069,6 @@
     {
       "id": "amcrest-24",
       "url": "/cam/realmonitor?channel=01&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1109,7 +1085,6 @@
     {
       "id": "amcrest-25",
       "url": "/?action=stream",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1139,7 +1114,6 @@
     {
       "id": "amcrest-26",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=CAMm0t10n%21",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1150,7 +1124,6 @@
     {
       "id": "amcrest-27",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1183,7 +1156,6 @@
     {
       "id": "amcrest-28",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1203,7 +1175,6 @@
     {
       "id": "amcrest-29",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1223,7 +1194,6 @@
     {
       "id": "amcrest-30",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1233,7 +1203,6 @@
     {
       "id": "amcrest-31",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1243,7 +1212,6 @@
     {
       "id": "amcrest-32",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1253,7 +1221,6 @@
     {
       "id": "amcrest-33",
       "url": "/cam/realmonitor?channel=6?subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1263,7 +1230,6 @@
     {
       "id": "amcrest-34",
       "url": "/h264Preview_05_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1273,7 +1239,6 @@
     {
       "id": "amcrest-35",
       "url": "/h264Preview_06_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1283,7 +1248,6 @@
     {
       "id": "amcrest-36",
       "url": "/h264Preview_02_main",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 555,
       "models": [
@@ -1293,7 +1257,6 @@
     {
       "id": "amcrest-37",
       "url": "/h264Preview_01_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 555,
       "models": [
@@ -1307,7 +1270,6 @@
     {
       "id": "amcrest-38",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1317,7 +1279,6 @@
     {
       "id": "amcrest-39",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1351,7 +1312,6 @@
     {
       "id": "amcrest-40",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1368,7 +1328,6 @@
     {
       "id": "amcrest-41",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46IUtlbndvb0QwMCU0MA==",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1378,7 +1337,6 @@
     {
       "id": "amcrest-42",
       "url": "/cam/realmonitor?channel=1&subtype=0&authbasic=64",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1389,7 +1347,6 @@
     {
       "id": "amcrest-43",
       "url": "/cam/realmonitor?channel=1?subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1400,7 +1357,6 @@
     {
       "id": "amcrest-44",
       "url": "/cgi-bin/mjpg/video.cgi?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1423,7 +1379,6 @@
     {
       "id": "amcrest-45",
       "url": "/cam/realmonitor?channel=1&subtype=00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1436,7 +1391,6 @@
     {
       "id": "amcrest-46",
       "url": "/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1449,7 +1403,6 @@
     {
       "id": "amcrest-47",
       "url": "/cam/realmonitor?channel=13&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1459,7 +1412,6 @@
     {
       "id": "amcrest-48",
       "url": "/cam/realmonitor?channel=13&subtype=01&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1469,7 +1421,6 @@
     {
       "id": "amcrest-49",
       "url": "/cam/realmonitor?channel=4&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1479,7 +1430,6 @@
     {
       "id": "amcrest-50",
       "url": "/cam/realmonitor?channel=6&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1490,7 +1440,6 @@
     {
       "id": "amcrest-51",
       "url": "/cam/realmonitor?channel=10&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1500,7 +1449,6 @@
     {
       "id": "amcrest-52",
       "url": "/cam/realmonitor?channel=11&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1510,7 +1458,6 @@
     {
       "id": "amcrest-53",
       "url": "/cam/realmonitor?channel=13&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1521,7 +1468,6 @@
     {
       "id": "amcrest-54",
       "url": "/cam/realmonitor?channel=12&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1531,7 +1477,6 @@
     {
       "id": "amcrest-55",
       "url": "/cam/realmonitor?channel=14&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1541,7 +1486,6 @@
     {
       "id": "amcrest-56",
       "url": "/cam/realmonitor?channel=15&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1551,7 +1495,6 @@
     {
       "id": "amcrest-57",
       "url": "/cam/realmonitor?channel=16&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1561,7 +1504,6 @@
     {
       "id": "amcrest-58",
       "url": "/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1571,7 +1513,6 @@
     {
       "id": "amcrest-59",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1581,7 +1522,6 @@
     {
       "id": "amcrest-60",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1591,7 +1531,6 @@
     {
       "id": "amcrest-61",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1602,7 +1541,6 @@
     {
       "id": "amcrest-62",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1613,7 +1551,6 @@
     {
       "id": "amcrest-63",
       "url": "/cgi-bin/video.cgi?msubmenu=mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1625,7 +1562,6 @@
     {
       "id": "amcrest-64",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1635,7 +1571,6 @@
     {
       "id": "amcrest-65",
       "url": "/axis-cgi/mjpg/video.cgi?camera=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 6004,
       "models": [
@@ -1646,7 +1581,6 @@
     {
       "id": "amcrest-66",
       "url": "/cam/realmonitor?channel=01&subtype=01&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1659,7 +1593,6 @@
     {
       "id": "amcrest-67",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46QW5ndSUyNEIzM2Y=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1671,7 +1604,6 @@
     {
       "id": "amcrest-68",
       "url": "/cam/realmonitor?channel=0&subtype=1&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1681,7 +1613,6 @@
     {
       "id": "amcrest-69",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46MTE3TGFrZXdvb2Q=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1691,7 +1622,6 @@
     {
       "id": "amcrest-70",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46MzIyMzExNjEzMVNoYXl0YW4=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1701,7 +1631,6 @@
     {
       "id": "amcrest-71",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46SlNub3cxMjM=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1711,7 +1640,6 @@
     {
       "id": "amcrest-72",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46UCU0MGNrZXIlMjQyMg==",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1721,7 +1649,6 @@
     {
       "id": "amcrest-73",
       "url": "/cam/realmonitor?channel=1&subtype=01",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1733,7 +1660,6 @@
     {
       "id": "amcrest-74",
       "url": "/cam/realmonitor?channel=1&subtype=main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1743,7 +1669,6 @@
     {
       "id": "amcrest-75",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46YWRtaW4x",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1753,7 +1678,6 @@
     {
       "id": "amcrest-76",
       "url": "/rtsp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1763,7 +1687,6 @@
     {
       "id": "amcrest-77",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1773,7 +1696,6 @@
     {
       "id": "amcrest-78",
       "url": "/cam/realmonitor?channel=0&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1783,7 +1705,6 @@
     {
       "id": "amcrest-79",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=1qazxsw2%21QAZ",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1793,7 +1714,6 @@
     {
       "id": "amcrest-80",
       "url": "/cam/realmonitor?channel=2&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1804,7 +1724,6 @@
     {
       "id": "amcrest-81",
       "url": "/cam/realmonitor?channel=4&subtype=1&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1814,7 +1733,6 @@
     {
       "id": "amcrest-82",
       "url": "/cam/realmonitor?channel=4&subtype=0&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1824,7 +1742,6 @@
     {
       "id": "amcrest-83",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1834,7 +1751,6 @@
     {
       "id": "amcrest-84",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46YWRtaW4=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1844,7 +1760,6 @@
     {
       "id": "amcrest-85",
       "url": "/cam/realmonitor?channel=31&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1854,7 +1769,6 @@
     {
       "id": "amcrest-86",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1864,7 +1778,6 @@
     {
       "id": "amcrest-87",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1874,7 +1787,6 @@
     {
       "id": "amcrest-88",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

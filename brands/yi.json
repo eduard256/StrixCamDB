@@ -6,7 +6,6 @@
     {
       "id": "yi-1",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -25,7 +24,6 @@
     {
       "id": "yi-2",
       "url": "/ch0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "yi-3",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -50,7 +47,6 @@
     {
       "id": "yi-4",
       "url": "/ch0_1.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -66,7 +62,6 @@
     {
       "id": "yi-5",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -76,7 +71,6 @@
     {
       "id": "yi-6",
       "url": "/videofeed",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -86,7 +80,6 @@
     {
       "id": "yi-7",
       "url": "/video?profile=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -96,7 +89,6 @@
     {
       "id": "yi-8",
       "url": "/ch1.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

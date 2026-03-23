@@ -6,7 +6,6 @@
     {
       "id": "philips-1",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "philips-2",
       "url": "out.jpg?id=0.5",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

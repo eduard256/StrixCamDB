@@ -6,7 +6,6 @@
     {
       "id": "udp-technology-1",
       "url": "ch0_unicast_firststream",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "udp-technology-2",
       "url": "ch0_unicast_secondstream",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "udp-technology-3",
       "url": "nvc-cgi/operator/snapshot.fcgi?channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -44,7 +41,6 @@
     {
       "id": "udp-technology-4",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "udp-technology-5",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

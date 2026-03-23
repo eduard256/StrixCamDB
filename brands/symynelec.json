@@ -6,7 +6,6 @@
     {
       "id": "symynelec-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "symynelec-2",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

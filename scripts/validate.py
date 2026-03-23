@@ -12,7 +12,7 @@ import sys
 BRANDS_DIR = os.path.join(os.path.dirname(__file__), "..", "brands")
 
 REQUIRED_ROOT = {"version", "brand", "brand_id", "streams"}
-REQUIRED_STREAM = {"id", "url", "type", "protocol", "port", "models"}
+REQUIRED_STREAM = {"id", "url", "protocol", "port", "models"}
 
 errors = []
 warnings = []
@@ -90,11 +90,10 @@ def validate_file(filepath, filename):
             errors.append(f"{prefix}: duplicate id '{sid}'")
         seen_ids.add(sid)
 
-        # Type and protocol are non-empty strings
-        for field in ("type", "protocol"):
-            val = stream.get(field, "")
-            if not isinstance(val, str) or not val.strip():
-                errors.append(f"{prefix}: '{field}' must be non-empty string, got {repr(val)}")
+        # Protocol is non-empty string
+        val = stream.get("protocol", "")
+        if not isinstance(val, str) or not val.strip():
+            errors.append(f"{prefix}: 'protocol' must be non-empty string, got {repr(val)}")
 
         # Port range
         port = stream.get("port")

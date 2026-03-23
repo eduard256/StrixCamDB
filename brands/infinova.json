@@ -6,7 +6,6 @@
     {
       "id": "infinova-1",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "infinova-2",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "infinova-3",
       "url": "1.AMP",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "infinova-4",
       "url": "/1/mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -55,7 +51,6 @@
     {
       "id": "infinova-5",
       "url": "/video1enc1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

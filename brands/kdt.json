@@ -6,7 +6,6 @@
     {
       "id": "kdt-1",
       "url": "/mode=real&idc=1&ids=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "kdt-2",
       "url": "/H264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

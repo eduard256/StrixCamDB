@@ -6,7 +6,6 @@
     {
       "id": "iq-eye-1",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "iq-eye-2",
       "url": "/rtsp/onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "iq-eye-3",
       "url": "now.jpg?ds=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -52,7 +49,6 @@
     {
       "id": "iq-eye-4",
       "url": "/now.jpg?snap=spush?ww=1600?wh=1200?wx=0?wy=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -64,7 +60,6 @@
     {
       "id": "iq-eye-5",
       "url": "now.jpg?snap=spush",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -97,7 +92,6 @@
     {
       "id": "iq-eye-6",
       "url": "now.jpg?snap=spush?ds=",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -116,7 +110,6 @@
     {
       "id": "iq-eye-7",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -135,7 +128,6 @@
     {
       "id": "iq-eye-8",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -149,7 +141,6 @@
     {
       "id": "iq-eye-9",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -162,7 +153,6 @@
     {
       "id": "iq-eye-10",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -178,7 +168,6 @@
     {
       "id": "iq-eye-11",
       "url": "now.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -206,7 +195,6 @@
     {
       "id": "iq-eye-12",
       "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -219,7 +207,6 @@
     {
       "id": "iq-eye-13",
       "url": "//now.jpg?snap=spush0.033?ds=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -229,7 +216,6 @@
     {
       "id": "iq-eye-14",
       "url": "/mjpg/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -239,7 +225,6 @@
     {
       "id": "iq-eye-15",
       "url": "/rtsp/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -249,7 +234,6 @@
     {
       "id": "iq-eye-16",
       "url": "now.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -260,7 +244,6 @@
     {
       "id": "iq-eye-17",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -270,7 +253,6 @@
     {
       "id": "iq-eye-18",
       "url": "/now.jpg?snap=spush",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -283,7 +265,6 @@
     {
       "id": "iq-eye-19",
       "url": "/now.mp4&res=high",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -293,7 +274,6 @@
     {
       "id": "iq-eye-20",
       "url": "/now.mp4&res=low",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -303,7 +283,6 @@
     {
       "id": "iq-eye-21",
       "url": "mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -314,7 +293,6 @@
     {
       "id": "iq-eye-22",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -324,7 +302,6 @@
     {
       "id": "iq-eye-23",
       "url": "0/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -334,7 +311,6 @@
     {
       "id": "iq-eye-24",
       "url": "/rtsp/now.mp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -344,7 +320,6 @@
     {
       "id": "iq-eye-25",
       "url": "/rtsp/now.jpg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -354,7 +329,6 @@
     {
       "id": "iq-eye-26",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

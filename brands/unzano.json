@@ -6,7 +6,6 @@
     {
       "id": "unzano-1",
       "url": "/p3.mjpg",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [

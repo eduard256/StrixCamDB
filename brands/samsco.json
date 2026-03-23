@@ -6,7 +6,6 @@
     {
       "id": "samsco-1",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "samsco-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[CHANNEL]_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

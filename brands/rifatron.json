@@ -6,7 +6,6 @@
     {
       "id": "rifatron-1",
       "url": "cgi-bin/animate.cgi?[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "pripaso-1",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

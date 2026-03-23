@@ -6,7 +6,6 @@
     {
       "id": "lorex-1",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -97,7 +96,6 @@
     {
       "id": "lorex-2",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -125,7 +123,6 @@
     {
       "id": "lorex-3",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -145,7 +142,6 @@
     {
       "id": "lorex-4",
       "url": "/ch01/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -164,7 +160,6 @@
     {
       "id": "lorex-5",
       "url": "/ch07/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -177,7 +172,6 @@
     {
       "id": "lorex-6",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -206,7 +200,6 @@
     {
       "id": "lorex-7",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -256,7 +249,6 @@
     {
       "id": "lorex-8",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -312,7 +304,6 @@
     {
       "id": "lorex-9",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -334,7 +325,6 @@
     {
       "id": "lorex-10",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -345,7 +335,6 @@
     {
       "id": "lorex-11",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -356,7 +345,6 @@
     {
       "id": "lorex-12",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -373,7 +361,6 @@
     {
       "id": "lorex-13",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -400,7 +387,6 @@
     {
       "id": "lorex-14",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -416,7 +402,6 @@
     {
       "id": "lorex-15",
       "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 7000,
       "models": [
@@ -429,7 +414,6 @@
     {
       "id": "lorex-16",
       "url": "/cam/realmonitor?channel=1&subtype=1;subtype:1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -441,7 +425,6 @@
     {
       "id": "lorex-17",
       "url": "/cam/realmonitor?channel=8&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -451,7 +434,6 @@
     {
       "id": "lorex-18",
       "url": "/cam/realmonitor?channel=3&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -461,7 +443,6 @@
     {
       "id": "lorex-19",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -480,7 +461,6 @@
     {
       "id": "lorex-20",
       "url": "/ch09/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -491,7 +471,6 @@
     {
       "id": "lorex-21",
       "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -501,7 +480,6 @@
     {
       "id": "lorex-22",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -515,7 +493,6 @@
     {
       "id": "lorex-23",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -532,7 +509,6 @@
     {
       "id": "lorex-24",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -545,7 +521,6 @@
     {
       "id": "lorex-25",
       "url": "showimg_pda.cgi?cam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -555,7 +530,6 @@
     {
       "id": "lorex-26",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -574,7 +548,6 @@
     {
       "id": "lorex-27",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -584,7 +557,6 @@
     {
       "id": "lorex-28",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -601,7 +573,6 @@
     {
       "id": "lorex-29",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -615,7 +586,6 @@
     {
       "id": "lorex-30",
       "url": "/cgi-bin/net_jpeg.cgi?ch=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 90,
       "models": [
@@ -625,7 +595,6 @@
     {
       "id": "lorex-31",
       "url": "/ch02/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -635,7 +604,6 @@
     {
       "id": "lorex-32",
       "url": "/ch03/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -645,7 +613,6 @@
     {
       "id": "lorex-33",
       "url": "/ch04/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -655,7 +622,6 @@
     {
       "id": "lorex-34",
       "url": "/ch05/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -665,7 +631,6 @@
     {
       "id": "lorex-35",
       "url": "/ch06/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -675,7 +640,6 @@
     {
       "id": "lorex-36",
       "url": "/ch08/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -686,7 +650,6 @@
     {
       "id": "lorex-37",
       "url": "/cam/realmonitor?channel=12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -696,7 +659,6 @@
     {
       "id": "lorex-38",
       "url": "ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -709,7 +671,6 @@
     {
       "id": "lorex-39",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -723,7 +684,6 @@
     {
       "id": "lorex-40",
       "url": "/cam/realmonitor?channel=11&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -733,7 +693,6 @@
     {
       "id": "lorex-41",
       "url": "/cam/realmonitor?channel=12&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -743,7 +702,6 @@
     {
       "id": "lorex-42",
       "url": "/cam/realmonitor?channel=13&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -753,7 +711,6 @@
     {
       "id": "lorex-43",
       "url": "/cam/realmonitor?channel=14&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -763,7 +720,6 @@
     {
       "id": "lorex-44",
       "url": "/cam/realmonitor?channel=15&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -773,7 +729,6 @@
     {
       "id": "lorex-45",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -798,7 +753,6 @@
     {
       "id": "lorex-46",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -815,7 +769,6 @@
     {
       "id": "lorex-47",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -836,7 +789,6 @@
     {
       "id": "lorex-48",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -851,7 +803,6 @@
     {
       "id": "lorex-49",
       "url": "cgi-bin/jpg/image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -861,7 +812,6 @@
     {
       "id": "lorex-50",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -878,7 +828,6 @@
     {
       "id": "lorex-51",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -893,7 +842,6 @@
     {
       "id": "lorex-52",
       "url": "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=0&resolution=320x240",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -907,7 +855,6 @@
     {
       "id": "lorex-53",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -924,7 +871,6 @@
     {
       "id": "lorex-54",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -936,7 +882,6 @@
     {
       "id": "lorex-55",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=&p=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -946,7 +891,6 @@
     {
       "id": "lorex-56",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46U3RyYXRmb3JkMjAyMQ==",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -957,7 +901,6 @@
     {
       "id": "lorex-57",
       "url": "/cgi-bin/snapshot.cgi?2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -968,7 +911,6 @@
     {
       "id": "lorex-58",
       "url": "/cam/realmonitor?channel=8&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -978,7 +920,6 @@
     {
       "id": "lorex-59",
       "url": "/cam/realmonitor?channel=1&subtype=0&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -988,7 +929,6 @@
     {
       "id": "lorex-60",
       "url": "/axis-cgi/mjpg/video.cgi?camera=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1001,7 +941,6 @@
     {
       "id": "lorex-61",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46Ymx1ZXByNTE2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1015,7 +954,6 @@
     {
       "id": "lorex-62",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1025,7 +963,6 @@
     {
       "id": "lorex-63",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1036,7 +973,6 @@
     {
       "id": "lorex-64",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1046,7 +982,6 @@
     {
       "id": "lorex-65",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46RXdhVmFu",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1057,7 +992,6 @@
     {
       "id": "lorex-66",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1067,7 +1001,6 @@
     {
       "id": "lorex-67",
       "url": "getimage",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1077,7 +1010,6 @@
     {
       "id": "lorex-68",
       "url": "/cam/realmonitor?channel=1?subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1087,7 +1019,6 @@
     {
       "id": "lorex-69",
       "url": "/cam/realmonitor?channel=2&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -1097,7 +1028,6 @@
     {
       "id": "lorex-70",
       "url": "/Video?Codec=MPEG4&Width=720&Height=576&Fps=30",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1107,7 +1037,6 @@
     {
       "id": "lorex-71",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1118,7 +1047,6 @@
     {
       "id": "lorex-72",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1128,7 +1056,6 @@
     {
       "id": "lorex-73",
       "url": "GetData.cgi?CH=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1138,7 +1065,6 @@
     {
       "id": "lorex-74",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=lorexBeatz1251%21%24",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1148,7 +1074,6 @@
     {
       "id": "lorex-75",
       "url": "/GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1158,7 +1083,6 @@
     {
       "id": "lorex-76",
       "url": "/cam/realmonitor?channel=0&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

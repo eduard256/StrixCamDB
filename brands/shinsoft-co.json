@@ -6,7 +6,6 @@
     {
       "id": "shinsoft-co-1",
       "url": "v01",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

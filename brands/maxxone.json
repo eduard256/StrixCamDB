@@ -6,7 +6,6 @@
     {
       "id": "maxxone-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "maxxone-2",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "maxxone-3",
       "url": "/media/video3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

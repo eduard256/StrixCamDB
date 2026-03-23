@@ -6,7 +6,6 @@
     {
       "id": "qubo-1",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

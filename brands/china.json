@@ -6,7 +6,6 @@
     {
       "id": "china-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "china-2",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "china-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -52,7 +49,6 @@
     {
       "id": "china-4",
       "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8554,
       "models": [
@@ -65,7 +61,6 @@
     {
       "id": "china-5",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -97,7 +92,6 @@
     {
       "id": "china-6",
       "url": "1/cif",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -112,7 +106,6 @@
     {
       "id": "china-7",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -123,7 +116,6 @@
     {
       "id": "china-8",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -136,7 +128,6 @@
     {
       "id": "china-9",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -146,7 +137,6 @@
     {
       "id": "china-10",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -156,7 +146,6 @@
     {
       "id": "china-11",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -168,7 +157,6 @@
     {
       "id": "china-12",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -180,7 +168,6 @@
     {
       "id": "china-13",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -197,7 +184,6 @@
     {
       "id": "china-14",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -211,7 +197,6 @@
     {
       "id": "china-15",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -221,7 +206,6 @@
     {
       "id": "china-16",
       "url": "/1/cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -232,7 +216,6 @@
     {
       "id": "china-17",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -246,7 +229,6 @@
     {
       "id": "china-18",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -256,7 +238,6 @@
     {
       "id": "china-19",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -266,7 +247,6 @@
     {
       "id": "china-20",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -278,7 +258,6 @@
     {
       "id": "china-21",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -289,7 +268,6 @@
     {
       "id": "china-22",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -306,7 +284,6 @@
     {
       "id": "china-23",
       "url": "/mpeg4cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -322,7 +299,6 @@
     {
       "id": "china-24",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -337,7 +313,6 @@
     {
       "id": "china-25",
       "url": "/onvif/device_service",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -347,7 +322,6 @@
     {
       "id": "china-26",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -367,7 +341,6 @@
     {
       "id": "china-27",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -379,7 +352,6 @@
     {
       "id": "china-28",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -394,7 +366,6 @@
     {
       "id": "china-29",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -405,7 +376,6 @@
     {
       "id": "china-30",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -417,7 +387,6 @@
     {
       "id": "china-31",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -428,7 +397,6 @@
     {
       "id": "china-32",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -439,7 +407,6 @@
     {
       "id": "china-33",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -451,7 +418,6 @@
     {
       "id": "china-34",
       "url": "video/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -461,7 +427,6 @@
     {
       "id": "china-35",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -473,7 +438,6 @@
     {
       "id": "china-36",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -486,7 +450,6 @@
     {
       "id": "china-37",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 5544,
       "models": [
@@ -501,7 +464,6 @@
     {
       "id": "china-38",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -514,7 +476,6 @@
     {
       "id": "china-39",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -526,7 +487,6 @@
     {
       "id": "china-40",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -537,7 +497,6 @@
     {
       "id": "china-41",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -549,7 +508,6 @@
     {
       "id": "china-42",
       "url": "cam[CHANNEL]/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -562,7 +520,6 @@
     {
       "id": "china-43",
       "url": "/ROH/channel/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -572,7 +529,6 @@
     {
       "id": "china-44",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -582,7 +538,6 @@
     {
       "id": "china-45",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -594,7 +549,6 @@
     {
       "id": "china-46",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -605,7 +559,6 @@
     {
       "id": "china-47",
       "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -615,7 +568,6 @@
     {
       "id": "china-48",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -626,7 +578,6 @@
     {
       "id": "china-49",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -636,7 +587,6 @@
     {
       "id": "china-50",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -646,7 +596,6 @@
     {
       "id": "china-51",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -656,7 +605,6 @@
     {
       "id": "china-52",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -666,7 +614,6 @@
     {
       "id": "china-53",
       "url": "/h264/ch1/sub/av_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -676,7 +623,6 @@
     {
       "id": "china-54",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 82,
       "models": [
@@ -686,7 +632,6 @@
     {
       "id": "china-55",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -697,7 +642,6 @@
     {
       "id": "china-56",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -708,7 +652,6 @@
     {
       "id": "china-57",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -720,7 +663,6 @@
     {
       "id": "china-58",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -730,7 +672,6 @@
     {
       "id": "china-59",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -741,7 +682,6 @@
     {
       "id": "china-60",
       "url": "snapshot.html",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -751,7 +691,6 @@
     {
       "id": "china-61",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -761,7 +700,6 @@
     {
       "id": "china-62",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -771,7 +709,6 @@
     {
       "id": "china-63",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -781,7 +718,6 @@
     {
       "id": "china-64",
       "url": "h264.sdp?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -791,7 +727,6 @@
     {
       "id": "china-65",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -801,7 +736,6 @@
     {
       "id": "china-66",
       "url": "iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -811,7 +745,6 @@
     {
       "id": "china-67",
       "url": "/live/ch00_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -822,7 +755,6 @@
     {
       "id": "china-68",
       "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -833,7 +765,6 @@
     {
       "id": "china-69",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -843,7 +774,6 @@
     {
       "id": "china-70",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -853,7 +783,6 @@
     {
       "id": "china-71",
       "url": "/cgi-bin/view.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -863,7 +792,6 @@
     {
       "id": "china-72",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -873,7 +801,6 @@
     {
       "id": "china-73",
       "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -883,7 +810,6 @@
     {
       "id": "china-74",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -893,7 +819,6 @@
     {
       "id": "china-75",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -903,7 +828,6 @@
     {
       "id": "china-76",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -913,7 +837,6 @@
     {
       "id": "china-77",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46MTE3TGFrZXdvb2Q=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

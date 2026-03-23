@@ -6,7 +6,6 @@
     {
       "id": "wyzecam-1",
       "url": "live",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -29,7 +28,6 @@
     {
       "id": "wyzecam-2",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -64,7 +62,6 @@
     {
       "id": "wyzecam-3",
       "url": "/mia_cam",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -75,7 +72,6 @@
     {
       "id": "wyzecam-4",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -85,7 +81,6 @@
     {
       "id": "wyzecam-5",
       "url": "/axis-cgi/mjpg/video.cgi?cameraId=59313593&token=[TOKEN]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -95,7 +90,6 @@
     {
       "id": "wyzecam-6",
       "url": "/unicast",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -107,7 +101,6 @@
     {
       "id": "wyzecam-7",
       "url": "/1ddc4de6-f48b-484b-995f-a66a98b34af2",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8888,
       "models": [
@@ -117,7 +110,6 @@
     {
       "id": "wyzecam-8",
       "url": "/video3/unicast",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -127,7 +119,6 @@
     {
       "id": "wyzecam-9",
       "url": "/webcam/?action=stream",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [
@@ -137,7 +128,6 @@
     {
       "id": "wyzecam-10",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 36760,
       "models": [
@@ -148,7 +138,6 @@
     {
       "id": "wyzecam-11",
       "url": "/image.jpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -158,7 +147,6 @@
     {
       "id": "wyzecam-12",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -168,7 +156,6 @@
     {
       "id": "wyzecam-13",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -178,7 +165,6 @@
     {
       "id": "wyzecam-14",
       "url": "/wyze-1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -188,7 +174,6 @@
     {
       "id": "wyzecam-15",
       "url": "/wyze-2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -198,7 +183,6 @@
     {
       "id": "wyzecam-16",
       "url": "/living-room-cam",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -208,7 +192,6 @@
     {
       "id": "wyzecam-17",
       "url": "/living-room-cam/stream.m3u8",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8888,
       "models": [

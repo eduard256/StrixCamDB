@@ -6,7 +6,6 @@
     {
       "id": "av40185dn-cd-1",
       "url": "/h264.sdp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

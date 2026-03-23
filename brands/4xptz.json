@@ -6,7 +6,6 @@
     {
       "id": "4xptz-1",
       "url": "live_mpeg4.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "4xptz-2",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "hemkamera-1",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

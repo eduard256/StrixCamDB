@@ -6,7 +6,6 @@
     {
       "id": "realm-1",
       "url": "/live/0/onvif.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

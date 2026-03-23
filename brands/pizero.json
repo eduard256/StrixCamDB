@@ -6,7 +6,6 @@
     {
       "id": "pizero-1",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "pizero-2",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

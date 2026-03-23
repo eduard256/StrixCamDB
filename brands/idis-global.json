@@ -6,7 +6,6 @@
     {
       "id": "idis-global-1",
       "url": "/onvif/media",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

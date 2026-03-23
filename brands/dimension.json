@@ -6,7 +6,6 @@
     {
       "id": "dimension-1",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

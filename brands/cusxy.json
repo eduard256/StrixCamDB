@@ -6,7 +6,6 @@
     {
       "id": "cusxy-1",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

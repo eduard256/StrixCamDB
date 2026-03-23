@@ -6,7 +6,6 @@
     {
       "id": "nexus-cctv-1",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "nexus-cctv-2",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "nexus-cctv-3",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "nexus-cctv-4",
       "url": "/ucast/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "nexus-cctv-5",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -68,7 +63,6 @@
     {
       "id": "nexus-cctv-6",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -81,7 +75,6 @@
     {
       "id": "nexus-cctv-7",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -91,7 +84,6 @@
     {
       "id": "nexus-cctv-8",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -102,7 +94,6 @@
     {
       "id": "nexus-cctv-9",
       "url": "/ROH/channel/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -115,7 +106,6 @@
     {
       "id": "nexus-cctv-10",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -126,7 +116,6 @@
     {
       "id": "nexus-cctv-11",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -136,7 +125,6 @@
     {
       "id": "nexus-cctv-12",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -147,7 +135,6 @@
     {
       "id": "nexus-cctv-13",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -157,7 +144,6 @@
     {
       "id": "nexus-cctv-14",
       "url": "ipcam/mjpegcif.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -167,7 +153,6 @@
     {
       "id": "nexus-cctv-15",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

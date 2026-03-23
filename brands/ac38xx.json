@@ -6,7 +6,6 @@
     {
       "id": "ac38xx-1",
       "url": "/onvif/live/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "ac38xx-2",
       "url": "/onvif/live/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

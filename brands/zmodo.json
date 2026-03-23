@@ -6,7 +6,6 @@
     {
       "id": "zmodo-1",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "zmodo-2",
       "url": "jpeg/qvga.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "zmodo-3",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -44,7 +41,6 @@
     {
       "id": "zmodo-4",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "zmodo-5",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -69,7 +64,6 @@
     {
       "id": "zmodo-6",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -81,7 +75,6 @@
     {
       "id": "zmodo-7",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -94,7 +87,6 @@
     {
       "id": "zmodo-8",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -106,7 +98,6 @@
     {
       "id": "zmodo-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -118,7 +109,6 @@
     {
       "id": "zmodo-10",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -129,7 +119,6 @@
     {
       "id": "zmodo-11",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -142,7 +131,6 @@
     {
       "id": "zmodo-12",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -153,7 +141,6 @@
     {
       "id": "zmodo-13",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -165,7 +152,6 @@
     {
       "id": "zmodo-14",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -177,7 +163,6 @@
     {
       "id": "zmodo-15",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -188,7 +173,6 @@
     {
       "id": "zmodo-16",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -200,7 +184,6 @@
     {
       "id": "zmodo-17",
       "url": "VideoInput/[CHANNEL]/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -214,7 +197,6 @@
     {
       "id": "zmodo-18",
       "url": "[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -227,7 +209,6 @@
     {
       "id": "zmodo-19",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -262,7 +243,6 @@
     {
       "id": "zmodo-20",
       "url": "cam[CHANNEL]/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -273,7 +253,6 @@
     {
       "id": "zmodo-21",
       "url": "/tcp/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -295,7 +274,6 @@
     {
       "id": "zmodo-22",
       "url": "/000100",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -305,7 +283,6 @@
     {
       "id": "zmodo-23",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -321,7 +298,6 @@
     {
       "id": "zmodo-24",
       "url": "stream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -331,7 +307,6 @@
     {
       "id": "zmodo-25",
       "url": "/streaming/mjpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -343,7 +318,6 @@
     {
       "id": "zmodo-26",
       "url": "mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -353,7 +327,6 @@
     {
       "id": "zmodo-27",
       "url": "stillimg[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -364,7 +337,6 @@
     {
       "id": "zmodo-28",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -375,7 +347,6 @@
     {
       "id": "zmodo-29",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -386,7 +357,6 @@
     {
       "id": "zmodo-30",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -396,7 +366,6 @@
     {
       "id": "zmodo-31",
       "url": "image.mpg",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -406,7 +375,6 @@
     {
       "id": "zmodo-32",
       "url": "mpeg4/[CHANNEL]/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -416,7 +384,6 @@
     {
       "id": "zmodo-33",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -426,7 +393,6 @@
     {
       "id": "zmodo-34",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -439,7 +405,6 @@
     {
       "id": "zmodo-35",
       "url": "img/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -450,7 +415,6 @@
     {
       "id": "zmodo-36",
       "url": "cam[CHANNEL]/mjpeg",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -460,7 +424,6 @@
     {
       "id": "zmodo-37",
       "url": "mpg4/rtsp.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -470,7 +433,6 @@
     {
       "id": "zmodo-38",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -480,7 +442,6 @@
     {
       "id": "zmodo-39",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -490,7 +451,6 @@
     {
       "id": "zmodo-40",
       "url": "[CHANNEL]/1:1/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -500,7 +460,6 @@
     {
       "id": "zmodo-41",
       "url": "0/[USERNAME]:[PASSWORD]/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -510,7 +469,6 @@
     {
       "id": "zmodo-42",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -520,7 +478,6 @@
     {
       "id": "zmodo-43",
       "url": "/cgi-bin/video.jpg?cam=2&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -530,7 +487,6 @@
     {
       "id": "zmodo-44",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -540,7 +496,6 @@
     {
       "id": "zmodo-45",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -550,7 +505,6 @@
     {
       "id": "zmodo-46",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -560,7 +514,6 @@
     {
       "id": "zmodo-47",
       "url": "/udp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -574,7 +527,6 @@
     {
       "id": "zmodo-48",
       "url": "/udp/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -587,7 +539,6 @@
     {
       "id": "zmodo-49",
       "url": "/0/Duane:tittus/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -597,7 +548,6 @@
     {
       "id": "zmodo-50",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -607,7 +557,6 @@
     {
       "id": "zmodo-51",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -617,7 +566,6 @@
     {
       "id": "zmodo-52",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -627,7 +575,6 @@
     {
       "id": "zmodo-53",
       "url": "/img/video.mjpeg?channel=2",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -637,7 +584,6 @@
     {
       "id": "zmodo-54",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [
@@ -648,7 +594,6 @@
     {
       "id": "zmodo-55",
       "url": "//tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "smartcam-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "smartcam-2",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 88,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "smartcam-3",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "smartcam-4",
       "url": "/profile4/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

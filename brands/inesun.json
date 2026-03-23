@@ -6,7 +6,6 @@
     {
       "id": "inesun-1",
       "url": "MediaInput/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -25,7 +24,6 @@
     {
       "id": "inesun-2",
       "url": "1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -46,7 +44,6 @@
     {
       "id": "inesun-3",
       "url": "/mpeg4cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -64,7 +61,6 @@
     {
       "id": "inesun-4",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -80,7 +76,6 @@
     {
       "id": "inesun-5",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -90,7 +85,6 @@
     {
       "id": "inesun-6",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -100,7 +94,6 @@
     {
       "id": "inesun-7",
       "url": "/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -110,7 +103,6 @@
     {
       "id": "inesun-8",
       "url": "/h264minor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

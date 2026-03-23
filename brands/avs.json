@@ -6,7 +6,6 @@
     {
       "id": "avs-1",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "avs-2",
       "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "avs-3",
       "url": "jpeg.fcgi?mode=real&si=[USERNAME]&mon=1&ch=[CHANNEL]&width=[WIDTH]&height=[HEIGHT]&quality=7&fps=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "avs-4",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "avs-5",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "avs-6",
       "url": "cgi-usr/image",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +65,6 @@
     {
       "id": "avs-7",
       "url": "live",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -81,7 +74,6 @@
     {
       "id": "avs-8",
       "url": "pic01/images.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -91,7 +83,6 @@
     {
       "id": "avs-9",
       "url": "cgi-bin/image/mjpeg.cgi?id=[USERNAME]&passwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -101,7 +92,6 @@
     {
       "id": "avs-10",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -111,7 +101,6 @@
     {
       "id": "avs-11",
       "url": "cgi-bin/stream/nph-stream.cgi?id=[USERNAME]&pw=[PASSWORD]&streamtype=jpeg&truenph=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -121,7 +110,6 @@
     {
       "id": "avs-12",
       "url": "cgi-bin/stream/nph-stream.cgi?id=[USERNAME]&pw=[PASSWORD]&streamtype=mjpeg&truenph=1",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -131,7 +119,6 @@
     {
       "id": "avs-13",
       "url": "/live/ch00_0",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [

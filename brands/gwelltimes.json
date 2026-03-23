@@ -6,7 +6,6 @@
     {
       "id": "gwelltimes-1",
       "url": "/onvif2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "gwelltimes-2",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "gwelltimes-3",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

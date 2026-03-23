@@ -6,7 +6,6 @@
     {
       "id": "eyewatch-1",
       "url": "/mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8111,
       "models": [

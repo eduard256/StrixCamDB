@@ -6,7 +6,6 @@
     {
       "id": "aecbl1-1",
       "url": "/live1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "aecbl1-2",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

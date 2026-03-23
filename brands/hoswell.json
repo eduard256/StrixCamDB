@@ -6,7 +6,6 @@
     {
       "id": "hoswell-1",
       "url": "/stream_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 6554,
       "models": [

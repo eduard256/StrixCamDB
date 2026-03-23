@@ -6,7 +6,6 @@
     {
       "id": "janex-1",
       "url": "1/cif",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "axis-1",
       "url": "/jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -61,7 +60,6 @@
     {
       "id": "axis-2",
       "url": "live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -72,7 +70,6 @@
     {
       "id": "axis-3",
       "url": "/onvif-media/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -264,7 +261,6 @@
     {
       "id": "axis-4",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -572,7 +568,6 @@
     {
       "id": "axis-5",
       "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -613,7 +608,6 @@
     {
       "id": "axis-6",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -778,7 +772,6 @@
     {
       "id": "axis-7",
       "url": "axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -889,7 +882,6 @@
     {
       "id": "axis-8",
       "url": "jpg/1/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -956,7 +948,6 @@
     {
       "id": "axis-9",
       "url": "/mjpg/1/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8082,
       "models": [
@@ -1092,7 +1083,6 @@
     {
       "id": "axis-10",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1187,7 +1177,6 @@
     {
       "id": "axis-11",
       "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1282,7 +1271,6 @@
     {
       "id": "axis-12",
       "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1362,7 +1350,6 @@
     {
       "id": "axis-13",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1553,7 +1540,6 @@
     {
       "id": "axis-14",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1731,7 +1717,6 @@
     {
       "id": "axis-15",
       "url": "axis-media/media.amp?videocodec=h264&resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1936,7 +1921,6 @@
     {
       "id": "axis-16",
       "url": "mpeg4/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2020,7 +2004,6 @@
     {
       "id": "axis-17",
       "url": "axis-media/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2237,7 +2220,6 @@
     {
       "id": "axis-18",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2442,7 +2424,6 @@
     {
       "id": "axis-19",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2453,7 +2434,6 @@
     {
       "id": "axis-20",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2527,7 +2507,6 @@
     {
       "id": "axis-21",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2538,7 +2517,6 @@
     {
       "id": "axis-22",
       "url": "/axis-media/media.amp?videocodec=mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2550,7 +2528,6 @@
     {
       "id": "axis-23",
       "url": "/axis-media/media.amp?videocodec=h264&resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2676,7 +2653,6 @@
     {
       "id": "axis-24",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2687,7 +2663,6 @@
     {
       "id": "axis-25",
       "url": "/axis-media/media.amp?videocodec=h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2750,7 +2725,6 @@
     {
       "id": "axis-26",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1&resolution=640x480",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8088,
       "models": [
@@ -2788,7 +2762,6 @@
     {
       "id": "axis-27",
       "url": "/ucast/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -2798,7 +2771,6 @@
     {
       "id": "axis-28",
       "url": "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2875,7 +2847,6 @@
     {
       "id": "axis-29",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3008,7 +2979,6 @@
     {
       "id": "axis-30",
       "url": "fullsize.jpg?camera=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3022,7 +2992,6 @@
     {
       "id": "axis-31",
       "url": "hugesize.jpg?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3033,7 +3002,6 @@
     {
       "id": "axis-32",
       "url": "/view/view.shtml",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3043,7 +3011,6 @@
     {
       "id": "axis-33",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3071,7 +3038,6 @@
     {
       "id": "axis-34",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1&resolution=320x240",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3110,7 +3076,6 @@
     {
       "id": "axis-35",
       "url": "/axis-cgi/mjpg/video.cgi?camera=[PASSWORD]&resolution=480x360",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3122,7 +3087,6 @@
     {
       "id": "axis-36",
       "url": "/mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3204,7 +3168,6 @@
     {
       "id": "axis-37",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -3215,7 +3178,6 @@
     {
       "id": "axis-38",
       "url": "/mjpg/1/video.mjpg?Axis-Orig-Sw=true",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3250,7 +3212,6 @@
     {
       "id": "axis-39",
       "url": "/jpg/1/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -3263,7 +3224,6 @@
     {
       "id": "axis-40",
       "url": "/view/index.shtml",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -3274,7 +3234,6 @@
     {
       "id": "axis-41",
       "url": "/mpeg4/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -3299,7 +3258,6 @@
     {
       "id": "axis-42",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3311,7 +3269,6 @@
     {
       "id": "axis-43",
       "url": "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3321,7 +3278,6 @@
     {
       "id": "axis-44",
       "url": "/jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3343,7 +3299,6 @@
     {
       "id": "axis-45",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3355,7 +3310,6 @@
     {
       "id": "axis-46",
       "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3366,7 +3320,6 @@
     {
       "id": "axis-47",
       "url": "fullsize.jpg?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3376,7 +3329,6 @@
     {
       "id": "axis-48",
       "url": "cgi-bin/image640x480.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3387,7 +3339,6 @@
     {
       "id": "axis-49",
       "url": "cgi-bin/image320x240.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3397,7 +3348,6 @@
     {
       "id": "axis-50",
       "url": "cgi-bin/hugesize.jpg?camera=[CHANNEL]&clock=on&motion=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3409,7 +3359,6 @@
     {
       "id": "axis-51",
       "url": "cgi-bin/fullsize.jpg?camera=[CHANNEL]&clock=on&motion=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3422,7 +3371,6 @@
     {
       "id": "axis-52",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3433,7 +3381,6 @@
     {
       "id": "axis-53",
       "url": "cgi-bin/jpg/image.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3444,7 +3391,6 @@
     {
       "id": "axis-54",
       "url": "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=1280x720",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3461,7 +3407,6 @@
     {
       "id": "axis-55",
       "url": "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=640x480",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3479,7 +3424,6 @@
     {
       "id": "axis-56",
       "url": "/live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -3494,7 +3438,6 @@
     {
       "id": "axis-57",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -3507,7 +3450,6 @@
     {
       "id": "axis-58",
       "url": "/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=15",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -3525,7 +3467,6 @@
     {
       "id": "axis-59",
       "url": "/axis-cgi/mjpg/video.cgi?camera=[PASSWORD]&resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3537,7 +3478,6 @@
     {
       "id": "axis-60",
       "url": "/mjpg/video.mjpg?COUNTER",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3552,7 +3492,6 @@
     {
       "id": "axis-61",
       "url": "/view/viewer_index.shtml?id=16",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3562,7 +3501,6 @@
     {
       "id": "axis-62",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -3587,7 +3525,6 @@
     {
       "id": "axis-63",
       "url": "SnapshotJPEG?Resolution=320x240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3598,7 +3535,6 @@
     {
       "id": "axis-64",
       "url": "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=0&resolution=320x240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3608,7 +3544,6 @@
     {
       "id": "axis-65",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3619,7 +3554,6 @@
     {
       "id": "axis-66",
       "url": "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=1280x800",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3637,7 +3571,6 @@
     {
       "id": "axis-67",
       "url": "/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=320x240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3652,7 +3585,6 @@
     {
       "id": "axis-68",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3662,7 +3594,6 @@
     {
       "id": "axis-69",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3674,7 +3605,6 @@
     {
       "id": "axis-70",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3692,7 +3622,6 @@
     {
       "id": "axis-71",
       "url": "/axis-cgi/mjpg/video.cgi?camera=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3703,7 +3632,6 @@
     {
       "id": "axis-72",
       "url": "cgi-bin/hugesize.jpg?camera=[CHANNEL]&clock=on",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3714,7 +3642,6 @@
     {
       "id": "axis-73",
       "url": "/jpg/4/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3725,7 +3652,6 @@
     {
       "id": "axis-74",
       "url": "cgi-bin/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3736,7 +3662,6 @@
     {
       "id": "axis-75",
       "url": "/mjpg/video.mjpg?camera=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3752,7 +3677,6 @@
     {
       "id": "axis-76",
       "url": "/axis-cgi/jpg/image.cgi?camera=2&resolution=320x240&compression=25",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3762,7 +3686,6 @@
     {
       "id": "axis-77",
       "url": "/axis-cgi/jpg/image.cgi?camera=3&resolution=320x240&compression=25",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3773,7 +3696,6 @@
     {
       "id": "axis-78",
       "url": "cgi-bin/halfsize.jpg?camera=[CHANNEL]&clock=on&motion=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3783,7 +3705,6 @@
     {
       "id": "axis-79",
       "url": "/mjpg/4/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3793,7 +3714,6 @@
     {
       "id": "axis-80",
       "url": "/mjpg/3/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3803,7 +3723,6 @@
     {
       "id": "axis-81",
       "url": "/jpg/2/image.jpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3815,7 +3734,6 @@
     {
       "id": "axis-82",
       "url": "/jpg/3/image.jpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3826,7 +3744,6 @@
     {
       "id": "axis-83",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3839,7 +3756,6 @@
     {
       "id": "axis-84",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3849,7 +3765,6 @@
     {
       "id": "axis-85",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3859,7 +3774,6 @@
     {
       "id": "axis-86",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3869,7 +3783,6 @@
     {
       "id": "axis-87",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -3879,7 +3792,6 @@
     {
       "id": "axis-88",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -3896,7 +3808,6 @@
     {
       "id": "axis-89",
       "url": "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -3912,7 +3823,6 @@
     {
       "id": "axis-90",
       "url": "/axis-media/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -4031,7 +3941,6 @@
     {
       "id": "axis-91",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -4042,7 +3951,6 @@
     {
       "id": "axis-92",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -4052,7 +3960,6 @@
     {
       "id": "axis-93",
       "url": "/axis-cgi/mjpg/video.cgi?camera=4",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -4062,7 +3969,6 @@
     {
       "id": "axis-94",
       "url": "/axis-cgi/mjpg/video.cgi?camera=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -4073,7 +3979,6 @@
     {
       "id": "axis-95",
       "url": "/axis-cgi/mjpg/video.cgi?camera=3",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -4084,7 +3989,6 @@
     {
       "id": "axis-96",
       "url": "/axis-media/media.amp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -4101,7 +4005,6 @@
     {
       "id": "axis-97",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -4111,7 +4014,6 @@
     {
       "id": "axis-98",
       "url": "/axis-cgi/mjpg/video.cgi?user=[USERNAME]&pwd=[PASSWORD]&camera=2",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8083,
       "models": [
@@ -4122,7 +4024,6 @@
     {
       "id": "axis-99",
       "url": "/mjpg/2/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

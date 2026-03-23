@@ -6,7 +6,6 @@
     {
       "id": "ewan-ko-1",
       "url": "/CH002.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

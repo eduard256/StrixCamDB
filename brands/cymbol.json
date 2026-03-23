@@ -6,7 +6,6 @@
     {
       "id": "cymbol-1",
       "url": "/1/stream1/Profile1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

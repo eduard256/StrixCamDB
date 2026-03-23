@@ -6,7 +6,6 @@
     {
       "id": "japon-dynamic-1",
       "url": "/SubStream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ambarella-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ambarella-2",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "ambarella-3",
       "url": "/img.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

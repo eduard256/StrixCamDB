@@ -6,7 +6,6 @@
     {
       "id": "blackfirst-1",
       "url": "/ch0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

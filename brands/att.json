@@ -6,7 +6,6 @@
     {
       "id": "att-1",
       "url": "/img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "att-2",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

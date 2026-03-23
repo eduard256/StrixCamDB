@@ -6,7 +6,6 @@
     {
       "id": "sn-ipc-1",
       "url": "/ROH/channel/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

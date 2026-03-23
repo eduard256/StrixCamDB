@@ -6,7 +6,6 @@
     {
       "id": "crenova-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -24,7 +23,6 @@
     {
       "id": "crenova-2",
       "url": "/streaming/video0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "crenova-3",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "crenova-4",
       "url": "/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -55,7 +51,6 @@
     {
       "id": "crenova-5",
       "url": "/streaming/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

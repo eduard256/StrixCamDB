@@ -6,7 +6,6 @@
     {
       "id": "reticam-1",
       "url": "/H264/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

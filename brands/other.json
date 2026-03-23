@@ -6,7 +6,6 @@
     {
       "id": "other-1",
       "url": "/Streaming/channels/601",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "other-2",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "other-3",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8110,
       "models": [
@@ -54,7 +51,6 @@
     {
       "id": "other-4",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -89,7 +85,6 @@
     {
       "id": "other-5",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -100,7 +95,6 @@
     {
       "id": "other-6",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -115,7 +109,6 @@
     {
       "id": "other-7",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -231,7 +224,6 @@
     {
       "id": "other-8",
       "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 1028,
       "models": [
@@ -246,7 +238,6 @@
     {
       "id": "other-9",
       "url": "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1028,
       "models": [
@@ -256,7 +247,6 @@
     {
       "id": "other-10",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -303,7 +293,6 @@
     {
       "id": "other-11",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -328,7 +317,6 @@
     {
       "id": "other-12",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -340,7 +328,6 @@
     {
       "id": "other-13",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -354,7 +341,6 @@
     {
       "id": "other-14",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -392,7 +378,6 @@
     {
       "id": "other-15",
       "url": "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=0.JPG&SENDEMPTYIMAGES=NO",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -403,7 +388,6 @@
     {
       "id": "other-16",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -415,7 +399,6 @@
     {
       "id": "other-17",
       "url": "/img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -430,7 +413,6 @@
     {
       "id": "other-18",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -443,7 +425,6 @@
     {
       "id": "other-19",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -478,7 +459,6 @@
     {
       "id": "other-20",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -515,7 +495,6 @@
     {
       "id": "other-21",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -527,7 +506,6 @@
     {
       "id": "other-22",
       "url": "/onvif/profile2/media.smp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -537,7 +515,6 @@
     {
       "id": "other-23",
       "url": "//h264Preview_01_sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -547,7 +524,6 @@
     {
       "id": "other-24",
       "url": "//h265Preview_01_main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -558,7 +534,6 @@
     {
       "id": "other-25",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -585,7 +560,6 @@
     {
       "id": "other-26",
       "url": "/videofeed",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -601,7 +575,6 @@
     {
       "id": "other-27",
       "url": "/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -611,7 +584,6 @@
     {
       "id": "other-28",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -625,7 +597,6 @@
     {
       "id": "other-29",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -636,7 +607,6 @@
     {
       "id": "other-30",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -649,7 +619,6 @@
     {
       "id": "other-31",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -660,7 +629,6 @@
     {
       "id": "other-32",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -672,7 +640,6 @@
     {
       "id": "other-33",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -683,7 +650,6 @@
     {
       "id": "other-34",
       "url": "mobile/channel[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -693,7 +659,6 @@
     {
       "id": "other-35",
       "url": "live/main",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -704,7 +669,6 @@
     {
       "id": "other-36",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -717,7 +681,6 @@
     {
       "id": "other-37",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -732,7 +695,6 @@
     {
       "id": "other-38",
       "url": "/Streaming/channels/301",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -742,7 +704,6 @@
     {
       "id": "other-39",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -755,7 +716,6 @@
     {
       "id": "other-40",
       "url": "snapshot/view[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -766,7 +726,6 @@
     {
       "id": "other-41",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -788,7 +747,6 @@
     {
       "id": "other-42",
       "url": "/bcs/channel0_main.bcs?token=[TOKEN]&channel=0&stream=0",
-      "type": "FFMPEG",
       "protocol": "rtmp",
       "port": 554,
       "models": [
@@ -798,7 +756,6 @@
     {
       "id": "other-43",
       "url": "/snap.jpg?JpegCam=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -810,7 +767,6 @@
     {
       "id": "other-44",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -820,7 +776,6 @@
     {
       "id": "other-45",
       "url": "/ch01/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -830,7 +785,6 @@
     {
       "id": "other-46",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -841,7 +795,6 @@
     {
       "id": "other-47",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -854,7 +807,6 @@
     {
       "id": "other-48",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -864,7 +816,6 @@
     {
       "id": "other-49",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -875,7 +826,6 @@
     {
       "id": "other-50",
       "url": "/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -886,7 +836,6 @@
     {
       "id": "other-51",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -896,7 +845,6 @@
     {
       "id": "other-52",
       "url": "/VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -906,7 +854,6 @@
     {
       "id": "other-53",
       "url": "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -917,7 +864,6 @@
     {
       "id": "other-54",
       "url": "/snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -930,7 +876,6 @@
     {
       "id": "other-55",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -941,7 +886,6 @@
     {
       "id": "other-56",
       "url": "/cam/realmonitor?channel=1&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -951,7 +895,6 @@
     {
       "id": "other-57",
       "url": "/live_mpeg4.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -961,7 +904,6 @@
     {
       "id": "other-58",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -973,7 +915,6 @@
     {
       "id": "other-59",
       "url": "/cam2/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -984,7 +925,6 @@
     {
       "id": "other-60",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46MzIyMzExNjEzMVNoYXl0YW4=",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -994,7 +934,6 @@
     {
       "id": "other-61",
       "url": "/video/mjpg.cgi",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [
@@ -1004,7 +943,6 @@
     {
       "id": "other-62",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1022,7 +960,6 @@
     {
       "id": "other-63",
       "url": "/user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1032,7 +969,6 @@
     {
       "id": "other-64",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1044,7 +980,6 @@
     {
       "id": "other-65",
       "url": "/Onvif/live/1/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1055,7 +990,6 @@
     {
       "id": "other-66",
       "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 100,
       "models": [
@@ -1065,7 +999,6 @@
     {
       "id": "other-67",
       "url": "/stream_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1076,7 +1009,6 @@
     {
       "id": "other-68",
       "url": "/H.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1086,7 +1018,6 @@
     {
       "id": "other-69",
       "url": "/video.pro1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1096,7 +1027,6 @@
     {
       "id": "other-70",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -1109,7 +1039,6 @@
     {
       "id": "other-71",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1120,7 +1049,6 @@
     {
       "id": "other-72",
       "url": "/s0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1130,7 +1058,6 @@
     {
       "id": "other-73",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1140,7 +1067,6 @@
     {
       "id": "other-74",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1150,7 +1076,6 @@
     {
       "id": "other-75",
       "url": "/jpg/1/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1160,7 +1085,6 @@
     {
       "id": "other-76",
       "url": "/cam/realmonitor?channel=3&subtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1170,7 +1094,6 @@
     {
       "id": "other-77",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1181,7 +1104,6 @@
     {
       "id": "other-78",
       "url": "/ip0/1/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1191,7 +1113,6 @@
     {
       "id": "other-79",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=2_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1202,7 +1123,6 @@
     {
       "id": "other-80",
       "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -1212,7 +1132,6 @@
     {
       "id": "other-81",
       "url": "/onvif-stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -1223,7 +1142,6 @@
     {
       "id": "other-82",
       "url": "/8/cff0e9638e8b1682:123456/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1233,7 +1151,6 @@
     {
       "id": "other-83",
       "url": "/stream=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1243,7 +1160,6 @@
     {
       "id": "other-84",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1253,7 +1169,6 @@
     {
       "id": "other-85",
       "url": "/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -1264,7 +1179,6 @@
     {
       "id": "other-86",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1274,7 +1188,6 @@
     {
       "id": "other-87",
       "url": "/hiQ.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1284,7 +1197,6 @@
     {
       "id": "other-88",
       "url": "/tmpfs/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1294,7 +1206,6 @@
     {
       "id": "other-89",
       "url": "/shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -1304,7 +1215,6 @@
     {
       "id": "other-90",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1315,7 +1225,6 @@
     {
       "id": "other-91",
       "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1326,7 +1235,6 @@
     {
       "id": "other-92",
       "url": "/mpeg4/0/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -1336,7 +1244,6 @@
     {
       "id": "other-93",
       "url": "/video.mjpg?oids=1&username=[USERNAME]&password=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -1347,7 +1254,6 @@
     {
       "id": "other-94",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1367,7 +1273,6 @@
     {
       "id": "other-95",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1380,7 +1285,6 @@
     {
       "id": "other-96",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1392,7 +1296,6 @@
     {
       "id": "other-97",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1402,7 +1305,6 @@
     {
       "id": "other-98",
       "url": "/cam4/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1413,7 +1315,6 @@
     {
       "id": "other-99",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -1427,7 +1328,6 @@
     {
       "id": "other-100",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

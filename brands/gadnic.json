@@ -6,7 +6,6 @@
     {
       "id": "gadnic-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "gadnic-2",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -44,7 +42,6 @@
     {
       "id": "gadnic-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -55,7 +52,6 @@
     {
       "id": "gadnic-4",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -65,7 +61,6 @@
     {
       "id": "gadnic-5",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

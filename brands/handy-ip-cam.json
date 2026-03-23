@@ -6,7 +6,6 @@
     {
       "id": "handy-ip-cam-1",
       "url": "/ch0_1.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "handy-ip-cam-2",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "handy-ip-cam-3",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

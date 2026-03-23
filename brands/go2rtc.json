@@ -6,7 +6,6 @@
     {
       "id": "go2rtc-1",
       "url": "/cam04",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "gf-pumps-1",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

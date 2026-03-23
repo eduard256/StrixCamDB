@@ -6,7 +6,6 @@
     {
       "id": "ds-i200-1",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

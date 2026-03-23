@@ -6,7 +6,6 @@
     {
       "id": "heanworld-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "heanworld-2",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "desertwolfblackwidow606-1",
       "url": "/ch2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "desertwolfblackwidow606-2",
       "url": "/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

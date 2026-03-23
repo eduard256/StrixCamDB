@@ -6,7 +6,6 @@
     {
       "id": "visonic-1",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "visonic-2",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "visonic-3",
       "url": "cgi-bin/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

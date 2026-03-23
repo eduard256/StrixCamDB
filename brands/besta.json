@@ -6,7 +6,6 @@
     {
       "id": "besta-1",
       "url": "/image/0.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

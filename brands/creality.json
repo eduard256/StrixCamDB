@@ -6,7 +6,6 @@
     {
       "id": "creality-1",
       "url": "/webcam/?action=stream",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "kedakom-1",
       "url": "/id=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

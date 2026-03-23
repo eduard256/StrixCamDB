@@ -6,7 +6,6 @@
     {
       "id": "visicom-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "visicom-2",
       "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

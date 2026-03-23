@@ -6,7 +6,6 @@
     {
       "id": "marlboze-1",
       "url": "/tcp/av0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "marlboze-2",
       "url": "/stream_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

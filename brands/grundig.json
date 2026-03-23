@@ -6,7 +6,6 @@
     {
       "id": "grundig-1",
       "url": "jpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -30,7 +29,6 @@
     {
       "id": "grundig-2",
       "url": "h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -42,7 +40,6 @@
     {
       "id": "grundig-3",
       "url": "/jpeg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -55,7 +52,6 @@
     {
       "id": "grundig-4",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -68,7 +64,6 @@
     {
       "id": "grundig-5",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -78,7 +73,6 @@
     {
       "id": "grundig-6",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -88,7 +82,6 @@
     {
       "id": "grundig-7",
       "url": "cgi-bin/jpg/image.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -98,7 +91,6 @@
     {
       "id": "grundig-8",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [

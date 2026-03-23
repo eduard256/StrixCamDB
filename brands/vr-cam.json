@@ -6,7 +6,6 @@
     {
       "id": "vr-cam-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +44,6 @@
     {
       "id": "vr-cam-2",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -62,7 +60,6 @@
     {
       "id": "vr-cam-3",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -78,7 +75,6 @@
     {
       "id": "vr-cam-4",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -94,7 +90,6 @@
     {
       "id": "vr-cam-5",
       "url": "/snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -104,7 +99,6 @@
     {
       "id": "vr-cam-6",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 80,
       "models": [
@@ -114,7 +108,6 @@
     {
       "id": "vr-cam-7",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 10554,
       "models": [

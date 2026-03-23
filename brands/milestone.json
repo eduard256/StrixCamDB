@@ -6,7 +6,6 @@
     {
       "id": "milestone-1",
       "url": "/ch1-s1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "oukitel-1",
       "url": "/video?1920x1080",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

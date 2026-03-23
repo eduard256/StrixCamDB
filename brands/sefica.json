@@ -6,7 +6,6 @@
     {
       "id": "sefica-1",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1554,
       "models": [

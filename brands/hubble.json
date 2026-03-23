@@ -6,7 +6,6 @@
     {
       "id": "hubble-1",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "hubble-2",
       "url": "image.cgi?type=motion",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "hubble-3",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -40,7 +37,6 @@
     {
       "id": "hubble-4",
       "url": "/blinkhd",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 6667,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "hubble-5",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "hubble-6",
       "url": "/video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -71,7 +65,6 @@
     {
       "id": "hubble-7",
       "url": "/image.cgi?type=motion",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

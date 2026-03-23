@@ -6,7 +6,6 @@
     {
       "id": "nvt-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -32,7 +31,6 @@
     {
       "id": "nvt-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -199,7 +197,6 @@
     {
       "id": "nvt-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -266,7 +263,6 @@
     {
       "id": "nvt-4",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -277,7 +273,6 @@
     {
       "id": "nvt-5",
       "url": "/mode=real&idc=1&ids=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -289,7 +284,6 @@
     {
       "id": "nvt-6",
       "url": "/user=admin_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -301,7 +295,6 @@
     {
       "id": "nvt-7",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -316,7 +309,6 @@
     {
       "id": "nvt-8",
       "url": "/streamtype=0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -326,7 +318,6 @@
     {
       "id": "nvt-9",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -341,7 +332,6 @@
     {
       "id": "nvt-10",
       "url": "/mpeg4cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -352,7 +342,6 @@
     {
       "id": "nvt-11",
       "url": "/user=admin_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -363,7 +352,6 @@
     {
       "id": "nvt-12",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -375,7 +363,6 @@
     {
       "id": "nvt-13",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -385,7 +372,6 @@
     {
       "id": "nvt-14",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -396,7 +382,6 @@
     {
       "id": "nvt-15",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -406,7 +391,6 @@
     {
       "id": "nvt-16",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -416,7 +400,6 @@
     {
       "id": "nvt-17",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -426,7 +409,6 @@
     {
       "id": "nvt-18",
       "url": "/stream/0:1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -436,7 +418,6 @@
     {
       "id": "nvt-19",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -446,7 +427,6 @@
     {
       "id": "nvt-20",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8899,
       "models": [
@@ -456,7 +436,6 @@
     {
       "id": "nvt-21",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1&protocol=unicast&onvif=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -466,7 +445,6 @@
     {
       "id": "nvt-22",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0&protocol=unicast.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -476,7 +454,6 @@
     {
       "id": "nvt-23",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -486,7 +463,6 @@
     {
       "id": "nvt-24",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -496,7 +472,6 @@
     {
       "id": "nvt-25",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=0.sdp?real_stream",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

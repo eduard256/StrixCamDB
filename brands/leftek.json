@@ -6,7 +6,6 @@
     {
       "id": "leftek-1",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "leftek-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "leftek-3",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "leftek-4",
       "url": "1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -58,7 +54,6 @@
     {
       "id": "leftek-5",
       "url": "live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -70,7 +65,6 @@
     {
       "id": "leftek-6",
       "url": "/2.3gp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -80,7 +74,6 @@
     {
       "id": "leftek-7",
       "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -90,7 +83,6 @@
     {
       "id": "leftek-8",
       "url": "mpeg4/[CHANNEL]/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [

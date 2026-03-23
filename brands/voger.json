@@ -6,7 +6,6 @@
     {
       "id": "voger-1",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "voger-2",
       "url": "/img/video.mjpeg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

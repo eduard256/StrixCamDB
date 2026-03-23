@@ -6,7 +6,6 @@
     {
       "id": "apm-1",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

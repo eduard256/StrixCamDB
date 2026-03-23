@@ -6,7 +6,6 @@
     {
       "id": "meraki-1",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "meraki-2",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9000,
       "models": [
@@ -32,7 +30,6 @@
     {
       "id": "meraki-3",
       "url": "/LIVE",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 9000,
       "models": [

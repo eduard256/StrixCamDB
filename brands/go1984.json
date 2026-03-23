@@ -6,7 +6,6 @@
     {
       "id": "go1984-1",
       "url": "[USERNAME]/javascript/Jpg?Camera=[CHANNEL]&motion=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "go1984-2",
       "url": "[USERNAME]/java/mjpeg?camera=[CHANNEL]&motion=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "mace-1",
       "url": "dms.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

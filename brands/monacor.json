@@ -6,7 +6,6 @@
     {
       "id": "monacor-1",
       "url": "GetData.cgi?Status=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "monacor-2",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "monacor-3",
       "url": "/cam1.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "monacor-4",
       "url": "cgi-bin/guest/Video.cgi?media=JPEG",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "monacor-5",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -57,7 +52,6 @@
     {
       "id": "monacor-6",
       "url": "GetData.cgi?Camera=0&BandWidth=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -67,7 +61,6 @@
     {
       "id": "monacor-7",
       "url": "GetData.cgi?CH=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -77,7 +70,6 @@
     {
       "id": "monacor-8",
       "url": "cgi-bin/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -87,7 +79,6 @@
     {
       "id": "monacor-9",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "audiance-1",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

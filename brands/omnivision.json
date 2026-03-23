@@ -6,7 +6,6 @@
     {
       "id": "omnivision-1",
       "url": "/stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "omnivision-2",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8081,
       "models": [

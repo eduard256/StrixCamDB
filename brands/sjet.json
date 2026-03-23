@@ -6,7 +6,6 @@
     {
       "id": "sjet-1",
       "url": "/ucast/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

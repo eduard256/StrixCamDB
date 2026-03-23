@@ -6,7 +6,6 @@
     {
       "id": "moxa-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "moxa-2",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "moxa-3",
       "url": "cgi-bin/video.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "moxa-4",
       "url": "multicaststream",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "moxa-5",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

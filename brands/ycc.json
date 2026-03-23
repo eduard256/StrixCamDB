@@ -6,7 +6,6 @@
     {
       "id": "ycc-1",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ycc-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "ycc-3",
       "url": "/H264/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [

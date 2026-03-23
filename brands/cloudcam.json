@@ -6,7 +6,6 @@
     {
       "id": "cloudcam-1",
       "url": "ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "cloudcam-2",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -29,7 +27,6 @@
     {
       "id": "cloudcam-3",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "cloudcam-4",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "cloudcam-5",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -59,7 +54,6 @@
     {
       "id": "cloudcam-6",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -70,7 +64,6 @@
     {
       "id": "cloudcam-7",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -80,7 +73,6 @@
     {
       "id": "cloudcam-8",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -90,7 +82,6 @@
     {
       "id": "cloudcam-9",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -100,7 +91,6 @@
     {
       "id": "cloudcam-10",
       "url": "/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -111,7 +101,6 @@
     {
       "id": "cloudcam-11",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -121,7 +110,6 @@
     {
       "id": "cloudcam-12",
       "url": "out.jpg?id=0.5",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8001,
       "models": [
@@ -131,7 +119,6 @@
     {
       "id": "cloudcam-13",
       "url": "/live/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -141,7 +128,6 @@
     {
       "id": "cloudcam-14",
       "url": "/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -151,7 +137,6 @@
     {
       "id": "cloudcam-15",
       "url": "/cam0/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -161,7 +146,6 @@
     {
       "id": "cloudcam-16",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -172,7 +156,6 @@
     {
       "id": "cloudcam-17",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

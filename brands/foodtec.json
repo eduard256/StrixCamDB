@@ -6,7 +6,6 @@
     {
       "id": "foodtec-1",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "foodtec-2",
       "url": "reports/CamImage?height=480&width=640&cam=[CHANNEL]&live=&annotate=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

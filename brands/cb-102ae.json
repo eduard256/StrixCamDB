@@ -6,7 +6,6 @@
     {
       "id": "cb-102ae-1",
       "url": "/ONVIF/channel1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

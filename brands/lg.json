@@ -6,7 +6,6 @@
     {
       "id": "lg-1",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +27,6 @@
     {
       "id": "lg-2",
       "url": "video1+audio1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -39,7 +37,6 @@
     {
       "id": "lg-3",
       "url": "/Master-0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -55,7 +52,6 @@
     {
       "id": "lg-4",
       "url": "/Slave-0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -66,7 +62,6 @@
     {
       "id": "lg-5",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -76,7 +71,6 @@
     {
       "id": "lg-6",
       "url": "video?profile=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -88,7 +82,6 @@
     {
       "id": "lg-7",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -98,7 +91,6 @@
     {
       "id": "lg-8",
       "url": "camera.stm",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -109,7 +101,6 @@
     {
       "id": "lg-9",
       "url": "live1.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -119,7 +110,6 @@
     {
       "id": "lg-10",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -129,7 +119,6 @@
     {
       "id": "lg-11",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -142,7 +131,6 @@
     {
       "id": "lg-12",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -152,7 +140,6 @@
     {
       "id": "lg-13",
       "url": "img/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -162,7 +149,6 @@
     {
       "id": "lg-14",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -172,7 +158,6 @@
     {
       "id": "lg-15",
       "url": "?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -182,7 +167,6 @@
     {
       "id": "lg-16",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -192,7 +176,6 @@
     {
       "id": "lg-17",
       "url": "PSIA/Streaming/channels/2?videoCodecType=H.264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

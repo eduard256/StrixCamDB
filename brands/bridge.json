@@ -6,7 +6,6 @@
     {
       "id": "bridge-1",
       "url": "HighResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

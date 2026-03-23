@@ -6,7 +6,6 @@
     {
       "id": "motion-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "motion-2",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [

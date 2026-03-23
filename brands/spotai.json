@@ -6,7 +6,6 @@
     {
       "id": "spotai-1",
       "url": "/cam/realmonitor?channel=1&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

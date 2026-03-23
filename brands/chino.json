@@ -6,7 +6,6 @@
     {
       "id": "chino-1",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

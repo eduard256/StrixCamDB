@@ -6,7 +6,6 @@
     {
       "id": "eufy-1",
       "url": "/live0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -68,7 +67,6 @@
     {
       "id": "eufy-2",
       "url": "/live2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -89,7 +87,6 @@
     {
       "id": "eufy-3",
       "url": "/live1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -105,7 +102,6 @@
     {
       "id": "eufy-4",
       "url": "D:/",
-      "type": "FFMPEG",
       "protocol": "file",
       "port": 0,
       "models": [
@@ -115,7 +111,6 @@
     {
       "id": "eufy-5",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "https",
       "port": 443,
       "models": [
@@ -131,7 +126,6 @@
     {
       "id": "eufy-6",
       "url": "/live3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -142,7 +136,6 @@
     {
       "id": "eufy-7",
       "url": "/live4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -152,7 +145,6 @@
     {
       "id": "eufy-8",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -167,7 +159,6 @@
     {
       "id": "eufy-9",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -177,7 +168,6 @@
     {
       "id": "eufy-10",
       "url": "/mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10002,
       "models": [
@@ -187,7 +177,6 @@
     {
       "id": "eufy-11",
       "url": "/img/media.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -197,7 +186,6 @@
     {
       "id": "eufy-12",
       "url": "/live0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -207,7 +195,6 @@
     {
       "id": "eufy-13",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -217,7 +204,6 @@
     {
       "id": "eufy-14",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 554,
       "models": [

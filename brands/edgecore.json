@@ -6,7 +6,6 @@
     {
       "id": "edgecore-1",
       "url": "/live_s0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

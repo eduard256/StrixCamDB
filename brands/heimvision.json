@@ -6,7 +6,6 @@
     {
       "id": "heimvision-1",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "heimvision-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "heimvision-3",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -49,7 +46,6 @@
     {
       "id": "heimvision-4",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -62,7 +58,6 @@
     {
       "id": "heimvision-5",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -73,7 +68,6 @@
     {
       "id": "heimvision-6",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.554",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -84,7 +78,6 @@
     {
       "id": "heimvision-7",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -95,7 +88,6 @@
     {
       "id": "heimvision-8",
       "url": "/MainStream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -112,7 +104,6 @@
     {
       "id": "heimvision-9",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -123,7 +114,6 @@
     {
       "id": "heimvision-10",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -140,7 +130,6 @@
     {
       "id": "heimvision-11",
       "url": "/cgi-bin/snapshot.cgi?chn=2&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 49779,
       "models": [
@@ -152,7 +141,6 @@
     {
       "id": "heimvision-12",
       "url": "/cgi-bin/snapshot.cgi?chn=3&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 49779,
       "models": [
@@ -163,7 +151,6 @@
     {
       "id": "heimvision-13",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 49779,
       "models": [
@@ -174,7 +161,6 @@
     {
       "id": "heimvision-14",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -189,7 +175,6 @@
     {
       "id": "heimvision-15",
       "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -201,7 +186,6 @@
     {
       "id": "heimvision-16",
       "url": "/cgi-bin/snapshot.cgi?chn=2&u=[USERNAME]&p=",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -211,7 +195,6 @@
     {
       "id": "heimvision-17",
       "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -221,7 +204,6 @@
     {
       "id": "heimvision-18",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 555,
       "models": [
@@ -232,7 +214,6 @@
     {
       "id": "heimvision-19",
       "url": "/0/av1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -243,7 +224,6 @@
     {
       "id": "heimvision-20",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -253,7 +233,6 @@
     {
       "id": "heimvision-21",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -263,7 +242,6 @@
     {
       "id": "heimvision-22",
       "url": "/SubStream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -274,7 +252,6 @@
     {
       "id": "heimvision-23",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -284,7 +261,6 @@
     {
       "id": "heimvision-24",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -294,7 +270,6 @@
     {
       "id": "heimvision-25",
       "url": "live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -304,7 +279,6 @@
     {
       "id": "heimvision-26",
       "url": "mpeg4/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -314,7 +288,6 @@
     {
       "id": "heimvision-27",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

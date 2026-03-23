@@ -6,7 +6,6 @@
     {
       "id": "alltec-1",
       "url": "imagep/picture.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 5544,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "sarotech-1",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "sarotech-2",
       "url": "/rtsp_live0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "sarotech-3",
       "url": "/rtsp_live2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ipfd200-1",
       "url": "/stream.sdp1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

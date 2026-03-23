@@ -6,7 +6,6 @@
     {
       "id": "everest-1",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "everest-2",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "everest-3",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [

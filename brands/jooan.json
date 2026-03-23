@@ -6,7 +6,6 @@
     {
       "id": "jooan-1",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "jooan-2",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -64,7 +62,6 @@
     {
       "id": "jooan-3",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -85,7 +82,6 @@
     {
       "id": "jooan-4",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -103,7 +99,6 @@
     {
       "id": "jooan-5",
       "url": "/live/ch00_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -124,7 +119,6 @@
     {
       "id": "jooan-6",
       "url": "//user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -135,7 +129,6 @@
     {
       "id": "jooan-7",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -152,7 +145,6 @@
     {
       "id": "jooan-8",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -163,7 +155,6 @@
     {
       "id": "jooan-9",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -183,7 +174,6 @@
     {
       "id": "jooan-10",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -193,7 +183,6 @@
     {
       "id": "jooan-11",
       "url": "/onvif2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -205,7 +194,6 @@
     {
       "id": "jooan-12",
       "url": "/channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -215,7 +203,6 @@
     {
       "id": "jooan-13",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -247,7 +234,6 @@
     {
       "id": "jooan-14",
       "url": "/?action=stream",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -257,7 +243,6 @@
     {
       "id": "jooan-15",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -268,7 +253,6 @@
     {
       "id": "jooan-16",
       "url": "live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -292,7 +276,6 @@
     {
       "id": "jooan-17",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -302,7 +285,6 @@
     {
       "id": "jooan-18",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream--rtp-caching=100",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -313,7 +295,6 @@
     {
       "id": "jooan-19",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -323,7 +304,6 @@
     {
       "id": "jooan-20",
       "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -334,7 +314,6 @@
     {
       "id": "jooan-21",
       "url": "/cgi-bin/view.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -344,7 +323,6 @@
     {
       "id": "jooan-22",
       "url": "/live/ch01_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -354,7 +332,6 @@
     {
       "id": "jooan-23",
       "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -364,7 +341,6 @@
     {
       "id": "jooan-24",
       "url": "/live/ch01_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

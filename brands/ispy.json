@@ -6,7 +6,6 @@
     {
       "id": "ispy-1",
       "url": "/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "ispy-2",
       "url": "/video.mjpg?oids=[CHANNEL]&size=640x480&fitType=Zoom",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "ispy-3",
       "url": "/mjpegfeed?oid=1&full",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "vivotek-1",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "vivotek-2",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -106,7 +104,6 @@
     {
       "id": "vivotek-3",
       "url": "live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -306,7 +303,6 @@
     {
       "id": "vivotek-4",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1025,
       "models": [
@@ -519,7 +515,6 @@
     {
       "id": "vivotek-5",
       "url": "/live2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -568,7 +563,6 @@
     {
       "id": "vivotek-6",
       "url": "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -614,7 +608,6 @@
     {
       "id": "vivotek-7",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -743,7 +736,6 @@
     {
       "id": "vivotek-8",
       "url": "/live4.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -772,7 +764,6 @@
     {
       "id": "vivotek-9",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -810,7 +801,6 @@
     {
       "id": "vivotek-10",
       "url": "cgi-bin/video.jpg?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -863,7 +853,6 @@
     {
       "id": "vivotek-11",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1025,
       "models": [
@@ -952,7 +941,6 @@
     {
       "id": "vivotek-12",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1012,7 +1000,6 @@
     {
       "id": "vivotek-13",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1024,7 +1011,6 @@
     {
       "id": "vivotek-14",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1050,7 +1036,6 @@
     {
       "id": "vivotek-15",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1096,7 +1081,6 @@
     {
       "id": "vivotek-16",
       "url": "video2.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1116,7 +1100,6 @@
     {
       "id": "vivotek-17",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1133,7 +1116,6 @@
     {
       "id": "vivotek-18",
       "url": "video[CHANNEL].mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1152,7 +1134,6 @@
     {
       "id": "vivotek-19",
       "url": "video.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1176,7 +1157,6 @@
     {
       "id": "vivotek-20",
       "url": "/cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -1191,7 +1171,6 @@
     {
       "id": "vivotek-21",
       "url": "/root/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1204,7 +1183,6 @@
     {
       "id": "vivotek-22",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1215,7 +1193,6 @@
     {
       "id": "vivotek-23",
       "url": "/live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1227,7 +1204,6 @@
     {
       "id": "vivotek-24",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1237,7 +1213,6 @@
     {
       "id": "vivotek-25",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1247,7 +1222,6 @@
     {
       "id": "vivotek-26",
       "url": "/cgi-bin/video.jpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1258,7 +1232,6 @@
     {
       "id": "vivotek-27",
       "url": "/live1s1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1026,
       "models": [
@@ -1284,7 +1257,6 @@
     {
       "id": "vivotek-28",
       "url": "/cgi-bin/viewer/video.jpg?channel=0&streamid=1&resolution=1024x768&quality=5",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1299,7 +1271,6 @@
     {
       "id": "vivotek-29",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1310,7 +1281,6 @@
     {
       "id": "vivotek-30",
       "url": "/cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1323,7 +1293,6 @@
     {
       "id": "vivotek-31",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 4002,
       "models": [
@@ -1334,7 +1303,6 @@
     {
       "id": "vivotek-32",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 0,
       "models": [
@@ -1344,7 +1312,6 @@
     {
       "id": "vivotek-33",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1363,7 +1330,6 @@
     {
       "id": "vivotek-34",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1375,7 +1341,6 @@
     {
       "id": "vivotek-35",
       "url": "/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1386,7 +1351,6 @@
     {
       "id": "vivotek-36",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1397,7 +1361,6 @@
     {
       "id": "vivotek-37",
       "url": "/live1s2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1415,7 +1378,6 @@
     {
       "id": "vivotek-38",
       "url": "/img/video.sav",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1425,7 +1387,6 @@
     {
       "id": "vivotek-39",
       "url": "/cgi-bin/viewer/video.jpg?resolution=320x240",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1437,7 +1398,6 @@
     {
       "id": "vivotek-40",
       "url": "live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1449,7 +1409,6 @@
     {
       "id": "vivotek-41",
       "url": "/8080",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1459,7 +1418,6 @@
     {
       "id": "vivotek-42",
       "url": "/live1s3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1470,7 +1428,6 @@
     {
       "id": "vivotek-43",
       "url": "/cgi-bin/video.jpg?cam=0&quality=3&size=2",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1481,7 +1438,6 @@
     {
       "id": "vivotek-44",
       "url": "/axis-cgi/mjpg/video.cgi",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1492,7 +1448,6 @@
     {
       "id": "vivotek-45",
       "url": "/video2.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1502,7 +1457,6 @@
     {
       "id": "vivotek-46",
       "url": "GetData.cgi?Status=false",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1513,7 +1467,6 @@
     {
       "id": "vivotek-47",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1523,7 +1476,6 @@
     {
       "id": "vivotek-48",
       "url": "[USERNAME]/stream0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1534,7 +1486,6 @@
     {
       "id": "vivotek-49",
       "url": "/cgi-bin/video.jpg?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1025,
       "models": [
@@ -1544,7 +1495,6 @@
     {
       "id": "vivotek-50",
       "url": "img.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1554,7 +1504,6 @@
     {
       "id": "vivotek-51",
       "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1564,7 +1513,6 @@
     {
       "id": "vivotek-52",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1574,7 +1522,6 @@
     {
       "id": "vivotek-53",
       "url": "cgi-bin/sf.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1584,7 +1531,6 @@
     {
       "id": "vivotek-54",
       "url": "goform/capture",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1594,7 +1540,6 @@
     {
       "id": "vivotek-55",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8554,
       "models": [
@@ -1605,7 +1550,6 @@
     {
       "id": "vivotek-56",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "mms",
       "port": 554,
       "models": [
@@ -1615,7 +1559,6 @@
     {
       "id": "vivotek-57",
       "url": "//stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1625,7 +1568,6 @@
     {
       "id": "vivotek-58",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1635,7 +1577,6 @@
     {
       "id": "vivotek-59",
       "url": "cgi-bin/video[CHANNEL].jpg?size=2&quality=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

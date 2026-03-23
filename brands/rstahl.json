@@ -6,7 +6,6 @@
     {
       "id": "rstahl-1",
       "url": "/live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

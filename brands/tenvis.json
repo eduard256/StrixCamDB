@@ -6,7 +6,6 @@
     {
       "id": "tenvis-1",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -60,7 +59,6 @@
     {
       "id": "tenvis-2",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -127,7 +125,6 @@
     {
       "id": "tenvis-3",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -148,7 +145,6 @@
     {
       "id": "tenvis-4",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -173,7 +169,6 @@
     {
       "id": "tenvis-5",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -214,7 +209,6 @@
     {
       "id": "tenvis-6",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -250,7 +244,6 @@
     {
       "id": "tenvis-7",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -275,7 +268,6 @@
     {
       "id": "tenvis-8",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -298,7 +290,6 @@
     {
       "id": "tenvis-9",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -315,7 +306,6 @@
     {
       "id": "tenvis-10",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 7777,
       "models": [
@@ -326,7 +316,6 @@
     {
       "id": "tenvis-11",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -396,7 +385,6 @@
     {
       "id": "tenvis-12",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -409,7 +397,6 @@
     {
       "id": "tenvis-13",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -443,7 +430,6 @@
     {
       "id": "tenvis-14",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -503,7 +489,6 @@
     {
       "id": "tenvis-15",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -523,7 +508,6 @@
     {
       "id": "tenvis-16",
       "url": "/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -535,7 +519,6 @@
     {
       "id": "tenvis-17",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -574,7 +557,6 @@
     {
       "id": "tenvis-18",
       "url": "videostream.asf",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -604,7 +586,6 @@
     {
       "id": "tenvis-19",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -628,7 +609,6 @@
     {
       "id": "tenvis-20",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -660,7 +640,6 @@
     {
       "id": "tenvis-21",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -686,7 +665,6 @@
     {
       "id": "tenvis-22",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -701,7 +679,6 @@
     {
       "id": "tenvis-23",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -715,7 +692,6 @@
     {
       "id": "tenvis-24",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -738,7 +714,6 @@
     {
       "id": "tenvis-25",
       "url": "videostream.cgi?",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -760,7 +735,6 @@
     {
       "id": "tenvis-26",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -771,7 +745,6 @@
     {
       "id": "tenvis-27",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -787,7 +760,6 @@
     {
       "id": "tenvis-28",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -816,7 +788,6 @@
     {
       "id": "tenvis-29",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -831,7 +802,6 @@
     {
       "id": "tenvis-30",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -842,7 +812,6 @@
     {
       "id": "tenvis-31",
       "url": "image.mpg",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -854,7 +823,6 @@
     {
       "id": "tenvis-32",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -869,7 +837,6 @@
     {
       "id": "tenvis-33",
       "url": "/0/video0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -887,7 +854,6 @@
     {
       "id": "tenvis-34",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -904,7 +870,6 @@
     {
       "id": "tenvis-35",
       "url": "snapshot.cgi?camera=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -920,7 +885,6 @@
     {
       "id": "tenvis-36",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 7777,
       "models": [
@@ -931,7 +895,6 @@
     {
       "id": "tenvis-37",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -945,7 +908,6 @@
     {
       "id": "tenvis-38",
       "url": "0/av0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -963,7 +925,6 @@
     {
       "id": "tenvis-39",
       "url": "0/av1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -976,7 +937,6 @@
     {
       "id": "tenvis-40",
       "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -994,7 +954,6 @@
     {
       "id": "tenvis-41",
       "url": "/media/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1011,7 +970,6 @@
     {
       "id": "tenvis-42",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 81,
       "models": [
@@ -1022,7 +980,6 @@
     {
       "id": "tenvis-43",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 27973,
       "models": [
@@ -1036,7 +993,6 @@
     {
       "id": "tenvis-44",
       "url": "cam3/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1051,7 +1007,6 @@
     {
       "id": "tenvis-45",
       "url": "shot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1061,7 +1016,6 @@
     {
       "id": "tenvis-46",
       "url": "cam2/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1075,7 +1029,6 @@
     {
       "id": "tenvis-47",
       "url": "/rtsp_live1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -1086,7 +1039,6 @@
     {
       "id": "tenvis-48",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1097,7 +1049,6 @@
     {
       "id": "tenvis-49",
       "url": "live/h264/ch[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -1111,7 +1062,6 @@
     {
       "id": "tenvis-50",
       "url": "video[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -1123,7 +1073,6 @@
     {
       "id": "tenvis-51",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1140,7 +1089,6 @@
     {
       "id": "tenvis-52",
       "url": "/vjpeg.v?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 7777,
       "models": [
@@ -1150,7 +1098,6 @@
     {
       "id": "tenvis-53",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=30",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 7777,
       "models": [
@@ -1160,7 +1107,6 @@
     {
       "id": "tenvis-54",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1172,7 +1118,6 @@
     {
       "id": "tenvis-55",
       "url": "user/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1186,7 +1131,6 @@
     {
       "id": "tenvis-56",
       "url": "/Video?Codec=MPEG4&Width=720&Height=576&Fps=30",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1200,7 +1144,6 @@
     {
       "id": "tenvis-57",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1214,7 +1157,6 @@
     {
       "id": "tenvis-58",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1226,7 +1168,6 @@
     {
       "id": "tenvis-59",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1240,7 +1181,6 @@
     {
       "id": "tenvis-60",
       "url": "current[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1250,7 +1190,6 @@
     {
       "id": "tenvis-61",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1260,7 +1199,6 @@
     {
       "id": "tenvis-62",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 7777,
       "models": [
@@ -1272,7 +1210,6 @@
     {
       "id": "tenvis-63",
       "url": "/0/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1284,7 +1221,6 @@
     {
       "id": "tenvis-64",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1297,7 +1233,6 @@
     {
       "id": "tenvis-65",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1307,7 +1242,6 @@
     {
       "id": "tenvis-66",
       "url": "snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1318,7 +1252,6 @@
     {
       "id": "tenvis-67",
       "url": "/index1.htm",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -1328,7 +1261,6 @@
     {
       "id": "tenvis-68",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1339,7 +1271,6 @@
     {
       "id": "tenvis-69",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1351,7 +1282,6 @@
     {
       "id": "tenvis-70",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1362,7 +1292,6 @@
     {
       "id": "tenvis-71",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1374,7 +1303,6 @@
     {
       "id": "tenvis-72",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=720&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 7777,
       "models": [
@@ -1384,7 +1312,6 @@
     {
       "id": "tenvis-73",
       "url": "/tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1395,7 +1322,6 @@
     {
       "id": "tenvis-74",
       "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1405,7 +1331,6 @@
     {
       "id": "tenvis-75",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1415,7 +1340,6 @@
     {
       "id": "tenvis-76",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1425,7 +1349,6 @@
     {
       "id": "tenvis-77",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1435,7 +1358,6 @@
     {
       "id": "tenvis-78",
       "url": "live.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1446,7 +1368,6 @@
     {
       "id": "tenvis-79",
       "url": "av2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1456,7 +1377,6 @@
     {
       "id": "tenvis-80",
       "url": "nph-h264.cgi",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1466,7 +1386,6 @@
     {
       "id": "tenvis-81",
       "url": "CAM_ID.[PASSWORD].mp2",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1476,7 +1395,6 @@
     {
       "id": "tenvis-82",
       "url": "medias[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1486,7 +1404,6 @@
     {
       "id": "tenvis-83",
       "url": "mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1496,7 +1413,6 @@
     {
       "id": "tenvis-84",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1506,7 +1422,6 @@
     {
       "id": "tenvis-85",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1516,7 +1431,6 @@
     {
       "id": "tenvis-86",
       "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1526,7 +1440,6 @@
     {
       "id": "tenvis-87",
       "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1536,7 +1449,6 @@
     {
       "id": "tenvis-88",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 83,
       "models": [
@@ -1546,7 +1458,6 @@
     {
       "id": "tenvis-89",
       "url": "/video0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1556,7 +1467,6 @@
     {
       "id": "tenvis-90",
       "url": "/image.mpg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1566,7 +1476,6 @@
     {
       "id": "tenvis-91",
       "url": "/av2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1576,7 +1485,6 @@
     {
       "id": "tenvis-92",
       "url": "/img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1586,7 +1494,6 @@
     {
       "id": "tenvis-93",
       "url": "/ucast/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1596,7 +1503,6 @@
     {
       "id": "tenvis-94",
       "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

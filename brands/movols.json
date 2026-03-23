@@ -6,7 +6,6 @@
     {
       "id": "movols-1",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

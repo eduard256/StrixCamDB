@@ -6,7 +6,6 @@
     {
       "id": "lenel-1",
       "url": "stillimg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -21,7 +20,6 @@
     {
       "id": "lenel-2",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "lenel-3",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "lenel-4",
       "url": "video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -51,7 +47,6 @@
     {
       "id": "lenel-5",
       "url": "/video.mjpg",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -61,7 +56,6 @@
     {
       "id": "lenel-6",
       "url": "axis-cgi/mjpg/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -71,7 +65,6 @@
     {
       "id": "lenel-7",
       "url": "stillimg2.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

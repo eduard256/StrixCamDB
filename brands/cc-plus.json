@@ -6,7 +6,6 @@
     {
       "id": "cc-plus-1",
       "url": "/live/channel1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5543,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "cc-plus-2",
       "url": "/live/channel0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5543,
       "models": [

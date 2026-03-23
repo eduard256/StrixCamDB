@@ -6,7 +6,6 @@
     {
       "id": "gzhou-1",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

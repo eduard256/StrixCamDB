@@ -6,7 +6,6 @@
     {
       "id": "dod-tech-1",
       "url": "stream.av",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

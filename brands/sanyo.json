@@ -6,7 +6,6 @@
     {
       "id": "sanyo-1",
       "url": "VideoInput/[CHANNEL]/h264/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "sanyo-2",
       "url": "VideoInput/1/h264/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "sanyo-3",
       "url": "/VideoInput/1/h264/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

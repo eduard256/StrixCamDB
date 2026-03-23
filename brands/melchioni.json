@@ -6,7 +6,6 @@
     {
       "id": "melchioni-1",
       "url": "cam[CHANNEL]/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

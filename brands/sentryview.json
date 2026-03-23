@@ -6,7 +6,6 @@
     {
       "id": "sentryview-1",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 5544,
       "models": [

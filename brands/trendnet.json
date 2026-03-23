@@ -6,7 +6,6 @@
     {
       "id": "trendnet-1",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +60,6 @@
     {
       "id": "trendnet-2",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -127,7 +125,6 @@
     {
       "id": "trendnet-3",
       "url": "video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -196,7 +193,6 @@
     {
       "id": "trendnet-4",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -271,7 +267,6 @@
     {
       "id": "trendnet-5",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -310,7 +305,6 @@
     {
       "id": "trendnet-6",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -362,7 +356,6 @@
     {
       "id": "trendnet-7",
       "url": "MJPEG.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -393,7 +386,6 @@
     {
       "id": "trendnet-8",
       "url": "/video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -403,7 +395,6 @@
     {
       "id": "trendnet-9",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -490,7 +481,6 @@
     {
       "id": "trendnet-10",
       "url": "PSIA/Streaming/channels/1?videoCodecType=MPEG4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -510,7 +500,6 @@
     {
       "id": "trendnet-11",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -534,7 +523,6 @@
     {
       "id": "trendnet-12",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -559,7 +547,6 @@
     {
       "id": "trendnet-13",
       "url": "cam1/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -580,7 +567,6 @@
     {
       "id": "trendnet-14",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -626,7 +612,6 @@
     {
       "id": "trendnet-15",
       "url": "VideoInput/[CHANNEL]/h264/1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -636,7 +621,6 @@
     {
       "id": "trendnet-16",
       "url": "/Streaming/Channels/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -660,7 +644,6 @@
     {
       "id": "trendnet-17",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -675,7 +658,6 @@
     {
       "id": "trendnet-18",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -698,7 +680,6 @@
     {
       "id": "trendnet-19",
       "url": "live/h264/ch[CHANNEL]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -713,7 +694,6 @@
     {
       "id": "trendnet-20",
       "url": "/cam1/onvif-h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -732,7 +712,6 @@
     {
       "id": "trendnet-21",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -758,7 +737,6 @@
     {
       "id": "trendnet-22",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -785,7 +763,6 @@
     {
       "id": "trendnet-23",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -861,7 +838,6 @@
     {
       "id": "trendnet-24",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -917,7 +893,6 @@
     {
       "id": "trendnet-25",
       "url": "video/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1018,7 +993,6 @@
     {
       "id": "trendnet-26",
       "url": "play1.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1068,7 +1042,6 @@
     {
       "id": "trendnet-27",
       "url": "/VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1079,7 +1052,6 @@
     {
       "id": "trendnet-28",
       "url": "/play1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1095,7 +1067,6 @@
     {
       "id": "trendnet-29",
       "url": "cam[CHANNEL]/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1110,7 +1081,6 @@
     {
       "id": "trendnet-30",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1153,7 +1123,6 @@
     {
       "id": "trendnet-31",
       "url": "goform/video2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1188,7 +1157,6 @@
     {
       "id": "trendnet-32",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1218,7 +1186,6 @@
     {
       "id": "trendnet-33",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1239,7 +1206,6 @@
     {
       "id": "trendnet-34",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1253,7 +1219,6 @@
     {
       "id": "trendnet-35",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 10600,
       "models": [
@@ -1291,7 +1256,6 @@
     {
       "id": "trendnet-36",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1324,7 +1288,6 @@
     {
       "id": "trendnet-37",
       "url": "[CHANNEL]/1:1/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1338,7 +1301,6 @@
     {
       "id": "trendnet-38",
       "url": "Image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1357,7 +1319,6 @@
     {
       "id": "trendnet-39",
       "url": "/mpeg4",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1372,7 +1333,6 @@
     {
       "id": "trendnet-40",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1384,7 +1344,6 @@
     {
       "id": "trendnet-41",
       "url": "play2.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1414,7 +1373,6 @@
     {
       "id": "trendnet-42",
       "url": "/OVProfile00",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1436,7 +1394,6 @@
     {
       "id": "trendnet-43",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1447,7 +1404,6 @@
     {
       "id": "trendnet-44",
       "url": "/video/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1462,7 +1418,6 @@
     {
       "id": "trendnet-45",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1474,7 +1429,6 @@
     {
       "id": "trendnet-46",
       "url": "/cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1491,7 +1445,6 @@
     {
       "id": "trendnet-47",
       "url": "medias[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1502,7 +1455,6 @@
     {
       "id": "trendnet-48",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1514,7 +1466,6 @@
     {
       "id": "trendnet-49",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1529,7 +1480,6 @@
     {
       "id": "trendnet-50",
       "url": "/play1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1540,7 +1490,6 @@
     {
       "id": "trendnet-51",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1552,7 +1501,6 @@
     {
       "id": "trendnet-52",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1568,7 +1516,6 @@
     {
       "id": "trendnet-53",
       "url": "/image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1581,7 +1528,6 @@
     {
       "id": "trendnet-54",
       "url": "/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1593,7 +1539,6 @@
     {
       "id": "trendnet-55",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 557,
       "models": [
@@ -1603,7 +1548,6 @@
     {
       "id": "trendnet-56",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1614,7 +1558,6 @@
     {
       "id": "trendnet-57",
       "url": "mjpg/1/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1625,7 +1568,6 @@
     {
       "id": "trendnet-58",
       "url": "axis-media/media.amp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1636,7 +1578,6 @@
     {
       "id": "trendnet-59",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1649,7 +1590,6 @@
     {
       "id": "trendnet-60",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1661,7 +1601,6 @@
     {
       "id": "trendnet-61",
       "url": "goform/capture",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1703,7 +1642,6 @@
     {
       "id": "trendnet-62",
       "url": "view2.cgi?profile=5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1738,7 +1676,6 @@
     {
       "id": "trendnet-63",
       "url": "play3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1757,7 +1694,6 @@
     {
       "id": "trendnet-64",
       "url": "/cam/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1768,7 +1704,6 @@
     {
       "id": "trendnet-65",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -1779,7 +1714,6 @@
     {
       "id": "trendnet-66",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1794,7 +1728,6 @@
     {
       "id": "trendnet-67",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1804,7 +1737,6 @@
     {
       "id": "trendnet-68",
       "url": "/cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1816,7 +1748,6 @@
     {
       "id": "trendnet-69",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1827,7 +1758,6 @@
     {
       "id": "trendnet-70",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -1847,7 +1777,6 @@
     {
       "id": "trendnet-71",
       "url": "/VideoInput/0/h264/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1857,7 +1786,6 @@
     {
       "id": "trendnet-72",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1870,7 +1798,6 @@
     {
       "id": "trendnet-73",
       "url": "/ch0_0.h265",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1880,7 +1807,6 @@
     {
       "id": "trendnet-74",
       "url": "/high-res.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1891,7 +1817,6 @@
     {
       "id": "trendnet-75",
       "url": "/HighResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1903,7 +1828,6 @@
     {
       "id": "trendnet-76",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1914,7 +1838,6 @@
     {
       "id": "trendnet-77",
       "url": "/goform/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1927,7 +1850,6 @@
     {
       "id": "trendnet-78",
       "url": "/view2.cgi?profile=5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -1937,7 +1859,6 @@
     {
       "id": "trendnet-79",
       "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1948,7 +1869,6 @@
     {
       "id": "trendnet-80",
       "url": "cgi-bin/video.jpg?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -1958,7 +1878,6 @@
     {
       "id": "trendnet-81",
       "url": "/live/h264/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1969,7 +1888,6 @@
     {
       "id": "trendnet-82",
       "url": "/0/1:1/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1979,7 +1897,6 @@
     {
       "id": "trendnet-83",
       "url": "/video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -1989,7 +1906,6 @@
     {
       "id": "trendnet-84",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2000,7 +1916,6 @@
     {
       "id": "trendnet-85",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=101.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2010,7 +1925,6 @@
     {
       "id": "trendnet-86",
       "url": "/cam0/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2020,7 +1934,6 @@
     {
       "id": "trendnet-87",
       "url": "/live1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2030,7 +1943,6 @@
     {
       "id": "trendnet-88",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2040,7 +1952,6 @@
     {
       "id": "trendnet-89",
       "url": "/video.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2050,7 +1961,6 @@
     {
       "id": "trendnet-90",
       "url": "/video.cgi?resolution=320x240",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2060,7 +1970,6 @@
     {
       "id": "trendnet-91",
       "url": "/play2.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -2070,7 +1979,6 @@
     {
       "id": "trendnet-92",
       "url": "/Image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2080,7 +1988,6 @@
     {
       "id": "trendnet-93",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -2090,7 +1997,6 @@
     {
       "id": "trendnet-94",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -2100,7 +2006,6 @@
     {
       "id": "trendnet-95",
       "url": "/mjpeg.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2110,7 +2015,6 @@
     {
       "id": "trendnet-96",
       "url": "/MJPEG.CGI",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -2120,7 +2024,6 @@
     {
       "id": "trendnet-97",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [

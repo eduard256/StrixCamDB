@@ -6,7 +6,6 @@
     {
       "id": "anpviz-1",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "anpviz-2",
       "url": "cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 8554,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "anpviz-3",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -60,7 +57,6 @@
     {
       "id": "anpviz-4",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -76,7 +72,6 @@
     {
       "id": "anpviz-5",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtmp",
       "port": 1935,
       "models": [
@@ -86,7 +81,6 @@
     {
       "id": "anpviz-6",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -118,7 +112,6 @@
     {
       "id": "anpviz-7",
       "url": "live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -135,7 +128,6 @@
     {
       "id": "anpviz-8",
       "url": "/live/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -145,7 +137,6 @@
     {
       "id": "anpviz-9",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -164,7 +155,6 @@
     {
       "id": "anpviz-10",
       "url": "/stream0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -179,7 +169,6 @@
     {
       "id": "anpviz-11",
       "url": "/live/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -190,7 +179,6 @@
     {
       "id": "anpviz-12",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -202,7 +190,6 @@
     {
       "id": "anpviz-13",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -214,7 +201,6 @@
     {
       "id": "anpviz-14",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -226,7 +212,6 @@
     {
       "id": "anpviz-15",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -242,7 +227,6 @@
     {
       "id": "anpviz-16",
       "url": "/h264?username=[USERNAME]&password=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -255,7 +239,6 @@
     {
       "id": "anpviz-17",
       "url": "/h264cif?username=[USERNAME]&password=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -265,7 +248,6 @@
     {
       "id": "anpviz-18",
       "url": "/cgi-bin/snapshot.cgi?1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -275,7 +257,6 @@
     {
       "id": "anpviz-19",
       "url": "/Streaming/Channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

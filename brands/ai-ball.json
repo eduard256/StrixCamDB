@@ -6,7 +6,6 @@
     {
       "id": "ai-ball-1",
       "url": "Image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ai-ball-2",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "ai-ball-3",
       "url": "?action=appletvstream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

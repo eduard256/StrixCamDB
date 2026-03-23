@@ -6,7 +6,6 @@
     {
       "id": "tuya-1",
       "url": "/stream_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 6554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "tuya-2",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "tuya-3",
       "url": "cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -41,7 +38,6 @@
     {
       "id": "tuya-4",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

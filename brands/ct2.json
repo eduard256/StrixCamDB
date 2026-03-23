@@ -6,7 +6,6 @@
     {
       "id": "ct2-1",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

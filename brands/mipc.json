@@ -6,7 +6,6 @@
     {
       "id": "mipc-1",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "mipc-2",
       "url": "/video.mpeg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "koogeek-1",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

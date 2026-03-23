@@ -6,7 +6,6 @@
     {
       "id": "pinetron-1",
       "url": "monitor.cgi?Channel=[CHANNEL]&Audio=0000&Live=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "pinetron-2",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

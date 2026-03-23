@@ -6,7 +6,6 @@
     {
       "id": "nuvico-1",
       "url": "cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "nuvico-2",
       "url": "getjpeg.cgi?[USERNAME]&ch[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "nuvico-3",
       "url": "monitor.cgi?Channel=[CHANNEL]&Audio=0000&Live=1",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

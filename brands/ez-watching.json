@@ -6,7 +6,6 @@
     {
       "id": "ez-watching-1",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

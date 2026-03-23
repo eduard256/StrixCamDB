@@ -6,7 +6,6 @@
     {
       "id": "pixord-1",
       "url": "images1full",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -25,7 +24,6 @@
     {
       "id": "pixord-2",
       "url": "video.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 88,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "pixord-3",
       "url": "getimage?camera=[CHANNEL]&fmt=full",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -54,7 +51,6 @@
     {
       "id": "pixord-4",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -64,7 +60,6 @@
     {
       "id": "pixord-5",
       "url": "images[CHANNEL]sif",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -75,7 +70,6 @@
     {
       "id": "pixord-6",
       "url": "images[CHANNEL]full",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -85,7 +79,6 @@
     {
       "id": "pixord-7",
       "url": "GetData.cgi?Status=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -96,7 +89,6 @@
     {
       "id": "pixord-8",
       "url": "v01",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -110,7 +102,6 @@
     {
       "id": "pixord-9",
       "url": "cgi-bin/admin/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +115,6 @@
     {
       "id": "pixord-10",
       "url": "getimage",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -135,7 +125,6 @@
     {
       "id": "pixord-11",
       "url": "Getimage.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -146,7 +135,6 @@
     {
       "id": "pixord-12",
       "url": "tmp/snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -162,7 +150,6 @@
     {
       "id": "pixord-13",
       "url": "track[CHANNEL]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -172,7 +159,6 @@
     {
       "id": "pixord-14",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -182,7 +168,6 @@
     {
       "id": "pixord-15",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -194,7 +179,6 @@
     {
       "id": "pixord-16",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -206,7 +190,6 @@
     {
       "id": "pixord-17",
       "url": "ch0_0.h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -216,7 +199,6 @@
     {
       "id": "pixord-18",
       "url": "Jpeg/CamImg.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

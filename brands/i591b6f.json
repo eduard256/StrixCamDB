@@ -6,7 +6,6 @@
     {
       "id": "i591b6f-1",
       "url": "/rtsp/record.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "i591b6f-2",
       "url": "/rtsp/mjpeg.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

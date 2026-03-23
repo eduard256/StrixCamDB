@@ -6,7 +6,6 @@
     {
       "id": "luxor-1",
       "url": "GetImage.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

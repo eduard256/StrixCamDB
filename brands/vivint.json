@@ -6,7 +6,6 @@
     {
       "id": "vivint-1",
       "url": "cgi-bin/viewer/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +27,6 @@
     {
       "id": "vivint-2",
       "url": "/live3.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1032,
       "models": [
@@ -43,7 +41,6 @@
     {
       "id": "vivint-3",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1026,
       "models": [
@@ -56,7 +53,6 @@
     {
       "id": "vivint-4",
       "url": "live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -80,7 +76,6 @@
     {
       "id": "vivint-5",
       "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
-      "type": "JPEG",
       "protocol": "http",
       "port": 1032,
       "models": [
@@ -100,7 +95,6 @@
     {
       "id": "vivint-6",
       "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -112,7 +106,6 @@
     {
       "id": "vivint-7",
       "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +117,6 @@
     {
       "id": "vivint-8",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "mms",
       "port": 0,
       "models": [
@@ -135,7 +127,6 @@
     {
       "id": "vivint-9",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -145,7 +136,6 @@
     {
       "id": "vivint-10",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -155,7 +145,6 @@
     {
       "id": "vivint-11",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -165,7 +154,6 @@
     {
       "id": "vivint-12",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -175,7 +163,6 @@
     {
       "id": "vivint-13",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -185,7 +172,6 @@
     {
       "id": "vivint-14",
       "url": "live3.sdp",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -195,7 +181,6 @@
     {
       "id": "vivint-15",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [

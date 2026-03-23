@@ -6,7 +6,6 @@
     {
       "id": "alphago-1",
       "url": "/av0_1&user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

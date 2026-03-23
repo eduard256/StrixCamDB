@@ -6,7 +6,6 @@
     {
       "id": "sentry-360-1",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "sentry-360-2",
       "url": "live/ch00_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "sentry-360-3",
       "url": "/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "sentry-360-4",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8008,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "sentry-360-5",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

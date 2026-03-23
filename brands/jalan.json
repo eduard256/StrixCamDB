@@ -6,7 +6,6 @@
     {
       "id": "jalan-1",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "jalan-2",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

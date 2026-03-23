@@ -6,7 +6,6 @@
     {
       "id": "uniview-1",
       "url": "/media/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -62,7 +61,6 @@
     {
       "id": "uniview-2",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 85,
       "models": [
@@ -100,7 +98,6 @@
     {
       "id": "uniview-3",
       "url": "/media/video2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -118,7 +115,6 @@
     {
       "id": "uniview-4",
       "url": "/media/video3",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -131,7 +127,6 @@
     {
       "id": "uniview-5",
       "url": "/unicast/c1/s1/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 85,
       "models": [
@@ -148,7 +143,6 @@
     {
       "id": "uniview-6",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 85,
       "models": [
@@ -171,7 +165,6 @@
     {
       "id": "uniview-7",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -186,7 +179,6 @@
     {
       "id": "uniview-8",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -196,7 +188,6 @@
     {
       "id": "uniview-9",
       "url": "/media/video0/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -207,7 +198,6 @@
     {
       "id": "uniview-10",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -220,7 +210,6 @@
     {
       "id": "uniview-11",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -230,7 +219,6 @@
     {
       "id": "uniview-12",
       "url": "/unicast/c1/s0/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -240,7 +228,6 @@
     {
       "id": "uniview-13",
       "url": "/mediavideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -250,7 +237,6 @@
     {
       "id": "uniview-14",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -260,7 +246,6 @@
     {
       "id": "uniview-15",
       "url": "/video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -270,7 +255,6 @@
     {
       "id": "uniview-16",
       "url": "/unicast/c2/s1/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -280,7 +264,6 @@
     {
       "id": "uniview-17",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

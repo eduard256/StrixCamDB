@@ -6,7 +6,6 @@
     {
       "id": "vaste-achter-8mp104-1",
       "url": "/live/ch00_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "solosecurity-1",
       "url": "/ch01/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "guudgo-1",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "guudgo-2",
       "url": "/0/av1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -31,7 +29,6 @@
     {
       "id": "guudgo-3",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "guudgo-4",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -55,7 +51,6 @@
     {
       "id": "guudgo-5",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -69,7 +64,6 @@
     {
       "id": "guudgo-6",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -80,7 +74,6 @@
     {
       "id": "guudgo-7",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -90,7 +83,6 @@
     {
       "id": "guudgo-8",
       "url": "/cam0/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -102,7 +94,6 @@
     {
       "id": "guudgo-9",
       "url": "/onvif-stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -113,7 +104,6 @@
     {
       "id": "guudgo-10",
       "url": "/live/ch01_0:554",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -123,7 +113,6 @@
     {
       "id": "guudgo-11",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -133,7 +122,6 @@
     {
       "id": "guudgo-12",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5544,
       "models": [
@@ -143,7 +131,6 @@
     {
       "id": "guudgo-13",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -153,7 +140,6 @@
     {
       "id": "guudgo-14",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -163,7 +149,6 @@
     {
       "id": "guudgo-15",
       "url": "/onvif-stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -174,7 +159,6 @@
     {
       "id": "guudgo-16",
       "url": "/live/ch00_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -184,7 +168,6 @@
     {
       "id": "guudgo-17",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

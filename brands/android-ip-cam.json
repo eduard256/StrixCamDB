@@ -6,7 +6,6 @@
     {
       "id": "android-ip-cam-1",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "android-ip-cam-2",
       "url": "/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 4747,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "android-ip-cam-3",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "android-ip-cam-4",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1",
-      "type": "MJPEG",
       "protocol": "https",
       "port": 8083,
       "models": [
@@ -49,7 +45,6 @@
     {
       "id": "android-ip-cam-5",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -59,7 +54,6 @@
     {
       "id": "android-ip-cam-6",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 42428,
       "models": [

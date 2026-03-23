@@ -6,7 +6,6 @@
     {
       "id": "vision-hi-tech-co-1",
       "url": "/mjpeg&basic_auth=[AUTH]",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

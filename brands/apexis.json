@@ -6,7 +6,6 @@
     {
       "id": "apexis-1",
       "url": "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "apexis-2",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "apexis-3",
       "url": "/videostream.asf?user=[USERNAME]&pwd=&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "apexis-4",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "apexis-5",
       "url": "mpeg4/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -58,7 +53,6 @@
     {
       "id": "apexis-6",
       "url": "/mpeg4/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -68,7 +62,6 @@
     {
       "id": "apexis-7",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -78,7 +71,6 @@
     {
       "id": "apexis-8",
       "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -100,7 +92,6 @@
     {
       "id": "apexis-9",
       "url": "/av0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -110,7 +101,6 @@
     {
       "id": "apexis-10",
       "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -131,7 +121,6 @@
     {
       "id": "apexis-11",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -160,7 +149,6 @@
     {
       "id": "apexis-12",
       "url": "cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -170,7 +158,6 @@
     {
       "id": "apexis-13",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -197,7 +184,6 @@
     {
       "id": "apexis-14",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -251,7 +237,6 @@
     {
       "id": "apexis-15",
       "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -268,7 +253,6 @@
     {
       "id": "apexis-16",
       "url": "VIDEO.CGI",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -282,7 +266,6 @@
     {
       "id": "apexis-17",
       "url": "videostream.cgi?rate=11",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -301,7 +284,6 @@
     {
       "id": "apexis-18",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -323,7 +305,6 @@
     {
       "id": "apexis-19",
       "url": "videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -342,7 +323,6 @@
     {
       "id": "apexis-20",
       "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -353,7 +333,6 @@
     {
       "id": "apexis-21",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -368,7 +347,6 @@
     {
       "id": "apexis-22",
       "url": "videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -390,7 +368,6 @@
     {
       "id": "apexis-23",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -407,7 +384,6 @@
     {
       "id": "apexis-24",
       "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -429,7 +405,6 @@
     {
       "id": "apexis-25",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -440,7 +415,6 @@
     {
       "id": "apexis-26",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -451,7 +425,6 @@
     {
       "id": "apexis-27",
       "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -462,7 +435,6 @@
     {
       "id": "apexis-28",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -475,7 +447,6 @@
     {
       "id": "apexis-29",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -496,7 +467,6 @@
     {
       "id": "apexis-30",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -523,7 +493,6 @@
     {
       "id": "apexis-31",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -535,7 +504,6 @@
     {
       "id": "apexis-32",
       "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -546,7 +514,6 @@
     {
       "id": "apexis-33",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -556,7 +523,6 @@
     {
       "id": "apexis-34",
       "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -567,7 +533,6 @@
     {
       "id": "apexis-35",
       "url": "snapshot.cgi?",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -579,7 +544,6 @@
     {
       "id": "apexis-36",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -591,7 +555,6 @@
     {
       "id": "apexis-37",
       "url": "cgi-bin/fullsize.jpg?camera=[CHANNEL]&clock=on&motion=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -601,7 +564,6 @@
     {
       "id": "apexis-38",
       "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -619,7 +581,6 @@
     {
       "id": "apexis-39",
       "url": "video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -630,7 +591,6 @@
     {
       "id": "apexis-40",
       "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -644,7 +604,6 @@
     {
       "id": "apexis-41",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -655,7 +614,6 @@
     {
       "id": "apexis-42",
       "url": "/videostream.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 132,
       "models": [
@@ -665,7 +623,6 @@
     {
       "id": "apexis-43",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -676,7 +633,6 @@
     {
       "id": "apexis-44",
       "url": "/videostream.cgi?resolution=8&rate=13",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -687,7 +643,6 @@
     {
       "id": "apexis-45",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -697,7 +652,6 @@
     {
       "id": "apexis-46",
       "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -708,7 +662,6 @@
     {
       "id": "apexis-47",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -718,7 +671,6 @@
     {
       "id": "apexis-48",
       "url": "/video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -728,7 +680,6 @@
     {
       "id": "apexis-49",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -738,7 +689,6 @@
     {
       "id": "apexis-50",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -748,7 +698,6 @@
     {
       "id": "apexis-51",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -758,7 +707,6 @@
     {
       "id": "apexis-52",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -768,7 +716,6 @@
     {
       "id": "apexis-53",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -778,7 +725,6 @@
     {
       "id": "apexis-54",
       "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "thrifty-tech-1",
       "url": "/user=[USERNAME]&password=Golden%40786&channel=1&stream=101.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "thrifty-tech-2",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=101.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

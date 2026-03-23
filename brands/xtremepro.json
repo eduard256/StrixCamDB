@@ -6,7 +6,6 @@
     {
       "id": "xtremepro-1",
       "url": "/videoMain",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [

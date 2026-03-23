@@ -6,7 +6,6 @@
     {
       "id": "heimlink-1",
       "url": "/H.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "apple-1",
       "url": "live?codec=mjpeg&camera=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +27,6 @@
     {
       "id": "apple-2",
       "url": "live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -45,7 +43,6 @@
     {
       "id": "apple-3",
       "url": "/live",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -57,7 +54,6 @@
     {
       "id": "apple-4",
       "url": "/video",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -68,7 +64,6 @@
     {
       "id": "apple-5",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -78,7 +73,6 @@
     {
       "id": "apple-6",
       "url": "live?camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -92,7 +86,6 @@
     {
       "id": "apple-7",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -112,7 +105,6 @@
     {
       "id": "apple-8",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -124,7 +116,6 @@
     {
       "id": "apple-9",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -136,7 +127,6 @@
     {
       "id": "apple-10",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -151,7 +141,6 @@
     {
       "id": "apple-11",
       "url": "/live?codec=mjpeg&camera=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -162,7 +151,6 @@
     {
       "id": "apple-12",
       "url": "cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -174,7 +162,6 @@
     {
       "id": "apple-13",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -184,7 +171,6 @@
     {
       "id": "apple-14",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -196,7 +182,6 @@
     {
       "id": "apple-15",
       "url": "image.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -206,7 +191,6 @@
     {
       "id": "apple-16",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -217,7 +201,6 @@
     {
       "id": "apple-17",
       "url": "/live.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -227,7 +210,6 @@
     {
       "id": "apple-18",
       "url": "out.jpg?id=0.5",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

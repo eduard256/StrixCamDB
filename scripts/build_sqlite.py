@@ -41,7 +41,6 @@ CREATE TABLE streams (
     brand_id   TEXT    NOT NULL,
     stream_id  TEXT    NOT NULL,
     url        TEXT    NOT NULL,
-    type       TEXT    NOT NULL,
     protocol   TEXT    NOT NULL,
     port       INTEGER NOT NULL DEFAULT 0,
     notes      TEXT,
@@ -68,7 +67,6 @@ CREATE TABLE preset_streams (
     id          INTEGER PRIMARY KEY AUTOINCREMENT,
     preset_id   TEXT    NOT NULL,
     url         TEXT    NOT NULL,
-    type        TEXT    NOT NULL,
     protocol    TEXT    NOT NULL,
     port        INTEGER NOT NULL DEFAULT 0,
     notes       TEXT,
@@ -78,7 +76,6 @@ CREATE TABLE preset_streams (
 
 -- Indexes for fast lookups
 CREATE INDEX idx_streams_brand_id ON streams(brand_id);
-CREATE INDEX idx_streams_type ON streams(type);
 CREATE INDEX idx_streams_protocol ON streams(protocol);
 CREATE INDEX idx_streams_url ON streams(url);
 CREATE INDEX idx_stream_models_model ON stream_models(model);
@@ -155,13 +152,12 @@ def build(output_path):
 
         for stream in data.get("streams", []):
             cursor = conn.execute(
-                """INSERT INTO streams (brand_id, stream_id, url, type, protocol, port, notes)
-                   VALUES (?, ?, ?, ?, ?, ?, ?)""",
+                """INSERT INTO streams (brand_id, stream_id, url, protocol, port, notes)
+                   VALUES (?, ?, ?, ?, ?, ?)""",
                 (
                     brand_id,
                     stream["id"],
                     stream["url"],
-                    stream["type"],
                     stream["protocol"],
                     stream["port"],
                     stream.get("notes"),
@@ -192,12 +188,11 @@ def build(output_path):
 
         for ps in data.get("streams", []):
             conn.execute(
-                """INSERT INTO preset_streams (preset_id, url, type, protocol, port, notes, brand_count)
-                   VALUES (?, ?, ?, ?, ?, ?, ?)""",
+                """INSERT INTO preset_streams (preset_id, url, protocol, port, notes, brand_count)
+                   VALUES (?, ?, ?, ?, ?, ?)""",
                 (
                     preset_id,
                     ps["url"],
-                    ps["type"],
                     ps["protocol"],
                     ps["port"],
                     ps.get("notes"),

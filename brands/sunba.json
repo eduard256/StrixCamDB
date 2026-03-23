@@ -6,7 +6,6 @@
     {
       "id": "sunba-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -39,7 +38,6 @@
     {
       "id": "sunba-2",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -49,7 +47,6 @@
     {
       "id": "sunba-3",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -61,7 +58,6 @@
     {
       "id": "sunba-4",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -71,7 +67,6 @@
     {
       "id": "sunba-5",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -81,7 +76,6 @@
     {
       "id": "sunba-6",
       "url": "/cam/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -91,7 +85,6 @@
     {
       "id": "sunba-7",
       "url": "/ONVIF/MediaInput",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -101,7 +94,6 @@
     {
       "id": "sunba-8",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -113,7 +105,6 @@
     {
       "id": "sunba-9",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -124,7 +115,6 @@
     {
       "id": "sunba-10",
       "url": "/Onvif/Streaming/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8556,
       "models": [
@@ -134,7 +124,6 @@
     {
       "id": "sunba-11",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -144,7 +133,6 @@
     {
       "id": "sunba-12",
       "url": "/ch0_0.h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -154,7 +142,6 @@
     {
       "id": "sunba-13",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -164,7 +151,6 @@
     {
       "id": "sunba-14",
       "url": "/live/ch1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

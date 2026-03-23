@@ -6,7 +6,6 @@
     {
       "id": "reidubo-1",
       "url": "/user=[USERNAME]_password=[PASSWORD]_nTBCS_channel=1_stream=0&onvif=0.sdp?real_st",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

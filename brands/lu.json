@@ -6,7 +6,6 @@
     {
       "id": "lu-1",
       "url": "H264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

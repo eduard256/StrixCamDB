@@ -6,7 +6,6 @@
     {
       "id": "ubiquiti-1",
       "url": "live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -22,7 +21,6 @@
     {
       "id": "ubiquiti-2",
       "url": "/live/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "ubiquiti-3",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -46,7 +43,6 @@
     {
       "id": "ubiquiti-4",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -61,7 +57,6 @@
     {
       "id": "ubiquiti-5",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -72,7 +67,6 @@
     {
       "id": "ubiquiti-6",
       "url": "snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -84,7 +78,6 @@
     {
       "id": "ubiquiti-7",
       "url": "ch0[CHANNEL]_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -94,7 +87,6 @@
     {
       "id": "ubiquiti-8",
       "url": "/snapshot.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -107,7 +99,6 @@
     {
       "id": "ubiquiti-9",
       "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -117,7 +108,6 @@
     {
       "id": "ubiquiti-10",
       "url": "/axis-cgi/mjpg/video.cgi?camera=1&resolution=320x240",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -127,7 +117,6 @@
     {
       "id": "ubiquiti-11",
       "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -137,7 +126,6 @@
     {
       "id": "ubiquiti-12",
       "url": "s0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -148,7 +136,6 @@
     {
       "id": "ubiquiti-13",
       "url": "/s0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -174,7 +161,6 @@
     {
       "id": "ubiquiti-14",
       "url": "/s1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -190,7 +176,6 @@
     {
       "id": "ubiquiti-15",
       "url": "/59icRTmMY7RCuJzM?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -200,7 +185,6 @@
     {
       "id": "ubiquiti-16",
       "url": "/s2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -215,7 +199,6 @@
     {
       "id": "ubiquiti-17",
       "url": "/5e254c28900822014a06053a_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -225,7 +208,6 @@
     {
       "id": "ubiquiti-18",
       "url": "/ch00_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -235,7 +217,6 @@
     {
       "id": "ubiquiti-19",
       "url": "/2BWx4LD70YdOYaEV?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -245,7 +226,6 @@
     {
       "id": "ubiquiti-20",
       "url": "/ejakpsT9WvWFBynf?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -255,7 +235,6 @@
     {
       "id": "ubiquiti-21",
       "url": "/8Wtty2D3vG2XDa2N?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -265,7 +244,6 @@
     {
       "id": "ubiquiti-22",
       "url": "/v2xYofqne4G4ZT5u?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -275,7 +253,6 @@
     {
       "id": "ubiquiti-23",
       "url": "/7aMpSdYeblv747Bu?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -285,7 +262,6 @@
     {
       "id": "ubiquiti-24",
       "url": "/DRELXB66JxT9T4XW",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7447,
       "models": [
@@ -295,7 +271,6 @@
     {
       "id": "ubiquiti-25",
       "url": "/bwf59Q0TPFcTxHek?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -305,7 +280,6 @@
     {
       "id": "ubiquiti-26",
       "url": "/A0z19ORRP3pn6p6Y?enableSrtp",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [
@@ -315,7 +289,6 @@
     {
       "id": "ubiquiti-27",
       "url": "/osmdk0V84fUhXvll",
-      "type": "FFMPEG",
       "protocol": "rtsps",
       "port": 7441,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "vikylin-1",
       "url": "/cam/realmonitor?channel=0&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "vikylin-2",
       "url": "/1/h264major",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "vikylin-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "vikylin-4",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -56,7 +52,6 @@
     {
       "id": "vikylin-5",
       "url": "/stream1?username=admin&password=E10ADC3949BA59ABBE56E057F20F883E",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -66,7 +61,6 @@
     {
       "id": "vikylin-6",
       "url": "/stream0?username=admin&password=E10ADC3949BA59ABBE56E057F20F883E",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

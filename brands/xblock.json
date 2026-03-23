@@ -6,7 +6,6 @@
     {
       "id": "xblock-1",
       "url": "/cam0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

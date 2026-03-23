@@ -6,7 +6,6 @@
     {
       "id": "anson-1",
       "url": "/mpeg4cif",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -18,7 +17,6 @@
     {
       "id": "anson-2",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "anson-3",
       "url": "/channel=0;stream=1;user=[USERNAME];pass=[PASSWORD];",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

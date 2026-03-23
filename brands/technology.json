@@ -6,7 +6,6 @@
     {
       "id": "technology-1",
       "url": "/onvif1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "technology-2",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 5000,
       "models": [

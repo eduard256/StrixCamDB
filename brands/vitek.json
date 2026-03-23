@@ -6,7 +6,6 @@
     {
       "id": "vitek-1",
       "url": "/cam0_1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

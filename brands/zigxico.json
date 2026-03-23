@@ -6,7 +6,6 @@
     {
       "id": "zigxico-1",
       "url": "/onvif/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

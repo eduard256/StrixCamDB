@@ -6,7 +6,6 @@
     {
       "id": "covisec-1",
       "url": "stillimg[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

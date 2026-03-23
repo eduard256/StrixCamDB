@@ -6,7 +6,6 @@
     {
       "id": "ms-3000-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8081,
       "models": [

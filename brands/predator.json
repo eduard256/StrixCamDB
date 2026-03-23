@@ -6,7 +6,6 @@
     {
       "id": "predator-1",
       "url": "/h264main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

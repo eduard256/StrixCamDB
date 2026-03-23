@@ -6,7 +6,6 @@
     {
       "id": "kamtron-1",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "kamtron-2",
       "url": "/tmpfs/auto.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -28,7 +26,6 @@
     {
       "id": "kamtron-3",
       "url": "/ccm/ccm_pic_get.js?dsess=1&dsess_nid=ME3UvaT9XL0M4HLe9ul46UZCESRjTvtM&dsess_sn=1jfiegbra36la&dtoken=p1_xxxxxxxxxx&dflag=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 7080,
       "models": [
@@ -39,7 +36,6 @@
     {
       "id": "kamtron-4",
       "url": "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=0.JPG&SENDEMPTYIMAGES=NO",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -50,7 +46,6 @@
     {
       "id": "kamtron-5",
       "url": "/ccm/ccm_pic_get.jpg?hfrom_handle=887330&dsess=1&dsess_nid=MHts.aNrHwnbJfxbeiKi8_hCF1VhBQ&dsess_sn=[USERNAME]&dtoken=p0_xxxxxxxxxx",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -60,7 +55,6 @@
     {
       "id": "kamtron-6",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -70,7 +64,6 @@
     {
       "id": "kamtron-7",
       "url": "/",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "gionee-cam-1",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "snapav-1",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -19,7 +18,6 @@
     {
       "id": "snapav-2",
       "url": "GetData.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "snapav-3",
       "url": "/Streaming/Channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "snapav-4",
       "url": "cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -54,7 +50,6 @@
     {
       "id": "snapav-5",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -65,7 +60,6 @@
     {
       "id": "snapav-6",
       "url": "/v2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -76,7 +70,6 @@
     {
       "id": "snapav-7",
       "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -86,7 +79,6 @@
     {
       "id": "snapav-8",
       "url": "/s1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

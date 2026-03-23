@@ -6,7 +6,6 @@
     {
       "id": "probe-digital-1",
       "url": "cgi-bin/video.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

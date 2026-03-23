@@ -6,7 +6,6 @@
     {
       "id": "elinksmart-ip-camera-1",
       "url": "/rtsp_live1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "elinksmart-ip-camera-2",
       "url": "/rtsp_live0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "elinksmart-ip-camera-3",
       "url": "/live/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

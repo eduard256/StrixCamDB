@@ -6,7 +6,6 @@
     {
       "id": "hiseeu-1",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -32,7 +31,6 @@
     {
       "id": "hiseeu-2",
       "url": "/cam1/mpeg4",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -45,7 +43,6 @@
     {
       "id": "hiseeu-3",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -95,7 +92,6 @@
     {
       "id": "hiseeu-4",
       "url": "/ch2_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 80,
       "models": [
@@ -105,7 +101,6 @@
     {
       "id": "hiseeu-5",
       "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -119,7 +114,6 @@
     {
       "id": "hiseeu-6",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -137,7 +131,6 @@
     {
       "id": "hiseeu-7",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 554,
       "models": [
@@ -155,7 +148,6 @@
     {
       "id": "hiseeu-8",
       "url": "/ch0_0.264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -175,7 +167,6 @@
     {
       "id": "hiseeu-9",
       "url": "/snap.jpg?JpegCam=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -186,7 +177,6 @@
     {
       "id": "hiseeu-10",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -200,7 +190,6 @@
     {
       "id": "hiseeu-11",
       "url": "/snapshot.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -211,7 +200,6 @@
     {
       "id": "hiseeu-12",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -238,7 +226,6 @@
     {
       "id": "hiseeu-13",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -249,7 +236,6 @@
     {
       "id": "hiseeu-14",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -261,7 +247,6 @@
     {
       "id": "hiseeu-15",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 10554,
       "models": [
@@ -278,7 +263,6 @@
     {
       "id": "hiseeu-16",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -294,7 +278,6 @@
     {
       "id": "hiseeu-17",
       "url": "/cam/realmonitor?channel=3&subtype=1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -304,7 +287,6 @@
     {
       "id": "hiseeu-18",
       "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream--rtp-caching=100",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -319,7 +301,6 @@
     {
       "id": "hiseeu-19",
       "url": "/user=admin_password=[PASSWORD]_channel=1_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -329,7 +310,6 @@
     {
       "id": "hiseeu-20",
       "url": "/snap.jpg?JpegCam=1",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -339,7 +319,6 @@
     {
       "id": "hiseeu-21",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -349,7 +328,6 @@
     {
       "id": "hiseeu-22",
       "url": "/live/main",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -361,7 +339,6 @@
     {
       "id": "hiseeu-23",
       "url": "/live/sub",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -371,7 +348,6 @@
     {
       "id": "hiseeu-24",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=2_stream=0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -384,7 +360,6 @@
     {
       "id": "hiseeu-25",
       "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -394,7 +369,6 @@
     {
       "id": "hiseeu-26",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -404,7 +378,6 @@
     {
       "id": "hiseeu-27",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -414,7 +387,6 @@
     {
       "id": "hiseeu-28",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 10554,
       "models": [
@@ -424,7 +396,6 @@
     {
       "id": "hiseeu-29",
       "url": "/ch0_1.264",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -434,7 +405,6 @@
     {
       "id": "hiseeu-30",
       "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1&onvif=0.sdp?real_st",
-      "type": "MJPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -444,7 +414,6 @@
     {
       "id": "hiseeu-31",
       "url": "/snapshot.jpg?size=-1x-1&download=yes",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -454,7 +423,6 @@
     {
       "id": "hiseeu-32",
       "url": "/img/video.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -464,7 +432,6 @@
     {
       "id": "hiseeu-33",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -474,7 +441,6 @@
     {
       "id": "hiseeu-34",
       "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -484,7 +450,6 @@
     {
       "id": "hiseeu-35",
       "url": "/live/ch0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -495,7 +460,6 @@
     {
       "id": "hiseeu-36",
       "url": "/video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [

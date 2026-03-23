@@ -6,7 +6,6 @@
     {
       "id": "smc-1",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "smc-2",
       "url": "img/snapshot.cgi?img=vga",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -30,7 +28,6 @@
     {
       "id": "smc-3",
       "url": "img/snapshot.cgi?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "smc-4",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -55,7 +51,6 @@
     {
       "id": "smc-5",
       "url": "img/media.sav",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -69,7 +64,6 @@
     {
       "id": "smc-6",
       "url": "jpg/image.jpg?size=3",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -88,7 +82,6 @@
     {
       "id": "smc-7",
       "url": "/video.mp4",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -102,7 +95,6 @@
     {
       "id": "smc-8",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -116,7 +108,6 @@
     {
       "id": "smc-9",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -127,7 +118,6 @@
     {
       "id": "smc-10",
       "url": "video.mp4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -140,7 +130,6 @@
     {
       "id": "smc-11",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -152,7 +141,6 @@
     {
       "id": "smc-12",
       "url": "snapshot.html",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -162,7 +150,6 @@
     {
       "id": "smc-13",
       "url": "img/video.mjpeg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -173,7 +160,6 @@
     {
       "id": "smc-14",
       "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -183,7 +169,6 @@
     {
       "id": "smc-15",
       "url": "vdata.v",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -194,7 +179,6 @@
     {
       "id": "smc-16",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -206,7 +190,6 @@
     {
       "id": "smc-17",
       "url": "cgi/mjpg/mjpg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -217,7 +200,6 @@
     {
       "id": "smc-18",
       "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -227,7 +209,6 @@
     {
       "id": "smc-19",
       "url": "mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "ai-wifi-1",
       "url": "/0/av0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8001,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "ai-wifi-2",
       "url": "/h264_stream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

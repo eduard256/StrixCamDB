@@ -6,7 +6,6 @@
     {
       "id": "amity-1",
       "url": "/Streaming/Channels/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

@@ -6,7 +6,6 @@
     {
       "id": "digicom-1",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "digicom-2",
       "url": "cgi/mjpg/mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -33,7 +31,6 @@
     {
       "id": "digicom-3",
       "url": "/admin/view.cgi?profile=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -43,7 +40,6 @@
     {
       "id": "digicom-4",
       "url": "mjpg/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -53,7 +49,6 @@
     {
       "id": "digicom-5",
       "url": "axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -63,7 +58,6 @@
     {
       "id": "digicom-6",
       "url": "mjpeg.cgi",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -73,7 +67,6 @@
     {
       "id": "digicom-7",
       "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -83,7 +76,6 @@
     {
       "id": "digicom-8",
       "url": "image.mpg",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

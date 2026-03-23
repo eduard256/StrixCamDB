@@ -6,7 +6,6 @@
     {
       "id": "limix-1",
       "url": "stream1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

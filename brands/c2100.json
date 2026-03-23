@@ -6,7 +6,6 @@
     {
       "id": "c2100-1",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -24,7 +23,6 @@
     {
       "id": "c2100-2",
       "url": "/ONVIF/channel1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -34,7 +32,6 @@
     {
       "id": "c2100-3",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -46,7 +43,6 @@
     {
       "id": "c2100-4",
       "url": "/stream8",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

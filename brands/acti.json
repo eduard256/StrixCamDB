@@ -6,7 +6,6 @@
     {
       "id": "acti-1",
       "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-      "type": "JPEG",
       "protocol": "http",
       "port": 7070,
       "models": [
@@ -160,7 +159,6 @@
     {
       "id": "acti-2",
       "url": "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -189,7 +187,6 @@
     {
       "id": "acti-3",
       "url": "/stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -268,7 +265,6 @@
     {
       "id": "acti-4",
       "url": "cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -341,7 +337,6 @@
     {
       "id": "acti-5",
       "url": "/onvif-stream1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -392,7 +387,6 @@
     {
       "id": "acti-6",
       "url": "/cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -413,7 +407,6 @@
     {
       "id": "acti-7",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -471,7 +464,6 @@
     {
       "id": "acti-8",
       "url": "/onvif-media/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -483,7 +475,6 @@
     {
       "id": "acti-9",
       "url": "jpg/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -495,7 +486,6 @@
     {
       "id": "acti-10",
       "url": "cam[CHANNEL]/h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -505,7 +495,6 @@
     {
       "id": "acti-11",
       "url": "h264",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -517,7 +506,6 @@
     {
       "id": "acti-12",
       "url": "/stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -533,7 +521,6 @@
     {
       "id": "acti-13",
       "url": "/onvif&event&video2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -547,7 +534,6 @@
     {
       "id": "acti-14",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -558,7 +544,6 @@
     {
       "id": "acti-15",
       "url": "/onvif&event&video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -579,7 +564,6 @@
     {
       "id": "acti-16",
       "url": "/cgi-bin/cmd/encoder?GET_STREAM",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -589,7 +573,6 @@
     {
       "id": "acti-17",
       "url": "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&GET_STREAM",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -602,7 +585,6 @@
     {
       "id": "acti-18",
       "url": "/onvif-stream2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -620,7 +602,6 @@
     {
       "id": "acti-19",
       "url": "/onvif&event&audio&video1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 7070,
       "models": [
@@ -633,7 +614,6 @@
     {
       "id": "acti-20",
       "url": "image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -644,7 +624,6 @@
     {
       "id": "acti-21",
       "url": "cgi-bin/view/image?pro_[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -654,7 +633,6 @@
     {
       "id": "acti-22",
       "url": "cgi/jpg/image.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -664,7 +642,6 @@
     {
       "id": "acti-23",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -674,7 +651,6 @@
     {
       "id": "acti-24",
       "url": "now.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -684,7 +660,6 @@
     {
       "id": "acti-25",
       "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -694,7 +669,6 @@
     {
       "id": "acti-26",
       "url": "/cam0/h264",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

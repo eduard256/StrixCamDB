@@ -6,7 +6,6 @@
     {
       "id": "trantech-1",
       "url": "/ufirststream",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

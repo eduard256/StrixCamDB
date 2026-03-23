@@ -6,7 +6,6 @@
     {
       "id": "hicc-p-3100-1",
       "url": "/media.amp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [

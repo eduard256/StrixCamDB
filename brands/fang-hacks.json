@@ -6,7 +6,6 @@
     {
       "id": "fang-hacks-1",
       "url": "/unicast",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

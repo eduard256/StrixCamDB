@@ -6,7 +6,6 @@
     {
       "id": "micro-digital-1",
       "url": "/cam0_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -17,7 +16,6 @@
     {
       "id": "micro-digital-2",
       "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -27,7 +25,6 @@
     {
       "id": "micro-digital-3",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +34,6 @@
     {
       "id": "micro-digital-4",
       "url": "cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x331287e3&CameraId=[CHANNEL]&PortId=0&PauseTime=1&FwCgiVer=0x0001",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -47,7 +43,6 @@
     {
       "id": "micro-digital-5",
       "url": "cam0_0",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [

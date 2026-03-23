@@ -6,7 +6,6 @@
     {
       "id": "gaines-dvr-1",
       "url": "/Streaming/channels/101",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "gaines-dvr-2",
       "url": "/Streaming/channels/201",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -26,7 +24,6 @@
     {
       "id": "gaines-dvr-3",
       "url": "/Streaming/channels/302",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -36,7 +33,6 @@
     {
       "id": "gaines-dvr-4",
       "url": "/Streaming/channels/402",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -46,7 +42,6 @@
     {
       "id": "gaines-dvr-5",
       "url": "/Streaming/channels/502",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -56,7 +51,6 @@
     {
       "id": "gaines-dvr-6",
       "url": "/Streaming/channels/602",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -66,7 +60,6 @@
     {
       "id": "gaines-dvr-7",
       "url": "/Streaming/channels/102",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [

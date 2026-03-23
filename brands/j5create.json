@@ -6,7 +6,6 @@
     {
       "id": "j5create-1",
       "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -16,7 +15,6 @@
     {
       "id": "j5create-2",
       "url": "/videoJ5create.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [

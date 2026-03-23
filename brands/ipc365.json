@@ -6,7 +6,6 @@
     {
       "id": "ipc365-1",
       "url": "/realmonitor",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -23,7 +22,6 @@
     {
       "id": "ipc365-2",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -35,7 +33,6 @@
     {
       "id": "ipc365-3",
       "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 1935,
       "models": [
@@ -45,7 +42,6 @@
     {
       "id": "ipc365-4",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -55,7 +51,6 @@
     {
       "id": "ipc365-5",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -66,7 +61,6 @@
     {
       "id": "ipc365-6",
       "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -77,7 +71,6 @@
     {
       "id": "ipc365-7",
       "url": "snapshot",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

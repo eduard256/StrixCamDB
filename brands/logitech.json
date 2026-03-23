@@ -6,7 +6,6 @@
     {
       "id": "logitech-1",
       "url": "?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -20,7 +19,6 @@
     {
       "id": "logitech-2",
       "url": "video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -37,7 +35,6 @@
     {
       "id": "logitech-3",
       "url": "/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8081,
       "models": [
@@ -57,7 +54,6 @@
     {
       "id": "logitech-4",
       "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -67,7 +63,6 @@
     {
       "id": "logitech-5",
       "url": "videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -85,7 +80,6 @@
     {
       "id": "logitech-6",
       "url": "HighResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -112,7 +106,6 @@
     {
       "id": "logitech-7",
       "url": "LowResolutionVideo",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -129,7 +122,6 @@
     {
       "id": "logitech-8",
       "url": "out.jpg?id=0.5",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -147,7 +139,6 @@
     {
       "id": "logitech-9",
       "url": "/?camid=2",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 83,
       "models": [
@@ -157,7 +148,6 @@
     {
       "id": "logitech-10",
       "url": "Image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -173,7 +163,6 @@
     {
       "id": "logitech-11",
       "url": "/video.mjpg?q=30&fps=33&id=0.5",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -189,7 +178,6 @@
     {
       "id": "logitech-12",
       "url": "image/jpeg.cgi",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -203,7 +191,6 @@
     {
       "id": "logitech-13",
       "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -215,7 +202,6 @@
     {
       "id": "logitech-14",
       "url": "img/mjpeg.jpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -227,7 +213,6 @@
     {
       "id": "logitech-15",
       "url": "image[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -239,7 +224,6 @@
     {
       "id": "logitech-16",
       "url": "/HighResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 8554,
       "models": [
@@ -250,7 +234,6 @@
     {
       "id": "logitech-17",
       "url": "/video.mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8090,
       "models": [
@@ -261,7 +244,6 @@
     {
       "id": "logitech-18",
       "url": "/videofeed",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -271,7 +253,6 @@
     {
       "id": "logitech-19",
       "url": "/webcam/?action=stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -281,7 +262,6 @@
     {
       "id": "logitech-20",
       "url": "jpeg/pull",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -291,7 +271,6 @@
     {
       "id": "logitech-21",
       "url": "jstream.cgi?chid=[CHANNEL]&cnt=0",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -301,7 +280,6 @@
     {
       "id": "logitech-22",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 8082,
       "models": [
@@ -312,7 +290,6 @@
     {
       "id": "logitech-23",
       "url": "videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -325,7 +302,6 @@
     {
       "id": "logitech-24",
       "url": "video.mjpg?q=30&fps=33&id=0.5",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -337,7 +313,6 @@
     {
       "id": "logitech-25",
       "url": "image/[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -347,7 +322,6 @@
     {
       "id": "logitech-26",
       "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -357,7 +331,6 @@
     {
       "id": "logitech-27",
       "url": "cam_1.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -369,7 +342,6 @@
     {
       "id": "logitech-28",
       "url": "video?submenu=mjpg",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -380,7 +352,6 @@
     {
       "id": "logitech-29",
       "url": "/videostream.asf",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -390,7 +361,6 @@
     {
       "id": "logitech-30",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -400,7 +370,6 @@
     {
       "id": "logitech-31",
       "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -412,7 +381,6 @@
     {
       "id": "logitech-32",
       "url": "nphMotionJpeg?Resolution=320x240&Quality=Motion",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -424,7 +392,6 @@
     {
       "id": "logitech-33",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -434,7 +401,6 @@
     {
       "id": "logitech-34",
       "url": "img/snapshot.cgi?size=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -444,7 +410,6 @@
     {
       "id": "logitech-35",
       "url": "image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -454,7 +419,6 @@
     {
       "id": "logitech-36",
       "url": "img/video.asf",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -465,7 +429,6 @@
     {
       "id": "logitech-37",
       "url": "cgi-bin/video.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -475,7 +438,6 @@
     {
       "id": "logitech-38",
       "url": "video/flv.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -485,7 +447,6 @@
     {
       "id": "logitech-39",
       "url": "/?camid=1",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -495,7 +456,6 @@
     {
       "id": "logitech-40",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "http",
       "port": 0,
       "models": [

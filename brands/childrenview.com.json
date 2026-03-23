@@ -6,7 +6,6 @@
     {
       "id": "childrenview.com-1",
       "url": "treeproxy/cam[CHANNEL].jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [

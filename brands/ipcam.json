@@ -6,7 +6,6 @@
     {
       "id": "ipcam-1",
       "url": "/12",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -45,7 +44,6 @@
     {
       "id": "ipcam-2",
       "url": "/11",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -100,7 +98,6 @@
     {
       "id": "ipcam-3",
       "url": "/stream_0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 6554,
       "models": [
@@ -113,7 +110,6 @@
     {
       "id": "ipcam-4",
       "url": "snap.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -123,7 +119,6 @@
     {
       "id": "ipcam-5",
       "url": "/2",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -133,7 +128,6 @@
     {
       "id": "ipcam-6",
       "url": "snap.jpg?JpegCam=[CHANNEL]",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -143,7 +137,6 @@
     {
       "id": "ipcam-7",
       "url": "/1",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -153,7 +146,6 @@
     {
       "id": "ipcam-8",
       "url": "tmpfs/auto.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -165,7 +157,6 @@
     {
       "id": "ipcam-9",
       "url": "/",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -175,7 +166,6 @@
     {
       "id": "ipcam-10",
       "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -185,7 +175,6 @@
     {
       "id": "ipcam-11",
       "url": "/live/1jfiegbrqhd4q_p0_FUZGACFWEXMY",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -195,7 +184,6 @@
     {
       "id": "ipcam-12",
       "url": "/live/1jfiegbrqop2a_p0_CNCOZJTHRMYP",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -205,7 +193,6 @@
     {
       "id": "ipcam-13",
       "url": "/live/1jfiegbrqop2a_p0_LBRUMVRZOQXB",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -215,7 +202,6 @@
     {
       "id": "ipcam-14",
       "url": "/live/1jfiegbrqop2a_p0_ISUOFYIAJSWB",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -225,7 +211,6 @@
     {
       "id": "ipcam-15",
       "url": "/LowResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -235,7 +220,6 @@
     {
       "id": "ipcam-16",
       "url": "/HighResolutionVideo",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -245,7 +229,6 @@
     {
       "id": "ipcam-17",
       "url": "videostream.cgi?rate=0",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -255,7 +238,6 @@
     {
       "id": "ipcam-18",
       "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 0,
       "models": [
@@ -265,7 +247,6 @@
     {
       "id": "ipcam-19",
       "url": "/0",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [
@@ -275,7 +256,6 @@
     {
       "id": "ipcam-20",
       "url": "/videofeed",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 8080,
       "models": [
@@ -285,7 +265,6 @@
     {
       "id": "ipcam-21",
       "url": "/video.cgi?resolution=VGA",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -295,7 +274,6 @@
     {
       "id": "ipcam-22",
       "url": "/videostream.cgi",
-      "type": "FFMPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -305,7 +283,6 @@
     {
       "id": "ipcam-23",
       "url": "/stream",
-      "type": "MJPEG",
       "protocol": "http",
       "port": 81,
       "models": [
@@ -315,7 +292,6 @@
     {
       "id": "ipcam-24",
       "url": "/image.jpg",
-      "type": "JPEG",
       "protocol": "http",
       "port": 80,
       "models": [
@@ -325,7 +301,6 @@
     {
       "id": "ipcam-25",
       "url": "live/mpeg4",
-      "type": "VLC",
       "protocol": "rtsp",
       "port": 0,
       "models": [
@@ -335,7 +310,6 @@
     {
       "id": "ipcam-26",
       "url": "/video0.sdp",
-      "type": "FFMPEG",
       "protocol": "rtsp",
       "port": 554,
       "models": [

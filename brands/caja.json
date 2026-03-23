@@ -6,7 +6,6 @@
     {
       "id": "caja-1",
       "url": "dms?nowprofileid=2",
-      "type": "JPEG",
       "protocol": "http",
       "port": 0,
       "models": [
