@@ -1,6 +1,8 @@
 # StrixCamDB
 
-Open database of IP camera stream URLs. 3600+ brands - from Hikvision to AliExpress no-name cameras. Primarily used in [Strix](https://github.com/eduard256/Strix), but can be used in any project.
+Open database of IP camera stream URLs. 3600+ brands -- from Hikvision to AliExpress no-name cameras. Primarily used in [Strix](https://github.com/eduard256/Strix), but can be used in any project.
+
+**Want to add a camera?** Use the [contribution form](https://gostrix.github.io/#/contribute).
 
 ## Database Format
 
