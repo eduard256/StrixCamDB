@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Exceed",
+  "brand_id": "exceed",
+  "streams": [
+    {
+      "id": "exceed-1",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ali"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Drh Domotics",
+  "brand_id": "drh-domotics",
+  "streams": [
+    {
+      "id": "drh-domotics-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

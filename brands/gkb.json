@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "brand": "Gkb",
+  "brand_id": "gkb",
+  "streams": [
+    {
+      "id": "gkb-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5210",
+        "IC-202W",
+        "P6620"
+      ]
+    },
+    {
+      "id": "gkb-2",
+      "url": "/h264main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "D6122p",
+        "Other"
+      ]
+    },
+    {
+      "id": "gkb-3",
+      "url": "rtsph264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "D6122p"
+      ]
+    },
+    {
+      "id": "gkb-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "gkb-5",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P6620"
+      ]
+    },
+    {
+      "id": "gkb-6",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "R Series DVR"
+      ]
+    }
+  ]
+}

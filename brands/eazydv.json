@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Eazydv",
+  "brand_id": "eazydv",
+  "streams": [
+    {
+      "id": "eazydv-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BC-881M"
+      ]
+    },
+    {
+      "id": "eazydv-2",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BC-881M"
+      ]
+    },
+    {
+      "id": "eazydv-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BC-883"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Riwyth",
+  "brand_id": "riwyth",
+  "streams": [
+    {
+      "id": "riwyth-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "riwyth-2",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Riwyth_810S"
+      ]
+    },
+    {
+      "id": "riwyth-3",
+      "url": "/tcp/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "RW-790S"
+      ]
+    }
+  ]
+}

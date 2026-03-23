@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Control4",
+  "brand_id": "control4",
+  "streams": [
+    {
+      "id": "control4-1",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Chime"
+      ]
+    }
+  ]
+}

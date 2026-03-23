@@ -1,0 +1,159 @@
+{
+  "version": 2,
+  "brand": "Topcam",
+  "brand_id": "topcam",
+  "streams": [
+    {
+      "id": "topcam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "201",
+        "IPAH200-P",
+        "SL-130IPC36WF",
+        "TOP-201",
+        "TOP-308",
+        "TOP52"
+      ]
+    },
+    {
+      "id": "topcam-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "201",
+        "Other",
+        "TOP-201"
+      ]
+    },
+    {
+      "id": "topcam-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "7052"
+      ]
+    },
+    {
+      "id": "topcam-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPA-7063",
+        "Other"
+      ]
+    },
+    {
+      "id": "topcam-5",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipa8079"
+      ]
+    },
+    {
+      "id": "topcam-6",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SL-910IW30"
+      ]
+    },
+    {
+      "id": "topcam-7",
+      "url": "/ONVIF/channel1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topcam-8",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "TOP-308"
+      ]
+    },
+    {
+      "id": "topcam-9",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topcam-10",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topcam-11",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SL-30IPC01Z",
+        "SL-720IPC02Z",
+        "SL-910IW30"
+      ]
+    },
+    {
+      "id": "topcam-12",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SL-910IW30"
+      ]
+    },
+    {
+      "id": "topcam-13",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SL-910IW30"
+      ]
+    },
+    {
+      "id": "topcam-14",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "TOP-228wf"
+      ]
+    }
+  ]
+}

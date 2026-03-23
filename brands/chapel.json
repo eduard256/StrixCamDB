@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Chapel",
+  "brand_id": "chapel",
+  "streams": [
+    {
+      "id": "chapel-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Onvif"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tucam",
+  "brand_id": "tucam",
+  "streams": [
+    {
+      "id": "tucam-1",
+      "url": "/rtsp_live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KK004B"
+      ]
+    }
+  ]
+}

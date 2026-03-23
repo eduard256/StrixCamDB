@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lowcam",
+  "brand_id": "lowcam",
+  "streams": [
+    {
+      "id": "lowcam-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FI8608"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Starvedia",
+  "brand_id": "starvedia",
+  "streams": [
+    {
+      "id": "starvedia-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IC-212w",
+        "Other",
+        "ST-1354"
+      ]
+    },
+    {
+      "id": "starvedia-2",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IC-212w",
+        "Other"
+      ]
+    },
+    {
+      "id": "starvedia-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IC-502w",
+        "Other"
+      ]
+    },
+    {
+      "id": "starvedia-4",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "V30508"
+      ]
+    },
+    {
+      "id": "starvedia-5",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "starvedia-6",
+      "url": "CAM_ID.[PASSWORD].mp2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

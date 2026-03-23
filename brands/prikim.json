@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Prikim",
+  "brand_id": "prikim",
+  "streams": [
+    {
+      "id": "prikim-1",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BDs Dome"
+      ]
+    }
+  ]
+}

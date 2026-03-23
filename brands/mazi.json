@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Mazi",
+  "brand_id": "mazi",
+  "streams": [
+    {
+      "id": "mazi-1",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HTVR-0410LT"
+      ]
+    },
+    {
+      "id": "mazi-2",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IWH-31IR"
+      ]
+    }
+  ]
+}

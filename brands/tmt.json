@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tmt",
+  "brand_id": "tmt",
+  "streams": [
+    {
+      "id": "tmt-1",
+      "url": "live.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "W200"
+      ]
+    }
+  ]
+}

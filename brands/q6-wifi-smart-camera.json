@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Q6 Wifi Smart Camera",
+  "brand_id": "q6-wifi-smart-camera",
+  "streams": [
+    {
+      "id": "q6-wifi-smart-camera-1",
+      "url": "/live/ch00_01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "51127207",
+        "V380"
+      ]
+    },
+    {
+      "id": "q6-wifi-smart-camera-2",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V380"
+      ]
+    }
+  ]
+}

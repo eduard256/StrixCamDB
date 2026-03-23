@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Tptek",
+  "brand_id": "tptek",
+  "streams": [
+    {
+      "id": "tptek-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5MP",
+        "C6F0SoZ0N0PmL2",
+        "MP8",
+        "Other",
+        "tpek",
+        "WO1013E",
+        "WO2018E(8MP)",
+        "WOR205-5XCH"
+      ]
+    },
+    {
+      "id": "tptek-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "960p",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "tptek-3",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C6F0SoZ0N0PmL2",
+        "MP8",
+        "Other",
+        "WO2018E(8MP)"
+      ]
+    }
+  ]
+}

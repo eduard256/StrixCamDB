@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Uipopo",
+  "brand_id": "uipopo",
+  "streams": [
+    {
+      "id": "uipopo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "POPO 566"
+      ]
+    }
+  ]
+}

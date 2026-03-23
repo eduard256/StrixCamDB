@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "brand": "Anni Digital",
+  "brand_id": "anni-digital",
+  "streams": [
+    {
+      "id": "anni-digital-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ANNI-HL04CP03V",
+        "IP-001",
+        "IPC3J24P-I2"
+      ]
+    },
+    {
+      "id": "anni-digital-2",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fc3",
+        "fc5",
+        "IPC3F18P-I3",
+        "IPC5F19P2-I3-W",
+        "IPC5F1JMM-13"
+      ]
+    },
+    {
+      "id": "anni-digital-3",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "k9604-w"
+      ]
+    }
+  ]
+}

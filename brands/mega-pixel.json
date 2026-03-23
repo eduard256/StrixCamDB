@@ -1,0 +1,471 @@
+{
+  "version": 2,
+  "brand": "Mega-pixel",
+  "brand_id": "mega-pixel",
+  "streams": [
+    {
+      "id": "mega-pixel-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1.3",
+        "b21tw-16g",
+        "job",
+        "sv-b01poe-5mpl-a"
+      ]
+    },
+    {
+      "id": "mega-pixel-2",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1.3",
+        "1.3 PTZ",
+        "200w",
+        "IPC-E2B5000",
+        "IPD-14T08",
+        "IPD-E17T08",
+        "IPD-E2A5Y04-BS",
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1.3 PTZ",
+        "4s-B05W-720p",
+        "B987W",
+        "IP CAMREA",
+        "Other",
+        "ptz-sd05w",
+        "sd13w",
+        "sd17w",
+        "sp-v1802w",
+        "sp-v701w"
+      ]
+    },
+    {
+      "id": "mega-pixel-4",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1.3 PTZ",
+        "Other",
+        "SP-V1802W"
+      ]
+    },
+    {
+      "id": "mega-pixel-5",
+      "url": "/cam1/mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "13emo"
+      ]
+    },
+    {
+      "id": "mega-pixel-6",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1L/IP"
+      ]
+    },
+    {
+      "id": "mega-pixel-7",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1ps-912",
+        "1ps-912v",
+        "BKOFF",
+        "d77w",
+        "HI3507   RS7507H",
+        "ips 911s",
+        "ips-911",
+        "ips-912",
+        "ips-912v",
+        "Other",
+        "RS7507H",
+        "RS7518",
+        "SV-MIP102-W"
+      ]
+    },
+    {
+      "id": "mega-pixel-8",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "200W",
+        "534H",
+        "Fence",
+        "IP CAMREA",
+        "IPD-E2A5Y04",
+        "NVS-DM36X",
+        "Other",
+        "sv-d02poe-1080"
+      ]
+    },
+    {
+      "id": "mega-pixel-9",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2d27w",
+        "AQ-IPR1623X",
+        "CM-3211",
+        "D77W",
+        "HR06",
+        "ip camrea",
+        "Other",
+        "p2p ipcam",
+        "SAV-P7465",
+        "SD13W",
+        "SD19S",
+        "SP-V1802W",
+        "sv-b01"
+      ]
+    },
+    {
+      "id": "mega-pixel-10",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2mp",
+        "IPC_X040002PIAZ",
+        "IPD-D53Y07",
+        "IPD-E17T08"
+      ]
+    },
+    {
+      "id": "mega-pixel-11",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AM-c736-v",
+        "ips-911",
+        "Other",
+        "RS7507H",
+        "TMZ",
+        "tsv-hr03w",
+        "uplus"
+      ]
+    },
+    {
+      "id": "mega-pixel-12",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CM-3211",
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-13",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "D73W"
+      ]
+    },
+    {
+      "id": "mega-pixel-14",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D79w",
+        "IP CAMREA",
+        "Other",
+        "SD13W",
+        "SD19S",
+        "SP-V1802W"
+      ]
+    },
+    {
+      "id": "mega-pixel-15",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "d987w",
+        "Other",
+        "SP-V1802W",
+        "ZK1385800"
+      ]
+    },
+    {
+      "id": "mega-pixel-16",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DEX2MPIR50"
+      ]
+    },
+    {
+      "id": "mega-pixel-17",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD"
+      ]
+    },
+    {
+      "id": "mega-pixel-18",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP CAMREA",
+        "VR CAM"
+      ]
+    },
+    {
+      "id": "mega-pixel-19",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPc-631/T13",
+        "TV-536W/IP"
+      ]
+    },
+    {
+      "id": "mega-pixel-20",
+      "url": "live_mpeg4_1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-C34Y02-BS"
+      ]
+    },
+    {
+      "id": "mega-pixel-21",
+      "url": "cam2/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-D53M02-BS"
+      ]
+    },
+    {
+      "id": "mega-pixel-22",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "IPD-L21C00-BS"
+      ]
+    },
+    {
+      "id": "mega-pixel-23",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "K1H3A/POE"
+      ]
+    },
+    {
+      "id": "mega-pixel-24",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "Z4S4"
+      ]
+    },
+    {
+      "id": "mega-pixel-25",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-26",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-27",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SD37W"
+      ]
+    },
+    {
+      "id": "mega-pixel-28",
+      "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-29",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-30",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-31",
+      "url": "getimage[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-32",
+      "url": "cgi-bin/still.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-33",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-34",
+      "url": "/ONVIF_1_a_unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-35",
+      "url": "/ONVIF_1_unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mega-pixel-36",
+      "url": "mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ"
+      ]
+    },
+    {
+      "id": "mega-pixel-37",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 554,
+      "models": [
+        "PTZ"
+      ]
+    },
+    {
+      "id": "mega-pixel-38",
+      "url": "/mpeg4main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ  30X ZOOM"
+      ]
+    },
+    {
+      "id": "mega-pixel-39",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SD19S"
+      ]
+    }
+  ]
+}

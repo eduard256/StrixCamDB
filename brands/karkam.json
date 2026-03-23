@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Karkam",
+  "brand_id": "karkam",
+  "streams": [
+    {
+      "id": "karkam-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2430"
+      ]
+    }
+  ]
+}

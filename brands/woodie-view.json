@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Woodie View",
+  "brand_id": "woodie-view",
+  "streams": [
+    {
+      "id": "woodie-view-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6024PB-HX201"
+      ]
+    }
+  ]
+}

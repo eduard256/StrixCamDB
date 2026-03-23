@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Blue Iris",
+  "brand_id": "blue-iris",
+  "streams": [
+    {
+      "id": "blue-iris-1",
+      "url": "image/[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Iris",
+        "Iris v3"
+      ]
+    },
+    {
+      "id": "blue-iris-2",
+      "url": "mjpg/[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Iris",
+        "Iris v3"
+      ]
+    },
+    {
+      "id": "blue-iris-3",
+      "url": "video/cam[CHANNEL]/2.0?audio=0&stream=0",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Iris v3",
+        "Iris v3 H.264"
+      ]
+    },
+    {
+      "id": "blue-iris-4",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Miosmart",
+  "brand_id": "miosmart",
+  "streams": [
+    {
+      "id": "miosmart-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N526",
+        "VixCam"
+      ]
+    }
+  ]
+}

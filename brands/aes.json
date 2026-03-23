@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Aes",
+  "brand_id": "aes",
+  "streams": [
+    {
+      "id": "aes-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AES-PC8"
+      ]
+    },
+    {
+      "id": "aes-2",
+      "url": "/rtsp_live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "rca"
+      ]
+    }
+  ]
+}

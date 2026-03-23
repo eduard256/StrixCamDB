@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Keypad",
+  "brand_id": "keypad",
+  "streams": [
+    {
+      "id": "keypad-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DoorPhone"
+      ]
+    }
+  ]
+}

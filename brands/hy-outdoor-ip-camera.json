@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hy Outdoor Ip Camera",
+  "brand_id": "hy-outdoor-ip-camera",
+  "streams": [
+    {
+      "id": "hy-outdoor-ip-camera-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Smart1080P"
+      ]
+    }
+  ]
+}

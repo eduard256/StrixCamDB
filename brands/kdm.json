@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Kdm",
+  "brand_id": "kdm",
+  "streams": [
+    {
+      "id": "kdm-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KDM-A103"
+      ]
+    },
+    {
+      "id": "kdm-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

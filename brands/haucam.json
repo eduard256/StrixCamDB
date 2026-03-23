@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Haucam",
+  "brand_id": "haucam",
+  "streams": [
+    {
+      "id": "haucam-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "7010"
+      ]
+    }
+  ]
+}

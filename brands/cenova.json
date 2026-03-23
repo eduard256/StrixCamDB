@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Cenova",
+  "brand_id": "cenova",
+  "streams": [
+    {
+      "id": "cenova-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "103ip",
+        "Other"
+      ]
+    }
+  ]
+}

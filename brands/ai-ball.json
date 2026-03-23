@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Ai Ball",
+  "brand_id": "ai-ball",
+  "streams": [
+    {
+      "id": "ai-ball-1",
+      "url": "Image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ai-ball-2",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ai-ball-3",
+      "url": "?action=appletvstream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

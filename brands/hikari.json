@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Hikari",
+  "brand_id": "hikari",
+  "streams": [
+    {
+      "id": "hikari-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WY0513H"
+      ]
+    },
+    {
+      "id": "hikari-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WY0513H"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Genrui",
+  "brand_id": "genrui",
+  "streams": [
+    {
+      "id": "genrui-1",
+      "url": "/0/888888:888888/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

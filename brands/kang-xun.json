@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kang Xun",
+  "brand_id": "kang-xun",
+  "streams": [
+    {
+      "id": "kang-xun-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "xxc5030-t"
+      ]
+    }
+  ]
+}

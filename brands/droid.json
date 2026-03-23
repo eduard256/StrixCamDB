@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Droid",
+  "brand_id": "droid",
+  "streams": [
+    {
+      "id": "droid-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Cell",
+        "Other",
+        "Turbo"
+      ]
+    },
+    {
+      "id": "droid-2",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nesus7",
+        "Nexus 7 jpg"
+      ]
+    }
+  ]
+}

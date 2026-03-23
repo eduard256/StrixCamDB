@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Clearone",
+  "brand_id": "clearone",
+  "streams": [
+    {
+      "id": "clearone-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Unite200"
+      ]
+    }
+  ]
+}

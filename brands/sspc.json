@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sspc",
+  "brand_id": "sspc",
+  "streams": [
+    {
+      "id": "sspc-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

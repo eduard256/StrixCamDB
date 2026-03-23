@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "brand": "Jetview",
+  "brand_id": "jetview",
+  "streams": [
+    {
+      "id": "jetview-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "je-m800",
+        "JE-M820D1A",
+        "M800"
+      ]
+    },
+    {
+      "id": "jetview-2",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "je-m800"
+      ]
+    },
+    {
+      "id": "jetview-3",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "je-m800"
+      ]
+    },
+    {
+      "id": "jetview-4",
+      "url": "/PSIA/Streaming/channels/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JE-M820D1A",
+        "Other"
+      ]
+    },
+    {
+      "id": "jetview-5",
+      "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M800"
+      ]
+    },
+    {
+      "id": "jetview-6",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NVS-2020SN",
+        "nvs-365-v01",
+        "NVS-900L"
+      ]
+    },
+    {
+      "id": "jetview-7",
+      "url": "/ch0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

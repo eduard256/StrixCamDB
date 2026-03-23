@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Videoiq",
+  "brand_id": "videoiq",
+  "streams": [
+    {
+      "id": "videoiq-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VIQ-HD-CRD200-3-8"
+      ]
+    }
+  ]
+}

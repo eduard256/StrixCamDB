@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bosslan",
+  "brand_id": "bosslan",
+  "streams": [
+    {
+      "id": "bosslan-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BOSSC31"
+      ]
+    }
+  ]
+}

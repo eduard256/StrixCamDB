@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hiina",
+  "brand_id": "hiina",
+  "streams": [
+    {
+      "id": "hiina-1",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Must"
+      ]
+    }
+  ]
+}

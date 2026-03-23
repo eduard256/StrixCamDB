@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Elex",
+  "brand_id": "elex",
+  "streams": [
+    {
+      "id": "elex-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ip-1 if2"
+      ]
+    }
+  ]
+}

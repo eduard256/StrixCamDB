@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Horstek",
+  "brand_id": "horstek",
+  "streams": [
+    {
+      "id": "horstek-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VC 19W"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Posonic",
+  "brand_id": "posonic",
+  "streams": [
+    {
+      "id": "posonic-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3MP",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "brand": "Nexus",
+  "brand_id": "nexus",
+  "streams": [
+    {
+      "id": "nexus-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "115vw",
+        "2004PD",
+        "3516D",
+        "alt",
+        "Other",
+        "WIFI"
+      ]
+    },
+    {
+      "id": "nexus-2",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "235",
+        "501fw",
+        "IP-D50VP",
+        "N-VIEW"
+      ]
+    },
+    {
+      "id": "nexus-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "360fw"
+      ]
+    },
+    {
+      "id": "nexus-4",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "501fw"
+      ]
+    },
+    {
+      "id": "nexus-5",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nexus 5"
+      ]
+    }
+  ]
+}

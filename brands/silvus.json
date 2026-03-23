@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "brand": "Silvus",
+  "brand_id": "silvus",
+  "streams": [
+    {
+      "id": "silvus-1",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "KP.WIBISANA-7013_CAM-A"
+      ]
+    },
+    {
+      "id": "silvus-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "KP.WIBISANA-7013_CAM-B",
+        "Other",
+        "SPSVA-43"
+      ]
+    },
+    {
+      "id": "silvus-3",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Obscura",
+        "Other",
+        "Silvus 1",
+        "Silvus 2",
+        "silvus2",
+        "silvus3"
+      ]
+    },
+    {
+      "id": "silvus-4",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "silvus-5",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other",
+        "SC4400"
+      ]
+    },
+    {
+      "id": "silvus-6",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "silvus-7",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "silvus1"
+      ]
+    },
+    {
+      "id": "silvus-8",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Brama",
+  "brand_id": "brama",
+  "streams": [
+    {
+      "id": "brama-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "C6F0SgZ3N0P6L2"
+      ]
+    }
+  ]
+}

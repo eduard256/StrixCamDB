@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Taber",
+  "brand_id": "taber",
+  "streams": [
+    {
+      "id": "taber-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080p Dual Light Camera"
+      ]
+    },
+    {
+      "id": "taber-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "8115"
+      ]
+    }
+  ]
+}

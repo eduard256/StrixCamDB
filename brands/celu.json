@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Celu",
+  "brand_id": "celu",
+  "streams": [
+    {
+      "id": "celu-1",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

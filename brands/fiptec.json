@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fiptec",
+  "brand_id": "fiptec",
+  "streams": [
+    {
+      "id": "fiptec-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LO22-PRO"
+      ]
+    }
+  ]
+}

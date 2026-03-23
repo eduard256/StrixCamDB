@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Ildvr",
+  "brand_id": "ildvr",
+  "streams": [
+    {
+      "id": "ildvr-1",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "INC-2030W",
+        "INC-M20B06V"
+      ]
+    },
+    {
+      "id": "ildvr-2",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "INCMD",
+        "INC-MP28VZ",
+        "INS-MP2020-H5"
+      ]
+    }
+  ]
+}

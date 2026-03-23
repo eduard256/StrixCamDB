@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "brand": "Alcatel",
+  "brand_id": "alcatel",
+  "streams": [
+    {
+      "id": "alcatel-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4060A",
+        "6055U",
+        "alca",
+        "DL900",
+        "ldol 3",
+        "Lume",
+        "ONE TOUCH Fierce",
+        "onetouch",
+        "Other",
+        "ot'pop",
+        "Phone",
+        "tcl"
+      ]
+    },
+    {
+      "id": "alcatel-2",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5044R",
+        "temporis ip80"
+      ]
+    },
+    {
+      "id": "alcatel-3",
+      "url": "/videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "A466BG"
+      ]
+    },
+    {
+      "id": "alcatel-4",
+      "url": "now.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "a502dl"
+      ]
+    },
+    {
+      "id": "alcatel-5",
+      "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LDOL 3",
+        "Other"
+      ]
+    },
+    {
+      "id": "alcatel-6",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Lume",
+        "PHONE"
+      ]
+    },
+    {
+      "id": "alcatel-7",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

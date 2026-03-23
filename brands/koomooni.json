@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Koomooni",
+  "brand_id": "koomooni",
+  "streams": [
+    {
+      "id": "koomooni-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "etu"
+      ]
+    }
+  ]
+}

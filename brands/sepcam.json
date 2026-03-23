@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Sepcam",
+  "brand_id": "sepcam",
+  "streams": [
+    {
+      "id": "sepcam-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LEDVANCE",
+        "Other"
+      ]
+    }
+  ]
+}

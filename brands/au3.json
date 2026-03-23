@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Au3",
+  "brand_id": "au3",
+  "streams": [
+    {
+      "id": "au3-1",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AU3-1",
+        "Other"
+      ]
+    }
+  ]
+}

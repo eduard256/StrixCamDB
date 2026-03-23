@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Mwr",
+  "brand_id": "mwr",
+  "streams": [
+    {
+      "id": "mwr-1",
+      "url": "/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C1223",
+        "MF822"
+      ]
+    },
+    {
+      "id": "mwr-2",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C1223HW"
+      ]
+    }
+  ]
+}

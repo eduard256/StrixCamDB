@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Squira",
+  "brand_id": "squira",
+  "streams": [
+    {
+      "id": "squira-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7070,
+      "models": [
+        "PD910"
+      ]
+    }
+  ]
+}

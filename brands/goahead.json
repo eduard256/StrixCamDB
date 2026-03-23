@@ -1,0 +1,120 @@
+{
+  "version": 2,
+  "brand": "Goahead",
+  "brand_id": "goahead",
+  "streams": [
+    {
+      "id": "goahead-1",
+      "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "112"
+      ]
+    },
+    {
+      "id": "goahead-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720p",
+        "GOAHEADWEBS",
+        "Other"
+      ]
+    },
+    {
+      "id": "goahead-3",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EC-101SD",
+        "GOAHEADWEBS",
+        "Other",
+        "thedon"
+      ]
+    },
+    {
+      "id": "goahead-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GoAheadWebs",
+        "H.264",
+        "Other"
+      ]
+    },
+    {
+      "id": "goahead-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GoAhead-Webs",
+        "H.264",
+        "Other"
+      ]
+    },
+    {
+      "id": "goahead-6",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GOAHEADWEBS",
+        "H.264",
+        "NCB-540",
+        "Other"
+      ]
+    },
+    {
+      "id": "goahead-7",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264",
+        "Other"
+      ]
+    },
+    {
+      "id": "goahead-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HBell"
+      ]
+    },
+    {
+      "id": "goahead-9",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "goahead-10",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

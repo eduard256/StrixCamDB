@@ -1,0 +1,109 @@
+{
+  "version": 2,
+  "brand": "Holdoor",
+  "brand_id": "holdoor",
+  "streams": [
+    {
+      "id": "holdoor-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p IP Camera",
+        "wcam-174040-nghrh",
+        "WCAM-220781-GGJUL",
+        "WIFICAM"
+      ]
+    },
+    {
+      "id": "holdoor-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "1080P IP CAMERA",
+        "2.1",
+        "650",
+        "NETCAM",
+        "Other",
+        "WIFI 720"
+      ]
+    },
+    {
+      "id": "holdoor-3",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "720p",
+        "720p WiFi",
+        "Netcam"
+      ]
+    },
+    {
+      "id": "holdoor-4",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "DWB-02242E"
+      ]
+    },
+    {
+      "id": "holdoor-5",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "NETCAM"
+      ]
+    },
+    {
+      "id": "holdoor-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "NETCAM",
+        "WCAM"
+      ]
+    },
+    {
+      "id": "holdoor-7",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "WCAM",
+        "wificam"
+      ]
+    },
+    {
+      "id": "holdoor-8",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "WIFI 720"
+      ]
+    },
+    {
+      "id": "holdoor-9",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "WiFi 720p"
+      ]
+    }
+  ]
+}

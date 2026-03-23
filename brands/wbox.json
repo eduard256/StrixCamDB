@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "brand": "Wbox",
+  "brand_id": "wbox",
+  "streams": [
+    {
+      "id": "wbox-1",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "0E-13DF28",
+        "0E-21DF28",
+        "OE-21DF28",
+        "Other"
+      ]
+    },
+    {
+      "id": "wbox-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 556,
+      "models": [
+        "0E-21BF40",
+        "0e-40bf40wdr",
+        "OE-21DF28",
+        "OE-31DF28",
+        "oe-clid5r2fs",
+        "Other",
+        "WBXIL139RT"
+      ]
+    },
+    {
+      "id": "wbox-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "OE-21BF40WDR"
+      ]
+    },
+    {
+      "id": "wbox-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "OE-21BF40WDR",
+        "OE-31BVF2812",
+        "OE-31DF28",
+        "OE-40BF40WDR"
+      ]
+    },
+    {
+      "id": "wbox-5",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WBXIB28124MW"
+      ]
+    }
+  ]
+}

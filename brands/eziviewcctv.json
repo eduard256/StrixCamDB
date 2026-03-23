@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Eziviewcctv",
+  "brand_id": "eziviewcctv",
+  "streams": [
+    {
+      "id": "eziviewcctv-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CS-C6N",
+        "DS-2CD1141"
+      ]
+    }
+  ]
+}

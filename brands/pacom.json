@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pacom",
+  "brand_id": "pacom",
+  "streams": [
+    {
+      "id": "pacom-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NVR"
+      ]
+    }
+  ]
+}

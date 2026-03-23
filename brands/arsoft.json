@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Arsoft",
+  "brand_id": "arsoft",
+  "streams": [
+    {
+      "id": "arsoft-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "xc36c"
+      ]
+    }
+  ]
+}

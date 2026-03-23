@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Weldex",
+  "brand_id": "weldex",
+  "streams": [
+    {
+      "id": "weldex-1",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Vision DVR608"
+      ]
+    },
+    {
+      "id": "weldex-2",
+      "url": "h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WDND-35071V"
+      ]
+    }
+  ]
+}

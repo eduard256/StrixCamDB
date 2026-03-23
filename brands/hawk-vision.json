@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Hawk Vision",
+  "brand_id": "hawk-vision",
+  "streams": [
+    {
+      "id": "hawk-vision-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "APPRO"
+      ]
+    },
+    {
+      "id": "hawk-vision-2",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Hawkvision"
+      ]
+    },
+    {
+      "id": "hawk-vision-3",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "K-D302MPOE"
+      ]
+    },
+    {
+      "id": "hawk-vision-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "uv ipdm15"
+      ]
+    }
+  ]
+}

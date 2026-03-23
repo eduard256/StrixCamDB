@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Fujinon",
+  "brand_id": "fujinon",
+  "streams": [
+    {
+      "id": "fujinon-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "sx800",
+        "SX8000"
+      ]
+    }
+  ]
+}

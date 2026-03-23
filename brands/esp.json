@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Esp",
+  "brand_id": "esp",
+  "streams": [
+    {
+      "id": "esp-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "CA55",
+        "Other"
+      ]
+    },
+    {
+      "id": "esp-2",
+      "url": "camera.jpg?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ESP 32"
+      ]
+    },
+    {
+      "id": "esp-3",
+      "url": "/stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "ESP 32",
+        "ESP32-S"
+      ]
+    },
+    {
+      "id": "esp-4",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ESP 32",
+        "Other"
+      ]
+    },
+    {
+      "id": "esp-5",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "ESP32-S"
+      ]
+    }
+  ]
+}

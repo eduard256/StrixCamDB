@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "brand": "Sentient Pro",
+  "brand_id": "sentient-pro",
+  "streams": [
+    {
+      "id": "sentient-pro-1",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A21RQ",
+        "Other"
+      ]
+    },
+    {
+      "id": "sentient-pro-2",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "sentient-pro-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N09KT"
+      ]
+    },
+    {
+      "id": "sentient-pro-4",
+      "url": "image/[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N09KT"
+      ]
+    },
+    {
+      "id": "sentient-pro-5",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

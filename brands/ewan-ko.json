@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ewan Ko",
+  "brand_id": "ewan-ko",
+  "streams": [
+    {
+      "id": "ewan-ko-1",
+      "url": "/CH002.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Dun lang"
+      ]
+    }
+  ]
+}

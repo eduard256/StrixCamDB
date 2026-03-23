@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Rubetek",
+  "brand_id": "rubetek",
+  "streams": [
+    {
+      "id": "rubetek-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "3404",
+        "rm-3712",
+        "rv-3407",
+        "RV-3416"
+      ]
+    },
+    {
+      "id": "rubetek-2",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "RV 3414"
+      ]
+    },
+    {
+      "id": "rubetek-3",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "RV-3420"
+      ]
+    }
+  ]
+}

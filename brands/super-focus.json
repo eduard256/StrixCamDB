@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Super Focus",
+  "brand_id": "super-focus",
+  "streams": [
+    {
+      "id": "super-focus-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

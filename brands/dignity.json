@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dignity",
+  "brand_id": "dignity",
+  "streams": [
+    {
+      "id": "dignity-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-002OAM"
+      ]
+    }
+  ]
+}

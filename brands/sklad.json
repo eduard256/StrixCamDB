@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Sklad",
+  "brand_id": "sklad",
+  "streams": [
+    {
+      "id": "sklad-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-200PHD-24"
+      ]
+    },
+    {
+      "id": "sklad-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPT_IPL720"
+      ]
+    }
+  ]
+}

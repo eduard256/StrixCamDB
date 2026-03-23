@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Sinovision",
+  "brand_id": "sinovision",
+  "streams": [
+    {
+      "id": "sinovision-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SN-IPCH20-MPT09",
+        "SN-MFPT20-ICS"
+      ]
+    }
+  ]
+}

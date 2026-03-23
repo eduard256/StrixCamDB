@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cc Plus",
+  "brand_id": "cc-plus",
+  "streams": [
+    {
+      "id": "cc-plus-1",
+      "url": "/live/channel1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5543,
+      "models": [
+        "E-35A"
+      ]
+    },
+    {
+      "id": "cc-plus-2",
+      "url": "/live/channel0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5543,
+      "models": [
+        "E-35A"
+      ]
+    }
+  ]
+}

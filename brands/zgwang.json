@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Zgwang",
+  "brand_id": "zgwang",
+  "streams": [
+    {
+      "id": "zgwang-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "X6 hhtp"
+      ]
+    },
+    {
+      "id": "zgwang-2",
+      "url": "/tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ZGW-X6"
+      ]
+    }
+  ]
+}

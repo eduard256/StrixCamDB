@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "brand": "Clever Loop",
+  "brand_id": "clever-loop",
+  "streams": [
+    {
+      "id": "clever-loop-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "251253-SLCPR",
+        "342405-JJWJS",
+        "457040-WXVZB",
+        "Other",
+        "X series"
+      ]
+    }
+  ]
+}

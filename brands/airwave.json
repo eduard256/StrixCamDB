@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Airwave",
+  "brand_id": "airwave",
+  "streams": [
+    {
+      "id": "airwave-1",
+      "url": "Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airwave-2",
+      "url": "cgi-bin/pusher.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airwave-3",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airwave-4",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airwave-5",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "wer"
+      ]
+    }
+  ]
+}

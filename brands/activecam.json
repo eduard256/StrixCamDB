@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Activecam",
+  "brand_id": "activecam",
+  "streams": [
+    {
+      "id": "activecam-1",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ac-d4121ir1v2"
+      ]
+    },
+    {
+      "id": "activecam-2",
+      "url": "/streaming/video0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AC-D7111IR1",
+        "Other"
+      ]
+    },
+    {
+      "id": "activecam-3",
+      "url": "/streaming/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AC-D7111IR1"
+      ]
+    }
+  ]
+}

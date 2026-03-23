@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Rainbow",
+  "brand_id": "rainbow",
+  "streams": [
+    {
+      "id": "rainbow-1",
+      "url": "cgi-bin/jpg/image.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPV1V3"
+      ]
+    },
+    {
+      "id": "rainbow-2",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPV1V3"
+      ]
+    }
+  ]
+}

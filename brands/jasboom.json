@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Jasboom",
+  "brand_id": "jasboom",
+  "streams": [
+    {
+      "id": "jasboom-1",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JAS130-F01G",
+        "JAS130-F030",
+        "Other"
+      ]
+    },
+    {
+      "id": "jasboom-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JAS130-F01G",
+        "JAS130-F030"
+      ]
+    }
+  ]
+}

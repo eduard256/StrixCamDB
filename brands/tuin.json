@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Tuin",
+  "brand_id": "tuin",
+  "streams": [
+    {
+      "id": "tuin-1",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "tuin-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 17531,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

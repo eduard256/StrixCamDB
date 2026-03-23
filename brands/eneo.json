@@ -1,0 +1,220 @@
+{
+  "version": 2,
+  "brand": "Eneo",
+  "brand_id": "eneo",
+  "streams": [
+    {
+      "id": "eneo-1",
+      "url": "dms",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ENC 1003 MJPEG",
+        "GXD-1610M",
+        "Other"
+      ]
+    },
+    {
+      "id": "eneo-2",
+      "url": "/live1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GLS-2302H",
+        "IEB-62F0036M0A",
+        "Jukola 1"
+      ]
+    },
+    {
+      "id": "eneo-3",
+      "url": "/ipcam/stream.cgi?nowprofileid=2",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "GXB-1710M"
+      ]
+    },
+    {
+      "id": "eneo-4",
+      "url": "dms?nowprofileid=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GXC-1606M-IR",
+        "GXD-1610M",
+        "GXD-1710M/IR"
+      ]
+    },
+    {
+      "id": "eneo-5",
+      "url": "dms?nowprofileid=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GXC-1606M-IR",
+        "GXD-1610M",
+        "GXD-1710M/IR"
+      ]
+    },
+    {
+      "id": "eneo-6",
+      "url": "ipcam/stream.cgi?nowprofileid=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GXC-1606M-IR"
+      ]
+    },
+    {
+      "id": "eneo-7",
+      "url": "ipcam/stream.cgi?nowprofileid=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GXD-1610M",
+        "GXD-1710M/IR"
+      ]
+    },
+    {
+      "id": "eneo-8",
+      "url": "/1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IED63"
+      ]
+    },
+    {
+      "id": "eneo-9",
+      "url": "/1/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IED63"
+      ]
+    },
+    {
+      "id": "eneo-10",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-55"
+      ]
+    },
+    {
+      "id": "eneo-11",
+      "url": "stream[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NLC-1401"
+      ]
+    },
+    {
+      "id": "eneo-12",
+      "url": "1/stream[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NLD/NXC/NXD camera"
+      ]
+    },
+    {
+      "id": "eneo-13",
+      "url": "/ch1/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NXC-1402",
+        "NXD-1602M"
+      ]
+    },
+    {
+      "id": "eneo-14",
+      "url": "/live2.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "eneo-15",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "eneo-16",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PLD-2012PTZ",
+        "PXD-1010F021",
+        "PXD-5360F01IR"
+      ]
+    },
+    {
+      "id": "eneo-17",
+      "url": "cam0_[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTB Series",
+        "PXB/PXD-2020/2080"
+      ]
+    },
+    {
+      "id": "eneo-18",
+      "url": "h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PXD-2018PTZ1080"
+      ]
+    },
+    {
+      "id": "eneo-19",
+      "url": "h264_2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PXD-2018PTZ1080"
+      ]
+    },
+    {
+      "id": "eneo-20",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PXD-5360F01IR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Univivi",
+  "brand_id": "univivi",
+  "streams": [
+    {
+      "id": "univivi-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "U611W"
+      ]
+    }
+  ]
+}

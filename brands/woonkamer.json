@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Woonkamer",
+  "brand_id": "woonkamer",
+  "streams": [
+    {
+      "id": "woonkamer-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "9014"
+      ]
+    },
+    {
+      "id": "woonkamer-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c703ip"
+      ]
+    },
+    {
+      "id": "woonkamer-3",
+      "url": "live/av0?user=[USERNAME]&passwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 8081,
+      "models": [
+        "dvc-135IP"
+      ]
+    },
+    {
+      "id": "woonkamer-4",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

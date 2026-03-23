@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Kohlen",
+  "brand_id": "kohlen",
+  "streams": [
+    {
+      "id": "kohlen-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "TV-CTZY9825A-GKA-2MP"
+      ]
+    },
+    {
+      "id": "kohlen-2",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TV-CZTY9825A-GKA-2MP"
+      ]
+    }
+  ]
+}

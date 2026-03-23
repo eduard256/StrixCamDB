@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gq1080p",
+  "brand_id": "gq1080p",
+  "streams": [
+    {
+      "id": "gq1080p-1",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BE-IPWB200ZW"
+      ]
+    }
+  ]
+}

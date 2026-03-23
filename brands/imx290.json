@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Imx290",
+  "brand_id": "imx290",
+  "streams": [
+    {
+      "id": "imx290-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

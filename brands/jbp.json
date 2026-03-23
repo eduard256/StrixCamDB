@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Jbp",
+  "brand_id": "jbp",
+  "streams": [
+    {
+      "id": "jbp-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "K8z",
+        "KZ2",
+        "kz8"
+      ]
+    },
+    {
+      "id": "jbp-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "KZ16"
+      ]
+    },
+    {
+      "id": "jbp-3",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KZ2"
+      ]
+    }
+  ]
+}

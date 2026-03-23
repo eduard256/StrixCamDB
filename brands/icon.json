@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Icon",
+  "brand_id": "icon",
+  "streams": [
+    {
+      "id": "icon-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullet"
+      ]
+    },
+    {
+      "id": "icon-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-42-MPTZ-EXT"
+      ]
+    },
+    {
+      "id": "icon-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-42-MPTZ-EXT"
+      ]
+    }
+  ]
+}

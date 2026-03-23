@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Digitalvision",
+  "brand_id": "digitalvision",
+  "streams": [
+    {
+      "id": "digitalvision-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2016C"
+      ]
+    }
+  ]
+}

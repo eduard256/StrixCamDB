@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "E-think",
+  "brand_id": "e-think",
+  "streams": [
+    {
+      "id": "e-think-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NH4RT-20717A"
+      ]
+    },
+    {
+      "id": "e-think-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NH4RT-20717A",
+        "Other"
+      ]
+    }
+  ]
+}

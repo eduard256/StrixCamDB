@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Tbkvision",
+  "brand_id": "tbkvision",
+  "streams": [
+    {
+      "id": "tbkvision-1",
+      "url": "/Streaming/Channels/[CHANNEL+1]01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "tbkvision-2",
+      "url": "/Streaming/Channels/[CHANNEL]01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "tbkvision-3",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TBK-BUL8841Z"
+      ]
+    }
+  ]
+}

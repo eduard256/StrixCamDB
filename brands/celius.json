@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Celius",
+  "brand_id": "celius",
+  "streams": [
+    {
+      "id": "celius-1",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP18W",
+        "IP61W"
+      ]
+    }
+  ]
+}

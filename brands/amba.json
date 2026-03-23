@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Amba",
+  "brand_id": "amba",
+  "streams": [
+    {
+      "id": "amba-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AB-002-hd"
+      ]
+    }
+  ]
+}

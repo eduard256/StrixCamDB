@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Glados Cam",
+  "brand_id": "glados-cam",
+  "streams": [
+    {
+      "id": "glados-cam-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Glados IPCam",
+        "Other"
+      ]
+    }
+  ]
+}

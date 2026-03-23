@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Roswill",
+  "brand_id": "roswill",
+  "streams": [
+    {
+      "id": "roswill-1",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rscm-122001"
+      ]
+    }
+  ]
+}

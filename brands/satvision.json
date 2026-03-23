@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "brand": "Satvision",
+  "brand_id": "satvision",
+  "streams": [
+    {
+      "id": "satvision-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "143"
+      ]
+    },
+    {
+      "id": "satvision-2",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "svi-223a",
+        "SVI-D223A SD",
+        "SVI-S223A",
+        "SVI-S223S",
+        "SVI-S483VM"
+      ]
+    },
+    {
+      "id": "satvision-3",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SVI-D343V",
+        "SVI-S123 SD",
+        "SVN-6625-PRO"
+      ]
+    },
+    {
+      "id": "satvision-4",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SVI-S112"
+      ]
+    },
+    {
+      "id": "satvision-5",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SVI-S123 SD"
+      ]
+    },
+    {
+      "id": "satvision-6",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SVI-S123 SD"
+      ]
+    }
+  ]
+}

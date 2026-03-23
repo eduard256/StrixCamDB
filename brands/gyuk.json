@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Gyuk",
+  "brand_id": "gyuk",
+  "streams": [
+    {
+      "id": "gyuk-1",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TL-SC3171G"
+      ]
+    },
+    {
+      "id": "gyuk-2",
+      "url": "cgi-bin/view/image?pro_[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TL-SC3171G"
+      ]
+    }
+  ]
+}

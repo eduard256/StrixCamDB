@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tr-d4101ir1v3",
+  "brand_id": "tr-d4101ir1v3",
+  "streams": [
+    {
+      "id": "tr-d4101ir1v3-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

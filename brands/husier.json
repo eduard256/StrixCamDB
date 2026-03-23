@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Husier",
+  "brand_id": "husier",
+  "streams": [
+    {
+      "id": "husier-1",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2455"
+      ]
+    }
+  ]
+}

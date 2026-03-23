@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Diopoint",
+  "brand_id": "diopoint",
+  "streams": [
+    {
+      "id": "diopoint-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dvr"
+      ]
+    },
+    {
+      "id": "diopoint-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR"
+      ]
+    }
+  ]
+}

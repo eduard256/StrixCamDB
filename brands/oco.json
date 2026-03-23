@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Oco",
+  "brand_id": "oco",
+  "streams": [
+    {
+      "id": "oco-1",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Pro Dome V2"
+      ]
+    }
+  ]
+}

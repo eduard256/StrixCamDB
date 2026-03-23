@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "brand": "Belkin",
+  "brand_id": "belkin",
+  "streams": [
+    {
+      "id": "belkin-1",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F7D7601v1",
+        "F7D7601V1",
+        "F7D7602v1",
+        "F7D7602V1",
+        "HD NetCam",
+        "NETCAM",
+        "NetCam F7D7601v1",
+        "NetCam HD",
+        "Netcam HD+",
+        "NetCam HDx",
+        "NetCam HDxx",
+        "open",
+        "WiFi NetCam"
+      ]
+    },
+    {
+      "id": "belkin-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "HD NETCAM"
+      ]
+    },
+    {
+      "id": "belkin-3",
+      "url": "img/mjpeg.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "netcam"
+      ]
+    },
+    {
+      "id": "belkin-4",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "belkin-5",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WiFi NetCam"
+      ]
+    },
+    {
+      "id": "belkin-6",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Victex",
+  "brand_id": "victex",
+  "streams": [
+    {
+      "id": "victex-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SYJUJ"
+      ]
+    },
+    {
+      "id": "victex-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Trung Quoc IP"
+      ]
+    }
+  ]
+}

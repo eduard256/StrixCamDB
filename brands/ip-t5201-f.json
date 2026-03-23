@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ip-t5201-f",
+  "brand_id": "ip-t5201-f",
+  "streams": [
+    {
+      "id": "ip-t5201-f-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Escam"
+      ]
+    }
+  ]
+}

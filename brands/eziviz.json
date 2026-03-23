@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Eziviz",
+  "brand_id": "eziviz",
+  "streams": [
+    {
+      "id": "eziviz-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C3C",
+        "CS-C1C",
+        "Ztube"
+      ]
+    }
+  ]
+}

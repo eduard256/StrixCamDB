@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Digisol",
+  "brand_id": "digisol",
+  "streams": [
+    {
+      "id": "digisol-1",
+      "url": "ipcam_h264.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "3630",
+        "dg-sc2600",
+        "DG-SC2600",
+        "Other"
+      ]
+    },
+    {
+      "id": "digisol-2",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "7100P",
+        "DG-SC3800P",
+        "dg-sc4600pi",
+        "dg-sc5800pi"
+      ]
+    },
+    {
+      "id": "digisol-3",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dg-sc2600"
+      ]
+    },
+    {
+      "id": "digisol-4",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dg-sc2600",
+        "DS SC 3610",
+        "Other"
+      ]
+    },
+    {
+      "id": "digisol-5",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DG-SC2600",
+        "DS SC 3630"
+      ]
+    },
+    {
+      "id": "digisol-6",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "digisol-7",
+      "url": "ipcam.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "RTSP"
+      ]
+    }
+  ]
+}

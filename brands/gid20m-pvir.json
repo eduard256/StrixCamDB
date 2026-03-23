@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gid20m-pvir",
+  "brand_id": "gid20m-pvir",
+  "streams": [
+    {
+      "id": "gid20m-pvir-1",
+      "url": "/onvif/media",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "G4S"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Doogee",
+  "brand_id": "doogee",
+  "streams": [
+    {
+      "id": "doogee-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DG550",
+        "t6 pro",
+        "y6 max"
+      ]
+    },
+    {
+      "id": "doogee-2",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ymax"
+      ]
+    }
+  ]
+}

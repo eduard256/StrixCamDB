@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jialite",
+  "brand_id": "jialite",
+  "streams": [
+    {
+      "id": "jialite-1",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-E3600"
+      ]
+    }
+  ]
+}

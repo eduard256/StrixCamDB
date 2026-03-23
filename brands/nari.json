@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Nari",
+  "brand_id": "nari",
+  "streams": [
+    {
+      "id": "nari-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N2021"
+      ]
+    },
+    {
+      "id": "nari-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N2021"
+      ]
+    }
+  ]
+}

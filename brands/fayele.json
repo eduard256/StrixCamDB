@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "brand": "Fayele",
+  "brand_id": "fayele",
+  "streams": [
+    {
+      "id": "fayele-1",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FY-HD54F-5MP"
+      ]
+    },
+    {
+      "id": "fayele-2",
+      "url": "mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip-5mp-poe"
+      ]
+    },
+    {
+      "id": "fayele-3",
+      "url": "cam[CHANNEL]/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip-5mp-poe"
+      ]
+    },
+    {
+      "id": "fayele-4",
+      "url": "mpeg4/media.amp?resolution=640x480",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NDR-305-BGIT8",
+        "NDR-305D",
+        "NDR-305D-4X",
+        "ndr-6402-530x",
+        "Other"
+      ]
+    }
+  ]
+}

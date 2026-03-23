@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hx-635k",
+  "brand_id": "hx-635k",
+  "streams": [
+    {
+      "id": "hx-635k-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M-JAPEG"
+      ]
+    }
+  ]
+}

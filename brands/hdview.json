@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Hdview",
+  "brand_id": "hdview",
+  "streams": [
+    {
+      "id": "hdview-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dome",
+        "IPVD3MS-2.8-W"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Xin Ling",
+  "brand_id": "xin-ling",
+  "streams": [
+    {
+      "id": "xin-ling-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xin-ling-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xin-ling-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

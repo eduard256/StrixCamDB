@@ -1,0 +1,153 @@
+{
+  "version": 2,
+  "brand": "Wisenet",
+  "brand_id": "wisenet",
+  "streams": [
+    {
+      "id": "wisenet-1",
+      "url": "/profile3/media.smp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8080rv",
+        "XND-6080"
+      ]
+    },
+    {
+      "id": "wisenet-2",
+      "url": "/profile2/media.smp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ANE-L7012R",
+        "QNV-8080R",
+        "SNO-L6013R"
+      ]
+    },
+    {
+      "id": "wisenet-3",
+      "url": "/onvif/profile2/media.smp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "LND-6020R",
+        "QND-6070R",
+        "QND-8011"
+      ]
+    },
+    {
+      "id": "wisenet-4",
+      "url": "/onvif/profile1/media.smp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "LNO-6010R",
+        "Wisenet LNO-6010R",
+        "XNF-8010R",
+        "XNO-6120R",
+        "XNV-C6083R"
+      ]
+    },
+    {
+      "id": "wisenet-5",
+      "url": "cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 1935,
+      "models": [
+        "Other",
+        "QND-6070R",
+        "QNO-6070R",
+        "QNO-7010R",
+        "QNO-7080R"
+      ]
+    },
+    {
+      "id": "wisenet-6",
+      "url": "/cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "pnm-9020",
+        "QNO-7080R"
+      ]
+    },
+    {
+      "id": "wisenet-7",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8282,
+      "models": [
+        "QNP-6230H"
+      ]
+    },
+    {
+      "id": "wisenet-8",
+      "url": "/HighResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "QNP-6250H"
+      ]
+    },
+    {
+      "id": "wisenet-9",
+      "url": "/stw-cgi/video.cgi?msubmenu=snapshot&action=view",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10001,
+      "models": [
+        "QNV-7082R",
+        "SNV-L6083R"
+      ]
+    },
+    {
+      "id": "wisenet-10",
+      "url": "/stw-cgi/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10001,
+      "models": [
+        "QNV-7082R"
+      ]
+    },
+    {
+      "id": "wisenet-11",
+      "url": "/mjpg/1/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "SNV-6013"
+      ]
+    },
+    {
+      "id": "wisenet-12",
+      "url": "/axis-media/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SNV-L6083R",
+        "XNB-8000"
+      ]
+    },
+    {
+      "id": "wisenet-13",
+      "url": "/0/onvif/profile2/media.smp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 4554,
+      "models": [
+        "XND-6080RV"
+      ]
+    }
+  ]
+}

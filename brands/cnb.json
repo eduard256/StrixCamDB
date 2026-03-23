@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Cnb",
+  "brand_id": "cnb",
+  "streams": [
+    {
+      "id": "cnb-1",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IDC4000T",
+        "ISS2765p",
+        "MPC1070PN KC4",
+        "Other"
+      ]
+    },
+    {
+      "id": "cnb-2",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ISS2765P",
+        "Network Camera",
+        "Other"
+      ]
+    },
+    {
+      "id": "cnb-3",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IVP4030 VR",
+        "Network Camera",
+        "Other"
+      ]
+    },
+    {
+      "id": "cnb-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

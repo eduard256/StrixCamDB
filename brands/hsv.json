@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hsv",
+  "brand_id": "hsv",
+  "streams": [
+    {
+      "id": "hsv-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

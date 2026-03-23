@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Dodocool",
+  "brand_id": "dodocool",
+  "streams": [
+    {
+      "id": "dodocool-1",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA",
+        "Other"
+      ]
+    },
+    {
+      "id": "dodocool-2",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Inc",
+  "brand_id": "inc",
+  "streams": [
+    {
+      "id": "inc-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "INC-MP30VC-0280"
+      ]
+    },
+    {
+      "id": "inc-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MP20V"
+      ]
+    }
+  ]
+}

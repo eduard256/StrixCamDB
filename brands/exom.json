@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Exom",
+  "brand_id": "exom",
+  "streams": [
+    {
+      "id": "exom-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EIPC-D354"
+      ]
+    }
+  ]
+}

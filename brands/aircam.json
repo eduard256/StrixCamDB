@@ -1,0 +1,154 @@
+{
+  "version": 2,
+  "brand": "Aircam",
+  "brand_id": "aircam",
+  "streams": [
+    {
+      "id": "aircam-1",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "aircam dome",
+        "Other",
+        "Ubiquity",
+        "unv"
+      ]
+    },
+    {
+      "id": "aircam-2",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AirCam Domo",
+        "Dome",
+        "DOME",
+        "Mini",
+        "OD-2025hd",
+        "OD-325HD",
+        "Other",
+        "tanadewa",
+        "Ubiquity",
+        "UBIQUITY"
+      ]
+    },
+    {
+      "id": "aircam-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OD-2025hd",
+        "Other",
+        "UBIQUITY"
+      ]
+    },
+    {
+      "id": "aircam-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OD-2025hd",
+        "Other"
+      ]
+    },
+    {
+      "id": "aircam-5",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OD-2025hd",
+        "OD-2025HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "aircam-6",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "OD-2025HD"
+      ]
+    },
+    {
+      "id": "aircam-7",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OD-325HD"
+      ]
+    },
+    {
+      "id": "aircam-8",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OD-325HD"
+      ]
+    },
+    {
+      "id": "aircam-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aircam-10",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aircam-11",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aircam-12",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aircam-13",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "tablet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Cootli",
+  "brand_id": "cootli",
+  "streams": [
+    {
+      "id": "cootli-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "R80XD30-PQ",
+        "R80XD550-PQ_8M",
+        "X4C-WQ"
+      ]
+    },
+    {
+      "id": "cootli-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "X4C-WQ"
+      ]
+    }
+  ]
+}

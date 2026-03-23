@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Fanshine",
+  "brand_id": "fanshine",
+  "streams": [
+    {
+      "id": "fanshine-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "fahd1",
+        "fahd3",
+        "FiA027D",
+        "FSWF03"
+      ]
+    }
+  ]
+}

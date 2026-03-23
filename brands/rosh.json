@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Rosh",
+  "brand_id": "rosh",
+  "streams": [
+    {
+      "id": "rosh-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    }
+  ]
+}

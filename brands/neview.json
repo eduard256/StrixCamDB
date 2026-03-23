@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Neview",
+  "brand_id": "neview",
+  "streams": [
+    {
+      "id": "neview-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CHD-B1pv2"
+      ]
+    }
+  ]
+}

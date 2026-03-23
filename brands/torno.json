@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Torno",
+  "brand_id": "torno",
+  "streams": [
+    {
+      "id": "torno-1",
+      "url": "/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ONVIF"
+      ]
+    }
+  ]
+}

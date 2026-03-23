@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Dasco",
+  "brand_id": "dasco",
+  "streams": [
+    {
+      "id": "dasco-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dasco-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

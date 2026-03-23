@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dotix",
+  "brand_id": "dotix",
+  "streams": [
+    {
+      "id": "dotix-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "7-star",
+  "brand_id": "7-star",
+  "streams": [
+    {
+      "id": "7-star-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIPB-SC22"
+      ]
+    }
+  ]
+}

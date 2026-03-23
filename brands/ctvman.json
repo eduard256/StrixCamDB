@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ctvman",
+  "brand_id": "ctvman",
+  "streams": [
+    {
+      "id": "ctvman-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CM405IP-V10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "version": 2,
+  "brand": "Jooan",
+  "brand_id": "jooan",
+  "streams": [
+    {
+      "id": "jooan-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080P IP Outdoor",
+        "JA-4216(X)",
+        "XM530_83X40_8M"
+      ]
+    },
+    {
+      "id": "jooan-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080P IP OUTDOOR",
+        "1314",
+        "703",
+        "703CRB",
+        "703ERC",
+        "703ERC-T",
+        "703hrb",
+        "703KRA-T",
+        "703KRB-T 2mp",
+        "704ERC-T",
+        "704Yrc",
+        "705NRB-Z-P",
+        "720",
+        "720P Bullet Camera",
+        "720P OMNIF",
+        "720p PoE IP",
+        "737NRC-T",
+        "825",
+        "Dome IP",
+        "JA-404ARA-T",
+        "JA-703ERA-T-P",
+        "JA-703ERC-T",
+        "JA-703HRB-T-P ONVIF",
+        "JA-703KRA-T",
+        "JA-703KRA-T-mine",
+        "ja-703krb",
+        "JA-703-KRB-T-P",
+        "JA-703KRC-T2 (720p)",
+        "JA-703KR-T witrh pw",
+        "ja-7114poe",
+        "ja-733kbrt",
+        "ja-733krb-t",
+        "JA-737NRC-T-P",
+        "JA-763TRE",
+        "Other",
+        "TC-404",
+        "TC-734"
+      ]
+    },
+    {
+      "id": "jooan-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "144",
+        "150",
+        "2010",
+        "241",
+        "242",
+        "243",
+        "244",
+        "ip2",
+        "ja-734nrb-t-w",
+        "ONVIF",
+        "Other",
+        "PE2010"
+      ]
+    },
+    {
+      "id": "jooan-4",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "144",
+        "734eri-p",
+        "734eri-w",
+        "734KRI",
+        "825",
+        "IP2",
+        "IPCAM-100",
+        "JA-734ERI-T-P",
+        "Other"
+      ]
+    },
+    {
+      "id": "jooan-5",
+      "url": "/live/ch00_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2TR-U",
+        "A2R-U",
+        "A6M-U",
+        "F10T",
+        "JA-4216(X)",
+        "JA-C9E",
+        "JA-F10R-4-U",
+        "JA-F10T-4-U",
+        "JA-F2R-U",
+        "Q3RU",
+        "w8-u",
+        "WiFi Cam-W"
+      ]
+    },
+    {
+      "id": "jooan-6",
+      "url": "//user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4208t-us",
+        "703KRA-T"
+      ]
+    },
+    {
+      "id": "jooan-7",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "703 hrb",
+        "703KRA",
+        "703KRB-T 2.0",
+        "720P IP CAMERA",
+        "JA-703KRA-T",
+        "JA-731KRD-T",
+        "JA-737NRC-T-E",
+        "ja-f11c"
+      ]
+    },
+    {
+      "id": "jooan-8",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "703KRA-T",
+        "825"
+      ]
+    },
+    {
+      "id": "jooan-9",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "703KRA-T",
+        "770",
+        "JA-700MRB-T",
+        "JA-700MRB-US",
+        "JA-700MR-W-US",
+        "JA-770MR",
+        "JA-770MR-US",
+        "JA-770MR-W",
+        "JA-770mr-W-US",
+        "JA-A5-US",
+        "ONVIF"
+      ]
+    },
+    {
+      "id": "jooan-10",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "734"
+      ]
+    },
+    {
+      "id": "jooan-11",
+      "url": "/onvif2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "825",
+        "JA-770MR-W-US",
+        "JA-A5-US"
+      ]
+    },
+    {
+      "id": "jooan-12",
+      "url": "/channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "825"
+      ]
+    },
+    {
+      "id": "jooan-13",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "825",
+        "A2D-U",
+        "B07VMXHTPX",
+        "Dome IP",
+        "E9N",
+        "F10T",
+        "ja-A5-EU",
+        "ja-c2c-d-eu",
+        "JA-C2C-D-US",
+        "JA-C2M-D-US",
+        "JA-C5M-D-EU",
+        "ja-c6",
+        "JA-C6-M",
+        "JA-C6M-D",
+        "ja-c6m-d-us",
+        "JA-F10R-4U",
+        "JA-Q7R-U",
+        "JA-Q9T",
+        "q10q",
+        "Q7R",
+        "Q9T",
+        "W3-U",
+        "W8-U"
+      ]
+    },
+    {
+      "id": "jooan-14",
+      "url": "/?action=stream",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "825"
+      ]
+    },
+    {
+      "id": "jooan-15",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "825",
+        "IPC 1.3.0"
+      ]
+    },
+    {
+      "id": "jooan-16",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "a-a4m-d-us 720p",
+        "c9c",
+        "JA-C2C-D-US",
+        "JA-C2-D",
+        "ja-c2m-d-us",
+        "JA-C5M-D-EU",
+        "ja-c5m-d-us.Ian",
+        "ja-c6c-d-us",
+        "ja-c6m-d-us",
+        "JA-C9E",
+        "jaq7rl",
+        "ONVIF",
+        "Other",
+        "q10q",
+        "T2R-U"
+      ]
+    },
+    {
+      "id": "jooan-17",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "Dome IP"
+      ]
+    },
+    {
+      "id": "jooan-18",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream--rtp-caching=100",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR",
+        "TC404"
+      ]
+    },
+    {
+      "id": "jooan-19",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JA703ERA-T-P"
+      ]
+    },
+    {
+      "id": "jooan-20",
+      "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "JA-703ERA-T-P",
+        "JA-F10R-4-U"
+      ]
+    },
+    {
+      "id": "jooan-21",
+      "url": "/cgi-bin/view.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "JA-703ERC-T"
+      ]
+    },
+    {
+      "id": "jooan-22",
+      "url": "/live/ch01_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JA-W6XG"
+      ]
+    },
+    {
+      "id": "jooan-23",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TC-734"
+      ]
+    },
+    {
+      "id": "jooan-24",
+      "url": "/live/ch01_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "W8-U"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xka",
+  "brand_id": "xka",
+  "streams": [
+    {
+      "id": "xka-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Mini"
+      ]
+    }
+  ]
+}

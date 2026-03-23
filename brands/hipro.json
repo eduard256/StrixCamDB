@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Hipro",
+  "brand_id": "hipro",
+  "streams": [
+    {
+      "id": "hipro-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "007",
+        "A006",
+        "Other"
+      ]
+    }
+  ]
+}

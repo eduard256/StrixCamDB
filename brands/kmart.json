@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kmart",
+  "brand_id": "kmart",
+  "streams": [
+    {
+      "id": "kmart-1",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

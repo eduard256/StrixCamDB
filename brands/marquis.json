@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "Marquis",
+  "brand_id": "marquis",
+  "streams": [
+    {
+      "id": "marquis-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ipc-xd400",
+        "ipc-yt824",
+        "YMA42P"
+      ]
+    },
+    {
+      "id": "marquis-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ipc-yt60"
+      ]
+    },
+    {
+      "id": "marquis-3",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ipc-yt60"
+      ]
+    },
+    {
+      "id": "marquis-4",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-YT60"
+      ]
+    },
+    {
+      "id": "marquis-5",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-YT60"
+      ]
+    }
+  ]
+}

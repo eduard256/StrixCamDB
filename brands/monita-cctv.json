@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Monita Cctv",
+  "brand_id": "monita-cctv",
+  "streams": [
+    {
+      "id": "monita-cctv-1",
+      "url": "/channel=0;stream=0;user=[USERNAME];pass=[PASSWORD];",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LPR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Axp",
+  "brand_id": "axp",
+  "streams": [
+    {
+      "id": "axp-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ca640h3",
+        "Other"
+      ]
+    },
+    {
+      "id": "axp-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ca640h3",
+        "CA640O4/5I10WB-K",
+        "Other"
+      ]
+    },
+    {
+      "id": "axp-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CC1280O4"
+      ]
+    },
+    {
+      "id": "axp-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

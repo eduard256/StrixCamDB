@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Teleste",
+  "brand_id": "teleste",
+  "streams": [
+    {
+      "id": "teleste-1",
+      "url": "snapshot/snapshot.esp?stream=videoport&type=jpeg&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MPX"
+      ]
+    }
+  ]
+}

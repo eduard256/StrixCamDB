@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Octoprint",
+  "brand_id": "octoprint",
+  "streams": [
+    {
+      "id": "octoprint-1",
+      "url": "/webcam/?action=stream",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other",
+        "Pi3",
+        "Pi4",
+        "RP4"
+      ]
+    }
+  ]
+}

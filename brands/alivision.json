@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Alivision",
+  "brand_id": "alivision",
+  "streams": [
+    {
+      "id": "alivision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HSP01h2Z20"
+      ]
+    },
+    {
+      "id": "alivision-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HSP01H2Z20"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Voycam",
+  "brand_id": "voycam",
+  "streams": [
+    {
+      "id": "voycam-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WXH-101375-FAEDD"
+      ]
+    }
+  ]
+}

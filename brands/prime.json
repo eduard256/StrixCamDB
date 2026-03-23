@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Prime",
+  "brand_id": "prime",
+  "streams": [
+    {
+      "id": "prime-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "prime-2",
+      "url": "cam[CHANNEL]/h264/multicast",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

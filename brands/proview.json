@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Proview",
+  "brand_id": "proview",
+  "streams": [
+    {
+      "id": "proview-1",
+      "url": "/user=admin_password=[PASSWORD]_channel=0_stream=0&onvif=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SM-PR5036"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Surcomm",
+  "brand_id": "surcomm",
+  "streams": [
+    {
+      "id": "surcomm-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DBC831",
+        "oc810",
+        "rc8025b"
+      ]
+    },
+    {
+      "id": "surcomm-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OC830",
+        "rc8025b"
+      ]
+    }
+  ]
+}

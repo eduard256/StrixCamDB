@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "brand": "Jaytech",
+  "brand_id": "jaytech",
+  "streams": [
+    {
+      "id": "jaytech-1",
+      "url": "/ONVIF/Streaming/channels/0_a/unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DH43"
+      ]
+    },
+    {
+      "id": "jaytech-2",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DH43"
+      ]
+    },
+    {
+      "id": "jaytech-3",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DH43",
+        "Ding"
+      ]
+    },
+    {
+      "id": "jaytech-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP6021W"
+      ]
+    },
+    {
+      "id": "jaytech-5",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC019"
+      ]
+    }
+  ]
+}

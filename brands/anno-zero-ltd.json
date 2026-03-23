@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anno Zero Ltd",
+  "brand_id": "anno-zero-ltd",
+  "streams": [
+    {
+      "id": "anno-zero-ltd-1",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Entrance"
+      ]
+    }
+  ]
+}

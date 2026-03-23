@@ -1,0 +1,281 @@
+{
+  "version": 2,
+  "brand": "255 Ip Cam",
+  "brand_id": "255-ip-cam",
+  "streams": [
+    {
+      "id": "255-ip-cam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "255",
+        "32X 5MP",
+        "C6F0SgZ3N0PfL2",
+        "C6F0SoZ3N0P9L2",
+        "CF0Sgzonopfl2",
+        "DENVER IPO-1320MK2",
+        "DRC6F0SgZ3N0P6L2",
+        "es cam g02",
+        "HW0029",
+        "ICAM",
+        "IIII-551433-ABEBF",
+        "IUK 5A1",
+        "Other",
+        "phr04k",
+        "pppp-216658-ecdcb",
+        "ProeliteIP01axBLK",
+        "q52-5mp-wh",
+        "SRICAM",
+        "tttt-489242-vxvmx",
+        "xly0144"
+      ]
+    },
+    {
+      "id": "255-ip-cam-2",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "255",
+        "ICAM",
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "255",
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-4",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3030",
+        "C6F0SoZ3N0P9L2",
+        "IIII-259624-EAADF",
+        "IUK 5A1",
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-5",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4455",
+        "IPC365"
+      ]
+    },
+    {
+      "id": "255-ip-cam-6",
+      "url": "/tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8082,
+      "models": [
+        "C9F0SgZ3N0PbL0"
+      ]
+    },
+    {
+      "id": "255-ip-cam-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "common"
+      ]
+    },
+    {
+      "id": "255-ip-cam-8",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.265"
+      ]
+    },
+    {
+      "id": "255-ip-cam-9",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "icam",
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-10",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 5544,
+      "models": [
+        "ICAM",
+        "Other",
+        "PoE"
+      ]
+    },
+    {
+      "id": "255-ip-cam-11",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ip66minicam"
+      ]
+    },
+    {
+      "id": "255-ip-cam-12",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ipc"
+      ]
+    },
+    {
+      "id": "255-ip-cam-13",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Ipc",
+        "ip-camera",
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-14",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-V380-Q79"
+      ]
+    },
+    {
+      "id": "255-ip-cam-15",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "IUK 5A1",
+        "Other",
+        "sricam"
+      ]
+    },
+    {
+      "id": "255-ip-cam-16",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kiina"
+      ]
+    },
+    {
+      "id": "255-ip-cam-17",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-18",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-19",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-20",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-21",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-22",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "255-ip-cam-23",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "sioplus"
+      ]
+    },
+    {
+      "id": "255-ip-cam-24",
+      "url": "/videofeed",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "top"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Bravo",
+  "brand_id": "bravo",
+  "streams": [
+    {
+      "id": "bravo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "92902926"
+      ]
+    },
+    {
+      "id": "bravo-2",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "EM63xx"
+      ]
+    },
+    {
+      "id": "bravo-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

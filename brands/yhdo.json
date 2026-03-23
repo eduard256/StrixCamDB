@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Yhdo",
+  "brand_id": "yhdo",
+  "streams": [
+    {
+      "id": "yhdo-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IW-9601"
+      ]
+    },
+    {
+      "id": "yhdo-2",
+      "url": "/4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

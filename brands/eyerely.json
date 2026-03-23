@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eyerely",
+  "brand_id": "eyerely",
+  "streams": [
+    {
+      "id": "eyerely-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "X500"
+      ]
+    }
+  ]
+}

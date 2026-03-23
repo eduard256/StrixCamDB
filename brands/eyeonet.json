@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Eyeonet",
+  "brand_id": "eyeonet",
+  "streams": [
+    {
+      "id": "eyeonet-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP6394"
+      ]
+    },
+    {
+      "id": "eyeonet-2",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "eyeonet-3",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

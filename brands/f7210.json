@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "F7210",
+  "brand_id": "f7210",
+  "streams": [
+    {
+      "id": "f7210-1",
+      "url": "/video.pro1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "zavio"
+      ]
+    }
+  ]
+}

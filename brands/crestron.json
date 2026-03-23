@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Crestron",
+  "brand_id": "crestron",
+  "streams": [
+    {
+      "id": "crestron-1",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NVS100"
+      ]
+    }
+  ]
+}

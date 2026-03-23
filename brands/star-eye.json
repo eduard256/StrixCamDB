@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Star Eye",
+  "brand_id": "star-eye",
+  "streams": [
+    {
+      "id": "star-eye-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "619"
+      ]
+    }
+  ]
+}

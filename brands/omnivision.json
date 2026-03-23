@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Omnivision",
+  "brand_id": "omnivision",
+  "streams": [
+    {
+      "id": "omnivision-1",
+      "url": "/stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "OV2640"
+      ]
+    },
+    {
+      "id": "omnivision-2",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "OV5647"
+      ]
+    }
+  ]
+}

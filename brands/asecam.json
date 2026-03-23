@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Asecam",
+  "brand_id": "asecam",
+  "streams": [
+    {
+      "id": "asecam-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8 MP",
+        "8MP Dome",
+        "IF52N53-IR",
+        "IF56N53-IR",
+        "NH4RH-200H",
+        "NZ4RN-A80A18",
+        "Other",
+        "P05H42"
+      ]
+    },
+    {
+      "id": "asecam-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8mp"
+      ]
+    },
+    {
+      "id": "asecam-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8MP Smart Camera"
+      ]
+    },
+    {
+      "id": "asecam-4",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Dome 4K"
+      ]
+    }
+  ]
+}

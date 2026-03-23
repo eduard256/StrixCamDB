@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Zjuxin",
+  "brand_id": "zjuxin",
+  "streams": [
+    {
+      "id": "zjuxin-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "unica",
+        "zjx"
+      ]
+    },
+    {
+      "id": "zjuxin-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "zjx"
+      ]
+    }
+  ]
+}

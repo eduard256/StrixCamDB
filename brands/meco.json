@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Meco",
+  "brand_id": "meco",
+  "streams": [
+    {
+      "id": "meco-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Bell 5t"
+      ]
+    },
+    {
+      "id": "meco-2",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Eleverde"
+      ]
+    }
+  ]
+}

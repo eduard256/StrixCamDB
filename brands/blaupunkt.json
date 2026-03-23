@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Blaupunkt",
+  "brand_id": "blaupunkt",
+  "streams": [
+    {
+      "id": "blaupunkt-1",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D30",
+        "VIO-B30",
+        "vio-D40",
+        "VIO-DP20"
+      ]
+    },
+    {
+      "id": "blaupunkt-2",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46MTNWV2JyMjg=",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Vio-HS20"
+      ]
+    }
+  ]
+}

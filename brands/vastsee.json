@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vastsee",
+  "brand_id": "vastsee",
+  "streams": [
+    {
+      "id": "vastsee-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Va1"
+      ]
+    }
+  ]
+}

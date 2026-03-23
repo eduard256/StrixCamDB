@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Wevo",
+  "brand_id": "wevo",
+  "streams": [
+    {
+      "id": "wevo-1",
+      "url": "stream[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8081,
+      "models": [
+        "200B",
+        "200FHD"
+      ]
+    },
+    {
+      "id": "wevo-2",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "200-FHD"
+      ]
+    }
+  ]
+}

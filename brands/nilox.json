@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "brand": "Nilox",
+  "brand_id": "nilox",
+  "streams": [
+    {
+      "id": "nilox-1",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "16NX2601FI002",
+        "16NX2644PT001"
+      ]
+    },
+    {
+      "id": "nilox-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "16NX2644PT001",
+        "Other"
+      ]
+    },
+    {
+      "id": "nilox-3",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "16NX2644PT001",
+        "Other"
+      ]
+    },
+    {
+      "id": "nilox-4",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "16NX2644PT001",
+        "Netwideye100",
+        "Other"
+      ]
+    },
+    {
+      "id": "nilox-5",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

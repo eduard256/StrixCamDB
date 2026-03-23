@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nlc Cam",
+  "brand_id": "nlc-cam",
+  "streams": [
+    {
+      "id": "nlc-cam-1",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

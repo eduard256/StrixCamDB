@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Elp201",
+  "brand_id": "elp201",
+  "streams": [
+    {
+      "id": "elp201-1",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1280*720P"
+      ]
+    },
+    {
+      "id": "elp201-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1MEGPIX"
+      ]
+    },
+    {
+      "id": "elp201-3",
+      "url": "snap.jpg?JpegSize=M",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720P MINI"
+      ]
+    },
+    {
+      "id": "elp201-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DOME"
+      ]
+    }
+  ]
+}

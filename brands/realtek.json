@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Realtek",
+  "brand_id": "realtek",
+  "streams": [
+    {
+      "id": "realtek-1",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2200"
+      ]
+    },
+    {
+      "id": "realtek-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PCI GBE Family",
+        "PCIe GBE Family"
+      ]
+    }
+  ]
+}

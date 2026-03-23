@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sve3",
+  "brand_id": "sve3",
+  "streams": [
+    {
+      "id": "sve3-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hdcamera"
+      ]
+    }
+  ]
+}

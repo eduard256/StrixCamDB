@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Ip Webcam App",
+  "brand_id": "ip-webcam-app",
+  "streams": [
+    {
+      "id": "ip-webcam-app-1",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Webcam(Android)"
+      ]
+    },
+    {
+      "id": "ip-webcam-app-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA"
+      ]
+    },
+    {
+      "id": "ip-webcam-app-3",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-app-4",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Telefoon"
+      ]
+    }
+  ]
+}

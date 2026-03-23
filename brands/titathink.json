@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "brand": "Titathink",
+  "brand_id": "titathink",
+  "streams": [
+    {
+      "id": "titathink-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Clock",
+        "GF-H100",
+        "TT531W-N"
+      ]
+    },
+    {
+      "id": "titathink-2",
+      "url": "/1.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "CLOCK",
+        "TT520PW"
+      ]
+    },
+    {
+      "id": "titathink-3",
+      "url": "/live/0/onvif.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Pinhole",
+        "TT520PW",
+        "TT522PW-PRO",
+        "TT522W-PRO",
+        "TT525PW",
+        "TT525PW 108",
+        "TT730PW"
+      ]
+    },
+    {
+      "id": "titathink-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TT520PW",
+        "TT522PW",
+        "TT522PW-PRO",
+        "TT730PW"
+      ]
+    },
+    {
+      "id": "titathink-5",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TT520PW",
+        "TT522PW-PRO"
+      ]
+    },
+    {
+      "id": "titathink-6",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TT531W-N"
+      ]
+    }
+  ]
+}

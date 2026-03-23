@@ -1,0 +1,166 @@
+{
+  "version": 2,
+  "brand": "Ycc365",
+  "brand_id": "ycc365",
+  "streams": [
+    {
+      "id": "ycc365-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "365",
+        "Cloud Cam",
+        "Plus"
+      ]
+    },
+    {
+      "id": "ycc365-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "365",
+        "365plus",
+        "Cloud",
+        "p05-c"
+      ]
+    },
+    {
+      "id": "ycc365-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "365plus",
+        "365PLUS",
+        "c-p05 en",
+        "P2P"
+      ]
+    },
+    {
+      "id": "ycc365-4",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "365plus",
+        "365PLUS",
+        "P2P"
+      ]
+    },
+    {
+      "id": "ycc365-5",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "365PLUS",
+        "Cloudcam",
+        "dalmose",
+        "outdoor PTZ",
+        "p2p",
+        "plus",
+        "Plus",
+        "torkil"
+      ]
+    },
+    {
+      "id": "ycc365-6",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Cloud Cam"
+      ]
+    },
+    {
+      "id": "ycc365-7",
+      "url": "/0/av1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "dalmose",
+        "torkil"
+      ]
+    },
+    {
+      "id": "ycc365-8",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "GIPC",
+        "P05-C"
+      ]
+    },
+    {
+      "id": "ycc365-9",
+      "url": "/onvif2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ycc365-10",
+      "url": "/H264/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ycc365-11",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ycc365-12",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "p05-c"
+      ]
+    },
+    {
+      "id": "ycc365-13",
+      "url": "live_mpeg4.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "p05-c"
+      ]
+    },
+    {
+      "id": "ycc365-14",
+      "url": "/onvif/device_service",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Plus"
+      ]
+    }
+  ]
+}

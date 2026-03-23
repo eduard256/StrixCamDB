@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Meye",
+  "brand_id": "meye",
+  "streams": [
+    {
+      "id": "meye-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "004231",
+        "Cam_213386"
+      ]
+    },
+    {
+      "id": "meye-2",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "013632-AEAAF",
+        "171719",
+        "BBEBE",
+        "Other"
+      ]
+    }
+  ]
+}

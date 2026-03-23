@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Img",
+  "brand_id": "img",
+  "streams": [
+    {
+      "id": "img-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

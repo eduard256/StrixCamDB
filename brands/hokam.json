@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hokam",
+  "brand_id": "hokam",
+  "streams": [
+    {
+      "id": "hokam-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "a9 mini"
+      ]
+    }
+  ]
+}

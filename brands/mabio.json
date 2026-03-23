@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Mabio",
+  "brand_id": "mabio",
+  "streams": [
+    {
+      "id": "mabio-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "P 450"
+      ]
+    },
+    {
+      "id": "mabio-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "P 450"
+      ]
+    }
+  ]
+}

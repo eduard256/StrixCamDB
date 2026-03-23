@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fujima",
+  "brand_id": "fujima",
+  "streams": [
+    {
+      "id": "fujima-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

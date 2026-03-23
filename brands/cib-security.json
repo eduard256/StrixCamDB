@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cib Security",
+  "brand_id": "cib-security",
+  "streams": [
+    {
+      "id": "cib-security-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CUP 5011-WS"
+      ]
+    },
+    {
+      "id": "cib-security-2",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

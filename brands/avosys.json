@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Avosys",
+  "brand_id": "avosys",
+  "streams": [
+    {
+      "id": "avosys-1",
+      "url": "GetData.cgi?CH=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP9000",
+        "Other"
+      ]
+    }
+  ]
+}

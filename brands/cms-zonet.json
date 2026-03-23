@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cms Zonet",
+  "brand_id": "cms-zonet",
+  "streams": [
+    {
+      "id": "cms-zonet-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ZVC7630"
+      ]
+    }
+  ]
+}

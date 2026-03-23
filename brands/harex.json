@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Harex",
+  "brand_id": "harex",
+  "streams": [
+    {
+      "id": "harex-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1.3MP",
+        "1MP HD 720",
+        "720P",
+        "720p 1mp",
+        "720p IP",
+        "HD IP 720",
+        "HRX103",
+        "HRX-I5024P",
+        "HRX-I524C",
+        "HRX-IA604-1",
+        "IPCamIndoor",
+        "NVT-HI3518EP",
+        "ONVIF",
+        "Other"
+      ]
+    },
+    {
+      "id": "harex-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720P IP"
+      ]
+    },
+    {
+      "id": "harex-3",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "harex-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

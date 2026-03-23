@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Vandersec",
+  "brand_id": "vandersec",
+  "streams": [
+    {
+      "id": "vandersec-1",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 80,
+      "models": [
+        "QB07"
+      ]
+    },
+    {
+      "id": "vandersec-2",
+      "url": "/snapshot.jpg?size=-1x-1&download=yes",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "QB07"
+      ]
+    },
+    {
+      "id": "vandersec-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VN-IKB50s"
+      ]
+    }
+  ]
+}

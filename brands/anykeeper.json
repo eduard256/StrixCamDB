@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Anykeeper",
+  "brand_id": "anykeeper",
+  "streams": [
+    {
+      "id": "anykeeper-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AK-4030C"
+      ]
+    },
+    {
+      "id": "anykeeper-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ak-4100"
+      ]
+    }
+  ]
+}

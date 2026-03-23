@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Yoteware",
+  "brand_id": "yoteware",
+  "streams": [
+    {
+      "id": "yoteware-1",
+      "url": "/onvif/live/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8080,
+      "models": [
+        "1.2.1"
+      ]
+    },
+    {
+      "id": "yoteware-2",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8080,
+      "models": [
+        "1.2.1"
+      ]
+    }
+  ]
+}

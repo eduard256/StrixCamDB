@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "St-nt280e1",
+  "brand_id": "st-nt280e1",
+  "streams": [
+    {
+      "id": "st-nt280e1-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

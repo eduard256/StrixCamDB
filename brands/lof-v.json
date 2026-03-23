@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lof-v",
+  "brand_id": "lof-v",
+  "streams": [
+    {
+      "id": "lof-v-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8177"
+      ]
+    }
+  ]
+}

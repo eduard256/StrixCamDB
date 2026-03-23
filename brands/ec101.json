@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ec101",
+  "brand_id": "ec101",
+  "streams": [
+    {
+      "id": "ec101-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "360"
+      ]
+    }
+  ]
+}

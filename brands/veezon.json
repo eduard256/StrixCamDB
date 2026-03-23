@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Veezon",
+  "brand_id": "veezon",
+  "streams": [
+    {
+      "id": "veezon-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VZ1",
+        "Wireless 720P"
+      ]
+    }
+  ]
+}

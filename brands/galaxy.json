@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "brand": "Galaxy",
+  "brand_id": "galaxy",
+  "streams": [
+    {
+      "id": "galaxy-1",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANDOID IP CAMERA",
+        "Galaxy S8"
+      ]
+    },
+    {
+      "id": "galaxy-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Brokebn screen",
+        "Galaxy S8",
+        "Mini",
+        "note2",
+        "ST 7500"
+      ]
+    },
+    {
+      "id": "galaxy-3",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GX7154mfs-ir28",
+        "GX724MF-IR28",
+        "NV743MF-IR"
+      ]
+    },
+    {
+      "id": "galaxy-4",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HNC5241E-IRAS/28"
+      ]
+    },
+    {
+      "id": "galaxy-5",
+      "url": "video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Webcam"
+      ]
+    },
+    {
+      "id": "galaxy-6",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "samsung"
+      ]
+    }
+  ]
+}

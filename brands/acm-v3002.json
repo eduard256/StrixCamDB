@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Acm-v3002",
+  "brand_id": "acm-v3002",
+  "streams": [
+    {
+      "id": "acm-v3002-1",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Fine",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Jen-fu",
+  "brand_id": "jen-fu",
+  "streams": [
+    {
+      "id": "jen-fu-1",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HVB-2M-V3"
+      ]
+    },
+    {
+      "id": "jen-fu-2",
+      "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HVB-2M-V3"
+      ]
+    },
+    {
+      "id": "jen-fu-3",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HVB-2M-V3"
+      ]
+    },
+    {
+      "id": "jen-fu-4",
+      "url": "v01",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HVB-2M-V3"
+      ]
+    },
+    {
+      "id": "jen-fu-5",
+      "url": "v03",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HVB-2M-V3"
+      ]
+    },
+    {
+      "id": "jen-fu-6",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

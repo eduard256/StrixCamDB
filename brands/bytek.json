@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bytek",
+  "brand_id": "bytek",
+  "streams": [
+    {
+      "id": "bytek-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP1MP"
+      ]
+    },
+    {
+      "id": "bytek-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VET1"
+      ]
+    }
+  ]
+}

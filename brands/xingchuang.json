@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xingchuang",
+  "brand_id": "xingchuang",
+  "streams": [
+    {
+      "id": "xingchuang-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DM-SCB405IP-V10-E"
+      ]
+    }
+  ]
+}

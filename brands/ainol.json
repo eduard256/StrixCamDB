@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ainol",
+  "brand_id": "ainol",
+  "streams": [
+    {
+      "id": "ainol-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Novo 7 Aurora"
+      ]
+    }
+  ]
+}

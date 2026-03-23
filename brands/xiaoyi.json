@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Xiaoyi",
+  "brand_id": "xiaoyi",
+  "streams": [
+    {
+      "id": "xiaoyi-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "720P"
+      ]
+    },
+    {
+      "id": "xiaoyi-2",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "PPZ"
+      ]
+    }
+  ]
+}

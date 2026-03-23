@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Silicon Labs",
+  "brand_id": "silicon-labs",
+  "streams": [
+    {
+      "id": "silicon-labs-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F6815W"
+      ]
+    },
+    {
+      "id": "silicon-labs-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "F6815W"
+      ]
+    },
+    {
+      "id": "silicon-labs-3",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F6836W"
+      ]
+    },
+    {
+      "id": "silicon-labs-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "silicon-labs-5",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "silicon-labs-6",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RS-6W10IP"
+      ]
+    }
+  ]
+}

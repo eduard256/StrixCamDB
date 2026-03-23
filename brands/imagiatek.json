@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Imagiatek",
+  "brand_id": "imagiatek",
+  "streams": [
+    {
+      "id": "imagiatek-1",
+      "url": "vdata.v",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1"
+      ]
+    }
+  ]
+}

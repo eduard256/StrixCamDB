@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hiinakas",
+  "brand_id": "hiinakas",
+  "streams": [
+    {
+      "id": "hiinakas-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "must 2MP"
+      ]
+    }
+  ]
+}

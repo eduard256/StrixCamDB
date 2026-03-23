@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Nufebs",
+  "brand_id": "nufebs",
+  "streams": [
+    {
+      "id": "nufebs-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "c-20",
+        "C20"
+      ]
+    },
+    {
+      "id": "nufebs-2",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C20"
+      ]
+    },
+    {
+      "id": "nufebs-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TV-GKXMC-C20-4MP"
+      ]
+    }
+  ]
+}

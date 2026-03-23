@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ijack Liu",
+  "brand_id": "ijack-liu",
+  "streams": [
+    {
+      "id": "ijack-liu-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JK-A8"
+      ]
+    }
+  ]
+}

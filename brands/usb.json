@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Usb",
+  "brand_id": "usb",
+  "streams": [
+    {
+      "id": "usb-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hub"
+      ]
+    }
+  ]
+}

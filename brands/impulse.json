@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Impulse",
+  "brand_id": "impulse",
+  "streams": [
+    {
+      "id": "impulse-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IMP302DORZ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipr712m",
+  "brand_id": "ipr712m",
+  "streams": [
+    {
+      "id": "ipr712m-1",
+      "url": "/rtsph264vga",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

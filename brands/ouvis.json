@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "brand": "Ouvis",
+  "brand_id": "ouvis",
+  "streams": [
+    {
+      "id": "ouvis-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "Bullet Cam",
+        "C2HD",
+        "VZ1",
+        "z21"
+      ]
+    },
+    {
+      "id": "ouvis-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "C2HD",
+        "Z21"
+      ]
+    },
+    {
+      "id": "ouvis-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ouvis-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "OUVIS VEEZON VZ1"
+      ]
+    },
+    {
+      "id": "ouvis-5",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "OUVIS VEEZON VZ1",
+        "VZ1",
+        "ZV1"
+      ]
+    },
+    {
+      "id": "ouvis-6",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "v5 Smart Home"
+      ]
+    },
+    {
+      "id": "ouvis-7",
+      "url": "/tcp/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "veezon",
+        "VZ1"
+      ]
+    },
+    {
+      "id": "ouvis-8",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "VEEZON"
+      ]
+    }
+  ]
+}

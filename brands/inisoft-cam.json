@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Inisoft-cam",
+  "brand_id": "inisoft-cam",
+  "streams": [
+    {
+      "id": "inisoft-cam-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Stan 2"
+      ]
+    }
+  ]
+}

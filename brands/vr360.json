@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Vr360",
+  "brand_id": "vr360",
+  "streams": [
+    {
+      "id": "vr360-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VR-130-A5"
+      ]
+    },
+    {
+      "id": "vr360-2",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VR360-WIFI-A13"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Janusz",
+  "brand_id": "janusz",
+  "streams": [
+    {
+      "id": "janusz-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kam"
+      ]
+    }
+  ]
+}

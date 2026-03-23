@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Eight",
+  "brand_id": "eight",
+  "streams": [
+    {
+      "id": "eight-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EIP-09GBB"
+      ]
+    },
+    {
+      "id": "eight-2",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

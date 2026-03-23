@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anben",
+  "brand_id": "anben",
+  "streams": [
+    {
+      "id": "anben-1",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BPI205-2H"
+      ]
+    }
+  ]
+}

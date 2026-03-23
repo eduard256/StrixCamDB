@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Bvcam",
+  "brand_id": "bvcam",
+  "streams": [
+    {
+      "id": "bvcam-1",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ca-ipbf-4mp-wfii"
+      ]
+    },
+    {
+      "id": "bvcam-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "on-y8",
+        "Other"
+      ]
+    }
+  ]
+}

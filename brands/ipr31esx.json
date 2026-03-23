@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipr31esx",
+  "brand_id": "ipr31esx",
+  "streams": [
+    {
+      "id": "ipr31esx-1",
+      "url": "/rtsph264vga",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

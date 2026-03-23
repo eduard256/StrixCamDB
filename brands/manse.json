@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Manse",
+  "brand_id": "manse",
+  "streams": [
+    {
+      "id": "manse-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LIRDGA400"
+      ]
+    }
+  ]
+}

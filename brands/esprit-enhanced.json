@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Esprit Enhanced",
+  "brand_id": "esprit-enhanced",
+  "streams": [
+    {
+      "id": "esprit-enhanced-1",
+      "url": "/stream1_v",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ES6230-K090647"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Eagle View",
+  "brand_id": "eagle-view",
+  "streams": [
+    {
+      "id": "eagle-view-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "16-165",
+        "ss-IP13MPD55",
+        "SS-IPMP13D55"
+      ]
+    },
+    {
+      "id": "eagle-view-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "M13DW355",
+        "Other",
+        "SS-13MPD355"
+      ]
+    }
+  ]
+}

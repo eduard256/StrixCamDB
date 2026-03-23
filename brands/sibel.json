@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sibel",
+  "brand_id": "sibel",
+  "streams": [
+    {
+      "id": "sibel-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPOB-ELE4IR28"
+      ]
+    }
+  ]
+}

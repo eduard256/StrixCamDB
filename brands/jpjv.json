@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jpjv",
+  "brand_id": "jpjv",
+  "streams": [
+    {
+      "id": "jpjv-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F-Serie"
+      ]
+    }
+  ]
+}

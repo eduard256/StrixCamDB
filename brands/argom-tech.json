@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Argom Tech",
+  "brand_id": "argom-tech",
+  "streams": [
+    {
+      "id": "argom-tech-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "t920"
+      ]
+    }
+  ]
+}

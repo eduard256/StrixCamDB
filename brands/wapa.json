@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Wapa",
+  "brand_id": "wapa",
+  "streams": [
+    {
+      "id": "wapa-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BL-3/5/7/8/9"
+      ]
+    },
+    {
+      "id": "wapa-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BL-3/5/7/8/9Series"
+      ]
+    }
+  ]
+}

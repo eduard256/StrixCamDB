@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bu-720",
+  "brand_id": "bu-720",
+  "streams": [
+    {
+      "id": "bu-720-1",
+      "url": "/video.pro1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Airlive BU-720"
+      ]
+    },
+    {
+      "id": "bu-720-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "asgari"
+      ]
+    }
+  ]
+}

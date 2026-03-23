@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Hd Megapixel",
+  "brand_id": "hd-megapixel",
+  "streams": [
+    {
+      "id": "hd-megapixel-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "H2MB4WA"
+      ]
+    },
+    {
+      "id": "hd-megapixel-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "IP Cloud Camera"
+      ]
+    }
+  ]
+}

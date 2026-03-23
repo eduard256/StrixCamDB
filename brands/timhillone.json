@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Timhillone",
+  "brand_id": "timhillone",
+  "streams": [
+    {
+      "id": "timhillone-1",
+      "url": "video.jpg?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H264-WebCam"
+      ]
+    },
+    {
+      "id": "timhillone-2",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "UC-7008WH"
+      ]
+    },
+    {
+      "id": "timhillone-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "UC-7008WH"
+      ]
+    }
+  ]
+}

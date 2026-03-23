@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "brand": "Pipcam",
+  "brand_id": "pipcam",
+  "streams": [
+    {
+      "id": "pipcam-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3128",
+        "366357",
+        "432"
+      ]
+    },
+    {
+      "id": "pipcam-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3425",
+        "584"
+      ]
+    },
+    {
+      "id": "pipcam-3",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD17"
+      ]
+    },
+    {
+      "id": "pipcam-4",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD17"
+      ]
+    },
+    {
+      "id": "pipcam-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "pipcam-6",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "pipcam5"
+      ]
+    }
+  ]
+}

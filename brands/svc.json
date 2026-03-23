@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Svc",
+  "brand_id": "svc",
+  "streams": [
+    {
+      "id": "svc-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p HD"
+      ]
+    }
+  ]
+}

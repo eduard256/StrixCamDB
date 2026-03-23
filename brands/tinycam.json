@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Tinycam",
+  "brand_id": "tinycam",
+  "streams": [
+    {
+      "id": "tinycam-1",
+      "url": "/axis-cgi/mjpg/video.cgi?camera=1",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 8083,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "tinycam-2",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "server"
+      ]
+    }
+  ]
+}

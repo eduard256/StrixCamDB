@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sartek",
+  "brand_id": "sartek",
+  "streams": [
+    {
+      "id": "sartek-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "iHM42-2T07-T2-EN"
+      ]
+    }
+  ]
+}

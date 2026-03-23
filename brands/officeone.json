@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Officeone",
+  "brand_id": "officeone",
+  "streams": [
+    {
+      "id": "officeone-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC 10",
+        "SC10"
+      ]
+    },
+    {
+      "id": "officeone-2",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SC10IP"
+      ]
+    }
+  ]
+}

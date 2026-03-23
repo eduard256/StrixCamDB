@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "brand": "Pyle",
+  "brand_id": "pyle",
+  "streams": [
+    {
+      "id": "pyle-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cam5",
+        "HD22",
+        "Other",
+        "Pipcam12",
+        "PIPCAM15",
+        "pipcam25",
+        "pipcam5"
+      ]
+    },
+    {
+      "id": "pyle-2",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D-Link",
+        "phcm",
+        "phcm29"
+      ]
+    },
+    {
+      "id": "pyle-3",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD 17",
+        "HD22",
+        "HD46",
+        "HD47",
+        "MINE",
+        "Other",
+        "pipcam 8",
+        "pipcam65",
+        "PIPCAMHD17"
+      ]
+    },
+    {
+      "id": "pyle-4",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD22",
+        "pip15",
+        "PIPCAM15",
+        "PIPCAM25",
+        "PIPCAM5"
+      ]
+    },
+    {
+      "id": "pyle-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "pipcam"
+      ]
+    },
+    {
+      "id": "pyle-6",
+      "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "PIPCAM"
+      ]
+    },
+    {
+      "id": "pyle-7",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PIPCAMHD17",
+        "pipcamhd47"
+      ]
+    }
+  ]
+}

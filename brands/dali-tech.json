@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dali-tech",
+  "brand_id": "dali-tech",
+  "streams": [
+    {
+      "id": "dali-tech-1",
+      "url": "/ONVIFMedia",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D8X3NT"
+      ]
+    }
+  ]
+}

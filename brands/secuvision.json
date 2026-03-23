@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Secuvision",
+  "brand_id": "secuvision",
+  "streams": [
+    {
+      "id": "secuvision-1",
+      "url": "/chID=1&streamType=main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NVR-D0432A-16P"
+      ]
+    }
+  ]
+}

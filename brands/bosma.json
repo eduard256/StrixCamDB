@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bosma",
+  "brand_id": "bosma",
+  "streams": [
+    {
+      "id": "bosma-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "S1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Hsmartlink",
+  "brand_id": "hsmartlink",
+  "streams": [
+    {
+      "id": "hsmartlink-1",
+      "url": "/tcp/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "HSL-289799-JUWZB",
+        "i9831b-#6698"
+      ]
+    },
+    {
+      "id": "hsmartlink-2",
+      "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HSL-289799-JUWZB"
+      ]
+    },
+    {
+      "id": "hsmartlink-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "HSL-289799-JUWZB",
+        "I9831B-#6698",
+        "Other"
+      ]
+    },
+    {
+      "id": "hsmartlink-4",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "HSL-289799-JUWZB"
+      ]
+    },
+    {
+      "id": "hsmartlink-5",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "i9831b-#6698"
+      ]
+    }
+  ]
+}

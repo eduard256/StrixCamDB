@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jvr",
+  "brand_id": "jvr",
+  "streams": [
+    {
+      "id": "jvr-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JVR01"
+      ]
+    }
+  ]
+}

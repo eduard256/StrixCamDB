@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Linux",
+  "brand_id": "linux",
+  "streams": [
+    {
+      "id": "linux-1",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MJPG-Streamer"
+      ]
+    },
+    {
+      "id": "linux-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "motion"
+      ]
+    }
+  ]
+}

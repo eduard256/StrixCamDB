@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Estcctv",
+  "brand_id": "estcctv",
+  "streams": [
+    {
+      "id": "estcctv-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WCAMIPDOMO"
+      ]
+    }
+  ]
+}

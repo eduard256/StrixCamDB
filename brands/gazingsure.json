@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gazingsure",
+  "brand_id": "gazingsure",
+  "streams": [
+    {
+      "id": "gazingsure-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "smart camera"
+      ]
+    }
+  ]
+}

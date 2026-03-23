@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fujitron",
+  "brand_id": "fujitron",
+  "streams": [
+    {
+      "id": "fujitron-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FND-52CD1321"
+      ]
+    }
+  ]
+}

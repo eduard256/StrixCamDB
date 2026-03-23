@@ -1,0 +1,126 @@
+{
+  "version": 2,
+  "brand": "Vr Cam",
+  "brand_id": "vr-cam",
+  "streams": [
+    {
+      "id": "vr-cam-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1.3MP",
+        "1.5 mp model",
+        "21007175",
+        "244",
+        "360",
+        "6801234561062",
+        "954631967",
+        "AHD Camera",
+        "eseecloud",
+        "Fisheye",
+        "IPC",
+        "Other",
+        "P4-S",
+        "Panoramic",
+        "QJ77",
+        "RG-QJ77-IP",
+        "SP006",
+        "TP-JA960-3M",
+        "VR 360",
+        "VR Camera",
+        "VR-130",
+        "VR-130-A5",
+        "VR-300-H5",
+        "vr360",
+        "VR360-D2",
+        "VR360-WIFI-P2",
+        "VR360-WIFI-P3",
+        "VR360-WIFI-P5",
+        "VR-SN3",
+        "yvr-130-hs"
+      ]
+    },
+    {
+      "id": "vr-cam-2",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "360",
+        "IPC",
+        "Other",
+        "VR 360",
+        "VR-130",
+        "VR-130-H5",
+        "VR360-P2",
+        "VR360-WIFI-P2"
+      ]
+    },
+    {
+      "id": "vr-cam-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "360",
+        "ipc",
+        "IPC-4003",
+        "Other",
+        "VR Camera",
+        "VR-300-H5",
+        "VR360-WIFI-P2"
+      ]
+    },
+    {
+      "id": "vr-cam-4",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "360",
+        "6801234561062",
+        "ipc",
+        "P4-S",
+        "VR360_WIFI-3A",
+        "VR360-WIFI-P3",
+        "WS VR160"
+      ]
+    },
+    {
+      "id": "vr-cam-5",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "eseecloud D100"
+      ]
+    },
+    {
+      "id": "vr-cam-6",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 80,
+      "models": [
+        "fish eye"
+      ]
+    },
+    {
+      "id": "vr-cam-7",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "v380",
+        "VR360-WIFI-P5"
+      ]
+    }
+  ]
+}

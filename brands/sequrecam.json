@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "brand": "Sequrecam",
+  "brand_id": "sequrecam",
+  "streams": [
+    {
+      "id": "sequrecam-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sequrecam-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PNP-125"
+      ]
+    },
+    {
+      "id": "sequrecam-3",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sequrecam-4",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sequrecam-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PNP-125"
+      ]
+    }
+  ]
+}

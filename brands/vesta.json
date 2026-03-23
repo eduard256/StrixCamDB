@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Vesta",
+  "brand_id": "vesta",
+  "streams": [
+    {
+      "id": "vesta-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1330",
+        "5240"
+      ]
+    },
+    {
+      "id": "vesta-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "kpvk"
+      ]
+    },
+    {
+      "id": "vesta-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VCG340",
+        "vs-3420"
+      ]
+    }
+  ]
+}

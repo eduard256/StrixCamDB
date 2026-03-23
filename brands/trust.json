@@ -1,0 +1,161 @@
+{
+  "version": 2,
+  "brand": "Trust",
+  "brand_id": "trust",
+  "streams": [
+    {
+      "id": "trust-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "9411M"
+      ]
+    },
+    {
+      "id": "trust-2",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NW-7100"
+      ]
+    },
+    {
+      "id": "trust-3",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NW-7100"
+      ]
+    },
+    {
+      "id": "trust-4",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NW-7100",
+        "Other"
+      ]
+    },
+    {
+      "id": "trust-5",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NW-7100"
+      ]
+    },
+    {
+      "id": "trust-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NW-7500"
+      ]
+    },
+    {
+      "id": "trust-7",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "trust-8",
+      "url": "goform/video2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "trust-9",
+      "url": "out.jpg?id=0.5",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "trust-10",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "trust-11",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "trust-12",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "TVB-1102",
+        "TVD-3102"
+      ]
+    },
+    {
+      "id": "trust-13",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP1M"
+      ]
+    },
+    {
+      "id": "trust-14",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TI-E36F13I"
+      ]
+    },
+    {
+      "id": "trust-15",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TVC-1102",
+        "TVC-1201"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Eyeipcam",
+  "brand_id": "eyeipcam",
+  "streams": [
+    {
+      "id": "eyeipcam-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1212",
+        "23334"
+      ]
+    },
+    {
+      "id": "eyeipcam-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP901W"
+      ]
+    },
+    {
+      "id": "eyeipcam-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP935FW"
+      ]
+    },
+    {
+      "id": "eyeipcam-4",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

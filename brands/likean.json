@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Likean",
+  "brand_id": "likean",
+  "streams": [
+    {
+      "id": "likean-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AK-H234N",
+        "Other"
+      ]
+    }
+  ]
+}

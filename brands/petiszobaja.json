@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Petiszobaja",
+  "brand_id": "petiszobaja",
+  "streams": [
+    {
+      "id": "petiszobaja-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Huawei"
+      ]
+    }
+  ]
+}

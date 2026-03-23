@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "brand": "Shenzhen Toptech",
+  "brand_id": "shenzhen-toptech",
+  "streams": [
+    {
+      "id": "shenzhen-toptech-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DANMINI",
+        "Other"
+      ]
+    },
+    {
+      "id": "shenzhen-toptech-2",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenzhen-toptech-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenzhen-toptech-4",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SMARTEYE",
+        "x series"
+      ]
+    },
+    {
+      "id": "shenzhen-toptech-5",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "P2PWIFICAM"
+      ]
+    },
+    {
+      "id": "shenzhen-toptech-6",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SMARTEYE"
+      ]
+    },
+    {
+      "id": "shenzhen-toptech-7",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TE-IBL780"
+      ]
+    },
+    {
+      "id": "shenzhen-toptech-8",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V380"
+      ]
+    }
+  ]
+}

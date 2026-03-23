@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Movols",
+  "brand_id": "movols",
+  "streams": [
+    {
+      "id": "movols-1",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Solar Camera"
+      ]
+    }
+  ]
+}

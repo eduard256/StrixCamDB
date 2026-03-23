@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Walkertone",
+  "brand_id": "walkertone",
+  "streams": [
+    {
+      "id": "walkertone-1",
+      "url": "/0/888888:888888/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "3260",
+        "Other"
+      ]
+    },
+    {
+      "id": "walkertone-2",
+      "url": "/0/888888:888888/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HI-3512"
+      ]
+    },
+    {
+      "id": "walkertone-3",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HI-3512"
+      ]
+    }
+  ]
+}

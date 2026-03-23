@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fossi",
+  "brand_id": "fossi",
+  "streams": [
+    {
+      "id": "fossi-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "9903"
+      ]
+    }
+  ]
+}

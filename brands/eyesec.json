@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Eyesec",
+  "brand_id": "eyesec",
+  "streams": [
+    {
+      "id": "eyesec-1",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Q16"
+      ]
+    },
+    {
+      "id": "eyesec-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Q16-20E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Onepixel",
+  "brand_id": "onepixel",
+  "streams": [
+    {
+      "id": "onepixel-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OPXP-5371"
+      ]
+    }
+  ]
+}

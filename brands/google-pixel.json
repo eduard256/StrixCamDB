@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Google Pixel",
+  "brand_id": "google-pixel",
+  "streams": [
+    {
+      "id": "google-pixel-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Pixel"
+      ]
+    }
+  ]
+}

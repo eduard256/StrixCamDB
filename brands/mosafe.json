@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Mosafe",
+  "brand_id": "mosafe",
+  "streams": [
+    {
+      "id": "mosafe-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080p"
+      ]
+    },
+    {
+      "id": "mosafe-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KC2M5301B-P"
+      ]
+    }
+  ]
+}

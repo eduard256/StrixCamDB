@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Enviewer",
+  "brand_id": "enviewer",
+  "streams": [
+    {
+      "id": "enviewer-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1130",
+        "ADS5250v2"
+      ]
+    }
+  ]
+}

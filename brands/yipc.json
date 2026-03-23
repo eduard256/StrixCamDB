@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Yipc",
+  "brand_id": "yipc",
+  "streams": [
+    {
+      "id": "yipc-1",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nc300"
+      ]
+    },
+    {
+      "id": "yipc-2",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PTP-332017-DADDE"
+      ]
+    }
+  ]
+}

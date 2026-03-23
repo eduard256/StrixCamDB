@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Morphxstar",
+  "brand_id": "morphxstar",
+  "streams": [
+    {
+      "id": "morphxstar-1",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "TardisM4k"
+      ]
+    }
+  ]
+}

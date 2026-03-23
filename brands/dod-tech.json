@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dod Tech",
+  "brand_id": "dod-tech",
+  "streams": [
+    {
+      "id": "dod-tech-1",
+      "url": "stream.av",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

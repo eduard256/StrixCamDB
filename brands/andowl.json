@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "brand": "Andowl",
+  "brand_id": "andowl",
+  "streams": [
+    {
+      "id": "andowl-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPG-X6-WEQ2",
+        "Q-S30"
+      ]
+    },
+    {
+      "id": "andowl-2",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "IPG-X6-WEQ2",
+        "q-s712"
+      ]
+    },
+    {
+      "id": "andowl-3",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Q-A236",
+        "Q-A275",
+        "Q-S2i",
+        "QS66"
+      ]
+    },
+    {
+      "id": "andowl-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "q-s4",
+        "Q-SX002"
+      ]
+    },
+    {
+      "id": "andowl-5",
+      "url": "/streamtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "q-s4"
+      ]
+    },
+    {
+      "id": "andowl-6",
+      "url": "/streamtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Q-S4",
+        "S-Q4"
+      ]
+    },
+    {
+      "id": "andowl-7",
+      "url": "/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Q-S807"
+      ]
+    }
+  ]
+}

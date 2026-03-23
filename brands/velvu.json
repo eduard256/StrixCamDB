@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Velvu",
+  "brand_id": "velvu",
+  "streams": [
+    {
+      "id": "velvu-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4mp"
+      ]
+    }
+  ]
+}

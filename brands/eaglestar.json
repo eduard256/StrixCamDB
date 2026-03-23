@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eaglestar",
+  "brand_id": "eaglestar",
+  "streams": [
+    {
+      "id": "eaglestar-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EAGLESTAR PRO"
+      ]
+    }
+  ]
+}

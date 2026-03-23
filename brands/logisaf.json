@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Logisaf",
+  "brand_id": "logisaf",
+  "streams": [
+    {
+      "id": "logisaf-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "X001DIOXV1"
+      ]
+    }
+  ]
+}

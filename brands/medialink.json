@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Medialink",
+  "brand_id": "medialink",
+  "streams": [
+    {
+      "id": "medialink-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

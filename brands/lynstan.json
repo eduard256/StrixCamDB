@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Lynstan",
+  "brand_id": "lynstan",
+  "streams": [
+    {
+      "id": "lynstan-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dvr",
+        "Other"
+      ]
+    }
+  ]
+}

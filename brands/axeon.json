@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Axeon",
+  "brand_id": "axeon",
+  "streams": [
+    {
+      "id": "axeon-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD 720P",
+        "UNLISTED"
+      ]
+    }
+  ]
+}

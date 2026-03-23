@@ -1,0 +1,115 @@
+{
+  "version": 2,
+  "brand": "Orient",
+  "brand_id": "orient",
+  "streams": [
+    {
+      "id": "orient-1",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP-200-MH3BP",
+        "IP-34",
+        "IP-76-MH3VP",
+        "IP-940",
+        "ip-950"
+      ]
+    },
+    {
+      "id": "orient-2",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ip-31"
+      ]
+    },
+    {
+      "id": "orient-3",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP-31-IH2A",
+        "IP-504"
+      ]
+    },
+    {
+      "id": "orient-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP-31-IH2A"
+      ]
+    },
+    {
+      "id": "orient-5",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip-33-sh24bp"
+      ]
+    },
+    {
+      "id": "orient-6",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip-33-sh24bp",
+        "IP-940"
+      ]
+    },
+    {
+      "id": "orient-7",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip-34",
+        "IP-76-MH3VP",
+        "IP-950"
+      ]
+    },
+    {
+      "id": "orient-8",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-365"
+      ]
+    },
+    {
+      "id": "orient-9",
+      "url": "/snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP951"
+      ]
+    },
+    {
+      "id": "orient-10",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NCL-01N-720p"
+      ]
+    }
+  ]
+}

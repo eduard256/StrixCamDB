@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Starir",
+  "brand_id": "starir",
+  "streams": [
+    {
+      "id": "starir-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ima80l15"
+      ]
+    }
+  ]
+}

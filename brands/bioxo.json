@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bioxo",
+  "brand_id": "bioxo",
+  "streams": [
+    {
+      "id": "bioxo-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "BF342506A-RS"
+      ]
+    }
+  ]
+}

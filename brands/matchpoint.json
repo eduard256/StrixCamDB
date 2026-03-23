@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Matchpoint",
+  "brand_id": "matchpoint",
+  "streams": [
+    {
+      "id": "matchpoint-1",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR-1",
+        "DVR-CAM1",
+        "Zaandam"
+      ]
+    },
+    {
+      "id": "matchpoint-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

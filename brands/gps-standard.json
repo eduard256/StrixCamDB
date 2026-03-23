@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gps-standard",
+  "brand_id": "gps-standard",
+  "streams": [
+    {
+      "id": "gps-standard-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VGON-5042HR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": 2,
+  "brand": "Alfa",
+  "brand_id": "alfa",
+  "streams": [
+    {
+      "id": "alfa-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0002HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "alfa-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AIPC120M",
+        "Other"
+      ]
+    },
+    {
+      "id": "alfa-3",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AIPC120M"
+      ]
+    },
+    {
+      "id": "alfa-4",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AIPC220M"
+      ]
+    },
+    {
+      "id": "alfa-5",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "aw300p"
+      ]
+    },
+    {
+      "id": "alfa-6",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "lop"
+      ]
+    },
+    {
+      "id": "alfa-7",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alfa-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alfa-9",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alfa-10",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alfa-11",
+      "url": "video.mjpg?q=30&fps=33&id=0.5",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

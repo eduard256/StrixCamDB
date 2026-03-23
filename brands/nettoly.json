@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "brand": "Nettoly",
+  "brand_id": "nettoly",
+  "streams": [
+    {
+      "id": "nettoly-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080p",
+        "157840-BBADD",
+        "Gara",
+        "IPCAM 720p",
+        "IPCAM 720P",
+        "J07",
+        "Other",
+        "X0027K6DCL"
+      ]
+    },
+    {
+      "id": "nettoly-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "J07"
+      ]
+    }
+  ]
+}

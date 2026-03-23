@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "brand": "Cadyce",
+  "brand_id": "cadyce",
+  "streams": [
+    {
+      "id": "cadyce-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CA-ip 400mp",
+        "CA-IP300MP",
+        "CA-IP400MP",
+        "Other"
+      ]
+    },
+    {
+      "id": "cadyce-2",
+      "url": "current[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CA-IP100M"
+      ]
+    },
+    {
+      "id": "cadyce-3",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CA-IP100M"
+      ]
+    },
+    {
+      "id": "cadyce-4",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CA-IP200MP",
+        "CA-IP400MP"
+      ]
+    },
+    {
+      "id": "cadyce-5",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CA-IP600P"
+      ]
+    },
+    {
+      "id": "cadyce-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

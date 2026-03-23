@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Qtech",
+  "brand_id": "qtech",
+  "streams": [
+    {
+      "id": "qtech-1",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "27C"
+      ]
+    },
+    {
+      "id": "qtech-2",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "qtech-3",
+      "url": "/H264?ch=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "QVC-IPC-401"
+      ]
+    },
+    {
+      "id": "qtech-4",
+      "url": "/H264?ch=1&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "QVC-IPC-401"
+      ]
+    }
+  ]
+}

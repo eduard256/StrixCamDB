@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Absolutron",
+  "brand_id": "absolutron",
+  "streams": [
+    {
+      "id": "absolutron-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "absolutron-2",
+      "url": "image.mpg",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "absolutron-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ptz"
+      ]
+    }
+  ]
+}

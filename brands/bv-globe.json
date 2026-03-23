@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bv Globe",
+  "brand_id": "bv-globe",
+  "streams": [
+    {
+      "id": "bv-globe-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "jw0004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Agk",
+  "brand_id": "agk",
+  "streams": [
+    {
+      "id": "agk-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NatWave"
+      ]
+    },
+    {
+      "id": "agk-2",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

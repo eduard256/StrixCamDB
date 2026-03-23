@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "brand": "Sanyo",
+  "brand_id": "sanyo",
+  "streams": [
+    {
+      "id": "sanyo-1",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3300",
+        "Other",
+        "vcc-hd2500"
+      ]
+    },
+    {
+      "id": "sanyo-2",
+      "url": "VideoInput/1/h264/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD 5400",
+        "hd5400",
+        "hd-5400p",
+        "HD5600",
+        "VCC HD2500P",
+        "VCC-MCH5600P"
+      ]
+    },
+    {
+      "id": "sanyo-3",
+      "url": "/VideoInput/1/h264/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VDC-HD3300P"
+      ]
+    }
+  ]
+}

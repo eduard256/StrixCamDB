@@ -1,0 +1,227 @@
+{
+  "version": 2,
+  "brand": "Shenwhen Neo Electronic Co",
+  "brand_id": "shenwhen-neo-electronic-co",
+  "streams": [
+    {
+      "id": "shenwhen-neo-electronic-co-1",
+      "url": "cgi-bin/sf.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AJ-C0WA-C0D8",
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AY-IP9042S",
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-3",
+      "url": "av0_[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AY-IP9042S",
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BE-IPH",
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FI-8909W",
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-6",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LEP-FM69-H1080W"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-7",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-400",
+        "Other",
+        "Thuis"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-8",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-400"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-541",
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-541"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-11",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-541",
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-12",
+      "url": "[CHANNEL]/1:1/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NC-541"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-13",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "X-5000B"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-14",
+      "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-15",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-16",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-17",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-18",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-19",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-20",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[CHANNEL]_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenwhen-neo-electronic-co-21",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "X-5000B"
+      ]
+    }
+  ]
+}

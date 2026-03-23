@@ -1,0 +1,291 @@
+{
+  "version": 2,
+  "brand": "Xvision",
+  "brand_id": "xvision",
+  "streams": [
+    {
+      "id": "xvision-1",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100-C",
+        "1080D",
+        "Other",
+        "x100",
+        "X100",
+        "X100B",
+        "X100C",
+        "X-100d"
+      ]
+    },
+    {
+      "id": "xvision-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100-C",
+        "Other",
+        "X100"
+      ]
+    },
+    {
+      "id": "xvision-3",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100-C"
+      ]
+    },
+    {
+      "id": "xvision-4",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "104p",
+        "Other",
+        "X-100D",
+        "XP3000B"
+      ]
+    },
+    {
+      "id": "xvision-5",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080D",
+        "720D",
+        "X-720B"
+      ]
+    },
+    {
+      "id": "xvision-6",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080D",
+        "XCB-N3072"
+      ]
+    },
+    {
+      "id": "xvision-7",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080-D",
+        "1080VP2",
+        "FI-8602W",
+        "Other",
+        "X-100C",
+        "X-720B",
+        "X-720D",
+        "XC1080BAP",
+        "XC-1080BP",
+        "XC-1080DAP",
+        "XC-1080P",
+        "XC1080VP-2",
+        "XC-1080VVP",
+        "XC-108BP"
+      ]
+    },
+    {
+      "id": "xvision-8",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080-D",
+        "Other",
+        "XP3000v",
+        "Xvision-720D"
+      ]
+    },
+    {
+      "id": "xvision-9",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080-D",
+        "3000-V",
+        "Other",
+        "X-720B",
+        "x720d",
+        "XP-1080B"
+      ]
+    },
+    {
+      "id": "xvision-10",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 554,
+      "models": [
+        "720-D",
+        "autopan",
+        "X-100C",
+        "X-720B",
+        "x720d"
+      ]
+    },
+    {
+      "id": "xvision-11",
+      "url": "mpeg4/media.amp?resolution=640x480",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FI-8602W",
+        "Other",
+        "X-100C"
+      ]
+    },
+    {
+      "id": "xvision-12",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FI-8602W"
+      ]
+    },
+    {
+      "id": "xvision-13",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xvision-14",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xvision-15",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xvision-16",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xvision-17",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xvision-18",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xvision-19",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xvision-20",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xvision-21",
+      "url": "/ch00/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "X2C",
+        "X2C4000BP",
+        "x2c400bp"
+      ]
+    },
+    {
+      "id": "xvision-22",
+      "url": "/ch00/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "X2C4000BP"
+      ]
+    },
+    {
+      "id": "xvision-23",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "XIP3001"
+      ]
+    },
+    {
+      "id": "xvision-24",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "XP1080S20"
+      ]
+    }
+  ]
+}

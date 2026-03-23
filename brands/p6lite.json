@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "P6lite",
+  "brand_id": "p6lite",
+  "streams": [
+    {
+      "id": "p6lite-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1080P HD"
+      ]
+    }
+  ]
+}

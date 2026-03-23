@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Procam",
+  "brand_id": "procam",
+  "streams": [
+    {
+      "id": "procam-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC300",
+        "NC400"
+      ]
+    },
+    {
+      "id": "procam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC360"
+      ]
+    },
+    {
+      "id": "procam-3",
+      "url": "/live/h264/ch2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PC-S/A795H"
+      ]
+    },
+    {
+      "id": "procam-4",
+      "url": "/live/h264/ch3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PC-S/A795H"
+      ]
+    }
+  ]
+}

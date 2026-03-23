@@ -1,0 +1,191 @@
+{
+  "version": 2,
+  "brand": "Siemens",
+  "brand_id": "siemens",
+  "streams": [
+    {
+      "id": "siemens-1",
+      "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCIC-1410-L",
+        "CCIC-1410-LA",
+        "Other"
+      ]
+    },
+    {
+      "id": "siemens-2",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCIC-1410-ST",
+        "CCMC-1315-LP",
+        "CFMS-2025"
+      ]
+    },
+    {
+      "id": "siemens-3",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCIS1345"
+      ]
+    },
+    {
+      "id": "siemens-4",
+      "url": "livestream",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCIS1345",
+        "CCIS1425",
+        "CCMX-1315",
+        "CFMC-1315LP"
+      ]
+    },
+    {
+      "id": "siemens-5",
+      "url": "video",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCIS-1345"
+      ]
+    },
+    {
+      "id": "siemens-6",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCIS-1345"
+      ]
+    },
+    {
+      "id": "siemens-7",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCIS1425"
+      ]
+    },
+    {
+      "id": "siemens-8",
+      "url": "cgi-bin/stilljpeg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCIS-1425",
+        "CCMC-1315-LP",
+        "CCMS 2010-IR",
+        "CCMS-1315-LP",
+        "CFMS-2025",
+        "cvms2025-ir",
+        "Other"
+      ]
+    },
+    {
+      "id": "siemens-9",
+      "url": "cgi-bin/getstream.cgi?VideoType=3",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCIS-1425",
+        "CFMS-2025"
+      ]
+    },
+    {
+      "id": "siemens-10",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCMC-1315-LP",
+        "CCMS-1315",
+        "CCMS-1315-LP",
+        "CFMC-1315LP",
+        "CFMS-2025",
+        "Other"
+      ]
+    },
+    {
+      "id": "siemens-11",
+      "url": "cgi-bin/getstream.cgi?VideoType=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCMD3025-DN18",
+        "CCMS-1315"
+      ]
+    },
+    {
+      "id": "siemens-12",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8008,
+      "models": [
+        "CCMS2010-IR"
+      ]
+    },
+    {
+      "id": "siemens-13",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCMS-2025",
+        "CFMS-2025"
+      ]
+    },
+    {
+      "id": "siemens-14",
+      "url": "/livestream/trackID=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCMS-2025",
+        "CFMS2025",
+        "CVMS2025-IR"
+      ]
+    },
+    {
+      "id": "siemens-15",
+      "url": "cgi-bin/getstream.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CFMS-2025"
+      ]
+    },
+    {
+      "id": "siemens-16",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CVMW-3025",
+        "Other"
+      ]
+    }
+  ]
+}

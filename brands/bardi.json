@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bardi",
+  "brand_id": "bardi",
+  "streams": [
+    {
+      "id": "bardi-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Outdoor Camera"
+      ]
+    },
+    {
+      "id": "bardi-2",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Outdoor Camera"
+      ]
+    }
+  ]
+}

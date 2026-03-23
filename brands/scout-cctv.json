@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Scout Cctv",
+  "brand_id": "scout-cctv",
+  "streams": [
+    {
+      "id": "scout-cctv-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Jned89-360D"
+      ]
+    },
+    {
+      "id": "scout-cctv-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "jvev"
+      ]
+    },
+    {
+      "id": "scout-cctv-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SC-MDB3-13",
+        "SC-SBT8108"
+      ]
+    }
+  ]
+}

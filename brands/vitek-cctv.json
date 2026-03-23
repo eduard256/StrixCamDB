@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "brand": "Vitek Cctv",
+  "brand_id": "vitek-cctv",
+  "streams": [
+    {
+      "id": "vitek-cctv-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ELPRISH1VTC-TNT30R3F",
+        "ELPRISH2",
+        "Other",
+        "VTC-TNT30R3F"
+      ]
+    },
+    {
+      "id": "vitek-cctv-2",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MGGBW"
+      ]
+    },
+    {
+      "id": "vitek-cctv-3",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MGGBW",
+        "Other",
+        "VT-EH16",
+        "VT-EH8"
+      ]
+    },
+    {
+      "id": "vitek-cctv-4",
+      "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VTC-C770DNIP2",
+        "VT-EH8"
+      ]
+    },
+    {
+      "id": "vitek-cctv-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vitek-cctv-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vitek-cctv-7",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vitek-cctv-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vitek-cctv-9",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Vitek VT-TPTZ18HR-5N"
+      ]
+    },
+    {
+      "id": "vitek-cctv-10",
+      "url": "ch[CHANNEL].sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VTC-C770DNIP2"
+      ]
+    },
+    {
+      "id": "vitek-cctv-11",
+      "url": "/cam0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VTC-IR402"
+      ]
+    },
+    {
+      "id": "vitek-cctv-12",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "VTD-TND3RFE"
+      ]
+    },
+    {
+      "id": "vitek-cctv-13",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VT-R725"
+      ]
+    },
+    {
+      "id": "vitek-cctv-14",
+      "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VT-R725"
+      ]
+    },
+    {
+      "id": "vitek-cctv-15",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VT-R725"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Iguard",
+  "brand_id": "iguard",
+  "streams": [
+    {
+      "id": "iguard-1",
+      "url": "showimg_pda.cgi?cam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "270E",
+        "380E"
+      ]
+    },
+    {
+      "id": "iguard-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "380e",
+        "Other"
+      ]
+    }
+  ]
+}

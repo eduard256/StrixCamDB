@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Connectionnc",
+  "brand_id": "connectionnc",
+  "streams": [
+    {
+      "id": "connectionnc-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "connectionnc-2",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "connectionnc-3",
+      "url": "imagep/picture.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "connectionnc-4",
+      "url": "img/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "connectionnc-5",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "connectionnc-6",
+      "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Chakir",
+  "brand_id": "chakir",
+  "streams": [
+    {
+      "id": "chakir-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "seetong"
+      ]
+    }
+  ]
+}

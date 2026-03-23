@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gertec",
+  "brand_id": "gertec",
+  "streams": [
+    {
+      "id": "gertec-1",
+      "url": "/videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Gbot A82"
+      ]
+    }
+  ]
+}

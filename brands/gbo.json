@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Gbo",
+  "brand_id": "gbo",
+  "streams": [
+    {
+      "id": "gbo-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cam1"
+      ]
+    },
+    {
+      "id": "gbo-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cam1"
+      ]
+    },
+    {
+      "id": "gbo-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc 2"
+      ]
+    },
+    {
+      "id": "gbo-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "One"
+      ]
+    },
+    {
+      "id": "gbo-5",
+      "url": "cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QNO-6020R"
+      ]
+    },
+    {
+      "id": "gbo-6",
+      "url": "/h264main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "S1080"
+      ]
+    },
+    {
+      "id": "gbo-7",
+      "url": "/PSIA/Streaming/channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "S1080"
+      ]
+    },
+    {
+      "id": "gbo-8",
+      "url": "/PSIA/Streaming/channels/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "S1080"
+      ]
+    }
+  ]
+}

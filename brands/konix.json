@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Konix",
+  "brand_id": "konix",
+  "streams": [
+    {
+      "id": "konix-1",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APM-J011-WS"
+      ]
+    },
+    {
+      "id": "konix-2",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "konix-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Tatu"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "My Connex",
+  "brand_id": "my-connex",
+  "streams": [
+    {
+      "id": "my-connex-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C2006"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Micromax",
+  "brand_id": "micromax",
+  "streams": [
+    {
+      "id": "micromax-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "a350"
+      ]
+    }
+  ]
+}

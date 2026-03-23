@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Ensidio",
+  "brand_id": "ensidio",
+  "streams": [
+    {
+      "id": "ensidio-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP102W"
+      ]
+    },
+    {
+      "id": "ensidio-2",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP102W"
+      ]
+    },
+    {
+      "id": "ensidio-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP202WN"
+      ]
+    },
+    {
+      "id": "ensidio-4",
+      "url": "cgi-bin/net_jpeg.cgi?ch=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP302P"
+      ]
+    },
+    {
+      "id": "ensidio-5",
+      "url": "ch0_[CHANNEL].H264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP302P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wi-tec",
+  "brand_id": "wi-tec",
+  "streams": [
+    {
+      "id": "wi-tec-1",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WI-2806BW"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tic",
+  "brand_id": "tic",
+  "streams": [
+    {
+      "id": "tic-1",
+      "url": "/PSIA/Streaming/channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1.3MPX"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "version": 2,
+  "brand": "Planex",
+  "brand_id": "planex",
+  "streams": [
+    {
+      "id": "planex-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CS-QP50F"
+      ]
+    },
+    {
+      "id": "planex-2",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-TX02F"
+      ]
+    },
+    {
+      "id": "planex-3",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-TX04",
+        "CS-W05N",
+        "CS-W06N",
+        "CS-W50FHD",
+        "CS-W60HD",
+        "CS-W70HD",
+        "CS-W72FHD",
+        "CS-W95HD",
+        "CS-WMV04",
+        "CS-WMV0402",
+        "CS-WMV04N",
+        "CS-wmv04n2",
+        "dcs-930l",
+        "Other"
+      ]
+    },
+    {
+      "id": "planex-4",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-W04G",
+        "CS-W06N",
+        "CS-W95HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "planex-5",
+      "url": "snapshot.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-W04G",
+        "CS-W05N",
+        "CS-WMV04",
+        "Other"
+      ]
+    },
+    {
+      "id": "planex-6",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-W04G",
+        "CS-WMV04",
+        "CS-WMV043G-NV",
+        "CS-WMV04N",
+        "CS-wmv04n2",
+        "CS-WV4N"
+      ]
+    },
+    {
+      "id": "planex-7",
+      "url": "/jpg/1/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CS-W05N"
+      ]
+    },
+    {
+      "id": "planex-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-W06N",
+        "CS-W60HD",
+        "CS-W60N",
+        "CS-W72FHD",
+        "CS-W80HD",
+        "CS-W95HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "planex-9",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-W06N",
+        "CS-W80FHD",
+        "CS-W95HD"
+      ]
+    },
+    {
+      "id": "planex-10",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=1",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CS-W50FHD",
+        "CS-W72FHD",
+        "CS-W80FHD",
+        "CS-W95HD"
+      ]
+    },
+    {
+      "id": "planex-11",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CS-W70HD"
+      ]
+    },
+    {
+      "id": "planex-12",
+      "url": "/snapshot.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CS-W72FHD",
+        "CS-W80FHD"
+      ]
+    },
+    {
+      "id": "planex-13",
+      "url": "/strm1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CS-W72FHD"
+      ]
+    },
+    {
+      "id": "planex-14",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CS-W80FHD",
+        "CS-W80HD"
+      ]
+    },
+    {
+      "id": "planex-15",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CS-W80HD"
+      ]
+    },
+    {
+      "id": "planex-16",
+      "url": "/stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CS-W80HD"
+      ]
+    },
+    {
+      "id": "planex-17",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-WMV02",
+        "CS-WMV02G"
+      ]
+    },
+    {
+      "id": "planex-18",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CS-WMV02",
+        "CS-WMV02G",
+        "CS-WMV04"
+      ]
+    },
+    {
+      "id": "planex-19",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-WMV04"
+      ]
+    },
+    {
+      "id": "planex-20",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-WMV04N2"
+      ]
+    },
+    {
+      "id": "planex-21",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-WV4N",
+        "Other"
+      ]
+    },
+    {
+      "id": "planex-22",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PLANEX IPCAM264"
+      ]
+    }
+  ]
+}

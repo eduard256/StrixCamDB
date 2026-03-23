@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Jinan",
+  "brand_id": "jinan",
+  "streams": [
+    {
+      "id": "jinan-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5318",
+        "Other"
+      ]
+    }
+  ]
+}

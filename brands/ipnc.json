@@ -1,0 +1,178 @@
+{
+  "version": 2,
+  "brand": "Ipnc",
+  "brand_id": "ipnc",
+  "streams": [
+    {
+      "id": "ipnc-1",
+      "url": "/1.ch",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1010",
+        "IPDOME_MEGA200",
+        "spy"
+      ]
+    },
+    {
+      "id": "ipnc-2",
+      "url": "/h264main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1322",
+        "chiu",
+        "Cool",
+        "shani",
+        "shanyh2",
+        "SNC-WD91M1322",
+        "TECHSON"
+      ]
+    },
+    {
+      "id": "ipnc-3",
+      "url": "/PSIA/Streaming/channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3Mega",
+        "jano",
+        "jano-24",
+        "jano3",
+        "Other",
+        "shani",
+        "TechSon"
+      ]
+    },
+    {
+      "id": "ipnc-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "764",
+        "ccd",
+        "CCD CAMERA",
+        "escam knockoff",
+        "EVERVOX",
+        "hi1602",
+        "hislicon",
+        "IVS-D6000",
+        "kinietis",
+        "onvif",
+        "Other",
+        "senzor",
+        "Testi",
+        "Web Cam Hi3518"
+      ]
+    },
+    {
+      "id": "ipnc-5",
+      "url": "/dev=IPC-00000000/media=0/channel=0&level=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7554,
+      "models": [
+        "Acunico",
+        "ARCUNICO"
+      ]
+    },
+    {
+      "id": "ipnc-6",
+      "url": "/dev=IPC-00000000/media=0/channel=0&level=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7554,
+      "models": [
+        "Acunico"
+      ]
+    },
+    {
+      "id": "ipnc-7",
+      "url": "/0.ch",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Aoshidi",
+        "Aoshido",
+        "CCD",
+        "H20237",
+        "oma",
+        "spy",
+        "suchinko",
+        "teset"
+      ]
+    },
+    {
+      "id": "ipnc-8",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KK_IP_CAM",
+        "nima",
+        "Other",
+        "p1001",
+        "Robocam"
+      ]
+    },
+    {
+      "id": "ipnc-9",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KK_IP_CAM",
+        "Other",
+        "SOAR"
+      ]
+    },
+    {
+      "id": "ipnc-10",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipnc-11",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipnc-12",
+      "url": "/mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TESTJPEG"
+      ]
+    },
+    {
+      "id": "ipnc-13",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TH32E"
+      ]
+    }
+  ]
+}

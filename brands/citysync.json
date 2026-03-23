@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Citysync",
+  "brand_id": "citysync",
+  "streams": [
+    {
+      "id": "citysync-1",
+      "url": "/onvif/live/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CS40"
+      ]
+    }
+  ]
+}

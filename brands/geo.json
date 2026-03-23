@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Geo",
+  "brand_id": "geo",
+  "streams": [
+    {
+      "id": "geo-1",
+      "url": "/CH001.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "1500",
+        "CB120",
+        "EBL2101"
+      ]
+    }
+  ]
+}

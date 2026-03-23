@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Cas-700",
+  "brand_id": "cas-700",
+  "streams": [
+    {
+      "id": "cas-700-1",
+      "url": "goform/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "cas-700-2",
+      "url": "goform/video2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "cas-700-3",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

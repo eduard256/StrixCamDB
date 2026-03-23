@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Furbo",
+  "brand_id": "furbo",
+  "streams": [
+    {
+      "id": "furbo-1",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "Furbo2"
+      ]
+    },
+    {
+      "id": "furbo-2",
+      "url": "/stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Furbo2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "V600",
+  "brand_id": "v600",
+  "streams": [
+    {
+      "id": "v600-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

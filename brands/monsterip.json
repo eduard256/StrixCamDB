@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Monsterip",
+  "brand_id": "monsterip",
+  "streams": [
+    {
+      "id": "monsterip-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MCI 28106"
+      ]
+    }
+  ]
+}

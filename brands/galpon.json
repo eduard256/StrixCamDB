@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Galpon",
+  "brand_id": "galpon",
+  "streams": [
+    {
+      "id": "galpon-1",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

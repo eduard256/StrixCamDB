@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "brand": "Xseries",
+  "brand_id": "xseries",
+  "streams": [
+    {
+      "id": "xseries-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "630",
+        "750gb",
+        "HappyEgg",
+        "Other",
+        "tweede",
+        "X SERIES WIFI IP"
+      ]
+    },
+    {
+      "id": "xseries-2",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "X SERIES WIFI IP"
+      ]
+    }
+  ]
+}

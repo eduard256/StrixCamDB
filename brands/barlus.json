@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Barlus",
+  "brand_id": "barlus",
+  "streams": [
+    {
+      "id": "barlus-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "304",
+        "304noir",
+        "316",
+        "ip68",
+        "Other"
+      ]
+    },
+    {
+      "id": "barlus-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "316",
+        "B2G5MPBX10",
+        "Other"
+      ]
+    },
+    {
+      "id": "barlus-3",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "316",
+        "316 TR",
+        "IP68"
+      ]
+    },
+    {
+      "id": "barlus-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "IPC5MPIR-Pbx10",
+        "UW-S2-2C6X20",
+        "zoom"
+      ]
+    }
+  ]
+}

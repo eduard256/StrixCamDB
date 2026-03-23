@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Hicc-2300t",
+  "brand_id": "hicc-2300t",
+  "streams": [
+    {
+      "id": "hicc-2300t-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AVL Bullet",
+        "hd dome"
+      ]
+    }
+  ]
+}

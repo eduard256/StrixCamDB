@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Groudchat",
+  "brand_id": "groudchat",
+  "streams": [
+    {
+      "id": "groudchat-1",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

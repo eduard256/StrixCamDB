@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Digicam",
+  "brand_id": "digicam",
+  "streams": [
+    {
+      "id": "digicam-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "P05-7-C",
+        "P05-7-DF"
+      ]
+    }
+  ]
+}

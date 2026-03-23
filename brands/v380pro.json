@@ -1,0 +1,167 @@
+{
+  "version": 2,
+  "brand": "V380pro",
+  "brand_id": "v380pro",
+  "streams": [
+    {
+      "id": "v380pro-1",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ca29va",
+        "Other",
+        "v380"
+      ]
+    },
+    {
+      "id": "v380pro-2",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "K803"
+      ]
+    },
+    {
+      "id": "v380pro-3",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIFI Smart Net Camera"
+      ]
+    },
+    {
+      "id": "v380pro-4",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "V380"
+      ]
+    },
+    {
+      "id": "v380pro-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other",
+        "V380 PRO"
+      ]
+    },
+    {
+      "id": "v380pro-6",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "Other",
+        "v380"
+      ]
+    },
+    {
+      "id": "v380pro-7",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "v380pro-8",
+      "url": "/live/ch00_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "PRO",
+        "V380 PRO",
+        "White Floodlight with camera"
+      ]
+    },
+    {
+      "id": "v380pro-9",
+      "url": "/video.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PRO",
+        "V380 Pro"
+      ]
+    },
+    {
+      "id": "v380pro-10",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "spycam"
+      ]
+    },
+    {
+      "id": "v380pro-11",
+      "url": "live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v1017"
+      ]
+    },
+    {
+      "id": "v380pro-12",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "v380"
+      ]
+    },
+    {
+      "id": "v380pro-13",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "v380"
+      ]
+    },
+    {
+      "id": "v380pro-14",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v380"
+      ]
+    },
+    {
+      "id": "v380pro-15",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "V380 Pro"
+      ]
+    }
+  ]
+}

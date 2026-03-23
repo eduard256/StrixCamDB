@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hofsta",
+  "brand_id": "hofsta",
+  "streams": [
+    {
+      "id": "hofsta-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

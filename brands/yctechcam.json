@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Yctechcam",
+  "brand_id": "yctechcam",
+  "streams": [
+    {
+      "id": "yctechcam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-B125-APF40"
+      ]
+    }
+  ]
+}

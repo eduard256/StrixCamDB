@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Dawan",
+  "brand_id": "dawan",
+  "streams": [
+    {
+      "id": "dawan-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DW-CA-DHIP20W-IR5",
+        "DW-CA-DHIP20W-IR8J"
+      ]
+    },
+    {
+      "id": "dawan-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "tapo"
+      ]
+    }
+  ]
+}

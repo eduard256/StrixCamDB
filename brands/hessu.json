@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hessu",
+  "brand_id": "hessu",
+  "streams": [
+    {
+      "id": "hessu-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "WHD318B"
+      ]
+    }
+  ]
+}

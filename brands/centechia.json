@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Centechia",
+  "brand_id": "centechia",
+  "streams": [
+    {
+      "id": "centechia-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "v360pro"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Goldstream",
+  "brand_id": "goldstream",
+  "streams": [
+    {
+      "id": "goldstream-1",
+      "url": "snapshot/view[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8554,
+      "models": [
+        "720P"
+      ]
+    }
+  ]
+}

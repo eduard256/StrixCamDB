@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Yunsye",
+  "brand_id": "yunsye",
+  "streams": [
+    {
+      "id": "yunsye-1",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 88,
+      "models": [
+        "ptz"
+      ]
+    },
+    {
+      "id": "yunsye-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ysy-3002l-1"
+      ]
+    }
+  ]
+}

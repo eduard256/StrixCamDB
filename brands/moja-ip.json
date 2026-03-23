@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Moja Ip",
+  "brand_id": "moja-ip",
+  "streams": [
+    {
+      "id": "moja-ip-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ddd"
+      ]
+    },
+    {
+      "id": "moja-ip-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

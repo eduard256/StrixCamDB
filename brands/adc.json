@@ -1,0 +1,140 @@
+{
+  "version": 2,
+  "brand": "Adc",
+  "brand_id": "adc",
+  "streams": [
+    {
+      "id": "adc-1",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1026,
+      "models": [
+        "700x",
+        "723",
+        "V510",
+        "v520ir",
+        "V520IR",
+        "V521IR",
+        "V721W",
+        "V820"
+      ]
+    },
+    {
+      "id": "adc-2",
+      "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 1026,
+      "models": [
+        "700X"
+      ]
+    },
+    {
+      "id": "adc-3",
+      "url": "/live1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "723",
+        "ADCi400-X002",
+        "D064",
+        "Ilustra400",
+        "Other"
+      ]
+    },
+    {
+      "id": "adc-4",
+      "url": "/live2.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "723",
+        "Other",
+        "V520IR",
+        "V820"
+      ]
+    },
+    {
+      "id": "adc-5",
+      "url": "dms",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ILLustra400",
+        "ILUSTRA400"
+      ]
+    },
+    {
+      "id": "adc-6",
+      "url": "image/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ILLustra400",
+        "ILUSTRA400"
+      ]
+    },
+    {
+      "id": "adc-7",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "V520IR",
+        "V723"
+      ]
+    },
+    {
+      "id": "adc-8",
+      "url": "cgi-bin/viewer/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 1026,
+      "models": [
+        "Other",
+        "v510",
+        "V520IR",
+        "V720W",
+        "V721W"
+      ]
+    },
+    {
+      "id": "adc-9",
+      "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V510"
+      ]
+    },
+    {
+      "id": "adc-10",
+      "url": "/live3.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1032,
+      "models": [
+        "V520IR",
+        "V721W"
+      ]
+    },
+    {
+      "id": "adc-11",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "V521IR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "version": 2,
+  "brand": "Imaginon",
+  "brand_id": "imaginon",
+  "streams": [
+    {
+      "id": "imaginon-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "10AC",
+        "IPC 10AC",
+        "IPC-1",
+        "IPC-1a",
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "10AC",
+        "IPC-1",
+        "IPC-1A"
+      ]
+    },
+    {
+      "id": "imaginon-3",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC 10AC",
+        "IPC-1A",
+        "IPC-20",
+        "IPC-250HDC",
+        "IPC-25HDC",
+        "SUPRA IPC-20C"
+      ]
+    },
+    {
+      "id": "imaginon-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1",
+        "IPC-1a",
+        "IPC-20",
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-5",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-100 HD",
+        "IPC-25HDC",
+        "Other",
+        "SUPRA IPC-20C"
+      ]
+    },
+    {
+      "id": "imaginon-6",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-100 HD"
+      ]
+    },
+    {
+      "id": "imaginon-7",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-100AC",
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-8",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "ipc-20c"
+      ]
+    },
+    {
+      "id": "imaginon-9",
+      "url": "/videostream.cgi?resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25 HDC"
+      ]
+    },
+    {
+      "id": "imaginon-10",
+      "url": "/videostream.cgi?",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-250HDC"
+      ]
+    },
+    {
+      "id": "imaginon-11",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-12",
+      "url": "/videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-13",
+      "url": "/videostream.cgi?resolution=32&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-14",
+      "url": "/videostream.cgi?resolution=1280x720&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-15",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=1280x720",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-16",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-17",
+      "url": "/videostream.cgi?resolution=64&rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-18",
+      "url": "/videostream.cgi?resolution=32&rate=8&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-19",
+      "url": "/videostream.cgi?resolution=64&rate=8&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "imaginon-20",
+      "url": "/videostream.cgi?resolution=32&rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    }
+  ]
+}

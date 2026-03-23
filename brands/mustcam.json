@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Mustcam",
+  "brand_id": "mustcam",
+  "streams": [
+    {
+      "id": "mustcam-1",
+      "url": "/rtsp_live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "807",
+        "816",
+        "818P",
+        "H-806P",
+        "H809P",
+        "IP-86",
+        "Other"
+      ]
+    },
+    {
+      "id": "mustcam-2",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "807P",
+        "H-808P"
+      ]
+    },
+    {
+      "id": "mustcam-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H-806P",
+        "H-808P",
+        "h821p",
+        "Other"
+      ]
+    },
+    {
+      "id": "mustcam-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H-808P"
+      ]
+    },
+    {
+      "id": "mustcam-5",
+      "url": "snapshot.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H-808P"
+      ]
+    }
+  ]
+}

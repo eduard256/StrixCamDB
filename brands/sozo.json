@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sozo",
+  "brand_id": "sozo",
+  "streams": [
+    {
+      "id": "sozo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "SOC-SNIP36-30E"
+      ]
+    }
+  ]
+}

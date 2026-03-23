@@ -1,0 +1,130 @@
+{
+  "version": 2,
+  "brand": "Hawking",
+  "brand_id": "hawking",
+  "streams": [
+    {
+      "id": "hawking-1",
+      "url": "IMAGE.JPG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "310",
+        "HNC310",
+        "Tech HNC300 Series",
+        "Tech HNC320 Series",
+        "TVP110"
+      ]
+    },
+    {
+      "id": "hawking-2",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HNC3W",
+        "HNC5W",
+        "HNC720G",
+        "JNC3W",
+        "Other",
+        "Tech HNC300 Series",
+        "Tech HNC320 Series"
+      ]
+    },
+    {
+      "id": "hawking-3",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HNC-700PT",
+        "HNC720G",
+        "hnc800ptz",
+        "HNC-820G",
+        "Other"
+      ]
+    },
+    {
+      "id": "hawking-4",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HNC720G",
+        "Other",
+        "Tech HNC720G"
+      ]
+    },
+    {
+      "id": "hawking-5",
+      "url": "loginfree.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "TECH HNC290",
+        "Tech HNC290G",
+        "TECH HNC300 SERIES",
+        "TECH HNC320 SERIES",
+        "TECH HNC720G"
+      ]
+    },
+    {
+      "id": "hawking-6",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Tech HNC290"
+      ]
+    },
+    {
+      "id": "hawking-7",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hawking-8",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Tech HNC290"
+      ]
+    },
+    {
+      "id": "hawking-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Tech HNC320 Series"
+      ]
+    },
+    {
+      "id": "hawking-10",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Tech NC200 Series",
+        "Tech NC220 Series"
+      ]
+    }
+  ]
+}

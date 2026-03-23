@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "brand": "Seisa",
+  "brand_id": "seisa",
+  "streams": [
+    {
+      "id": "seisa-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-C7823W"
+      ]
+    },
+    {
+      "id": "seisa-2",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-4",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-5",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-6",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-7",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-8",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-9",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-10",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-11",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    },
+    {
+      "id": "seisa-12",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JK-H616WS"
+      ]
+    }
+  ]
+}

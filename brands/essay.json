@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Essay",
+  "brand_id": "essay",
+  "streams": [
+    {
+      "id": "essay-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "49-52"
+      ]
+    }
+  ]
+}

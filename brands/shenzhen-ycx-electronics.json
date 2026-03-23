@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Shenzhen Ycx Electronics",
+  "brand_id": "shenzhen-ycx-electronics",
+  "streams": [
+    {
+      "id": "shenzhen-ycx-electronics-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4K/8MP HD IP CAMERA"
+      ]
+    },
+    {
+      "id": "shenzhen-ycx-electronics-2",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "N-A G463GWp"
+      ]
+    },
+    {
+      "id": "shenzhen-ycx-electronics-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "YC-W608FCZ49EA"
+      ]
+    }
+  ]
+}

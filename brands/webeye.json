@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Webeye",
+  "brand_id": "webeye",
+  "streams": [
+    {
+      "id": "webeye-1",
+      "url": "cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDC730"
+      ]
+    }
+  ]
+}

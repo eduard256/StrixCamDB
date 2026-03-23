@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Veyo",
+  "brand_id": "veyo",
+  "streams": [
+    {
+      "id": "veyo-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "pan tilt"
+      ]
+    }
+  ]
+}

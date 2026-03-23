@@ -1,0 +1,116 @@
+{
+  "version": 2,
+  "brand": "Keekoon",
+  "brand_id": "keekoon",
+  "streams": [
+    {
+      "id": "keekoon-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "001",
+        "002",
+        "K001",
+        "kk001",
+        "kk002",
+        "KK002_0001",
+        "KK002_0002",
+        "KK002_0003",
+        "KK002_TW_3_1",
+        "KK0020005",
+        "kk004",
+        "Other"
+      ]
+    },
+    {
+      "id": "keekoon-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002",
+        "KK001",
+        "kk002",
+        "kk005",
+        "Other",
+        "Wi-Fi IP Camera"
+      ]
+    },
+    {
+      "id": "keekoon-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "002",
+        "KK001",
+        "KK002",
+        "kk004"
+      ]
+    },
+    {
+      "id": "keekoon-4",
+      "url": "/rtsp_live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "k001",
+        "Keekoon 3",
+        "KK001",
+        "KK002",
+        "KK004",
+        "kk005",
+        "Other"
+      ]
+    },
+    {
+      "id": "keekoon-5",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kk001",
+        "Other",
+        "WI-FI IP CAMERA"
+      ]
+    },
+    {
+      "id": "keekoon-6",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kk001",
+        "KK002"
+      ]
+    },
+    {
+      "id": "keekoon-7",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kk002",
+        "Other"
+      ]
+    },
+    {
+      "id": "keekoon-8",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kk002"
+      ]
+    }
+  ]
+}

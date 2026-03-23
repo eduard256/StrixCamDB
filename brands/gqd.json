@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Gqd",
+  "brand_id": "gqd",
+  "streams": [
+    {
+      "id": "gqd-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC029"
+      ]
+    },
+    {
+      "id": "gqd-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC029"
+      ]
+    }
+  ]
+}

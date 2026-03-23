@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eitea",
+  "brand_id": "eitea",
+  "streams": [
+    {
+      "id": "eitea-1",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

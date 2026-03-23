@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Seven Systems",
+  "brand_id": "seven-systems",
+  "streams": [
+    {
+      "id": "seven-systems-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SEVEN IP-7215PA"
+      ]
+    }
+  ]
+}

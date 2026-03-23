@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Zoelink",
+  "brand_id": "zoelink",
+  "streams": [
+    {
+      "id": "zoelink-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720P",
+        "ite 720p Camera 2",
+        "Other"
+      ]
+    }
+  ]
+}

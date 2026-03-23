@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sisview",
+  "brand_id": "sisview",
+  "streams": [
+    {
+      "id": "sisview-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

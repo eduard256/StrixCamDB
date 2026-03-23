@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Motos",
+  "brand_id": "motos",
+  "streams": [
+    {
+      "id": "motos-1",
+      "url": "/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "motos-2",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

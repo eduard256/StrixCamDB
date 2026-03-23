@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Poe",
+  "brand_id": "poe",
+  "streams": [
+    {
+      "id": "poe-1",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ptz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Unicorn",
+  "brand_id": "unicorn",
+  "streams": [
+    {
+      "id": "unicorn-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "One plus"
+      ]
+    },
+    {
+      "id": "unicorn-2",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ONE PLUS"
+      ]
+    },
+    {
+      "id": "unicorn-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QCAM-3000"
+      ]
+    },
+    {
+      "id": "unicorn-4",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QCAM-5000N"
+      ]
+    },
+    {
+      "id": "unicorn-5",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QCAM-5000N"
+      ]
+    },
+    {
+      "id": "unicorn-6",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QCAM-5000N"
+      ]
+    },
+    {
+      "id": "unicorn-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QCAM-5000N"
+      ]
+    },
+    {
+      "id": "unicorn-8",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QCAM-5000N"
+      ]
+    }
+  ]
+}

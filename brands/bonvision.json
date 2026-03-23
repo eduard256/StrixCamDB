@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bonvision",
+  "brand_id": "bonvision",
+  "streams": [
+    {
+      "id": "bonvision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "hd22m102m"
+      ]
+    },
+    {
+      "id": "bonvision-2",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "hd22m102m"
+      ]
+    }
+  ]
+}

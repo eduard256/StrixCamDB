@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Luatek",
+  "brand_id": "luatek",
+  "streams": [
+    {
+      "id": "luatek-1",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LKW-1310",
+        "LKW-4220",
+        "V380"
+      ]
+    },
+    {
+      "id": "luatek-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LKW-4020"
+      ]
+    },
+    {
+      "id": "luatek-3",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LKW-5620"
+      ]
+    }
+  ]
+}

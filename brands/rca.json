@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Rca",
+  "brand_id": "rca",
+  "streams": [
+    {
+      "id": "rca-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HSDB2A"
+      ]
+    },
+    {
+      "id": "rca-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HSDB2A"
+      ]
+    }
+  ]
+}

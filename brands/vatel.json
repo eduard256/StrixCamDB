@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Vatel",
+  "brand_id": "vatel",
+  "streams": [
+    {
+      "id": "vatel-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p",
+        "HT-N4K1080P-3919"
+      ]
+    },
+    {
+      "id": "vatel-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P",
+        "HT-N$K1080P-9313"
+      ]
+    }
+  ]
+}

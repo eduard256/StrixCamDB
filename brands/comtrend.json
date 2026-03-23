@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Comtrend",
+  "brand_id": "comtrend",
+  "streams": [
+    {
+      "id": "comtrend-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Dome",
+        "Mini-Dome",
+        "Other",
+        "VD-21ir"
+      ]
+    }
+  ]
+}

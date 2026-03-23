@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eyenix",
+  "brand_id": "eyenix",
+  "streams": [
+    {
+      "id": "eyenix-1",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EN672"
+      ]
+    }
+  ]
+}

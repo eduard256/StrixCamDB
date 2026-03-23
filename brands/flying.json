@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Flying",
+  "brand_id": "flying",
+  "streams": [
+    {
+      "id": "flying-1",
+      "url": "/0/888888:888888/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1.3Mp",
+        "3mp"
+      ]
+    },
+    {
+      "id": "flying-2",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1.3MP"
+      ]
+    },
+    {
+      "id": "flying-3",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3MP"
+      ]
+    }
+  ]
+}

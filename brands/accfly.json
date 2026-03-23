@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Accfly",
+  "brand_id": "accfly",
+  "streams": [
+    {
+      "id": "accfly-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "c091wx",
+        "c102wx",
+        "c120wx",
+        "Other"
+      ]
+    },
+    {
+      "id": "accfly-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P72"
+      ]
+    }
+  ]
+}

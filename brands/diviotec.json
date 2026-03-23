@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Diviotec",
+  "brand_id": "diviotec",
+  "streams": [
+    {
+      "id": "diviotec-1",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "121"
+      ]
+    },
+    {
+      "id": "diviotec-2",
+      "url": "live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NBR325P"
+      ]
+    },
+    {
+      "id": "diviotec-3",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NBR325P"
+      ]
+    }
+  ]
+}

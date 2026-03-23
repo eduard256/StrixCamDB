@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ip66",
+  "brand_id": "ip66",
+  "streams": [
+    {
+      "id": "ip66-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip66-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

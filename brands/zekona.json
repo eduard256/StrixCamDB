@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Zekona",
+  "brand_id": "zekona",
+  "streams": [
+    {
+      "id": "zekona-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "20c"
+      ]
+    },
+    {
+      "id": "zekona-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "20C"
+      ]
+    }
+  ]
+}

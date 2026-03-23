@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Omenex",
+  "brand_id": "omenex",
+  "streams": [
+    {
+      "id": "omenex-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ATHOME",
+        "Other"
+      ]
+    }
+  ]
+}

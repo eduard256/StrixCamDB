@@ -1,0 +1,145 @@
+{
+  "version": 2,
+  "brand": "Siqura",
+  "brand_id": "siqura",
+  "streams": [
+    {
+      "id": "siqura-1",
+      "url": "/ProfileToken_1_4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2f2002f2-ei",
+        "HSD-626"
+      ]
+    },
+    {
+      "id": "siqura-2",
+      "url": "VideoInput/1/h264/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "900",
+        "BC-620",
+        "BC829v2",
+        "C-60 E-MC",
+        "HD-66APT/N",
+        "HSD-620",
+        "HSD-622",
+        "HSD-626",
+        "HSD-820",
+        "MSD-620",
+        "MSD-622"
+      ]
+    },
+    {
+      "id": "siqura-3",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BC-20",
+        "BC-22",
+        "BC-24",
+        "FD-20",
+        "FD-22",
+        "FD-24",
+        "FD27",
+        "FD-28",
+        "FD67",
+        "MD-20"
+      ]
+    },
+    {
+      "id": "siqura-4",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BL860"
+      ]
+    },
+    {
+      "id": "siqura-5",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fd2002f2-ei"
+      ]
+    },
+    {
+      "id": "siqura-6",
+      "url": "h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FD62",
+        "HSD-626",
+        "Other"
+      ]
+    },
+    {
+      "id": "siqura-7",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "fd64"
+      ]
+    },
+    {
+      "id": "siqura-8",
+      "url": "/ProfileToken_1_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD626"
+      ]
+    },
+    {
+      "id": "siqura-9",
+      "url": "video.jpg?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD-66",
+        "HSD-621PRH",
+        "HSD-626",
+        "HSD-820",
+        "MD60"
+      ]
+    },
+    {
+      "id": "siqura-10",
+      "url": "VideoInput/1/mpeg4/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HSD-620PRH",
+        "HSD-621PRH",
+        "HSD-628EXP"
+      ]
+    },
+    {
+      "id": "siqura-11",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HSD-820"
+      ]
+    }
+  ]
+}

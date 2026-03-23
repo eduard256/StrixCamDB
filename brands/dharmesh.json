@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dharmesh",
+  "brand_id": "dharmesh",
+  "streams": [
+    {
+      "id": "dharmesh-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "moto"
+      ]
+    }
+  ]
+}

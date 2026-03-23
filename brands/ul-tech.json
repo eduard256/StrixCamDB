@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "brand": "Ul-tech",
+  "brand_id": "ul-tech",
+  "streams": [
+    {
+      "id": "ul-tech-1",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCTV",
+        "CCTV-4C-4B-BK",
+        "FP2",
+        "Other",
+        "W-NVR",
+        "XVR"
+      ]
+    },
+    {
+      "id": "ul-tech-2",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCTV-WF-CLA-8C-$B",
+        "Other"
+      ]
+    },
+    {
+      "id": "ul-tech-3",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC76-U15",
+        "EC76-X15",
+        "FP2",
+        "Other"
+      ]
+    },
+    {
+      "id": "ul-tech-4",
+      "url": "/?action=stream",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "W-NVR"
+      ]
+    }
+  ]
+}

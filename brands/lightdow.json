@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lightdow",
+  "brand_id": "lightdow",
+  "streams": [
+    {
+      "id": "lightdow-1",
+      "url": "/ONVIF/channel2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LD6000"
+      ]
+    }
+  ]
+}

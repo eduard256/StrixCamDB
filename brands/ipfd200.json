@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipfd200",
+  "brand_id": "ipfd200",
+  "streams": [
+    {
+      "id": "ipfd200-1",
+      "url": "/stream.sdp1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPID-2MPIR"
+      ]
+    }
+  ]
+}

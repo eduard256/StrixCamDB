@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lucidphone",
+  "brand_id": "lucidphone",
+  "streams": [
+    {
+      "id": "lucidphone-1",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Innotrends",
+  "brand_id": "innotrends",
+  "streams": [
+    {
+      "id": "innotrends-1",
+      "url": "/videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other",
+        "xm-202-2"
+      ]
+    },
+    {
+      "id": "innotrends-2",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Smart Wifi Camera"
+      ]
+    }
+  ]
+}

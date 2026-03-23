@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Xtendrobotics",
+  "brand_id": "xtendrobotics",
+  "streams": [
+    {
+      "id": "xtendrobotics-1",
+      "url": "/camera.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "M1B1-IR"
+      ]
+    },
+    {
+      "id": "xtendrobotics-2",
+      "url": "/stream?topic=/camera/color/image_raw",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 11315,
+      "models": [
+        "M1B2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Kerui",
+  "brand_id": "kerui",
+  "streams": [
+    {
+      "id": "kerui-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "360"
+      ]
+    },
+    {
+      "id": "kerui-2",
+      "url": "/cam0/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "bombillo",
+        "gk7102s"
+      ]
+    },
+    {
+      "id": "kerui-3",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "CIPC-GQC09HE"
+      ]
+    },
+    {
+      "id": "kerui-4",
+      "url": "cam[CHANNEL]/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CIPC-GQC09HE"
+      ]
+    }
+  ]
+}

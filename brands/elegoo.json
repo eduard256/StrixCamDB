@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Elegoo",
+  "brand_id": "elegoo",
+  "streams": [
+    {
+      "id": "elegoo-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Mars 5 Ultra AI Camera"
+      ]
+    }
+  ]
+}

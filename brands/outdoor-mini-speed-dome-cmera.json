@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Outdoor Mini Speed Dome Cmera",
+  "brand_id": "outdoor-mini-speed-dome-cmera",
+  "streams": [
+    {
+      "id": "outdoor-mini-speed-dome-cmera-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cc-p11-68enc"
+      ]
+    }
+  ]
+}

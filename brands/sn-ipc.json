@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sn Ipc",
+  "brand_id": "sn-ipc",
+  "streams": [
+    {
+      "id": "sn-ipc-1",
+      "url": "/ROH/channel/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4015sw"
+      ]
+    }
+  ]
+}

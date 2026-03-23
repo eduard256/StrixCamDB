@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kimpok",
+  "brand_id": "kimpok",
+  "streams": [
+    {
+      "id": "kimpok-1",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KP-366W"
+      ]
+    }
+  ]
+}

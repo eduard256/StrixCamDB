@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Ge",
+  "brand_id": "ge",
+  "streams": [
+    {
+      "id": "ge-1",
+      "url": "channel2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GE-100"
+      ]
+    },
+    {
+      "id": "ge-2",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ge-3",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ge-4",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ge-5",
+      "url": "ivop.get?action=live&THREAD_ID=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TVR30"
+      ]
+    }
+  ]
+}

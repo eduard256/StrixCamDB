@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Uray Encoder",
+  "brand_id": "uray-encoder",
+  "streams": [
+    {
+      "id": "uray-encoder-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "H.264"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "brand": "Cobra",
+  "brand_id": "cobra",
+  "streams": [
+    {
+      "id": "cobra-1",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "369471737",
+        "63843",
+        "wireless color security camera"
+      ]
+    },
+    {
+      "id": "cobra-2",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "63843"
+      ]
+    },
+    {
+      "id": "cobra-3",
+      "url": "/ONVIF/MediaInput",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "63843"
+      ]
+    },
+    {
+      "id": "cobra-4",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "8 Channel"
+      ]
+    },
+    {
+      "id": "cobra-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "cobra-6",
+      "url": "cgi-bin/animate.cgi?[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

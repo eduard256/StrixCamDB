@@ -1,0 +1,275 @@
+{
+  "version": 2,
+  "brand": "Beward",
+  "brand_id": "beward",
+  "streams": [
+    {
+      "id": "beward-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1210",
+        "1710DM",
+        "2015",
+        "2710",
+        "2710R",
+        "B1070",
+        "B1710RV",
+        "B2.980FP",
+        "B2230RVZ",
+        "b2710dr",
+        "B2720RV",
+        "B4230RVZ",
+        "B5350RVZ",
+        "BN1250-1",
+        "dacha",
+        "DK103",
+        "DS06M",
+        "Other"
+      ]
+    },
+    {
+      "id": "beward-2",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "13102",
+        "N Series",
+        "N Series 2",
+        "N1250",
+        "N13102",
+        "N13103",
+        "Other"
+      ]
+    },
+    {
+      "id": "beward-3",
+      "url": "/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2710-p2",
+        "B1011",
+        "b108",
+        "BD SERIES",
+        "DK103",
+        "Other"
+      ]
+    },
+    {
+      "id": "beward-4",
+      "url": "/live/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4370",
+        "BD4640RCV",
+        "laguna"
+      ]
+    },
+    {
+      "id": "beward-5",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "B1114",
+        "BD SERIES",
+        "N500"
+      ]
+    },
+    {
+      "id": "beward-6",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B1710RV",
+        "BD Series",
+        "N SERIES"
+      ]
+    },
+    {
+      "id": "beward-7",
+      "url": "/h264",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B2.920",
+        "BD SERIES",
+        "BD4330",
+        "BD4330D",
+        "bd4330dh",
+        "BD4640DS",
+        "BD4640RC",
+        "bw4370rv"
+      ]
+    },
+    {
+      "id": "beward-8",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B2.920F"
+      ]
+    },
+    {
+      "id": "beward-9",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BD Series",
+        "bd3370",
+        "BD43",
+        "BD43...",
+        "bd4330dh",
+        "denemeeee",
+        "N Series",
+        "Other"
+      ]
+    },
+    {
+      "id": "beward-10",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BD SERIES",
+        "N Series",
+        "N1250",
+        "N13103",
+        "Other"
+      ]
+    },
+    {
+      "id": "beward-11",
+      "url": "cgi-bin/jpg/image.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BD SERIES"
+      ]
+    },
+    {
+      "id": "beward-12",
+      "url": "/h264_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BD4640RC"
+      ]
+    },
+    {
+      "id": "beward-13",
+      "url": "cgi-bin/view/image?pro_[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cd600",
+        "N Series",
+        "N Series 2",
+        "n300"
+      ]
+    },
+    {
+      "id": "beward-14",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DSN23215PS"
+      ]
+    },
+    {
+      "id": "beward-15",
+      "url": "cgi-bin/jpg/image",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "n100",
+        "N13103",
+        "Other"
+      ]
+    },
+    {
+      "id": "beward-16",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N1000",
+        "N13103"
+      ]
+    },
+    {
+      "id": "beward-17",
+      "url": "/video.pro1",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "n500"
+      ]
+    },
+    {
+      "id": "beward-18",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "beward-19",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "beward-20",
+      "url": "/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SV3210RC"
+      ]
+    },
+    {
+      "id": "beward-21",
+      "url": "/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SV3210RC"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Neye",
+  "brand_id": "neye",
+  "streams": [
+    {
+      "id": "neye-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "ABQ-6600G",
+        "Neye3c"
+      ]
+    },
+    {
+      "id": "neye-2",
+      "url": "/80",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Neye3c"
+      ]
+    }
+  ]
+}

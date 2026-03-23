@@ -1,0 +1,156 @@
+{
+  "version": 2,
+  "brand": "A-mtk",
+  "brand_id": "a-mtk",
+  "streams": [
+    {
+      "id": "a-mtk-1",
+      "url": "media/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2570D",
+        "6566",
+        "Other",
+        "SUPER"
+      ]
+    },
+    {
+      "id": "a-mtk-2",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "6566",
+        "AM9539M",
+        "Dome",
+        "Other",
+        "SUPER"
+      ]
+    },
+    {
+      "id": "a-mtk-3",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AH2927T-A"
+      ]
+    },
+    {
+      "id": "a-mtk-4",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AH2927T-A",
+        "Dome",
+        "Other"
+      ]
+    },
+    {
+      "id": "a-mtk-5",
+      "url": "/media.amp?streamprofile=Profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AM2110D"
+      ]
+    },
+    {
+      "id": "a-mtk-6",
+      "url": "/media.amp?streamprofile=Profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AM2110D"
+      ]
+    },
+    {
+      "id": "a-mtk-7",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a-mtk-8",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a-mtk-9",
+      "url": "capture[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a-mtk-10",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a-mtk-11",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a-mtk-12",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a-mtk-13",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a-mtk-14",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

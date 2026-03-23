@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "brand": "Anv",
+  "brand_id": "anv",
+  "streams": [
+    {
+      "id": "anv-1",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "00000",
+        "china",
+        "ONVIF",
+        "Other"
+      ]
+    },
+    {
+      "id": "anv-2",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "101",
+        "China 1.0mp",
+        "GS-220W",
+        "gs-w220b",
+        "onvif",
+        "Other"
+      ]
+    },
+    {
+      "id": "anv-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1mpa",
+        "200A",
+        "Bullet960",
+        "CHINA 1.0MP",
+        "China_Model",
+        "GS200A",
+        "IPC-8016B",
+        "Other",
+        "Voordeur"
+      ]
+    },
+    {
+      "id": "anv-4",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANX",
+        "Other"
+      ]
+    },
+    {
+      "id": "anv-5",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ANX"
+      ]
+    },
+    {
+      "id": "anv-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CHINA 1.0MP"
+      ]
+    },
+    {
+      "id": "anv-7",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

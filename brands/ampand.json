@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ampand",
+  "brand_id": "ampand",
+  "streams": [
+    {
+      "id": "ampand-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "IP-P12"
+      ]
+    }
+  ]
+}

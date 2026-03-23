@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Prolab Security",
+  "brand_id": "prolab-security",
+  "streams": [
+    {
+      "id": "prolab-security-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1234",
+        "Other"
+      ]
+    },
+    {
+      "id": "prolab-security-2",
+      "url": "/streaming/video0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

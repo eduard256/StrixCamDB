@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Ipvideo",
+  "brand_id": "ipvideo",
+  "streams": [
+    {
+      "id": "ipvideo-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip9000",
+        "Network Video Server"
+      ]
+    }
+  ]
+}

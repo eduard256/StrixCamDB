@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Greenview",
+  "brand_id": "greenview",
+  "streams": [
+    {
+      "id": "greenview-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "F3G/IPG-8930PGS-AI"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Beb3",
+  "brand_id": "beb3",
+  "streams": [
+    {
+      "id": "beb3-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

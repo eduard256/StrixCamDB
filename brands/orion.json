@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "brand": "Orion",
+  "brand_id": "orion",
+  "streams": [
+    {
+      "id": "orion-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "224"
+      ]
+    },
+    {
+      "id": "orion-2",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "950"
+      ]
+    },
+    {
+      "id": "orion-3",
+      "url": "live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C310"
+      ]
+    },
+    {
+      "id": "orion-4",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ip-33"
+      ]
+    },
+    {
+      "id": "orion-5",
+      "url": "stream[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OR-490",
+        "Other"
+      ]
+    },
+    {
+      "id": "orion-6",
+      "url": "cam4/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SC-200"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Desertwolfblackwidow606",
+  "brand_id": "desertwolfblackwidow606",
+  "streams": [
+    {
+      "id": "desertwolfblackwidow606-1",
+      "url": "/ch2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dltv",
+        "pt606"
+      ]
+    },
+    {
+      "id": "desertwolfblackwidow606-2",
+      "url": "/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "thermal"
+      ]
+    }
+  ]
+}

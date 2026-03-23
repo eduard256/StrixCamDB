@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Karbontech",
+  "brand_id": "karbontech",
+  "streams": [
+    {
+      "id": "karbontech-1",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KTDVR1600"
+      ]
+    }
+  ]
+}

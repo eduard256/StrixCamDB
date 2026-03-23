@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bins",
+  "brand_id": "bins",
+  "streams": [
+    {
+      "id": "bins-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "5033sw-uk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kaansky",
+  "brand_id": "kaansky",
+  "streams": [
+    {
+      "id": "kaansky-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "domecam1.3mp"
+      ]
+    }
+  ]
+}

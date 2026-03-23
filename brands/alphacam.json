@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Alphacam",
+  "brand_id": "alphacam",
+  "streams": [
+    {
+      "id": "alphacam-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "12345"
+      ]
+    }
+  ]
+}

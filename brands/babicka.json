@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Babicka",
+  "brand_id": "babicka",
+  "streams": [
+    {
+      "id": "babicka-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

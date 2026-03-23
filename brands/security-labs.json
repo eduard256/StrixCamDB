@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Security Labs",
+  "brand_id": "security-labs",
+  "streams": [
+    {
+      "id": "security-labs-1",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FNJX9RPY94LR3J6PUFWJ",
+        "SLW 164"
+      ]
+    },
+    {
+      "id": "security-labs-2",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FNJX9RPY94LR3J6PUFWJ"
+      ]
+    },
+    {
+      "id": "security-labs-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SLW-163",
+        "SLW-164",
+        "SWL-164"
+      ]
+    }
+  ]
+}

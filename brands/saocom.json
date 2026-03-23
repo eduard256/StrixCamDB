@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Saocom",
+  "brand_id": "saocom",
+  "streams": [
+    {
+      "id": "saocom-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1001"
+      ]
+    }
+  ]
+}

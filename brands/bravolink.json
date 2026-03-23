@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Bravolink",
+  "brand_id": "bravolink",
+  "streams": [
+    {
+      "id": "bravolink-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "bravolink-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "series l"
+      ]
+    },
+    {
+      "id": "bravolink-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VA035K"
+      ]
+    }
+  ]
+}

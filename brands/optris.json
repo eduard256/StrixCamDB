@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Optris",
+  "brand_id": "optris",
+  "streams": [
+    {
+      "id": "optris-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Xi 410"
+      ]
+    }
+  ]
+}

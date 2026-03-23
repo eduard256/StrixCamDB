@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Epine",
+  "brand_id": "epine",
+  "streams": [
+    {
+      "id": "epine-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "eigen model"
+      ]
+    },
+    {
+      "id": "epine-2",
+      "url": "stream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EP-M602W"
+      ]
+    },
+    {
+      "id": "epine-3",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EP-PD22W-HD",
+        "Other",
+        "PM12WP"
+      ]
+    },
+    {
+      "id": "epine-4",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

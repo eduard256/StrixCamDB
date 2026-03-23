@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Amarine",
+  "brand_id": "amarine",
+  "streams": [
+    {
+      "id": "amarine-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "rigger cam"
+      ]
+    }
+  ]
+}

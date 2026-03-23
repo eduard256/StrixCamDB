@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Meiego",
+  "brand_id": "meiego",
+  "streams": [
+    {
+      "id": "meiego-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip-705mw"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Plantron",
+  "brand_id": "plantron",
+  "streams": [
+    {
+      "id": "plantron-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "143ZP"
+      ]
+    }
+  ]
+}

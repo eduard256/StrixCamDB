@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Infocus",
+  "brand_id": "infocus",
+  "streams": [
+    {
+      "id": "infocus-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "INA-PTZ-3"
+      ]
+    }
+  ]
+}

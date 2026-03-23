@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tvc",
+  "brand_id": "tvc",
+  "streams": [
+    {
+      "id": "tvc-1",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPZ5301C"
+      ]
+    }
+  ]
+}

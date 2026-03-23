@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Ipeye",
+  "brand_id": "ipeye",
+  "streams": [
+    {
+      "id": "ipeye-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3802"
+      ]
+    },
+    {
+      "id": "ipeye-2",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B5-SNPR-2.8-12-13",
+        "D2-SUPR-2.8-12-01",
+        "TH38C4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Luxvision",
+  "brand_id": "luxvision",
+  "streams": [
+    {
+      "id": "luxvision-1",
+      "url": "/ch02/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR"
+      ]
+    },
+    {
+      "id": "luxvision-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=3_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR 2014"
+      ]
+    },
+    {
+      "id": "luxvision-3",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR6008T-EL"
+      ]
+    },
+    {
+      "id": "luxvision-4",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FI-8602W"
+      ]
+    },
+    {
+      "id": "luxvision-5",
+      "url": "/ch05/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HY-DVR"
+      ]
+    }
+  ]
+}

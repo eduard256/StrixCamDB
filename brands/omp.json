@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Omp",
+  "brand_id": "omp",
+  "streams": [
+    {
+      "id": "omp-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SN-IPC-7042CSW"
+      ]
+    }
+  ]
+}

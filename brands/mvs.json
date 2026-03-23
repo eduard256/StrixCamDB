@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Mvs",
+  "brand_id": "mvs",
+  "streams": [
+    {
+      "id": "mvs-1",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "cam01",
+        "CAM04",
+        "ipeye",
+        "Other"
+      ]
+    }
+  ]
+}

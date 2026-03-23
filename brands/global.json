@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Global",
+  "brand_id": "global",
+  "streams": [
+    {
+      "id": "global-1",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ak-3509",
+        "AK-3509HD"
+      ]
+    },
+    {
+      "id": "global-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AK-3509",
+        "AN-H-360"
+      ]
+    },
+    {
+      "id": "global-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AN-H-360-1",
+        "Megapixel"
+      ]
+    },
+    {
+      "id": "global-4",
+      "url": "/cgi-bin/view.cgi?chn=80&u=[USERNAME]&p=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "GP 280-R-AE"
+      ]
+    }
+  ]
+}

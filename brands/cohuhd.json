@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cohuhd",
+  "brand_id": "cohuhd",
+  "streams": [
+    {
+      "id": "cohuhd-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "4261-1000-0014"
+      ]
+    }
+  ]
+}

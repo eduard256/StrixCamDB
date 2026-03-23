@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Centrium",
+  "brand_id": "centrium",
+  "streams": [
+    {
+      "id": "centrium-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 37777,
+      "models": [
+        "AVHN20H130C",
+        "Bullet",
+        "ONVIF"
+      ]
+    }
+  ]
+}

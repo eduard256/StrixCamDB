@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "brand": "Aote",
+  "brand_id": "aote",
+  "streams": [
+    {
+      "id": "aote-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1",
+        "Other"
+      ]
+    },
+    {
+      "id": "aote-2",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1012",
+        "Josh",
+        "Other",
+        "S898bvE",
+        "W1012vG-B-POE",
+        "W5999bG",
+        "W5999W-B",
+        "W5999W-POE",
+        "W6409G",
+        "W6409G-B",
+        "W898bG-B",
+        "W898bG-B-POE",
+        "W898bvG-B-POE",
+        "W898G 5MP"
+      ]
+    },
+    {
+      "id": "aote-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "W3200",
+        "W889G-B"
+      ]
+    },
+    {
+      "id": "aote-4",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "W514vG-B",
+        "W5889G-B",
+        "W898bvG-B-POE"
+      ]
+    },
+    {
+      "id": "aote-5",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aote-6",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TEK 1.0MP/1.0 Megapixel HD 1280X720P"
+      ]
+    },
+    {
+      "id": "aote-7",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "W898bvG-B-POE"
+      ]
+    },
+    {
+      "id": "aote-8",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "W898bvG-B-POE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Fvc Cameras",
+  "brand_id": "fvc-cameras",
+  "streams": [
+    {
+      "id": "fvc-cameras-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fvc-cameras-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P2P IP"
+      ]
+    },
+    {
+      "id": "fvc-cameras-3",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P2P IP"
+      ]
+    }
+  ]
+}

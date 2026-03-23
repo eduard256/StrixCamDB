@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Summvision",
+  "brand_id": "summvision",
+  "streams": [
+    {
+      "id": "summvision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hawkeye"
+      ]
+    }
+  ]
+}

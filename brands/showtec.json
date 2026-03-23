@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Showtec",
+  "brand_id": "showtec",
+  "streams": [
+    {
+      "id": "showtec-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "general"
+      ]
+    },
+    {
+      "id": "showtec-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SW641W"
+      ]
+    },
+    {
+      "id": "showtec-3",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SW641W"
+      ]
+    }
+  ]
+}

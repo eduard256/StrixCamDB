@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cesnet",
+  "brand_id": "cesnet",
+  "streams": [
+    {
+      "id": "cesnet-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

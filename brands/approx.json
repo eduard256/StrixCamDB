@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "brand": "Approx",
+  "brand_id": "approx",
+  "streams": [
+    {
+      "id": "approx-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APPi",
+        "APPIP002",
+        "APPIP01W"
+      ]
+    },
+    {
+      "id": "approx-2",
+      "url": "snapshot.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APPI01P2P"
+      ]
+    },
+    {
+      "id": "approx-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APPI01P2P"
+      ]
+    },
+    {
+      "id": "approx-4",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APPI01P2P"
+      ]
+    },
+    {
+      "id": "approx-5",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APPI01P2P",
+        "APPIP02P2P"
+      ]
+    },
+    {
+      "id": "approx-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APPIP002",
+        "APPIP01WV4"
+      ]
+    },
+    {
+      "id": "approx-7",
+      "url": "cgi-bin/sf.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APPIP002",
+        "ip002"
+      ]
+    },
+    {
+      "id": "approx-8",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "appIP01P2P",
+        "APPIP01WV4",
+        "APPIP03P2P"
+      ]
+    },
+    {
+      "id": "approx-9",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "appIP01P2P",
+        "VSTB224232GDWGU"
+      ]
+    },
+    {
+      "id": "approx-10",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10552,
+      "models": [
+        "APPIP02P2P"
+      ]
+    },
+    {
+      "id": "approx-11",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "APPIP400HDPRO"
+      ]
+    },
+    {
+      "id": "approx-12",
+      "url": "dms",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LC-7226"
+      ]
+    }
+  ]
+}

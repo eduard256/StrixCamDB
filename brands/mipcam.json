@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "brand": "Mipcam",
+  "brand_id": "mipcam",
+  "streams": [
+    {
+      "id": "mipcam-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "366357",
+        "IP-CAM"
+      ]
+    },
+    {
+      "id": "mipcam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C6F0SgZ3N0P6L2",
+        "Y853Q2"
+      ]
+    },
+    {
+      "id": "mipcam-3",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NKIP308-HD"
+      ]
+    },
+    {
+      "id": "mipcam-4",
+      "url": "stream.av",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NKIP308-HD"
+      ]
+    },
+    {
+      "id": "mipcam-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mipcam-6",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

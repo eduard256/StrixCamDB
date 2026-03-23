@@ -1,0 +1,128 @@
+{
+  "version": 2,
+  "brand": "Qnap",
+  "brand_id": "qnap",
+  "streams": [
+    {
+      "id": "qnap-1",
+      "url": "/cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ics1013"
+      ]
+    },
+    {
+      "id": "qnap-2",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICS-1013"
+      ]
+    },
+    {
+      "id": "qnap-3",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICS-1013"
+      ]
+    },
+    {
+      "id": "qnap-4",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICS-1013",
+        "Other"
+      ]
+    },
+    {
+      "id": "qnap-5",
+      "url": "goform/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "qnap-6",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "qnap-7",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "qnap-8",
+      "url": "cam[CHANNEL]/mjpeg",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "qnap-9",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "qnap-10",
+      "url": "cam[CHANNEL]/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "qnap-11",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "qnap-12",
+      "url": "cgi-bin/getstream.cgi?ch=[CHANNEL]&stream_id=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VioStor 4012"
+      ]
+    }
+  ]
+}

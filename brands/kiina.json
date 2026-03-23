@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kiina",
+  "brand_id": "kiina",
+  "streams": [
+    {
+      "id": "kiina-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

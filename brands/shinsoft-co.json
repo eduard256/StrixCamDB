@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Shinsoft Co",
+  "brand_id": "shinsoft-co",
+  "streams": [
+    {
+      "id": "shinsoft-co-1",
+      "url": "v01",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "I-315",
+        "SIS-T2001RE"
+      ]
+    }
+  ]
+}

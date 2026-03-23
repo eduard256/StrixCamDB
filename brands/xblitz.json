@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xblitz",
+  "brand_id": "xblitz",
+  "streams": [
+    {
+      "id": "xblitz-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "force"
+      ]
+    }
+  ]
+}

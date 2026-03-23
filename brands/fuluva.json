@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Fuluva",
+  "brand_id": "fuluva",
+  "streams": [
+    {
+      "id": "fuluva-1",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A series"
+      ]
+    },
+    {
+      "id": "fuluva-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B07L8JV3CH"
+      ]
+    },
+    {
+      "id": "fuluva-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "X-DFH710"
+      ]
+    },
+    {
+      "id": "fuluva-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp?real_stream",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "X-DFH710"
+      ]
+    }
+  ]
+}

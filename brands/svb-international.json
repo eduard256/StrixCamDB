@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Svb International",
+  "brand_id": "svb-international",
+  "streams": [
+    {
+      "id": "svb-international-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP-018262-RYERR"
+      ]
+    },
+    {
+      "id": "svb-international-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SIP-018262-RYERR"
+      ]
+    }
+  ]
+}

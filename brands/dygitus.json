@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dygitus",
+  "brand_id": "dygitus",
+  "streams": [
+    {
+      "id": "dygitus-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8554,
+      "models": [
+        "16036"
+      ]
+    }
+  ]
+}

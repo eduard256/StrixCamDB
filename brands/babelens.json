@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Babelens",
+  "brand_id": "babelens",
+  "streams": [
+    {
+      "id": "babelens-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BABEN7HD"
+      ]
+    }
+  ]
+}

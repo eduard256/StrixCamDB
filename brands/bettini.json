@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bettini",
+  "brand_id": "bettini",
+  "streams": [
+    {
+      "id": "bettini-1",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TB232B121"
+      ]
+    }
+  ]
+}

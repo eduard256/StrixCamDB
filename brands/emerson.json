@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Emerson",
+  "brand_id": "emerson",
+  "streams": [
+    {
+      "id": "emerson-1",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "em 543"
+      ]
+    },
+    {
+      "id": "emerson-2",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "em 543"
+      ]
+    },
+    {
+      "id": "emerson-3",
+      "url": "nphMotionJpeg?Resolution=640x480&Quality=Standard",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EVC510"
+      ]
+    }
+  ]
+}

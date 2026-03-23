@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Wifi Smart Net Camera",
+  "brand_id": "wifi-smart-net-camera",
+  "streams": [
+    {
+      "id": "wifi-smart-net-camera-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "IPC360",
+        "ipc-t3810-q6s",
+        "ork",
+        "Other",
+        "SMT529AB",
+        "SYMT529AB",
+        "v380"
+      ]
+    },
+    {
+      "id": "wifi-smart-net-camera-2",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-V380-Q10",
+        "XM83-P"
+      ]
+    },
+    {
+      "id": "wifi-smart-net-camera-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "WANSCAM"
+      ]
+    },
+    {
+      "id": "wifi-smart-net-camera-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "WANSCAM"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "brand": "Itx-security",
+  "brand_id": "itx-security",
+  "streams": [
+    {
+      "id": "itx-security-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bullet",
+        "dddd",
+        "IND2",
+        "KCEZB",
+        "NCD-2003PRH",
+        "NMB2300PR",
+        "RB300"
+      ]
+    },
+    {
+      "id": "itx-security-2",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "INDi-3007PR",
+        "sme-2220"
+      ]
+    },
+    {
+      "id": "itx-security-3",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPDM844"
+      ]
+    },
+    {
+      "id": "itx-security-4",
+      "url": "/live/second",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KCEZB",
+        "NCD-2003PR2003PR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Pir",
+  "brand_id": "pir",
+  "streams": [
+    {
+      "id": "pir-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WF-450"
+      ]
+    },
+    {
+      "id": "pir-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WF-450"
+      ]
+    }
+  ]
+}

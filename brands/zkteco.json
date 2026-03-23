@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "brand": "Zkteco",
+  "brand_id": "zkteco",
+  "streams": [
+    {
+      "id": "zkteco-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-52012H"
+      ]
+    },
+    {
+      "id": "zkteco-2",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "zkteco-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "ZKT"
+      ]
+    },
+    {
+      "id": "zkteco-4",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "ZKIP472-W",
+        "zk-ir372",
+        "ZKT"
+      ]
+    },
+    {
+      "id": "zkteco-5",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "zkteco-6",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "ZKIP472-W",
+        "ZKT",
+        "ZTMD470P"
+      ]
+    },
+    {
+      "id": "zkteco-7",
+      "url": "mpeg4/media.amp?resolution=640x480",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Pl-52D18E"
+      ]
+    },
+    {
+      "id": "zkteco-8",
+      "url": "live_mpeg4.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ZKMD-532"
+      ]
+    }
+  ]
+}

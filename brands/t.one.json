@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "T.one",
+  "brand_id": "t.one",
+  "streams": [
+    {
+      "id": "t.one-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "tn0020"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wic",
+  "brand_id": "wic",
+  "streams": [
+    {
+      "id": "wic-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "P9-SM8-8X-AF"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "brand": "Afidus",
+  "brand_id": "afidus",
+  "streams": [
+    {
+      "id": "afidus-1",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "afidus-2",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "R-09A",
+        "RH-230F2",
+        "RN232Z1",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "afidus-3",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "R-09A"
+      ]
+    },
+    {
+      "id": "afidus-4",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RH-331Z2"
+      ]
+    },
+    {
+      "id": "afidus-5",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "tm-110f5"
+      ]
+    }
+  ]
+}

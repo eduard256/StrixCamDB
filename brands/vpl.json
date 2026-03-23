@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vpl",
+  "brand_id": "vpl",
+  "streams": [
+    {
+      "id": "vpl-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

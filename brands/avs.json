@@ -1,0 +1,142 @@
+{
+  "version": 2,
+  "brand": "Avs",
+  "brand_id": "avs",
+  "streams": [
+    {
+      "id": "avs-1",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP cameras",
+        "Other",
+        "SYSTEMS HD1024 SERIES",
+        "TITANAPOLLOATOM DVR"
+      ]
+    },
+    {
+      "id": "avs-2",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ME",
+        "titan apollo atom",
+        "TitanApolloAtom DVR"
+      ]
+    },
+    {
+      "id": "avs-3",
+      "url": "jpeg.fcgi?mode=real&si=[USERNAME]&mon=1&ch=[CHANNEL]&width=[WIDTH]&height=[HEIGHT]&quality=7&fps=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NVR"
+      ]
+    },
+    {
+      "id": "avs-4",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NVR"
+      ]
+    },
+    {
+      "id": "avs-5",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "avs-6",
+      "url": "cgi-usr/image",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "avs-7",
+      "url": "live",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "avs-8",
+      "url": "pic01/images.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Systems HD1024 Series"
+      ]
+    },
+    {
+      "id": "avs-9",
+      "url": "cgi-bin/image/mjpeg.cgi?id=[USERNAME]&passwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Systems HD1024 Series"
+      ]
+    },
+    {
+      "id": "avs-10",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Systems MPix 2.0"
+      ]
+    },
+    {
+      "id": "avs-11",
+      "url": "cgi-bin/stream/nph-stream.cgi?id=[USERNAME]&pw=[PASSWORD]&streamtype=jpeg&truenph=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Systems MPix Series"
+      ]
+    },
+    {
+      "id": "avs-12",
+      "url": "cgi-bin/stream/nph-stream.cgi?id=[USERNAME]&pw=[PASSWORD]&streamtype=mjpeg&truenph=1",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Systems MPix Series"
+      ]
+    },
+    {
+      "id": "avs-13",
+      "url": "/live/ch00_0",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "Y4C-ZA"
+      ]
+    }
+  ]
+}

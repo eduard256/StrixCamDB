@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Guard",
+  "brand_id": "guard",
+  "streams": [
+    {
+      "id": "guard-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "101ip"
+      ]
+    },
+    {
+      "id": "guard-2",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Digital Clock"
+      ]
+    },
+    {
+      "id": "guard-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Digital Clock"
+      ]
+    },
+    {
+      "id": "guard-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Digital Clock"
+      ]
+    }
+  ]
+}

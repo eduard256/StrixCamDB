@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Kiirie",
+  "brand_id": "kiirie",
+  "streams": [
+    {
+      "id": "kiirie-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HYV3805A"
+      ]
+    },
+    {
+      "id": "kiirie-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HYV3805A",
+        "Other"
+      ]
+    }
+  ]
+}

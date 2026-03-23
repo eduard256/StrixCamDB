@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "brand": "Unv",
+  "brand_id": "unv",
+  "streams": [
+    {
+      "id": "unv-1",
+      "url": "MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "130",
+        "2324",
+        "IPC2122LR3-PF60-E",
+        "IPC2328SBR5",
+        "IPC321SR-VSPF28",
+        "IPC6424SR",
+        "Other"
+      ]
+    },
+    {
+      "id": "unv-2",
+      "url": "/MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HC121",
+        "IPC2122LB",
+        "IPC2125LE",
+        "IPC3618SS-ADF28KM-I0",
+        "IPC6222ER-X30P-B",
+        "Other",
+        "Test  01"
+      ]
+    },
+    {
+      "id": "unv-3",
+      "url": "/media/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC",
+        "IPC2224SR5-DPF40-B",
+        "IPC2324SS-DZK-I0",
+        "IPC2A25SA-DZK",
+        "IPC322LR-MLP40-RU",
+        "IPC3614LE",
+        "IPC3614LE-ADF28K-G",
+        "IPC3615ER3-ADUPF28M",
+        "IPC3618",
+        "IPC3618SB",
+        "IPC6222ER-X30P-B",
+        "Other",
+        "UNV3614LE"
+      ]
+    },
+    {
+      "id": "unv-4",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ipc 232s",
+        "IPC2122LR3-PF40-A",
+        "IPC2122LR3-PF40-E",
+        "IPC2122LR3-PF40M-D",
+        "ipc2122LR-MLP60-RU",
+        "IPC2124LR3-PF40",
+        "IPC2124SR3-DPF36",
+        "IPC2125LE",
+        "IPC2224SR5-DPF40-B",
+        "IPC2A25SA-DZK",
+        "ipc321sr-vspf28",
+        "IPC321SR-VSPF28",
+        "IPC322ER3-DUVPF28-B",
+        "IPC322LR3-VSPF28-D",
+        "IPC324LE-DSF28K-G",
+        "IPC324LR3",
+        "IPC324LR3-VSPF28-D",
+        "IPC3612LR",
+        "IPC3614LE",
+        "IPC3F12P-RU3",
+        "ipc6222er-x20-b",
+        "IPC6222ER-X30P-B",
+        "IPC6258SR-X22DUP",
+        "IPC-D112-PF40",
+        "IPC-T112-PF28",
+        "Other",
+        "UNV3614LE"
+      ]
+    },
+    {
+      "id": "unv-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC2122LR3-PF40-E",
+        "IPC-B112-F40W"
+      ]
+    },
+    {
+      "id": "unv-6",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 555,
+      "models": [
+        "IPC2124LE-ADF40KM-G",
+        "IPC2A25SA-DZK",
+        "IPC321SR-VSPF28",
+        "IPC3235ER3-DUVZ",
+        "IPC3618SR3",
+        "Other",
+        "UNV3614LE",
+        "UNVIPC3616LE"
+      ]
+    },
+    {
+      "id": "unv-7",
+      "url": "/unicast/c1/s0/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC322LB-DSF28K-G",
+        "IPC324ER3-DVPF28",
+        "IPC328LE-ADF28K-G",
+        "IPC3615ER3-ADUPF28M",
+        "IPC3F12P-RU3",
+        "IPC-B112-F40W"
+      ]
+    },
+    {
+      "id": "unv-8",
+      "url": "/unicast/c2/s0/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC328LE-ADF28K-G"
+      ]
+    },
+    {
+      "id": "unv-9",
+      "url": "/media/video2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC3618SB"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Df960p",
+  "brand_id": "df960p",
+  "streams": [
+    {
+      "id": "df960p-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DFR960P"
+      ]
+    }
+  ]
+}

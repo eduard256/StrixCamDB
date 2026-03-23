@@ -1,0 +1,298 @@
+{
+  "version": 2,
+  "brand": "Supra Space",
+  "brand_id": "supra-space",
+  "streams": [
+    {
+      "id": "supra-space-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "10-AC",
+        "1-PC1",
+        "IP-2",
+        "IPC",
+        "IPC-1",
+        "IPC-100AC",
+        "IPC-10A",
+        "IPC-10-ac",
+        "IPC-10AC",
+        "IPC-1A",
+        "IPC-2",
+        "IPC-20c",
+        "Other",
+        "SP1"
+      ]
+    },
+    {
+      "id": "supra-space-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc",
+        "IPC-1",
+        "IPC-100AC",
+        "IPC-10AC",
+        "IPC-20"
+      ]
+    },
+    {
+      "id": "supra-space-3",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC",
+        "IPC-10AC"
+      ]
+    },
+    {
+      "id": "supra-space-4",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "supra-space-5",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC 10AC"
+      ]
+    },
+    {
+      "id": "supra-space-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC 10AC",
+        "IPC-1",
+        "IPC-100AC",
+        "IPC-10A",
+        "IPC-1A",
+        "Other"
+      ]
+    },
+    {
+      "id": "supra-space-7",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC 20C",
+        "IPC-1",
+        "IPC-100"
+      ]
+    },
+    {
+      "id": "supra-space-8",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1",
+        "IPC-100AC",
+        "IPC-10AC",
+        "IPC-1A",
+        "Other"
+      ]
+    },
+    {
+      "id": "supra-space-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1",
+        "IPC-100AC",
+        "IPC-1A"
+      ]
+    },
+    {
+      "id": "supra-space-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1",
+        "IPC-10AC"
+      ]
+    },
+    {
+      "id": "supra-space-11",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1"
+      ]
+    },
+    {
+      "id": "supra-space-12",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1",
+        "IPC-10AC",
+        "IPC-20C"
+      ]
+    },
+    {
+      "id": "supra-space-13",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1",
+        "IPC-100AC",
+        "IPC-10AC",
+        "Other",
+        "supra ipc"
+      ]
+    },
+    {
+      "id": "supra-space-14",
+      "url": "/desktop/index_framed.htm",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-100"
+      ]
+    },
+    {
+      "id": "supra-space-15",
+      "url": "/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-100 HD"
+      ]
+    },
+    {
+      "id": "supra-space-16",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc-100ac",
+        "IPC-1A",
+        "IPC-20"
+      ]
+    },
+    {
+      "id": "supra-space-17",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-100ac"
+      ]
+    },
+    {
+      "id": "supra-space-18",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-100AC"
+      ]
+    },
+    {
+      "id": "supra-space-19",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1A"
+      ]
+    },
+    {
+      "id": "supra-space-20",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1A"
+      ]
+    },
+    {
+      "id": "supra-space-21",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc-20c",
+        "IPC25"
+      ]
+    },
+    {
+      "id": "supra-space-22",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc-20c"
+      ]
+    },
+    {
+      "id": "supra-space-23",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-25HDC"
+      ]
+    },
+    {
+      "id": "supra-space-24",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "supra-space-25",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

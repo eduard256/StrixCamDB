@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Icloudcam",
+  "brand_id": "icloudcam",
+  "streams": [
+    {
+      "id": "icloudcam-1",
+      "url": "cgi-bin/stream.cgi?stream=MainStream&Audio=1",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LS-ND321A-W",
+        "Other",
+        "VMS8000"
+      ]
+    }
+  ]
+}

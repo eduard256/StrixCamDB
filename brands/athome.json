@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Athome",
+  "brand_id": "athome",
+  "streams": [
+    {
+      "id": "athome-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "athome-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "r'cam 3.0"
+      ]
+    },
+    {
+      "id": "athome-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "r-cam 3.0"
+      ]
+    },
+    {
+      "id": "athome-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "RTX 01"
+      ]
+    }
+  ]
+}

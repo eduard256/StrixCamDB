@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Allsky",
+  "brand_id": "allsky",
+  "streams": [
+    {
+      "id": "allsky-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080"
+      ]
+    },
+    {
+      "id": "allsky-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BoaCam"
+      ]
+    }
+  ]
+}

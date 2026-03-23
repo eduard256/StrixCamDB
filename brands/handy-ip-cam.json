@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Handy Ip Cam",
+  "brand_id": "handy-ip-cam",
+  "streams": [
+    {
+      "id": "handy-ip-cam-1",
+      "url": "/ch0_1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3454"
+      ]
+    },
+    {
+      "id": "handy-ip-cam-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "handy-ip-cam-3",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Samsung Galaxy S3"
+      ]
+    }
+  ]
+}

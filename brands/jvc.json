@@ -1,0 +1,375 @@
+{
+  "version": 2,
+  "brand": "Jvc",
+  "brand_id": "jvc",
+  "streams": [
+    {
+      "id": "jvc-1",
+      "url": "api/video?encode=jpeg&framerate=2&boundary=on",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "h235",
+        "JVC V686",
+        "Other",
+        "V686U",
+        "VN Series",
+        "VN-H37",
+        "VN-H657",
+        "VN-V225",
+        "vn-v25",
+        "vn-v26u",
+        "VN-X35"
+      ]
+    },
+    {
+      "id": "jvc-2",
+      "url": "/livestream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JVC VN-T216/U",
+        "Other",
+        "VNH57",
+        "VN-T16U"
+      ]
+    },
+    {
+      "id": "jvc-3",
+      "url": "api/video?encode=jpeg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JVC VN-V225VPU",
+        "Other",
+        "VN Series",
+        "VN-C20U",
+        "VN-H557",
+        "VN-V225",
+        "VN-v686",
+        "VN-X35"
+      ]
+    },
+    {
+      "id": "jvc-4",
+      "url": "still.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "v685u",
+        "Web V.Networks"
+      ]
+    },
+    {
+      "id": "jvc-5",
+      "url": "java.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VN SERIES",
+        "VNC205U",
+        "vn-c625",
+        "WEB V.NETWORKS"
+      ]
+    },
+    {
+      "id": "jvc-6",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VN SERIES",
+        "VN-C20U",
+        "VN-C215",
+        "VN-H237",
+        "WEB V.NETWORKS"
+      ]
+    },
+    {
+      "id": "jvc-7",
+      "url": "api/video?encode=jpeg&framerate=15&boundary=on",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VN SERIES",
+        "VN_X35",
+        "VN-H557",
+        "VN-H57B",
+        "VN-H657",
+        "Vn-X35",
+        "VN-X35U/235U"
+      ]
+    },
+    {
+      "id": "jvc-8",
+      "url": "PSIA/Streaming/channels/0?videoCodecType=H.264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "VN SERIES",
+        "VN-H37",
+        "VNH-37U"
+      ]
+    },
+    {
+      "id": "jvc-9",
+      "url": "PSIA/Streaming/channels/[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "VN H264",
+        "VN-H137",
+        "VN-H237",
+        "VN-H37",
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-10",
+      "url": "/ch01_sub.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "jvc-11",
+      "url": "api/video?encode=h264(1)",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VN H264",
+        "VN T16U ?",
+        "VN-C20",
+        "vn-c20u",
+        "VN-C215"
+      ]
+    },
+    {
+      "id": "jvc-12",
+      "url": "video.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN Series",
+        "VN-T216U",
+        "vn-t216vpru"
+      ]
+    },
+    {
+      "id": "jvc-13",
+      "url": "/api/video?encode=jpeg&framerate=2&boundary=on",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "vn-225",
+        "VN-H57U",
+        "vn-v25"
+      ]
+    },
+    {
+      "id": "jvc-14",
+      "url": "/api/video?encode=jpeg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "vn-225"
+      ]
+    },
+    {
+      "id": "jvc-15",
+      "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "vn-c20",
+        "VN-C20U",
+        "VN-C215"
+      ]
+    },
+    {
+      "id": "jvc-16",
+      "url": "cgi-bin/view/image?pro_[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VNC205U"
+      ]
+    },
+    {
+      "id": "jvc-17",
+      "url": "PSIA/Streaming/channels/[CHANNEL]?maxFrameRate=15",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-H137",
+        "VN-H237B"
+      ]
+    },
+    {
+      "id": "jvc-18",
+      "url": "/PSIA/Streaming/channels/0?videoCodecType=H.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VN-H157WP"
+      ]
+    },
+    {
+      "id": "jvc-19",
+      "url": "/ONVIF/Streaming/channels/0_a/unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-H557"
+      ]
+    },
+    {
+      "id": "jvc-20",
+      "url": "1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U",
+        "VN-U78"
+      ]
+    },
+    {
+      "id": "jvc-21",
+      "url": "cgi-bin/getstream.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-22",
+      "url": "cgi-bin/getstream.cgi?VideoType=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-23",
+      "url": "cam[CHANNEL]/mjpeg",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-24",
+      "url": "v03",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-25",
+      "url": "v02",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-26",
+      "url": "rtsph2641080p",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-27",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-28",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-29",
+      "url": "h264.sdp?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-30",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VN-T216U"
+      ]
+    },
+    {
+      "id": "jvc-31",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "XA1"
+      ]
+    }
+  ]
+}

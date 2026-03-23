@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Ccam",
+  "brand_id": "ccam",
+  "streams": [
+    {
+      "id": "ccam-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "P2P IP"
+      ]
+    },
+    {
+      "id": "ccam-2",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ccam-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "p2p ip"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Maxvideo",
+  "brand_id": "maxvideo",
+  "streams": [
+    {
+      "id": "maxvideo-1",
+      "url": "?action=appletvstream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "maxvideo-2",
+      "url": "0/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

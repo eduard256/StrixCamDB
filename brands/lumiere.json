@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Lumiere",
+  "brand_id": "lumiere",
+  "streams": [
+    {
+      "id": "lumiere-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "EP-PD22W-HD"
+      ]
+    },
+    {
+      "id": "lumiere-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "EP-PM40WP"
+      ]
+    },
+    {
+      "id": "lumiere-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "EP-PM40WP"
+      ]
+    },
+    {
+      "id": "lumiere-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "EP-PM40WP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Vikviz",
+  "brand_id": "vikviz",
+  "streams": [
+    {
+      "id": "vikviz-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "pg2347c",
+        "PTZ-3601-IZ"
+      ]
+    }
+  ]
+}

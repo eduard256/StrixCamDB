@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "brand": "Eversecu",
+  "brand_id": "eversecu",
+  "streams": [
+    {
+      "id": "eversecu-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B07GPGPV67",
+        "ES-IP46F",
+        "LBC4",
+        "LCD4"
+      ]
+    },
+    {
+      "id": "eversecu-2",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "B2-R",
+        "CS770",
+        "W660",
+        "WP953"
+      ]
+    },
+    {
+      "id": "eversecu-3",
+      "url": "/tcp/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "CS770"
+      ]
+    },
+    {
+      "id": "eversecu-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "es-ipbo626",
+        "ptz"
+      ]
+    },
+    {
+      "id": "eversecu-5",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "idl"
+      ]
+    },
+    {
+      "id": "eversecu-6",
+      "url": "/onvif-stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LBC4",
+        "LCD4",
+        "ptz2"
+      ]
+    },
+    {
+      "id": "eversecu-7",
+      "url": "/onvif/stream3/mobotix.mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LBC4",
+        "LCD4",
+        "UV-8520D"
+      ]
+    },
+    {
+      "id": "eversecu-8",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LBC4"
+      ]
+    },
+    {
+      "id": "eversecu-9",
+      "url": "/mpeg4/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LCD4"
+      ]
+    },
+    {
+      "id": "eversecu-10",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ptz2",
+        "X0031LN8WX"
+      ]
+    },
+    {
+      "id": "eversecu-11",
+      "url": "mpeg4/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "UV-8520D"
+      ]
+    }
+  ]
+}

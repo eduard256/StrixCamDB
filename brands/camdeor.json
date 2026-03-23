@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Camdeor",
+  "brand_id": "camdeor",
+  "streams": [
+    {
+      "id": "camdeor-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CAR-B2500HQIP",
+        "CAR-R300IP"
+      ]
+    }
+  ]
+}

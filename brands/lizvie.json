@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Lizvie",
+  "brand_id": "lizvie",
+  "streams": [
+    {
+      "id": "lizvie-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Dock",
+        "GF-L300BASE",
+        "L500"
+      ]
+    },
+    {
+      "id": "lizvie-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "pb100",
+        "Radio Clock"
+      ]
+    }
+  ]
+}

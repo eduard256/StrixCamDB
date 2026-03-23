@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "K-vision",
+  "brand_id": "k-vision",
+  "streams": [
+    {
+      "id": "k-vision-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "K-D302MPOE"
+      ]
+    }
+  ]
+}

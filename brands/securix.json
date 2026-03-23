@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Securix",
+  "brand_id": "securix",
+  "streams": [
+    {
+      "id": "securix-1",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nvr"
+      ]
+    },
+    {
+      "id": "securix-2",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SME4"
+      ]
+    },
+    {
+      "id": "securix-3",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SMC4"
+      ]
+    }
+  ]
+}

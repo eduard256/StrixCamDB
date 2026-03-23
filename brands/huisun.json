@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Huisun",
+  "brand_id": "huisun",
+  "streams": [
+    {
+      "id": "huisun-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "dm-rdc305fhpt-ks20hc2",
+        "DM-SCB405IDP-V 10-E",
+        "Other"
+      ]
+    }
+  ]
+}

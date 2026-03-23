@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "brand": "Prolink",
+  "brand_id": "prolink",
+  "streams": [
+    {
+      "id": "prolink-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "prolink-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PIC-1003",
+        "PIC-1003WP",
+        "PIC-1006WN",
+        "PIC1006WN-HD",
+        "PIC-1010WP"
+      ]
+    },
+    {
+      "id": "prolink-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PIC-1003WP",
+        "PIC1006WN"
+      ]
+    },
+    {
+      "id": "prolink-4",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PIC-1003",
+        "PIC-1003WP",
+        "PIC1006WN"
+      ]
+    }
+  ]
+}

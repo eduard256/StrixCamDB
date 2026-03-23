@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Secueasy",
+  "brand_id": "secueasy",
+  "streams": [
+    {
+      "id": "secueasy-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SE-NI102V"
+      ]
+    },
+    {
+      "id": "secueasy-2",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SE-NI102VH"
+      ]
+    }
+  ]
+}

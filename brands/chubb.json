@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Chubb",
+  "brand_id": "chubb",
+  "streams": [
+    {
+      "id": "chubb-1",
+      "url": "dsr-cgi/getdsrimage.cgi?camera=[CHANNEL]&username=[USERNAME]&password=[PASSWORD]&adfa=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR"
+      ]
+    }
+  ]
+}

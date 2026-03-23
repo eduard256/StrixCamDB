@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Panoraxy",
+  "brand_id": "panoraxy",
+  "streams": [
+    {
+      "id": "panoraxy-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "bf-bk01"
+      ]
+    },
+    {
+      "id": "panoraxy-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "L100Pro"
+      ]
+    }
+  ]
+}

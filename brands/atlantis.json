@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "brand": "Atlantis",
+  "brand_id": "atlantis",
+  "streams": [
+    {
+      "id": "atlantis-1",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A02-IPCAM3"
+      ]
+    },
+    {
+      "id": "atlantis-2",
+      "url": "cgi-bin/getimage.cgi?motion=1",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A02-IPCAM3"
+      ]
+    },
+    {
+      "id": "atlantis-3",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A02-IPCAM3"
+      ]
+    },
+    {
+      "id": "atlantis-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "A11-UX914A-BPV"
+      ]
+    },
+    {
+      "id": "atlantis-5",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fixed ir cmos",
+        "ingresso",
+        "nv500",
+        "nv501nv",
+        "Other",
+        "retro"
+      ]
+    },
+    {
+      "id": "atlantis-6",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fixed ir cmos"
+      ]
+    },
+    {
+      "id": "atlantis-7",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "atlantis-8",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PlusCam HD Outdoor 7000"
+      ]
+    }
+  ]
+}

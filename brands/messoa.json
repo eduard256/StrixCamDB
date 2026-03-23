@@ -1,0 +1,244 @@
+{
+  "version": 2,
+  "brand": "Messoa",
+  "brand_id": "messoa",
+  "streams": [
+    {
+      "id": "messoa-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "120-HD5"
+      ]
+    },
+    {
+      "id": "messoa-2",
+      "url": "h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "855PRO",
+        "875PRO",
+        "NCC800",
+        "NDF820",
+        "NDF821",
+        "NIC990"
+      ]
+    },
+    {
+      "id": "messoa-3",
+      "url": "mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "855PRO",
+        "875PRO",
+        "NCB855",
+        "NCR875",
+        "NDR890"
+      ]
+    },
+    {
+      "id": "messoa-4",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "855PRO",
+        "NCB855",
+        "NCC800",
+        "NDR891pro"
+      ]
+    },
+    {
+      "id": "messoa-5",
+      "url": "ipcam/mjpegcif.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "875PRO",
+        "NCC800",
+        "NCR870",
+        "NDR891",
+        "NDR891PRO",
+        "Other"
+      ]
+    },
+    {
+      "id": "messoa-6",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "875PRO",
+        "NCR875"
+      ]
+    },
+    {
+      "id": "messoa-7",
+      "url": "ipcam/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NCB855",
+        "NCR870",
+        "NCR875",
+        "NDF820",
+        "NDF831",
+        "NDR890",
+        "NDR891PRO",
+        "Other"
+      ]
+    },
+    {
+      "id": "messoa-8",
+      "url": "ipcam/jpegcif.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NCC800",
+        "NCR870",
+        "NDF821",
+        "NDR891",
+        "NDR891PRO"
+      ]
+    },
+    {
+      "id": "messoa-9",
+      "url": "ipcam/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NCR870",
+        "NCR878",
+        "NDF831",
+        "NDR890-HP5",
+        "Other"
+      ]
+    },
+    {
+      "id": "messoa-10",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "NCR870"
+      ]
+    },
+    {
+      "id": "messoa-11",
+      "url": "/ipcam/mjpegcif.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "NCR870"
+      ]
+    },
+    {
+      "id": "messoa-12",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NDF821"
+      ]
+    },
+    {
+      "id": "messoa-13",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NDZ760"
+      ]
+    },
+    {
+      "id": "messoa-14",
+      "url": "livestream",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NDZ860",
+        "NIC830",
+        "NIC835",
+        "NIC836"
+      ]
+    },
+    {
+      "id": "messoa-15",
+      "url": "cgi-bin/getstream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIC830",
+        "NIC836"
+      ]
+    },
+    {
+      "id": "messoa-16",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "messoa-17",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "messoa-18",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "messoa-19",
+      "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "messoa-20",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

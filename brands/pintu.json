@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pintu",
+  "brand_id": "pintu",
+  "streams": [
+    {
+      "id": "pintu-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CCD DOME"
+      ]
+    }
+  ]
+}

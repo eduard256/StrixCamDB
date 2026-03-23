@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wsdcam",
+  "brand_id": "wsdcam",
+  "streams": [
+    {
+      "id": "wsdcam-1",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "R3 WiFi"
+      ]
+    }
+  ]
+}

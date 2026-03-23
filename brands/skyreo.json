@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Skyreo",
+  "brand_id": "skyreo",
+  "streams": [
+    {
+      "id": "skyreo-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SR8918W"
+      ]
+    },
+    {
+      "id": "skyreo-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SW8918"
+      ]
+    }
+  ]
+}

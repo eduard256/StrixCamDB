@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Viewscan",
+  "brand_id": "viewscan",
+  "streams": [
+    {
+      "id": "viewscan-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "vewscan"
+      ]
+    }
+  ]
+}

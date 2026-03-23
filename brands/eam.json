@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eam",
+  "brand_id": "eam",
+  "streams": [
+    {
+      "id": "eam-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

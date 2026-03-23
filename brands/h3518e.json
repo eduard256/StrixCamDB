@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "H3518e",
+  "brand_id": "h3518e",
+  "streams": [
+    {
+      "id": "h3518e-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AR0130"
+      ]
+    }
+  ]
+}

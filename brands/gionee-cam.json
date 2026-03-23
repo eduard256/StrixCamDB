@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gionee Cam",
+  "brand_id": "gionee-cam",
+  "streams": [
+    {
+      "id": "gionee-cam-1",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Gionee"
+      ]
+    }
+  ]
+}

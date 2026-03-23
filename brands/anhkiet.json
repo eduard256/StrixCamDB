@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anhkiet",
+  "brand_id": "anhkiet",
+  "streams": [
+    {
+      "id": "anhkiet-1",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3h07811pag00942"
+      ]
+    }
+  ]
+}

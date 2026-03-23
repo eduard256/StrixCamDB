@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Ipwebcam App",
+  "brand_id": "ipwebcam-app",
+  "streams": [
+    {
+      "id": "ipwebcam-app-1",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipwebcam"
+      ]
+    },
+    {
+      "id": "ipwebcam-app-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nexus 7"
+      ]
+    },
+    {
+      "id": "ipwebcam-app-3",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

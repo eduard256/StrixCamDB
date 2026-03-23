@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Powerpack",
+  "brand_id": "powerpack",
+  "streams": [
+    {
+      "id": "powerpack-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "202"
+      ]
+    }
+  ]
+}

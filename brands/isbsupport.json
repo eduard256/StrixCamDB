@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Isbsupport",
+  "brand_id": "isbsupport",
+  "streams": [
+    {
+      "id": "isbsupport-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CP-UNC-DA13L3"
+      ]
+    }
+  ]
+}

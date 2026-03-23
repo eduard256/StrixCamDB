@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Jyuha",
+  "brand_id": "jyuha",
+  "streams": [
+    {
+      "id": "jyuha-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BOC69BKNK3"
+      ]
+    },
+    {
+      "id": "jyuha-2",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BOC69BKNK3"
+      ]
+    }
+  ]
+}

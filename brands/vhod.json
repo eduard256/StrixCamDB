@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vhod",
+  "brand_id": "vhod",
+  "streams": [
+    {
+      "id": "vhod-1",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Eyemax",
+  "brand_id": "eyemax",
+  "streams": [
+    {
+      "id": "eyemax-1",
+      "url": "jstream.cgi?chid=[CHANNEL]&cnt=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "9000 Series",
+        "HX-08 DVR"
+      ]
+    },
+    {
+      "id": "eyemax-2",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TVST PHD"
+      ]
+    }
+  ]
+}

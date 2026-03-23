@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Owlcam",
+  "brand_id": "owlcam",
+  "streams": [
+    {
+      "id": "owlcam-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CP-6M201W"
+      ]
+    },
+    {
+      "id": "owlcam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CP-6M201W"
+      ]
+    }
+  ]
+}

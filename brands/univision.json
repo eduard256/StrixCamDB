@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Univision",
+  "brand_id": "univision",
+  "streams": [
+    {
+      "id": "univision-1",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC3234SR3-DVZ28",
+        "Other"
+      ]
+    },
+    {
+      "id": "univision-2",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

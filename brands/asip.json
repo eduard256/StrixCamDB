@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Asip",
+  "brand_id": "asip",
+  "streams": [
+    {
+      "id": "asip-1",
+      "url": "Jpeg/Img.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "7000EM Series"
+      ]
+    },
+    {
+      "id": "asip-2",
+      "url": "GetData.cgi?Camera=0&BandWidth=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "7000EM Series",
+        "Other"
+      ]
+    }
+  ]
+}

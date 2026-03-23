@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smart Zoom",
+  "brand_id": "smart-zoom",
+  "streams": [
+    {
+      "id": "smart-zoom-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sm-172MAHD"
+      ]
+    }
+  ]
+}

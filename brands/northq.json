@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "brand": "Northq",
+  "brand_id": "northq",
+  "streams": [
+    {
+      "id": "northq-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "9600",
+        "NQ-9006",
+        "Other"
+      ]
+    },
+    {
+      "id": "northq-2",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NQ-9006",
+        "Other"
+      ]
+    },
+    {
+      "id": "northq-3",
+      "url": "img/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NQ-9006"
+      ]
+    },
+    {
+      "id": "northq-4",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NQ-9006"
+      ]
+    },
+    {
+      "id": "northq-5",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NQ-9006",
+        "Other"
+      ]
+    }
+  ]
+}

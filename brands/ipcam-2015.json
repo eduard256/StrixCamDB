@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "brand": "Ipcam 2015",
+  "brand_id": "ipcam-2015",
+  "streams": [
+    {
+      "id": "ipcam-2015-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1.7",
+        "23858",
+        "C6F0SEZ0N0P0L0",
+        "C9F0SeZ0N0P4L0",
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-2015-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1.7",
+        "C9F0SgZ0N0P8L0",
+        "IP-CAM"
+      ]
+    },
+    {
+      "id": "ipcam-2015-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "23858",
+        "IP-CAM"
+      ]
+    },
+    {
+      "id": "ipcam-2015-4",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C6F0SeZ0N0P0L0"
+      ]
+    },
+    {
+      "id": "ipcam-2015-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "C6F0SgZ0N0PhL2",
+        "C6F0SiZ3N0P0L0",
+        "C9F0SEZ0N0P4L0",
+        "C9F0SeZ3N0P8L0",
+        "CamHi",
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-2015-6",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAM"
+      ]
+    },
+    {
+      "id": "ipcam-2015-7",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-2015-8",
+      "url": "cam[CHANNEL]/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

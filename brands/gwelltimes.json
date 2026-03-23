@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Gwelltimes",
+  "brand_id": "gwelltimes",
+  "streams": [
+    {
+      "id": "gwelltimes-1",
+      "url": "/onvif2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4056085"
+      ]
+    },
+    {
+      "id": "gwelltimes-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HIKAM",
+        "IPC",
+        "Other",
+        "X7200-MJ36"
+      ]
+    },
+    {
+      "id": "gwelltimes-3",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    }
+  ]
+}

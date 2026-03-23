@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Crest",
+  "brand_id": "crest",
+  "streams": [
+    {
+      "id": "crest-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 1188,
+      "models": [
+        "CCN-2824F"
+      ]
+    },
+    {
+      "id": "crest-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1188,
+      "models": [
+        "CCN-4824s"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Avtron",
+  "brand_id": "avtron",
+  "streams": [
+    {
+      "id": "avtron-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AM-SM2061-vma2",
+        "AM-SM2061-VMA2"
+      ]
+    }
+  ]
+}

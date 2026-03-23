@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "brand": "Falcon Eye",
+  "brand_id": "falcon-eye",
+  "streams": [
+    {
+      "id": "falcon-eye-1",
+      "url": "/mode=real&idc=1&ids=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BP2e-30p",
+        "cam2"
+      ]
+    },
+    {
+      "id": "falcon-eye-2",
+      "url": "/ch01.264?ptype=udp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Falcon",
+        "FE-IPC-DL202PV"
+      ]
+    },
+    {
+      "id": "falcon-eye-3",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fe-mtr1300",
+        "neye3c",
+        "Other"
+      ]
+    },
+    {
+      "id": "falcon-eye-4",
+      "url": "/ch01_sub.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FE-MTR1300",
+        "p100"
+      ]
+    },
+    {
+      "id": "falcon-eye-5",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fe-mtr300"
+      ]
+    },
+    {
+      "id": "falcon-eye-6",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FE-MTR300",
+        "Other"
+      ]
+    },
+    {
+      "id": "falcon-eye-7",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "neye3c"
+      ]
+    },
+    {
+      "id": "falcon-eye-8",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

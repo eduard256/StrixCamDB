@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Mia",
+  "brand_id": "mia",
+  "streams": [
+    {
+      "id": "mia-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mia-2",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

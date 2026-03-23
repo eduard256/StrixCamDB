@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Icom",
+  "brand_id": "icom",
+  "streams": [
+    {
+      "id": "icom-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "89",
+        "899"
+      ]
+    }
+  ]
+}

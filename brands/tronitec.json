@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tronitec",
+  "brand_id": "tronitec",
+  "streams": [
+    {
+      "id": "tronitec-1",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "TR-200Z2"
+      ]
+    }
+  ]
+}

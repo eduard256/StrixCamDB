@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Encore",
+  "brand_id": "encore",
+  "streams": [
+    {
+      "id": "encore-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CITPC-275C"
+      ]
+    },
+    {
+      "id": "encore-2",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ENVCWI-G1",
+        "ENVCWI-GX/PTGX"
+      ]
+    },
+    {
+      "id": "encore-3",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ENVCWI-G1",
+        "ENVCWI-Gx/PTGx"
+      ]
+    },
+    {
+      "id": "encore-4",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ENVCWI-G1"
+      ]
+    },
+    {
+      "id": "encore-5",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ENVCWI-G1",
+        "ENVCWI-Gx/PTGx",
+        "model",
+        "Other"
+      ]
+    },
+    {
+      "id": "encore-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

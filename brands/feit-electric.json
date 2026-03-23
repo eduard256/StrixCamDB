@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Feit Electric",
+  "brand_id": "feit-electric",
+  "streams": [
+    {
+      "id": "feit-electric-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Floodlight"
+      ]
+    }
+  ]
+}

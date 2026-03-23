@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "brand": "Etrovision",
+  "brand_id": "etrovision",
+  "streams": [
+    {
+      "id": "etrovision-1",
+      "url": "config/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CKSC",
+        "ev 8580",
+        "EV8180U",
+        "EV8580",
+        "EV8580A-C",
+        "ev8582a",
+        "EV8582A-BD",
+        "EV8781A",
+        "EV8782A-B",
+        "EV8782U-B",
+        "EVxx8x",
+        "N53",
+        "Other"
+      ]
+    },
+    {
+      "id": "etrovision-2",
+      "url": "MediaInput/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ev3151"
+      ]
+    },
+    {
+      "id": "etrovision-3",
+      "url": "video",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EV3151"
+      ]
+    },
+    {
+      "id": "etrovision-4",
+      "url": "rtpvideo[CHANNEL].sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EV8180F",
+        "EV8781a",
+        "Other"
+      ]
+    },
+    {
+      "id": "etrovision-5",
+      "url": "/rtpvideo1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EV8780U"
+      ]
+    },
+    {
+      "id": "etrovision-6",
+      "url": "/rtpvideoch12.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N76F-M"
+      ]
+    }
+  ]
+}

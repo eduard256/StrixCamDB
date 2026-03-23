@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Acunico",
+  "brand_id": "acunico",
+  "streams": [
+    {
+      "id": "acunico-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "acunico-2",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Iwigus",
+  "brand_id": "iwigus",
+  "streams": [
+    {
+      "id": "iwigus-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

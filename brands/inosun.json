@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Inosun",
+  "brand_id": "inosun",
+  "streams": [
+    {
+      "id": "inosun-1",
+      "url": "live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ"
+      ]
+    }
+  ]
+}

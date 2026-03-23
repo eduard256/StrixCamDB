@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pnzeo",
+  "brand_id": "pnzeo",
+  "streams": [
+    {
+      "id": "pnzeo-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "pnzeo w2"
+      ]
+    }
+  ]
+}

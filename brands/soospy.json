@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Soospy",
+  "brand_id": "soospy",
+  "streams": [
+    {
+      "id": "soospy-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "p2w"
+      ]
+    },
+    {
+      "id": "soospy-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "v88"
+      ]
+    }
+  ]
+}

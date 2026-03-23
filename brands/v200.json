@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "V200",
+  "brand_id": "v200",
+  "streams": [
+    {
+      "id": "v200-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

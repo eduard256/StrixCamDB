@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Teamvision",
+  "brand_id": "teamvision",
+  "streams": [
+    {
+      "id": "teamvision-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP5158"
+      ]
+    }
+  ]
+}

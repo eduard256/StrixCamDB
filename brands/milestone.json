@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Milestone",
+  "brand_id": "milestone",
+  "streams": [
+    {
+      "id": "milestone-1",
+      "url": "/ch1-s1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MP-13101"
+      ]
+    }
+  ]
+}

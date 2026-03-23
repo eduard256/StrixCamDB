@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hrv",
+  "brand_id": "hrv",
+  "streams": [
+    {
+      "id": "hrv-1",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4 PORT"
+      ]
+    }
+  ]
+}

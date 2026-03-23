@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Iwh-31ir",
+  "brand_id": "iwh-31ir",
+  "streams": [
+    {
+      "id": "iwh-31ir-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MAZi"
+      ]
+    },
+    {
+      "id": "iwh-31ir-2",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MAZI1"
+      ]
+    }
+  ]
+}

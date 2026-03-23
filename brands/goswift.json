@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Goswift",
+  "brand_id": "goswift",
+  "streams": [
+    {
+      "id": "goswift-1",
+      "url": "/ch01/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "GS-2MPTURRET-1",
+        "GS-4KBULLET-1"
+      ]
+    },
+    {
+      "id": "goswift-2",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "GS-4KBULLET-1"
+      ]
+    }
+  ]
+}

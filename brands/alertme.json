@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Alertme",
+  "brand_id": "alertme",
+  "streams": [
+    {
+      "id": "alertme-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cam300"
+      ]
+    },
+    {
+      "id": "alertme-2",
+      "url": "img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Cam300",
+        "CAM300"
+      ]
+    }
+  ]
+}

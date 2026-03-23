@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Usg",
+  "brand_id": "usg",
+  "streams": [
+    {
+      "id": "usg-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080P RTSP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tbs",
+  "brand_id": "tbs",
+  "streams": [
+    {
+      "id": "tbs-1",
+      "url": "/hdmi",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2603"
+      ]
+    }
+  ]
+}

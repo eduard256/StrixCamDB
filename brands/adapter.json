@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Adapter",
+  "brand_id": "adapter",
+  "streams": [
+    {
+      "id": "adapter-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dvr"
+      ]
+    },
+    {
+      "id": "adapter-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

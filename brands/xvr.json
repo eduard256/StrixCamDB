@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Xvr",
+  "brand_id": "xvr",
+  "streams": [
+    {
+      "id": "xvr-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "XVR_3521A"
+      ]
+    }
+  ]
+}

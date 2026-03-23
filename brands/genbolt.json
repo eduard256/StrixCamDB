@@ -1,0 +1,228 @@
+{
+  "version": 2,
+  "brand": "Genbolt",
+  "brand_id": "genbolt",
+  "streams": [
+    {
+      "id": "genbolt-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "102h102h",
+        "102s",
+        "200",
+        "2013",
+        "202h",
+        "600H",
+        "GB100",
+        "GB-100s",
+        "GB102",
+        "GB102H",
+        "gb102s",
+        "GB103K",
+        "GB1080P",
+        "GB2015",
+        "GB201H",
+        "GB201H-4G",
+        "GB-202H",
+        "GB203X",
+        "GB-208",
+        "gb209h",
+        "gb209k",
+        "GB209X",
+        "GB212H",
+        "GB213",
+        "GB-213",
+        "gb213h",
+        "GB-213H",
+        "GB213V",
+        "GB216",
+        "GB216D",
+        "GB216D-K",
+        "GB-217h",
+        "GB220",
+        "GB600",
+        "gb600h",
+        "GB600S",
+        "GB-600S",
+        "GS600H",
+        "GS600S",
+        "House",
+        "Other",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "genbolt-2",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080 HD",
+        "720",
+        "GB106H",
+        "GB-202h",
+        "gb-206h",
+        "GB600H1",
+        "Other"
+      ]
+    },
+    {
+      "id": "genbolt-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "201",
+        "202h",
+        "GB103K",
+        "GB201H",
+        "GB-202H",
+        "GB-206H",
+        "GB209h",
+        "GB212H",
+        "GB213",
+        "GB213X",
+        "gb216d",
+        "GB216D-K"
+      ]
+    },
+    {
+      "id": "genbolt-4",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "600H",
+        "720",
+        "GB100",
+        "gb102h",
+        "GB102S",
+        "GB1080P",
+        "GB2015",
+        "GB-202h",
+        "GB203X",
+        "GB-209X",
+        "GB600",
+        "GB600H",
+        "GB600H1",
+        "GB-600S",
+        "gb800h",
+        "gkh602",
+        "gs600h",
+        "iiii-657982-BDCFD",
+        "Other"
+      ]
+    },
+    {
+      "id": "genbolt-5",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720",
+        "GB100",
+        "GB1005",
+        "GB100s",
+        "GB-100S",
+        "GB-202h",
+        "GB600",
+        "GB600H",
+        "Other",
+        "X000R6XLAL"
+      ]
+    },
+    {
+      "id": "genbolt-6",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "GB100",
+        "GB100S",
+        "HDCam"
+      ]
+    },
+    {
+      "id": "genbolt-7",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "gb102h",
+        "GB-202H",
+        "NNNN-130108-CDAFF"
+      ]
+    },
+    {
+      "id": "genbolt-8",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "gb102s",
+        "GB-202h"
+      ]
+    },
+    {
+      "id": "genbolt-9",
+      "url": "/web/admin.html",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "GB-202h"
+      ]
+    },
+    {
+      "id": "genbolt-10",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "mms",
+      "port": 10554,
+      "models": [
+        "GB-202H"
+      ]
+    },
+    {
+      "id": "genbolt-11",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "gb600",
+        "Other"
+      ]
+    },
+    {
+      "id": "genbolt-12",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "gs100"
+      ]
+    },
+    {
+      "id": "genbolt-13",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "tit"
+      ]
+    }
+  ]
+}

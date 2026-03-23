@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Vgsion",
+  "brand_id": "vgsion",
+  "streams": [
+    {
+      "id": "vgsion-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720 hd"
+      ]
+    },
+    {
+      "id": "vgsion-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vgsion-3",
+      "url": "11",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

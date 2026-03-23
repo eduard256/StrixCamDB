@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cechas",
+  "brand_id": "cechas",
+  "streams": [
+    {
+      "id": "cechas-1",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IC202"
+      ]
+    }
+  ]
+}

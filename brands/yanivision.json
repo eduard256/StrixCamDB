@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Yanivision",
+  "brand_id": "yanivision",
+  "streams": [
+    {
+      "id": "yanivision-1",
+      "url": "live_mpeg4_1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4MP",
+        "mini ptz"
+      ]
+    }
+  ]
+}

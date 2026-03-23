@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tensai",
+  "brand_id": "tensai",
+  "streams": [
+    {
+      "id": "tensai-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

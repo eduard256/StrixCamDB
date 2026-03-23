@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Teruhal",
+  "brand_id": "teruhal",
+  "streams": [
+    {
+      "id": "teruhal-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Intelligent Camera",
+        "TC55",
+        "TC56"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "version": 2,
+  "brand": "Jidetech",
+  "brand_id": "jidetech",
+  "streams": [
+    {
+      "id": "jidetech-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P 2MP Dome",
+        "1080P 2MP DOME",
+        "D3-2MP-XM",
+        "P1 Plus-5X-8MP"
+      ]
+    },
+    {
+      "id": "jidetech-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080P 2MP DOME",
+        "1080P PTZ 2MP DOME",
+        "IP66",
+        "p2 plus-5mp-wfat"
+      ]
+    },
+    {
+      "id": "jidetech-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080P 2MP DOME",
+        "1080P PTZ 2MP DOME",
+        "1080P WIFI CAMERA",
+        "p14-4x-5mpw"
+      ]
+    },
+    {
+      "id": "jidetech-4",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P 2MP DOME",
+        "1080P PTZ 2MP DOME",
+        "2mp",
+        "2mp POE",
+        "5MP POE",
+        "5mp ptz",
+        "abc",
+        "B01-2MP",
+        "BC01-2MP",
+        "bc1-2mp",
+        "BC1-5MP",
+        "bc3",
+        "D4-W5MP",
+        "E14000",
+        "e1b2000",
+        "f22",
+        "gtn-ptz2162-x3",
+        "GTN-PTZ22162-3x",
+        "Hisee SE",
+        "IP Security Cam 10",
+        "IP66",
+        "IPC-E1B2000",
+        "IPC-E36000",
+        "IPD-D53Y0701",
+        "IPD-E1A3Y04",
+        "IPD-E2A5Y04-DH",
+        "IPD-E2B5Y18",
+        "ONVIF IP",
+        "Other",
+        "p1-4x-2mp",
+        "P1-4X-2MP",
+        "P1-4X-5MP",
+        "P2-20X-5MP",
+        "P2-20X-5MPF",
+        "p2-x20",
+        "POE PTZ",
+        "PTZ",
+        "PTZ 5mp",
+        "ptz poe 5mp",
+        "pzt"
+      ]
+    },
+    {
+      "id": "jidetech-5",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P 2MP DOME",
+        "1080P PTZ 2MP DOME",
+        "1080p Wifi Camera",
+        "1080P WIFI CAMERA",
+        "Mksut",
+        "Other",
+        "P14-5X-5MP",
+        "P1-4X-5MP",
+        "P2-20X-5mp",
+        "P5-5X",
+        "POE PTZ",
+        "PTC POE",
+        "ptz poe 5mp",
+        "PZT"
+      ]
+    },
+    {
+      "id": "jidetech-6",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "1080P 2MP DOME",
+        "1080P PTZ 2MP DOME",
+        "BC1-2MP",
+        "BC1-5MP",
+        "IPC-E36000",
+        "IPD-D53Y0701",
+        "ipd-e2a5y04",
+        "IPD-E2B5Y18",
+        "ONVIF IP",
+        "P1-4X-2MP",
+        "PORT",
+        "PTZ",
+        "PTZ POE 5MP"
+      ]
+    },
+    {
+      "id": "jidetech-7",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1080P PTZ 2MP DOME",
+        "5mp POE ptz",
+        "bullet",
+        "Dome 2MB PTZ",
+        "GTN-EYE01W",
+        "Other",
+        "P1 PLUS-5X-8MP",
+        "P14-4X",
+        "p14-4x-5mpw",
+        "P1-4X-5MP",
+        "P1-Plus-5x-8MP",
+        "P2- 20X-5MPW",
+        "p5-5x",
+        "PTZ POE 5MP"
+      ]
+    },
+    {
+      "id": "jidetech-8",
+      "url": "mpeg4/[CHANNEL]/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5mp",
+        "IPC-E14000",
+        "p2-20x-5mp",
+        "POE IP"
+      ]
+    },
+    {
+      "id": "jidetech-9",
+      "url": "cam2/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MP POE",
+        "Hi2162-PTZ3X"
+      ]
+    },
+    {
+      "id": "jidetech-10",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B01-2MP",
+        "IPC-E1B3000-DH",
+        "IPD-E1A3Y04",
+        "IPD-E2A5Y04-DH",
+        "IPD-E36Y0701",
+        "P1 PLUS-5X-5MP",
+        "P5-5X-5MP-WFAT",
+        "VC- P2-20X-8MP POE"
+      ]
+    },
+    {
+      "id": "jidetech-11",
+      "url": "cam[CHANNEL]/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bc1-2mp",
+        "BC1-2MP"
+      ]
+    },
+    {
+      "id": "jidetech-12",
+      "url": "MediaInput/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BC1-2MP",
+        "IPC-E1B2000"
+      ]
+    },
+    {
+      "id": "jidetech-13",
+      "url": "/snap.jpg?JpegCam=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "BC1-5MP",
+        "P5-4X-5MPAT"
+      ]
+    },
+    {
+      "id": "jidetech-14",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "bullet-2mp",
+        "HX-P2-20X-5MPF",
+        "IPD-E2A5Y04-DH",
+        "IPD-E2A5Y18",
+        "JM800S-30",
+        "P2-20X-5mp",
+        "ptz poe 5mp"
+      ]
+    },
+    {
+      "id": "jidetech-15",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GTN-EYE03WL",
+        "Other",
+        "P14-5X",
+        "P1-4X-5MP",
+        "P2- 20X-5MPW",
+        "P5-4X-5MPAT",
+        "PT-14 x5MP PTZ",
+        "PTZ POE 5MP"
+      ]
+    },
+    {
+      "id": "jidetech-16",
+      "url": "cam4/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-E2B5000",
+        "IPD-E2A5Y04",
+        "IPD-E2B5Y18",
+        "P1-4x-2mp",
+        "P1-4X-2MP"
+      ]
+    },
+    {
+      "id": "jidetech-17",
+      "url": "/cam4/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-E2B5Y04"
+      ]
+    },
+    {
+      "id": "jidetech-18",
+      "url": "mpeg4/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-E1A3Y04",
+        "P2-20X-5MPF",
+        "POE PTZ"
+      ]
+    },
+    {
+      "id": "jidetech-19",
+      "url": "/bcs/channel0_main.bcs?token=[TOKEN]&channel=0&stream=0",
+      "type": "FFMPEG",
+      "protocol": "rtmp",
+      "port": 554,
+      "models": [
+        "IPD-E2B5Y04"
+      ]
+    },
+    {
+      "id": "jidetech-20",
+      "url": "/cam2/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JM800S-30"
+      ]
+    },
+    {
+      "id": "jidetech-21",
+      "url": "/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Mksut",
+        "VC- P2-20X-8MP POE"
+      ]
+    },
+    {
+      "id": "jidetech-22",
+      "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "POE IP",
+        "PoE PTZ"
+      ]
+    },
+    {
+      "id": "jidetech-23",
+      "url": "/cam0/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "jidetech-24",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "P2Plus-5MP-WFAT"
+      ]
+    }
+  ]
+}

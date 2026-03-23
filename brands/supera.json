@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Supera",
+  "brand_id": "supera",
+  "streams": [
+    {
+      "id": "supera-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC 20"
+      ]
+    },
+    {
+      "id": "supera-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc-1"
+      ]
+    },
+    {
+      "id": "supera-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1"
+      ]
+    }
+  ]
+}

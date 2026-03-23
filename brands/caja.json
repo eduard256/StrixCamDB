@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Caja",
+  "brand_id": "caja",
+  "streams": [
+    {
+      "id": "caja-1",
+      "url": "dms?nowprofileid=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DSC-2103"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Discover",
+  "brand_id": "discover",
+  "streams": [
+    {
+      "id": "discover-1",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DIS-9502IR-SE",
+        "Other"
+      ]
+    },
+    {
+      "id": "discover-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

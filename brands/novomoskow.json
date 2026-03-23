@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Novomoskow",
+  "brand_id": "novomoskow",
+  "streams": [
+    {
+      "id": "novomoskow-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100"
+      ]
+    },
+    {
+      "id": "novomoskow-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "200"
+      ]
+    }
+  ]
+}

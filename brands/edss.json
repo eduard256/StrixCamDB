@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Edss",
+  "brand_id": "edss",
+  "streams": [
+    {
+      "id": "edss-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FR-R8R1-NI1I"
+      ]
+    }
+  ]
+}

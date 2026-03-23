@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "brand": "Ipega",
+  "brand_id": "ipega",
+  "streams": [
+    {
+      "id": "ipega-1",
+      "url": "/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "KP-CA 178",
+        "KP-CA110",
+        "KP-CA127",
+        "KP-CA176"
+      ]
+    },
+    {
+      "id": "ipega-2",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "KP-CA127"
+      ]
+    },
+    {
+      "id": "ipega-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "KP-CA173",
+        "Other"
+      ]
+    },
+    {
+      "id": "ipega-4",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

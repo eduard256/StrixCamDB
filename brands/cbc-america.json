@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "brand": "Cbc America",
+  "brand_id": "cbc-america",
+  "streams": [
+    {
+      "id": "cbc-america-1",
+      "url": "/gnz_media/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GANZ",
+        "ZN-MD243M"
+      ]
+    },
+    {
+      "id": "cbc-america-2",
+      "url": "/gnz_media/second",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GANZ",
+        "zn-md243m"
+      ]
+    },
+    {
+      "id": "cbc-america-3",
+      "url": "image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mp2",
+        "Mp2a"
+      ]
+    },
+    {
+      "id": "cbc-america-4",
+      "url": "img.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MP2",
+        "mp5"
+      ]
+    },
+    {
+      "id": "cbc-america-5",
+      "url": "Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mp5"
+      ]
+    },
+    {
+      "id": "cbc-america-6",
+      "url": "gnz_media/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ZN-DT2MA"
+      ]
+    }
+  ]
+}

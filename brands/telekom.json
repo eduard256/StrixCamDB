@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Telekom",
+  "brand_id": "telekom",
+  "streams": [
+    {
+      "id": "telekom-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NV530"
+      ]
+    }
+  ]
+}

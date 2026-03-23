@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Gtc",
+  "brand_id": "gtc",
+  "streams": [
+    {
+      "id": "gtc-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "202IP"
+      ]
+    },
+    {
+      "id": "gtc-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SY-IP962BMW"
+      ]
+    }
+  ]
+}

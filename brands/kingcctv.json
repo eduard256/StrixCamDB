@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kingcctv",
+  "brand_id": "kingcctv",
+  "streams": [
+    {
+      "id": "kingcctv-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

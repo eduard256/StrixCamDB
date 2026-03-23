@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Lifetech",
+  "brand_id": "lifetech",
+  "streams": [
+    {
+      "id": "lifetech-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CC11-SC-I-POE-223"
+      ]
+    },
+    {
+      "id": "lifetech-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dd",
+        "MyLifeTech",
+        "Other"
+      ]
+    }
+  ]
+}

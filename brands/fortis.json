@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fortis",
+  "brand_id": "fortis",
+  "streams": [
+    {
+      "id": "fortis-1",
+      "url": "/H264/ch1/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "S-CAM 5.0"
+      ]
+    }
+  ]
+}

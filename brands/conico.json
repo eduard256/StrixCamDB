@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Conico",
+  "brand_id": "conico",
+  "streams": [
+    {
+      "id": "conico-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "812E",
+        "gx6s",
+        "ZS-GX1S"
+      ]
+    },
+    {
+      "id": "conico-2",
+      "url": "/ccm/ccm_pic_get.jpg?hfrom_handle=887330&dsess=1&dsess_nid=MHkMHqeZgXPcaHyOZ.AyecFCDdpjEF7g&dsess_sn=1jfiegbqtkbxa&dtoken=p1_xxxxxxxxxx",
+      "type": "MJPEG",
+      "protocol": "https",
+      "port": 7443,
+      "models": [
+        "F330"
+      ]
+    },
+    {
+      "id": "conico-3",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "FI-362C"
+      ]
+    }
+  ]
+}

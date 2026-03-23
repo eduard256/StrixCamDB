@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Ipscam",
+  "brand_id": "ipscam",
+  "streams": [
+    {
+      "id": "ipscam-1",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "925POE (RS7507)",
+        "IPS911"
+      ]
+    }
+  ]
+}

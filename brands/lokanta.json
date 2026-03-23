@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lokanta",
+  "brand_id": "lokanta",
+  "streams": [
+    {
+      "id": "lokanta-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "P2P"
+      ]
+    }
+  ]
+}

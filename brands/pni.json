@@ -1,0 +1,280 @@
+{
+  "version": 2,
+  "brand": "Pni",
+  "brand_id": "pni",
+  "streams": [
+    {
+      "id": "pni-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1000 Linii"
+      ]
+    },
+    {
+      "id": "pni-2",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1000 Linii"
+      ]
+    },
+    {
+      "id": "pni-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "541W",
+        "720",
+        "IP541W",
+        "Other"
+      ]
+    },
+    {
+      "id": "pni-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "541W",
+        "anaview",
+        "IP541W"
+      ]
+    },
+    {
+      "id": "pni-5",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "541W",
+        "651"
+      ]
+    },
+    {
+      "id": "pni-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "541W",
+        "641",
+        "IP541W",
+        "IP641W",
+        "Other"
+      ]
+    },
+    {
+      "id": "pni-7",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "631w",
+        "631W",
+        "IP31",
+        "IP32"
+      ]
+    },
+    {
+      "id": "pni-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "650",
+        "651",
+        "IP451W",
+        "IP651W",
+        "IP751W",
+        "IP941W",
+        "IP951W"
+      ]
+    },
+    {
+      "id": "pni-9",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "801"
+      ]
+    },
+    {
+      "id": "pni-10",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "941w",
+        "IP941W"
+      ]
+    },
+    {
+      "id": "pni-11",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP125 5MP",
+        "IP31"
+      ]
+    },
+    {
+      "id": "pni-12",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP12MP",
+        "IP1MP",
+        "IP20MP"
+      ]
+    },
+    {
+      "id": "pni-13",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP20MP"
+      ]
+    },
+    {
+      "id": "pni-14",
+      "url": "snapshot.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP541W",
+        "IP641W"
+      ]
+    },
+    {
+      "id": "pni-15",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP720p"
+      ]
+    },
+    {
+      "id": "pni-16",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP720P"
+      ]
+    },
+    {
+      "id": "pni-17",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP720P",
+        "IP941W",
+        "IP951W",
+        "Other"
+      ]
+    },
+    {
+      "id": "pni-18",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP720P-1",
+        "IP941W",
+        "IP951W",
+        "Other"
+      ]
+    },
+    {
+      "id": "pni-19",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP941W"
+      ]
+    },
+    {
+      "id": "pni-20",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP941W"
+      ]
+    },
+    {
+      "id": "pni-21",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP941W",
+        "IP951W",
+        "Other"
+      ]
+    },
+    {
+      "id": "pni-22",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP951W",
+        "Other"
+      ]
+    },
+    {
+      "id": "pni-23",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "pni-24",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PNI IP240"
+      ]
+    }
+  ]
+}

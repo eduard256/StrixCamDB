@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aszhonga",
+  "brand_id": "aszhonga",
+  "streams": [
+    {
+      "id": "aszhonga-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Q10C-JZ-WIFI-2.0MP"
+      ]
+    }
+  ]
+}

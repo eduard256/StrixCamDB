@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Blackfirst",
+  "brand_id": "blackfirst",
+  "streams": [
+    {
+      "id": "blackfirst-1",
+      "url": "/ch0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Hi3507"
+      ]
+    }
+  ]
+}

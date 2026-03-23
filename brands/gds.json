@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gds",
+  "brand_id": "gds",
+  "streams": [
+    {
+      "id": "gds-1",
+      "url": "/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3710"
+      ]
+    }
+  ]
+}

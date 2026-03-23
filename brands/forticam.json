@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "brand": "Forticam",
+  "brand_id": "forticam",
+  "streams": [
+    {
+      "id": "forticam-1",
+      "url": "/ONVIF/channel3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "20A"
+      ]
+    },
+    {
+      "id": "forticam-2",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "20A",
+        "Other"
+      ]
+    },
+    {
+      "id": "forticam-3",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "20A"
+      ]
+    },
+    {
+      "id": "forticam-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "20A"
+      ]
+    },
+    {
+      "id": "forticam-5",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-20C"
+      ]
+    },
+    {
+      "id": "forticam-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "forticam-7",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

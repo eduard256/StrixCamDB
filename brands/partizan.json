@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Partizan",
+  "brand_id": "partizan",
+  "streams": [
+    {
+      "id": "partizan-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Cloud Robot"
+      ]
+    },
+    {
+      "id": "partizan-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPH-2SP-IR"
+      ]
+    },
+    {
+      "id": "partizan-3",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPO-2SP"
+      ]
+    },
+    {
+      "id": "partizan-4",
+      "url": "/ch01/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPO-5SP_4K_1.1"
+      ]
+    },
+    {
+      "id": "partizan-5",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPO-5SP_4K_1.1"
+      ]
+    }
+  ]
+}

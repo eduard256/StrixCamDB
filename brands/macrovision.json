@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Macrovision",
+  "brand_id": "macrovision",
+  "streams": [
+    {
+      "id": "macrovision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "v380",
+        "v380pro"
+      ]
+    },
+    {
+      "id": "macrovision-2",
+      "url": "/feed1.ffm",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "v380"
+      ]
+    }
+  ]
+}

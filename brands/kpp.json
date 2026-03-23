@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kpp",
+  "brand_id": "kpp",
+  "streams": [
+    {
+      "id": "kpp-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "C24s"
+      ]
+    }
+  ]
+}

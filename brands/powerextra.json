@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Powerextra",
+  "brand_id": "powerextra",
+  "streams": [
+    {
+      "id": "powerextra-1",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "H10"
+      ]
+    }
+  ]
+}

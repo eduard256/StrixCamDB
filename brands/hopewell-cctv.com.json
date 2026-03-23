@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hopewell-cctv.com",
+  "brand_id": "hopewell-cctv.com",
+  "streams": [
+    {
+      "id": "hopewell-cctv.com-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HZ-GQIP"
+      ]
+    }
+  ]
+}

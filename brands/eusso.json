@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Eusso",
+  "brand_id": "eusso",
+  "streams": [
+    {
+      "id": "eusso-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "eusso-2",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "UNC7500-IR"
+      ]
+    },
+    {
+      "id": "eusso-3",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "UNC7500-IR"
+      ]
+    }
+  ]
+}

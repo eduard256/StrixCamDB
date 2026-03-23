@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "brand": "Hi View",
+  "brand_id": "hi-view",
+  "streams": [
+    {
+      "id": "hi-view-1",
+      "url": "live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DS-2CD1141-I"
+      ]
+    },
+    {
+      "id": "hi-view-2",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "General"
+      ]
+    },
+    {
+      "id": "hi-view-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hiview",
+        "HP-55A20PE",
+        "Other",
+        "robot 20-40"
+      ]
+    },
+    {
+      "id": "hi-view-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HIVIEW",
+        "Other"
+      ]
+    },
+    {
+      "id": "hi-view-5",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "HW-33A20L"
+      ]
+    },
+    {
+      "id": "hi-view-6",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA-ID002A"
+      ]
+    },
+    {
+      "id": "hi-view-7",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

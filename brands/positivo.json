@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Positivo",
+  "brand_id": "positivo",
+  "streams": [
+    {
+      "id": "positivo-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Camera BOT"
+      ]
+    }
+  ]
+}

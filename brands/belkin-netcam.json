@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Belkin Netcam",
+  "brand_id": "belkin-netcam",
+  "streams": [
+    {
+      "id": "belkin-netcam-1",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F7D7602V1",
+        "HD NETCAM",
+        "netcam",
+        "Wifi Netcam"
+      ]
+    },
+    {
+      "id": "belkin-netcam-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD NETCAM",
+        "WIFICAM"
+      ]
+    },
+    {
+      "id": "belkin-netcam-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "NETCAM HD"
+      ]
+    }
+  ]
+}

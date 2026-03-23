@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cheap",
+  "brand_id": "cheap",
+  "streams": [
+    {
+      "id": "cheap-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "cheap-2",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

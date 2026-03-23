@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Naum Pro",
+  "brand_id": "naum-pro",
+  "streams": [
+    {
+      "id": "naum-pro-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "xmeye 220"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bell",
+  "brand_id": "bell",
+  "streams": [
+    {
+      "id": "bell-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Doorbell"
+      ]
+    }
+  ]
+}

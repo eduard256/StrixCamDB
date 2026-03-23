@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Sunchan",
+  "brand_id": "sunchan",
+  "streams": [
+    {
+      "id": "sunchan-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EPC-HR820AR5",
+        "Other"
+      ]
+    }
+  ]
+}

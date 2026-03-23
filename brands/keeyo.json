@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Keeyo",
+  "brand_id": "keeyo",
+  "streams": [
+    {
+      "id": "keeyo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "lv-ip50w-ii"
+      ]
+    }
+  ]
+}

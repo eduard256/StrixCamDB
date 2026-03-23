@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Matecam",
+  "brand_id": "matecam",
+  "streams": [
+    {
+      "id": "matecam-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "matecam-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

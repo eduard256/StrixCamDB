@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Magic Eye",
+  "brand_id": "magic-eye",
+  "streams": [
+    {
+      "id": "magic-eye-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Digital"
+      ]
+    }
+  ]
+}

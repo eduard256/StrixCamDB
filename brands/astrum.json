@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Astrum",
+  "brand_id": "astrum",
+  "streams": [
+    {
+      "id": "astrum-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "IP9071W",
+        "IP907IW"
+      ]
+    }
+  ]
+}

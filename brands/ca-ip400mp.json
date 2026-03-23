@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ca-ip400mp",
+  "brand_id": "ca-ip400mp",
+  "streams": [
+    {
+      "id": "ca-ip400mp-1",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP400MP"
+      ]
+    }
+  ]
+}

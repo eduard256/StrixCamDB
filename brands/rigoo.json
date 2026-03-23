@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Rigoo",
+  "brand_id": "rigoo",
+  "streams": [
+    {
+      "id": "rigoo-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

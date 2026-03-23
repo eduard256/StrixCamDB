@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "brand": "Panoeagle",
+  "brand_id": "panoeagle",
+  "streams": [
+    {
+      "id": "panoeagle-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4818X-IS",
+        "PG2357C",
+        "pg2385i",
+        "PTZ-4620IZT2",
+        "ptz-4818-iz",
+        "ptz4833"
+      ]
+    },
+    {
+      "id": "panoeagle-2",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 554,
+      "models": [
+        "pg2385i"
+      ]
+    },
+    {
+      "id": "panoeagle-3",
+      "url": "/h264?username=[USERNAME]&password=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ptz-2504"
+      ]
+    }
+  ]
+}

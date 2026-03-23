@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "D-tech",
+  "brand_id": "d-tech",
+  "streams": [
+    {
+      "id": "d-tech-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DT-231"
+      ]
+    },
+    {
+      "id": "d-tech-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dtech"
+      ]
+    },
+    {
+      "id": "d-tech-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "d-tech-4",
+      "url": "image/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

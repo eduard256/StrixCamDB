@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipc-f10p",
+  "brand_id": "ipc-f10p",
+  "streams": [
+    {
+      "id": "ipc-f10p-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

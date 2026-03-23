@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Spacetronik",
+  "brand_id": "spacetronik",
+  "streams": [
+    {
+      "id": "spacetronik-1",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SP-20IP20PTZ"
+      ]
+    }
+  ]
+}

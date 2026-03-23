@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Chambre",
+  "brand_id": "chambre",
+  "streams": [
+    {
+      "id": "chambre-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SA-IPC1200HG"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Fs.com",
+  "brand_id": "fs.com",
+  "streams": [
+    {
+      "id": "fs.com-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FS-VCD-3M",
+        "FS-VCF-4M",
+        "IPC101-5M-T",
+        "IPC101-SM-T"
+      ]
+    }
+  ]
+}

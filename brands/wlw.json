@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wlw",
+  "brand_id": "wlw",
+  "streams": [
+    {
+      "id": "wlw-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-8029C"
+      ]
+    }
+  ]
+}

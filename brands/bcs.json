@@ -1,0 +1,200 @@
+{
+  "version": 2,
+  "brand": "Bcs",
+  "brand_id": "bcs",
+  "streams": [
+    {
+      "id": "bcs-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1100",
+        "4200",
+        "BCS-P-212RWSA",
+        "DIMP4200AIR",
+        "Other",
+        "P-415RWM",
+        "recorder",
+        "SCIP1100"
+      ]
+    },
+    {
+      "id": "bcs-2",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1130AIR",
+        "DMIP2130AIR-M"
+      ]
+    },
+    {
+      "id": "bcs-3",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1130AIR",
+        "1200AIR",
+        "BCS-TIP3200IR-E",
+        "BIP7201",
+        "Other",
+        "TCP5200-IR E",
+        "TIP3200",
+        "universal"
+      ]
+    },
+    {
+      "id": "bcs-4",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2E05EC2PAU00103",
+        "BCS-SDIP1204IR-II",
+        "DMIP",
+        "DMIP2401IR-M-IV",
+        "Other",
+        "TIP8801AIR-IV",
+        "universal"
+      ]
+    },
+    {
+      "id": "bcs-5",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 1935,
+      "models": [
+        "2E05EC2PAU00103"
+      ]
+    },
+    {
+      "id": "bcs-6",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 85,
+      "models": [
+        "414",
+        "BCS-P-212RWSA",
+        "P-212R3S-E",
+        "P-415RWM"
+      ]
+    },
+    {
+      "id": "bcs-7",
+      "url": "cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4401"
+      ]
+    },
+    {
+      "id": "bcs-8",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BCS NVR",
+        "BCS-TIP3200IR-E",
+        "DIMP 3200IR-E",
+        "DIPM",
+        "DMIP",
+        "DMIP maciej",
+        "DMIP3401AIR",
+        "Other",
+        "TCP-3200IR_E",
+        "TCP5200-IR E",
+        "TIP3200",
+        "TIP3200IR-E",
+        "TIP8801AIR-IV"
+      ]
+    },
+    {
+      "id": "bcs-9",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BCS-TIP3200IR-E",
+        "tip5300ir-e"
+      ]
+    },
+    {
+      "id": "bcs-10",
+      "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "BCS-TIP4501IR-Ai"
+      ]
+    },
+    {
+      "id": "bcs-11",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DIMP",
+        "DIPM",
+        "DMIP",
+        "Other",
+        "tip5300ir-e",
+        "TIP8801AIR-IV"
+      ]
+    },
+    {
+      "id": "bcs-12",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DIMP4200AIR",
+        "-P-412"
+      ]
+    },
+    {
+      "id": "bcs-13",
+      "url": "/axis-cgi/mjpg/video.cgi?camera=1",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "HGW-b"
+      ]
+    },
+    {
+      "id": "bcs-14",
+      "url": "/axis-cgi/mjpg/video.cgi?camera=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "HGW-bm"
+      ]
+    },
+    {
+      "id": "bcs-15",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TCP5200-IR E"
+      ]
+    }
+  ]
+}

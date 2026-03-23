@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Wifi Baby",
+  "brand_id": "wifi-baby",
+  "streams": [
+    {
+      "id": "wifi-baby-1",
+      "url": "live_h264.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "WFB2015"
+      ]
+    }
+  ]
+}

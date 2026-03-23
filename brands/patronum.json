@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Patronum",
+  "brand_id": "patronum",
+  "streams": [
+    {
+      "id": "patronum-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "pr-d30ipwt"
+      ]
+    }
+  ]
+}

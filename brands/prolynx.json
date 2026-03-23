@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Prolynx",
+  "brand_id": "prolynx",
+  "streams": [
+    {
+      "id": "prolynx-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PL",
+        "PL-4NBC35"
+      ]
+    },
+    {
+      "id": "prolynx-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "pl-wc0521",
+        "UNLISTED"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Linemak",
+  "brand_id": "linemak",
+  "streams": [
+    {
+      "id": "linemak-1",
+      "url": "cgi-bin/stream.cgi?stream=MainStream&Audio=1",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LS-ND101C"
+      ]
+    }
+  ]
+}

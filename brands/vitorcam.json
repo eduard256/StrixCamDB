@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "brand": "Vitorcam",
+  "brand_id": "vitorcam",
+  "streams": [
+    {
+      "id": "vitorcam-1",
+      "url": "/cam0/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C800"
+      ]
+    },
+    {
+      "id": "vitorcam-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "CA-04WP"
+      ]
+    },
+    {
+      "id": "vitorcam-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ca23"
+      ]
+    },
+    {
+      "id": "vitorcam-4",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "ca23"
+      ]
+    },
+    {
+      "id": "vitorcam-5",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "ca23",
+        "CA-23WP",
+        "HD PTZ IP Cam",
+        "Other"
+      ]
+    },
+    {
+      "id": "vitorcam-6",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 24422,
+      "models": [
+        "CA-31"
+      ]
+    },
+    {
+      "id": "vitorcam-7",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

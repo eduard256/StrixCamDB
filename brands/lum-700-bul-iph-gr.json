@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lum-700-bul-iph-gr",
+  "brand_id": "lum-700-bul-iph-gr",
+  "streams": [
+    {
+      "id": "lum-700-bul-iph-gr-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

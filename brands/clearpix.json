@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Clearpix",
+  "brand_id": "clearpix",
+  "streams": [
+    {
+      "id": "clearpix-1",
+      "url": "cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 5544,
+      "models": [
+        "CPX"
+      ]
+    }
+  ]
+}

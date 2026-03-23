@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "brand": "Cybernova",
+  "brand_id": "cybernova",
+  "streams": [
+    {
+      "id": "cybernova-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CN IPE03W",
+        "cn-wip031w",
+        "Other"
+      ]
+    },
+    {
+      "id": "cybernova-2",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CN IPE03W",
+        "Other"
+      ]
+    },
+    {
+      "id": "cybernova-3",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIP604MW"
+      ]
+    },
+    {
+      "id": "cybernova-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIP604MW"
+      ]
+    },
+    {
+      "id": "cybernova-5",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIP604",
+        "WIP604MW"
+      ]
+    }
+  ]
+}

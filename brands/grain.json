@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Grain",
+  "brand_id": "grain",
+  "streams": [
+    {
+      "id": "grain-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM-100"
+      ]
+    },
+    {
+      "id": "grain-2",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAM-100"
+      ]
+    }
+  ]
+}

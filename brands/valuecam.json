@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Valuecam",
+  "brand_id": "valuecam",
+  "streams": [
+    {
+      "id": "valuecam-1",
+      "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=[USERNAME]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VC-ET04TMG1-IA"
+      ]
+    }
+  ]
+}

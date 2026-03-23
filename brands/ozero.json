@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Ozero",
+  "brand_id": "ozero",
+  "streams": [
+    {
+      "id": "ozero-1",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NC-B20",
+        "NC-D10P"
+      ]
+    }
+  ]
+}

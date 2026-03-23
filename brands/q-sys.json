@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Q-sys",
+  "brand_id": "q-sys",
+  "streams": [
+    {
+      "id": "q-sys-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PTZ"
+      ]
+    }
+  ]
+}

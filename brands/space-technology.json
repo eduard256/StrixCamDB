@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "brand": "Space Technology",
+  "brand_id": "space-technology",
+  "streams": [
+    {
+      "id": "space-technology-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "171 M IP Home",
+        "ST-110 IP Home"
+      ]
+    },
+    {
+      "id": "space-technology-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ST-171 M IP HOME"
+      ]
+    },
+    {
+      "id": "space-technology-3",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "ST-710 M"
+      ]
+    },
+    {
+      "id": "space-technology-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ST-901 IP"
+      ]
+    },
+    {
+      "id": "space-technology-5",
+      "url": "/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ST-901 IP",
+        "ST-V5603"
+      ]
+    },
+    {
+      "id": "space-technology-6",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ST-901 IP",
+        "ST-V5603",
+        "ST-V5603 PRO"
+      ]
+    },
+    {
+      "id": "space-technology-7",
+      "url": "/h264Preview_01_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "st-v2611 pro",
+        "ST-v2703"
+      ]
+    }
+  ]
+}

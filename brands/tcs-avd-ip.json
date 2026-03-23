@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tcs Avd Ip",
+  "brand_id": "tcs-avd-ip",
+  "streams": [
+    {
+      "id": "tcs-avd-ip-1",
+      "url": "/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "AVD94020-0010"
+      ]
+    }
+  ]
+}

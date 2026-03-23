@@ -1,0 +1,300 @@
+{
+  "version": 2,
+  "brand": "Boavision",
+  "brand_id": "boavision",
+  "streams": [
+    {
+      "id": "boavision-1",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "mms",
+      "port": 0,
+      "models": [
+        "1080P PTZ 10x zoom"
+      ]
+    },
+    {
+      "id": "boavision-2",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P PTZ 10X ZOOM",
+        "4X",
+        "5mp",
+        "87.24H22M102M",
+        "bw8mp8x",
+        "Dome IR150",
+        "h22m102m",
+        "HD WIRELESS WIFI MINI PTZ",
+        "HD22M502M",
+        "HD54F",
+        "HD54F-4MP",
+        "HX-HD20H6B20A",
+        "hx-hd20m200as",
+        "HX-W54F5MP",
+        "IPD-E2A5L18-BS",
+        "IR150 30x",
+        "Speed Dome",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "boavision-3",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P PTZ 10X ZOOM",
+        "Boavision speed dome",
+        "by158a8aba",
+        "ipd-d53l02-b",
+        "IPD-D53M02-BS",
+        "IPD-E2A5L18-BS",
+        "IPD-E36L02",
+        "Other",
+        "ptz"
+      ]
+    },
+    {
+      "id": "boavision-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080P PTZ 10X ZOOM",
+        "1080P PT'Z 5X ZOOM",
+        "416XNT",
+        "4MP",
+        "ABQ-A36B",
+        "B987W",
+        "C6F0SgZ0N0PfL2",
+        "front doorHD22M502M",
+        "HD IP CAMERA",
+        "HD WIRELESS WIFI MINI PTZ",
+        "hd22m",
+        "HD22M102M",
+        "HD22M-1080P",
+        "HD22M502M",
+        "HD80M",
+        "HHX-B03-2MPX-B03-2MP",
+        "HX-B03-5MP",
+        "HX-GK20K200AS",
+        "Other",
+        "ptz",
+        "PTZ",
+        "testmsp",
+        "UY-IVS2-SB6R",
+        "WIFI PTZ IP"
+      ]
+    },
+    {
+      "id": "boavision-5",
+      "url": "/video.mjpg?oids=1&username=[USERNAME]&password=[USERNAME]pass&balls=balls5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "1080P PTZ 5X ZOOM",
+        "HD22M102M"
+      ]
+    },
+    {
+      "id": "boavision-6",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P PTZ 5X ZOOM",
+        "36x",
+        "HD IP CAMERA",
+        "HX-HD20M28AS",
+        "R11-4MP"
+      ]
+    },
+    {
+      "id": "boavision-7",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "365 degree PTZ",
+        "HD22M102M",
+        "HD22M-1080P",
+        "HX-W54F5MP",
+        "Other"
+      ]
+    },
+    {
+      "id": "boavision-8",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "365 DEGREE PTZ",
+        "4MP",
+        "H22M102M",
+        "HD IP Camera",
+        "HD Wifi PTZ camera",
+        "HD Wireless Wifi Mini PTZ",
+        "hd22m102m",
+        "hx-hc2850b1080",
+        "HX-HC2850B1080",
+        "HX-HD20H6B20A",
+        "hx-hd20m24as",
+        "MINI IR SPEED DOME",
+        "Other",
+        "ptz"
+      ]
+    },
+    {
+      "id": "boavision-9",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "HD IP Camera",
+        "HD22M102M"
+      ]
+    },
+    {
+      "id": "boavision-10",
+      "url": "mpeg4/[CHANNEL]/media.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD IR Intelligent Dome"
+      ]
+    },
+    {
+      "id": "boavision-11",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD WIRELESS WIFI MINI PTZ",
+        "HD22M102M",
+        "IPCX-PC3034MPA-P",
+        "R11-4MP"
+      ]
+    },
+    {
+      "id": "boavision-12",
+      "url": "/0/[USERNAME]:[PASSWORD]/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "hd22m102m",
+        "HD22M102M"
+      ]
+    },
+    {
+      "id": "boavision-13",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "HD22M102M"
+      ]
+    },
+    {
+      "id": "boavision-14",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD22M102M",
+        "HX-W54F5MP"
+      ]
+    },
+    {
+      "id": "boavision-15",
+      "url": "/live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD22M102M",
+        "hx-hd50m28as"
+      ]
+    },
+    {
+      "id": "boavision-16",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD22M102M",
+        "Other"
+      ]
+    },
+    {
+      "id": "boavision-17",
+      "url": "live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hd54f",
+        "IPD-D53L02-B",
+        "IPD-D53M02-BS",
+        "MINI IR SPEED DOME"
+      ]
+    },
+    {
+      "id": "boavision-18",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "hd54f-5mp",
+        "IPD-E36L02-BS-2 series",
+        "sp15"
+      ]
+    },
+    {
+      "id": "boavision-19",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD80M"
+      ]
+    },
+    {
+      "id": "boavision-20",
+      "url": "mpeg4/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "hdb4f"
+      ]
+    },
+    {
+      "id": "boavision-21",
+      "url": "/stream/1/h264minor",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP DOME"
+      ]
+    }
+  ]
+}

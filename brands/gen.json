@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Gen",
+  "brand_id": "gen",
+  "streams": [
+    {
+      "id": "gen-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2cam",
+        "3200cp",
+        "Other",
+        "P18"
+      ]
+    }
+  ]
+}

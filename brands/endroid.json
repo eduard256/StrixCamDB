@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Endroid",
+  "brand_id": "endroid",
+  "streams": [
+    {
+      "id": "endroid-1",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCTV"
+      ]
+    },
+    {
+      "id": "endroid-2",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCTV"
+      ]
+    }
+  ]
+}

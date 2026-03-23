@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Unitoptek",
+  "brand_id": "unitoptek",
+  "streams": [
+    {
+      "id": "unitoptek-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bullet",
+        "IPCX-BC40272"
+      ]
+    },
+    {
+      "id": "unitoptek-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BULLET",
+        "D977W",
+        "HX-PC28041080A",
+        "Other"
+      ]
+    }
+  ]
+}

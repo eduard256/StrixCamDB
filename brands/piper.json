@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Piper",
+  "brand_id": "piper",
+  "streams": [
+    {
+      "id": "piper-1",
+      "url": "/img/video.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Classic"
+      ]
+    }
+  ]
+}

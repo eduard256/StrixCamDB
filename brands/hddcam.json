@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hddcam",
+  "brand_id": "hddcam",
+  "streams": [
+    {
+      "id": "hddcam-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hgjhg56"
+      ]
+    }
+  ]
+}

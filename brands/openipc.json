@@ -1,0 +1,113 @@
+{
+  "version": 2,
+  "brand": "OpenIPC",
+  "brand_id": "openipc",
+  "streams": [
+    {
+      "id": "openipc-1",
+      "url": "/stream=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MAJESTIC STREAMER",
+        "Generic",
+        "Majestic",
+        "Other"
+      ],
+      "notes": "Main stream (video0) - Majestic streamer default"
+    },
+    {
+      "id": "openipc-2",
+      "url": "/stream=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MAJESTIC STREAMER",
+        "Generic",
+        "Majestic",
+        "Other"
+      ],
+      "notes": "Sub stream (video1) - Majestic streamer"
+    },
+    {
+      "id": "openipc-3",
+      "url": "/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Generic",
+        "Majestic",
+        "Other"
+      ],
+      "notes": "JPEG snapshot"
+    },
+    {
+      "id": "openipc-4",
+      "url": "/mjpeg.html",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Generic",
+        "Majestic",
+        "Other"
+      ],
+      "notes": "MJPEG stream"
+    },
+    {
+      "id": "openipc-5",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Generic",
+        "Majestic",
+        "Other"
+      ],
+      "notes": "Fragmented MP4 video"
+    },
+    {
+      "id": "openipc-6",
+      "url": "/audio.opus",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Generic",
+        "Majestic",
+        "Other"
+      ],
+      "notes": "Opus audio stream"
+    },
+    {
+      "id": "openipc-7",
+      "url": "/audio.mp3",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Generic",
+        "Majestic",
+        "Other"
+      ],
+      "notes": "MP3 audio stream"
+    },
+    {
+      "id": "openipc-8",
+      "url": "/audio.m4a",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Generic",
+        "Majestic",
+        "Other"
+      ],
+      "notes": "AAC audio stream"
+    }
+  ]
+}

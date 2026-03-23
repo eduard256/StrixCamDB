@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Surip Cam",
+  "brand_id": "surip-cam",
+  "streams": [
+    {
+      "id": "surip-cam-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SI-H653R"
+      ]
+    },
+    {
+      "id": "surip-cam-2",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SI-F1057R"
+      ]
+    },
+    {
+      "id": "surip-cam-3",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "SRICAM AP009"
+      ]
+    }
+  ]
+}

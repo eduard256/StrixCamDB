@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Myeye",
+  "brand_id": "myeye",
+  "streams": [
+    {
+      "id": "myeye-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

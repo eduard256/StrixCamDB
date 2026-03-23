@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ip Buiten",
+  "brand_id": "ip-buiten",
+  "streams": [
+    {
+      "id": "ip-buiten-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip LAN"
+      ]
+    }
+  ]
+}

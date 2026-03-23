@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Steren",
+  "brand_id": "steren",
+  "streams": [
+    {
+      "id": "steren-1",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCTV-220"
+      ]
+    },
+    {
+      "id": "steren-2",
+      "url": "/video.cgi?resolution=320x240",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP Cam Z 32001",
+        "Smart IPcam Z:32001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Safesky Cn",
+  "brand_id": "safesky-cn",
+  "streams": [
+    {
+      "id": "safesky-cn-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "08037"
+      ]
+    },
+    {
+      "id": "safesky-cn-2",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C5900"
+      ]
+    },
+    {
+      "id": "safesky-cn-3",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SC-H06"
+      ]
+    }
+  ]
+}

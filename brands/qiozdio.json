@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Qiozdio",
+  "brand_id": "qiozdio",
+  "streams": [
+    {
+      "id": "qiozdio-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD 1080p WIFI"
+      ]
+    }
+  ]
+}

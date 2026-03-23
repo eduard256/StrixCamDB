@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Entrematic",
+  "brand_id": "entrematic",
+  "streams": [
+    {
+      "id": "entrematic-1",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "Entrematic cam"
+      ]
+    },
+    {
+      "id": "entrematic-2",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

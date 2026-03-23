@@ -1,0 +1,217 @@
+{
+  "version": 2,
+  "brand": "Micronet",
+  "brand_id": "micronet",
+  "streams": [
+    {
+      "id": "micronet-1",
+      "url": "ipcam_h264.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5522sw",
+        "Other"
+      ]
+    },
+    {
+      "id": "micronet-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "huawau"
+      ]
+    },
+    {
+      "id": "micronet-3",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAM 67",
+        "Other",
+        "sp5511",
+        "SP5531"
+      ]
+    },
+    {
+      "id": "micronet-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "micronet-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "micronet-6",
+      "url": "Image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SP5520k"
+      ]
+    },
+    {
+      "id": "micronet-7",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "micronet-8",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SP5532SP/SW"
+      ]
+    },
+    {
+      "id": "micronet-9",
+      "url": "cgi-bin/jpg/image.micgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "micronet-10",
+      "url": "goform/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SP5532SP/SW"
+      ]
+    },
+    {
+      "id": "micronet-11",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SP5520",
+        "SP55xxHTM"
+      ]
+    },
+    {
+      "id": "micronet-12",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "sp5511",
+        "SP5512W"
+      ]
+    },
+    {
+      "id": "micronet-13",
+      "url": "snapshot.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SP5532SP/SW"
+      ]
+    },
+    {
+      "id": "micronet-14",
+      "url": "ipcam.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "micronet-15",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SP5512W"
+      ]
+    },
+    {
+      "id": "micronet-16",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "SP5512W",
+        "sp5591htm",
+        "SP5591K",
+        "SP55xxHTM",
+        "SP5923"
+      ]
+    },
+    {
+      "id": "micronet-17",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sp5519k",
+        "SP5563",
+        "sp5591a",
+        "SP5591K"
+      ]
+    },
+    {
+      "id": "micronet-18",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SP5523W"
+      ]
+    },
+    {
+      "id": "micronet-19",
+      "url": "h264_2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SP55xxHTM",
+        "SP5923"
+      ]
+    }
+  ]
+}

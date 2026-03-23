@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Plv",
+  "brand_id": "plv",
+  "streams": [
+    {
+      "id": "plv-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dome",
+        "NC402CZE",
+        "NC416ME",
+        "NC801AW",
+        "nc811bde",
+        "NC-813RW",
+        "PLV01",
+        "PLV02",
+        "PLV837",
+        "PLV-NC318W",
+        "PLV-NC402CZE",
+        "PLV-NC416ME",
+        "PLV-NC713RW",
+        "PLV-NC811KE",
+        "PLV-NC813W",
+        "PLV-NC816ME"
+      ]
+    },
+    {
+      "id": "plv-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DOME",
+        "NC713RW",
+        "PLV-NC713RW",
+        "RC720AW"
+      ]
+    },
+    {
+      "id": "plv-3",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "K9604-W",
+        "NC611W",
+        "PLV NC611W"
+      ]
+    },
+    {
+      "id": "plv-4",
+      "url": "/view.html",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "NC611W"
+      ]
+    },
+    {
+      "id": "plv-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "plv-6",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PLV-NC713RW"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "brand": "Iqinvision",
+  "brand_id": "iqinvision",
+  "streams": [
+    {
+      "id": "iqinvision-1",
+      "url": "now.jpg?snap=spush",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "811",
+        "IQA32N",
+        "IQeye811"
+      ]
+    },
+    {
+      "id": "iqinvision-2",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A10N"
+      ]
+    },
+    {
+      "id": "iqinvision-3",
+      "url": "now.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AZ032S",
+        "AZ765N",
+        "AZD075",
+        "iq765n",
+        "Other"
+      ]
+    },
+    {
+      "id": "iqinvision-4",
+      "url": "/now.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IQ032S"
+      ]
+    },
+    {
+      "id": "iqinvision-5",
+      "url": "/jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IQeye752"
+      ]
+    },
+    {
+      "id": "iqinvision-6",
+      "url": "/now.jpg?snap=spush",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

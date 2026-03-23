@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Smart Hd Wifi Camera",
+  "brand_id": "smart-hd-wifi-camera",
+  "streams": [
+    {
+      "id": "smart-hd-wifi-camera-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Dome",
+        "Other"
+      ]
+    },
+    {
+      "id": "smart-hd-wifi-camera-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sy6002f-wr",
+        "YCC365"
+      ]
+    },
+    {
+      "id": "smart-hd-wifi-camera-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8080,
+      "models": [
+        "ycc365"
+      ]
+    }
+  ]
+}

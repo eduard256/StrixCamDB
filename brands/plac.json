@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Plac",
+  "brand_id": "plac",
+  "streams": [
+    {
+      "id": "plac-1",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD"
+      ]
+    }
+  ]
+}

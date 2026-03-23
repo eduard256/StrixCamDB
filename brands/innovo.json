@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Innovo",
+  "brand_id": "innovo",
+  "streams": [
+    {
+      "id": "innovo-1",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "innovo-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Vono 2"
+      ]
+    },
+    {
+      "id": "innovo-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Vono 2"
+      ]
+    },
+    {
+      "id": "innovo-4",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Vono 2"
+      ]
+    }
+  ]
+}

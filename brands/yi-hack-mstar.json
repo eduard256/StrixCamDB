@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "brand": "yi-hack-MStar",
+  "brand_id": "yi-hack-mstar",
+  "streams": [
+    {
+      "id": "yi-hack-mstar-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MSTAR INFINITY CHIPSET",
+        "MStar",
+        "Yi Home MStar",
+        "Yi Dome MStar",
+        "Generic MStar"
+      ],
+      "notes": "MStar Infinity chipset - High resolution video"
+    },
+    {
+      "id": "yi-hack-mstar-2",
+      "url": "/ch0_1.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MSTAR INFINITY CHIPSET",
+        "MStar",
+        "Yi Home MStar",
+        "Yi Dome MStar",
+        "Generic MStar"
+      ],
+      "notes": "MStar Infinity chipset - Low resolution video"
+    },
+    {
+      "id": "yi-hack-mstar-3",
+      "url": "/ch0_2.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MSTAR INFINITY CHIPSET",
+        "MStar",
+        "Yi Home MStar",
+        "Yi Dome MStar",
+        "Generic MStar"
+      ],
+      "notes": "MStar Infinity chipset - Audio only"
+    }
+  ]
+}

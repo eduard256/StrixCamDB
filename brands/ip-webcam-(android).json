@@ -1,0 +1,120 @@
+{
+  "version": 2,
+  "brand": "Ip Webcam (android)",
+  "brand_id": "ip-webcam-(android)",
+  "streams": [
+    {
+      "id": "ip-webcam-(android)-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANDOID IP CAMERA",
+        "ANDROID LG",
+        "IP WEBCAM ANDROID",
+        "IP-CAMERA",
+        "IPHONE",
+        "LG K4 2017",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-2",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANDROID LG",
+        "IP Webcam(Android)",
+        "Other",
+        "wiko"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-3",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "ip web",
+        "Pixel 2"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-4",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP WEBCAM ANDROID",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-5",
+      "url": "video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP WEBCAM ANDROID",
+        "Other",
+        "Xiaomi Redmi Note 5"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-6",
+      "url": "/video?submenu=mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "IP WEBCAM ANDROID"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-7",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-8",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-9",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-(android)-10",
+      "url": "/videofeed",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "Pixel 2"
+      ]
+    }
+  ]
+}

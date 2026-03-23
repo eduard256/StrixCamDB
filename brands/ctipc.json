@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ctipc",
+  "brand_id": "ctipc",
+  "streams": [
+    {
+      "id": "ctipc-1",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "631c720POE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "brand": "Meraki",
+  "brand_id": "meraki",
+  "streams": [
+    {
+      "id": "meraki-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "13852285"
+      ]
+    },
+    {
+      "id": "meraki-2",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 9000,
+      "models": [
+        "MV12",
+        "MV12W",
+        "MV12WE",
+        "MV22",
+        "MV22x",
+        "MV32",
+        "MV63"
+      ]
+    },
+    {
+      "id": "meraki-3",
+      "url": "/LIVE",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 9000,
+      "models": [
+        "MV72"
+      ]
+    }
+  ]
+}

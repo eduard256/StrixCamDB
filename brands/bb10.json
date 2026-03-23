@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bb10",
+  "brand_id": "bb10",
+  "streams": [
+    {
+      "id": "bb10-1",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Droid"
+      ]
+    }
+  ]
+}

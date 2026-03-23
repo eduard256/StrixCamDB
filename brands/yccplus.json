@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Yccplus",
+  "brand_id": "yccplus",
+  "streams": [
+    {
+      "id": "yccplus-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "288ZD"
+      ]
+    },
+    {
+      "id": "yccplus-2",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yccplus-3",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yccplus-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yccplus-5",
+      "url": "live_mpeg4.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yccplus-6",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

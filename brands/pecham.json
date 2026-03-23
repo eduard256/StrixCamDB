@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pecham",
+  "brand_id": "pecham",
+  "streams": [
+    {
+      "id": "pecham-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

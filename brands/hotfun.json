@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hotfun",
+  "brand_id": "hotfun",
+  "streams": [
+    {
+      "id": "hotfun-1",
+      "url": "/webcam/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "doorbell"
+      ]
+    }
+  ]
+}

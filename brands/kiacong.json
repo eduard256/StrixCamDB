@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Kiacong",
+  "brand_id": "kiacong",
+  "streams": [
+    {
+      "id": "kiacong-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP1018W"
+      ]
+    },
+    {
+      "id": "kiacong-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP1018W",
+        "SIP1603"
+      ]
+    },
+    {
+      "id": "kiacong-3",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP1602"
+      ]
+    }
+  ]
+}

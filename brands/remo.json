@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Remo",
+  "brand_id": "remo",
+  "streams": [
+    {
+      "id": "remo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Plus"
+      ]
+    }
+  ]
+}

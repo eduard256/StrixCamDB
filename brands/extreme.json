@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Extreme",
+  "brand_id": "extreme",
+  "streams": [
+    {
+      "id": "extreme-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3916",
+        "AP3916C"
+      ]
+    },
+    {
+      "id": "extreme-2",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3916",
+        "AP3916C"
+      ]
+    },
+    {
+      "id": "extreme-3",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "3916"
+      ]
+    },
+    {
+      "id": "extreme-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3916c"
+      ]
+    }
+  ]
+}

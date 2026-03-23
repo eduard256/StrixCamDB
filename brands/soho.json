@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Soho",
+  "brand_id": "soho",
+  "streams": [
+    {
+      "id": "soho-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cs-5814cf",
+        "Internet Camera",
+        "IP-561"
+      ]
+    },
+    {
+      "id": "soho-2",
+      "url": "goform/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-561"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smallcell",
+  "brand_id": "smallcell",
+  "streams": [
+    {
+      "id": "smallcell-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

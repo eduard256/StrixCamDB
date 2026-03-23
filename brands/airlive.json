@@ -1,0 +1,652 @@
+{
+  "version": 2,
+  "brand": "Airlive",
+  "brand_id": "airlive",
+  "streams": [
+    {
+      "id": "airlive-1",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2025HD",
+        "2060HD",
+        "OD-2025HD",
+        "OD-2060HD",
+        "POE-200HD",
+        "WL-2600CAM",
+        "WN-200HD",
+        "WN-200HD-ETI"
+      ]
+    },
+    {
+      "id": "airlive-2",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2060hd",
+        "BU-2026",
+        "CW-720",
+        "Gabinet",
+        "OD2025HD",
+        "OD-325HD",
+        "OD-600HD",
+        "Other",
+        "WN/POE-2600HD",
+        "WN-200HD"
+      ]
+    },
+    {
+      "id": "airlive-3",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2060HD",
+        "325hd",
+        "AirLive OD-600HD",
+        "CU-720",
+        "IP-200",
+        "OD2015HD",
+        "OD-2025HD",
+        "OD-2060HD",
+        "OD-325HD",
+        "OD-600HD",
+        "Other",
+        "POE-100HD",
+        "POE-200HD"
+      ]
+    },
+    {
+      "id": "airlive-4",
+      "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2060HD",
+        "IP-200",
+        "OD-2025HD",
+        "OD-325HD",
+        "OD-600HD",
+        "POE-200HD",
+        "WN/POE-2600HD",
+        "WN-200HD",
+        "WN-200HD-ETI"
+      ]
+    },
+    {
+      "id": "airlive-5",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "325hd",
+        "OD-2060HD",
+        "OD-325HD"
+      ]
+    },
+    {
+      "id": "airlive-6",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "325hd",
+        "CW-720",
+        "IP-200",
+        "OD-325HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "airlive-7",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "325HD",
+        "IP-200",
+        "OD-600HD",
+        "Other",
+        "POE-100CAM v2",
+        "POE-200HD",
+        "POE-280HD",
+        "POE-5010HD",
+        "wl 2000",
+        "WL-2600CAM",
+        "WL-260CAM",
+        "WN/POE-2600HD"
+      ]
+    },
+    {
+      "id": "airlive-8",
+      "url": "mpeg4/media.amp?resolution=640x480",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "325hd640",
+        "OD-325HD",
+        "OD-600HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "airlive-9",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "400152",
+        "720ir",
+        "AirliveCW-720IR",
+        "CW-720IR",
+        "OD-2060HD"
+      ]
+    },
+    {
+      "id": "airlive-10",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8000,
+      "models": [
+        "AH-2573",
+        "Other",
+        "WL-1000CAM",
+        "wl-1200cam"
+      ]
+    },
+    {
+      "id": "airlive-11",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BC-5010",
+        "BU-3025",
+        "BU-3025V2",
+        "BU-3026",
+        "BU-3026IVS",
+        "BU5010",
+        "CU-720",
+        "h264",
+        "IP-200",
+        "MD-3025",
+        "OD2025",
+        "OD-2025HD",
+        "OD-325HD",
+        "OD-600HD",
+        "POE-100HD",
+        "POE-200HD",
+        "POE-5010HD",
+        "WN/POE-2600HD",
+        "zadaj"
+      ]
+    },
+    {
+      "id": "airlive-12",
+      "url": "ipcam/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BC-5010",
+        "OD300",
+        "Other",
+        "POE-5010HD"
+      ]
+    },
+    {
+      "id": "airlive-13",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BU2015",
+        "BU-3025V2",
+        "BU-3026",
+        "BU-3026-IVS",
+        "MD-3025",
+        "Other",
+        "sc 300w"
+      ]
+    },
+    {
+      "id": "airlive-14",
+      "url": "/mobile",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8000,
+      "models": [
+        "BU-2015"
+      ]
+    },
+    {
+      "id": "airlive-15",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "bu-2026",
+        "BU-3028",
+        "CU-720",
+        "OD-2025HD",
+        "OD-325HD",
+        "OD-600HD",
+        "POE-100HD",
+        "poe-2600hd",
+        "WN/POE-2600HD"
+      ]
+    },
+    {
+      "id": "airlive-16",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BU-3026",
+        "BU-3026-IVS",
+        "BU-3028"
+      ]
+    },
+    {
+      "id": "airlive-17",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BU-3026-IVS"
+      ]
+    },
+    {
+      "id": "airlive-18",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "BU-3026-IVS_MY"
+      ]
+    },
+    {
+      "id": "airlive-19",
+      "url": "cgi-bin/view/image?pro_[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BU-3128",
+        "BU720",
+        "CU-720",
+        "DM-720",
+        "MD-720",
+        "Other"
+      ]
+    },
+    {
+      "id": "airlive-20",
+      "url": "/video.pro1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BU-720",
+        "MD-720",
+        "WN/POE-2600HD"
+      ]
+    },
+    {
+      "id": "airlive-21",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CU-720",
+        "FE-201DM",
+        "FE-210DM"
+      ]
+    },
+    {
+      "id": "airlive-22",
+      "url": "medias2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CU-720"
+      ]
+    },
+    {
+      "id": "airlive-23",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CU-720",
+        "IP-200",
+        "od300",
+        "Other",
+        "POE-100CAM V2",
+        "POE-100HD",
+        "POE-200HD",
+        "POE-280HD",
+        "WL-2000CAM",
+        "WL-2600",
+        "WL-2600CAM",
+        "WL-260CAM"
+      ]
+    },
+    {
+      "id": "airlive-24",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DY-NC10"
+      ]
+    },
+    {
+      "id": "airlive-25",
+      "url": "tmp/snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fe-200",
+        "Other"
+      ]
+    },
+    {
+      "id": "airlive-26",
+      "url": "cgi-bin/admin/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FE-200CU",
+        "FE-200DM",
+        "FE-200VD",
+        "Other"
+      ]
+    },
+    {
+      "id": "airlive-27",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-200",
+        "OD-325HD",
+        "OD-600HD",
+        "Other",
+        "WN/POE-2600HD"
+      ]
+    },
+    {
+      "id": "airlive-28",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-200",
+        "OD-325HD"
+      ]
+    },
+    {
+      "id": "airlive-29",
+      "url": "vdata.v",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-200"
+      ]
+    },
+    {
+      "id": "airlive-30",
+      "url": "/cgi-bin/view/image?pro_0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "MD-720"
+      ]
+    },
+    {
+      "id": "airlive-31",
+      "url": "/video.pro2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MD-720"
+      ]
+    },
+    {
+      "id": "airlive-32",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OD-2025HD",
+        "Other",
+        "POE-260CAM",
+        "WL-2600CAM",
+        "WN/POE-2600HD",
+        "WN-200HD"
+      ]
+    },
+    {
+      "id": "airlive-33",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OD-2025HD"
+      ]
+    },
+    {
+      "id": "airlive-34",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "od300",
+        "OD-325HD",
+        "Other",
+        "POE-260CAM",
+        "WL2000",
+        "WL-2000CAM",
+        "WL-2600CAM",
+        "wl-350hd",
+        "WL-350HD",
+        "wn-150"
+      ]
+    },
+    {
+      "id": "airlive-35",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OD300"
+      ]
+    },
+    {
+      "id": "airlive-36",
+      "url": "live",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OD-325HD",
+        "POE-280HD"
+      ]
+    },
+    {
+      "id": "airlive-37",
+      "url": "/Video?Codec=MPEG4&Width=720&Height=576&Fps=30",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OD-325HD"
+      ]
+    },
+    {
+      "id": "airlive-38",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OD-600HD"
+      ]
+    },
+    {
+      "id": "airlive-39",
+      "url": "image/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OD-600HD"
+      ]
+    },
+    {
+      "id": "airlive-40",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OD-600HD"
+      ]
+    },
+    {
+      "id": "airlive-41",
+      "url": "/live/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "POE-250HD"
+      ]
+    },
+    {
+      "id": "airlive-42",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airlive-43",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airlive-44",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airlive-45",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "POE-100CAM V2"
+      ]
+    },
+    {
+      "id": "airlive-46",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "POE-200HD"
+      ]
+    },
+    {
+      "id": "airlive-47",
+      "url": "current[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "POE-280HD"
+      ]
+    },
+    {
+      "id": "airlive-48",
+      "url": "ipcam/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "POE-5010HD"
+      ]
+    },
+    {
+      "id": "airlive-49",
+      "url": "/mjpg/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "wl-1200cam"
+      ]
+    },
+    {
+      "id": "airlive-50",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WN-200HD"
+      ]
+    }
+  ]
+}

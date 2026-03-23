@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Encore Electronics",
+  "brand_id": "encore-electronics",
+  "streams": [
+    {
+      "id": "encore-electronics-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "224C"
+      ]
+    },
+    {
+      "id": "encore-electronics-2",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ENVCWI-G1/ANA"
+      ]
+    },
+    {
+      "id": "encore-electronics-3",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ENVCWI-G1/ANA"
+      ]
+    }
+  ]
+}

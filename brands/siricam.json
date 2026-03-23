@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Siricam",
+  "brand_id": "siricam",
+  "streams": [
+    {
+      "id": "siricam-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "oo4"
+      ]
+    }
+  ]
+}

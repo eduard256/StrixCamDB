@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Coocheer",
+  "brand_id": "coocheer",
+  "streams": [
+    {
+      "id": "coocheer-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Keller",
+        "SP012 HD"
+      ]
+    }
+  ]
+}

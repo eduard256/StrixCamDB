@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Webo",
+  "brand_id": "webo",
+  "streams": [
+    {
+      "id": "webo-1",
+      "url": "stream[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fhd200",
+        "Other"
+      ]
+    },
+    {
+      "id": "webo-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fhd200",
+        "webo200p"
+      ]
+    },
+    {
+      "id": "webo-3",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "webo200p"
+      ]
+    }
+  ]
+}

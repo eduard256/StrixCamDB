@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "brand": "Videosec Security",
+  "brand_id": "videosec-security",
+  "streams": [
+    {
+      "id": "videosec-security-1",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8008,
+      "models": [
+        "ICS-20F"
+      ]
+    },
+    {
+      "id": "videosec-security-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-103"
+      ]
+    },
+    {
+      "id": "videosec-security-3",
+      "url": "/video1enc1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPD-3615IQ-28SWAL"
+      ]
+    },
+    {
+      "id": "videosec-security-4",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPP-105"
+      ]
+    },
+    {
+      "id": "videosec-security-5",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IRD-20W"
+      ]
+    },
+    {
+      "id": "videosec-security-6",
+      "url": "video1enc1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MegaPX 1080P-D",
+        "Other"
+      ]
+    },
+    {
+      "id": "videosec-security-7",
+      "url": "video1enc1.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MegaPX 1080P-D"
+      ]
+    },
+    {
+      "id": "videosec-security-8",
+      "url": "video1enc2.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MegaPX 1080P-D"
+      ]
+    }
+  ]
+}

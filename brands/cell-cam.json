@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cell Cam",
+  "brand_id": "cell-cam",
+  "streams": [
+    {
+      "id": "cell-cam-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nexus"
+      ]
+    }
+  ]
+}

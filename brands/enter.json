@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Enter",
+  "brand_id": "enter",
+  "streams": [
+    {
+      "id": "enter-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "e-d700ir"
+      ]
+    },
+    {
+      "id": "enter-2",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "E-D700IR"
+      ]
+    },
+    {
+      "id": "enter-3",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "E-D700IR"
+      ]
+    },
+    {
+      "id": "enter-4",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "E-D700IR"
+      ]
+    },
+    {
+      "id": "enter-5",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "td-w8968"
+      ]
+    }
+  ]
+}

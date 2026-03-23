@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Keuken",
+  "brand_id": "keuken",
+  "streams": [
+    {
+      "id": "keuken-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

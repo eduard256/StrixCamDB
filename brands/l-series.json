@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "brand": "L Series",
+  "brand_id": "l-series",
+  "streams": [
+    {
+      "id": "l-series-1",
+      "url": "img/snapshot.cgi?img=vga",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cam0758"
+      ]
+    },
+    {
+      "id": "l-series-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CAM0758",
+        "CAM0760",
+        "L-610W",
+        "Other",
+        "V100",
+        "View-150278-NKFFU"
+      ]
+    },
+    {
+      "id": "l-series-3",
+      "url": "/videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "cam0759"
+      ]
+    },
+    {
+      "id": "l-series-4",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "cam0759"
+      ]
+    },
+    {
+      "id": "l-series-5",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CAM0759"
+      ]
+    },
+    {
+      "id": "l-series-6",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KY610W",
+        "Other"
+      ]
+    },
+    {
+      "id": "l-series-7",
+      "url": "img/mjpeg.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "l-series-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "View-150278-NKFFU"
+      ]
+    },
+    {
+      "id": "l-series-9",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "l-series-10",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "l-series-11",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "sku"
+      ]
+    },
+    {
+      "id": "l-series-12",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

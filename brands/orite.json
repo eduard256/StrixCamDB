@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Orite",
+  "brand_id": "orite",
+  "streams": [
+    {
+      "id": "orite-1",
+      "url": "GetData.cgi?Status=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "301",
+        "IP-301"
+      ]
+    },
+    {
+      "id": "orite-2",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IC-301",
+        "Orite TP300"
+      ]
+    },
+    {
+      "id": "orite-3",
+      "url": "Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP300",
+        "IP-301",
+        "PT-300"
+      ]
+    },
+    {
+      "id": "orite-4",
+      "url": "stream.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-301"
+      ]
+    },
+    {
+      "id": "orite-5",
+      "url": "stream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MW-bisi",
+        "NW-100N"
+      ]
+    },
+    {
+      "id": "orite-6",
+      "url": "GetData.cgi?Status=false",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PT-300"
+      ]
+    }
+  ]
+}

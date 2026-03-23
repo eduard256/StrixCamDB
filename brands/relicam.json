@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Relicam",
+  "brand_id": "relicam",
+  "streams": [
+    {
+      "id": "relicam-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "icam i908w"
+      ]
+    },
+    {
+      "id": "relicam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IW20WV12-1",
+        "RC-IW20WV12-1"
+      ]
+    },
+    {
+      "id": "relicam-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC-ID10WF3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Adamas",
+  "brand_id": "adamas",
+  "streams": [
+    {
+      "id": "adamas-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wnc-01"
+      ]
+    },
+    {
+      "id": "adamas-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wnc-01"
+      ]
+    }
+  ]
+}

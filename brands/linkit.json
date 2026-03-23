@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Linkit",
+  "brand_id": "linkit",
+  "streams": [
+    {
+      "id": "linkit-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "90101",
+        "IP Wi-Fi"
+      ]
+    }
+  ]
+}

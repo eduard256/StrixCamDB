@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Gwipc",
+  "brand_id": "gwipc",
+  "streams": [
+    {
+      "id": "gwipc-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "17202082",
+        "6495643",
+        "GWIPC-21306335",
+        "GWIPC-31372693"
+      ]
+    },
+    {
+      "id": "gwipc-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "20839787"
+      ]
+    },
+    {
+      "id": "gwipc-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "20839787"
+      ]
+    }
+  ]
+}

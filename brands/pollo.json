@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pollo",
+  "brand_id": "pollo",
+  "streams": [
+    {
+      "id": "pollo-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PC4M"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ime3122-admnq39",
+  "brand_id": "ime3122-admnq39",
+  "streams": [
+    {
+      "id": "ime3122-admnq39-1",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ime3122-admnq39-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Pelco"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Fosvision",
+  "brand_id": "fosvision",
+  "streams": [
+    {
+      "id": "fosvision-1",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "FS-3F48N-PLS"
+      ]
+    },
+    {
+      "id": "fosvision-2",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "FS-3F48N-PLS"
+      ]
+    },
+    {
+      "id": "fosvision-3",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fs-6233w13",
+        "FS6233W13",
+        "FS-6488W30"
+      ]
+    }
+  ]
+}

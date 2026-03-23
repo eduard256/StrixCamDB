@@ -1,0 +1,441 @@
+{
+  "version": 2,
+  "brand": "Y-cam",
+  "brand_id": "y-cam",
+  "streams": [
+    {
+      "id": "y-cam-1",
+      "url": "/live/0/h264.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080",
+        "Bullet HD 720",
+        "Cube HD",
+        "Cube HD 1080",
+        "Cube-HD-1080"
+      ]
+    },
+    {
+      "id": "y-cam-2",
+      "url": "stream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4.3",
+        "black",
+        "Black",
+        "Bullet HD",
+        "Bullet Range",
+        "Dome Range",
+        "Knight",
+        "Other",
+        "white s"
+      ]
+    },
+    {
+      "id": "y-cam-3",
+      "url": "stream1.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4.3",
+        "Bullet Range",
+        "Dome Range",
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Black",
+        "bullet",
+        "BULLET HD 720",
+        "Bullet HD720",
+        "Cube 720p",
+        "Other",
+        "VZS5SX5U6L271JBW87ZJ",
+        "WHITE",
+        "White Cube 720",
+        "WHITE CUBE 720",
+        "WHITE S"
+      ]
+    },
+    {
+      "id": "y-cam-5",
+      "url": "/live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Black",
+        "Bullet HD 1080",
+        "Y-CAM BLACK"
+      ]
+    },
+    {
+      "id": "y-cam-6",
+      "url": "stream.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLACK",
+        "Bullet HD",
+        "BULLET HD 720",
+        "Bullet Range",
+        "Cube 1080p",
+        "Cube HD720",
+        "CUBE VGA",
+        "Dome Range",
+        "HD1080",
+        "Other",
+        "White",
+        "Y-CAM BLACK"
+      ]
+    },
+    {
+      "id": "y-cam-7",
+      "url": "live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet HD",
+        "Bullet HD 1080",
+        "Bullet Range",
+        "Cube 1080p",
+        "Cube 720p",
+        "Cube HD 1080",
+        "Cube VGA",
+        "Dome Range",
+        "HD720",
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-8",
+      "url": "live_h264_1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet HD",
+        "Bullet Range",
+        "Dome Range",
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-9",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullet HD",
+        "Bullet HD 1080",
+        "Bullet HD 720",
+        "Cube 1080p",
+        "Cube 720p",
+        "Cube HD720",
+        "Other",
+        "WHITE"
+      ]
+    },
+    {
+      "id": "y-cam-10",
+      "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullet HD"
+      ]
+    },
+    {
+      "id": "y-cam-11",
+      "url": "/live/0/onvif.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet HD 1080",
+        "Bullet HD 720",
+        "BulletHD1040",
+        "Cube 1080",
+        "Cube 1080p",
+        "Cube 720",
+        "CUBE 720",
+        "Cube 720p",
+        "Cube HD - 720",
+        "Cube HD 1080",
+        "Cube HD750",
+        "HD 720",
+        "HD 720 Pro",
+        "Other",
+        "WHITE CUBE 720",
+        "Y-CAM BLACK"
+      ]
+    },
+    {
+      "id": "y-cam-12",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullet HD 1080",
+        "Bullet Range"
+      ]
+    },
+    {
+      "id": "y-cam-13",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullet HD 1080",
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-14",
+      "url": "v01",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet HD 1080",
+        "hd 1080"
+      ]
+    },
+    {
+      "id": "y-cam-15",
+      "url": "v02",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet HD 1080"
+      ]
+    },
+    {
+      "id": "y-cam-16",
+      "url": "v03",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet HD 1080"
+      ]
+    },
+    {
+      "id": "y-cam-17",
+      "url": "live_h264.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet Range",
+        "Dome Range",
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-18",
+      "url": "live_mpeg4_1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet Range",
+        "Dome Range",
+        "Other",
+        "White"
+      ]
+    },
+    {
+      "id": "y-cam-19",
+      "url": "/live/0/mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "cube"
+      ]
+    },
+    {
+      "id": "y-cam-20",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Cube HD 1080",
+        "Other",
+        "WHITE",
+        "WHITE S"
+      ]
+    },
+    {
+      "id": "y-cam-21",
+      "url": "/stream.jpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Homemonitor HD Pro"
+      ]
+    },
+    {
+      "id": "y-cam-22",
+      "url": "/stream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Knight",
+        "Y-CAM BLACK"
+      ]
+    },
+    {
+      "id": "y-cam-23",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-24",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-25",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-26",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-27",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-28",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-29",
+      "url": "image/[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-30",
+      "url": "nphMotionJpeg?Resolution=320x240&Quality=Standard",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-31",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-32",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-33",
+      "url": "video.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-34",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "y-cam-35",
+      "url": "jpeg/qvga.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "White"
+      ]
+    }
+  ]
+}

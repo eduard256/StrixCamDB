@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Eyeon",
+  "brand_id": "eyeon",
+  "streams": [
+    {
+      "id": "eyeon-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ESR5"
+      ]
+    },
+    {
+      "id": "eyeon-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Plus"
+      ]
+    }
+  ]
+}

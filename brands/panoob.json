@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Panoob",
+  "brand_id": "panoob",
+  "streams": [
+    {
+      "id": "panoob-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PB65-4MDL"
+      ]
+    },
+    {
+      "id": "panoob-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PD93A3-5M"
+      ]
+    },
+    {
+      "id": "panoob-3",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PD94BA2-4M"
+      ]
+    }
+  ]
+}

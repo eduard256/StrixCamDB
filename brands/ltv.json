@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "brand": "Ltv",
+  "brand_id": "ltv",
+  "streams": [
+    {
+      "id": "ltv-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CNM-310 40"
+      ]
+    },
+    {
+      "id": "ltv-2",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CNM-320 C1",
+        "LTV-1CNT40-F40",
+        "ltv-3tcnb20-f32-sb"
+      ]
+    },
+    {
+      "id": "ltv-3",
+      "url": "live/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LTV-ICDM2-623LH-V3-9",
+        "LTV-ICDM2-823-F2.1",
+        "LTV-ICDV-723-V3.3-12",
+        "Other"
+      ]
+    }
+  ]
+}

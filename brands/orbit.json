@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Orbit",
+  "brand_id": "orbit",
+  "streams": [
+    {
+      "id": "orbit-1",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "310"
+      ]
+    },
+    {
+      "id": "orbit-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AJ-C0LA-C128"
+      ]
+    },
+    {
+      "id": "orbit-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AJ-C0LA-C128"
+      ]
+    },
+    {
+      "id": "orbit-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B-2"
+      ]
+    },
+    {
+      "id": "orbit-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "OT-VNI41"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smartz",
+  "brand_id": "smartz",
+  "streams": [
+    {
+      "id": "smartz-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SCX1001"
+      ]
+    }
+  ]
+}

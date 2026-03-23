@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Faitt0o",
+  "brand_id": "faitt0o",
+  "streams": [
+    {
+      "id": "faitt0o-1",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "444"
+      ]
+    }
+  ]
+}

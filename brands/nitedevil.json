@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nitedevil",
+  "brand_id": "nitedevil",
+  "streams": [
+    {
+      "id": "nitedevil-1",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1240,
+      "models": [
+        "24c"
+      ]
+    }
+  ]
+}

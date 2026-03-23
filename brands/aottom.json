@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Aottom",
+  "brand_id": "aottom",
+  "streams": [
+    {
+      "id": "aottom-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "HD30M14JAJ-WIFI"
+      ]
+    },
+    {
+      "id": "aottom-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aottom-3",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aottom-4",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "super4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ksvp",
+  "brand_id": "ksvp",
+  "streams": [
+    {
+      "id": "ksvp-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "China"
+      ]
+    }
+  ]
+}

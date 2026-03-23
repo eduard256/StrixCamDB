@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aochan",
+  "brand_id": "aochan",
+  "streams": [
+    {
+      "id": "aochan-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C7824WIP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "brand": "Aeromax",
+  "brand_id": "aeromax",
+  "streams": [
+    {
+      "id": "aeromax-1",
+      "url": "cgi-bin/admin/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "aeromaxnl621e",
+        "N621e",
+        "NL621E",
+        "NLE621E",
+        "Other"
+      ]
+    },
+    {
+      "id": "aeromax-2",
+      "url": "tmp/snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "n621-e",
+        "N621e",
+        "NL",
+        "NL621E",
+        "Other"
+      ]
+    }
+  ]
+}

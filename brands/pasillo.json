@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pasillo",
+  "brand_id": "pasillo",
+  "streams": [
+    {
+      "id": "pasillo-1",
+      "url": "cgi/sf.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

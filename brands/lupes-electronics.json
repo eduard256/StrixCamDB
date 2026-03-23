@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lupes Electronics",
+  "brand_id": "lupes-electronics",
+  "streams": [
+    {
+      "id": "lupes-electronics-1",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LE228"
+      ]
+    }
+  ]
+}

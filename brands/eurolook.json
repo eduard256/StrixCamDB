@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Eurolook",
+  "brand_id": "eurolook",
+  "streams": [
+    {
+      "id": "eurolook-1",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "DSB-8MP04E"
+      ]
+    },
+    {
+      "id": "eurolook-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "EDW-3450",
+        "EDW-5021"
+      ]
+    },
+    {
+      "id": "eurolook-3",
+      "url": "/cgi-bin/net_jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC08C34056E401"
+      ]
+    }
+  ]
+}

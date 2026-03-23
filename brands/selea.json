@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Selea",
+  "brand_id": "selea",
+  "streams": [
+    {
+      "id": "selea-1",
+      "url": "/p3.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "X-T850"
+      ]
+    },
+    {
+      "id": "selea-2",
+      "url": "/p3.mjpg",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "X-T850"
+      ]
+    }
+  ]
+}

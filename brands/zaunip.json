@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zaunip",
+  "brand_id": "zaunip",
+  "streams": [
+    {
+      "id": "zaunip-1",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "nvr-225"
+      ]
+    }
+  ]
+}

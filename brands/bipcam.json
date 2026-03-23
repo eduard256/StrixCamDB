@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Bipcam",
+  "brand_id": "bipcam",
+  "streams": [
+    {
+      "id": "bipcam-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002drwi",
+        "002drwk"
+      ]
+    },
+    {
+      "id": "bipcam-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002drwk",
+        "3425",
+        "432",
+        "Other"
+      ]
+    },
+    {
+      "id": "bipcam-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3425",
+        "546577"
+      ]
+    },
+    {
+      "id": "bipcam-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ddns"
+      ]
+    },
+    {
+      "id": "bipcam-5",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "F-Series"
+      ]
+    },
+    {
+      "id": "bipcam-6",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ipc3"
+      ]
+    }
+  ]
+}

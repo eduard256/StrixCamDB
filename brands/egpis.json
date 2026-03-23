@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Egpis",
+  "brand_id": "egpis",
+  "streams": [
+    {
+      "id": "egpis-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EGPIS-IP1301HDNIR",
+        "EGPIS-IP1302HDNIR",
+        "Other"
+      ]
+    }
+  ]
+}

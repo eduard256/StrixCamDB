@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "brand": "Esunstar",
+  "brand_id": "esunstar",
+  "streams": [
+    {
+      "id": "esunstar-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C01H1W2",
+        "C01H4W2",
+        "C07H7WS4"
+      ]
+    },
+    {
+      "id": "esunstar-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C07H7WS4",
+        "C09H4W4",
+        "d01h51",
+        "Other"
+      ]
+    },
+    {
+      "id": "esunstar-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-SP2001C"
+      ]
+    }
+  ]
+}

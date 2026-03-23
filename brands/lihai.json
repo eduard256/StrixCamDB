@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lihai",
+  "brand_id": "lihai",
+  "streams": [
+    {
+      "id": "lihai-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Emax",
+  "brand_id": "emax",
+  "streams": [
+    {
+      "id": "emax-1",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

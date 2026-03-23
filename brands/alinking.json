@@ -1,0 +1,309 @@
+{
+  "version": 2,
+  "brand": "Alinking",
+  "brand_id": "alinking",
+  "streams": [
+    {
+      "id": "alinking-1",
+      "url": "image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3SVision Series",
+        "98520",
+        "ALC Series",
+        "ALC SERIES",
+        "ALC-9453-231P",
+        "ASL-7743 A"
+      ]
+    },
+    {
+      "id": "alinking-2",
+      "url": "image.cgi?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3SVision Series",
+        "ALC Series",
+        "dax",
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-3",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AL 9603",
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-4",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AL 9603",
+        "ALC Series",
+        "ALC-9352P",
+        "ALS-7742"
+      ]
+    },
+    {
+      "id": "alinking-5",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALC Series",
+        "dax"
+      ]
+    },
+    {
+      "id": "alinking-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALC Series",
+        "dax"
+      ]
+    },
+    {
+      "id": "alinking-7",
+      "url": "image.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALC Series",
+        "ALC9751",
+        "ALS-7742",
+        "dax",
+        "Other",
+        "S2071/4071 Video Server",
+        "VLC"
+      ]
+    },
+    {
+      "id": "alinking-8",
+      "url": "image.cgi?type=motion&camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALC Series",
+        "ALS-7743 A",
+        "ASL-7743 A",
+        "Other",
+        "S2071/4071 Video Server"
+      ]
+    },
+    {
+      "id": "alinking-9",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALC Series",
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-10",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALC Series",
+        "Dax"
+      ]
+    },
+    {
+      "id": "alinking-11",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALC SERIES",
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-12",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALC SERIES",
+        "dax",
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-13",
+      "url": "cam[CHANNEL]/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ALC SERIES",
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-14",
+      "url": "cam[CHANNEL]/h264",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ALS-7742"
+      ]
+    },
+    {
+      "id": "alinking-15",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dax",
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-16",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dax"
+      ]
+    },
+    {
+      "id": "alinking-17",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dax"
+      ]
+    },
+    {
+      "id": "alinking-18",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dax"
+      ]
+    },
+    {
+      "id": "alinking-19",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dax"
+      ]
+    },
+    {
+      "id": "alinking-20",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dax"
+      ]
+    },
+    {
+      "id": "alinking-21",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dax",
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-22",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Dax"
+      ]
+    },
+    {
+      "id": "alinking-23",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-24",
+      "url": "cam[CHANNEL]/mjpeg",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-25",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-26",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alinking-27",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

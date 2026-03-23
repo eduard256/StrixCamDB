@@ -1,0 +1,200 @@
+{
+  "version": 2,
+  "brand": "Hdipcam",
+  "brand_id": "hdipcam",
+  "streams": [
+    {
+      "id": "hdipcam-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2345"
+      ]
+    },
+    {
+      "id": "hdipcam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2345",
+        "C6F0SeZ3N0P5L0",
+        "IPCC-B15N-W"
+      ]
+    },
+    {
+      "id": "hdipcam-3",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2431",
+        "Other"
+      ]
+    },
+    {
+      "id": "hdipcam-4",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C6F0SeZ3N0P5L0"
+      ]
+    },
+    {
+      "id": "hdipcam-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Eingang",
+        "IPCC",
+        "IPCC-B15N-W",
+        "Other"
+      ]
+    },
+    {
+      "id": "hdipcam-6",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "HOSAFE 1080",
+        "Other"
+      ]
+    },
+    {
+      "id": "hdipcam-7",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip hd"
+      ]
+    },
+    {
+      "id": "hdipcam-8",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP935FW"
+      ]
+    },
+    {
+      "id": "hdipcam-9",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP935FW"
+      ]
+    },
+    {
+      "id": "hdipcam-10",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCC15"
+      ]
+    },
+    {
+      "id": "hdipcam-11",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ITcam",
+        "Metal",
+        "Mini2MP",
+        "Other",
+        "ST-222"
+      ]
+    },
+    {
+      "id": "hdipcam-12",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JOVISION",
+        "Other"
+      ]
+    },
+    {
+      "id": "hdipcam-13",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OASIS",
+        "Other"
+      ]
+    },
+    {
+      "id": "hdipcam-14",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 5544,
+      "models": [
+        "ONVIFD"
+      ]
+    },
+    {
+      "id": "hdipcam-15",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hdipcam-16",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hdipcam-17",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hdipcam-18",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WHITEDOME"
+      ]
+    }
+  ]
+}

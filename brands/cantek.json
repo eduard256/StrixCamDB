@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Cantek",
+  "brand_id": "cantek",
+  "streams": [
+    {
+      "id": "cantek-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CTW-IPSD3282D",
+        "GNC326G2-wda",
+        "NC304"
+      ]
+    }
+  ]
+}

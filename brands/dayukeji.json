@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dayukeji",
+  "brand_id": "dayukeji",
+  "streams": [
+    {
+      "id": "dayukeji-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PTZ-2504X-I2"
+      ]
+    }
+  ]
+}

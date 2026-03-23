@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "brand": "Xiaovv",
+  "brand_id": "xiaovv",
+  "streams": [
+    {
+      "id": "xiaovv-1",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8ch 3mp"
+      ]
+    },
+    {
+      "id": "xiaovv-2",
+      "url": "/ch0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "outdoor360"
+      ]
+    },
+    {
+      "id": "xiaovv-3",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "q1 1080p",
+        "Q10",
+        "q12"
+      ]
+    },
+    {
+      "id": "xiaovv-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "q1 1080p"
+      ]
+    },
+    {
+      "id": "xiaovv-5",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "q1 1080p"
+      ]
+    },
+    {
+      "id": "xiaovv-6",
+      "url": "/live/ch00_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "q12"
+      ]
+    },
+    {
+      "id": "xiaovv-7",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "q12",
+        "v380 pro"
+      ]
+    },
+    {
+      "id": "xiaovv-8",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V380"
+      ]
+    },
+    {
+      "id": "xiaovv-9",
+      "url": "/H264/ch1/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "xiaovv 8ch 3mp nvr"
+      ]
+    },
+    {
+      "id": "xiaovv-10",
+      "url": "/H264/ch1/sub/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "xiaovv 8ch 3mp nvr"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gyration",
+  "brand_id": "gyration",
+  "streams": [
+    {
+      "id": "gyration-1",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Cyberview 400b"
+      ]
+    }
+  ]
+}

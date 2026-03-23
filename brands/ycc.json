@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Ycc",
+  "brand_id": "ycc",
+  "streams": [
+    {
+      "id": "ycc-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1080P"
+      ]
+    },
+    {
+      "id": "ycc-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "YCC_2",
+        "YCC365"
+      ]
+    },
+    {
+      "id": "ycc-3",
+      "url": "/H264/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "y9a-wa",
+        "YCC365"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Docooler",
+  "brand_id": "docooler",
+  "streams": [
+    {
+      "id": "docooler-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kdoor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Romi",
+  "brand_id": "romi",
+  "streams": [
+    {
+      "id": "romi-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "neo coolcam nip 61"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Ac38xx",
+  "brand_id": "ac38xx",
+  "streams": [
+    {
+      "id": "ac38xx-1",
+      "url": "/onvif/live/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dm12",
+        "MD12"
+      ]
+    },
+    {
+      "id": "ac38xx-2",
+      "url": "/onvif/live/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DM12",
+        "MD12"
+      ]
+    }
+  ]
+}

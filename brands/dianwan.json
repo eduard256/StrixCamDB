@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dianwan",
+  "brand_id": "dianwan",
+  "streams": [
+    {
+      "id": "dianwan-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v380"
+      ]
+    }
+  ]
+}

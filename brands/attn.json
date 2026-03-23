@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Attn",
+  "brand_id": "attn",
+  "streams": [
+    {
+      "id": "attn-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-D4MP"
+      ]
+    }
+  ]
+}

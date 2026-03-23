@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fb-100ap",
+  "brand_id": "fb-100ap",
+  "streams": [
+    {
+      "id": "fb-100ap-1",
+      "url": "/ONVIF/channel1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fd100a"
+      ]
+    }
+  ]
+}

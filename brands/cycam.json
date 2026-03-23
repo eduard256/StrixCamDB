@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cycam",
+  "brand_id": "cycam",
+  "streams": [
+    {
+      "id": "cycam-1",
+      "url": "/live/0/onvif.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cube white"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anbe",
+  "brand_id": "anbe",
+  "streams": [
+    {
+      "id": "anbe-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080p"
+      ]
+    }
+  ]
+}

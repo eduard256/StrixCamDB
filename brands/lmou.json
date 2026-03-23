@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lmou",
+  "brand_id": "lmou",
+  "streams": [
+    {
+      "id": "lmou-1",
+      "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-TA22CP"
+      ]
+    }
+  ]
+}

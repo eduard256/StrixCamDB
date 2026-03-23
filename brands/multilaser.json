@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Multilaser",
+  "brand_id": "multilaser",
+  "streams": [
+    {
+      "id": "multilaser-1",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RE007"
+      ]
+    }
+  ]
+}

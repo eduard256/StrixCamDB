@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Greenvision",
+  "brand_id": "greenvision",
+  "streams": [
+    {
+      "id": "greenvision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "GV-166-IP"
+      ]
+    }
+  ]
+}

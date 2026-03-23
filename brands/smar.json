@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Smar",
+  "brand_id": "smar",
+  "streams": [
+    {
+      "id": "smar-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "A1004N"
+      ]
+    },
+    {
+      "id": "smar-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "A1004N"
+      ]
+    },
+    {
+      "id": "smar-3",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Q-NX2002-W"
+      ]
+    },
+    {
+      "id": "smar-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "S6-NX3CF800BS-E"
+      ]
+    },
+    {
+      "id": "smar-5",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "s6-wnx3cf2001hw"
+      ]
+    },
+    {
+      "id": "smar-6",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WN1908F"
+      ]
+    }
+  ]
+}

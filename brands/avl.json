@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Avl",
+  "brand_id": "avl",
+  "streams": [
+    {
+      "id": "avl-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HDD"
+      ]
+    }
+  ]
+}

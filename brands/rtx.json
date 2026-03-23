@@ -1,0 +1,191 @@
+{
+  "version": 2,
+  "brand": "Rtx",
+  "brand_id": "rtx",
+  "streams": [
+    {
+      "id": "rtx-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "06R",
+        "DVS",
+        "IP01R",
+        "IP-06R",
+        "IP-09R",
+        "IP-26H",
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "06R",
+        "31-HV",
+        "IP-09R",
+        "IP-16H",
+        "IP-25HV",
+        "IP-26H",
+        "IP-32HV",
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "09h",
+        "25-HV",
+        "IP06R",
+        "IP-26H",
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-4",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IMX322+HI3516"
+      ]
+    },
+    {
+      "id": "rtx-5",
+      "url": "snapshot.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP01R",
+        "IP-26H",
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP01R",
+        "IP-06R"
+      ]
+    },
+    {
+      "id": "rtx-7",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-06R",
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-8",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-09R",
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-9",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-25HV"
+      ]
+    },
+    {
+      "id": "rtx-10",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-26H"
+      ]
+    },
+    {
+      "id": "rtx-11",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-26H",
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-12",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-26H",
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-13",
+      "url": "/videostream.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-14",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-15",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rtx-16",
+      "url": "images/stream_[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

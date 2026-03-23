@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Eamo",
+  "brand_id": "eamo",
+  "streams": [
+    {
+      "id": "eamo-1",
+      "url": "stream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AT201"
+      ]
+    },
+    {
+      "id": "eamo-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AT201"
+      ]
+    }
+  ]
+}

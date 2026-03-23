@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sperado Cctv",
+  "brand_id": "sperado-cctv",
+  "streams": [
+    {
+      "id": "sperado-cctv-1",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SDS-2016H"
+      ]
+    }
+  ]
+}

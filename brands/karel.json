@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Karel",
+  "brand_id": "karel",
+  "streams": [
+    {
+      "id": "karel-1",
+      "url": "capture[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CKB423-PM2"
+      ]
+    },
+    {
+      "id": "karel-2",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "karel-3",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "wbxid136vrt"
+      ]
+    }
+  ]
+}

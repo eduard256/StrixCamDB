@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Deep Sentinel",
+  "brand_id": "deep-sentinel",
+  "streams": [
+    {
+      "id": "deep-sentinel-1",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TC-C34MP"
+      ]
+    }
+  ]
+}

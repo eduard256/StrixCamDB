@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "brand": "Trek",
+  "brand_id": "trek",
+  "streams": [
+    {
+      "id": "trek-1",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ai ball 01",
+        "Ai-Ball",
+        "Ai-Ball_1",
+        "Ai-Ball2"
+      ]
+    },
+    {
+      "id": "trek-2",
+      "url": "?action=snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ai-Ball"
+      ]
+    },
+    {
+      "id": "trek-3",
+      "url": "?action=appletvstream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ai-Ball",
+        "Other"
+      ]
+    },
+    {
+      "id": "trek-4",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Ai-Ball"
+      ]
+    }
+  ]
+}

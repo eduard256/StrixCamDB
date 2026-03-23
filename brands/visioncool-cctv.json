@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Visioncool Cctv",
+  "brand_id": "visioncool-cctv",
+  "streams": [
+    {
+      "id": "visioncool-cctv-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VC-10IPBL"
+      ]
+    }
+  ]
+}

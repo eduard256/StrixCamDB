@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Aqara",
+  "brand_id": "aqara",
+  "streams": [
+    {
+      "id": "aqara-1",
+      "url": "/360p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Doorbell G4"
+      ]
+    },
+    {
+      "id": "aqara-2",
+      "url": "/1080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Doorbell G4"
+      ]
+    },
+    {
+      "id": "aqara-3",
+      "url": "/1520p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "G5 Pro"
+      ]
+    }
+  ]
+}

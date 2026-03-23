@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Ordro",
+  "brand_id": "ordro",
+  "streams": [
+    {
+      "id": "ordro-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HDV-Z20"
+      ]
+    },
+    {
+      "id": "ordro-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HDV-Z20"
+      ]
+    },
+    {
+      "id": "ordro-3",
+      "url": "cam3/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HDV-Z20"
+      ]
+    }
+  ]
+}

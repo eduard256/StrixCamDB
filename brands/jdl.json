@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Jdl",
+  "brand_id": "jdl",
+  "streams": [
+    {
+      "id": "jdl-1",
+      "url": "live?camera=[CHANNEL]&framerate=5",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CORE Server"
+      ]
+    },
+    {
+      "id": "jdl-2",
+      "url": "live?codec=mjpeg&camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CORE Server"
+      ]
+    }
+  ]
+}

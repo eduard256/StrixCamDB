@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Buyee",
+  "brand_id": "buyee",
+  "streams": [
+    {
+      "id": "buyee-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "csmnct"
+      ]
+    },
+    {
+      "id": "buyee-2",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSMNCT"
+      ]
+    },
+    {
+      "id": "buyee-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSMNCT"
+      ]
+    }
+  ]
+}

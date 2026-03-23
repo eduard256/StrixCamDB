@@ -1,0 +1,146 @@
+{
+  "version": 2,
+  "brand": "Alibi",
+  "brand_id": "alibi",
+  "streams": [
+    {
+      "id": "alibi-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3014",
+        "ALI-2013VR",
+        "ALI-IPU3030R",
+        "ALI-NS1014VRB",
+        "ALI-NS2026R",
+        "Other",
+        "wl-ic8b"
+      ]
+    },
+    {
+      "id": "alibi-2",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3030R",
+        "3230R",
+        "ALI-2013VR",
+        "ALI-NS4025R",
+        "ALI-NZ60"
+      ]
+    },
+    {
+      "id": "alibi-3",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3030R",
+        "ALI-IPV3030R"
+      ]
+    },
+    {
+      "id": "alibi-4",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3130",
+        "Alibi 3.0",
+        "ALI-IPU3013R",
+        "ALI-IPU3030R",
+        "ALI-IPU3130R",
+        "ALI-IPU3230R",
+        "ALI-IPV3113R",
+        "ALI-IPV3130R",
+        "ALI-NS1014VR",
+        "ALI-NS3012R",
+        "ipu3030",
+        "IPU3030R",
+        "ksajfhshks"
+      ]
+    },
+    {
+      "id": "alibi-5",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ALI-IP23013R",
+        "ALI-NP7012RT",
+        "ALI-NZ60"
+      ]
+    },
+    {
+      "id": "alibi-6",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALI-NS1034R",
+        "ALI-XD81-VUZAI",
+        "Other"
+      ]
+    },
+    {
+      "id": "alibi-7",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALI-NS2016VR",
+        "ALI-NS4026R",
+        "ALI-NS4038RE"
+      ]
+    },
+    {
+      "id": "alibi-8",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALI-NS4013R"
+      ]
+    },
+    {
+      "id": "alibi-9",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALI-NS4026R"
+      ]
+    },
+    {
+      "id": "alibi-10",
+      "url": "/LowResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALI-NS4038RE"
+      ]
+    },
+    {
+      "id": "alibi-11",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALI-NS4038RE"
+      ]
+    }
+  ]
+}

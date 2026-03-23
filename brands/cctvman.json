@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Cctvman",
+  "brand_id": "cctvman",
+  "streams": [
+    {
+      "id": "cctvman-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CM03E02MWI",
+        "CM512VWI"
+      ]
+    },
+    {
+      "id": "cctvman-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CM03E02MWI"
+      ]
+    },
+    {
+      "id": "cctvman-3",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cm405ip"
+      ]
+    },
+    {
+      "id": "cctvman-4",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CM405IP-V10",
+        "Other"
+      ]
+    }
+  ]
+}

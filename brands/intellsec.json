@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Intellsec",
+  "brand_id": "intellsec",
+  "streams": [
+    {
+      "id": "intellsec-1",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "7Inch 20X"
+      ]
+    }
+  ]
+}

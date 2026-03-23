@@ -1,0 +1,318 @@
+{
+  "version": 2,
+  "brand": "Kogan",
+  "brand_id": "kogan",
+  "streams": [
+    {
+      "id": "kogan-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "encoder",
+        "ENCODER",
+        "FI8904W",
+        "Icam",
+        "IPWIRELESS",
+        "kaip",
+        "KAIPC01BLKA",
+        "kaipco1blka",
+        "KAIPCO1BLKA",
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "encoder",
+        "IPWIRELESS",
+        "KAIPC01BLKA",
+        "Other",
+        "THing"
+      ]
+    },
+    {
+      "id": "kogan-3",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "encoder",
+        "IPWireless",
+        "KAIPC01BLKA",
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-4",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "encoder"
+      ]
+    },
+    {
+      "id": "kogan-5",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "encoder"
+      ]
+    },
+    {
+      "id": "kogan-6",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FI8904W",
+        "KAIPC01BLKA"
+      ]
+    },
+    {
+      "id": "kogan-7",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD IP Cam",
+        "KAIPCHDSLVA",
+        "PNP IP CAM",
+        "ZH-IXA15-WC"
+      ]
+    },
+    {
+      "id": "kogan-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD IP CAM",
+        "IP Cam PT",
+        "IPWIRELESS",
+        "KAIPC01BLKA",
+        "Other",
+        "pnp ip cam"
+      ]
+    },
+    {
+      "id": "kogan-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Cam PT",
+        "KAIPC01BLKA",
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-10",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPWireless",
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-11",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kaip",
+        "KAIPC01BLKA",
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-12",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KAIPC01BLKA",
+        "Melbourne 2",
+        "Other",
+        "WIRELESS CAM"
+      ]
+    },
+    {
+      "id": "kogan-13",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KAIPC01BLKA",
+        "Other",
+        "Other_2"
+      ]
+    },
+    {
+      "id": "kogan-14",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KAIPC01BLKA",
+        "Other",
+        "PNP-IP"
+      ]
+    },
+    {
+      "id": "kogan-15",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KAIPC01BLKA",
+        "kaipc01blkb",
+        "KAIPCO1BLKA",
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-16",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KAIPC01BLKA"
+      ]
+    },
+    {
+      "id": "kogan-17",
+      "url": "/videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 99,
+      "models": [
+        "KAIPC01BLKA"
+      ]
+    },
+    {
+      "id": "kogan-18",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-19",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-20",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "wireless cam"
+      ]
+    },
+    {
+      "id": "kogan-21",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-22",
+      "url": "current[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-23",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-24",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-25",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-26",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kogan-27",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PNP IP CAM"
+      ]
+    }
+  ]
+}

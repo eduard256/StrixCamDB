@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Louwice",
+  "brand_id": "louwice",
+  "streams": [
+    {
+      "id": "louwice-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "720",
+        "LWS-DS-5MP",
+        "Other"
+      ]
+    },
+    {
+      "id": "louwice-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "ice"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Microsoft",
+  "brand_id": "microsoft",
+  "streams": [
+    {
+      "id": "microsoft-1",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1381"
+      ]
+    },
+    {
+      "id": "microsoft-2",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "1407",
+        "LIFECAM",
+        "lifecam hd-6000",
+        "livecam"
+      ]
+    },
+    {
+      "id": "microsoft-3",
+      "url": "/?camid=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "LifeCam HD-300"
+      ]
+    },
+    {
+      "id": "microsoft-4",
+      "url": "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "linekt"
+      ]
+    },
+    {
+      "id": "microsoft-5",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

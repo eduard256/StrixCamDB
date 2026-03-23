@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Ts4001",
+  "brand_id": "ts4001",
+  "streams": [
+    {
+      "id": "ts4001-1",
+      "url": "/0/video0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8080,
+      "models": [
+        "8081",
+        "dvr1"
+      ]
+    },
+    {
+      "id": "ts4001-2",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "GM8126",
+        "h109",
+        "IP Robot3",
+        "Other"
+      ]
+    },
+    {
+      "id": "ts4001-3",
+      "url": "/0/av1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "p720"
+      ]
+    }
+  ]
+}

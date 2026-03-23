@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Zysecurity",
+  "brand_id": "zysecurity",
+  "streams": [
+    {
+      "id": "zysecurity-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "PTZ IP 58"
+      ]
+    },
+    {
+      "id": "zysecurity-2",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ZY-PEZ40-SNY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Ansjer",
+  "brand_id": "ansjer",
+  "streams": [
+    {
+      "id": "ansjer-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1nb-2622mw",
+        "Other",
+        "ZG2622MW"
+      ]
+    },
+    {
+      "id": "ansjer-2",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

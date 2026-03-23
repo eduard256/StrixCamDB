@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Eos Vision",
+  "brand_id": "eos-vision",
+  "streams": [
+    {
+      "id": "eos-vision-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BS-200W",
+        "BW-200",
+        "PTZ-101W"
+      ]
+    },
+    {
+      "id": "eos-vision-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BS-200W",
+        "BW-200",
+        "PTZ-101W"
+      ]
+    },
+    {
+      "id": "eos-vision-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "BW-200"
+      ]
+    }
+  ]
+}

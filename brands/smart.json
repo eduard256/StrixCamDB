@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Smart",
+  "brand_id": "smart",
+  "streams": [
+    {
+      "id": "smart-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "dbpower",
+        "SmartCam",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "smart-2",
+      "url": "cgi-bin/pusher.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Wireless IP-Cam"
+      ]
+    }
+  ]
+}

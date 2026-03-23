@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Koti",
+  "brand_id": "koti",
+  "streams": [
+    {
+      "id": "koti-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

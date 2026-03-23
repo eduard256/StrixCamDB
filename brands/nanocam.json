@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Nanocam",
+  "brand_id": "nanocam",
+  "streams": [
+    {
+      "id": "nanocam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "xyz"
+      ]
+    },
+    {
+      "id": "nanocam-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "xyz"
+      ]
+    }
+  ]
+}

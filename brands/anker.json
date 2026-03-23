@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anker",
+  "brand_id": "anker",
+  "streams": [
+    {
+      "id": "anker-1",
+      "url": "/live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C220"
+      ]
+    }
+  ]
+}

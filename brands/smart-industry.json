@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Smart Industry",
+  "brand_id": "smart-industry",
+  "streams": [
+    {
+      "id": "smart-industry-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "27X"
+      ]
+    },
+    {
+      "id": "smart-industry-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DOZ27",
+        "Doz27w"
+      ]
+    },
+    {
+      "id": "smart-industry-3",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "doz27w"
+      ]
+    },
+    {
+      "id": "smart-industry-4",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DOZ27W"
+      ]
+    }
+  ]
+}

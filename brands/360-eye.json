@@ -1,0 +1,286 @@
+{
+  "version": 2,
+  "brand": "360 Eye",
+  "brand_id": "360-eye",
+  "streams": [
+    {
+      "id": "360-eye-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1111",
+        "EC101-B3Y2",
+        "EC107-B3Y2",
+        "EC107Y-B3Y10",
+        "EC38",
+        "EC73-V13",
+        "EC76-U15",
+        "Other",
+        "v380",
+        "V380"
+      ]
+    },
+    {
+      "id": "360-eye-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "360",
+        "V380"
+      ]
+    },
+    {
+      "id": "360-eye-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "360"
+      ]
+    },
+    {
+      "id": "360-eye-4",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "360",
+        "360eye",
+        "360Eye",
+        "360EYE",
+        "360EYE PRO",
+        "EC101-X15",
+        "EC76",
+        "EC76-U15",
+        "EC80_V13",
+        "EC80-X15",
+        "i360",
+        "Other",
+        "v380",
+        "V380"
+      ]
+    },
+    {
+      "id": "360-eye-5",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "360",
+        "360Eye Pro"
+      ]
+    },
+    {
+      "id": "360-eye-6",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "360eye",
+        "EC101-X15",
+        "EC107-B3Y2",
+        "EC107Y-B3Y10",
+        "EC73-N13",
+        "IPC365",
+        "v380"
+      ]
+    },
+    {
+      "id": "360-eye-7",
+      "url": "live_mpeg4.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "360EYE",
+        "360Eye Pro",
+        "EC101Y-B3Y10",
+        "IPC365"
+      ]
+    },
+    {
+      "id": "360-eye-8",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "360EYE",
+        "360EYE PRO",
+        "EC101-X15",
+        "EC107-B3Y2",
+        "EC73-N13",
+        "EC76",
+        "EC76-U15",
+        "eyes",
+        "IPC365",
+        "Other"
+      ]
+    },
+    {
+      "id": "360-eye-9",
+      "url": "/cam/realmonitor?channel=0&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "360EYE EC129-X15",
+        "EC101-B3Y2",
+        "EC101-X15",
+        "EC101Y-B3Y10",
+        "EC107-X15",
+        "EC37",
+        "EC73-N13",
+        "EC73-V13",
+        "PW2K2N06E-GTWY"
+      ]
+    },
+    {
+      "id": "360-eye-10",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "603",
+        "Other",
+        "V380"
+      ]
+    },
+    {
+      "id": "360-eye-11",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "E101-B3Y2",
+        "EC101Y-B3Y10"
+      ]
+    },
+    {
+      "id": "360-eye-12",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC101-B3Y2",
+        "EC107-B3Y2",
+        "EC76-X15",
+        "epc101",
+        "Other",
+        "v380",
+        "V380 Wifi IP Cam"
+      ]
+    },
+    {
+      "id": "360-eye-13",
+      "url": "/cam/realmonitor?channel=8080&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC101-X15",
+        "EC132-X15",
+        "EC80-X15"
+      ]
+    },
+    {
+      "id": "360-eye-14",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "EC101-X15",
+        "mv12241966"
+      ]
+    },
+    {
+      "id": "360-eye-15",
+      "url": "/cam/realmonitor?channel=1&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC101-X15",
+        "PW2L2A06A-GTY"
+      ]
+    },
+    {
+      "id": "360-eye-16",
+      "url": "/LowResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC107-B3Y2",
+        "EC73-N13"
+      ]
+    },
+    {
+      "id": "360-eye-17",
+      "url": "/live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC107-B3Y2"
+      ]
+    },
+    {
+      "id": "360-eye-18",
+      "url": "/realmonitor?channel=0&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC107-X15",
+        "EC137-X15",
+        "EC80-X15",
+        "XM80-8MP"
+      ]
+    },
+    {
+      "id": "360-eye-19",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC137Y-B3Y2"
+      ]
+    },
+    {
+      "id": "360-eye-20",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SL-CAM",
+        "V380",
+        "y335"
+      ]
+    },
+    {
+      "id": "360-eye-21",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "mms",
+      "port": 0,
+      "models": [
+        "V380"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Damigou",
+  "brand_id": "damigou",
+  "streams": [
+    {
+      "id": "damigou-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

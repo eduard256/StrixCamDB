@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Policetech",
+  "brand_id": "policetech",
+  "streams": [
+    {
+      "id": "policetech-1",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "policetech-2",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

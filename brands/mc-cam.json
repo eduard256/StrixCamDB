@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Mc-cam",
+  "brand_id": "mc-cam",
+  "streams": [
+    {
+      "id": "mc-cam-1",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FTT800"
+      ]
+    },
+    {
+      "id": "mc-cam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FTT800"
+      ]
+    }
+  ]
+}

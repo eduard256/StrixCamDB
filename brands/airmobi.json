@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Airmobi",
+  "brand_id": "airmobi",
+  "streams": [
+    {
+      "id": "airmobi-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HSC321"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Powerlead",
+  "brand_id": "powerlead",
+  "streams": [
+    {
+      "id": "powerlead-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Caue PC012"
+      ]
+    },
+    {
+      "id": "powerlead-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PC012"
+      ]
+    }
+  ]
+}

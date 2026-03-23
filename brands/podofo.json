@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Podofo",
+  "brand_id": "podofo",
+  "streams": [
+    {
+      "id": "podofo-1",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SH4AMPOD"
+      ]
+    }
+  ]
+}

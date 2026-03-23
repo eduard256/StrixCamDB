@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Proimage",
+  "brand_id": "proimage",
+  "streams": [
+    {
+      "id": "proimage-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PROI0704"
+      ]
+    }
+  ]
+}

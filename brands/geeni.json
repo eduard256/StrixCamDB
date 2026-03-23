@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "brand": "Geeni",
+  "brand_id": "geeni",
+  "streams": [
+    {
+      "id": "geeni-1",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CW006"
+      ]
+    },
+    {
+      "id": "geeni-2",
+      "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "CW007",
+        "CW033",
+        "GNC-CW220",
+        "hawk2",
+        "hawk3",
+        "MI-CW020",
+        "mi-cw217",
+        "Smart Doorbell"
+      ]
+    },
+    {
+      "id": "geeni-3",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HAWK"
+      ]
+    },
+    {
+      "id": "geeni-4",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 60906,
+      "models": [
+        "mi-cw017-101w"
+      ]
+    },
+    {
+      "id": "geeni-5",
+      "url": "/img/mjpeg.jpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "MI-CW017-101W"
+      ]
+    },
+    {
+      "id": "geeni-6",
+      "url": "/stream_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Mini 7C"
+      ]
+    }
+  ]
+}

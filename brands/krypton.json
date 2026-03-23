@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Krypton",
+  "brand_id": "krypton",
+  "streams": [
+    {
+      "id": "krypton-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "vr-sn3.0h"
+      ]
+    }
+  ]
+}

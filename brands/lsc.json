@@ -1,0 +1,98 @@
+{
+  "version": 2,
+  "brand": "Lsc",
+  "brand_id": "lsc",
+  "streams": [
+    {
+      "id": "lsc-1",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "802"
+      ]
+    },
+    {
+      "id": "lsc-2",
+      "url": "/Streaming/Channels/101",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Doorbell"
+      ]
+    },
+    {
+      "id": "lsc-3",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Indoor smart camera",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "lsc-4",
+      "url": "/main",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Indoor smart IP Camera 1080p"
+      ]
+    },
+    {
+      "id": "lsc-5",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Indoor WEB Cam"
+      ]
+    },
+    {
+      "id": "lsc-6",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "lsc-7",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "lsc-8",
+      "url": "/user=admin_password=[PASSWORD]_channel=1_stream=0&onvif=0.sdp?real_st",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "outdoor ip cam"
+      ]
+    },
+    {
+      "id": "lsc-9",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "PTZ"
+      ]
+    }
+  ]
+}

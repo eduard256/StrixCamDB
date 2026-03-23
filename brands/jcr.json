@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jcr",
+  "brand_id": "jcr",
+  "streams": [
+    {
+      "id": "jcr-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

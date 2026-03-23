@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Turing",
+  "brand_id": "turing",
+  "streams": [
+    {
+      "id": "turing-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TP-MED4M28"
+      ]
+    },
+    {
+      "id": "turing-2",
+      "url": "/LowResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TP-MED8M28C"
+      ]
+    }
+  ]
+}

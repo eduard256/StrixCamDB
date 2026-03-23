@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anjia",
+  "brand_id": "anjia",
+  "streams": [
+    {
+      "id": "anjia-1",
+      "url": "/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "AJ-L33PQ08A1"
+      ]
+    }
+  ]
+}

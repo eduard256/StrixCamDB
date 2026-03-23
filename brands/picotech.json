@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Picotech",
+  "brand_id": "picotech",
+  "streams": [
+    {
+      "id": "picotech-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PC - 680IRPW"
+      ]
+    }
+  ]
+}

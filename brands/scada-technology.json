@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Scada Technology",
+  "brand_id": "scada-technology",
+  "streams": [
+    {
+      "id": "scada-technology-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ST-MB-3MP",
+        "ST-MD-3MP",
+        "ST-MP-PTZ-18XIR",
+        "ST-TD-3MP"
+      ]
+    },
+    {
+      "id": "scada-technology-2",
+      "url": "/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ST-VD-1080P"
+      ]
+    }
+  ]
+}

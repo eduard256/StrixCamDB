@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "brand": "Heanworld",
+  "brand_id": "heanworld",
+  "streams": [
+    {
+      "id": "heanworld-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1020W",
+        "HA-101W",
+        "HA-1030W",
+        "HA-108W",
+        "HA-191W",
+        "HA-h3050W"
+      ]
+    },
+    {
+      "id": "heanworld-2",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1030w",
+        "720p",
+        "ha-1030w",
+        "HA-106W",
+        "Other"
+      ]
+    }
+  ]
+}

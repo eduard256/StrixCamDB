@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Iqr",
+  "brand_id": "iqr",
+  "streams": [
+    {
+      "id": "iqr-1",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "I32"
+      ]
+    }
+  ]
+}

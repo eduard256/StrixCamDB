@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Viziuuy",
+  "brand_id": "viziuuy",
+  "streams": [
+    {
+      "id": "viziuuy-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "vz-3pt3"
+      ]
+    },
+    {
+      "id": "viziuuy-2",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "VZ-503"
+      ]
+    }
+  ]
+}

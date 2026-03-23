@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Kenpro",
+  "brand_id": "kenpro",
+  "streams": [
+    {
+      "id": "kenpro-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KP-IP801HI",
+        "KP-IP902HI"
+      ]
+    },
+    {
+      "id": "kenpro-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KP-IP802HI"
+      ]
+    },
+    {
+      "id": "kenpro-3",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KP-IP802HI"
+      ]
+    }
+  ]
+}

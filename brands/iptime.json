@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Iptime",
+  "brand_id": "iptime",
+  "streams": [
+    {
+      "id": "iptime-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C500"
+      ]
+    }
+  ]
+}

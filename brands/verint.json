@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "brand": "Verint",
+  "brand_id": "verint",
+  "streams": [
+    {
+      "id": "verint-1",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "3520 fd-dn"
+      ]
+    },
+    {
+      "id": "verint-2",
+      "url": "/cam0/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5620PTZ"
+      ]
+    },
+    {
+      "id": "verint-3",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "verint-4",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "verint-5",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "verint-6",
+      "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "S5003"
+      ]
+    },
+    {
+      "id": "verint-7",
+      "url": "/cam1/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "v3320fd",
+        "v3320fdw"
+      ]
+    }
+  ]
+}

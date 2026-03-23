@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "brand": "4sdot",
+  "brand_id": "4sdot",
+  "streams": [
+    {
+      "id": "4sdot-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4331911061",
+        "4S-B05W-720P",
+        "B05W-720"
+      ]
+    },
+    {
+      "id": "4sdot-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4S-B05W-720P",
+        "B05W-720P",
+        "CMOS720P",
+        "hx series"
+      ]
+    },
+    {
+      "id": "4sdot-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "B05W-720P",
+        "B07BW-1080P-HX",
+        "HX series",
+        "HX SERIES",
+        "Other"
+      ]
+    },
+    {
+      "id": "4sdot-4",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B07BW-1080P-HX",
+        "Other"
+      ]
+    },
+    {
+      "id": "4sdot-5",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "4sdot-6",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "PW638K"
+      ]
+    }
+  ]
+}

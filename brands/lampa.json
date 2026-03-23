@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lampa",
+  "brand_id": "lampa",
+  "streams": [
+    {
+      "id": "lampa-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "v200"
+      ]
+    }
+  ]
+}

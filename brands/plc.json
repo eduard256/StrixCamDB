@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Plc",
+  "brand_id": "plc",
+  "streams": [
+    {
+      "id": "plc-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-TX04F"
+      ]
+    }
+  ]
+}

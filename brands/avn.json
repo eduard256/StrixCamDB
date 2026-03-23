@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Avn",
+  "brand_id": "avn",
+  "streams": [
+    {
+      "id": "avn-1",
+      "url": "live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "avn244va"
+      ]
+    }
+  ]
+}

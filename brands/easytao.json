@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Easytao",
+  "brand_id": "easytao",
+  "streams": [
+    {
+      "id": "easytao-1",
+      "url": "/user=admin_password=[PASSWORD]_channel=0_stream=0&onvif=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "q29"
+      ]
+    },
+    {
+      "id": "easytao-2",
+      "url": "/channel=0_stream=0&onvif=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "q29"
+      ]
+    }
+  ]
+}

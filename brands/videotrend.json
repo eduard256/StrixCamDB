@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Videotrend",
+  "brand_id": "videotrend",
+  "streams": [
+    {
+      "id": "videotrend-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

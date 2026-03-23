@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Pnp",
+  "brand_id": "pnp",
+  "streams": [
+    {
+      "id": "pnp-1",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CVYE-I391"
+      ]
+    },
+    {
+      "id": "pnp-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HW0043",
+        "p2p",
+        "WHX-145132-dfdbb"
+      ]
+    },
+    {
+      "id": "pnp-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP WIRELESS",
+        "Other"
+      ]
+    },
+    {
+      "id": "pnp-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP WIRELESS",
+        "JWEV-207091-AEBCA",
+        "Other"
+      ]
+    },
+    {
+      "id": "pnp-5",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "pnp-6",
+      "url": "/tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

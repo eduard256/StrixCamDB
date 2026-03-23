@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lox",
+  "brand_id": "lox",
+  "streams": [
+    {
+      "id": "lox-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "p2p"
+      ]
+    }
+  ]
+}

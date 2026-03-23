@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Xenocam",
+  "brand_id": "xenocam",
+  "streams": [
+    {
+      "id": "xenocam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "A6704NS",
+        "vs-f6002-4",
+        "WF62HA"
+      ]
+    },
+    {
+      "id": "xenocam-2",
+      "url": "/user=admin_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "xenocam-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=0.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WF62HA-2.OMP"
+      ]
+    }
+  ]
+}

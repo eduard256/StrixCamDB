@@ -1,0 +1,214 @@
+{
+  "version": 2,
+  "brand": "Yawcam",
+  "brand_id": "yawcam",
+  "streams": [
+    {
+      "id": "yawcam-1",
+      "url": "/out.jpg?q=30&id=0.16474807427079585&r=1612862926465",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "1.1"
+      ]
+    },
+    {
+      "id": "yawcam-2",
+      "url": "/out.jpg?q=30&id=0.7040952851838247&r=1612863146825",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "1.1"
+      ]
+    },
+    {
+      "id": "yawcam-3",
+      "url": "/out.jpg?q=30&id=0.9649783585624165&r=1612863191778",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "1.1"
+      ]
+    },
+    {
+      "id": "yawcam-4",
+      "url": "/out.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8888,
+      "models": [
+        "1.1",
+        "HD3300",
+        "HTTP/1.1",
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-5",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1280",
+        "HDC-270",
+        "HTTP",
+        "LIFECAM",
+        "Other",
+        "WIN HTTP",
+        "WINDOWS",
+        "YAWCAM-1"
+      ]
+    },
+    {
+      "id": "yawcam-6",
+      "url": "out.jpg?id=0.5",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDC-270",
+        "Http",
+        "LIFECAM",
+        "Other",
+        "Win HTTP",
+        "WINDOWS"
+      ]
+    },
+    {
+      "id": "yawcam-7",
+      "url": "video.mjpg?q=30&fps=33&id=0.5",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "windows"
+      ]
+    },
+    {
+      "id": "yawcam-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-10",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-11",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-12",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-13",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-14",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIN HTTP"
+      ]
+    },
+    {
+      "id": "yawcam-15",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-16",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-17",
+      "url": "nphMotionJpeg?Resolution=320x240&Quality=Standard",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "yawcam-18",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "WINDOWS"
+      ]
+    },
+    {
+      "id": "yawcam-19",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WINDOWS"
+      ]
+    }
+  ]
+}

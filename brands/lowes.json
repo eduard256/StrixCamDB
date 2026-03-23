@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Lowes",
+  "brand_id": "lowes",
+  "streams": [
+    {
+      "id": "lowes-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0C830",
+        "iris",
+        "VLC-WITHAUDIO"
+      ]
+    },
+    {
+      "id": "lowes-2",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "iris"
+      ]
+    },
+    {
+      "id": "lowes-3",
+      "url": "img/media.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "iris",
+        "VLC-withaudio"
+      ]
+    }
+  ]
+}

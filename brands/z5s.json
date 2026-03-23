@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Z5s",
+  "brand_id": "z5s",
+  "streams": [
+    {
+      "id": "z5s-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p",
+        "Other"
+      ]
+    },
+    {
+      "id": "z5s-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080P"
+      ]
+    },
+    {
+      "id": "z5s-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Iz Touch",
+  "brand_id": "iz-touch",
+  "streams": [
+    {
+      "id": "iz-touch-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "007"
+      ]
+    }
+  ]
+}

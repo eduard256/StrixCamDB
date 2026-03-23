@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ikonic",
+  "brand_id": "ikonic",
+  "streams": [
+    {
+      "id": "ikonic-1",
+      "url": "stillimg[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IKE-D9004 w/ Web Port"
+      ]
+    }
+  ]
+}

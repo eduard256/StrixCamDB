@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "I30vd",
+  "brand_id": "i30vd",
+  "streams": [
+    {
+      "id": "i30vd-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MicroView"
+      ]
+    }
+  ]
+}

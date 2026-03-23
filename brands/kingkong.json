@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Kingkong",
+  "brand_id": "kingkong",
+  "streams": [
+    {
+      "id": "kingkong-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HL101BFA-I436-P-H265",
+        "KK1",
+        "UL66-I236"
+      ]
+    },
+    {
+      "id": "kingkong-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KK1"
+      ]
+    }
+  ]
+}

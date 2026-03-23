@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Gateway Security",
+  "brand_id": "gateway-security",
+  "streams": [
+    {
+      "id": "gateway-security-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5077mic",
+        "GW-2061IP",
+        "GW-5237ip"
+      ]
+    },
+    {
+      "id": "gateway-security-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GW-5237ip"
+      ]
+    }
+  ]
+}

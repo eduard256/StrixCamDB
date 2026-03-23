@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Realm",
+  "brand_id": "realm",
+  "streams": [
+    {
+      "id": "realm-1",
+      "url": "/live/0/onvif.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NC128PW"
+      ]
+    }
+  ]
+}

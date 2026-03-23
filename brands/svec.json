@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Svec",
+  "brand_id": "svec",
+  "streams": [
+    {
+      "id": "svec-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "720phx",
+        "B01POE-4MP-HX",
+        "sv3c poe 1080p"
+      ]
+    }
+  ]
+}

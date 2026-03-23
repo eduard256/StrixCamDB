@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "4er",
+  "brand_id": "4er",
+  "streams": [
+    {
+      "id": "4er-1",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

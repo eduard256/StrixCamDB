@@ -1,0 +1,138 @@
+{
+  "version": 2,
+  "brand": "Ipc-bo",
+  "brand_id": "ipc-bo",
+  "streams": [
+    {
+      "id": "ipc-bo-1",
+      "url": "/h264Preview_06_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "01b",
+        "A03",
+        "Reo-A03"
+      ]
+    },
+    {
+      "id": "ipc-bo-2",
+      "url": "/h264Preview_03_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "02a",
+        "160",
+        "193",
+        "A01",
+        "B01",
+        "REO-A01",
+        "Reo-B1"
+      ]
+    },
+    {
+      "id": "ipc-bo-3",
+      "url": "/h264Preview_11_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "02b",
+        "192",
+        "B02",
+        "Reo_B02",
+        "RLN"
+      ]
+    },
+    {
+      "id": "ipc-bo-4",
+      "url": "/h264Preview_01_main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "410ws",
+        "baksida",
+        "C1 Pro",
+        "E1pro",
+        "fewr",
+        "Other",
+        "RCL-422W",
+        "rlc 410",
+        "RLC240",
+        "rlc-422w",
+        "RLC-511",
+        "RLC-511W",
+        "RLC-520",
+        "rln16"
+      ]
+    },
+    {
+      "id": "ipc-bo-5",
+      "url": "/h264Preview_04_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B02",
+        "Reo_B02",
+        "rln16"
+      ]
+    },
+    {
+      "id": "ipc-bo-6",
+      "url": "/h264Preview_01_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC_523128M5MP",
+        "ip-rln",
+        "Other",
+        "rlc-410-5mp",
+        "RLC-520A"
+      ]
+    },
+    {
+      "id": "ipc-bo-7",
+      "url": "/MainStream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPG-8150PSS"
+      ]
+    },
+    {
+      "id": "ipc-bo-8",
+      "url": "/h264Preview_03_main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipc-bo-9",
+      "url": "/h264Preview_02_main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipc-bo-10",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "RCL-520A"
+      ]
+    }
+  ]
+}

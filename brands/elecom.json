@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Elecom",
+  "brand_id": "elecom",
+  "streams": [
+    {
+      "id": "elecom-1",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NCC-ENP100WH",
+        "tscam"
+      ]
+    },
+    {
+      "id": "elecom-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SCB-ED2M01"
+      ]
+    }
+  ]
+}

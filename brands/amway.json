@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Amway",
+  "brand_id": "amway",
+  "streams": [
+    {
+      "id": "amway-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC1000"
+      ]
+    },
+    {
+      "id": "amway-2",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "amway-3",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Birdsy",
+  "brand_id": "birdsy",
+  "streams": [
+    {
+      "id": "birdsy-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BirdsyPole"
+      ]
+    },
+    {
+      "id": "birdsy-2",
+      "url": "/live/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BirdsyPole"
+      ]
+    }
+  ]
+}

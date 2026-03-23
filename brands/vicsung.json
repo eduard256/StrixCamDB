@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vicsung",
+  "brand_id": "vicsung",
+  "streams": [
+    {
+      "id": "vicsung-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

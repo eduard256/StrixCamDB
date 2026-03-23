@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Rayline",
+  "brand_id": "rayline",
+  "streams": [
+    {
+      "id": "rayline-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "RIP08"
+      ]
+    },
+    {
+      "id": "rayline-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "RIP8"
+      ]
+    }
+  ]
+}

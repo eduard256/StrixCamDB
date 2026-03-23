@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "brand": "Sineoji",
+  "brand_id": "sineoji",
+  "streams": [
+    {
+      "id": "sineoji-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "PT593V",
+        "PT716V"
+      ]
+    },
+    {
+      "id": "sineoji-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PT-315V",
+        "PT-3215P"
+      ]
+    },
+    {
+      "id": "sineoji-3",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "PT-3215P",
+        "PT593V",
+        "PT716V",
+        "PTCAM"
+      ]
+    },
+    {
+      "id": "sineoji-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PT-3215P"
+      ]
+    },
+    {
+      "id": "sineoji-5",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PT-331V"
+      ]
+    },
+    {
+      "id": "sineoji-6",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PT-331V"
+      ]
+    },
+    {
+      "id": "sineoji-7",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "PT339V"
+      ]
+    }
+  ]
+}

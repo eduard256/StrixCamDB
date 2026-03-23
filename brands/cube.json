@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cube",
+  "brand_id": "cube",
+  "streams": [
+    {
+      "id": "cube-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "g520"
+      ]
+    },
+    {
+      "id": "cube-2",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "iipc-10hd"
+      ]
+    }
+  ]
+}

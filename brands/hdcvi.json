@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hdcvi",
+  "brand_id": "hdcvi",
+  "streams": [
+    {
+      "id": "hdcvi-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HCVR5108H"
+      ]
+    }
+  ]
+}

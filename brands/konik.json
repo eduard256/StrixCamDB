@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Konik",
+  "brand_id": "konik",
+  "streams": [
+    {
+      "id": "konik-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GS-1301T",
+        "KG-2122D",
+        "Other"
+      ]
+    },
+    {
+      "id": "konik-2",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

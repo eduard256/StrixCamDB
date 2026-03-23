@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aotetek",
+  "brand_id": "aotetek",
+  "streams": [
+    {
+      "id": "aotetek-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720pBullet"
+      ]
+    }
+  ]
+}

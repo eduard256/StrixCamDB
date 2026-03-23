@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Loveday Smart Home",
+  "brand_id": "loveday-smart-home",
+  "streams": [
+    {
+      "id": "loveday-smart-home-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "LD-P2P-2",
+        "LVD-166-H5A"
+      ]
+    }
+  ]
+}

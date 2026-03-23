@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Centrix",
+  "brand_id": "centrix",
+  "streams": [
+    {
+      "id": "centrix-1",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H264DVR"
+      ]
+    }
+  ]
+}

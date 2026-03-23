@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Iphdcam",
+  "brand_id": "iphdcam",
+  "streams": [
+    {
+      "id": "iphdcam-1",
+      "url": "/rtsp_live1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KeeKoon"
+      ]
+    }
+  ]
+}

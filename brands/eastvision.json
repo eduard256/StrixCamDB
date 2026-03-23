@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eastvision",
+  "brand_id": "eastvision",
+  "streams": [
+    {
+      "id": "eastvision-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP5158"
+      ]
+    }
+  ]
+}

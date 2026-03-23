@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Iernut 2",
+  "brand_id": "iernut-2",
+  "streams": [
+    {
+      "id": "iernut-2-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F18918W"
+      ]
+    }
+  ]
+}

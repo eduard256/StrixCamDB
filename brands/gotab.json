@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gotab",
+  "brand_id": "gotab",
+  "streams": [
+    {
+      "id": "gotab-1",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

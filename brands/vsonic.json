@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vsonic",
+  "brand_id": "vsonic",
+  "streams": [
+    {
+      "id": "vsonic-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

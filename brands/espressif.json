@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Espressif",
+  "brand_id": "espressif",
+  "streams": [
+    {
+      "id": "espressif-1",
+      "url": "/stream",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "EP32-CAM"
+      ]
+    }
+  ]
+}

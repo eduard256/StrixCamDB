@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "D5118-acfsvt7",
+  "brand_id": "d5118-acfsvt7",
+  "streams": [
+    {
+      "id": "d5118-acfsvt7-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "pelco"
+      ]
+    }
+  ]
+}

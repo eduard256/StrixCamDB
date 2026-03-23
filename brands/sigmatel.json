@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sigmatel",
+  "brand_id": "sigmatel",
+  "streams": [
+    {
+      "id": "sigmatel-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FSM-161"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Smartfrog",
+  "brand_id": "smartfrog",
+  "streams": [
+    {
+      "id": "smartfrog-1",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP-Cam"
+      ]
+    },
+    {
+      "id": "smartfrog-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

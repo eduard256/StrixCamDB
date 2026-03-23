@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Pronext",
+  "brand_id": "pronext",
+  "streams": [
+    {
+      "id": "pronext-1",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "Anibal"
+      ]
+    },
+    {
+      "id": "pronext-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mp30w"
+      ]
+    }
+  ]
+}

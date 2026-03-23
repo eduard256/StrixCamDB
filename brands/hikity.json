@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hikity",
+  "brand_id": "hikity",
+  "streams": [
+    {
+      "id": "hikity-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC76-X15"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Connectec",
+  "brand_id": "connectec",
+  "streams": [
+    {
+      "id": "connectec-1",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cas-370w",
+        "PE5577"
+      ]
+    },
+    {
+      "id": "connectec-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PE5577"
+      ]
+    },
+    {
+      "id": "connectec-3",
+      "url": "/video.cgi?resolution=320x240",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "tec internet cam"
+      ]
+    }
+  ]
+}

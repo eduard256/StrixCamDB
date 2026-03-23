@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Piczel",
+  "brand_id": "piczel",
+  "streams": [
+    {
+      "id": "piczel-1",
+      "url": "GetData.cgi?Status=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3500/3505"
+      ]
+    },
+    {
+      "id": "piczel-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "piczel-3",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

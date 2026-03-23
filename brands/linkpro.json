@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Linkpro",
+  "brand_id": "linkpro",
+  "streams": [
+    {
+      "id": "linkpro-1",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IWC",
+        "iwc-606w"
+      ]
+    },
+    {
+      "id": "linkpro-2",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IWC"
+      ]
+    },
+    {
+      "id": "linkpro-3",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IWC"
+      ]
+    },
+    {
+      "id": "linkpro-4",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IWC",
+        "IWC-G330",
+        "Other"
+      ]
+    }
+  ]
+}

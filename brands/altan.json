@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Altan",
+  "brand_id": "altan",
+  "streams": [
+    {
+      "id": "altan-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "bosch",
+        "HW0022",
+        "Other"
+      ]
+    }
+  ]
+}

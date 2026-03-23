@@ -1,0 +1,405 @@
+{
+  "version": 2,
+  "brand": "Toshiba",
+  "brand_id": "toshiba",
+  "streams": [
+    {
+      "id": "toshiba-1",
+      "url": "/cgi-bin/net_jpeg.cgi?ch=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8088,
+      "models": [
+        "DT01ACA2"
+      ]
+    },
+    {
+      "id": "toshiba-2",
+      "url": "admin/cgi-bin/getstream.cgi?10&&&&&0&0&0&0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ik wb15a",
+        "IKWB-15",
+        "IKWB15A",
+        "ikwb21",
+        "IK-WB21A",
+        "toshiba IK-wb15a"
+      ]
+    },
+    {
+      "id": "toshiba-3",
+      "url": "live3.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IK-6420A",
+        "ik-wb16",
+        "IK-WB16A-W",
+        "IKWB-30A",
+        "IK-WB80A",
+        "ik-WP41A",
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-4",
+      "url": "cgi-bin/viewer/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB01A",
+        "IK-WB16a",
+        "IK-WB16A-W",
+        "ik-wb70a",
+        "IKWB-70A",
+        "IKWB-80A",
+        "IKWB-81A",
+        "IKWD-01A",
+        "IKWD05A",
+        "IK-WD31A",
+        "IK-WR12A",
+        "Other",
+        "TD05W"
+      ]
+    },
+    {
+      "id": "toshiba-5",
+      "url": "GetData.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB01A",
+        "IK-WB11A",
+        "IK-WB15A",
+        "IK-WB21A",
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-6",
+      "url": "__live.jpg?&&&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB01A",
+        "IK-WB11A",
+        "IK-WB15A",
+        "IK-WB16A-W",
+        "IK-WB21A",
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-7",
+      "url": "__live.jpg?&&[USERNAME]&[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB01A",
+        "IK-WB11A"
+      ]
+    },
+    {
+      "id": "toshiba-8",
+      "url": "getstream.cgi?10&10&&&10&0&0&0&0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB01A",
+        "IK-WB11A",
+        "IK-WB15A",
+        "IK-WB16A-W",
+        "IK-WB21A",
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-9",
+      "url": "user/cgi-bin/getstream.cgi?10&&&&0&0&0&0&0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB01A",
+        "ikwb15a",
+        "IK-WB15A",
+        "IK-WB21A"
+      ]
+    },
+    {
+      "id": "toshiba-10",
+      "url": "Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB02A",
+        "IKWR-01A",
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-11",
+      "url": "GetData.cgi?Status=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB02A",
+        "IKWR-01A"
+      ]
+    },
+    {
+      "id": "toshiba-12",
+      "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB15A",
+        "IK-WB16A",
+        "IKWB-30A",
+        "IKWB-70A",
+        "IK-WB80A",
+        "IKWB-81A",
+        "IKWD-14A",
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-13",
+      "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB15A",
+        "IK-WB161A",
+        "IK-WB16A",
+        "IKWB-80A",
+        "IK-WD31A",
+        "IK-WR04A",
+        "IK-WR12A",
+        "IK-WR14A",
+        "Other",
+        "WEBCAM HD"
+      ]
+    },
+    {
+      "id": "toshiba-14",
+      "url": "live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IK-WB16",
+        "ik-wb16a",
+        "IK-WB16A",
+        "IK-WB16A-W",
+        "IK-WB21A",
+        "IKWB-70A",
+        "IKWB-80A",
+        "IKWD-01A",
+        "IKWD-12A",
+        "IKWD-14A",
+        "IKWP-41A",
+        "IKWR-01A",
+        "IKWR-04A",
+        "IK-WR12A",
+        "IK-WR14A",
+        "Other",
+        "VIVOTEK"
+      ]
+    },
+    {
+      "id": "toshiba-15",
+      "url": "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB16A",
+        "IK-WB16A-W",
+        "IK-WB21A",
+        "IKWB-70A",
+        "IK-WB80A",
+        "IKWD-01A",
+        "IKWD-14A",
+        "IK-WR14A"
+      ]
+    },
+    {
+      "id": "toshiba-16",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB16A",
+        "IKWB-80A",
+        "IK-WR12A"
+      ]
+    },
+    {
+      "id": "toshiba-17",
+      "url": "/live2.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IK-WB16A-W",
+        "IKWB-70A",
+        "IKWD-12A",
+        "IKWD-14A"
+      ]
+    },
+    {
+      "id": "toshiba-18",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-WB21A",
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-19",
+      "url": "video[USERNAME].mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IKWB-70A",
+        "IKWD-01A"
+      ]
+    },
+    {
+      "id": "toshiba-20",
+      "url": "/live4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IKWB-81A",
+        "IK-WR14A",
+        "WD04A"
+      ]
+    },
+    {
+      "id": "toshiba-21",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IK-WD04A",
+        "IKWD-12A",
+        "IKWD-14A",
+        "IKWR-05"
+      ]
+    },
+    {
+      "id": "toshiba-22",
+      "url": "/live3.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IKWD-14A"
+      ]
+    },
+    {
+      "id": "toshiba-23",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M-1060W"
+      ]
+    },
+    {
+      "id": "toshiba-24",
+      "url": "image/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-25",
+      "url": "video.mjpg?q=30&fps=33&id=0.5",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WebCam HD"
+      ]
+    },
+    {
+      "id": "toshiba-26",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WEBCAM HD"
+      ]
+    },
+    {
+      "id": "toshiba-27",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "toshiba-28",
+      "url": "cgi-bin/mjpeg?stream=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WVSC-385"
+      ]
+    },
+    {
+      "id": "toshiba-29",
+      "url": "/cgi-bin/mjpeg?stream=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "wv-sw155",
+        "WV-SW155"
+      ]
+    },
+    {
+      "id": "toshiba-30",
+      "url": "/nphMotionJpeg?Resolution=1280x720&Quality=Standard",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "WV-SW155"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Threeboy",
+  "brand_id": "threeboy",
+  "streams": [
+    {
+      "id": "threeboy-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-660"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Elegiant",
+  "brand_id": "elegiant",
+  "streams": [
+    {
+      "id": "elegiant-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hk-a6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "brand": "Carcam",
+  "brand_id": "carcam",
+  "streams": [
+    {
+      "id": "carcam-1",
+      "url": "/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "10x",
+        "chino"
+      ]
+    },
+    {
+      "id": "carcam-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "5905"
+      ]
+    },
+    {
+      "id": "carcam-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CAM-2898SD",
+        "IPC3516",
+        "V380",
+        "V380Q1-WiFi"
+      ]
+    },
+    {
+      "id": "carcam-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Cam-360/RV5"
+      ]
+    },
+    {
+      "id": "carcam-5",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Cam-5905MP",
+        "IPC3516",
+        "svn-840"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xelpon",
+  "brand_id": "xelpon",
+  "streams": [
+    {
+      "id": "xelpon-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "x360"
+      ]
+    }
+  ]
+}

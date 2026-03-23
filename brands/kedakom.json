@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kedakom",
+  "brand_id": "kedakom",
+  "streams": [
+    {
+      "id": "kedakom-1",
+      "url": "/id=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

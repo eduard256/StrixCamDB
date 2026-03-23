@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Aliexpress",
+  "brand_id": "aliexpress",
+  "streams": [
+    {
+      "id": "aliexpress-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C6F0SfZ0N0P0L0",
+        "Other"
+      ]
+    }
+  ]
+}

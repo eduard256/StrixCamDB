@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nighteye",
+  "brand_id": "nighteye",
+  "streams": [
+    {
+      "id": "nighteye-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SIP-E03-200STA"
+      ]
+    }
+  ]
+}

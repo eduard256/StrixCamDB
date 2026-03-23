@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Xfinity",
+  "brand_id": "xfinity",
+  "streams": [
+    {
+      "id": "xfinity-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Xcam",
+        "xcam2",
+        "xhc-1"
+      ]
+    },
+    {
+      "id": "xfinity-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "xcam"
+      ]
+    },
+    {
+      "id": "xfinity-3",
+      "url": "/img/video.mjpeg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "xcam"
+      ]
+    }
+  ]
+}

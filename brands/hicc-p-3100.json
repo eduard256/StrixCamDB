@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hicc-p-3100",
+  "brand_id": "hicc-p-3100",
+  "streams": [
+    {
+      "id": "hicc-p-3100-1",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

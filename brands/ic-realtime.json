@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "brand": "Ic Realtime",
+  "brand_id": "ic-realtime",
+  "streams": [
+    {
+      "id": "ic-realtime-1",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "dw102"
+      ]
+    },
+    {
+      "id": "ic-realtime-2",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ic-i2a-df3w-ov",
+        "ICIP D3010IR-D",
+        "Other"
+      ]
+    },
+    {
+      "id": "ic-realtime-3",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "icip-b3732z"
+      ]
+    },
+    {
+      "id": "ic-realtime-4",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1026,
+      "models": [
+        "ICIPD5000AVIR1505W1B000012"
+      ]
+    },
+    {
+      "id": "ic-realtime-5",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 1026,
+      "models": [
+        "ICIPD5000AVIR1505W1B000012"
+      ]
+    },
+    {
+      "id": "ic-realtime-6",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

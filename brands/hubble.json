@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "brand": "Hubble",
+  "brand_id": "hubble",
+  "streams": [
+    {
+      "id": "hubble-1",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "==95",
+        "1662",
+        "FOCUS66-B"
+      ]
+    },
+    {
+      "id": "hubble-2",
+      "url": "image.cgi?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1668"
+      ]
+    },
+    {
+      "id": "hubble-3",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1854",
+        "focus 73",
+        "Other"
+      ]
+    },
+    {
+      "id": "hubble-4",
+      "url": "/blinkhd",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 6667,
+      "models": [
+        "Focus 71"
+      ]
+    },
+    {
+      "id": "hubble-5",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Focus 72",
+        "Focus72-W"
+      ]
+    },
+    {
+      "id": "hubble-6",
+      "url": "/video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "focus 73"
+      ]
+    },
+    {
+      "id": "hubble-7",
+      "url": "/image.cgi?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Focus72-W"
+      ]
+    }
+  ]
+}

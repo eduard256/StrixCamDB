@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Samgane",
+  "brand_id": "samgane",
+  "streams": [
+    {
+      "id": "samgane-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "ptz",
+        "sc-17w"
+      ]
+    },
+    {
+      "id": "samgane-2",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sc-17w"
+      ]
+    },
+    {
+      "id": "samgane-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SC-17W"
+      ]
+    }
+  ]
+}

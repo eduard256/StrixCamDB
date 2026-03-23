@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Vidiline",
+  "brand_id": "vidiline",
+  "streams": [
+    {
+      "id": "vidiline-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vidiline-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vidiline-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "vidi-ipc-24d"
+      ]
+    }
+  ]
+}

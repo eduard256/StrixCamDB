@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "brand": "Gadinan",
+  "brand_id": "gadinan",
+  "streams": [
+    {
+      "id": "gadinan-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6330",
+        "G2106042040 POE 5MP",
+        "pk1100"
+      ]
+    },
+    {
+      "id": "gadinan-2",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N/A",
+        "Other"
+      ]
+    },
+    {
+      "id": "gadinan-3",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "pk1100",
+        "Z70B6125W"
+      ]
+    },
+    {
+      "id": "gadinan-4",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "pk1100"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipq1652x",
+  "brand_id": "ipq1652x",
+  "streams": [
+    {
+      "id": "ipq1652x-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cloud2000",
+  "brand_id": "cloud2000",
+  "streams": [
+    {
+      "id": "cloud2000-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

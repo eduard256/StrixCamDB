@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Keview",
+  "brand_id": "keview",
+  "streams": [
+    {
+      "id": "keview-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2mp",
+        "5mp",
+        "8MP",
+        "H43",
+        "hs400b4-p",
+        "hs400l4",
+        "HS400L4-P",
+        "HS400Z6-P",
+        "HS800B4-F",
+        "HS800B4-P",
+        "hs800y3",
+        "IPC_NT98566_80N80PS-R_S38",
+        "kx800a36-p",
+        "Kx800D13"
+      ]
+    },
+    {
+      "id": "keview-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8MP POE",
+        "hs400l4-p",
+        "HS800BP-4",
+        "HS800C2-P",
+        "KX500B4-P"
+      ]
+    },
+    {
+      "id": "keview-3",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "hs-400c2-p",
+        "HS800C2-P",
+        "POE 8MP",
+        "unspec"
+      ]
+    },
+    {
+      "id": "keview-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HS800B-4"
+      ]
+    },
+    {
+      "id": "keview-5",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8080,
+      "models": [
+        "HS800B-4"
+      ]
+    },
+    {
+      "id": "keview-6",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HS800L4-P"
+      ]
+    }
+  ]
+}

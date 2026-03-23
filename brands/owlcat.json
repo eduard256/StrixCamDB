@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Owlcat",
+  "brand_id": "owlcat",
+  "streams": [
+    {
+      "id": "owlcat-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "B87W-POE",
+        "D77W-WH",
+        "Other"
+      ]
+    }
+  ]
+}

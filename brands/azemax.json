@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Azemax",
+  "brand_id": "azemax",
+  "streams": [
+    {
+      "id": "azemax-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "610"
+      ]
+    },
+    {
+      "id": "azemax-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "610S",
+        "IP610",
+        "ip610s",
+        "IP610S"
+      ]
+    }
+  ]
+}

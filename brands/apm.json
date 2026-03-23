@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Apm",
+  "brand_id": "apm",
+  "streams": [
+    {
+      "id": "apm-1",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AAL-9684"
+      ]
+    }
+  ]
+}

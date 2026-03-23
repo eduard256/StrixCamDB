@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "brand": "yi-hack-Allwinner",
+  "brand_id": "yi-hack-allwinner",
+  "streams": [
+    {
+      "id": "yi-hack-allwinner-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALLWINNER PLATFORM",
+        "Yi 1080p Allwinner",
+        "Generic Allwinner"
+      ],
+      "notes": "Allwinner platform - High resolution video"
+    },
+    {
+      "id": "yi-hack-allwinner-2",
+      "url": "/ch0_1.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALLWINNER PLATFORM",
+        "Yi 1080p Allwinner",
+        "Generic Allwinner"
+      ],
+      "notes": "Allwinner platform - Low resolution video"
+    },
+    {
+      "id": "yi-hack-allwinner-3",
+      "url": "/ch0_2.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALLWINNER PLATFORM",
+        "Yi 1080p Allwinner",
+        "Generic Allwinner"
+      ],
+      "notes": "Allwinner platform - Audio only"
+    }
+  ]
+}

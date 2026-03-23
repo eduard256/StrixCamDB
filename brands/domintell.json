@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Domintell",
+  "brand_id": "domintell",
+  "streams": [
+    {
+      "id": "domintell-1",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVIP"
+      ]
+    }
+  ]
+}

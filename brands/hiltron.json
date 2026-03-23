@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Hiltron",
+  "brand_id": "hiltron",
+  "streams": [
+    {
+      "id": "hiltron-1",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hiltron-2",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "thc2033"
+      ]
+    }
+  ]
+}

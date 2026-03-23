@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Axgio",
+  "brand_id": "axgio",
+  "streams": [
+    {
+      "id": "axgio-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H03-SD",
+        "H03-SD(08)",
+        "H03-SD(8G)"
+      ]
+    }
+  ]
+}

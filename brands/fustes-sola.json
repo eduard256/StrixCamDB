@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Fustes Sola",
+  "brand_id": "fustes-sola",
+  "streams": [
+    {
+      "id": "fustes-sola-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fustes-sola-2",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

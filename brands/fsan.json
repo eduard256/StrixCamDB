@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Fsan",
+  "brand_id": "fsan",
+  "streams": [
+    {
+      "id": "fsan-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fsan-2",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WD662"
+      ]
+    }
+  ]
+}

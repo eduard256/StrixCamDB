@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Hills",
+  "brand_id": "hills",
+  "streams": [
+    {
+      "id": "hills-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NVC-BM1",
+        "NVC-DF1",
+        "Other"
+      ]
+    },
+    {
+      "id": "hills-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VSD1"
+      ]
+    }
+  ]
+}

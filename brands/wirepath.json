@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "brand": "Wirepath",
+  "brand_id": "wirepath",
+  "streams": [
+    {
+      "id": "wirepath-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "750 dome",
+        "Other",
+        "WPS-300-IP-DOM",
+        "WPS-550",
+        "wps-550-bul-ip-wh",
+        "wps-750-bul-IP-Gr"
+      ]
+    },
+    {
+      "id": "wirepath-2",
+      "url": "cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP DOME"
+      ]
+    },
+    {
+      "id": "wirepath-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WS-109"
+      ]
+    }
+  ]
+}

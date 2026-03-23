@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Raynic",
+  "brand_id": "raynic",
+  "streams": [
+    {
+      "id": "raynic-1",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Raycam X"
+      ]
+    },
+    {
+      "id": "raynic-2",
+      "url": "/1.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "RayCam X1"
+      ]
+    },
+    {
+      "id": "raynic-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Raycam X3",
+        "Raynic X3"
+      ]
+    }
+  ]
+}

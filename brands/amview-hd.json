@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Amview Hd",
+  "brand_id": "amview-hd",
+  "streams": [
+    {
+      "id": "amview-hd-1",
+      "url": "/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dome",
+        "snv288"
+      ]
+    }
+  ]
+}

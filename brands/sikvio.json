@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sikvio",
+  "brand_id": "sikvio",
+  "streams": [
+    {
+      "id": "sikvio-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Z17"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "version": 2,
+  "brand": "Flir",
+  "brand_id": "flir",
+  "streams": [
+    {
+      "id": "flir-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "14TF3",
+        "6206",
+        "A310f",
+        "AX8",
+        "cm-6206",
+        "d33",
+        "DNB13TF2",
+        "ee3",
+        "KENYON",
+        "Lorex",
+        "N133ED",
+        "NVR",
+        "Other"
+      ]
+    },
+    {
+      "id": "flir-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6202",
+        "CB-6408-21-1",
+        "CC-3103-01",
+        "cc-3308",
+        "CM-3102-11",
+        "CM-3202-11-I",
+        "FB 695",
+        "FH-669",
+        "FXV101-H"
+      ]
+    },
+    {
+      "id": "flir-3",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6202",
+        "CM-3102-11"
+      ]
+    },
+    {
+      "id": "flir-4",
+      "url": "/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "6206",
+        "A310f",
+        "D Series",
+        "DNB13TF2",
+        "F-313",
+        "FC-317-ID",
+        "FC-363-PAL",
+        "FC-645 S",
+        "Other",
+        "PT606"
+      ]
+    },
+    {
+      "id": "flir-5",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=QWRtaW46MTIzNA==",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "6206",
+        "Lorex",
+        "P143E4"
+      ]
+    },
+    {
+      "id": "flir-6",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46OFM9KmdjI2c=",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "6206"
+      ]
+    },
+    {
+      "id": "flir-7",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "a310f"
+      ]
+    },
+    {
+      "id": "flir-8",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "a310f",
+        "LNB4421B",
+        "LNE8950AB",
+        "LOREX",
+        "N258F5",
+        "NVR",
+        "Other",
+        "PE133E"
+      ]
+    },
+    {
+      "id": "flir-9",
+      "url": "/avc",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "A400",
+        "A50",
+        "A70",
+        "A700",
+        "AX8",
+        "Other"
+      ]
+    },
+    {
+      "id": "flir-10",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AX8",
+        "E75",
+        "LOREX"
+      ]
+    },
+    {
+      "id": "flir-11",
+      "url": "ch0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "D",
+        "F",
+        "FC-324-RN-NTSC",
+        "PT Series"
+      ]
+    },
+    {
+      "id": "flir-12",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DNB13TF2",
+        "DNE12TL2",
+        "LNB4421B",
+        "M3116EX-D",
+        "n133",
+        "N133BB",
+        "N233EE",
+        "N233zc",
+        "N336ZD1",
+        "NVR",
+        "Other",
+        "PE133",
+        "PE133E",
+        "PE133F",
+        "Players Ramp"
+      ]
+    },
+    {
+      "id": "flir-13",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DNB13TF2",
+        "LOREX",
+        "N133BD",
+        "N233BE",
+        "N233EE",
+        "Other"
+      ]
+    },
+    {
+      "id": "flir-14",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DNB13TF2",
+        "LNB4321B",
+        "LOREX",
+        "m-3245",
+        "N133",
+        "N133BB",
+        "N133BD",
+        "n133eb",
+        "N133ED",
+        "N233EE",
+        "N233VE",
+        "N243EW2",
+        "N243vw4",
+        "N253V8",
+        "N336ZD1",
+        "N347VW4",
+        "nvr",
+        "Other",
+        "pe133f"
+      ]
+    },
+    {
+      "id": "flir-15",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DNE12TL2",
+        "LOREX",
+        "N233VE"
+      ]
+    },
+    {
+      "id": "flir-16",
+      "url": "/ch07/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-17",
+      "url": "/ch09/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-18",
+      "url": "/ch02/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-19",
+      "url": "/ch012/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-20",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-21",
+      "url": "/ch10/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-22",
+      "url": "/ch05",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-23",
+      "url": "/ch05/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-24",
+      "url": "/ch03/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lorex"
+      ]
+    },
+    {
+      "id": "flir-25",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LOREX"
+      ]
+    },
+    {
+      "id": "flir-26",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LOREX",
+        "N233BE",
+        "Other",
+        "PT SERIES"
+      ]
+    },
+    {
+      "id": "flir-27",
+      "url": "/cam/realmonitor?channel=2&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "M3108EX",
+        "N233zc"
+      ]
+    },
+    {
+      "id": "flir-28",
+      "url": "/ir.1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "M364C LR"
+      ]
+    },
+    {
+      "id": "flir-29",
+      "url": "/ir.0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "M364C LR"
+      ]
+    },
+    {
+      "id": "flir-30",
+      "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N133BB",
+        "N133ED",
+        "N253V8"
+      ]
+    },
+    {
+      "id": "flir-31",
+      "url": "/cam/realmonitor?channel=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "N133BD"
+      ]
+    },
+    {
+      "id": "flir-32",
+      "url": "/axis-cgi/mjpg/video.cgi?camera=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "N133BD"
+      ]
+    },
+    {
+      "id": "flir-33",
+      "url": "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=0&resolution=320x240",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "N133ED"
+      ]
+    },
+    {
+      "id": "flir-34",
+      "url": "/axis-cgi/mjpg/video.cgi?camera=1&resolution=320x240",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "N133ED"
+      ]
+    },
+    {
+      "id": "flir-35",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N233BE",
+        "N233EE",
+        "PE133",
+        "PE133E"
+      ]
+    },
+    {
+      "id": "flir-36",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N233EE",
+        "PE133F"
+      ]
+    },
+    {
+      "id": "flir-37",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "N233EE",
+        "ThermiCam 2"
+      ]
+    },
+    {
+      "id": "flir-38",
+      "url": "/cam/realmonitor?channel=4&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "N233zc"
+      ]
+    },
+    {
+      "id": "flir-39",
+      "url": "0/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "flir-40",
+      "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PB133F"
+      ]
+    },
+    {
+      "id": "flir-41",
+      "url": "/cgi-bin/snapshot.cgi?loginuse=&loginpas=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "PE133F"
+      ]
+    },
+    {
+      "id": "flir-42",
+      "url": "vis",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ-35x140"
+      ]
+    },
+    {
+      "id": "flir-43",
+      "url": "wfov",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ-35x140"
+      ]
+    },
+    {
+      "id": "flir-44",
+      "url": "/ch04/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Q-See"
+      ]
+    }
+  ]
+}

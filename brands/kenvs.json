@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "brand": "Kenvs",
+  "brand_id": "kenvs",
+  "streams": [
+    {
+      "id": "kenvs-1",
+      "url": "/ch0_1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Dome",
+        "IPC"
+      ]
+    },
+    {
+      "id": "kenvs-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GJ-6075P 1080p"
+      ]
+    },
+    {
+      "id": "kenvs-3",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GJ-6075P 1080p",
+        "Other"
+      ]
+    },
+    {
+      "id": "kenvs-4",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GJ-6075P 1080p",
+        "Other"
+      ]
+    },
+    {
+      "id": "kenvs-5",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GJ-6075P 1080p"
+      ]
+    },
+    {
+      "id": "kenvs-6",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "kenvs-7",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kenvs-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

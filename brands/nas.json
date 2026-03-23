@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nas",
+  "brand_id": "nas",
+  "streams": [
+    {
+      "id": "nas-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "metis 3"
+      ]
+    }
+  ]
+}

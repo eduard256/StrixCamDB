@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "brand": "Jtech",
+  "brand_id": "jtech",
+  "streams": [
+    {
+      "id": "jtech-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C6F0SoZ3N0PfL2"
+      ]
+    },
+    {
+      "id": "jtech-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DH43 1",
+        "Other"
+      ]
+    },
+    {
+      "id": "jtech-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GTN-HS2112VW"
+      ]
+    },
+    {
+      "id": "jtech-4",
+      "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JT-108"
+      ]
+    },
+    {
+      "id": "jtech-5",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "jtech-6",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

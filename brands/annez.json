@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Annez",
+  "brand_id": "annez",
+  "streams": [
+    {
+      "id": "annez-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1020"
+      ]
+    },
+    {
+      "id": "annez-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]&channel=1&stream=0.sdp:",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C31"
+      ]
+    }
+  ]
+}

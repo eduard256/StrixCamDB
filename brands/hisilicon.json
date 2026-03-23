@@ -1,0 +1,169 @@
+{
+  "version": 2,
+  "brand": "Hisilicon",
+  "brand_id": "hisilicon",
+  "streams": [
+    {
+      "id": "hisilicon-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2011-05",
+        "DV300",
+        "Hi3507",
+        "Other",
+        "RTSP(TCP) DVR"
+      ]
+    },
+    {
+      "id": "hisilicon-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3518",
+        "HI3516C",
+        "Hi3518E"
+      ]
+    },
+    {
+      "id": "hisilicon-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3518",
+        "HI3518E",
+        "Other",
+        "RTSP(TCP) DVR",
+        "works"
+      ]
+    },
+    {
+      "id": "hisilicon-4",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3518",
+        "HI3516C",
+        "HI3518E"
+      ]
+    },
+    {
+      "id": "hisilicon-5",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3518",
+        "HI3515",
+        "Other",
+        "RTSP"
+      ]
+    },
+    {
+      "id": "hisilicon-6",
+      "url": "[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Hi3507",
+        "HI3518E",
+        "HYV3804",
+        "Other",
+        "RTSP(TCP) DVR"
+      ]
+    },
+    {
+      "id": "hisilicon-7",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Hi3507",
+        "HI3516C",
+        "HYV3804",
+        "Other"
+      ]
+    },
+    {
+      "id": "hisilicon-8",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Hi3516c"
+      ]
+    },
+    {
+      "id": "hisilicon-9",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Hi3516c"
+      ]
+    },
+    {
+      "id": "hisilicon-10",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hisilicon-11",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hisilicon-12",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hisilicon-13",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "XZ-30I-AK/P"
+      ]
+    },
+    {
+      "id": "hisilicon-14",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "XZ-30I-AK/P"
+      ]
+    }
+  ]
+}

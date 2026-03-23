@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Digivue",
+  "brand_id": "digivue",
+  "streams": [
+    {
+      "id": "digivue-1",
+      "url": "op?sid=0+type=203+busid=0+devid=0+chanid=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EDV-EX Server"
+      ]
+    }
+  ]
+}

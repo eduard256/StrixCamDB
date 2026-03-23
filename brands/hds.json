@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hds",
+  "brand_id": "hds",
+  "streams": [
+    {
+      "id": "hds-1",
+      "url": "special/Cam[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR"
+      ]
+    }
+  ]
+}

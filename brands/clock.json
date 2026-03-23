@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Clock",
+  "brand_id": "clock",
+  "streams": [
+    {
+      "id": "clock-1",
+      "url": "/rtsp_live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "clock-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "clock-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "UNKOWN"
+      ]
+    }
+  ]
+}

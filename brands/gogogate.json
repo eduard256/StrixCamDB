@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Gogogate",
+  "brand_id": "gogogate",
+  "streams": [
+    {
+      "id": "gogogate-1",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ISG-CAM-01W"
+      ]
+    },
+    {
+      "id": "gogogate-2",
+      "url": "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "ISG-CAM-01W"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Makecell",
+  "brand_id": "makecell",
+  "streams": [
+    {
+      "id": "makecell-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "K910L"
+      ]
+    }
+  ]
+}

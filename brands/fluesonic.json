@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fluesonic",
+  "brand_id": "fluesonic",
+  "streams": [
+    {
+      "id": "fluesonic-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

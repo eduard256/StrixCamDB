@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vidstar",
+  "brand_id": "vidstar",
+  "streams": [
+    {
+      "id": "vidstar-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "vsc-2121vr-ip"
+      ]
+    }
+  ]
+}

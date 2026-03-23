@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Oceantools",
+  "brand_id": "oceantools",
+  "streams": [
+    {
+      "id": "oceantools-1",
+      "url": "live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C3-10"
+      ]
+    }
+  ]
+}

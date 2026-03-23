@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "brand": "Hjt",
+  "brand_id": "hjt",
+  "streams": [
+    {
+      "id": "hjt-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "6100",
+        "6200",
+        "720",
+        "720p",
+        "AS-IP1250",
+        "C6F0SeZ0N0P0L0",
+        "HJT-IPC6100--B1W",
+        "IPC6200-B1W",
+        "Other"
+      ]
+    },
+    {
+      "id": "hjt-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6200",
+        "AS-IP1250",
+        "aw0103010e05a",
+        "HJT-IPC6100--B1W",
+        "HJT-IPC6200-B1",
+        "Hongjuingtian",
+        "IP Camera2",
+        "IPC6200B1",
+        "IPC6200-B2W",
+        "IPC620-B2W",
+        "Other"
+      ]
+    },
+    {
+      "id": "hjt-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AS-IP1250"
+      ]
+    },
+    {
+      "id": "hjt-4",
+      "url": "/1/[USERNAME]:[PASSWORD]/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C6F0SgZ3NOPaL2"
+      ]
+    },
+    {
+      "id": "hjt-5",
+      "url": "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP C6500-B5"
+      ]
+    },
+    {
+      "id": "hjt-6",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC6200B1",
+        "Other"
+      ]
+    },
+    {
+      "id": "hjt-7",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hjt-8",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "Adata",
+  "brand_id": "adata",
+  "streams": [
+    {
+      "id": "adata-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1MP HD P2P CAMERA"
+      ]
+    },
+    {
+      "id": "adata-2",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AMB",
+        "AMB-MD",
+        "APOIP-MB",
+        "BLC02",
+        "EYE1.3",
+        "EYE2MBS",
+        "Other"
+      ]
+    },
+    {
+      "id": "adata-3",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AMB",
+        "AMB-MB1.3",
+        "apollo hd dvr",
+        "EYE1.3",
+        "EYE2MBS",
+        "Other"
+      ]
+    },
+    {
+      "id": "adata-4",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APOIP-MB",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kitcam",
+  "brand_id": "kitcam",
+  "streams": [
+    {
+      "id": "kitcam-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Hungtek",
+  "brand_id": "hungtek",
+  "streams": [
+    {
+      "id": "hungtek-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WiFi Cam"
+      ]
+    },
+    {
+      "id": "hungtek-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIFI CAM"
+      ]
+    },
+    {
+      "id": "hungtek-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIFI CAM"
+      ]
+    }
+  ]
+}

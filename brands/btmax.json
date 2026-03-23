@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Btmax",
+  "brand_id": "btmax",
+  "streams": [
+    {
+      "id": "btmax-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IR Speed"
+      ]
+    }
+  ]
+}

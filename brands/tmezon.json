@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "brand": "Tmezon",
+  "brand_id": "tmezon",
+  "streams": [
+    {
+      "id": "tmezon-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AES-30H100E",
+        "MZ-W205CR"
+      ]
+    },
+    {
+      "id": "tmezon-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AES-30H100E-A1",
+        "dvr",
+        "mz-adh1216",
+        "mz-ahd 1208",
+        "MZ-W205CR",
+        "Other"
+      ]
+    },
+    {
+      "id": "tmezon-3",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AES30H200E",
+        "AES-H301",
+        "BP20S-1H",
+        "MZ-205CR",
+        "MZ-W205CR",
+        "MZ-W205CR-A",
+        "Other"
+      ]
+    },
+    {
+      "id": "tmezon-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MZ-205CR",
+        "MZ-W205CR",
+        "Other"
+      ]
+    },
+    {
+      "id": "tmezon-5",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "MZ-W205CR",
+        "S836/5520PHR-AI"
+      ]
+    },
+    {
+      "id": "tmezon-6",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MZ-W205CR"
+      ]
+    },
+    {
+      "id": "tmezon-7",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "MZ-W205CR"
+      ]
+    },
+    {
+      "id": "tmezon-8",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

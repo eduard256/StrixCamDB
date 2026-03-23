@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xingling",
+  "brand_id": "xingling",
+  "streams": [
+    {
+      "id": "xingling-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002khhi"
+      ]
+    }
+  ]
+}

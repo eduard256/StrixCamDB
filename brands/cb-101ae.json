@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cb-101ae",
+  "brand_id": "cb-101ae",
+  "streams": [
+    {
+      "id": "cb-101ae-1",
+      "url": "/ONVIF/channel2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

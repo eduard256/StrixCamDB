@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cygnus",
+  "brand_id": "cygnus",
+  "streams": [
+    {
+      "id": "cygnus-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 85,
+      "models": [
+        "IPC-4M-FW"
+      ]
+    }
+  ]
+}

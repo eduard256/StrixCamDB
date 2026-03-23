@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "brand": "Verizon",
+  "brand_id": "verizon",
+  "streams": [
+    {
+      "id": "verizon-1",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EL2-8h"
+      ]
+    },
+    {
+      "id": "verizon-2",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EZIC-IBRF20"
+      ]
+    },
+    {
+      "id": "verizon-3",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OC-810V",
+        "Other",
+        "RC-8021",
+        "RC-8021v",
+        "RC-8021V",
+        "rc8061",
+        "RC-8061v",
+        "RC8201V"
+      ]
+    },
+    {
+      "id": "verizon-4",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "verizon-5",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC8021",
+        "RC-8061V"
+      ]
+    },
+    {
+      "id": "verizon-6",
+      "url": "img/mjpeg.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC-8021"
+      ]
+    }
+  ]
+}

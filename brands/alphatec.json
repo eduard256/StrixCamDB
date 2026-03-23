@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Alphatec",
+  "brand_id": "alphatec",
+  "streams": [
+    {
+      "id": "alphatec-1",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPDP Slim"
+      ]
+    },
+    {
+      "id": "alphatec-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPDP SLIM"
+      ]
+    }
+  ]
+}

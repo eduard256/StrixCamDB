@@ -1,0 +1,405 @@
+{
+  "version": 2,
+  "brand": "Dvr",
+  "brand_id": "dvr",
+  "streams": [
+    {
+      "id": "dvr-1",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "16HYBRID",
+        "34567",
+        "ahb-8204",
+        "DVR CAM",
+        "DVR5",
+        "MyDVR",
+        "Other",
+        "REISS DVR",
+        "SCREEN RTSP 554",
+        "VIDEO SERVER",
+        "VOS4"
+      ]
+    },
+    {
+      "id": "dvr-2",
+      "url": "img.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "365",
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-3",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AHB-824",
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-4",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BH104-H",
+        "Dahua DVR",
+        "DVR CAM",
+        "JA7204",
+        "JA7204S-2",
+        "JA7208",
+        "JA7216NC",
+        "MR-H4708",
+        "Other",
+        "PT-4H16",
+        "VIDEO SERVER"
+      ]
+    },
+    {
+      "id": "dvr-5",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=2&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BSV 434"
+      ]
+    },
+    {
+      "id": "dvr-6",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=3&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BSV 434"
+      ]
+    },
+    {
+      "id": "dvr-7",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BSV434"
+      ]
+    },
+    {
+      "id": "dvr-8",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Caldera 8",
+        "DVR CAM",
+        "DVR227",
+        "h264",
+        "JA7208",
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-9",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 37777,
+      "models": [
+        "Dahua DVR"
+      ]
+    },
+    {
+      "id": "dvr-10",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DAHUA DVR",
+        "DVR CAM",
+        "dvr5",
+        "Raster",
+        "VIDEO SERVER"
+      ]
+    },
+    {
+      "id": "dvr-11",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DMS8108-A",
+        "H264"
+      ]
+    },
+    {
+      "id": "dvr-12",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR 200",
+        "DVR CAM",
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-13",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR CAM",
+        "Other",
+        "VIDEO SERVER"
+      ]
+    },
+    {
+      "id": "dvr-14",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR CAM",
+        "Other",
+        "VIDEO SERVER"
+      ]
+    },
+    {
+      "id": "dvr-15",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR CAM",
+        "H.264",
+        "h264",
+        "JA7208",
+        "Other",
+        "r7816"
+      ]
+    },
+    {
+      "id": "dvr-16",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR CAM"
+      ]
+    },
+    {
+      "id": "dvr-17",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR2010"
+      ]
+    },
+    {
+      "id": "dvr-18",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR2010"
+      ]
+    },
+    {
+      "id": "dvr-19",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR2010",
+        "h264",
+        "JA7204S",
+        "JA7204S-2",
+        "JA7208",
+        "JA7216CX",
+        "Other",
+        "SECAM",
+        "the3harts"
+      ]
+    },
+    {
+      "id": "dvr-20",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "h.264",
+        "H264",
+        "Other",
+        "UNLISTED",
+        "VIDEO SERVER"
+      ]
+    },
+    {
+      "id": "dvr-21",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "h.264"
+      ]
+    },
+    {
+      "id": "dvr-22",
+      "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "JA7204"
+      ]
+    },
+    {
+      "id": "dvr-23",
+      "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "JA7204"
+      ]
+    },
+    {
+      "id": "dvr-24",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JA7204S-2",
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-25",
+      "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-26",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "Raster",
+        "VIDEO SERVER"
+      ]
+    },
+    {
+      "id": "dvr-27",
+      "url": "image/[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-28",
+      "url": "ivop.get?action=live&THREAD_ID=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-29",
+      "url": "cgi-bin/video[CHANNEL].jpg?size=2&quality=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-30",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-31",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dvr-32",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "R2009"
+      ]
+    },
+    {
+      "id": "dvr-33",
+      "url": "cgi-bin/net_jpeg.cgi?ch=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VIDEO SERVER"
+      ]
+    },
+    {
+      "id": "dvr-34",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VIDEO SERVER"
+      ]
+    }
+  ]
+}

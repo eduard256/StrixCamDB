@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ptz05",
+  "brand_id": "ptz05",
+  "streams": [
+    {
+      "id": "ptz05-1",
+      "url": "cam2/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

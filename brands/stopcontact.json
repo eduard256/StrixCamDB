@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Stopcontact",
+  "brand_id": "stopcontact",
+  "streams": [
+    {
+      "id": "stopcontact-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "stop"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "brand": "Uniarch",
+  "brand_id": "uniarch",
+  "streams": [
+    {
+      "id": "uniarch-1",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "112"
+      ]
+    },
+    {
+      "id": "uniarch-2",
+      "url": "/unicast/c1/s0/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "114",
+        "Other"
+      ]
+    },
+    {
+      "id": "uniarch-3",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "114",
+        "IPC-B112-PF28",
+        "IPC-T122-APF28",
+        "IPC-T314-APKZ",
+        "Uho-B2R-M2F4",
+        "Uho-S2E"
+      ]
+    },
+    {
+      "id": "uniarch-4",
+      "url": "videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ipc-b222"
+      ]
+    },
+    {
+      "id": "uniarch-5",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-B222"
+      ]
+    },
+    {
+      "id": "uniarch-6",
+      "url": "/live/h264/HD1080P",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-B222"
+      ]
+    },
+    {
+      "id": "uniarch-7",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-B222"
+      ]
+    },
+    {
+      "id": "uniarch-8",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-T122-APF28"
+      ]
+    },
+    {
+      "id": "uniarch-9",
+      "url": "/media/video2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-T122-APF28"
+      ]
+    }
+  ]
+}

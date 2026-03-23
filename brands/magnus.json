@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Magnus",
+  "brand_id": "magnus",
+  "streams": [
+    {
+      "id": "magnus-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Safecam",
+  "brand_id": "safecam",
+  "streams": [
+    {
+      "id": "safecam-1",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "ip6"
+      ]
+    }
+  ]
+}

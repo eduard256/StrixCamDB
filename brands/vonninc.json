@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Vonninc",
+  "brand_id": "vonninc",
+  "streams": [
+    {
+      "id": "vonninc-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR-C5508HMF"
+      ]
+    },
+    {
+      "id": "vonninc-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR-C5508HMF"
+      ]
+    }
+  ]
+}

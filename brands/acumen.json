@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "brand": "Acumen",
+  "brand_id": "acumen",
+  "streams": [
+    {
+      "id": "acumen-1",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AiP-B24N",
+        "AiP-B34",
+        "AiP-M53",
+        "Other",
+        "Y04"
+      ]
+    },
+    {
+      "id": "acumen-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AIS-S22H-B1Y0W"
+      ]
+    },
+    {
+      "id": "acumen-3",
+      "url": "mpg4/rtsp.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ekran",
+        "Other"
+      ]
+    },
+    {
+      "id": "acumen-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Covisec",
+  "brand_id": "covisec",
+  "streams": [
+    {
+      "id": "covisec-1",
+      "url": "stillimg[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ALD-400HK w/ Web Port"
+      ]
+    }
+  ]
+}

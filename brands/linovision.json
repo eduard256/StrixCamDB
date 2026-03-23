@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Linovision",
+  "brand_id": "linovision",
+  "streams": [
+    {
+      "id": "linovision-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC422UW-10",
+        "IPC608UW-10",
+        "V7163F-EPT"
+      ]
+    }
+  ]
+}

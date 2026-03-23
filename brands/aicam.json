@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "brand": "Aicam",
+  "brand_id": "aicam",
+  "streams": [
+    {
+      "id": "aicam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "683kba24upbh",
+        "Other"
+      ]
+    },
+    {
+      "id": "aicam-2",
+      "url": "/ufirststream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "GI-2310 5G",
+        "Other"
+      ]
+    },
+    {
+      "id": "aicam-3",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP-XM400POE",
+        "Other"
+      ]
+    },
+    {
+      "id": "aicam-4",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aicam-5",
+      "url": "live3.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aicam-6",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

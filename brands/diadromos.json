@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Diadromos",
+  "brand_id": "diadromos",
+  "streams": [
+    {
+      "id": "diadromos-1",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-1040"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Lg Phone",
+  "brand_id": "lg-phone",
+  "streams": [
+    {
+      "id": "lg-phone-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "leon"
+      ]
+    },
+    {
+      "id": "lg-phone-2",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LS620",
+        "Other"
+      ]
+    }
+  ]
+}

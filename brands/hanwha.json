@@ -1,0 +1,122 @@
+{
+  "version": 2,
+  "brand": "Hanwha",
+  "brand_id": "hanwha",
+  "streams": [
+    {
+      "id": "hanwha-1",
+      "url": "/profile02/media.smp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "8003",
+        "ANV-L6082R",
+        "ANV-L7012R"
+      ]
+    },
+    {
+      "id": "hanwha-2",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-2000HW"
+      ]
+    },
+    {
+      "id": "hanwha-3",
+      "url": "cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-2000HW",
+        "Other",
+        "SNV-6013"
+      ]
+    },
+    {
+      "id": "hanwha-4",
+      "url": "/stw-cgi/video.cgi?msubmenu=snapshot&action=view&channel=5&profile=1",
+      "type": "JPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "PNM-9085RQZ1",
+        "xrn-810s"
+      ]
+    },
+    {
+      "id": "hanwha-5",
+      "url": "/cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Qnd-7010r"
+      ]
+    },
+    {
+      "id": "hanwha-6",
+      "url": "cgi-bin/video.cgi?msubmenu=jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QNO-6070-R"
+      ]
+    },
+    {
+      "id": "hanwha-7",
+      "url": "/stw-cgi/video.cgi?msubmenu=stream&action=view&Profile=1&CodecType=MJPEG&Resolution=1920x1080",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "QNV-7082R"
+      ]
+    },
+    {
+      "id": "hanwha-8",
+      "url": "/stw-cgi/video.cgi?msubmenu=snapshot&action=view",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10001,
+      "models": [
+        "QNV-7082R"
+      ]
+    },
+    {
+      "id": "hanwha-9",
+      "url": "/stw-cgi/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10001,
+      "models": [
+        "QNV-7082R"
+      ]
+    },
+    {
+      "id": "hanwha-10",
+      "url": "/0/profile4/media.smp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "QNV-8080R"
+      ]
+    },
+    {
+      "id": "hanwha-11",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "wisenet"
+      ]
+    }
+  ]
+}

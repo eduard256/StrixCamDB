@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "brand": "Xanboo",
+  "brand_id": "xanboo",
+  "streams": [
+    {
+      "id": "xanboo-1",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8030",
+        "RC-4030"
+      ]
+    },
+    {
+      "id": "xanboo-2",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8030",
+        "Other",
+        "RC4020",
+        "RC40200",
+        "rc4021",
+        "RC4021",
+        "RC-8021",
+        "RC-8030",
+        "XC4020"
+      ]
+    },
+    {
+      "id": "xanboo-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "rc4021",
+        "RC4021"
+      ]
+    },
+    {
+      "id": "xanboo-4",
+      "url": "img/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "rc4020",
+        "RC-8021"
+      ]
+    },
+    {
+      "id": "xanboo-5",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RC-8021"
+      ]
+    },
+    {
+      "id": "xanboo-6",
+      "url": "img/video.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "RC-8021",
+        "RC-8030"
+      ]
+    },
+    {
+      "id": "xanboo-7",
+      "url": "img/media.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "RC-8021"
+      ]
+    },
+    {
+      "id": "xanboo-8",
+      "url": "img/mjpeg.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "rc4021",
+        "RC-8021",
+        "RC-8030"
+      ]
+    },
+    {
+      "id": "xanboo-9",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xanboo-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC-8021"
+      ]
+    }
+  ]
+}

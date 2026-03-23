@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Digital Security",
+  "brand_id": "digital-security",
+  "streams": [
+    {
+      "id": "digital-security-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PT-7000HD"
+      ]
+    }
+  ]
+}

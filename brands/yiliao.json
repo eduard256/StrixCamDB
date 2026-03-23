@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Yiliao",
+  "brand_id": "yiliao",
+  "streams": [
+    {
+      "id": "yiliao-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "y8a-wa"
+      ]
+    },
+    {
+      "id": "yiliao-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "y8a-wa"
+      ]
+    }
+  ]
+}

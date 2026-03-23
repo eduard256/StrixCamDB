@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "brand": "Kingcam",
+  "brand_id": "kingcam",
+  "streams": [
+    {
+      "id": "kingcam-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080",
+        "1080P",
+        "DS-F3",
+        "IP100",
+        "ip-cam 100",
+        "IPCAM-100",
+        "Other"
+      ]
+    },
+    {
+      "id": "kingcam-2",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM-100"
+      ]
+    }
+  ]
+}

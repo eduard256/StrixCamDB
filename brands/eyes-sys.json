@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Eyes-sys",
+  "brand_id": "eyes-sys",
+  "streams": [
+    {
+      "id": "eyes-sys-1",
+      "url": "/video.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4k POE"
+      ]
+    },
+    {
+      "id": "eyes-sys-2",
+      "url": "1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4K POE"
+      ]
+    },
+    {
+      "id": "eyes-sys-3",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ColorVu"
+      ]
+    }
+  ]
+}

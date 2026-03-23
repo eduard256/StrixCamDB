@@ -1,0 +1,228 @@
+{
+  "version": 2,
+  "brand": "Eufy",
+  "brand_id": "eufy",
+  "streams": [
+    {
+      "id": "eufy-1",
+      "url": "/live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2c pro",
+        "2k indoor camera",
+        "2K Pan  and  Tilt",
+        "C120",
+        "C210",
+        "C22",
+        "C220",
+        "Cam 2 Pro",
+        "Cam 2C (Regular - USA)",
+        "Cam2C",
+        "E220",
+        "E30",
+        "e42",
+        "Eufy 2 pro",
+        "eufy Security Outdoor Cam E220",
+        "EUFYCAM 2 PRO",
+        "EUFYCAM 2C",
+        "FloodLight Cam Pro",
+        "Garage-Control Cam Plus",
+        "Home",
+        "indoor 2k pan tilt",
+        "Indoor Cam",
+        "Indoor Cam 2K",
+        "Indoor Cam 2K / T8400X",
+        "Indoor Cam 2K Pan  and  Tilt",
+        "Indoor Cam C220",
+        "Indoor Cam C220 PTZ",
+        "Indoor Cam Mini",
+        "Indoor Cam Pan and Tilt",
+        "Indoor Cam S350",
+        "IndoorCam C24",
+        "indoorcam4k",
+        "modele E",
+        "Other",
+        "Outdoor Cam",
+        "Outdoor Cam Pro",
+        "Outdoor Pro",
+        "Outdoor Wired Camera Pro 2k",
+        "Pan  and  Tilt",
+        "Pan and tilt 2k",
+        "S350",
+        "Security Outdoor Cam E220",
+        "Security Solo IndoorCam C24",
+        "Security Solo OutdoorCam C24",
+        "Solo OutdoorCam L40",
+        "t8113",
+        "T8400",
+        "T84001W1",
+        "T8400X",
+        "T8410",
+        "T8410121",
+        "T8419",
+        "Tilt-Camera"
+      ]
+    },
+    {
+      "id": "eufy-2",
+      "url": "/live2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2k Doorbell Dual",
+        "C24",
+        "Cam2c",
+        "Cam2c Pro",
+        "Eufy 2 pro",
+        "EufyCam 2",
+        "EufyCam 2C Pro",
+        "eufyCam S330",
+        "Other",
+        "pan en tilt",
+        "S330",
+        "T8210"
+      ]
+    },
+    {
+      "id": "eufy-3",
+      "url": "/live1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C210",
+        "Cam 2C",
+        "Cam 2C Pro",
+        "Cam2c Pro",
+        "EufyCam 2 Pro",
+        "EufyCam 2C Pro",
+        "Pro2"
+      ]
+    },
+    {
+      "id": "eufy-4",
+      "url": "D:/",
+      "type": "FFMPEG",
+      "protocol": "file",
+      "port": 0,
+      "models": [
+        "Cam2c"
+      ]
+    },
+    {
+      "id": "eufy-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "Cam2c",
+        "eufycam2k",
+        "floodlight cam",
+        "indoor Cam 2K Pan  and  Tilt",
+        "T8210",
+        "t8401",
+        "T8401"
+      ]
+    },
+    {
+      "id": "eufy-6",
+      "url": "/live3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "E340 Floodlight",
+        "EufyCam S330"
+      ]
+    },
+    {
+      "id": "eufy-7",
+      "url": "/live4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "eufyCam S330"
+      ]
+    },
+    {
+      "id": "eufy-8",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "HomeBase  2",
+        "indoor Cam 2K Pan  and  Tilt",
+        "Pan and tilt 2k",
+        "Security Solo IndoorCam C24",
+        "T8210",
+        "T8410"
+      ]
+    },
+    {
+      "id": "eufy-9",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Indoor Cam 2K"
+      ]
+    },
+    {
+      "id": "eufy-10",
+      "url": "/mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10002,
+      "models": [
+        "indoor Cam 2K Pan and Tilt"
+      ]
+    },
+    {
+      "id": "eufy-11",
+      "url": "/img/media.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Outdoor Pro"
+      ]
+    },
+    {
+      "id": "eufy-12",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Outdoor Wired Camera Pro 2k"
+      ]
+    },
+    {
+      "id": "eufy-13",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Solo 2k"
+      ]
+    },
+    {
+      "id": "eufy-14",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 554,
+      "models": [
+        "T8410"
+      ]
+    }
+  ]
+}

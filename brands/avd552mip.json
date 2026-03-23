@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Avd552mip",
+  "brand_id": "avd552mip",
+  "streams": [
+    {
+      "id": "avd552mip-1",
+      "url": "/live1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Avue"
+      ]
+    },
+    {
+      "id": "avd552mip-2",
+      "url": "/live2.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Avue"
+      ]
+    }
+  ]
+}

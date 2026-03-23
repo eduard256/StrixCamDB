@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "3eyes3",
+  "brand_id": "3eyes3",
+  "streams": [
+    {
+      "id": "3eyes3-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "E-2100M"
+      ]
+    }
+  ]
+}

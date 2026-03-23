@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Royal",
+  "brand_id": "royal",
+  "streams": [
+    {
+      "id": "royal-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fine"
+      ]
+    },
+    {
+      "id": "royal-2",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Guard"
+      ]
+    }
+  ]
+}

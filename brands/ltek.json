@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ltek",
+  "brand_id": "ltek",
+  "streams": [
+    {
+      "id": "ltek-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LD40L"
+      ]
+    }
+  ]
+}

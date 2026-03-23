@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Arebi",
+  "brand_id": "arebi",
+  "streams": [
+    {
+      "id": "arebi-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A10 Plus"
+      ]
+    },
+    {
+      "id": "arebi-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A10 Plus"
+      ]
+    }
+  ]
+}

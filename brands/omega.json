@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Omega",
+  "brand_id": "omega",
+  "streams": [
+    {
+      "id": "omega-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "51P22-6P",
+        "PTZ-21P4-3P"
+      ]
+    }
+  ]
+}

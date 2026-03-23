@@ -1,0 +1,297 @@
+{
+  "version": 2,
+  "brand": "Ezcam",
+  "brand_id": "ezcam",
+  "streams": [
+    {
+      "id": "ezcam-1",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C3S"
+      ]
+    },
+    {
+      "id": "ezcam-2",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C3-S-H"
+      ]
+    },
+    {
+      "id": "ezcam-3",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EPK-EP10L1"
+      ]
+    },
+    {
+      "id": "ezcam-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2",
+        "EZCAM PAN/TILT V2",
+        "Other",
+        "Pan/Tilt v1",
+        "Pan/Tilt v2"
+      ]
+    },
+    {
+      "id": "ezcam-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2",
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2",
+        "Other",
+        "Pan/Tilt v2"
+      ]
+    },
+    {
+      "id": "ezcam-7",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2",
+        "Pan/Tilt v1"
+      ]
+    },
+    {
+      "id": "ezcam-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2",
+        "Other",
+        "Pan/Tilt v2",
+        "qp180"
+      ]
+    },
+    {
+      "id": "ezcam-9",
+      "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2",
+        "Other",
+        "Pan/Tilt v2"
+      ]
+    },
+    {
+      "id": "ezcam-10",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2",
+        "Other",
+        "PAN/TILT V1",
+        "Pan/Tilt v2"
+      ]
+    },
+    {
+      "id": "ezcam-11",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2",
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-12",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZCam Pan/Tilt v2"
+      ]
+    },
+    {
+      "id": "ezcam-13",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-14",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-15",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Pan/Tilt v1"
+      ]
+    },
+    {
+      "id": "ezcam-16",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-17",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-18",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-19",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-20",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Pan/Tilt v2"
+      ]
+    },
+    {
+      "id": "ezcam-21",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-22",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Pan/Tilt v1"
+      ]
+    },
+    {
+      "id": "ezcam-23",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ezcam-24",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PAN/TILT V1"
+      ]
+    },
+    {
+      "id": "ezcam-25",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Pan/Tilt v2"
+      ]
+    },
+    {
+      "id": "ezcam-26",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Pan/Tilt v2"
+      ]
+    },
+    {
+      "id": "ezcam-27",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Pan/Tilt v2"
+      ]
+    }
+  ]
+}

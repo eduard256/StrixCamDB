@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Obs",
+  "brand_id": "obs",
+  "streams": [
+    {
+      "id": "obs-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtmp",
+      "port": 1937,
+      "models": [
+        "OBS Stream"
+      ]
+    }
+  ]
+}

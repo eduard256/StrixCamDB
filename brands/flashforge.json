@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Flashforge",
+  "brand_id": "flashforge",
+  "streams": [
+    {
+      "id": "flashforge-1",
+      "url": "/?action=stream",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Advanturer m5 Pro",
+        "adventurer 3",
+        "Adventurer3",
+        "Other"
+      ]
+    },
+    {
+      "id": "flashforge-2",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Creator 3",
+        "Creator 3 webcam"
+      ]
+    },
+    {
+      "id": "flashforge-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Inventor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Flexidome",
+  "brand_id": "flexidome",
+  "streams": [
+    {
+      "id": "flexidome-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5000"
+      ]
+    },
+    {
+      "id": "flexidome-2",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BULLET"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "version": 2,
+  "brand": "Rocam",
+  "brand_id": "rocam",
+  "streams": [
+    {
+      "id": "rocam-1",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M-200HD",
+        "nc300",
+        "NC-400",
+        "NC-500HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "rocam-2",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC300",
+        "NC-400"
+      ]
+    },
+    {
+      "id": "rocam-3",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC300",
+        "NC-400",
+        "NC-400HD"
+      ]
+    },
+    {
+      "id": "rocam-4",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC300",
+        "NC-400",
+        "NC-400hd",
+        "NC-500",
+        "NC-500HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "rocam-5",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC300"
+      ]
+    },
+    {
+      "id": "rocam-6",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC300",
+        "nc360",
+        "Other"
+      ]
+    },
+    {
+      "id": "rocam-7",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC300",
+        "NC-400",
+        "NC-500"
+      ]
+    },
+    {
+      "id": "rocam-8",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC300-1",
+        "NC400",
+        "NC-500HD"
+      ]
+    },
+    {
+      "id": "rocam-9",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "nc360",
+        "Other"
+      ]
+    },
+    {
+      "id": "rocam-10",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC360",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "rocam-11",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC360"
+      ]
+    },
+    {
+      "id": "rocam-12",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-400",
+        "NC-400hd",
+        "NC-400HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "rocam-13",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-400",
+        "NC-500"
+      ]
+    },
+    {
+      "id": "rocam-14",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-400"
+      ]
+    },
+    {
+      "id": "rocam-15",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-400",
+        "Other",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "rocam-16",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NC-500",
+        "NC-500HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "rocam-17",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-500",
+        "NC-500HD"
+      ]
+    },
+    {
+      "id": "rocam-18",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "nch001",
+        "nhc002"
+      ]
+    }
+  ]
+}

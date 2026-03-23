@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Ginzzu",
+  "brand_id": "ginzzu",
+  "streams": [
+    {
+      "id": "ginzzu-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HIB-4303A",
+        "HIB-5302S",
+        "HIB5303A",
+        "HIB-5303A"
+      ]
+    },
+    {
+      "id": "ginzzu-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "HIB-5303A"
+      ]
+    },
+    {
+      "id": "ginzzu-3",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HWB-5302A"
+      ]
+    }
+  ]
+}

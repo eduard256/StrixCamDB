@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "brand": "Coolead",
+  "brand_id": "coolead",
+  "streams": [
+    {
+      "id": "coolead-1",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "541WS",
+        "L series",
+        "Other",
+        "RM-CAM"
+      ]
+    },
+    {
+      "id": "coolead-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "L Series",
+        "L SERIES",
+        "L610WS"
+      ]
+    },
+    {
+      "id": "coolead-3",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

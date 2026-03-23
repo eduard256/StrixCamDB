@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nesuniq",
+  "brand_id": "nesuniq",
+  "streams": [
+    {
+      "id": "nesuniq-1",
+      "url": "live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ipc-p18fb"
+      ]
+    }
+  ]
+}

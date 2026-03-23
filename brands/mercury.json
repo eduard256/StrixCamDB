@@ -1,0 +1,108 @@
+{
+  "version": 2,
+  "brand": "Mercury",
+  "brand_id": "mercury",
+  "streams": [
+    {
+      "id": "mercury-1",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CW007-199W"
+      ]
+    },
+    {
+      "id": "mercury-2",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cw014"
+      ]
+    },
+    {
+      "id": "mercury-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cw017-101"
+      ]
+    },
+    {
+      "id": "mercury-4",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "cw017-101"
+      ]
+    },
+    {
+      "id": "mercury-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mi-cw007-199w",
+        "Other"
+      ]
+    },
+    {
+      "id": "mercury-6",
+      "url": "/snapshot",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "mi-cw007-199w"
+      ]
+    },
+    {
+      "id": "mercury-7",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MI-CW007-199W"
+      ]
+    },
+    {
+      "id": "mercury-8",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MIPC4312(P)-4"
+      ]
+    },
+    {
+      "id": "mercury-9",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MIPC4312(P)-4"
+      ]
+    },
+    {
+      "id": "mercury-10",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

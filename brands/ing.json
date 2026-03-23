@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ing",
+  "brand_id": "ing",
+  "streams": [
+    {
+      "id": "ing-1",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

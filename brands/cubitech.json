@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cubitech",
+  "brand_id": "cubitech",
+  "streams": [
+    {
+      "id": "cubitech-1",
+      "url": "/streaming/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DOME"
+      ]
+    }
+  ]
+}

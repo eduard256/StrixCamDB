@@ -1,0 +1,130 @@
+{
+  "version": 2,
+  "brand": "Asus",
+  "brand_id": "asus",
+  "streams": [
+    {
+      "id": "asus-1",
+      "url": "/?action=stream",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "..."
+      ]
+    },
+    {
+      "id": "asus-2",
+      "url": "video.mjpg?q=30&fps=33&id=0.5",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "202"
+      ]
+    },
+    {
+      "id": "asus-3",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "memopad"
+      ]
+    },
+    {
+      "id": "asus-4",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nexus",
+        "Nexus 7",
+        "Other",
+        "Pad",
+        "padfone",
+        "padfone x",
+        "Padfone X Mini",
+        "Tablet",
+        "Transformer Prime",
+        "ZEN",
+        "zenfone 4",
+        "zenfone2",
+        "zenfone5"
+      ]
+    },
+    {
+      "id": "asus-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asus-6",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asus-7",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asus-8",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asus-9",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asus-10",
+      "url": "/video.mjpg?q=30&fps=33&id=1",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "tuf gaming",
+        "TUF GAMING RYZEN 7"
+      ]
+    },
+    {
+      "id": "asus-11",
+      "url": "/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "TUF GAMING RYZEN 7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Litetec",
+  "brand_id": "litetec",
+  "streams": [
+    {
+      "id": "litetec-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LM IP924CK40p"
+      ]
+    }
+  ]
+}

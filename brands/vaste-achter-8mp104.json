@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vaste Achter 8mp104",
+  "brand_id": "vaste-achter-8mp104",
+  "streams": [
+    {
+      "id": "vaste-achter-8mp104-1",
+      "url": "/live/ch00_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ACHTERRAAM104"
+      ]
+    }
+  ]
+}

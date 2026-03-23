@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aigas",
+  "brand_id": "aigas",
+  "streams": [
+    {
+      "id": "aigas-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ND4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Proline Uk",
+  "brand_id": "proline-uk",
+  "streams": [
+    {
+      "id": "proline-uk-1",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H210"
+      ]
+    },
+    {
+      "id": "proline-uk-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-HD101B",
+        "Other"
+      ]
+    },
+    {
+      "id": "proline-uk-3",
+      "url": "/v1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "proline-uk-4",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

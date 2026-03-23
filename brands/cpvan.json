@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Cpvan",
+  "brand_id": "cpvan",
+  "streams": [
+    {
+      "id": "cpvan-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080p",
+        "CP-ODRIPC6"
+      ]
+    }
+  ]
+}

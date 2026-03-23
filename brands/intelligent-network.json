@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Intelligent Network",
+  "brand_id": "intelligent-network",
+  "streams": [
+    {
+      "id": "intelligent-network-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CN-PT200",
+        "Other"
+      ]
+    },
+    {
+      "id": "intelligent-network-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GE-100-CB"
+      ]
+    }
+  ]
+}

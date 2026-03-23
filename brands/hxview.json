@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Hxview",
+  "brand_id": "hxview",
+  "streams": [
+    {
+      "id": "hxview-1",
+      "url": "/tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8082,
+      "models": [
+        "bu-e580"
+      ]
+    },
+    {
+      "id": "hxview-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BU-E580",
+        "BU-H800",
+        "PTZ"
+      ]
+    }
+  ]
+}

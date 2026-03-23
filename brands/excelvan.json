@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Excelvan",
+  "brand_id": "excelvan",
+  "streams": [
+    {
+      "id": "excelvan-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCC-B15N-W"
+      ]
+    }
+  ]
+}

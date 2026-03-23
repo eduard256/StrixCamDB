@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Nightwatcher",
+  "brand_id": "nightwatcher",
+  "streams": [
+    {
+      "id": "nightwatcher-1",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nw750"
+      ]
+    },
+    {
+      "id": "nightwatcher-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nw750",
+        "NW750"
+      ]
+    }
+  ]
+}

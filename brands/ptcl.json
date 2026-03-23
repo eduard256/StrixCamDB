@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ptcl",
+  "brand_id": "ptcl",
+  "streams": [
+    {
+      "id": "ptcl-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "001"
+      ]
+    }
+  ]
+}

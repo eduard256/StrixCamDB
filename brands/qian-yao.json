@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Qian Yao",
+  "brand_id": "qian-yao",
+  "streams": [
+    {
+      "id": "qian-yao-1",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "QDVR041701P"
+      ]
+    }
+  ]
+}

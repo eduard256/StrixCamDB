@@ -1,0 +1,170 @@
+{
+  "version": 2,
+  "brand": "Fdt",
+  "brand_id": "fdt",
+  "streams": [
+    {
+      "id": "fdt-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080",
+        "1080P WiFi",
+        "1080P WIFI",
+        "1coo5",
+        "720",
+        "720HD",
+        "720P",
+        "720poutdoor",
+        "760",
+        "7901",
+        "7902",
+        "7903",
+        "7920B",
+        "8901W",
+        "8902",
+        "960p",
+        "C6F0SeZ0N0P0L0",
+        "CAM-WNVR2P-IN",
+        "FD7901",
+        "FD7901B",
+        "FD7901W",
+        "FD7901W/B",
+        "FD7902",
+        "FD7902W-SD16",
+        "FD7903",
+        "FD7903W",
+        "fd8901",
+        "FD8901B",
+        "fd8901w",
+        "FD8901W",
+        "FD8902W",
+        "fd8902w-sd16",
+        "FD8903W-SD32",
+        "ic005",
+        "Other",
+        "sp007",
+        "View",
+        "VIEW"
+      ]
+    },
+    {
+      "id": "fdt-2",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P WIFI",
+        "720",
+        "7901",
+        "7903",
+        "8902",
+        "CAM-WNVR2P-IN",
+        "FD7901",
+        "FD7901B",
+        "FD7901W",
+        "FD7901W/B",
+        "fd7903",
+        "FD8901",
+        "FD8901W",
+        "FD8902W",
+        "FDTAA-023310 WBUKP",
+        "Other"
+      ]
+    },
+    {
+      "id": "fdt-3",
+      "url": "/media/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720HD"
+      ]
+    },
+    {
+      "id": "fdt-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720HD",
+        "720P",
+        "720POUTDOOR",
+        "7901",
+        "7902",
+        "8901W",
+        "8903W",
+        "8905W",
+        "C6F0SEZ0N0P0L0",
+        "CAM-WNVR2P-IN",
+        "FD7901",
+        "FD7901B",
+        "FD7901W/B",
+        "FD7902",
+        "FD7902W-SD16",
+        "FD7903",
+        "FD7903W",
+        "FD8901W",
+        "FD8902",
+        "Other",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "fdt-5",
+      "url": "/tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "FD7901",
+        "FDT 7901"
+      ]
+    },
+    {
+      "id": "fdt-6",
+      "url": "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "FD7901W"
+      ]
+    },
+    {
+      "id": "fdt-7",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fd7903w"
+      ]
+    },
+    {
+      "id": "fdt-8",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "fd8901w"
+      ]
+    },
+    {
+      "id": "fdt-9",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

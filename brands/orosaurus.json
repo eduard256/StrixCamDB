@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Orosaurus",
+  "brand_id": "orosaurus",
+  "streams": [
+    {
+      "id": "orosaurus-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ-12"
+      ]
+    }
+  ]
+}

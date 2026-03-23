@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vchod",
+  "brand_id": "vchod",
+  "streams": [
+    {
+      "id": "vchod-1",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RTX-IP26H"
+      ]
+    }
+  ]
+}

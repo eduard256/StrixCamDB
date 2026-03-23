@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "H.265",
+  "brand_id": "h.265",
+  "streams": [
+    {
+      "id": "h.265-1",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "324ap",
+        "5MP"
+      ]
+    },
+    {
+      "id": "h.265-2",
+      "url": "live_mpeg4.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "324ap"
+      ]
+    },
+    {
+      "id": "h.265-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AHB80X04R-MH",
+        "YLC510-PT"
+      ]
+    }
+  ]
+}

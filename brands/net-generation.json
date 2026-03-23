@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Net Generation",
+  "brand_id": "net-generation",
+  "streams": [
+    {
+      "id": "net-generation-1",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAM25110",
+        "N25110"
+      ]
+    }
+  ]
+}

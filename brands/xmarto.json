@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Xmarto",
+  "brand_id": "xmarto",
+  "streams": [
+    {
+      "id": "xmarto-1",
+      "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "0815"
+      ]
+    },
+    {
+      "id": "xmarto-2",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-Camera IPC 1.3.0",
+        "PE3021-W",
+        "WW2024"
+      ]
+    },
+    {
+      "id": "xmarto-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-Camera IPC 1.3.0",
+        "mine",
+        "Other",
+        "pe3013",
+        "PE3021-W"
+      ]
+    },
+    {
+      "id": "xmarto-4",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA IPC 1.3.0",
+        "Other",
+        "pe3013w",
+        "unk",
+        "wno18"
+      ]
+    },
+    {
+      "id": "xmarto-5",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "pe3010-w"
+      ]
+    }
+  ]
+}

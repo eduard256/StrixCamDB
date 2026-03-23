@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kboom",
+  "brand_id": "kboom",
+  "streams": [
+    {
+      "id": "kboom-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SN-IPC-HW11"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "S.vision",
+  "brand_id": "s.vision",
+  "streams": [
+    {
+      "id": "s.vision-1",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ahd1108h"
+      ]
+    },
+    {
+      "id": "s.vision-2",
+      "url": "/ch4_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 34567,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "s.vision-3",
+      "url": "/ch2_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 34567,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "s.vision-4",
+      "url": "/ch1_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 34567,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "s.vision-5",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P-D140"
+      ]
+    }
+  ]
+}

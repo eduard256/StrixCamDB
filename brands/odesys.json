@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Odesys",
+  "brand_id": "odesys",
+  "streams": [
+    {
+      "id": "odesys-1",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OS-M200B",
+        "OS-M201IR",
+        "OS-M300DNV"
+      ]
+    },
+    {
+      "id": "odesys-2",
+      "url": "media/media.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OS-M201IR"
+      ]
+    },
+    {
+      "id": "odesys-3",
+      "url": "img/media.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OS-M201IR"
+      ]
+    },
+    {
+      "id": "odesys-4",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

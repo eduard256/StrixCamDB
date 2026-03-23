@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Ip-402b",
+  "brand_id": "ip-402b",
+  "streams": [
+    {
+      "id": "ip-402b-1",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-402b-2",
+      "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-402b-3",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

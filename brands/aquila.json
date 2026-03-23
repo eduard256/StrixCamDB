@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "brand": "Aquila",
+  "brand_id": "aquila",
+  "streams": [
+    {
+      "id": "aquila-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AV-IPE03",
+        "AV-IPE04"
+      ]
+    },
+    {
+      "id": "aquila-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FIX HD720"
+      ]
+    },
+    {
+      "id": "aquila-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aquila-4",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Vizion"
+      ]
+    },
+    {
+      "id": "aquila-5",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Vizion"
+      ]
+    },
+    {
+      "id": "aquila-6",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Vizion"
+      ]
+    }
+  ]
+}

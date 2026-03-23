@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wardmay Cctv",
+  "brand_id": "wardmay-cctv",
+  "streams": [
+    {
+      "id": "wardmay-cctv-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WDM-6702AL"
+      ]
+    }
+  ]
+}

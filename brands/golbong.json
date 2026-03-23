@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Golbong",
+  "brand_id": "golbong",
+  "streams": [
+    {
+      "id": "golbong-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4109",
+        "4901",
+        "GB-HD3171RL",
+        "NCIP2",
+        "NCIP9"
+      ]
+    },
+    {
+      "id": "golbong-2",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4901",
+        "GBHD3111RC",
+        "Other"
+      ]
+    },
+    {
+      "id": "golbong-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4921-16"
+      ]
+    },
+    {
+      "id": "golbong-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NCIP2",
+        "Other"
+      ]
+    }
+  ]
+}

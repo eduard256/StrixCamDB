@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Discovery",
+  "brand_id": "discovery",
+  "streams": [
+    {
+      "id": "discovery-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DCNB-F468DC2F-E"
+      ]
+    }
+  ]
+}

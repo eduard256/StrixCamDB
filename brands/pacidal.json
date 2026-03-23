@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pacidal",
+  "brand_id": "pacidal",
+  "streams": [
+    {
+      "id": "pacidal-1",
+      "url": "/stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NBL306"
+      ]
+    }
+  ]
+}

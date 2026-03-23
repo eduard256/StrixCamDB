@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Baksa",
+  "brand_id": "baksa",
+  "streams": [
+    {
+      "id": "baksa-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Dani"
+      ]
+    }
+  ]
+}

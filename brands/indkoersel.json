@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Indkoersel",
+  "brand_id": "indkoersel",
+  "streams": [
+    {
+      "id": "indkoersel-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

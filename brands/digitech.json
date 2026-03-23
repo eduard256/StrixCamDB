@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Digitech",
+  "brand_id": "digitech",
+  "streams": [
+    {
+      "id": "digitech-1",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 2600,
+      "models": [
+        "Other",
+        "outdoor wireless"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "version": 2,
+  "brand": "Rohs",
+  "brand_id": "rohs",
+  "streams": [
+    {
+      "id": "rohs-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A1-X20RJ",
+        "IPD-2M-30V-poe",
+        "Other"
+      ]
+    },
+    {
+      "id": "rohs-2",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "AO99546LKTT"
+      ]
+    },
+    {
+      "id": "rohs-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP 20",
+        "Other"
+      ]
+    },
+    {
+      "id": "rohs-4",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPD-2M-30V-poe",
+        "Other"
+      ]
+    },
+    {
+      "id": "rohs-5",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPD-2M-30V-POE"
+      ]
+    },
+    {
+      "id": "rohs-6",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPD-2M-30V-POE",
+        "Other",
+        "RC8021"
+      ]
+    },
+    {
+      "id": "rohs-7",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rohs-8",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rohs-9",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rohs-10",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "rc8021",
+        "rc8221",
+        "WV-CAM"
+      ]
+    },
+    {
+      "id": "rohs-11",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rohs-12",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other2"
+      ]
+    },
+    {
+      "id": "rohs-13",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "p27-RC8221",
+        "RC82210D",
+        "RT8021W"
+      ]
+    },
+    {
+      "id": "rohs-14",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "pipc"
+      ]
+    },
+    {
+      "id": "rohs-15",
+      "url": "img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8061v",
+        "RT8021W-adt",
+        "WV-CAM"
+      ]
+    },
+    {
+      "id": "rohs-16",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8221"
+      ]
+    },
+    {
+      "id": "rohs-17",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "S134"
+      ]
+    },
+    {
+      "id": "rohs-18",
+      "url": "/img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "sch1r1-29"
+      ]
+    },
+    {
+      "id": "rohs-19",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "TIME2"
+      ]
+    },
+    {
+      "id": "rohs-20",
+      "url": "cgi-bin/jpg/image",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TL-SC3130"
+      ]
+    }
+  ]
+}

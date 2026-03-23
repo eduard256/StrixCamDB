@@ -1,0 +1,292 @@
+{
+  "version": 2,
+  "brand": "Aztech",
+  "brand_id": "aztech",
+  "streams": [
+    {
+      "id": "aztech-1",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "303",
+        "c303"
+      ]
+    },
+    {
+      "id": "aztech-2",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "402",
+        "wipc402"
+      ]
+    },
+    {
+      "id": "aztech-3",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AVM357Z"
+      ]
+    },
+    {
+      "id": "aztech-4",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AZTECH WIPC409HD",
+        "Other",
+        "WIPC402",
+        "WIPC408HD",
+        "WIPC409HD",
+        "WIPC409HD-E",
+        "WIPC411FHD",
+        "wpc408hd"
+      ]
+    },
+    {
+      "id": "aztech-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AZTECH WIPC409HD",
+        "WIPC409HD",
+        "WIPC411FHD"
+      ]
+    },
+    {
+      "id": "aztech-6",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIPC302"
+      ]
+    },
+    {
+      "id": "aztech-7",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIPC302"
+      ]
+    },
+    {
+      "id": "aztech-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIPC302"
+      ]
+    },
+    {
+      "id": "aztech-9",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "wipc402",
+        "WIPC402"
+      ]
+    },
+    {
+      "id": "aztech-10",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIPC302",
+        "WIPC401"
+      ]
+    },
+    {
+      "id": "aztech-11",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIPC",
+        "wipc402",
+        "WIPC410"
+      ]
+    },
+    {
+      "id": "aztech-12",
+      "url": "live/h264/ch[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIPC401",
+        "WIPC408HD",
+        "WIPCawrrm"
+      ]
+    },
+    {
+      "id": "aztech-13",
+      "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WIPC402"
+      ]
+    },
+    {
+      "id": "aztech-14",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aztech-15",
+      "url": "cgi-bin/rtspStream/[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WIPC 480HD",
+        "WIPC408",
+        "WIPC408HD",
+        "WPC408HD"
+      ]
+    },
+    {
+      "id": "aztech-16",
+      "url": "live1.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WIPC 480HD",
+        "wpc408hd"
+      ]
+    },
+    {
+      "id": "aztech-17",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIPC302"
+      ]
+    },
+    {
+      "id": "aztech-18",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIPC302",
+        "WIPC401",
+        "WIPC403"
+      ]
+    },
+    {
+      "id": "aztech-19",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIPC401"
+      ]
+    },
+    {
+      "id": "aztech-20",
+      "url": "live",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "wipc402",
+        "WIPC408HD",
+        "WPC408HD"
+      ]
+    },
+    {
+      "id": "aztech-21",
+      "url": "cam3/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "wipc402",
+        "WIPC408HD"
+      ]
+    },
+    {
+      "id": "aztech-22",
+      "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wipc402"
+      ]
+    },
+    {
+      "id": "aztech-23",
+      "url": "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "wipc402"
+      ]
+    },
+    {
+      "id": "aztech-24",
+      "url": "medias2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WIPC408HD",
+        "WIPC408HD2"
+      ]
+    },
+    {
+      "id": "aztech-25",
+      "url": "/videostream.cgi?rate=11",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "WIPC410"
+      ]
+    }
+  ]
+}

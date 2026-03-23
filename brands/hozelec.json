@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hozelec",
+  "brand_id": "hozelec",
+  "streams": [
+    {
+      "id": "hozelec-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Fine acm-R3002"
+      ]
+    }
+  ]
+}

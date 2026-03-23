@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Stabo",
+  "brand_id": "stabo",
+  "streams": [
+    {
+      "id": "stabo-1",
+      "url": "/snapshot",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP Wifi",
+        "Other",
+        "Wifi fisheye"
+      ]
+    }
+  ]
+}

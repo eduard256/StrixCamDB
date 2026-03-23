@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Altcam",
+  "brand_id": "altcam",
+  "streams": [
+    {
+      "id": "altcam-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ddddd",
+        "IBC13IR",
+        "icv51ir",
+        "IDMF24IR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Casperi",
+  "brand_id": "casperi",
+  "streams": [
+    {
+      "id": "casperi-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc"
+      ]
+    },
+    {
+      "id": "casperi-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

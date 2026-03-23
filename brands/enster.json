@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "brand": "Enster",
+  "brand_id": "enster",
+  "streams": [
+    {
+      "id": "enster-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1080P HD WIRELESS CLOUD IP CAMERA Q5",
+        "2.4/5G Dual Band Wi-Fi Outdoor Security Camera",
+        "est-w7020c",
+        "ETS-IPC7142 DW",
+        "NST-IPC7102-PT",
+        "NST-IPC7115-PT",
+        "NST-IPC7115-PT",
+        "NST-IPC7142-DW",
+        "Other"
+      ]
+    },
+    {
+      "id": "enster-2",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8091,
+      "models": [
+        "EST-IP741W"
+      ]
+    },
+    {
+      "id": "enster-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EST-W7020B",
+        "NST-IPC7142-DW"
+      ]
+    },
+    {
+      "id": "enster-4",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NST-4PC7102-PT"
+      ]
+    },
+    {
+      "id": "enster-5",
+      "url": "/cam/realmonitor?channel=8080&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NST-4PC7102-PT"
+      ]
+    },
+    {
+      "id": "enster-6",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NST-IPC7115-PT"
+      ]
+    }
+  ]
+}

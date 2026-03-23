@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Top Vision",
+  "brand_id": "top-vision",
+  "streams": [
+    {
+      "id": "top-vision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "6026hec-xmw"
+      ]
+    },
+    {
+      "id": "top-vision-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "6026hec-xmw"
+      ]
+    },
+    {
+      "id": "top-vision-3",
+      "url": "/video.mjpg?oids=1&username=&password=pass&balls=balls5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "Q05"
+      ]
+    }
+  ]
+}

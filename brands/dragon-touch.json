@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Dragon Touch",
+  "brand_id": "dragon-touch",
+  "streams": [
+    {
+      "id": "dragon-touch-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "k4w10",
+        "kb10",
+        "kb810",
+        "od10",
+        "OD10"
+      ]
+    },
+    {
+      "id": "dragon-touch-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "k4w10"
+      ]
+    }
+  ]
+}

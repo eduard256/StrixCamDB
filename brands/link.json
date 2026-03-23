@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Link",
+  "brand_id": "link",
+  "streams": [
+    {
+      "id": "link-1",
+      "url": "/live/0/onvif.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "326G",
+        "NC233W-IR"
+      ]
+    },
+    {
+      "id": "link-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC128PW"
+      ]
+    }
+  ]
+}

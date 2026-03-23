@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ocular",
+  "brand_id": "ocular",
+  "streams": [
+    {
+      "id": "ocular-1",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

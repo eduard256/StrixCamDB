@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Fukuda",
+  "brand_id": "fukuda",
+  "streams": [
+    {
+      "id": "fukuda-1",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fcm822",
+        "FCM822-1PTMS",
+        "FCM828-OFM"
+      ]
+    },
+    {
+      "id": "fukuda-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ptz"
+      ]
+    }
+  ]
+}

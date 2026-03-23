@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Nwsvr",
+  "brand_id": "nwsvr",
+  "streams": [
+    {
+      "id": "nwsvr-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002jroc",
+        "B Series"
+      ]
+    }
+  ]
+}

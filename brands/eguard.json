@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eguard",
+  "brand_id": "eguard",
+  "streams": [
+    {
+      "id": "eguard-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "G-N5FL-H40CD"
+      ]
+    }
+  ]
+}

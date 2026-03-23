@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Avz",
+  "brand_id": "avz",
+  "streams": [
+    {
+      "id": "avz-1",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "csm-utm412"
+      ]
+    }
+  ]
+}

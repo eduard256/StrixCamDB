@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cs-280f53",
+  "brand_id": "cs-280f53",
+  "streams": [
+    {
+      "id": "cs-280f53-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "cs-280f53-2",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

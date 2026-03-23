@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tipo",
+  "brand_id": "tipo",
+  "streams": [
+    {
+      "id": "tipo-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C500"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Eyecloud",
+  "brand_id": "eyecloud",
+  "streams": [
+    {
+      "id": "eyecloud-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C-P05C"
+      ]
+    },
+    {
+      "id": "eyecloud-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "roiy-EyeCloud"
+      ]
+    }
+  ]
+}

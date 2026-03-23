@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "brand": "Shany",
+  "brand_id": "shany",
+  "streams": [
+    {
+      "id": "shany-1",
+      "url": "/mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shany-2",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SNC-218",
+        "SNC-L2104M"
+      ]
+    },
+    {
+      "id": "shany-3",
+      "url": "/PSIA/Streaming/channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SNC-2202"
+      ]
+    },
+    {
+      "id": "shany-4",
+      "url": "/h264main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SNC-WD91M1322"
+      ]
+    },
+    {
+      "id": "shany-5",
+      "url": "/mpeg4main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SNC-WD91M1322"
+      ]
+    },
+    {
+      "id": "shany-6",
+      "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WTC-7341"
+      ]
+    }
+  ]
+}

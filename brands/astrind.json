@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Astrind",
+  "brand_id": "astrind",
+  "streams": [
+    {
+      "id": "astrind-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Unique Eyes"
+      ]
+    }
+  ]
+}

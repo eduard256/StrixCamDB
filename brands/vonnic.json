@@ -1,0 +1,136 @@
+{
+  "version": 2,
+  "brand": "Vonnic",
+  "brand_id": "vonnic",
+  "streams": [
+    {
+      "id": "vonnic-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1000",
+        "HDCVI",
+        "NVR",
+        "VIP B230W-P",
+        "VIP D230W-P"
+      ]
+    },
+    {
+      "id": "vonnic-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C-907IP",
+        "C-909IP",
+        "Other"
+      ]
+    },
+    {
+      "id": "vonnic-3",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C-907IP",
+        "C-909IP"
+      ]
+    },
+    {
+      "id": "vonnic-4",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C-907IP"
+      ]
+    },
+    {
+      "id": "vonnic-5",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C-907IP"
+      ]
+    },
+    {
+      "id": "vonnic-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C-907IP"
+      ]
+    },
+    {
+      "id": "vonnic-7",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C-909IP",
+        "Other"
+      ]
+    },
+    {
+      "id": "vonnic-8",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C-909IP"
+      ]
+    },
+    {
+      "id": "vonnic-9",
+      "url": "11",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C-909IP",
+        "VIPB1910W-P"
+      ]
+    },
+    {
+      "id": "vonnic-10",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cip-39218kl"
+      ]
+    },
+    {
+      "id": "vonnic-11",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vonnic-12",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

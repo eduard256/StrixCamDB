@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bnc Vision",
+  "brand_id": "bnc-vision",
+  "streams": [
+    {
+      "id": "bnc-vision-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B series"
+      ]
+    }
+  ]
+}

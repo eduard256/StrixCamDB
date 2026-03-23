@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Provideo",
+  "brand_id": "provideo",
+  "streams": [
+    {
+      "id": "provideo-1",
+      "url": "MediaInput/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "provideo-2",
+      "url": "/g711v1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "prva"
+      ]
+    },
+    {
+      "id": "provideo-3",
+      "url": "v2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SD-65/75XMP"
+      ]
+    }
+  ]
+}

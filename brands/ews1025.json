@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ews1025",
+  "brand_id": "ews1025",
+  "streams": [
+    {
+      "id": "ews1025-1",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EWS1025-EnGenius"
+      ]
+    }
+  ]
+}

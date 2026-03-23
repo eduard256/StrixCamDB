@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wolulu",
+  "brand_id": "wolulu",
+  "streams": [
+    {
+      "id": "wolulu-1",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "AS-51227"
+      ]
+    }
+  ]
+}

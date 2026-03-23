@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cr2100",
+  "brand_id": "cr2100",
+  "streams": [
+    {
+      "id": "cr2100-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

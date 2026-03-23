@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wwgc",
+  "brand_id": "wwgc",
+  "streams": [
+    {
+      "id": "wwgc-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "UNIPC-3204WD-I"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Surveon",
+  "brand_id": "surveon",
+  "streams": [
+    {
+      "id": "surveon-1",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1320",
+        "1980",
+        "4321",
+        "Other"
+      ]
+    }
+  ]
+}

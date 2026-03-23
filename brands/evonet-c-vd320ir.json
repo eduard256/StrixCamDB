@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Evonet-c-vd320ir",
+  "brand_id": "evonet-c-vd320ir",
+  "streams": [
+    {
+      "id": "evonet-c-vd320ir-1",
+      "url": "/onvif/media",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

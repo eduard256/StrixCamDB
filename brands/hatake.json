@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hatake",
+  "brand_id": "hatake",
+  "streams": [
+    {
+      "id": "hatake-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VIGI C330"
+      ]
+    }
+  ]
+}

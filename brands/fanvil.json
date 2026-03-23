@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "brand": "Fanvil",
+  "brand_id": "fanvil",
+  "streams": [
+    {
+      "id": "fanvil-1",
+      "url": "/stream.live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "i10v",
+        "i31S",
+        "i62",
+        "i63",
+        "i64"
+      ]
+    },
+    {
+      "id": "fanvil-2",
+      "url": "/stream.live1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "i10v",
+        "i62",
+        "i63"
+      ]
+    },
+    {
+      "id": "fanvil-3",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "i16V",
+        "i30",
+        "i32V"
+      ]
+    },
+    {
+      "id": "fanvil-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "i18s"
+      ]
+    },
+    {
+      "id": "fanvil-5",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "i30"
+      ]
+    },
+    {
+      "id": "fanvil-6",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "i30"
+      ]
+    },
+    {
+      "id": "fanvil-7",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=2.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "i32V"
+      ]
+    }
+  ]
+}

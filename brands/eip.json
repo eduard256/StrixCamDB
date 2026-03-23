@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Eip",
+  "brand_id": "eip",
+  "streams": [
+    {
+      "id": "eip-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MB"
+      ]
+    },
+    {
+      "id": "eip-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "5MP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "brand": "Tidetech",
+  "brand_id": "tidetech",
+  "streams": [
+    {
+      "id": "tidetech-1",
+      "url": "live_mpeg4_1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "12443d9d",
+        "B01-2MP",
+        "BC1-2MP",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "tidetech-2",
+      "url": "mpeg4/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BC3-5MP-SD",
+        "E36Y0701",
+        "Other",
+        "P1-4X-5MPB",
+        "PTZ Outdoor"
+      ]
+    },
+    {
+      "id": "tidetech-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "gtn",
+        "PTZ OUTDOOR"
+      ]
+    }
+  ]
+}

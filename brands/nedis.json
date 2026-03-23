@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "brand": "Nedis",
+  "brand_id": "nedis",
+  "streams": [
+    {
+      "id": "nedis-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "1920x1080",
+        "NEDIS WIFICO11xxx",
+        "SmartLife Doorbell",
+        "WIFICI07CBK",
+        "WIFICO20CWT"
+      ]
+    },
+    {
+      "id": "nedis-2",
+      "url": "snapshot.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCMO10CWT"
+      ]
+    },
+    {
+      "id": "nedis-3",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "NEDIS WIFICO11xxx",
+        "WIFICO11xxx",
+        "WIFICO20CWT"
+      ]
+    },
+    {
+      "id": "nedis-4",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "WIFICO11CWT"
+      ]
+    },
+    {
+      "id": "nedis-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "WIFICO40CBK"
+      ]
+    }
+  ]
+}

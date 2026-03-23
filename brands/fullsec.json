@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Fullsec",
+  "brand_id": "fullsec",
+  "streams": [
+    {
+      "id": "fullsec-1",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DOME",
+        "FS-IP13E"
+      ]
+    },
+    {
+      "id": "fullsec-2",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FS-IP1EW"
+      ]
+    },
+    {
+      "id": "fullsec-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FS-IP1EW"
+      ]
+    }
+  ]
+}

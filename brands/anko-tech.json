@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anko Tech",
+  "brand_id": "anko-tech",
+  "streams": [
+    {
+      "id": "anko-tech-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc1220rm-02"
+      ]
+    }
+  ]
+}

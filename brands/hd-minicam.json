@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Hd Minicam",
+  "brand_id": "hd-minicam",
+  "streams": [
+    {
+      "id": "hd-minicam-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Minicammcc",
+        "Other"
+      ]
+    },
+    {
+      "id": "hd-minicam-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MINICAMMCC"
+      ]
+    },
+    {
+      "id": "hd-minicam-3",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Minicamv",
+        "Other"
+      ]
+    }
+  ]
+}

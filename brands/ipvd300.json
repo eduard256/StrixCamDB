@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Ipvd300",
+  "brand_id": "ipvd300",
+  "streams": [
+    {
+      "id": "ipvd300-1",
+      "url": "/stream.sdp1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPVD-3MPVFIR",
+        "Other"
+      ]
+    }
+  ]
+}

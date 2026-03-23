@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Pearl",
+  "brand_id": "pearl",
+  "streams": [
+    {
+      "id": "pearl-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3615",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Uxdsecurity",
+  "brand_id": "uxdsecurity",
+  "streams": [
+    {
+      "id": "uxdsecurity-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "mos"
+      ]
+    },
+    {
+      "id": "uxdsecurity-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "UIB-D50"
+      ]
+    },
+    {
+      "id": "uxdsecurity-3",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

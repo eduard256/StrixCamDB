@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Niante",
+  "brand_id": "niante",
+  "streams": [
+    {
+      "id": "niante-1",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "X SERIES"
+      ]
+    }
+  ]
+}

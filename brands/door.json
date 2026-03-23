@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Door",
+  "brand_id": "door",
+  "streams": [
+    {
+      "id": "door-1",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CHINA 1.0MP"
+      ]
+    },
+    {
+      "id": "door-2",
+      "url": "/Streaming/Unicast/channels/401",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "gate"
+      ]
+    },
+    {
+      "id": "door-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 552,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "door-4",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 85,
+      "models": [
+        "panasonic"
+      ]
+    }
+  ]
+}

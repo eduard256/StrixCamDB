@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Santachi",
+  "brand_id": "santachi",
+  "streams": [
+    {
+      "id": "santachi-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ST-NT280E1"
+      ]
+    }
+  ]
+}

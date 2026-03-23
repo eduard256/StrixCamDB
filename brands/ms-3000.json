@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ms 3000",
+  "brand_id": "ms-3000",
+  "streams": [
+    {
+      "id": "ms-3000-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "3000"
+      ]
+    }
+  ]
+}

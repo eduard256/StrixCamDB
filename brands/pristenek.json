@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pristenek",
+  "brand_id": "pristenek",
+  "streams": [
+    {
+      "id": "pristenek-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EX-S06WM-3W"
+      ]
+    }
+  ]
+}

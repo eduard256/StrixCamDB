@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Finex",
+  "brand_id": "finex",
+  "streams": [
+    {
+      "id": "finex-1",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-500HD"
+      ]
+    },
+    {
+      "id": "finex-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-500HD"
+      ]
+    }
+  ]
+}

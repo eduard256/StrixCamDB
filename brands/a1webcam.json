@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "A1webcam",
+  "brand_id": "a1webcam",
+  "streams": [
+    {
+      "id": "a1webcam-1",
+      "url": "cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a1webcam-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Phone"
+      ]
+    },
+    {
+      "id": "a1webcam-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "a1webcam-4",
+      "url": "/videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "tyytt"
+      ]
+    },
+    {
+      "id": "a1webcam-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Wanscam",
+        "web1"
+      ]
+    }
+  ]
+}

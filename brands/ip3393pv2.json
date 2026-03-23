@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Ip3393pv2",
+  "brand_id": "ip3393pv2",
+  "streams": [
+    {
+      "id": "ip3393pv2-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "zot"
+      ]
+    },
+    {
+      "id": "ip3393pv2-2",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "ZOT"
+      ]
+    }
+  ]
+}

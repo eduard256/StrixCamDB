@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Royallite",
+  "brand_id": "royallite",
+  "streams": [
+    {
+      "id": "royallite-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "un-ip-an213"
+      ]
+    }
+  ]
+}

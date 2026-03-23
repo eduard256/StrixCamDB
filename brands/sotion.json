@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sotion",
+  "brand_id": "sotion",
+  "streams": [
+    {
+      "id": "sotion-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080p"
+      ]
+    }
+  ]
+}

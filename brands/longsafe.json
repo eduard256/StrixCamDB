@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Longsafe",
+  "brand_id": "longsafe",
+  "streams": [
+    {
+      "id": "longsafe-1",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LongSafe DVR"
+      ]
+    }
+  ]
+}

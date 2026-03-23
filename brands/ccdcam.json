@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "brand": "Ccdcam",
+  "brand_id": "ccdcam",
+  "streams": [
+    {
+      "id": "ccdcam-1",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1600"
+      ]
+    },
+    {
+      "id": "ccdcam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EC-IP5815"
+      ]
+    },
+    {
+      "id": "ccdcam-3",
+      "url": "snapshot/view[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EC-IP5815",
+        "Other"
+      ]
+    },
+    {
+      "id": "ccdcam-4",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EC-IP5815",
+        "Other"
+      ]
+    },
+    {
+      "id": "ccdcam-5",
+      "url": "MediaInput/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EC-IP5815"
+      ]
+    },
+    {
+      "id": "ccdcam-6",
+      "url": "/MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-C34000 series"
+      ]
+    },
+    {
+      "id": "ccdcam-7",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ccdcam-8",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ccdcam-9",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

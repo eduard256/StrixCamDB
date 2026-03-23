@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Short",
+  "brand_id": "short",
+  "streams": [
+    {
+      "id": "short-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8CH NVR"
+      ]
+    }
+  ]
+}

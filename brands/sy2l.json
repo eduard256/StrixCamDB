@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "brand": "Sy2l",
+  "brand_id": "sy2l",
+  "streams": [
+    {
+      "id": "sy2l-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1080p",
+        "sy8001-wr",
+        "SY8001-WR",
+        "sy8002f"
+      ]
+    },
+    {
+      "id": "sy2l-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720p",
+        "960P",
+        "SY8001",
+        "SY8001-MR",
+        "sy8001-wr"
+      ]
+    },
+    {
+      "id": "sy2l-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "960P",
+        "Other",
+        "sy8001"
+      ]
+    }
+  ]
+}

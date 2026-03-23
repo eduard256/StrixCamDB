@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Technology",
+  "brand_id": "technology",
+  "streams": [
+    {
+      "id": "technology-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "technology-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5000,
+      "models": [
+        "IPC"
+      ]
+    }
+  ]
+}

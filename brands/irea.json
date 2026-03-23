@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Irea",
+  "brand_id": "irea",
+  "streams": [
+    {
+      "id": "irea-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GV-T540"
+      ]
+    }
+  ]
+}

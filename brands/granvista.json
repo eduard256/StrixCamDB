@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Granvista",
+  "brand_id": "granvista",
+  "streams": [
+    {
+      "id": "granvista-1",
+      "url": "cgi-bin/admin/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GVP-221",
+        "PTZ Camera"
+      ]
+    }
+  ]
+}

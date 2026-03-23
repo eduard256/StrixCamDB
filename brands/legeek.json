@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Legeek",
+  "brand_id": "legeek",
+  "streams": [
+    {
+      "id": "legeek-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "bullet",
+        "C6F0SgZ3N0P6L2",
+        "Other",
+        "ZZZZ-024549-DCDBB"
+      ]
+    }
+  ]
+}

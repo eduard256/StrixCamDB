@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Marshall",
+  "brand_id": "marshall",
+  "streams": [
+    {
+      "id": "marshall-1",
+      "url": "/hevc",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "CV420-30X-IP"
+      ]
+    },
+    {
+      "id": "marshall-2",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Encoder",
+        "VS-102",
+        "VS-102-HDI"
+      ]
+    },
+    {
+      "id": "marshall-3",
+      "url": "3gpp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "VS-14",
+        "VS-572"
+      ]
+    }
+  ]
+}

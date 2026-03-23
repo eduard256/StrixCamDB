@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vtech",
+  "brand_id": "vtech",
+  "streams": [
+    {
+      "id": "vtech-1",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264"
+      ]
+    }
+  ]
+}

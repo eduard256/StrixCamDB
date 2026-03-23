@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Grwibeou",
+  "brand_id": "grwibeou",
+  "streams": [
+    {
+      "id": "grwibeou-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Speed dome 000A125",
+        "Y4C-ZA"
+      ]
+    },
+    {
+      "id": "grwibeou-2",
+      "url": "cam3/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "YCC365PLUS"
+      ]
+    }
+  ]
+}

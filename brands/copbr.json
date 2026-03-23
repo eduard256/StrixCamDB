@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Copbr",
+  "brand_id": "copbr",
+  "streams": [
+    {
+      "id": "copbr-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COP-IPSPD270X"
+      ]
+    }
+  ]
+}

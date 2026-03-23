@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Jensen",
+  "brand_id": "jensen",
+  "streams": [
+    {
+      "id": "jensen-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "jensen-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SecureLink1000"
+      ]
+    },
+    {
+      "id": "jensen-3",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SL1000"
+      ]
+    }
+  ]
+}

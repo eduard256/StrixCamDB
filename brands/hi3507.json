@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "brand": "Hi3507",
+  "brand_id": "hi3507",
+  "streams": [
+    {
+      "id": "hi3507-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Dome",
+        "Other",
+        "RS7507H"
+      ]
+    },
+    {
+      "id": "hi3507-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N-514",
+        "Other",
+        "RS7507H"
+      ]
+    },
+    {
+      "id": "hi3507-3",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hi3507-4",
+      "url": "/ch0_1.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hi3507-5",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RS7507H"
+      ]
+    },
+    {
+      "id": "hi3507-6",
+      "url": "/cgi-bin/net_jpeg.cgi?ch=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "RS7507H"
+      ]
+    }
+  ]
+}

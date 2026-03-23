@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "brand": "Grandtec",
+  "brand_id": "grandtec",
+  "streams": [
+    {
+      "id": "grandtec-1",
+      "url": "Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1-Port Video Server",
+        "GD-425 4-Port Video Server"
+      ]
+    },
+    {
+      "id": "grandtec-2",
+      "url": "still.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GD-425 4-PORT VIDEO SERVER",
+        "Grand IP Camera ii",
+        "IP Camera II",
+        "IP Camera Plus",
+        "MEGA CAM",
+        "Other",
+        "Pan Tilt V5",
+        "Pan/Tilt IP",
+        "wifi camera",
+        "wifi camera pro",
+        "wifi camera pro2"
+      ]
+    },
+    {
+      "id": "grandtec-3",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GRAND IP CAMERA PRO",
+        "IP Camera II",
+        "ip cmera iii",
+        "MEGA CAM",
+        "Other",
+        "wifi camera pro",
+        "wifi camera pro2"
+      ]
+    },
+    {
+      "id": "grandtec-4",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GRAND IP CAMERA PRO",
+        "grand ip iii",
+        "IP camera ii",
+        "IP Camera Plus",
+        "wifi camera",
+        "wifi camera pro",
+        "wifi camera pro1",
+        "wifi camera pro2"
+      ]
+    },
+    {
+      "id": "grandtec-5",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Camera Plus",
+        "wifi camera pro"
+      ]
+    },
+    {
+      "id": "grandtec-6",
+      "url": "[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Mega Cam",
+        "MEGA PIXEL II WIFI",
+        "Other"
+      ]
+    },
+    {
+      "id": "grandtec-7",
+      "url": "cgi-bin/still.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Mega Cam",
+        "Mega Pixel II Wifi",
+        "MegaPixel",
+        "Other"
+      ]
+    },
+    {
+      "id": "grandtec-8",
+      "url": "PSIA/Streaming/channels/0?videoCodecType=H.264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Mega Pixel II Wifi"
+      ]
+    },
+    {
+      "id": "grandtec-9",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIFI CAMERA"
+      ]
+    },
+    {
+      "id": "grandtec-10",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIFI CAMERA"
+      ]
+    }
+  ]
+}

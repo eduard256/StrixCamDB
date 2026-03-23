@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "brand": "Ahd",
+  "brand_id": "ahd",
+  "streams": [
+    {
+      "id": "ahd-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p",
+        "Other",
+        "ST0052"
+      ]
+    },
+    {
+      "id": "ahd-2",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "720p",
+        "jiojio"
+      ]
+    },
+    {
+      "id": "ahd-3",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CM17D7",
+        "Other",
+        "V99"
+      ]
+    },
+    {
+      "id": "ahd-4",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "fgxdrt"
+      ]
+    },
+    {
+      "id": "ahd-5",
+      "url": "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "jiojio"
+      ]
+    },
+    {
+      "id": "ahd-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SF500",
+        "x001woxytn"
+      ]
+    },
+    {
+      "id": "ahd-7",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V99"
+      ]
+    }
+  ]
+}

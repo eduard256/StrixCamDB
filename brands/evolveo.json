@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Evolveo",
+  "brand_id": "evolveo",
+  "streams": [
+    {
+      "id": "evolveo-1",
+      "url": "/stream1-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Detective POE8 Smart"
+      ]
+    },
+    {
+      "id": "evolveo-2",
+      "url": "/stream2-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Detective POE8 Smart"
+      ]
+    },
+    {
+      "id": "evolveo-3",
+      "url": "/SubStream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

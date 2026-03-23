@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Appo",
+  "brand_id": "appo",
+  "streams": [
+    {
+      "id": "appo-1",
+      "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V380s"
+      ]
+    }
+  ]
+}

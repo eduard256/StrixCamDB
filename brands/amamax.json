@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "brand": "Amamax",
+  "brand_id": "amamax",
+  "streams": [
+    {
+      "id": "amamax-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCTVDVRH800"
+      ]
+    },
+    {
+      "id": "amamax-2",
+      "url": "Getvideo.cgi?Cookie=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCTVDVRMPEG4"
+      ]
+    },
+    {
+      "id": "amamax-3",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CCTVDVRMPEG4"
+      ]
+    },
+    {
+      "id": "amamax-4",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPZB-600",
+        "IPZW-400",
+        "IPZW-600",
+        "Other"
+      ]
+    },
+    {
+      "id": "amamax-5",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPZB-600",
+        "IPZW-400",
+        "IPZW-500",
+        "IPZW-600"
+      ]
+    }
+  ]
+}

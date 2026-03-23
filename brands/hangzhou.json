@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "brand": "Hangzhou",
+  "brand_id": "hangzhou",
+  "streams": [
+    {
+      "id": "hangzhou-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1337",
+        "A8L",
+        "HNC312-MB",
+        "KuoHeng",
+        "Other",
+        "PTZIP212X20-C",
+        "RX8020-PQL",
+        "SC-303-XD",
+        "WHC17452"
+      ]
+    }
+  ]
+}

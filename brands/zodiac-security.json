@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Zodiac Security",
+  "brand_id": "zodiac-security",
+  "streams": [
+    {
+      "id": "zodiac-security-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "909"
+      ]
+    },
+    {
+      "id": "zodiac-security-2",
+      "url": "/videostream.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]&audiostream=1",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "IP909IW"
+      ]
+    },
+    {
+      "id": "zodiac-security-3",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

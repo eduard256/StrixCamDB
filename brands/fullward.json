@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fullward",
+  "brand_id": "fullward",
+  "streams": [
+    {
+      "id": "fullward-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "DC-001"
+      ]
+    }
+  ]
+}

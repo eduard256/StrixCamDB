@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Azpen",
+  "brand_id": "azpen",
+  "streams": [
+    {
+      "id": "azpen-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Tab"
+      ]
+    }
+  ]
+}

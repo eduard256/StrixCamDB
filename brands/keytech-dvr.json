@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Keytech Dvr",
+  "brand_id": "keytech-dvr",
+  "streams": [
+    {
+      "id": "keytech-dvr-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "K13003"
+      ]
+    }
+  ]
+}

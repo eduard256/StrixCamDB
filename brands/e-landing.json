@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "E-landing",
+  "brand_id": "e-landing",
+  "streams": [
+    {
+      "id": "e-landing-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720p H.264 20FPS fixed (NO PTZ)"
+      ]
+    },
+    {
+      "id": "e-landing-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720p H.264 white 20FPS"
+      ]
+    },
+    {
+      "id": "e-landing-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720p H264 fixed 20fps white"
+      ]
+    }
+  ]
+}

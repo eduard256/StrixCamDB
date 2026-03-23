@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Privileg",
+  "brand_id": "privileg",
+  "streams": [
+    {
+      "id": "privileg-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

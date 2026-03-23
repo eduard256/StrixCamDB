@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Ip Phone Camera",
+  "brand_id": "ip-phone-camera",
+  "streams": [
+    {
+      "id": "ip-phone-camera-1",
+      "url": "/videofeed",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "ONVIF PROFILE S",
+        "safikul"
+      ]
+    },
+    {
+      "id": "ip-phone-camera-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

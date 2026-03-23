@@ -1,0 +1,251 @@
+{
+  "version": 2,
+  "brand": "Jovision",
+  "brand_id": "jovision",
+  "streams": [
+    {
+      "id": "jovision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "506",
+        "H6EV200",
+        "HD 1MP",
+        "IP-B21",
+        "IP-SPS03",
+        "JVS-DA230",
+        "JVS-H302-A2",
+        "JVS-H411",
+        "JVS-N5DL-HC",
+        "JVS-N83-HY",
+        "Other"
+      ]
+    },
+    {
+      "id": "jovision-2",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "B20",
+        "FULL HD 1080P 2MP",
+        "JVS-h2-21",
+        "JVS-H400",
+        "JVS-N5DL-HC",
+        "Other"
+      ]
+    },
+    {
+      "id": "jovision-3",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Full HD 1080P 2MP",
+        "H411",
+        "HD 1MP",
+        "JVS-H210",
+        "JVS-N3122SL",
+        "JVS-N3DL-HG-12V",
+        "JVS-N3FL-HF-POE",
+        "JVS-N3FL-HT",
+        "JVS-N5DL-DC",
+        "JVS-N5FL-DF-POE",
+        "JVS-N61-NA",
+        "JVS-N63-HC",
+        "JVS-N83-DY",
+        "N61-HA",
+        "N61-NA",
+        "Other"
+      ]
+    },
+    {
+      "id": "jovision-4",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "GK5V200-30-L18S76-S4-N",
+        "H411"
+      ]
+    },
+    {
+      "id": "jovision-5",
+      "url": "/0/cloud:Baltu912/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "GK5V200-30-L18S76-S4-N"
+      ]
+    },
+    {
+      "id": "jovision-6",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "H6C-P-20"
+      ]
+    },
+    {
+      "id": "jovision-7",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD 1MP"
+      ]
+    },
+    {
+      "id": "jovision-8",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JVS-H411"
+      ]
+    },
+    {
+      "id": "jovision-9",
+      "url": "live/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "jvs-n5fl-dd-poe",
+        "JVS-N5FL-DD-PoE"
+      ]
+    },
+    {
+      "id": "jovision-10",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JVS-N5FL-HT"
+      ]
+    },
+    {
+      "id": "jovision-11",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "JVS-N83-DY",
+        "Other"
+      ]
+    },
+    {
+      "id": "jovision-12",
+      "url": "/live/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JVS-N83-HY"
+      ]
+    },
+    {
+      "id": "jovision-13",
+      "url": "/live/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JVS-N83-HY"
+      ]
+    },
+    {
+      "id": "jovision-14",
+      "url": "/live/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JVS-N83-HY"
+      ]
+    },
+    {
+      "id": "jovision-15",
+      "url": "medias2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JVS-N83-HY",
+        "N61-NA"
+      ]
+    },
+    {
+      "id": "jovision-16",
+      "url": "/0/admin:ZaZa1970/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "JVS-N936-MDL-2.8mm"
+      ]
+    },
+    {
+      "id": "jovision-17",
+      "url": "live_mpeg4.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JVS-N95-X3"
+      ]
+    },
+    {
+      "id": "jovision-18",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "n61-na"
+      ]
+    },
+    {
+      "id": "jovision-19",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "jovision-20",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "jovision-21",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

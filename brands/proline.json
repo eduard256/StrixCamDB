@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Proline",
+  "brand_id": "proline",
+  "streams": [
+    {
+      "id": "proline-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PR-ID2234FCX"
+      ]
+    }
+  ]
+}

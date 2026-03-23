@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Olympia",
+  "brand_id": "olympia",
+  "streams": [
+    {
+      "id": "olympia-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IC 720P",
+        "ic600",
+        "OC 1280 P",
+        "OC800"
+      ]
+    },
+    {
+      "id": "olympia-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP 600"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "E-tech",
+  "brand_id": "e-tech",
+  "streams": [
+    {
+      "id": "e-tech-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "etc712ips",
+        "Other"
+      ]
+    },
+    {
+      "id": "e-tech-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Home 2"
+      ]
+    },
+    {
+      "id": "e-tech-3",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCM02",
+        "IPCM03",
+        "ipcm04",
+        "Other"
+      ]
+    }
+  ]
+}

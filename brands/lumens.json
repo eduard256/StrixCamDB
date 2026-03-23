@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Lumens",
+  "brand_id": "lumens",
+  "streams": [
+    {
+      "id": "lumens-1",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CL 510",
+        "Cl-510"
+      ]
+    },
+    {
+      "id": "lumens-2",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8557,
+      "models": [
+        "VC-A50P"
+      ]
+    },
+    {
+      "id": "lumens-3",
+      "url": "/hevc",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "VC-BC701P"
+      ]
+    }
+  ]
+}

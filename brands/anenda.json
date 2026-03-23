@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anenda",
+  "brand_id": "anenda",
+  "streams": [
+    {
+      "id": "anenda-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AS23-2"
+      ]
+    }
+  ]
+}

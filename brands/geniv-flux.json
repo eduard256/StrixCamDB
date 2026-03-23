@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Geniv Flux",
+  "brand_id": "geniv-flux",
+  "streams": [
+    {
+      "id": "geniv-flux-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPX2.3"
+      ]
+    }
+  ]
+}

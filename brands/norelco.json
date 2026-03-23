@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Norelco",
+  "brand_id": "norelco",
+  "streams": [
+    {
+      "id": "norelco-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SC-303-XD",
+        "SC-304-XB"
+      ]
+    }
+  ]
+}

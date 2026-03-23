@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Raster",
+  "brand_id": "raster",
+  "streams": [
+    {
+      "id": "raster-1",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4200",
+        "RS-SDI20420LP"
+      ]
+    },
+    {
+      "id": "raster-2",
+      "url": "media/media.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4200",
+        "ip-4200 df",
+        "ip-4200hi",
+        "RS-ip4200hi"
+      ]
+    },
+    {
+      "id": "raster-3",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4200",
+        "ip-4200df"
+      ]
+    },
+    {
+      "id": "raster-4",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip-4200df"
+      ]
+    },
+    {
+      "id": "raster-5",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip-4200hi"
+      ]
+    },
+    {
+      "id": "raster-6",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RS-130SH3"
+      ]
+    }
+  ]
+}

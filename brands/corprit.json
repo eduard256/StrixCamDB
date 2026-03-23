@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Corprit",
+  "brand_id": "corprit",
+  "streams": [
+    {
+      "id": "corprit-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "clock camera"
+      ]
+    }
+  ]
+}

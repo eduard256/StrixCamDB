@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "brand": "Elsys",
+  "brand_id": "elsys",
+  "streams": [
+    {
+      "id": "elsys-1",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ESC-WB3F"
+      ]
+    },
+    {
+      "id": "elsys-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ESC-WY3F",
+        "ESL-WR2"
+      ]
+    },
+    {
+      "id": "elsys-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ESC-WY3F"
+      ]
+    },
+    {
+      "id": "elsys-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ESC-WY3F"
+      ]
+    },
+    {
+      "id": "elsys-5",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ESL-VPW1"
+      ]
+    }
+  ]
+}

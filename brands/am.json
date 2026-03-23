@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Am",
+  "brand_id": "am",
+  "streams": [
+    {
+      "id": "am-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AM-C736"
+      ]
+    },
+    {
+      "id": "am-2",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C755RV2"
+      ]
+    }
+  ]
+}

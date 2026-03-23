@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Alianza",
+  "brand_id": "alianza",
+  "streams": [
+    {
+      "id": "alianza-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

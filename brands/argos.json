@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Argos",
+  "brand_id": "argos",
+  "streams": [
+    {
+      "id": "argos-1",
+      "url": "snapshot.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "514"
+      ]
+    },
+    {
+      "id": "argos-2",
+      "url": "PSIA/Streaming/channels/0?videoCodecType=H.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AV SERIES"
+      ]
+    }
+  ]
+}

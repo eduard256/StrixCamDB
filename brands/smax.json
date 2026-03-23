@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Smax",
+  "brand_id": "smax",
+  "streams": [
+    {
+      "id": "smax-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AD1",
+        "AU1",
+        "SICPT500W"
+      ]
+    },
+    {
+      "id": "smax-2",
+      "url": "/cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SICPT500W",
+        "SICPT501W"
+      ]
+    }
+  ]
+}

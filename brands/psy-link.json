@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Psy-link",
+  "brand_id": "psy-link",
+  "streams": [
+    {
+      "id": "psy-link-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "128-SPW",
+        "PLC-128SPW"
+      ]
+    },
+    {
+      "id": "psy-link-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "xme20"
+      ]
+    }
+  ]
+}

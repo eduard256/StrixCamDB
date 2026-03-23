@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Europ-camera",
+  "brand_id": "europ-camera",
+  "streams": [
+    {
+      "id": "europ-camera-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC-C5MP30S"
+      ]
+    }
+  ]
+}

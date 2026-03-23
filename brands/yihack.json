@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Yihack",
+  "brand_id": "yihack",
+  "streams": [
+    {
+      "id": "yihack-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Dome",
+        "OutdoorHome"
+      ]
+    }
+  ]
+}

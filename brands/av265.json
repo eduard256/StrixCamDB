@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Av265",
+  "brand_id": "av265",
+  "streams": [
+    {
+      "id": "av265-1",
+      "url": "/live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

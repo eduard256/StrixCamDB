@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smanos",
+  "brand_id": "smanos",
+  "streams": [
+    {
+      "id": "smanos-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip6"
+      ]
+    }
+  ]
+}

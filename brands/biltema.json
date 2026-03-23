@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "brand": "Biltema",
+  "brand_id": "biltema",
+  "streams": [
+    {
+      "id": "biltema-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "megapixel ip camera",
+        "motion v1",
+        "Other",
+        "piha",
+        "Vetej"
+      ]
+    }
+  ]
+}

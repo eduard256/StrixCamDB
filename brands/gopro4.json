@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gopro4",
+  "brand_id": "gopro4",
+  "streams": [
+    {
+      "id": "gopro4-1",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "silver"
+      ]
+    }
+  ]
+}

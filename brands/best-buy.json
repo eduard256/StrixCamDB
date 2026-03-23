@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Best Buy",
+  "brand_id": "best-buy",
+  "streams": [
+    {
+      "id": "best-buy-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Easy Home Sentinel"
+      ]
+    },
+    {
+      "id": "best-buy-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Easy Home Sentinel",
+        "EASY HOME SENTINEL"
+      ]
+    },
+    {
+      "id": "best-buy-3",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8554,
+      "models": [
+        "EASY HOME SENTINEL",
+        "Sentinel"
+      ]
+    }
+  ]
+}

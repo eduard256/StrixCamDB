@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Solosecurity",
+  "brand_id": "solosecurity",
+  "streams": [
+    {
+      "id": "solosecurity-1",
+      "url": "/ch01/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "h265"
+      ]
+    }
+  ]
+}

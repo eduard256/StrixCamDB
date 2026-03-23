@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Ipc-model",
+  "brand_id": "ipc-model",
+  "streams": [
+    {
+      "id": "ipc-model-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 5544,
+      "models": [
+        "255"
+      ]
+    },
+    {
+      "id": "ipc-model-2",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 88,
+      "models": [
+        "c2m",
+        "DOME",
+        "FOSCAM G2",
+        "ip2m-841"
+      ]
+    },
+    {
+      "id": "ipc-model-3",
+      "url": "/videoSub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FI9828"
+      ]
+    }
+  ]
+}

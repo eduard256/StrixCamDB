@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Tyco",
+  "brand_id": "tyco",
+  "streams": [
+    {
+      "id": "tyco-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DSCi350-D1122",
+        "Other"
+      ]
+    },
+    {
+      "id": "tyco-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Flex",
+        "ILLUSTRA FLEX 600"
+      ]
+    },
+    {
+      "id": "tyco-3",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Illustra Flex 600",
+        "ILLUSTRA FLEX 600"
+      ]
+    },
+    {
+      "id": "tyco-4",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NCP 3200"
+      ]
+    },
+    {
+      "id": "tyco-5",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NCP 3200"
+      ]
+    }
+  ]
+}

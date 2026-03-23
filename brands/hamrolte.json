@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "Hamrolte",
+  "brand_id": "hamrolte",
+  "streams": [
+    {
+      "id": "hamrolte-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "H-A8H",
+        "HKBQ15L-W50",
+        "Other"
+      ]
+    },
+    {
+      "id": "hamrolte-2",
+      "url": "MediaInput/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Hdf"
+      ]
+    },
+    {
+      "id": "hamrolte-3",
+      "url": "/MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "hkbc"
+      ]
+    },
+    {
+      "id": "hamrolte-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HKBQ15L-I30"
+      ]
+    },
+    {
+      "id": "hamrolte-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HKBQ15L-I50"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zvision",
+  "brand_id": "zvision",
+  "streams": [
+    {
+      "id": "zvision-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "zvd-5204hz-h1"
+      ]
+    }
+  ]
+}

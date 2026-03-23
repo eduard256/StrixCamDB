@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Gocomma",
+  "brand_id": "gocomma",
+  "streams": [
+    {
+      "id": "gocomma-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullet",
+        "IP-CAMERA",
+        "Other"
+      ]
+    },
+    {
+      "id": "gocomma-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "CA-R21A-R",
+        "Other"
+      ]
+    },
+    {
+      "id": "gocomma-3",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA"
+      ]
+    }
+  ]
+}

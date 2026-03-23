@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Westline",
+  "brand_id": "westline",
+  "streams": [
+    {
+      "id": "westline-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "XPTO"
+      ]
+    }
+  ]
+}

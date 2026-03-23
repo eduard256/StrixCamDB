@@ -1,0 +1,121 @@
+{
+  "version": 2,
+  "brand": "Bluestork",
+  "brand_id": "bluestork",
+  "streams": [
+    {
+      "id": "bluestork-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "aman",
+        "BS-IPCAM/W2",
+        "BS-IPCAM-W",
+        "Other"
+      ]
+    },
+    {
+      "id": "bluestork-2",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLUEPIX IPCAM",
+        "BS-IPCAM-W"
+      ]
+    },
+    {
+      "id": "bluestork-3",
+      "url": "/1.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "BLUEPIX IPCAM-IP02",
+        "BS-CAM/DOME/HD",
+        "BS-CAM-OF/HD",
+        "BS-IPCAM/W2",
+        "Cam-R HD",
+        "CloudCam"
+      ]
+    },
+    {
+      "id": "bluestork-4",
+      "url": "/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 65432,
+      "models": [
+        "BS-HOME-CAM"
+      ]
+    },
+    {
+      "id": "bluestork-5",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BS-IPCAM/TP"
+      ]
+    },
+    {
+      "id": "bluestork-6",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BS-IPCAM/TP",
+        "BS-IPCAM-W"
+      ]
+    },
+    {
+      "id": "bluestork-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BS-IPCAM/W2",
+        "BS-IPCAM-W",
+        "Other"
+      ]
+    },
+    {
+      "id": "bluestork-8",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BS-IPCAM-W",
+        "Other",
+        "Portail"
+      ]
+    },
+    {
+      "id": "bluestork-9",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fghgh"
+      ]
+    },
+    {
+      "id": "bluestork-10",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

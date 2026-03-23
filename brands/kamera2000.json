@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Kamera2000",
+  "brand_id": "kamera2000",
+  "streams": [
+    {
+      "id": "kamera2000-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MP Modus"
+      ]
+    },
+    {
+      "id": "kamera2000-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AQ-IPQ2232X-POE"
+      ]
+    },
+    {
+      "id": "kamera2000-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kamera2000-4",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PTZ Speed Dome"
+      ]
+    },
+    {
+      "id": "kamera2000-5",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ Speed Dome"
+      ]
+    }
+  ]
+}

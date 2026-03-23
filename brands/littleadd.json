@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Littleadd",
+  "brand_id": "littleadd",
+  "streams": [
+    {
+      "id": "littleadd-1",
+      "url": "/rtsp_live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LA-WL0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ztcolife Mini Wifi",
+  "brand_id": "ztcolife-mini-wifi",
+  "streams": [
+    {
+      "id": "ztcolife-mini-wifi-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p"
+      ]
+    }
+  ]
+}

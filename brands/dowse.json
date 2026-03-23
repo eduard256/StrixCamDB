@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dowse",
+  "brand_id": "dowse",
+  "streams": [
+    {
+      "id": "dowse-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DS/HD8612"
+      ]
+    }
+  ]
+}

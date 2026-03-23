@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Afreey",
+  "brand_id": "afreey",
+  "streams": [
+    {
+      "id": "afreey-1",
+      "url": "imagep/picture.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "808pr",
+        "ANC-3210HA",
+        "Other"
+      ]
+    },
+    {
+      "id": "afreey-2",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "anc202",
+        "Other"
+      ]
+    },
+    {
+      "id": "afreey-3",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANC-600A"
+      ]
+    },
+    {
+      "id": "afreey-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "afreey-5",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

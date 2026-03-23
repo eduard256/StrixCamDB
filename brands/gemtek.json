@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Gemtek",
+  "brand_id": "gemtek",
+  "streams": [
+    {
+      "id": "gemtek-1",
+      "url": "snapshot[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B1100"
+      ]
+    },
+    {
+      "id": "gemtek-2",
+      "url": "channel[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "B1100"
+      ]
+    },
+    {
+      "id": "gemtek-3",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D0100",
+        "Other"
+      ]
+    }
+  ]
+}

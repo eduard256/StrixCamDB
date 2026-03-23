@@ -1,0 +1,497 @@
+{
+  "version": 2,
+  "brand": "Kaikong",
+  "brand_id": "kaikong",
+  "streams": [
+    {
+      "id": "kaikong-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1016",
+        "1602W",
+        "ip1018",
+        "ip-1801",
+        "Other",
+        "sip1018",
+        "sip428"
+      ]
+    },
+    {
+      "id": "kaikong-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1016",
+        "sip1016",
+        "SIP1018W"
+      ]
+    },
+    {
+      "id": "kaikong-3",
+      "url": "/0.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "1018W",
+        "1501"
+      ]
+    },
+    {
+      "id": "kaikong-4",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1201",
+        "1602",
+        "1602w",
+        "SIP1602",
+        "SIP1602W"
+      ]
+    },
+    {
+      "id": "kaikong-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1201",
+        "1214",
+        "1303",
+        "Other",
+        "sip 1303",
+        "SIP1130",
+        "SIP1201",
+        "SIP1201plus",
+        "SIP1201PLUS",
+        "Sip1303w"
+      ]
+    },
+    {
+      "id": "kaikong-6",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1303",
+        "SIP 1128",
+        "sip 1215",
+        "sip 1303",
+        "SIP1201"
+      ]
+    },
+    {
+      "id": "kaikong-7",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1406",
+        "1601",
+        "1602",
+        "ip1018",
+        "Other",
+        "SIP 1601",
+        "SIP1201",
+        "SIP1602",
+        "SIP1602W",
+        "sip1603",
+        "SIP1603W",
+        "sip428"
+      ]
+    },
+    {
+      "id": "kaikong-8",
+      "url": "H264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1406",
+        "Other",
+        "SIP1201",
+        "sip1205"
+      ]
+    },
+    {
+      "id": "kaikong-9",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1601",
+        "Sip1601"
+      ]
+    },
+    {
+      "id": "kaikong-10",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1601",
+        "1602",
+        "1602w",
+        "Other",
+        "sip 1601",
+        "sip 1602",
+        "sip1016",
+        "Sip1601",
+        "SIP1601",
+        "SIP1602",
+        "SIP1602W",
+        "SPI1602"
+      ]
+    },
+    {
+      "id": "kaikong-11",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1601",
+        "SIP1602W"
+      ]
+    },
+    {
+      "id": "kaikong-12",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "SIP1602",
+        "SIP1602W",
+        "SP1602W"
+      ]
+    },
+    {
+      "id": "kaikong-13",
+      "url": "[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "ip1018",
+        "Other",
+        "sip1018",
+        "sip1818"
+      ]
+    },
+    {
+      "id": "kaikong-14",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "1602w",
+        "sip 1602",
+        "SIP1602",
+        "SIP1602W"
+      ]
+    },
+    {
+      "id": "kaikong-15",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "sip 1601",
+        "SIP 1602W",
+        "Sip1601",
+        "SIP1602"
+      ]
+    },
+    {
+      "id": "kaikong-16",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "SIP1602W"
+      ]
+    },
+    {
+      "id": "kaikong-17",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "sip 1602",
+        "SIP1602",
+        "SIP1602W"
+      ]
+    },
+    {
+      "id": "kaikong-18",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "1602W",
+        "SIP1602",
+        "sip1602w"
+      ]
+    },
+    {
+      "id": "kaikong-19",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "1602",
+        "1602w",
+        "Other",
+        "sip 1601",
+        "SIP 1602W",
+        "sip1601w",
+        "sip1601w-en",
+        "sip1602w",
+        "SIP1603"
+      ]
+    },
+    {
+      "id": "kaikong-20",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "SIP 1602w",
+        "SIP 1602W",
+        "SIP1602"
+      ]
+    },
+    {
+      "id": "kaikong-21",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720P"
+      ]
+    },
+    {
+      "id": "kaikong-22",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8900",
+        "IP-1018",
+        "ip-1080",
+        "sip 1016"
+      ]
+    },
+    {
+      "id": "kaikong-23",
+      "url": "11",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CAM01",
+        "Other",
+        "SIP1201"
+      ]
+    },
+    {
+      "id": "kaikong-24",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip1018",
+        "Other",
+        "SIP 1022"
+      ]
+    },
+    {
+      "id": "kaikong-25",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "sip 1602W"
+      ]
+    },
+    {
+      "id": "kaikong-26",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kaikong-27",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sip 1016",
+        "sip 1018w"
+      ]
+    },
+    {
+      "id": "kaikong-28",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP 1018W",
+        "SIP 1128",
+        "sip1128"
+      ]
+    },
+    {
+      "id": "kaikong-29",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP 1128",
+        "Sip1601"
+      ]
+    },
+    {
+      "id": "kaikong-30",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP 1201"
+      ]
+    },
+    {
+      "id": "kaikong-31",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "sip 1602w"
+      ]
+    },
+    {
+      "id": "kaikong-32",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sip 1602W"
+      ]
+    },
+    {
+      "id": "kaikong-33",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP 1602W"
+      ]
+    },
+    {
+      "id": "kaikong-34",
+      "url": "snapshot.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP 1602W",
+        "sip1602w"
+      ]
+    },
+    {
+      "id": "kaikong-35",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SIP1201"
+      ]
+    },
+    {
+      "id": "kaikong-36",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "sip1303",
+        "sip1303w"
+      ]
+    },
+    {
+      "id": "kaikong-37",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "Sip1303"
+      ]
+    },
+    {
+      "id": "kaikong-38",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sip1602w"
+      ]
+    },
+    {
+      "id": "kaikong-39",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sp1303"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fern360",
+  "brand_id": "fern360",
+  "streams": [
+    {
+      "id": "fern360-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FGSIP-B4TFA-28"
+      ]
+    }
+  ]
+}

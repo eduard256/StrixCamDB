@@ -1,0 +1,189 @@
+{
+  "version": 2,
+  "brand": "Eyeplus",
+  "brand_id": "eyeplus",
+  "streams": [
+    {
+      "id": "eyeplus-1",
+      "url": "/0/av1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Alt",
+        "CloudCam",
+        "EYEPLUS_DEV",
+        "H9017D",
+        "HIP291G Alt",
+        "IL-HIP291G-2M-AI",
+        "Other",
+        "uggh"
+      ]
+    },
+    {
+      "id": "eyeplus-2",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CloudCam",
+        "EYEPLUS_DEV",
+        "RTSP"
+      ]
+    },
+    {
+      "id": "eyeplus-3",
+      "url": "cam[CHANNEL]/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C-P08-23(EN)A",
+        "DEV_1",
+        "EYEPLUS_DEV",
+        "HIP291G",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyeplus-4",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "C-P80-23",
+        "EYEPLUS_DEV",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyeplus-5",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DEV_1",
+        "EYEPLUS_DEV",
+        "EYEPLUS_FRT",
+        "Other",
+        "zs-gx1"
+      ]
+    },
+    {
+      "id": "eyeplus-6",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DEV_1",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyeplus-7",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Eteplus-dev"
+      ]
+    },
+    {
+      "id": "eyeplus-8",
+      "url": "/onvif/live/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Eteplus-dev"
+      ]
+    },
+    {
+      "id": "eyeplus-9",
+      "url": "/onvif/live/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Eteplus-dev"
+      ]
+    },
+    {
+      "id": "eyeplus-10",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Eteplus-dev"
+      ]
+    },
+    {
+      "id": "eyeplus-11",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Eteplus-dev"
+      ]
+    },
+    {
+      "id": "eyeplus-12",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Eteplus-dev"
+      ]
+    },
+    {
+      "id": "eyeplus-13",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EYEPLUS_DEV"
+      ]
+    },
+    {
+      "id": "eyeplus-14",
+      "url": "/onvif/device_service",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "EYEPLUS_DEV"
+      ]
+    },
+    {
+      "id": "eyeplus-15",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "eyeplus-DEV",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyeplus-16",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IL-HIP291G-2M-AI",
+        "Other"
+      ]
+    }
+  ]
+}

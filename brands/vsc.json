@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Vsc",
+  "brand_id": "vsc",
+  "streams": [
+    {
+      "id": "vsc-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vsc-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

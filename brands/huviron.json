@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Huviron",
+  "brand_id": "huviron",
+  "streams": [
+    {
+      "id": "huviron-1",
+      "url": "PSIA/Streaming/channels/2?videoCodecType=H.264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "mip-823o2"
+      ]
+    }
+  ]
+}

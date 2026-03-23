@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lensoul",
+  "brand_id": "lensoul",
+  "streams": [
+    {
+      "id": "lensoul-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "JD08610-Q1"
+      ]
+    }
+  ]
+}

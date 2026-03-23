@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sentul",
+  "brand_id": "sentul",
+  "streams": [
+    {
+      "id": "sentul-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

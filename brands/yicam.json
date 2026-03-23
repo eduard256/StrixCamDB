@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Yicam",
+  "brand_id": "yicam",
+  "streams": [
+    {
+      "id": "yicam-1",
+      "url": "/cgi-bin/snapshot.sh?res=low",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "1080P",
+        "Other",
+        "y21ga Outdoor 1080P",
+        "YI-HACK 0.15"
+      ]
+    },
+    {
+      "id": "yicam-2",
+      "url": "/ch0_1.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080P",
+        "Yi Outdoor"
+      ]
+    },
+    {
+      "id": "yicam-3",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080P",
+        "49CN",
+        "720p 27US",
+        "Dome Camera 1080p",
+        "Modified FW- YI-HACK 0.15",
+        "Yi Outdoor",
+        "YYS.2016"
+      ]
+    }
+  ]
+}

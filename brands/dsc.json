@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Dsc",
+  "brand_id": "dsc",
+  "streams": [
+    {
+      "id": "dsc-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "930L",
+        "Other"
+      ]
+    },
+    {
+      "id": "dsc-2",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c24-cam541r"
+      ]
+    },
+    {
+      "id": "dsc-3",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c24-cam541r"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "brand": "Vangold",
+  "brand_id": "vangold",
+  "streams": [
+    {
+      "id": "vangold-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8884,
+      "models": [
+        "720P",
+        "VG-130282HIPC/POE"
+      ]
+    },
+    {
+      "id": "vangold-2",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fish Eye"
+      ]
+    },
+    {
+      "id": "vangold-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VG-l610WP"
+      ]
+    },
+    {
+      "id": "vangold-4",
+      "url": "snapshot.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VG-l610WP"
+      ]
+    },
+    {
+      "id": "vangold-5",
+      "url": "/stander/livestream/0/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VGIPY-5002W"
+      ]
+    },
+    {
+      "id": "vangold-6",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VG-l610WP"
+      ]
+    },
+    {
+      "id": "vangold-7",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VG-l610WP"
+      ]
+    }
+  ]
+}

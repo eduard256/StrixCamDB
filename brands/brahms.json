@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Brahms",
+  "brand_id": "brahms",
+  "streams": [
+    {
+      "id": "brahms-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "XTNC20BV"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Cacagoo",
+  "brand_id": "cacagoo",
+  "streams": [
+    {
+      "id": "cacagoo-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "288ZD-2MP",
+        "IPCAM-100",
+        "MSC316DM-V02"
+      ]
+    },
+    {
+      "id": "cacagoo-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "XY-R9820-F4"
+      ]
+    }
+  ]
+}

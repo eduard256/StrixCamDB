@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Advanced Home",
+  "brand_id": "advanced-home",
+  "streams": [
+    {
+      "id": "advanced-home-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "elro"
+      ]
+    },
+    {
+      "id": "advanced-home-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ELRO"
+      ]
+    },
+    {
+      "id": "advanced-home-3",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "icam"
+      ]
+    },
+    {
+      "id": "advanced-home-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "lc-1140"
+      ]
+    },
+    {
+      "id": "advanced-home-5",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "advanced-home-6",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Phone"
+      ]
+    },
+    {
+      "id": "advanced-home-7",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC8025B-ADT"
+      ]
+    },
+    {
+      "id": "advanced-home-8",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "S4X"
+      ]
+    }
+  ]
+}

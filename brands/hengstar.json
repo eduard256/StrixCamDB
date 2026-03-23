@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hengstar",
+  "brand_id": "hengstar",
+  "streams": [
+    {
+      "id": "hengstar-1",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hs-ipcm16140/40"
+      ]
+    }
+  ]
+}

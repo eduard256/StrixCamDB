@@ -1,0 +1,171 @@
+{
+  "version": 2,
+  "brand": "Inkovideo",
+  "brand_id": "inkovideo",
+  "streams": [
+    {
+      "id": "inkovideo-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "107HD",
+        "V-105HD",
+        "v107",
+        "V107-HD",
+        "V-111HD"
+      ]
+    },
+    {
+      "id": "inkovideo-2",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "110hd"
+      ]
+    },
+    {
+      "id": "inkovideo-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "117hd",
+        "120",
+        "125",
+        "v120",
+        "V811-8MW"
+      ]
+    },
+    {
+      "id": "inkovideo-4",
+      "url": "/22/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "120"
+      ]
+    },
+    {
+      "id": "inkovideo-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "125",
+        "ty803",
+        "V-111-4M"
+      ]
+    },
+    {
+      "id": "inkovideo-6",
+      "url": "/22",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "125",
+        "v120"
+      ]
+    },
+    {
+      "id": "inkovideo-7",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IK-312W"
+      ]
+    },
+    {
+      "id": "inkovideo-8",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "Wohnzimmer"
+      ]
+    },
+    {
+      "id": "inkovideo-9",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V-104"
+      ]
+    },
+    {
+      "id": "inkovideo-10",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "v-104w"
+      ]
+    },
+    {
+      "id": "inkovideo-11",
+      "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V-105"
+      ]
+    },
+    {
+      "id": "inkovideo-12",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V-110"
+      ]
+    },
+    {
+      "id": "inkovideo-13",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V-110"
+      ]
+    },
+    {
+      "id": "inkovideo-14",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V-110HD",
+        "V-111HD"
+      ]
+    },
+    {
+      "id": "inkovideo-15",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V-110HD",
+        "V200"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Mpcam",
+  "brand_id": "mpcam",
+  "streams": [
+    {
+      "id": "mpcam-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FSERIES"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Invid",
+  "brand_id": "invid",
+  "streams": [
+    {
+      "id": "invid-1",
+      "url": "GetImage.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MK21",
+        "MK279IR",
+        "VKS87"
+      ]
+    },
+    {
+      "id": "invid-2",
+      "url": "GetData.cgi?Status=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MK21",
+        "VKS87"
+      ]
+    },
+    {
+      "id": "invid-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "invid-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

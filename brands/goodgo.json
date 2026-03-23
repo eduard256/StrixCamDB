@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Goodgo",
+  "brand_id": "goodgo",
+  "streams": [
+    {
+      "id": "goodgo-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GD-SC03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Logidebian",
+  "brand_id": "logidebian",
+  "streams": [
+    {
+      "id": "logidebian-1",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "9000"
+      ]
+    }
+  ]
+}

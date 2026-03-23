@@ -1,0 +1,97 @@
+{
+  "version": 2,
+  "brand": "Interlogix",
+  "brand_id": "interlogix",
+  "streams": [
+    {
+      "id": "interlogix-1",
+      "url": "video.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVT-M1210W-2W-N",
+        "Other",
+        "TVB-5302",
+        "TVD-3105",
+        "TVD-5502",
+        "TvW-3101"
+      ]
+    },
+    {
+      "id": "interlogix-2",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 64001,
+      "models": [
+        "Other",
+        "tvd-5302",
+        "TVW-1101",
+        "TVW-3101"
+      ]
+    },
+    {
+      "id": "interlogix-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "TVW-3101"
+      ]
+    },
+    {
+      "id": "interlogix-4",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 64001,
+      "models": [
+        "Other",
+        "TVB-5304",
+        "TVB-5605",
+        "TVD-1103",
+        "tvd-5302",
+        "TVD-M1245E-2M-N",
+        "TVW-1101",
+        "TVW-3101",
+        "TVW-3120",
+        "TVW-5302"
+      ]
+    },
+    {
+      "id": "interlogix-5",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RS-3250",
+        "TVW-3120"
+      ]
+    },
+    {
+      "id": "interlogix-6",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "RS-3251"
+      ]
+    },
+    {
+      "id": "interlogix-7",
+      "url": "/video.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TVD-3101",
+        "TVW-5305"
+      ]
+    }
+  ]
+}

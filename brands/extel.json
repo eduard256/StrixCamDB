@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Extel",
+  "brand_id": "extel",
+  "streams": [
+    {
+      "id": "extel-1",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip562m"
+      ]
+    },
+    {
+      "id": "extel-2",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mini318",
+        "Other"
+      ]
+    },
+    {
+      "id": "extel-3",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mova"
+      ]
+    }
+  ]
+}

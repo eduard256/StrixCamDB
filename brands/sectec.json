@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "brand": "Sectec",
+  "brand_id": "sectec",
+  "streams": [
+    {
+      "id": "sectec-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[CHANNEL]_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "buiten",
+        "BULLET",
+        "DOME",
+        "ST-758M",
+        "ST-AHD5008P",
+        "STIP",
+        "ST-IP121M",
+        "ST-IP7016E-1M",
+        "ST-IP805M",
+        "st-ip935w-1.4m"
+      ]
+    },
+    {
+      "id": "sectec-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[CHANNEL]_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BULLET"
+      ]
+    },
+    {
+      "id": "sectec-3",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "sfip"
+      ]
+    },
+    {
+      "id": "sectec-4",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ST-291-2M-AI"
+      ]
+    },
+    {
+      "id": "sectec-5",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[CHANNEL]_stream=0.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ST-IP573F"
+      ]
+    }
+  ]
+}

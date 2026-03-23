@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Electrodh",
+  "brand_id": "electrodh",
+  "streams": [
+    {
+      "id": "electrodh-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

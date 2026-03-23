@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sv-b0w-720p-hx",
+  "brand_id": "sv-b0w-720p-hx",
+  "streams": [
+    {
+      "id": "sv-b0w-720p-hx-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "SV-B06W-720P-HX"
+      ]
+    }
+  ]
+}

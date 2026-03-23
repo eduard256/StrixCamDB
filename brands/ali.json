@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "brand": "Ali",
+  "brand_id": "ali",
+  "streams": [
+    {
+      "id": "ali-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3012r",
+        "ALIBI",
+        "ALI-NS1012VR",
+        "ALI-NS1014VR",
+        "ALI-NS3014R"
+      ]
+    },
+    {
+      "id": "ali-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3030r",
+        "ALI-IPU3230R",
+        "ALI-IPV3013R"
+      ]
+    },
+    {
+      "id": "ali-3",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5MP"
+      ]
+    },
+    {
+      "id": "ali-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ABC01"
+      ]
+    },
+    {
+      "id": "ali-5",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Aliexpress"
+      ]
+    },
+    {
+      "id": "ali-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Express"
+      ]
+    },
+    {
+      "id": "ali-7",
+      "url": "nphMotionJpeg?Resolution=640x480&Quality=Standard",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sfn480"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dimension",
+  "brand_id": "dimension",
+  "streams": [
+    {
+      "id": "dimension-1",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

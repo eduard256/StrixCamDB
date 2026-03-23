@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Autoip",
+  "brand_id": "autoip",
+  "streams": [
+    {
+      "id": "autoip-1",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

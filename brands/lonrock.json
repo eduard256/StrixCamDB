@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lonrock",
+  "brand_id": "lonrock",
+  "streams": [
+    {
+      "id": "lonrock-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD_Digital"
+      ]
+    }
+  ]
+}

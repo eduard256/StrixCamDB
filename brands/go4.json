@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Go4",
+  "brand_id": "go4",
+  "streams": [
+    {
+      "id": "go4-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EYE INE",
+        "Eye One"
+      ]
+    },
+    {
+      "id": "go4-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Eye One"
+      ]
+    }
+  ]
+}

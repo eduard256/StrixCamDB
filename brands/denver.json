@@ -1,0 +1,257 @@
+{
+  "version": 2,
+  "brand": "Denver",
+  "brand_id": "denver",
+  "streams": [
+    {
+      "id": "denver-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1030",
+        "1031",
+        "folgt noch",
+        "ICP-1020",
+        "ICP-1030",
+        "ICT-221",
+        "IIC-215",
+        "IOC 221",
+        "IOC 232",
+        "ioc221",
+        "ioc-221",
+        "IOC-221",
+        "ioc221 K1",
+        "ioc-231",
+        "ioc-232",
+        "IP 1030",
+        "ip1320",
+        "ipc-1020",
+        "IPC-1020",
+        "IPC-1020+IPC-1030",
+        "IPC-1030",
+        "IPC-1030MK2",
+        "ipc-1031",
+        "IPC-1031",
+        "ipo-1320",
+        "IPO-1320 mkII",
+        "IPO-1320MK2",
+        "ipo-2030",
+        "Other",
+        "SCH-150",
+        "shc 150",
+        "SHC-110",
+        "shc150",
+        "SHC-150",
+        "Sho-110",
+        "SHO-110",
+        "SHO-150"
+      ]
+    },
+    {
+      "id": "denver-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1030",
+        "ICP-1020",
+        "ICP-1030",
+        "ip 1030",
+        "IP1320",
+        "ipc-1020",
+        "ipc-1030",
+        "IPC-1030",
+        "IPC-1030MK2",
+        "IPC-1031",
+        "ipc-2031",
+        "ipo-1320",
+        "IPO-1320IPO",
+        "IPO-320",
+        "IPO-3200",
+        "IPO-3230",
+        "ipo-i320",
+        "Other",
+        "WXH-003111-FCAAF"
+      ]
+    },
+    {
+      "id": "denver-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "320",
+        "IPC-320",
+        "IPC330",
+        "IPO-320"
+      ]
+    },
+    {
+      "id": "denver-4",
+      "url": "/MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IOC-221"
+      ]
+    },
+    {
+      "id": "denver-5",
+      "url": "/11/videostream.cgi",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IOC-221",
+        "IOC-232",
+        "Other",
+        "SHC-110",
+        "SHC-150",
+        "SHO-110"
+      ]
+    },
+    {
+      "id": "denver-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP320",
+        "IPC-320",
+        "IPC330",
+        "IPO-320"
+      ]
+    },
+    {
+      "id": "denver-7",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ip360"
+      ]
+    },
+    {
+      "id": "denver-8",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc330",
+        "IPC-330 IP"
+      ]
+    },
+    {
+      "id": "denver-9",
+      "url": "/img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 99,
+      "models": [
+        "Ipo 320"
+      ]
+    },
+    {
+      "id": "denver-10",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Ipo 320"
+      ]
+    },
+    {
+      "id": "denver-11",
+      "url": "/videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 99,
+      "models": [
+        "ipo-320",
+        "Ipo-320",
+        "IPO-320"
+      ]
+    },
+    {
+      "id": "denver-12",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ipo-320"
+      ]
+    },
+    {
+      "id": "denver-13",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPO-320"
+      ]
+    },
+    {
+      "id": "denver-14",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPO-320"
+      ]
+    },
+    {
+      "id": "denver-15",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "SH0-110"
+      ]
+    },
+    {
+      "id": "denver-16",
+      "url": "MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SHC-150"
+      ]
+    },
+    {
+      "id": "denver-17",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SHC-150",
+        "SHO-110"
+      ]
+    },
+    {
+      "id": "denver-18",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "SHO-110",
+        "Smarthome SHO-110"
+      ]
+    }
+  ]
+}

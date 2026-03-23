@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eickhoff",
+  "brand_id": "eickhoff",
+  "streams": [
+    {
+      "id": "eickhoff-1",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "0815"
+      ]
+    }
+  ]
+}

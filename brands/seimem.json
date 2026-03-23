@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Seimem",
+  "brand_id": "seimem",
+  "streams": [
+    {
+      "id": "seimem-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "S6203Y-WR"
+      ]
+    }
+  ]
+}

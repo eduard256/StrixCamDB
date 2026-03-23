@@ -1,0 +1,132 @@
+{
+  "version": 2,
+  "brand": "Geeya",
+  "brand_id": "geeya",
+  "streams": [
+    {
+      "id": "geeya-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C601",
+        "C602",
+        "c801",
+        "C801",
+        "c802",
+        "Other"
+      ]
+    },
+    {
+      "id": "geeya-2",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C601"
+      ]
+    },
+    {
+      "id": "geeya-3",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C601",
+        "c801",
+        "C802",
+        "Other",
+        "P2P C602"
+      ]
+    },
+    {
+      "id": "geeya-4",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "C601",
+        "C602"
+      ]
+    },
+    {
+      "id": "geeya-5",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C601"
+      ]
+    },
+    {
+      "id": "geeya-6",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "C602",
+        "c801",
+        "P2P C602"
+      ]
+    },
+    {
+      "id": "geeya-7",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c801",
+        "c802"
+      ]
+    },
+    {
+      "id": "geeya-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c801",
+        "c802",
+        "Other"
+      ]
+    },
+    {
+      "id": "geeya-9",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C802"
+      ]
+    },
+    {
+      "id": "geeya-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C802"
+      ]
+    },
+    {
+      "id": "geeya-11",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

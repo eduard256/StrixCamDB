@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pangolin",
+  "brand_id": "pangolin",
+  "streams": [
+    {
+      "id": "pangolin-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "T7815WIP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ukc",
+  "brand_id": "ukc",
+  "streams": [
+    {
+      "id": "ukc-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B13"
+      ]
+    }
+  ]
+}

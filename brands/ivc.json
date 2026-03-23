@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ivc",
+  "brand_id": "ivc",
+  "streams": [
+    {
+      "id": "ivc-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "128"
+      ]
+    },
+    {
+      "id": "ivc-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AMZ-HD41"
+      ]
+    }
+  ]
+}

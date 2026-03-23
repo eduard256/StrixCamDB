@@ -1,0 +1,158 @@
+{
+  "version": 2,
+  "brand": "Uokoo",
+  "brand_id": "uokoo",
+  "streams": [
+    {
+      "id": "uokoo-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "10809",
+        "1080P IP camera Black 620",
+        "1080white",
+        "201",
+        "309146-TGCHU",
+        "632kc",
+        "720",
+        "720P",
+        "720P IP CAMERA",
+        "ard",
+        "B01MZ14YWP",
+        "CHINA",
+        "EMENT",
+        "HD IP CAM",
+        "IP 720",
+        "IP Camera 1080p",
+        "IP/NETWORK CAMERA",
+        "mini",
+        "Mini IP",
+        "Mini IP Cam",
+        "Mini IP camera",
+        "NOA",
+        "Other",
+        "pan",
+        "smartp2p",
+        "wifi",
+        "X series",
+        "x series ip camera",
+        "X000WFZORD",
+        "X001AND3PV",
+        "XSERIES IP CAMERA"
+      ]
+    },
+    {
+      "id": "uokoo-2",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "10809",
+        "720P IP CAMERA",
+        "IP 720",
+        "IP CAMERA 1080P",
+        "lr pan",
+        "mini ip camera",
+        "view-279143-lybbh",
+        "x series",
+        "X Series IP Camera",
+        "X001AND3PV",
+        "Xseries ip camera"
+      ]
+    },
+    {
+      "id": "uokoo-3",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "720p",
+        "720p IP Camera"
+      ]
+    },
+    {
+      "id": "uokoo-4",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720P"
+      ]
+    },
+    {
+      "id": "uokoo-5",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "720P"
+      ]
+    },
+    {
+      "id": "uokoo-6",
+      "url": "/ROH/channel/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H02"
+      ]
+    },
+    {
+      "id": "uokoo-7",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H02"
+      ]
+    },
+    {
+      "id": "uokoo-8",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD1080p"
+      ]
+    },
+    {
+      "id": "uokoo-9",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "uokoo-10",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SMARTP2P"
+      ]
+    },
+    {
+      "id": "uokoo-11",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "view-30969-RRFR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Global Tech",
+  "brand_id": "global-tech",
+  "streams": [
+    {
+      "id": "global-tech-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2mp"
+      ]
+    },
+    {
+      "id": "global-tech-2",
+      "url": "/mpeg4cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "901 20"
+      ]
+    }
+  ]
+}

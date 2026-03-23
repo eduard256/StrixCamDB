@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Syscom Cctv",
+  "brand_id": "syscom-cctv",
+  "streams": [
+    {
+      "id": "syscom-cctv-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Cube",
+        "Cubeip"
+      ]
+    }
+  ]
+}

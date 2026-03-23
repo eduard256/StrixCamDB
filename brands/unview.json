@@ -1,0 +1,181 @@
+{
+  "version": 2,
+  "brand": "Unview",
+  "brand_id": "unview",
+  "streams": [
+    {
+      "id": "unview-1",
+      "url": "/media/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "6415SR",
+        "IPC2122SR3-F40W-D",
+        "IPC2324LB-ADZK-G",
+        "ipc3605sb-adf16km",
+        "IPC3612ER3-PF28-B",
+        "IPC3612LR3-PF28"
+      ]
+    },
+    {
+      "id": "unview-2",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 85,
+      "models": [
+        "C1L-2WN",
+        "IPC2122LR3-PF28M-D",
+        "IPC2325SB-DZK-I0",
+        "IPC3235ER3-DUVZ",
+        "IPC3612LB-ADF28K",
+        "IPC3612LR3-PF28"
+      ]
+    },
+    {
+      "id": "unview-3",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DPF36"
+      ]
+    },
+    {
+      "id": "unview-4",
+      "url": "/unicast/c1/s1/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 30002,
+      "models": [
+        "IPC2122LR3-PF40-C"
+      ]
+    },
+    {
+      "id": "unview-5",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC2122SR3-F40W",
+        "IPC3615SR3-ADF28K-G"
+      ]
+    },
+    {
+      "id": "unview-6",
+      "url": "/media/video3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC2122SR3-F40W-D"
+      ]
+    },
+    {
+      "id": "unview-7",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ipc2124sr3-dpf36"
+      ]
+    },
+    {
+      "id": "unview-8",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ipc2124sr3-dpf36"
+      ]
+    },
+    {
+      "id": "unview-9",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC2324LBR3-SPZ28-D",
+        "IPC322SR3-DVPF28-MX"
+      ]
+    },
+    {
+      "id": "unview-10",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC322SR3-DVPF28-MX",
+        "UNV ipc2122LB-sf-40-A"
+      ]
+    },
+    {
+      "id": "unview-11",
+      "url": "/media/video2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC328LE-ADF28K-G",
+        "UNV ipc2122LB-sf-40-A"
+      ]
+    },
+    {
+      "id": "unview-12",
+      "url": "/live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC328SB-ADF28K-I0"
+      ]
+    },
+    {
+      "id": "unview-13",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC3614LE"
+      ]
+    },
+    {
+      "id": "unview-14",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "IPC3614SR3-ADPF28-F"
+      ]
+    },
+    {
+      "id": "unview-15",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC3F12P-RU3"
+      ]
+    },
+    {
+      "id": "unview-16",
+      "url": "/unicast/c9/s0/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

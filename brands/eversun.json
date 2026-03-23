@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eversun",
+  "brand_id": "eversun",
+  "streams": [
+    {
+      "id": "eversun-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CLJ101L"
+      ]
+    }
+  ]
+}

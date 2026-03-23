@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Alphatech",
+  "brand_id": "alphatech",
+  "streams": [
+    {
+      "id": "alphatech-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AT-NB248G"
+      ]
+    },
+    {
+      "id": "alphatech-2",
+      "url": "/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPBold"
+      ]
+    }
+  ]
+}

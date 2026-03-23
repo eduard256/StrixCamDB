@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Simicam",
+  "brand_id": "simicam",
+  "streams": [
+    {
+      "id": "simicam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=2_stream=1.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4K POE 48V",
+        "3.6mm",
+        "4K POE Camera",
+        "H43",
+        "HD Camera",
+        "HD CAMERA"
+      ]
+    },
+    {
+      "id": "simicam-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "A314D"
+      ]
+    },
+    {
+      "id": "simicam-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=5_stream=1.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD Camera"
+      ]
+    },
+    {
+      "id": "simicam-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=6_stream=1.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD Camera"
+      ]
+    },
+    {
+      "id": "simicam-5",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=10_stream=1.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD Camera"
+      ]
+    },
+    {
+      "id": "simicam-6",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "QJ-8M-P"
+      ]
+    }
+  ]
+}

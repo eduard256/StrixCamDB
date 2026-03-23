@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Zonx",
+  "brand_id": "zonx",
+  "streams": [
+    {
+      "id": "zonx-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AM800N2",
+        "imx415"
+      ]
+    },
+    {
+      "id": "zonx-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "imx415"
+      ]
+    },
+    {
+      "id": "zonx-3",
+      "url": "/ch01_sub.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IMX415"
+      ]
+    }
+  ]
+}

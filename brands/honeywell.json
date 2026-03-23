@@ -1,0 +1,485 @@
+{
+  "version": 2,
+  "brand": "Honeywell",
+  "brand_id": "honeywell",
+  "streams": [
+    {
+      "id": "honeywell-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1024",
+        "H4W2GR2",
+        "HED3PR3",
+        "HICC-0100P",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1024",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-3",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DELL",
+        "RYDELL"
+      ]
+    },
+    {
+      "id": "honeywell-4",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H 264",
+        "HBD2PR1",
+        "hcc-685pt",
+        "hicc-p3100",
+        "HIDC-P-010",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-5",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H 264",
+        "H4D2F",
+        "HON09B759",
+        "HON0A8472",
+        "ipcam pt",
+        "ipcam-10",
+        "IPCAM-IP",
+        "ipcam-od",
+        "IPCAM-PT",
+        "IPCAM-PT2",
+        "ipcam-w12",
+        "IPCAM-WI",
+        "IPCAM-WI2",
+        "ipcam-wl",
+        "ipcam-wo",
+        "IP-WO",
+        "Other",
+        "Other2",
+        "w12",
+        "wap"
+      ]
+    },
+    {
+      "id": "honeywell-6",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H 264",
+        "IPCAM-10",
+        "IPCAM-ip",
+        "IPCAM-PT",
+        "IPCAM-PT2",
+        "IPCAM-WI",
+        "IPCAM-WI2",
+        "ip-w0",
+        "IP-WO",
+        "Other",
+        "Other2"
+      ]
+    },
+    {
+      "id": "honeywell-7",
+      "url": "img/video.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H 264",
+        "IPCAM-PT",
+        "IPCAM-PT2",
+        "ipcam-w12",
+        "IPCAM-WI2",
+        "ipcam-wl",
+        "IPCAM-WL",
+        "IPCAM-WO",
+        "Other",
+        "w12",
+        "WI2"
+      ]
+    },
+    {
+      "id": "honeywell-8",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H 264",
+        "H2S2P6",
+        "H3D3S2",
+        "H4D1FRX",
+        "H4D2F",
+        "H4S1P1",
+        "HCD5HIH",
+        "HCD5WIHX",
+        "HCW1F",
+        "HCW1FX",
+        "HD31F",
+        "HD3MDIH",
+        "hd45ip",
+        "HD4HDIH",
+        "hd4mdih",
+        "hd54ip",
+        "HD55IPX",
+        "HDZ20HDEX",
+        "HDZ20HDX",
+        "HDZ30",
+        "honeywell h4d1fr",
+        "IPCAM-WL",
+        "IP-WO",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-9",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "H2D2PR1",
+        "hcc-685pt"
+      ]
+    },
+    {
+      "id": "honeywell-10",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "H2D2PR1",
+        "HBL2R1",
+        "WIC1"
+      ]
+    },
+    {
+      "id": "honeywell-11",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H2S1P6",
+        "HDZ22HDEX"
+      ]
+    },
+    {
+      "id": "honeywell-12",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46QWRtaW4xMjMu",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "H2W2GR1",
+        "HPW2P1"
+      ]
+    },
+    {
+      "id": "honeywell-13",
+      "url": "/media",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H3D1F",
+        "H3D2F",
+        "H3S1p",
+        "H3S1P",
+        "H4D1F",
+        "H4s1P",
+        "H4W1F",
+        "HBD2FR",
+        "HCD1F",
+        "Paco"
+      ]
+    },
+    {
+      "id": "honeywell-14",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "h3w4gr1v",
+        "H4D3PRV2",
+        "H4W4PER2",
+        "H4W4PER3",
+        "HBD3PR2",
+        "hbw4per2",
+        "HD7016",
+        "HDZ252",
+        "HDZ302DE",
+        "HDZ52DPR1",
+        "HM4L8GR1"
+      ]
+    },
+    {
+      "id": "honeywell-15",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46Qm91bG91ODEh",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HBW2GR3"
+      ]
+    },
+    {
+      "id": "honeywell-16",
+      "url": "/live2.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HC30WF5R1"
+      ]
+    },
+    {
+      "id": "honeywell-17",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HC30WF5R1"
+      ]
+    },
+    {
+      "id": "honeywell-18",
+      "url": "cam[CHANNEL]/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HCD1F",
+        "hd 4mdip",
+        "HD31F",
+        "HD3MDIP",
+        "HD4MDIP",
+        "hdm3dip",
+        "Other",
+        "Rydell"
+      ]
+    },
+    {
+      "id": "honeywell-19",
+      "url": "mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hd 4mdip",
+        "HD4MDIP",
+        "hdm3dip"
+      ]
+    },
+    {
+      "id": "honeywell-20",
+      "url": "PSIA/Streaming/channels/[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD3MDIP",
+        "HD45IP",
+        "HD4MDIP",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-21",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD44IP",
+        "HD4HDIH",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-22",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hd45ip",
+        "IP cam WI2b",
+        "ipcam-od",
+        "Ipcam-pt",
+        "IPCAM-PT",
+        "ipcam-w12",
+        "IPCAM-WI",
+        "IPCAM-WI2",
+        "Other",
+        "w12",
+        "WI2"
+      ]
+    },
+    {
+      "id": "honeywell-23",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD4HDIH"
+      ]
+    },
+    {
+      "id": "honeywell-24",
+      "url": "cam[CHANNEL]/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD4HDIH",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-25",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDR-C1648L",
+        "Honeywell HREP",
+        "HREP",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-26",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "hdz302de",
+        "hie2piv"
+      ]
+    },
+    {
+      "id": "honeywell-27",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HIDC-2600TVI"
+      ]
+    },
+    {
+      "id": "honeywell-28",
+      "url": "/media/1/1/Profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HNB-210V2I"
+      ]
+    },
+    {
+      "id": "honeywell-29",
+      "url": "/img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ipc",
+        "ipcam-w12",
+        "IPCAM-WI",
+        "IPCAM-WI2",
+        "ipcam-wl",
+        "IP-WO",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-30",
+      "url": "img/media.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM PT",
+        "IPCAM-IP",
+        "IPCAM-PT",
+        "IPCAM-PT2",
+        "ipcam-wo",
+        "IPCAM-WO",
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-31",
+      "url": "/img/media.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP-WO"
+      ]
+    },
+    {
+      "id": "honeywell-32",
+      "url": "/img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-33",
+      "url": "axis-media/media.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "honeywell-34",
+      "url": "/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lorensen-01",
+  "brand_id": "lorensen-01",
+  "streams": [
+    {
+      "id": "lorensen-01-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Anran AR-AP2GA"
+      ]
+    }
+  ]
+}

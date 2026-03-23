@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Durawell",
+  "brand_id": "durawell",
+  "streams": [
+    {
+      "id": "durawell-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8177QJ"
+      ]
+    },
+    {
+      "id": "durawell-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8177QJ",
+        "Other"
+      ]
+    }
+  ]
+}

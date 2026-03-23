@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Kiocong",
+  "brand_id": "kiocong",
+  "streams": [
+    {
+      "id": "kiocong-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1601",
+        "Other"
+      ]
+    },
+    {
+      "id": "kiocong-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1602",
+        "1609"
+      ]
+    },
+    {
+      "id": "kiocong-3",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Sayus",
+  "brand_id": "sayus",
+  "streams": [
+    {
+      "id": "sayus-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "US-0399",
+        "US-1403",
+        "US-9121"
+      ]
+    }
+  ]
+}

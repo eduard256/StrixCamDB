@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "brand": "Evidence",
+  "brand_id": "evidence",
+  "streams": [
+    {
+      "id": "evidence-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "APIX Box M1",
+        "APIX Box M2",
+        "Other"
+      ]
+    },
+    {
+      "id": "evidence-2",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APIX Box M2",
+        "Other"
+      ]
+    },
+    {
+      "id": "evidence-3",
+      "url": "h264/ch1/sub/",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "APIX Box M2"
+      ]
+    },
+    {
+      "id": "evidence-4",
+      "url": "/h264/ch1/sub/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "APIX Box M2"
+      ]
+    },
+    {
+      "id": "evidence-5",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "APIX Box M2"
+      ]
+    },
+    {
+      "id": "evidence-6",
+      "url": "cgi-bin/jpg/image.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "brand": "Moxa",
+  "brand_id": "moxa",
+  "streams": [
+    {
+      "id": "moxa-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "moxa-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "moxa-3",
+      "url": "cgi-bin/video.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "moxa-4",
+      "url": "multicaststream",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "vport 351",
+        "VPort 36-2L",
+        "VPort 36-2L-3X-T"
+      ]
+    },
+    {
+      "id": "moxa-5",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VPort_36-1MP-T",
+        "VPort_P26A-1MP-T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Javea",
+  "brand_id": "javea",
+  "streams": [
+    {
+      "id": "javea-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

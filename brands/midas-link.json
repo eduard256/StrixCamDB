@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "brand": "Midas-link",
+  "brand_id": "midas-link",
+  "streams": [
+    {
+      "id": "midas-link-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "203W",
+        "idk",
+        "ML-203W",
+        "ml-203w-g",
+        "ML-204DW",
+        "ml204dw-g",
+        "ML204DW-G"
+      ]
+    },
+    {
+      "id": "midas-link-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ML-214SD",
+        "MS-214SD"
+      ]
+    },
+    {
+      "id": "midas-link-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MS-214SD"
+      ]
+    }
+  ]
+}

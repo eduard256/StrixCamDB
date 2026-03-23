@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "brand": "Ipc365",
+  "brand_id": "ipc365",
+  "streams": [
+    {
+      "id": "ipc365-1",
+      "url": "/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "360",
+        "gesee",
+        "Mibao",
+        "NEXHT CAM",
+        "Other",
+        "P450",
+        "PW2C1806E-GTY",
+        "VICTURE"
+      ]
+    },
+    {
+      "id": "ipc365-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "81XXF",
+        "d100",
+        "Other"
+      ]
+    },
+    {
+      "id": "ipc365-3",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "ey-wf0358weus"
+      ]
+    },
+    {
+      "id": "ipc365-4",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipc365-5",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "PW2K2N06E-GTWY"
+      ]
+    },
+    {
+      "id": "ipc365-6",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "PW2K2N06E-GTWY"
+      ]
+    },
+    {
+      "id": "ipc365-7",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

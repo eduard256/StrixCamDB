@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Abelcam",
+  "brand_id": "abelcam",
+  "streams": [
+    {
+      "id": "abelcam-1",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "005"
+      ]
+    },
+    {
+      "id": "abelcam-2",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "abelcam-3",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "abelcam-4",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "abelcam-5",
+      "url": "current[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WebCam (2)"
+      ]
+    },
+    {
+      "id": "abelcam-6",
+      "url": "current[CHANNEL].mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WebCam (2)"
+      ]
+    },
+    {
+      "id": "abelcam-7",
+      "url": "screen.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WebCam Server"
+      ]
+    },
+    {
+      "id": "abelcam-8",
+      "url": "screen.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WebCam Server"
+      ]
+    }
+  ]
+}

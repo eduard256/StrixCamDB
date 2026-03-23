@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Blueeyes",
+  "brand_id": "blueeyes",
+  "streams": [
+    {
+      "id": "blueeyes-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BE-3211P"
+      ]
+    },
+    {
+      "id": "blueeyes-2",
+      "url": "/ipcam/stream.cgi?nowprofileid=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "iCam720"
+      ]
+    },
+    {
+      "id": "blueeyes-3",
+      "url": "dms",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "blueeyes-4",
+      "url": "ipcam/stream.cgi?nowprofileid=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

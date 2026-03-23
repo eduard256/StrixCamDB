@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Amirok",
+  "brand_id": "amirok",
+  "streams": [
+    {
+      "id": "amirok-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

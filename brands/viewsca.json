@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Viewsca",
+  "brand_id": "viewsca",
+  "streams": [
+    {
+      "id": "viewsca-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "vc2"
+      ]
+    }
+  ]
+}

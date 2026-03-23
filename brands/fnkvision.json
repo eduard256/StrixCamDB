@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Fnkvision",
+  "brand_id": "fnkvision",
+  "streams": [
+    {
+      "id": "fnkvision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "X4822032"
+      ]
+    }
+  ]
+}

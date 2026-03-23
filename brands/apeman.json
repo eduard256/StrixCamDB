@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Apeman",
+  "brand_id": "apeman",
+  "streams": [
+    {
+      "id": "apeman-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IB81"
+      ]
+    },
+    {
+      "id": "apeman-2",
+      "url": "/tcp/av0_0",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "ID71"
+      ]
+    },
+    {
+      "id": "apeman-3",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ID71",
+        "IP360"
+      ]
+    }
+  ]
+}

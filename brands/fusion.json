@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Fusion",
+  "brand_id": "fusion",
+  "streams": [
+    {
+      "id": "fusion-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "230"
+      ]
+    },
+    {
+      "id": "fusion-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

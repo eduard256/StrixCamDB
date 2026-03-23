@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Dnt",
+  "brand_id": "dnt",
+  "streams": [
+    {
+      "id": "dnt-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "camdoo",
+        "CamDoo",
+        "CamDoo Fix"
+      ]
+    },
+    {
+      "id": "dnt-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CamDoo"
+      ]
+    },
+    {
+      "id": "dnt-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CamDoo"
+      ]
+    }
+  ]
+}

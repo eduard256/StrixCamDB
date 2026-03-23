@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Bascom",
+  "brand_id": "bascom",
+  "streams": [
+    {
+      "id": "bascom-1",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "hd plus",
+        "HD-18",
+        "hd-40",
+        "HD4P",
+        "HD-50"
+      ]
+    },
+    {
+      "id": "bascom-2",
+      "url": "/live/video_audio/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 88,
+      "models": [
+        "HD-18",
+        "HD-19",
+        "HD40",
+        "Other"
+      ]
+    },
+    {
+      "id": "bascom-3",
+      "url": "/live/video_audio/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD-19"
+      ]
+    },
+    {
+      "id": "bascom-4",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD-19"
+      ]
+    }
+  ]
+}

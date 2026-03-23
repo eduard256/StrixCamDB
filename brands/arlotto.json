@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "brand": "Arlotto",
+  "brand_id": "arlotto",
+  "streams": [
+    {
+      "id": "arlotto-1",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1200"
+      ]
+    },
+    {
+      "id": "arlotto-2",
+      "url": "PSIA/Streaming/channels/2?videoCodecType=H.264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AR1200",
+        "AR1500",
+        "BX200"
+      ]
+    },
+    {
+      "id": "arlotto-3",
+      "url": "PSIA/Streaming/channels/1?videoCodecType=MPEG4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AR1200",
+        "AR1500",
+        "BX200"
+      ]
+    },
+    {
+      "id": "arlotto-4",
+      "url": "/PSIA/Streaming/channels/0?videoCodecType=H.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ar1500"
+      ]
+    },
+    {
+      "id": "arlotto-5",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AR1500"
+      ]
+    },
+    {
+      "id": "arlotto-6",
+      "url": "PSIA/Streaming/channels/0?videoCodecType=H.264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AR1500"
+      ]
+    },
+    {
+      "id": "arlotto-7",
+      "url": "ipcam/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AR3520P",
+        "Other"
+      ]
+    }
+  ]
+}

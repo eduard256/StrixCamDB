@@ -1,0 +1,258 @@
+{
+  "version": 2,
+  "brand": "Logilink",
+  "brand_id": "logilink",
+  "streams": [
+    {
+      "id": "logilink-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WC0004A",
+        "WC0007",
+        "wc0030"
+      ]
+    },
+    {
+      "id": "logilink-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "logilink-3",
+      "url": "jpg/1/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WC0002",
+        "WC0004A",
+        "WC0041"
+      ]
+    },
+    {
+      "id": "logilink-4",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WC0007",
+        "WC0016",
+        "WC0022",
+        "WC0030W",
+        "WC0042",
+        "wc0043"
+      ]
+    },
+    {
+      "id": "logilink-5",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "WC0010A",
+        "WC0016",
+        "WC0020",
+        "WC0022"
+      ]
+    },
+    {
+      "id": "logilink-6",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "wc0030"
+      ]
+    },
+    {
+      "id": "logilink-7",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WC0030",
+        "WC0030A"
+      ]
+    },
+    {
+      "id": "logilink-8",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wc0002",
+        "WC0004A",
+        "WC0007",
+        "WC0030",
+        "WC0042",
+        "WC006"
+      ]
+    },
+    {
+      "id": "logilink-9",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC0007"
+      ]
+    },
+    {
+      "id": "logilink-10",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC0007",
+        "WC0042"
+      ]
+    },
+    {
+      "id": "logilink-11",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC0009"
+      ]
+    },
+    {
+      "id": "logilink-12",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC0016"
+      ]
+    },
+    {
+      "id": "logilink-13",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WC0016",
+        "WC0047",
+        "WC0048"
+      ]
+    },
+    {
+      "id": "logilink-14",
+      "url": "/live/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WC0016"
+      ]
+    },
+    {
+      "id": "logilink-15",
+      "url": "live/h264_ulaw",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC0022"
+      ]
+    },
+    {
+      "id": "logilink-16",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC0030",
+        "WC0030A"
+      ]
+    },
+    {
+      "id": "logilink-17",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC0030A"
+      ]
+    },
+    {
+      "id": "logilink-18",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "wc0030w"
+      ]
+    },
+    {
+      "id": "logilink-19",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WC004",
+        "WC0040"
+      ]
+    },
+    {
+      "id": "logilink-20",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wc0044",
+        "WC0049",
+        "WS0044"
+      ]
+    },
+    {
+      "id": "logilink-21",
+      "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "wc0044"
+      ]
+    },
+    {
+      "id": "logilink-22",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wc0049"
+      ]
+    }
+  ]
+}

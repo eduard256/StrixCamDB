@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "brand": "Unique-cctv",
+  "brand_id": "unique-cctv",
+  "streams": [
+    {
+      "id": "unique-cctv-1",
+      "url": "/media/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2212",
+        "Other"
+      ]
+    },
+    {
+      "id": "unique-cctv-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC241L-IR-IN",
+        "U-612W"
+      ]
+    },
+    {
+      "id": "unique-cctv-3",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC6222ER-X20",
+        "IP-V-200H33P"
+      ]
+    },
+    {
+      "id": "unique-cctv-4",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "unique-cctv-5",
+      "url": "dsr-cgi/getdsrimage.cgi?camera=[CHANNEL]&username=[USERNAME]&password=[PASSWORD]&adfa=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PICO2000"
+      ]
+    },
+    {
+      "id": "unique-cctv-6",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "U-611W"
+      ]
+    },
+    {
+      "id": "unique-cctv-7",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "UVIPBH21"
+      ]
+    },
+    {
+      "id": "unique-cctv-8",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VNT6656G6A40"
+      ]
+    }
+  ]
+}

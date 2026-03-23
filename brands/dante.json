@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Dante",
+  "brand_id": "dante",
+  "streams": [
+    {
+      "id": "dante-1",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DNA1435"
+      ]
+    },
+    {
+      "id": "dante-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "Smart IPCamera"
+      ]
+    }
+  ]
+}

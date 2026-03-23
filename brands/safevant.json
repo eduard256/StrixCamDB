@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "brand": "Safevant",
+  "brand_id": "safevant",
+  "streams": [
+    {
+      "id": "safevant-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "720P Dome",
+        "BL05801",
+        "DO2VV",
+        "Other",
+        "Safevant PTZ Dome Camera"
+      ]
+    }
+  ]
+}

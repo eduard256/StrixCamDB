@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Tedun",
+  "brand_id": "tedun",
+  "streams": [
+    {
+      "id": "tedun-1",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "F20W-WSBE"
+      ]
+    },
+    {
+      "id": "tedun-2",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

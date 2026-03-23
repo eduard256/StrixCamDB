@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Sucura Networks",
+  "brand_id": "sucura-networks",
+  "streams": [
+    {
+      "id": "sucura-networks-1",
+      "url": "MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM1080"
+      ]
+    },
+    {
+      "id": "sucura-networks-2",
+      "url": "/h264/ch01/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM1080",
+        "Standard 1080p"
+      ]
+    }
+  ]
+}

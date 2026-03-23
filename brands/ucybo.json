@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ucybo",
+  "brand_id": "ucybo",
+  "streams": [
+    {
+      "id": "ucybo-1",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "NM4RT200H"
+      ]
+    }
+  ]
+}

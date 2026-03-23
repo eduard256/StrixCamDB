@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Limix",
+  "brand_id": "limix",
+  "streams": [
+    {
+      "id": "limix-1",
+      "url": "stream1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LID-30"
+      ]
+    }
+  ]
+}

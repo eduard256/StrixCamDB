@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "brand": "Rollei",
+  "brand_id": "rollei",
+  "streams": [
+    {
+      "id": "rollei-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SafetyCam",
+        "SafetyCam 10 HD",
+        "SAFETYCAM 10 HD",
+        "SAFETYCAM 100",
+        "SafetyCam 20 HD",
+        "SAFETYCAM 20 HD",
+        "SafetzCam-20 HD",
+        "T Cametra"
+      ]
+    },
+    {
+      "id": "rollei-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SafetyCam 10 HD"
+      ]
+    },
+    {
+      "id": "rollei-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SafetyCam 100",
+        "Securitycam"
+      ]
+    },
+    {
+      "id": "rollei-4",
+      "url": "/videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "SafetyCam 200"
+      ]
+    },
+    {
+      "id": "rollei-5",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "safetycam-10hd"
+      ]
+    }
+  ]
+}

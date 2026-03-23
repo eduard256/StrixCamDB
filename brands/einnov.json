@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Einnov",
+  "brand_id": "einnov",
+  "streams": [
+    {
+      "id": "einnov-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "A51MW",
+        "Other"
+      ]
+    },
+    {
+      "id": "einnov-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "A51MW",
+        "eis06wm"
+      ]
+    }
+  ]
+}

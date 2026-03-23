@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "brand": "Ikegami",
+  "brand_id": "ikegami",
+  "streams": [
+    {
+      "id": "ikegami-1",
+      "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "200",
+        "ip200",
+        "IPD-pt200"
+      ]
+    },
+    {
+      "id": "ikegami-2",
+      "url": "stream1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-BX11",
+        "IPD-BX300",
+        "Other"
+      ]
+    },
+    {
+      "id": "ikegami-3",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPD-PT200"
+      ]
+    },
+    {
+      "id": "ikegami-4",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPD-PT200",
+        "SPD-PT200"
+      ]
+    },
+    {
+      "id": "ikegami-5",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPD-PT200"
+      ]
+    }
+  ]
+}

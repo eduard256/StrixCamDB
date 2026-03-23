@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jsur",
+  "brand_id": "jsur",
+  "streams": [
+    {
+      "id": "jsur-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

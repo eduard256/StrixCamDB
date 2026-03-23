@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Unzano",
+  "brand_id": "unzano",
+  "streams": [
+    {
+      "id": "unzano-1",
+      "url": "/p3.mjpg",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "HD600"
+      ]
+    }
+  ]
+}

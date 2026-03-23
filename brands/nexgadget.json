@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Nexgadget",
+  "brand_id": "nexgadget",
+  "streams": [
+    {
+      "id": "nexgadget-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720",
+        "720p",
+        "E300",
+        "IPCAM 720",
+        "IPCAM 720 #3",
+        "Other",
+        "shed camera",
+        "X Series IP Camera"
+      ]
+    },
+    {
+      "id": "nexgadget-2",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "C7823WIP",
+        "c7824W",
+        "Other"
+      ]
+    },
+    {
+      "id": "nexgadget-3",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICAM-629GB-W Nuovo",
+        "Other"
+      ]
+    },
+    {
+      "id": "nexgadget-4",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

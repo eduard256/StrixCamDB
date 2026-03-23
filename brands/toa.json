@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Toa",
+  "brand_id": "toa",
+  "streams": [
+    {
+      "id": "toa-1",
+      "url": "getjpeg.cgi?[USERNAME]&ch[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 1935,
+      "models": [
+        "n-c3120",
+        "n-c3220 3",
+        "n-c3820"
+      ]
+    }
+  ]
+}

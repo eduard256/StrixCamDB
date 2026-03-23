@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Etcam",
+  "brand_id": "etcam",
+  "streams": [
+    {
+      "id": "etcam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ET2CAM"
+      ]
+    },
+    {
+      "id": "etcam-2",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

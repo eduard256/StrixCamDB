@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pripaso",
+  "brand_id": "pripaso",
+  "streams": [
+    {
+      "id": "pripaso-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MPT01"
+      ]
+    }
+  ]
+}

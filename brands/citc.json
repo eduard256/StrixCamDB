@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Citc",
+  "brand_id": "citc",
+  "streams": [
+    {
+      "id": "citc-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 88,
+      "models": [
+        "FI9828"
+      ]
+    },
+    {
+      "id": "citc-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Interno",
+  "brand_id": "interno",
+  "streams": [
+    {
+      "id": "interno-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Pelco"
+      ]
+    }
+  ]
+}

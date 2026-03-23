@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "brand": "S3vc",
+  "brand_id": "s3vc",
+  "streams": [
+    {
+      "id": "s3vc-1",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080P",
+        "B01POE-3MPL-A"
+      ]
+    },
+    {
+      "id": "s3vc-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B06POE-5MP-HX",
+        "BULLET",
+        "Other",
+        "SV-B01POE-1080P-L",
+        "WiFi"
+      ]
+    },
+    {
+      "id": "s3vc-3",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet",
+        "Other",
+        "SV-B06W-5MP-HX",
+        "WIFI"
+      ]
+    },
+    {
+      "id": "s3vc-4",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "SV-B01POE-1080P-L"
+      ]
+    },
+    {
+      "id": "s3vc-5",
+      "url": "/VideoInput/1/mpeg4/1",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SV-B01POE-1080P-L"
+      ]
+    },
+    {
+      "id": "s3vc-6",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SV-B803W"
+      ]
+    },
+    {
+      "id": "s3vc-7",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WiFi"
+      ]
+    }
+  ]
+}

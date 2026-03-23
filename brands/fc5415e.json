@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Fc5415e",
+  "brand_id": "fc5415e",
+  "streams": [
+    {
+      "id": "fc5415e-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 52623,
+      "models": [
+        "winbok",
+        "winbook"
+      ]
+    }
+  ]
+}

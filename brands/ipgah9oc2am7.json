@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipgah9oc2am7",
+  "brand_id": "ipgah9oc2am7",
+  "streams": [
+    {
+      "id": "ipgah9oc2am7-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CVLM-I333"
+      ]
+    }
+  ]
+}

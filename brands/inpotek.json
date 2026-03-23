@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Inpotek",
+  "brand_id": "inpotek",
+  "streams": [
+    {
+      "id": "inpotek-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC66RV"
+      ]
+    }
+  ]
+}

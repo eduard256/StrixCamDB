@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ip6795p",
+  "brand_id": "ip6795p",
+  "streams": [
+    {
+      "id": "ip6795p-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

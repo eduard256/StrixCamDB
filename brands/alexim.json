@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "brand": "Alexim",
+  "brand_id": "alexim",
+  "streams": [
+    {
+      "id": "alexim-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AXP CA640 O4/5"
+      ]
+    },
+    {
+      "id": "alexim-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AXP CA640 O4/5",
+        "Other"
+      ]
+    },
+    {
+      "id": "alexim-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cam22822",
+        "Other"
+      ]
+    },
+    {
+      "id": "alexim-4",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD-BRAMA"
+      ]
+    },
+    {
+      "id": "alexim-5",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alexim-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "xxx1"
+      ]
+    },
+    {
+      "id": "alexim-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "alexim-8",
+      "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Pic8"
+      ]
+    }
+  ]
+}

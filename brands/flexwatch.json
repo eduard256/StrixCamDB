@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "brand": "Flexwatch",
+  "brand_id": "flexwatch",
+  "streams": [
+    {
+      "id": "flexwatch-1",
+      "url": "cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x331287e3&CameraId=[CHANNEL]&PortId=0&PauseTime=1&FwCgiVer=0x0001",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1120",
+        "1150 Cam",
+        "117x Cam",
+        "500A",
+        "DVR",
+        "FW11xx RTSP",
+        "FW5470",
+        "Other"
+      ]
+    },
+    {
+      "id": "flexwatch-2",
+      "url": "cam0_[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "117x Cam",
+        "DVR",
+        "FW11xx RTSP",
+        "FW3170-PS-E",
+        "FW7500-TXV-R"
+      ]
+    },
+    {
+      "id": "flexwatch-3",
+      "url": "cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x00006784&PortId=0&CameraId=[CHANNEL]&PauseTime=0&FwCgiVer=0x0001",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "117X CAM",
+        "500A",
+        "DVR",
+        "Kalving 1",
+        "Other"
+      ]
+    },
+    {
+      "id": "flexwatch-4",
+      "url": "cam0_1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "FW3170-PS-E",
+        "FW7500-TXV-R",
+        "Other"
+      ]
+    },
+    {
+      "id": "flexwatch-5",
+      "url": "cgi-bin/fwstream.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

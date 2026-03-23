@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Scancam",
+  "brand_id": "scancam",
+  "streams": [
+    {
+      "id": "scancam-1",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 1554,
+      "models": [
+        "SCM-SW2632FD"
+      ]
+    }
+  ]
+}

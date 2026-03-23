@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Botcam",
+  "brand_id": "botcam",
+  "streams": [
+    {
+      "id": "botcam-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipcamera 1",
+        "ipcamera 2",
+        "Other"
+      ]
+    },
+    {
+      "id": "botcam-2",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAMERA 1"
+      ]
+    }
+  ]
+}

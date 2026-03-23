@@ -1,0 +1,272 @@
+{
+  "version": 2,
+  "brand": "Xiaomi",
+  "brand_id": "xiaomi",
+  "streams": [
+    {
+      "id": "xiaomi-1",
+      "url": "/ch0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Anits",
+        "cctv",
+        "Other"
+      ]
+    },
+    {
+      "id": "xiaomi-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Anits",
+        "AntCamera",
+        "ANTCAMERA",
+        "antis",
+        "Ants",
+        "Dome",
+        "Other",
+        "Xiaofang",
+        "XIAOMI DAFANG HACKS"
+      ]
+    },
+    {
+      "id": "xiaomi-3",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ANITS",
+        "ANTCAMERA",
+        "Mijia",
+        "Other",
+        "SXJ01ZM"
+      ]
+    },
+    {
+      "id": "xiaomi-4",
+      "url": "/unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Dafang",
+        "Dafang Hacks",
+        "Dafang3",
+        "defang",
+        "Other",
+        "T20",
+        "Xiaofang",
+        "Xiaofang RTSP",
+        "xiaomi dafang Hacks",
+        "zecoj/fang-hacks-internal"
+      ]
+    },
+    {
+      "id": "xiaomi-5",
+      "url": "/cgi-bin/currentpic.cgi?width=1920&height=1080&nightvision=1",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "Dafang"
+      ]
+    },
+    {
+      "id": "xiaomi-6",
+      "url": "/video?profile=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "DID"
+      ]
+    },
+    {
+      "id": "xiaomi-7",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Imilab Home Security Camera Basic"
+      ]
+    },
+    {
+      "id": "xiaomi-8",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M1901F7H"
+      ]
+    },
+    {
+      "id": "xiaomi-9",
+      "url": "/video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 4747,
+      "models": [
+        "Mi 8",
+        "Other"
+      ]
+    },
+    {
+      "id": "xiaomi-10",
+      "url": "/videofeed",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Mi Home Security Camera 360",
+        "Other",
+        "pro",
+        "redmi note 3",
+        "redmi note 8",
+        "xiaomi dafang Hacks"
+      ]
+    },
+    {
+      "id": "xiaomi-11",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mi mix 3",
+        "MI-3",
+        "mi5",
+        "Note A5",
+        "Other",
+        "redmi",
+        "RedMi 1",
+        "Redmi Note 3"
+      ]
+    },
+    {
+      "id": "xiaomi-12",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Mijia",
+        "Outdoor 1080p"
+      ]
+    },
+    {
+      "id": "xiaomi-13",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "MJSXJ02CM"
+      ]
+    },
+    {
+      "id": "xiaomi-14",
+      "url": "/mainstream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "MJSXJ02CM",
+        "MJSXJ05CM"
+      ]
+    },
+    {
+      "id": "xiaomi-15",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MJSXJ02HL",
+        "Other"
+      ]
+    },
+    {
+      "id": "xiaomi-16",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "MJSXJ05CM",
+        "Other",
+        "V380"
+      ]
+    },
+    {
+      "id": "xiaomi-17",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "MJSXJ05CM",
+        "zecoj/fang-hacks-internal"
+      ]
+    },
+    {
+      "id": "xiaomi-18",
+      "url": "/substream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "MJSXJ05CM"
+      ]
+    },
+    {
+      "id": "xiaomi-19",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "oma"
+      ]
+    },
+    {
+      "id": "xiaomi-20",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "redmi",
+        "Redmi 8T"
+      ]
+    },
+    {
+      "id": "xiaomi-21",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xiaomi-22",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Outdoor 1080p",
+        "XiaoYi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cambozola",
+  "brand_id": "cambozola",
+  "streams": [
+    {
+      "id": "cambozola-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1.2"
+      ]
+    }
+  ]
+}

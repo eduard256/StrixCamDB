@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eken",
+  "brand_id": "eken",
+  "streams": [
+    {
+      "id": "eken-1",
+      "url": "/MJPG",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "h9r"
+      ]
+    }
+  ]
+}

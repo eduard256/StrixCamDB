@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Openeye",
+  "brand_id": "openeye",
+  "streams": [
+    {
+      "id": "openeye-1",
+      "url": "h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CM-610",
+        "CM-710",
+        "CM-715A",
+        "Other"
+      ]
+    },
+    {
+      "id": "openeye-2",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

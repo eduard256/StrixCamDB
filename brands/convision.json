@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "brand": "Convision",
+  "brand_id": "convision",
+  "streams": [
+    {
+      "id": "convision-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CC-6400 (RTSP)"
+      ]
+    },
+    {
+      "id": "convision-2",
+      "url": "camera.jpg?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Video Server"
+      ]
+    },
+    {
+      "id": "convision-3",
+      "url": "camera.push?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Video Server"
+      ]
+    },
+    {
+      "id": "convision-4",
+      "url": "fullsize.push?camera=1&sleep=15",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "convision-5",
+      "url": "fullsize.jpg?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V Series Video Server",
+        "V100/200 Video Server"
+      ]
+    },
+    {
+      "id": "convision-6",
+      "url": "hugesize.jpg?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V Series Video Server",
+        "V100/200 Video Server"
+      ]
+    },
+    {
+      "id": "convision-7",
+      "url": "fullsize.push?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V Series Video Server",
+        "V100/200 Video Server"
+      ]
+    },
+    {
+      "id": "convision-8",
+      "url": "hugesize.push?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V Series Video Server",
+        "V100/200 Video Server"
+      ]
+    }
+  ]
+}

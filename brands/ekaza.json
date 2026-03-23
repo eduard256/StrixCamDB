@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ekaza",
+  "brand_id": "ekaza",
+  "streams": [
+    {
+      "id": "ekaza-1",
+      "url": "/V_ENC_000",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Nuvem Dome"
+      ]
+    }
+  ]
+}

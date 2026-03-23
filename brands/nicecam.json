@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nicecam",
+  "brand_id": "nicecam",
+  "streams": [
+    {
+      "id": "nicecam-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080LVD"
+      ]
+    }
+  ]
+}

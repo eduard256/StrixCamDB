@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dbp",
+  "brand_id": "dbp",
+  "streams": [
+    {
+      "id": "dbp-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "7200"
+      ]
+    }
+  ]
+}

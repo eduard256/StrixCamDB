@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Cinnado",
+  "brand_id": "cinnado",
+  "streams": [
+    {
+      "id": "cinnado-1",
+      "url": "/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D1/Thingino FW"
+      ]
+    },
+    {
+      "id": "cinnado-2",
+      "url": "/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D1/Thingino FW"
+      ]
+    },
+    {
+      "id": "cinnado-3",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "dm1"
+      ]
+    }
+  ]
+}

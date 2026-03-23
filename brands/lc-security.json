@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "brand": "Lc Security",
+  "brand_id": "lc-security",
+  "streams": [
+    {
+      "id": "lc-security-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "141",
+        "LC-350 IP"
+      ]
+    },
+    {
+      "id": "lc-security-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "chujnia"
+      ]
+    },
+    {
+      "id": "lc-security-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP350"
+      ]
+    },
+    {
+      "id": "lc-security-4",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP350"
+      ]
+    },
+    {
+      "id": "lc-security-5",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LC-256-IPPOE",
+        "LC-350 IP"
+      ]
+    },
+    {
+      "id": "lc-security-6",
+      "url": "/onvif-stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LC-256-IPPOE"
+      ]
+    },
+    {
+      "id": "lc-security-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LC-350 IP"
+      ]
+    },
+    {
+      "id": "lc-security-8",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LC-350 IP"
+      ]
+    },
+    {
+      "id": "lc-security-9",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LC-350 IP"
+      ]
+    },
+    {
+      "id": "lc-security-10",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LC-359 IP"
+      ]
+    },
+    {
+      "id": "lc-security-11",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "lc-security-12",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "version": 2,
+  "brand": "Xxcamera",
+  "brand_id": "xxcamera",
+  "streams": [
+    {
+      "id": "xxcamera-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "001",
+        "5030-E",
+        "53100",
+        "5330-E",
+        "Other",
+        "XXC-098211-EDCFF",
+        "XXC-50100-T",
+        "XXC-5030-E"
+      ]
+    },
+    {
+      "id": "xxcamera-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5030-E",
+        "5330-E",
+        "Other",
+        "XXC-000723-NJFJD",
+        "xxc-003433-dwpzt",
+        "XXC-085241-FAEDA",
+        "XXC5030-E"
+      ]
+    },
+    {
+      "id": "xxcamera-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "XXK41E",
+        "XXK41E-V1.0"
+      ]
+    },
+    {
+      "id": "xxcamera-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "sexy",
+        "XXC-118422-dbabc",
+        "XXC-50100-T",
+        "XXC51300-PIR"
+      ]
+    },
+    {
+      "id": "xxcamera-5",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "XXC5030-E"
+      ]
+    },
+    {
+      "id": "xxcamera-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "XXC-000723-NJFJD",
+        "XXC-092411-DCAFC",
+        "XXC52130"
+      ]
+    },
+    {
+      "id": "xxcamera-7",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "XXC-50100-H",
+        "XXC-5030-E",
+        "XXC-53100-T"
+      ]
+    },
+    {
+      "id": "xxcamera-8",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xxcamera-9",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "xxcamera-10",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 1175,
+      "models": [
+        "XXC-099465-EACEA"
+      ]
+    },
+    {
+      "id": "xxcamera-11",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "XXC-112813-DFADE"
+      ]
+    },
+    {
+      "id": "xxcamera-12",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "XXC52130"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "brand": "Akuvox",
+  "brand_id": "akuvox",
+  "streams": [
+    {
+      "id": "akuvox-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AK1360"
+      ]
+    },
+    {
+      "id": "akuvox-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "e11r",
+        "R26"
+      ]
+    },
+    {
+      "id": "akuvox-3",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "E12W",
+        "E16C",
+        "R20",
+        "R20A",
+        "r26c",
+        "R26P",
+        "R29",
+        "TPL700"
+      ]
+    },
+    {
+      "id": "akuvox-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "R20A"
+      ]
+    }
+  ]
+}

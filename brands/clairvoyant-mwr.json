@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Clairvoyant Mwr",
+  "brand_id": "clairvoyant-mwr",
+  "streams": [
+    {
+      "id": "clairvoyant-mwr-1",
+      "url": "av0_[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Smartec",
+  "brand_id": "smartec",
+  "streams": [
+    {
+      "id": "smartec-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPM3672 A/1 Xaro"
+      ]
+    },
+    {
+      "id": "smartec-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 5544,
+      "models": [
+        "n8-200w ir"
+      ]
+    },
+    {
+      "id": "smartec-3",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "stc-ipm3077A"
+      ]
+    },
+    {
+      "id": "smartec-4",
+      "url": "/PSIA/Streaming/channels/1?videoCodecType=MPEG4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "STC-IPM3550A/1"
+      ]
+    },
+    {
+      "id": "smartec-5",
+      "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "STC-IPMX3593A"
+      ]
+    },
+    {
+      "id": "smartec-6",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "STC-IPX2050A/1"
+      ]
+    }
+  ]
+}

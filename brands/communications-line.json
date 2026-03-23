@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Communications Line",
+  "brand_id": "communications-line",
+  "streams": [
+    {
+      "id": "communications-line-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Indoor IP Cam"
+      ]
+    },
+    {
+      "id": "communications-line-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Camera 1",
+        "Other"
+      ]
+    }
+  ]
+}

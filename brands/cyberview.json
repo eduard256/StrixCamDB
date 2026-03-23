@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cyberview",
+  "brand_id": "cyberview",
+  "streams": [
+    {
+      "id": "cyberview-1",
+      "url": "/video_feed",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8080,
+      "models": [
+        "CVI-AI"
+      ]
+    }
+  ]
+}

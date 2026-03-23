@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lonse",
+  "brand_id": "lonse",
+  "streams": [
+    {
+      "id": "lonse-1",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

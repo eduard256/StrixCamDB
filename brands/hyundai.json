@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Hyundai",
+  "brand_id": "hyundai",
+  "streams": [
+    {
+      "id": "hyundai-1",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "414",
+        "HYU-145",
+        "HYU-408",
+        "HYU-751",
+        "HYU-914",
+        "Other"
+      ]
+    },
+    {
+      "id": "hyundai-2",
+      "url": "/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HNO-6020R",
+        "HYU-414"
+      ]
+    },
+    {
+      "id": "hyundai-3",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HYU-145",
+        "Other"
+      ]
+    },
+    {
+      "id": "hyundai-4",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HYU-408"
+      ]
+    }
+  ]
+}

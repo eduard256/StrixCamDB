@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eyu",
+  "brand_id": "eyu",
+  "streams": [
+    {
+      "id": "eyu-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "360"
+      ]
+    }
+  ]
+}

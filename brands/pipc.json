@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Pipc",
+  "brand_id": "pipc",
+  "streams": [
+    {
+      "id": "pipc-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "480wf"
+      ]
+    },
+    {
+      "id": "pipc-2",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "480wf"
+      ]
+    },
+    {
+      "id": "pipc-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "480wf 1"
+      ]
+    }
+  ]
+}

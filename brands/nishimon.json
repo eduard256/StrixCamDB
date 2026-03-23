@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nishimon",
+  "brand_id": "nishimon",
+  "streams": [
+    {
+      "id": "nishimon-1",
+      "url": "nphMotionJpeg?Resolution=640x480&Quality=Standard",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BB-HCM580"
+      ]
+    }
+  ]
+}

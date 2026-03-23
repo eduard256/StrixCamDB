@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "brand": "Blink",
+  "brand_id": "blink",
+  "streams": [
+    {
+      "id": "blink-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "53-024844",
+        "blink/blink xt camera",
+        "BSM00400U",
+        "G8T1-9402-2133-1T02",
+        "Mini",
+        "Mini Cam",
+        "outdoor 4"
+      ]
+    }
+  ]
+}

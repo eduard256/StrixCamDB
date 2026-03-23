@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Overseer",
+  "brand_id": "overseer",
+  "streams": [
+    {
+      "id": "overseer-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "S3VC"
+      ]
+    }
+  ]
+}

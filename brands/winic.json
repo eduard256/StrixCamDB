@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "brand": "Winic",
+  "brand_id": "winic",
+  "streams": [
+    {
+      "id": "winic-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "324-TD",
+        "HFW-4300S",
+        "IP66",
+        "IPCHDB-4300",
+        "NC-303VD",
+        "NP-104IR",
+        "Other"
+      ]
+    },
+    {
+      "id": "winic-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NV-303VD"
+      ]
+    },
+    {
+      "id": "winic-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NVT-530004"
+      ]
+    }
+  ]
+}

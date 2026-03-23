@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "Matrix",
+  "brand_id": "matrix",
+  "streams": [
+    {
+      "id": "matrix-1",
+      "url": "/mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Argo Face"
+      ]
+    },
+    {
+      "id": "matrix-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Satatya",
+        "SATATYA CIBR13FL40CW",
+        "SATATYA CIBR13FL60CW"
+      ]
+    },
+    {
+      "id": "matrix-3",
+      "url": "/cam0/mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Satatya"
+      ]
+    },
+    {
+      "id": "matrix-4",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SATATYA"
+      ]
+    },
+    {
+      "id": "matrix-5",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SATATYA"
+      ]
+    }
+  ]
+}

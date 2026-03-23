@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Google",
+  "brand_id": "google",
+  "streams": [
+    {
+      "id": "google-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "d820",
+        "Nexus",
+        "Nexus 4",
+        "Nexus 5",
+        "nexus 6",
+        "Nexus 7",
+        "nexus5",
+        "nexus7",
+        "Pixel",
+        "Pixel XL"
+      ]
+    },
+    {
+      "id": "google-2",
+      "url": "/get_image?uuid=8ce29a75e847488797e1a32122fb6fc8&public=0FFS3vFQ9I",
+      "type": "MJPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "Nest"
+      ]
+    },
+    {
+      "id": "google-3",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 8080,
+      "models": [
+        "Pixel",
+        "Pixel 2XL"
+      ]
+    },
+    {
+      "id": "google-4",
+      "url": "/videofeed",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 4747,
+      "models": [
+        "Pixel"
+      ]
+    }
+  ]
+}

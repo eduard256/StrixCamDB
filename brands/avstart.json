@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Avstart",
+  "brand_id": "avstart",
+  "streams": [
+    {
+      "id": "avstart-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CB205"
+      ]
+    }
+  ]
+}

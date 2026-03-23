@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gcam",
+  "brand_id": "gcam",
+  "streams": [
+    {
+      "id": "gcam-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nc1000-l10"
+      ]
+    }
+  ]
+}

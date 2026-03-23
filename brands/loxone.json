@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Loxone",
+  "brand_id": "loxone",
+  "streams": [
+    {
+      "id": "loxone-1",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Intercom"
+      ]
+    },
+    {
+      "id": "loxone-2",
+      "url": "/mjpg/video.mjpg?login=YWRtaW46YWRtaW4=",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Intercom"
+      ]
+    }
+  ]
+}

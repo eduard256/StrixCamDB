@@ -1,0 +1,259 @@
+{
+  "version": 2,
+  "brand": "Embedded Net Dvr",
+  "brand_id": "embedded-net-dvr",
+  "streams": [
+    {
+      "id": "embedded-net-dvr-1",
+      "url": "/Streaming/channels/702",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1234",
+        "255",
+        "DVR",
+        "HAR304-16",
+        "HIKVISON"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-2",
+      "url": "/Streaming/Unicast/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8002,
+      "models": [
+        "126127985",
+        "255",
+        "7208",
+        "Bytek",
+        "Other"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-3",
+      "url": "/Streaming/Unicast/channels/301",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8002,
+      "models": [
+        "126127985",
+        "255",
+        "Bytek"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-4",
+      "url": "/Streaming/Unicast/channels/1301",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1604"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-5",
+      "url": "/Streaming/Unicast/channels/401",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "255",
+        "bytek"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-6",
+      "url": "/Streaming/Unicast/channels/201",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "255",
+        "epcom"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-7",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "255",
+        "7208",
+        "analog0",
+        "analog1",
+        "dvr",
+        "ev1016hdx",
+        "FFMPEG",
+        "HAR304-16",
+        "Other",
+        "SC16IP"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-8",
+      "url": "/Streaming/channels/201",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "255",
+        "anal2",
+        "analog1",
+        "HAR304-16",
+        "Other",
+        "SC16IP"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-9",
+      "url": "/Streaming/channels/301",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "255",
+        "FFMPEG",
+        "HAR304-16",
+        "Other"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-10",
+      "url": "/Streaming/Unicast/channels/501",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "255"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-11",
+      "url": "/Streaming/Unicast/channels/601",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "255"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-12",
+      "url": "/Streaming/Unicast/channels/701",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "255"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-13",
+      "url": "/Streaming/Unicast/channels/801",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "255"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-14",
+      "url": "/Streaming/Unicast/channels/202",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1024,
+      "models": [
+        "7104"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-15",
+      "url": "image/[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dvr"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-16",
+      "url": "/Streaming/channels/402",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ffmpeg",
+        "HAR304-16"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-17",
+      "url": "/Streaming/channels/202",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FFMPEG"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-18",
+      "url": "/Streaming/channels/401",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "HAR304-16",
+        "Other"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-19",
+      "url": "/Streaming/channels/501",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "HAR304-16",
+        "Other"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-20",
+      "url": "/Streaming/channels/601",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "HAR304-16"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-21",
+      "url": "/Streaming/channels/502",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "HAR304-16"
+      ]
+    },
+    {
+      "id": "embedded-net-dvr-22",
+      "url": "/Streaming/channels/802",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PLBN"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Mitec",
+  "brand_id": "mitec",
+  "streams": [
+    {
+      "id": "mitec-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

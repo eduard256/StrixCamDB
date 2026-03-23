@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Smart Cloud Camera",
+  "brand_id": "smart-cloud-camera",
+  "streams": [
+    {
+      "id": "smart-cloud-camera-1",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "c-p11-68"
+      ]
+    },
+    {
+      "id": "smart-cloud-camera-2",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hcsp-13"
+      ]
+    },
+    {
+      "id": "smart-cloud-camera-3",
+      "url": "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "tk-q2 1mp201911"
+      ]
+    }
+  ]
+}

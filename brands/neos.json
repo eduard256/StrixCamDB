@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Neos",
+  "brand_id": "neos",
+  "streams": [
+    {
+      "id": "neos-1",
+      "url": "/unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Smartcam"
+      ]
+    }
+  ]
+}

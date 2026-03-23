@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "brand": "Skylink",
+  "brand_id": "skylink",
+  "streams": [
+    {
+      "id": "skylink-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "wc-200ps",
+        "WC-300PS",
+        "wc-510ph"
+      ]
+    },
+    {
+      "id": "skylink-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "WC-300PS",
+        "wc-400ph",
+        "wc-510ph"
+      ]
+    },
+    {
+      "id": "skylink-3",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "WC-300PS"
+      ]
+    },
+    {
+      "id": "skylink-4",
+      "url": "snapshot.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC-300PS",
+        "WC-400"
+      ]
+    },
+    {
+      "id": "skylink-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC-400"
+      ]
+    },
+    {
+      "id": "skylink-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC-400"
+      ]
+    },
+    {
+      "id": "skylink-7",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WC-400"
+      ]
+    },
+    {
+      "id": "skylink-8",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "WD-400"
+      ]
+    }
+  ]
+}

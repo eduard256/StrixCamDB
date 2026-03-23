@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Hnc",
+  "brand_id": "hnc",
+  "streams": [
+    {
+      "id": "hnc-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "312-mb",
+        "HNC301-MD",
+        "HNC303-MB",
+        "HNC303-MD"
+      ]
+    },
+    {
+      "id": "hnc-2",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HNC300"
+      ]
+    },
+    {
+      "id": "hnc-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HNC303-MB"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Dss",
+  "brand_id": "dss",
+  "streams": [
+    {
+      "id": "dss-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DF960P",
+        "DFD960P"
+      ]
+    }
+  ]
+}

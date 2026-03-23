@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipr7424/8e",
+  "brand_id": "ipr7424%2f8e",
+  "streams": [
+    {
+      "id": "ipr7424%2f8e-1",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

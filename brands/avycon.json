@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Avycon",
+  "brand_id": "avycon",
+  "streams": [
+    {
+      "id": "avycon-1",
+      "url": "/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AVC-EHN41FT",
+        "AVC-VN91FLT",
+        "Other"
+      ]
+    }
+  ]
+}

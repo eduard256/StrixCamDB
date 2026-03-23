@@ -1,0 +1,95 @@
+{
+  "version": 2,
+  "brand": "Novus",
+  "brand_id": "novus",
+  "streams": [
+    {
+      "id": "novus-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1 mpx",
+        "2400",
+        "NVIP-3DN3012V/IR-1P",
+        "Other"
+      ]
+    },
+    {
+      "id": "novus-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "321",
+        "7000",
+        "7020SD",
+        "Other"
+      ]
+    },
+    {
+      "id": "novus-3",
+      "url": "GetData.cgi?Status=false",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nasza",
+        "NVIP-TDN5401C"
+      ]
+    },
+    {
+      "id": "novus-4",
+      "url": "/cam1/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NVIP-2C2011D-P"
+      ]
+    },
+    {
+      "id": "novus-5",
+      "url": "/cam0/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NVIP-2C2011D-P"
+      ]
+    },
+    {
+      "id": "novus-6",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NVIP-2H-6401",
+        "NVIP-2H-6502M/F"
+      ]
+    },
+    {
+      "id": "novus-7",
+      "url": "/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NVIP-6401F"
+      ]
+    },
+    {
+      "id": "novus-8",
+      "url": "/H264?ch=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NVR"
+      ]
+    }
+  ]
+}

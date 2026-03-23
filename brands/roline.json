@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "brand": "Roline",
+  "brand_id": "roline",
+  "streams": [
+    {
+      "id": "roline-1",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IC-42D63A"
+      ]
+    },
+    {
+      "id": "roline-2",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IC-42D63A"
+      ]
+    },
+    {
+      "id": "roline-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Ric-54"
+      ]
+    },
+    {
+      "id": "roline-4",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "RBOF1-1",
+        "RBOF4-1",
+        "RBOV2-1",
+        "RCIF3-1W",
+        "rd0f2",
+        "RDOF4-1"
+      ]
+    },
+    {
+      "id": "roline-5",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RDOF2-1W"
+      ]
+    },
+    {
+      "id": "roline-6",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "RPIF4-1W"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Voyager",
+  "brand_id": "voyager",
+  "streams": [
+    {
+      "id": "voyager-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "vr-1504",
+        "VR-IPC*F1AM-IR3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "version": 2,
+  "brand": "Acer",
+  "brand_id": "acer",
+  "streams": [
+    {
+      "id": "acer-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A100",
+        "A500",
+        "ASPIRE",
+        "LMT"
+      ]
+    },
+    {
+      "id": "acer-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A500"
+      ]
+    },
+    {
+      "id": "acer-3",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A500",
+        "Apire One",
+        "Other"
+      ]
+    },
+    {
+      "id": "acer-4",
+      "url": "current[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A500"
+      ]
+    },
+    {
+      "id": "acer-5",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A500"
+      ]
+    },
+    {
+      "id": "acer-6",
+      "url": "Image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Apire One"
+      ]
+    },
+    {
+      "id": "acer-7",
+      "url": "out.jpg?id=0.5",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Apire One",
+        "Aspire"
+      ]
+    },
+    {
+      "id": "acer-8",
+      "url": "/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "Aspire"
+      ]
+    },
+    {
+      "id": "acer-9",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ASPIRE"
+      ]
+    },
+    {
+      "id": "acer-10",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Iconia",
+        "Other"
+      ]
+    },
+    {
+      "id": "acer-11",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "acer-12",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

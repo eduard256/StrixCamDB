@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "brand": "Hivision",
+  "brand_id": "hivision",
+  "streams": [
+    {
+      "id": "hivision-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5mp",
+        "CS-CV246-B0-1C1WFR",
+        "CS-CV246-B0-3B2WFR",
+        "CS-H6c-R101",
+        "DS-2CD2023G0E-I(B)",
+        "MCL12",
+        "miniPTZ",
+        "Other",
+        "THW-220H"
+      ]
+    },
+    {
+      "id": "hivision-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B120",
+        "DS-2CD2043G2 - IU20240527AAWRFE7553853",
+        "ds2cd2043g2-i",
+        "DS-2CD2720F-IZS",
+        "EZVIZ C6C",
+        "EZVIZ C6CN",
+        "IP-515 2.0MP",
+        "ir Network Camera",
+        "Other"
+      ]
+    },
+    {
+      "id": "hivision-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 555,
+      "models": [
+        "DS-2CD2143G0-I"
+      ]
+    },
+    {
+      "id": "hivision-4",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DS-2CD2720F-IZS",
+        "IPC-T250H-MU",
+        "IPC-T259H",
+        "Narrow",
+        "TVW-3101"
+      ]
+    },
+    {
+      "id": "hivision-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DS-2CD2T22WD-I320160307BBWR578427073",
+        "DS-P2420"
+      ]
+    },
+    {
+      "id": "hivision-6",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HV-3820",
+        "Other"
+      ]
+    },
+    {
+      "id": "hivision-7",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HV-3820"
+      ]
+    },
+    {
+      "id": "hivision-8",
+      "url": "/channel1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-T250H-M",
+        "l1200"
+      ]
+    },
+    {
+      "id": "hivision-9",
+      "url": "/Streaming/Channels/1702",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hivision-10",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hivision-11",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hivision-12",
+      "url": "/Streaming/Channels/1802",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hivision-13",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "V100R003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bowya",
+  "brand_id": "bowya",
+  "streams": [
+    {
+      "id": "bowya-1",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vevotek",
+  "brand_id": "vevotek",
+  "streams": [
+    {
+      "id": "vevotek-1",
+      "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "pz7111"
+      ]
+    }
+  ]
+}

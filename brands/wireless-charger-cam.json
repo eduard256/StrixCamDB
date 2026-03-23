@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wireless Charger Cam",
+  "brand_id": "wireless-charger-cam",
+  "streams": [
+    {
+      "id": "wireless-charger-cam-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Lizvie"
+      ]
+    }
+  ]
+}

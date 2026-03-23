@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Securecam",
+  "brand_id": "securecam",
+  "streams": [
+    {
+      "id": "securecam-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SS-1"
+      ]
+    }
+  ]
+}

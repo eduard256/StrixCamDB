@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "4xptz",
+  "brand_id": "4xptz",
+  "streams": [
+    {
+      "id": "4xptz-1",
+      "url": "live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "30x"
+      ]
+    },
+    {
+      "id": "4xptz-2",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "M400"
+      ]
+    }
+  ]
+}

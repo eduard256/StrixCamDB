@@ -1,0 +1,153 @@
+{
+  "version": 2,
+  "brand": "H.view",
+  "brand_id": "h.view",
+  "streams": [
+    {
+      "id": "h.view-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1301",
+        "800S6",
+        "H-400EV",
+        "HD DVR 4CH",
+        "HV-500D1",
+        "HV-500E6",
+        "HV-500G2",
+        "HV-E3",
+        "hv-E800A",
+        "HV-WF800A1",
+        "HV-WF800A5",
+        "HV-XM801-E",
+        "IPC-H0817",
+        "Other",
+        "POE"
+      ]
+    },
+    {
+      "id": "h.view-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "avr-ae108",
+        "HV-XM502",
+        "IPC_NT98566_N8F",
+        "TV-CB6010"
+      ]
+    },
+    {
+      "id": "h.view-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C7824WIP"
+      ]
+    },
+    {
+      "id": "h.view-4",
+      "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hd dvr 4ch"
+      ]
+    },
+    {
+      "id": "h.view-5",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD DVR 4CH",
+        "Other"
+      ]
+    },
+    {
+      "id": "h.view-6",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD DVR 4CH",
+        "Other",
+        "poe"
+      ]
+    },
+    {
+      "id": "h.view-7",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HV-XM501-SF",
+        "TV-IP1011"
+      ]
+    },
+    {
+      "id": "h.view-8",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "tp-ip1012",
+        "tv-1p1312",
+        "TV-IP1011",
+        "TV-IP1311",
+        "tv-ip1312"
+      ]
+    },
+    {
+      "id": "h.view-9",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "h.view-10",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "TV-CB6010"
+      ]
+    },
+    {
+      "id": "h.view-11",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "h.view-12",
+      "url": "/live/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "UNLISTED"
+      ]
+    }
+  ]
+}

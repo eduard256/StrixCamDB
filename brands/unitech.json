@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Unitech",
+  "brand_id": "unitech",
+  "streams": [
+    {
+      "id": "unitech-1",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Active Vision",
+  "brand_id": "active-vision",
+  "streams": [
+    {
+      "id": "active-vision-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ACC-V11"
+      ]
+    }
+  ]
+}

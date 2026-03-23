@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Galaxy Note3",
+  "brand_id": "galaxy-note3",
+  "streams": [
+    {
+      "id": "galaxy-note3-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "samsung"
+      ]
+    }
+  ]
+}

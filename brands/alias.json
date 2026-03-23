@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Alias",
+  "brand_id": "alias",
+  "streams": [
+    {
+      "id": "alias-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "anonymous"
+      ]
+    },
+    {
+      "id": "alias-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

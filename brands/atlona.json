@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Atlona",
+  "brand_id": "atlona",
+  "streams": [
+    {
+      "id": "atlona-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtp",
+      "port": 4000,
+      "models": [
+        "AT-HDVS-CAM"
+      ]
+    }
+  ]
+}

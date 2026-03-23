@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Syny-snc",
+  "brand_id": "syny-snc",
+  "streams": [
+    {
+      "id": "syny-snc-1",
+      "url": "oneshotimage.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RZ25P"
+      ]
+    }
+  ]
+}

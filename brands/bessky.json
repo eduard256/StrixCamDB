@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bessky",
+  "brand_id": "bessky",
+  "streams": [
+    {
+      "id": "bessky-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BE-IPWB200ZW"
+      ]
+    }
+  ]
+}

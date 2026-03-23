@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Telca",
+  "brand_id": "telca",
+  "streams": [
+    {
+      "id": "telca-1",
+      "url": "image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TC-9751",
+        "TC-9852"
+      ]
+    },
+    {
+      "id": "telca-2",
+      "url": "image.cgi?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TC-9751",
+        "TC-9852"
+      ]
+    }
+  ]
+}

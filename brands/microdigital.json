@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Microdigital",
+  "brand_id": "microdigital",
+  "streams": [
+    {
+      "id": "microdigital-1",
+      "url": "/Primary",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MDC-N7290TDN"
+      ]
+    }
+  ]
+}

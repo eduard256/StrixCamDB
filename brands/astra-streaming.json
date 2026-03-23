@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Astra Streaming",
+  "brand_id": "astra-streaming",
+  "streams": [
+    {
+      "id": "astra-streaming-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

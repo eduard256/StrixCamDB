@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Hd Ip Dome-2",
+  "brand_id": "hd-ip-dome-2",
+  "streams": [
+    {
+      "id": "hd-ip-dome-2-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "NVSIP",
+        "Other"
+      ]
+    },
+    {
+      "id": "hd-ip-dome-2-2",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

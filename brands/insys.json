@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Insys",
+  "brand_id": "insys",
+  "streams": [
+    {
+      "id": "insys-1",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "350"
+      ]
+    }
+  ]
+}

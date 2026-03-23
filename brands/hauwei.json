@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hauwei",
+  "brand_id": "hauwei",
+  "streams": [
+    {
+      "id": "hauwei-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "U880"
+      ]
+    }
+  ]
+}

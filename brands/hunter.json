@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hunter",
+  "brand_id": "hunter",
+  "streams": [
+    {
+      "id": "hunter-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HN-BP20lRe"
+      ]
+    }
+  ]
+}

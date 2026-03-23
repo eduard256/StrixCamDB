@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Hijack Hq Nvr",
+  "brand_id": "hijack-hq-nvr",
+  "streams": [
+    {
+      "id": "hijack-hq-nvr-1",
+      "url": "/Streaming/Unicast/channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "7608ni-i2/8p"
+      ]
+    },
+    {
+      "id": "hijack-hq-nvr-2",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BaK8204-W",
+        "K8204-W",
+        "K9604-W",
+        "K9608-W"
+      ]
+    },
+    {
+      "id": "hijack-hq-nvr-3",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NBD8016RA-UL",
+        "nvr"
+      ]
+    }
+  ]
+}

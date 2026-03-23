@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "brand": "Apti",
+  "brand_id": "apti",
+  "streams": [
+    {
+      "id": "apti-1",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "13v2-36",
+        "14C2-36W",
+        "27C4",
+        "APTI-14V3-2812W"
+      ]
+    },
+    {
+      "id": "apti-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "14-C2",
+        "14C6-2812",
+        "24C6-2812W",
+        "304C2-23WP",
+        "APTI-24V2-36W",
+        "APTI-24V-2812",
+        "apti-301d2-36wp"
+      ]
+    },
+    {
+      "id": "apti-3",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "14C2-36W",
+        "27C4",
+        "RF42MA-28"
+      ]
+    },
+    {
+      "id": "apti-4",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "14C2-36W",
+        "27C4",
+        "27C4-2812W",
+        "2KP6-2812",
+        "APTI-14V3-2812W"
+      ]
+    },
+    {
+      "id": "apti-5",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2KP6-2812"
+      ]
+    },
+    {
+      "id": "apti-6",
+      "url": "/video.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "304C2-23WP",
+        "304C2-28WP",
+        "APTI-54C6-2812P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Premier",
+  "brand_id": "premier",
+  "streams": [
+    {
+      "id": "premier-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Outdoor Camera",
+        "Outdoor Surveilance"
+      ]
+    }
+  ]
+}

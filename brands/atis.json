@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Atis",
+  "brand_id": "atis",
+  "streams": [
+    {
+      "id": "atis-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Atis1"
+      ]
+    },
+    {
+      "id": "atis-2",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ATIS1",
+        "Other"
+      ]
+    },
+    {
+      "id": "atis-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

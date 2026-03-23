@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Nobelic",
+  "brand_id": "nobelic",
+  "streams": [
+    {
+      "id": "nobelic-1",
+      "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "2421f-msd"
+      ]
+    },
+    {
+      "id": "nobelic-2",
+      "url": "/Video",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "nblc-1210f-wmsd/p"
+      ]
+    },
+    {
+      "id": "nobelic-3",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "nblc-1210f-wmsd/p"
+      ]
+    },
+    {
+      "id": "nobelic-4",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "NBLC-2421F-MSD"
+      ]
+    },
+    {
+      "id": "nobelic-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NBLC-2431F-ASD"
+      ]
+    }
+  ]
+}

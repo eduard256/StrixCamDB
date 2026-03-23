@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Veevocam",
+  "brand_id": "veevocam",
+  "streams": [
+    {
+      "id": "veevocam-1",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "JPT3815W"
+      ]
+    },
+    {
+      "id": "veevocam-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "veevocam-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "veevocam-4",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

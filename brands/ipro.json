@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ipro",
+  "brand_id": "ipro",
+  "streams": [
+    {
+      "id": "ipro-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipro-2",
+      "url": "/MediaInput/stream_2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WV-S4156"
+      ]
+    }
+  ]
+}

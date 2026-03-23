@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Atz",
+  "brand_id": "atz",
+  "streams": [
+    {
+      "id": "atz-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "ATZ-CHV07P"
+      ]
+    },
+    {
+      "id": "atz-2",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ATZ-CHV07P",
+        "CH-007"
+      ]
+    },
+    {
+      "id": "atz-3",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CH007"
+      ]
+    },
+    {
+      "id": "atz-4",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "chv24"
+      ]
+    }
+  ]
+}

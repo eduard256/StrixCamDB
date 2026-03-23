@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Kindle",
+  "brand_id": "kindle",
+  "streams": [
+    {
+      "id": "kindle-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "kindle-2",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fire 7 HD"
+      ]
+    }
+  ]
+}

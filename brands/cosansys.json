@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cosansys",
+  "brand_id": "cosansys",
+  "streams": [
+    {
+      "id": "cosansys-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

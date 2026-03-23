@@ -1,0 +1,190 @@
+{
+  "version": 2,
+  "brand": "Asgari",
+  "brand_id": "asgari",
+  "streams": [
+    {
+      "id": "asgari-1",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p",
+        "720",
+        "720pro",
+        "720Pror",
+        "Other",
+        "PTG 4",
+        "PTG4-1080p",
+        "PTZ-80IR G2"
+      ]
+    },
+    {
+      "id": "asgari-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720",
+        "720 PTZ-25ir",
+        "720 u",
+        "720U",
+        "720u g3",
+        "720u-G3",
+        "PTG3",
+        "ptz-25ir"
+      ]
+    },
+    {
+      "id": "asgari-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720",
+        "720 u",
+        "720U",
+        "720U G3",
+        "720U PTZ",
+        "720u-g3",
+        "Mats",
+        "PTG3",
+        "PTZ-25IR"
+      ]
+    },
+    {
+      "id": "asgari-4",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "720",
+        "Other"
+      ]
+    },
+    {
+      "id": "asgari-5",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720pro",
+        "720PRO",
+        "PTZ-80IR G2"
+      ]
+    },
+    {
+      "id": "asgari-6",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720U",
+        "Other"
+      ]
+    },
+    {
+      "id": "asgari-7",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720U",
+        "Other",
+        "UIR-G2"
+      ]
+    },
+    {
+      "id": "asgari-8",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Kontor",
+        "Other",
+        "PTG2",
+        "UIR",
+        "UIR G2"
+      ]
+    },
+    {
+      "id": "asgari-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asgari-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "UIR"
+      ]
+    },
+    {
+      "id": "asgari-11",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asgari-12",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asgari-13",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "asgari-14",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PTG2"
+      ]
+    },
+    {
+      "id": "asgari-15",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "UID"
+      ]
+    }
+  ]
+}

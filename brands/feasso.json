@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Feasso",
+  "brand_id": "feasso",
+  "streams": [
+    {
+      "id": "feasso-1",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F-IPCAM03"
+      ]
+    },
+    {
+      "id": "feasso-2",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

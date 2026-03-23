@@ -1,0 +1,349 @@
+{
+  "version": 2,
+  "brand": "Chinavasion",
+  "brand_id": "chinavasion",
+  "streams": [
+    {
+      "id": "chinavasion-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1.7.24 HD",
+        "IP611W"
+      ]
+    },
+    {
+      "id": "chinavasion-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "133",
+        "CVYE-1278",
+        "H31",
+        "IPCAM P2P",
+        "L SERIES",
+        "Other",
+        "S06",
+        "street"
+      ]
+    },
+    {
+      "id": "chinavasion-3",
+      "url": "cam4/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2.0 mb",
+        "ONVIF",
+        "SINOCAM"
+      ]
+    },
+    {
+      "id": "chinavasion-4",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2MP",
+        "Chinese",
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-5",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BoatCam",
+        "raconteur"
+      ]
+    },
+    {
+      "id": "chinavasion-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "china",
+        "IP611W"
+      ]
+    },
+    {
+      "id": "chinavasion-7",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "China"
+      ]
+    },
+    {
+      "id": "chinavasion-8",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "chinese",
+        "sinocam",
+        "SINOCAM"
+      ]
+    },
+    {
+      "id": "chinavasion-9",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CVABN-I369"
+      ]
+    },
+    {
+      "id": "chinavasion-10",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CVABN-I369",
+        "CVAET-1561",
+        "CVAGN-J124",
+        "cvyp-1281",
+        "CVYP-I281",
+        "H31HOME",
+        "ONVIF",
+        "SINOCAM"
+      ]
+    },
+    {
+      "id": "chinavasion-11",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CVLM-133",
+        "CVLM-I33",
+        "CVLM-I342",
+        "s06"
+      ]
+    },
+    {
+      "id": "chinavasion-12",
+      "url": "/live/0/MAIN",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CVLM-I342"
+      ]
+    },
+    {
+      "id": "chinavasion-13",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CVYE-1278",
+        "CVZX-I332",
+        "Gamma",
+        "HD",
+        "Hi3507",
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-14",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dome"
+      ]
+    },
+    {
+      "id": "chinavasion-15",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Eyeball"
+      ]
+    },
+    {
+      "id": "chinavasion-16",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Gunnie",
+        "H30",
+        "ip611w",
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-17",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H264DVR",
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-18",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip609aw",
+        "IP611W",
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-19",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC_2394699"
+      ]
+    },
+    {
+      "id": "chinavasion-20",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM P2P",
+        "SINOCAM"
+      ]
+    },
+    {
+      "id": "chinavasion-21",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "L Series",
+        "LSERIES"
+      ]
+    },
+    {
+      "id": "chinavasion-22",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "L SERIES",
+        "Other",
+        "super-1"
+      ]
+    },
+    {
+      "id": "chinavasion-23",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "lseries",
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-24",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-25",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-26",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-27",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-28",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-29",
+      "url": "1/cif",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "chinavasion-30",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "StrongFortress"
+      ]
+    }
+  ]
+}

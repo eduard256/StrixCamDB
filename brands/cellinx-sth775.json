@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cellinx-sth775",
+  "brand_id": "cellinx-sth775",
+  "streams": [
+    {
+      "id": "cellinx-sth775-1",
+      "url": "/AVStream1_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DY-IR2020HD"
+      ]
+    }
+  ]
+}

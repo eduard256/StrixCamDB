@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dish-cam",
+  "brand_id": "dish-cam",
+  "streams": [
+    {
+      "id": "dish-cam-1",
+      "url": "VideoInput/1/h264/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD2500P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eyetech",
+  "brand_id": "eyetech",
+  "streams": [
+    {
+      "id": "eyetech-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

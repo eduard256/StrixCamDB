@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Inwerang",
+  "brand_id": "inwerang",
+  "streams": [
+    {
+      "id": "inwerang-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IWR-IP2P21DSWE7"
+      ]
+    },
+    {
+      "id": "inwerang-2",
+      "url": "/live/0/MAIN",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IWR-IP2P21DSWE7"
+      ]
+    }
+  ]
+}

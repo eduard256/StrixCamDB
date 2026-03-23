@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "brand": "Vicon Security",
+  "brand_id": "vicon-security",
+  "streams": [
+    {
+      "id": "vicon-security-1",
+      "url": "/1/stream1/Profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "V920D-N39M-IP",
+        "SN680D-B-WNIR"
+      ]
+    },
+    {
+      "id": "vicon-security-2",
+      "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "957",
+        "Other"
+      ]
+    },
+    {
+      "id": "vicon-security-3",
+      "url": "live/second",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "957",
+        "V960"
+      ]
+    },
+    {
+      "id": "vicon-security-4",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BULLET",
+        "Other",
+        "v960",
+        "V960",
+        "V960B",
+        "v961",
+        "V962B",
+        "V992D-IR"
+      ]
+    },
+    {
+      "id": "vicon-security-5",
+      "url": "/now.jpg?snap=spush",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "iq62m",
+        "iq63m",
+        "iqm62wr"
+      ]
+    },
+    {
+      "id": "vicon-security-6",
+      "url": "now.jpg?snap=spush",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IQ852"
+      ]
+    },
+    {
+      "id": "vicon-security-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vicon-security-8",
+      "url": "1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vicon-security-9",
+      "url": "cgi-bin/viewer/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vicon-security-10",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vicon-security-11",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vicon-security-12",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "VND-970IP"
+      ]
+    },
+    {
+      "id": "vicon-security-13",
+      "url": "/1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "V922D-N39"
+      ]
+    },
+    {
+      "id": "vicon-security-14",
+      "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VND-970IP"
+      ]
+    }
+  ]
+}

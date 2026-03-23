@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fures",
+  "brand_id": "fures",
+  "streams": [
+    {
+      "id": "fures-1",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "gc13h"
+      ]
+    }
+  ]
+}

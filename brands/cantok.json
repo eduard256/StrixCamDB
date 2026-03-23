@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cantok",
+  "brand_id": "cantok",
+  "streams": [
+    {
+      "id": "cantok-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dome"
+      ]
+    },
+    {
+      "id": "cantok-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "xvr-16"
+      ]
+    }
+  ]
+}

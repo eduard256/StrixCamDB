@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "brand": "Repotec",
+  "brand_id": "repotec",
+  "streams": [
+    {
+      "id": "repotec-1",
+      "url": "IMAGE.JPG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RP-VP370"
+      ]
+    },
+    {
+      "id": "repotec-2",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RP-VP370",
+        "RP-WV200",
+        "VP200"
+      ]
+    },
+    {
+      "id": "repotec-3",
+      "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RP-VP0921",
+        "RP-VP0961"
+      ]
+    },
+    {
+      "id": "repotec-4",
+      "url": "MJPEG.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RP-VP370"
+      ]
+    },
+    {
+      "id": "repotec-5",
+      "url": "goform/video2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RP-VP700"
+      ]
+    }
+  ]
+}

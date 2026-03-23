@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "brand": "Luowice",
+  "brand_id": "luowice",
+  "streams": [
+    {
+      "id": "luowice-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "1080 HD",
+        "1080P",
+        "960p",
+        "lws-r8-2mp",
+        "lws-y4-960p",
+        "LWS-Y4-960P",
+        "Other",
+        "V180"
+      ]
+    },
+    {
+      "id": "luowice-2",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 81,
+      "models": [
+        "1080 HD",
+        "1080P",
+        "960",
+        "LWS-V 101-3mP",
+        "LWS-V110-3MP-LJ",
+        "LWS-Y4-1080P-GSUS2",
+        "LWS-Y4-960P",
+        "Other",
+        "PTZ",
+        "PTZ IP CAMERA",
+        "V180"
+      ]
+    },
+    {
+      "id": "luowice-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p",
+        "960P",
+        "lws-1080p-gsus",
+        "LWSD5",
+        "LWS-R8-2MP",
+        "Other",
+        "PTZ IP CAMERA",
+        "v180"
+      ]
+    },
+    {
+      "id": "luowice-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1080P",
+        "D5-5mp",
+        "IP 10X 2MP PTZ IP",
+        "lwsd5",
+        "LWS-DS-5MP",
+        "LWS-R8-2MP",
+        "LWS-V110-3MP-GSUK",
+        "Other",
+        "PTZ",
+        "PTZ IP Camera",
+        "PTZ IP CAMERA",
+        "Unten"
+      ]
+    },
+    {
+      "id": "luowice-5",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "ds-100jaA",
+        "LUO"
+      ]
+    },
+    {
+      "id": "luowice-6",
+      "url": "/snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "LWS-C6625JA",
+        "V180"
+      ]
+    },
+    {
+      "id": "luowice-7",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PE9013-W"
+      ]
+    },
+    {
+      "id": "luowice-8",
+      "url": "/livestream/11?action=play&media=video_audio_data",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "PE9013-W"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Bip-2",
+  "brand_id": "bip-2",
+  "streams": [
+    {
+      "id": "bip-2-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1280c",
+        "1920"
+      ]
+    }
+  ]
+}

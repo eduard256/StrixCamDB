@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ulkokamera",
+  "brand_id": "ulkokamera",
+  "streams": [
+    {
+      "id": "ulkokamera-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

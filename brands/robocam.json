@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Robocam",
+  "brand_id": "robocam",
+  "streams": [
+    {
+      "id": "robocam-1",
+      "url": "goform/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CAS771W"
+      ]
+    },
+    {
+      "id": "robocam-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "robocam 4"
+      ]
+    }
+  ]
+}

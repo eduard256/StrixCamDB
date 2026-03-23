@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Cocoon",
+  "brand_id": "cocoon",
+  "streams": [
+    {
+      "id": "cocoon-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HE200074",
+        "IT315003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Etupiha",
+  "brand_id": "etupiha",
+  "streams": [
+    {
+      "id": "etupiha-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720p"
+      ]
+    },
+    {
+      "id": "etupiha-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kmoo"
+      ]
+    }
+  ]
+}

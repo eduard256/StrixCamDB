@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Qube",
+  "brand_id": "qube",
+  "streams": [
+    {
+      "id": "qube-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H.264",
+        "Other"
+      ]
+    },
+    {
+      "id": "qube-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264",
+        "Other"
+      ]
+    },
+    {
+      "id": "qube-3",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ip Dome",
+        "Other"
+      ]
+    },
+    {
+      "id": "qube-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

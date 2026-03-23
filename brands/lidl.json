@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Lidl",
+  "brand_id": "lidl",
+  "streams": [
+    {
+      "id": "lidl-1",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "iuk",
+        "IUK 5A1",
+        "Other"
+      ]
+    },
+    {
+      "id": "lidl-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "IUK 5A1"
+      ]
+    },
+    {
+      "id": "lidl-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "IUK 5A1"
+      ]
+    }
+  ]
+}

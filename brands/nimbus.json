@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nimbus",
+  "brand_id": "nimbus",
+  "streams": [
+    {
+      "id": "nimbus-1",
+      "url": "/stream/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

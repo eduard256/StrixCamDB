@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Mivision",
+  "brand_id": "mivision",
+  "streams": [
+    {
+      "id": "mivision-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Dome Camera"
+      ]
+    }
+  ]
+}

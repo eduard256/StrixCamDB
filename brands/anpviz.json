@@ -1,0 +1,287 @@
+{
+  "version": 2,
+  "brand": "Anpviz",
+  "brand_id": "anpviz",
+  "streams": [
+    {
+      "id": "anpviz-1",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "250",
+        "3MP",
+        "5MP",
+        "IPC-B880w-D",
+        "IPC-D250W-S",
+        "IPC-D350",
+        "IPC-D383WD-S",
+        "IPC-IP"
+      ]
+    },
+    {
+      "id": "anpviz-2",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8554,
+      "models": [
+        "3MP",
+        "5MP",
+        "ipc-b850w-ds",
+        "ipc-d3240w-s",
+        "Other"
+      ]
+    },
+    {
+      "id": "anpviz-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4mp",
+        "5MP",
+        "AZ-IPZW30205WFS",
+        "BulletCam",
+        "DW77",
+        "IPC3442W28",
+        "IPC-D308WD-S",
+        "IPC-D383WD-S",
+        "IPC-D7451EDS-4X",
+        "Other",
+        "PTZIP204WX4IR",
+        "WP-244W",
+        "wp-245w-eu",
+        "WP-25505W-US"
+      ]
+    },
+    {
+      "id": "anpviz-4",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "4MP",
+        "DW77",
+        "ESNP104-IR/4X",
+        "IPC-D383WD-S",
+        "Other",
+        "PTZIP204WX4IR",
+        "WP-245-W"
+      ]
+    },
+    {
+      "id": "anpviz-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtmp",
+      "port": 1935,
+      "models": [
+        "5MP"
+      ]
+    },
+    {
+      "id": "anpviz-6",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MP",
+        "AZ-IPZ45520-EU",
+        "Dome",
+        "ipc-240",
+        "IPC-250B-S",
+        "IPC-B850W",
+        "IPC-D2083WD-S",
+        "ipc-d230w",
+        "ipc-d2330w",
+        "ipc-d250g",
+        "IPC-D250WS",
+        "IPC-D260W-s",
+        "IPC-D3150G-S",
+        "IPC-D350W-S",
+        "IPC-D360W-ST",
+        "IPC-D383WD-S",
+        "MC500L",
+        "MC500L5",
+        "Other",
+        "PTZIP204WX4IR",
+        "PTZIP30A60WD-SA-5X(A)",
+        "USeries",
+        "YMF10"
+      ]
+    },
+    {
+      "id": "anpviz-7",
+      "url": "live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MP",
+        "IPC-B8740w-s",
+        "IPC-D230W",
+        "IPC-D250G",
+        "IPC-D250G-S",
+        "Other",
+        "PTZ-2504X-I2",
+        "YM800sv2"
+      ]
+    },
+    {
+      "id": "anpviz-8",
+      "url": "/live/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8MP"
+      ]
+    },
+    {
+      "id": "anpviz-9",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AT500PE20",
+        "AZ-IPZ45520-EU",
+        "IPC-D250B-S",
+        "IPC-D250W-S",
+        "IPC-D3240W-S",
+        "IPC-D383WD-S",
+        "Iums400",
+        "PTZIP204WX4IR",
+        "PTZIP45520E-S-EU",
+        "YMF52_NM223N"
+      ]
+    },
+    {
+      "id": "anpviz-10",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D240W",
+        "H420W",
+        "IPC-B852VU-S",
+        "IPC-D250W",
+        "IPC-D3240W-S",
+        "IPC-D360W-ST"
+      ]
+    },
+    {
+      "id": "anpviz-11",
+      "url": "/live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-250B-S",
+        "IPC-D3150G-S"
+      ]
+    },
+    {
+      "id": "anpviz-12",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-250B-S",
+        "IPC-B852VU-S",
+        "IPC-D3240W-S"
+      ]
+    },
+    {
+      "id": "anpviz-13",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ipc-b2t86pd-sa",
+        "IPC-B8740W-S",
+        "IPC-D3A43W-S"
+      ]
+    },
+    {
+      "id": "anpviz-14",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-B852VU-S",
+        "IPC-D340W",
+        "IPC-D383WD-S"
+      ]
+    },
+    {
+      "id": "anpviz-15",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-B863WD-S",
+        "ipc-d230w",
+        "IPC-D240W-S",
+        "IPC-D250W-S",
+        "IPC-D280W-S",
+        "PTZIP204",
+        "PTZIP204WX4IR"
+      ]
+    },
+    {
+      "id": "anpviz-16",
+      "url": "/h264?username=[USERNAME]&password=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-D250W-S",
+        "IPC-D383WD-S",
+        "U Series",
+        "UNK"
+      ]
+    },
+    {
+      "id": "anpviz-17",
+      "url": "/h264cif?username=[USERNAME]&password=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-D250W-S"
+      ]
+    },
+    {
+      "id": "anpviz-18",
+      "url": "/cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-D363WD-SA"
+      ]
+    },
+    {
+      "id": "anpviz-19",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PTZIP204WX4IR",
+        "YML 12D2"
+      ]
+    }
+  ]
+}

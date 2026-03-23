@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Surya-net",
+  "brand_id": "surya-net",
+  "streams": [
+    {
+      "id": "surya-net-1",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANC-606V"
+      ]
+    }
+  ]
+}

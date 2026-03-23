@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Setik",
+  "brand_id": "setik",
+  "streams": [
+    {
+      "id": "setik-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Blip20"
+      ]
+    },
+    {
+      "id": "setik-2",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SK-HFW2100P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "version": 2,
+  "brand": "Medion",
+  "brand_id": "medion",
+  "streams": [
+    {
+      "id": "medion-1",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "86970",
+        "IPCAME45AB4",
+        "MD86970",
+        "Other",
+        "P86019"
+      ]
+    },
+    {
+      "id": "medion-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "86970",
+        "D86",
+        "IPC-1",
+        "IPC-10AC",
+        "IPC-20C",
+        "MD86970",
+        "MD96350",
+        "Other",
+        "P86019"
+      ]
+    },
+    {
+      "id": "medion-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "86970",
+        "MD86970",
+        "Other"
+      ]
+    },
+    {
+      "id": "medion-4",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "86970",
+        "IPC-10AC",
+        "md 86970",
+        "Other"
+      ]
+    },
+    {
+      "id": "medion-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-1",
+        "Other"
+      ]
+    },
+    {
+      "id": "medion-6",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-10AC"
+      ]
+    },
+    {
+      "id": "medion-7",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-20C",
+        "Other"
+      ]
+    },
+    {
+      "id": "medion-8",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAM068301",
+        "ipcam4516F",
+        "MD86970",
+        "Other",
+        "P89019"
+      ]
+    },
+    {
+      "id": "medion-9",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "IPCC7210W"
+      ]
+    },
+    {
+      "id": "medion-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "medion-11",
+      "url": "/mjpg/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "P86019 (MD 86970)"
+      ]
+    }
+  ]
+}

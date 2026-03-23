@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tweety Camera",
+  "brand_id": "tweety-camera",
+  "streams": [
+    {
+      "id": "tweety-camera-1",
+      "url": "/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "N895"
+      ]
+    }
+  ]
+}

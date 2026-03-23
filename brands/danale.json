@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Danale",
+  "brand_id": "danale",
+  "streams": [
+    {
+      "id": "danale-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "C6F0SGZ3N0P6L2"
+      ]
+    }
+  ]
+}

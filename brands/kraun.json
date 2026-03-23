@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Kraun",
+  "brand_id": "kraun",
+  "streams": [
+    {
+      "id": "kraun-1",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Day and Night",
+        "kw.07",
+        "Other"
+      ]
+    },
+    {
+      "id": "kraun-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kw.07",
+        "mie640",
+        "Other"
+      ]
+    }
+  ]
+}

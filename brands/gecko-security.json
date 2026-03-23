@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Gecko Security",
+  "brand_id": "gecko-security",
+  "streams": [
+    {
+      "id": "gecko-security-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GD-328"
+      ]
+    },
+    {
+      "id": "gecko-security-2",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GD-328"
+      ]
+    }
+  ]
+}

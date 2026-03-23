@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Greentech",
+  "brand_id": "greentech",
+  "streams": [
+    {
+      "id": "greentech-1",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "GT55",
+        "GT-IP21I",
+        "GT-IP55HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "greentech-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GT-IP21I"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Eurovideo",
+  "brand_id": "eurovideo",
+  "streams": [
+    {
+      "id": "eurovideo-1",
+      "url": "live/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bx213d",
+        "d213d"
+      ]
+    }
+  ]
+}

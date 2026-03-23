@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dextel",
+  "brand_id": "dextel",
+  "streams": [
+    {
+      "id": "dextel-1",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Hobimtek 360"
+      ]
+    }
+  ]
+}

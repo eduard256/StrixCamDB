@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "E-view",
+  "brand_id": "e-view",
+  "streams": [
+    {
+      "id": "e-view-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WXH-056301-CFBFD"
+      ]
+    }
+  ]
+}

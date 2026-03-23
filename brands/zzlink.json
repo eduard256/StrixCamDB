@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zzlink",
+  "brand_id": "zzlink",
+  "streams": [
+    {
+      "id": "zzlink-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

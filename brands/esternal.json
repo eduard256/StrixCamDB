@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Esternal",
+  "brand_id": "esternal",
+  "streams": [
+    {
+      "id": "esternal-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "brevi"
+      ]
+    }
+  ]
+}

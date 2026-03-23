@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Lloyds",
+  "brand_id": "lloyds",
+  "streams": [
+    {
+      "id": "lloyds-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1107"
+      ]
+    },
+    {
+      "id": "lloyds-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LC-1110"
+      ]
+    }
+  ]
+}

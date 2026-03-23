@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Reel Tech",
+  "brand_id": "reel-tech",
+  "streams": [
+    {
+      "id": "reel-tech-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "realtech"
+      ]
+    },
+    {
+      "id": "reel-tech-2",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RT-732-200H"
+      ]
+    }
+  ]
+}

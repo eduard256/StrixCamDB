@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Camsafe",
+  "brand_id": "camsafe",
+  "streams": [
+    {
+      "id": "camsafe-1",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V25"
+      ]
+    }
+  ]
+}

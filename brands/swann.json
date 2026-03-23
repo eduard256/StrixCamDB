@@ -1,0 +1,1448 @@
+{
+  "version": 2,
+  "brand": "Swann",
+  "brand_id": "swann",
+  "streams": [
+    {
+      "id": "swann-1",
+      "url": "/Streaming/Channels/[CHANNEL+1]01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "swann-2",
+      "url": "/Streaming/Channels/[CHANNEL]01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "swann-3",
+      "url": "/Streaming/Channels/[CHANNEL+1]02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "swann-4",
+      "url": "/Streaming/Channels/[CHANNEL]02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "swann-5",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "005FTCD",
+        "440-IPC",
+        "ADS-440",
+        "ADS-440_VLC",
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-6",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "005FTCD",
+        "440",
+        "440-IPC",
+        "ADS-440",
+        "Other",
+        "SWADS-440-IPC"
+      ]
+    },
+    {
+      "id": "swann-7",
+      "url": "/ch04/1",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080msb",
+        "5580",
+        "swanncamHD 830",
+        "SWIFI-PTCAM2",
+        "swifi-spotcam",
+        "SWNHD-830CAM"
+      ]
+    },
+    {
+      "id": "swann-8",
+      "url": "/ch01/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080msb",
+        "1590",
+        "8580",
+        "875",
+        "885F",
+        "886",
+        "887 MSB",
+        "888",
+        "900pt",
+        "DV84780",
+        "DVR8-5580RN",
+        "DVR8-5680RN",
+        "NHD-865",
+        "NHD-865MSB",
+        "NHD-887FN",
+        "NHD-900BE",
+        "Other",
+        "swifi-4kflocam",
+        "SWIFI-FLOCAM2",
+        "SWIFI-FLOCAMB-AU"
+      ]
+    },
+    {
+      "id": "swann-9",
+      "url": "/ch02/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080msb",
+        "4575",
+        "885F",
+        "8ch 3MP NVR",
+        "DVR4-4500",
+        "DVR4-4580RN",
+        "DVR8-5580RN",
+        "DVR8-5680RN",
+        "NHD-887FN",
+        "NHD-887MSFB",
+        "NVR8-8580"
+      ]
+    },
+    {
+      "id": "swann-10",
+      "url": "live/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080p",
+        "880",
+        "Alertcam",
+        "ALERT-CAM",
+        "DVR 4680",
+        "floodLigth",
+        "NHD-850CAM",
+        "Other",
+        "SpotCAM",
+        "SWADS-446-CAM",
+        "SWADS-450-IPC",
+        "SWANHD-830",
+        "SWIFI",
+        "swifi-corecam",
+        "SWIFI-FLOCAM2",
+        "SWIFI-PTCAM2",
+        "SWNHD-800CAM",
+        "SWNHD-806CAM",
+        "SWNHD-820CAM",
+        "SWNHD-830CAM",
+        "SWWHD-FLOCAM",
+        "SWWHD-INTCAM-US",
+        "SWWHD-OUTCAM"
+      ]
+    },
+    {
+      "id": "swann-11",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "111WP",
+        "ip1000",
+        "Other",
+        "SW111-UIP",
+        "SW111-wip",
+        "SW111-WIP-21030"
+      ]
+    },
+    {
+      "id": "swann-12",
+      "url": "/ch07/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1590",
+        "875",
+        "DVR8-4900",
+        "NVR8-8580"
+      ]
+    },
+    {
+      "id": "swann-13",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2009"
+      ]
+    },
+    {
+      "id": "swann-14",
+      "url": "/ch06/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2KOCAM",
+        "DVR8 5580 RTSP",
+        "DVR8-4780",
+        "NVR8-8580",
+        "Other",
+        "SWIFI-2KOCAM",
+        "swifi-4kflocam",
+        "SWIFI-PTCAM2",
+        "swifi-spotcam",
+        "SWWHD-FLOCAM",
+        "SWWHD-INTCAM-AU"
+      ]
+    },
+    {
+      "id": "swann-15",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "440abaj",
+        "440-IPC",
+        "ADS-440",
+        "ADS440Other",
+        "ADS-440-PTZ",
+        "AJ-COWA-C116",
+        "Other",
+        "SWAD 440IPC",
+        "swads-440",
+        "SWADS-440IPC"
+      ]
+    },
+    {
+      "id": "swann-16",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "440-IPC",
+        "ADS-440",
+        "SWADS-440-IPC"
+      ]
+    },
+    {
+      "id": "swann-17",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "440-IPC",
+        "ADS-440",
+        "ADS-440-PTZ",
+        "Other",
+        "SWADS-440-IPC"
+      ]
+    },
+    {
+      "id": "swann-18",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "ADS-440",
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-19",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "440-IPC",
+        "ADS440",
+        "ADS-440-PTZ",
+        "Other",
+        "SWADS-440-IPC",
+        "SwannEye"
+      ]
+    },
+    {
+      "id": "swann-20",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "IP-3G",
+        "IP3G connect cam",
+        "Other",
+        "Other0",
+        "RTSP(TCP) DVR",
+        "SW111-UIP",
+        "SW111-WIP-21030"
+      ]
+    },
+    {
+      "id": "swann-21",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "440-IPC",
+        "540d04w",
+        "ADS-440",
+        "ADS-440_VLC",
+        "ADS-440-PTZ",
+        "Other",
+        "SWADS-440-IPC",
+        "SWADS-440-PTZ",
+        "SwannEye"
+      ]
+    },
+    {
+      "id": "swann-22",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "440",
+        "440-IPC-2",
+        "446-IPC",
+        "456",
+        "ADS446",
+        "ADS-446CAM",
+        "FloodCam",
+        "flood-Light",
+        "light",
+        "NHD-850CAM",
+        "nhd-851",
+        "Other",
+        "Outcam",
+        "RTSP(TCP) DVR",
+        "Spotcam",
+        "SVC01K",
+        "SWADS-446-CAM",
+        "SWADS-466CAM",
+        "SWIFI",
+        "SWIFI-ALERTCAM",
+        "SWIFI-FLOCAM2",
+        "SWIFI-SPOTCAM",
+        "SWWHD-OUTCAM"
+      ]
+    },
+    {
+      "id": "swann-23",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "max ip",
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-24",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440",
+        "440-IPC",
+        "ADS-440",
+        "ADS-440-PTZ"
+      ]
+    },
+    {
+      "id": "swann-25",
+      "url": "/h264Preview_01_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "440",
+        "446",
+        "460",
+        "470",
+        "470CAM",
+        "815",
+        "ADS-466CAM",
+        "N-470CAM",
+        "NHD-806",
+        "NVW-470CAM",
+        "Other",
+        "PAT160",
+        "SRNHD-815",
+        "SWIFI",
+        "Swifi-alertcam",
+        "SWIFI-PTCAM2",
+        "SWIFI-SPOTCAM",
+        "SWNHD-825CAM",
+        "SWNHD-830CAM",
+        "SWO-SVC02K",
+        "SWWHD-PTCAM",
+        "SWWHD-PTCAM160",
+        "SW-WIFIPT"
+      ]
+    },
+    {
+      "id": "swann-26",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4400"
+      ]
+    },
+    {
+      "id": "swann-27",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440-IPC",
+        "ADS-440",
+        "ADS-440-PTZ",
+        "SWADS-440-IPC"
+      ]
+    },
+    {
+      "id": "swann-28",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440-IPC",
+        "ADS-440",
+        "ADS-CAMAX1",
+        "Other",
+        "SWADS-440IPC",
+        "SWADS-466-CAM"
+      ]
+    },
+    {
+      "id": "swann-29",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440-IPC",
+        "ADS-440",
+        "Other",
+        "SWADS-440-IPC"
+      ]
+    },
+    {
+      "id": "swann-30",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440-IPC",
+        "ADS-440-PTZ",
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-31",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440-IPC"
+      ]
+    },
+    {
+      "id": "swann-32",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440-IPC",
+        "450",
+        "Other",
+        "SWNHD-825CAM"
+      ]
+    },
+    {
+      "id": "swann-33",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "440-IPC",
+        "450",
+        "ADS-440",
+        "ADS-450",
+        "Other",
+        "RTSP(TCP) DVR",
+        "SWADS-440-IPC",
+        "SWADS-450-IPC"
+      ]
+    },
+    {
+      "id": "swann-34",
+      "url": "/ch04/01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4480"
+      ]
+    },
+    {
+      "id": "swann-35",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4575",
+        "4860",
+        "885F",
+        "886",
+        "888",
+        "900pt",
+        "DVR4-4580RN",
+        "DVR8-1500",
+        "DVR8-4575",
+        "DVR8-4680",
+        "DVR8-5580",
+        "DVR8-5680RN",
+        "NHD 880",
+        "nhd-851",
+        "NHD-865",
+        "NHD-865MSB",
+        "NHD-886MSD",
+        "NHD-887",
+        "nhd-900be",
+        "NHD-900DE",
+        "SWIFI-FLOCAM2",
+        "SWIFI-SPOTCAM",
+        "SWNHD-888MSD-US",
+        "SW-WIFISPOTCAM"
+      ]
+    },
+    {
+      "id": "swann-36",
+      "url": "/ch03/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4575",
+        "DVR8-5680RN",
+        "NVR",
+        "NVR8-8580"
+      ]
+    },
+    {
+      "id": "swann-37",
+      "url": "/h264Preview_01_main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "460",
+        "815",
+        "818",
+        "entranc3",
+        "flood-Light",
+        "HD 815 3MP",
+        "HD-815",
+        "ipc-bo",
+        "NHD-806",
+        "NHD-850CAM",
+        "NHD-880",
+        "nvr16-7090",
+        "NVR-7200",
+        "ramce",
+        "Shed",
+        "SPOTCAM",
+        "SRNHD-815",
+        "SWIFI-SPOTCAM",
+        "SWNHD-806CAM",
+        "swnhd-816cam",
+        "SWNHD-825CAM",
+        "SWPTCAM",
+        "SWWHD-PTCAM",
+        "SW-WIFIPT",
+        "Xtreem"
+      ]
+    },
+    {
+      "id": "swann-38",
+      "url": "/ch02/1",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5580",
+        "885F",
+        "SWNHD-888MSD-US"
+      ]
+    },
+    {
+      "id": "swann-39",
+      "url": "/ch03/1",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5580",
+        "NHD-888N"
+      ]
+    },
+    {
+      "id": "swann-40",
+      "url": "/ch05/1",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5580"
+      ]
+    },
+    {
+      "id": "swann-41",
+      "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "887"
+      ]
+    },
+    {
+      "id": "swann-42",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ads440",
+        "ADS-CAMAX1",
+        "SWADS-440IPC-AU",
+        "SWANNEYE"
+      ]
+    },
+    {
+      "id": "swann-43",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADS440",
+        "SWADS-440-IPC"
+      ]
+    },
+    {
+      "id": "swann-44",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADS-440",
+        "ADS-440-PTZ"
+      ]
+    },
+    {
+      "id": "swann-45",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ADS-440-PTZ",
+        "ADS-446",
+        "DVR8-1500",
+        "DVR8-4900",
+        "NVR-7200",
+        "Other",
+        "SWADS-446-CAM",
+        "SWADS-456-CAM",
+        "SWADS-466CAM",
+        "SWANHD-830",
+        "Swifi",
+        "swifi-spotcam",
+        "swnhd 800cam",
+        "SWNHD-820CAM",
+        "SWNHD-825CAM",
+        "SWNHD-830CAM",
+        "SWO-SVC01K",
+        "SW-WIFIPT",
+        "SW-WIFISPOTCAM",
+        "WIFI-PT",
+        "XTREEM"
+      ]
+    },
+    {
+      "id": "swann-46",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ADS-440-PTZ",
+        "WIFI-PT"
+      ]
+    },
+    {
+      "id": "swann-47",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ADS-440-PTZ"
+      ]
+    },
+    {
+      "id": "swann-48",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADS-440-PTZ",
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-49",
+      "url": "MJPEG.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADS-440-PTZ"
+      ]
+    },
+    {
+      "id": "swann-50",
+      "url": "img/snapshot.cgi?img=vga",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADS-440-PTZ",
+        "SWADS-440IPC-AU"
+      ]
+    },
+    {
+      "id": "swann-51",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADS-450",
+        "WIFI-PT"
+      ]
+    },
+    {
+      "id": "swann-52",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADS-450"
+      ]
+    },
+    {
+      "id": "swann-53",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADS-CAMAX1",
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-54",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "AV8185DN"
+      ]
+    },
+    {
+      "id": "swann-55",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C3MPCAM",
+        "SWIFI-FLOCAM2",
+        "SWNHD-820CAM",
+        "SWWHD-OUTCAM",
+        "Wifi Spot Cam"
+      ]
+    },
+    {
+      "id": "swann-56",
+      "url": "/live/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DM-299",
+        "dvr8-4850v",
+        "Exir Bullet",
+        "NHD-836CAM",
+        "NHD-850CAM",
+        "nhd-851",
+        "NHD-865",
+        "Spotcam",
+        "SR-SVC01K",
+        "SWIFI",
+        "Swifi-alertcam",
+        "SWIFI-BUDDY",
+        "SWIFI-FLOCAM2",
+        "SWIFI-FLOCAM2W-EU",
+        "SWIFI-PTCAM232GB",
+        "swifi-spotcam",
+        "SWIFI-TRACKCM32GB",
+        "SWNHD-820CAM",
+        "SWO-SVC02K",
+        "SWWHD-FLOCAM",
+        "SWWHD-FLOCAM-US",
+        "SWWHD-INTCAM-US",
+        "Wifi Spot Cam"
+      ]
+    },
+    {
+      "id": "swann-57",
+      "url": "/ch00/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DV84780"
+      ]
+    },
+    {
+      "id": "swann-58",
+      "url": "/ch04/0",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DV8-4780",
+        "DVR8-4580V",
+        "DVR8-5580",
+        "HDDVR"
+      ]
+    },
+    {
+      "id": "swann-59",
+      "url": "/Streaming/Unicast/channels/401",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR W/ WEB PORT",
+        "DVR4-4500",
+        "DVR8-4500",
+        "DVR8-4900",
+        "SPCAM"
+      ]
+    },
+    {
+      "id": "swann-60",
+      "url": "/Streaming/Unicast/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR4",
+        "DVR8-4500"
+      ]
+    },
+    {
+      "id": "swann-61",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR4",
+        "Other",
+        "SWNHD-825CAM"
+      ]
+    },
+    {
+      "id": "swann-62",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "DVR4-720P",
+        "DVR8-1525",
+        "dvr8-4580g",
+        "dvr9-1425",
+        "nvr16-7090",
+        "NVR-7200",
+        "NVR8-7400",
+        "swann adw=410"
+      ]
+    },
+    {
+      "id": "swann-63",
+      "url": "/Streaming/Unicast/channels/201",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR8-4500",
+        "DVR8-4900"
+      ]
+    },
+    {
+      "id": "swann-64",
+      "url": "/ch08/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4500",
+        "DVR8-4580V"
+      ]
+    },
+    {
+      "id": "swann-65",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "DVR8-4580G",
+        "SWIFI-BUDDY",
+        "SWIFT-ALERTCAM",
+        "SWWHD-OUTCAM",
+        "SW-WIFISPOTCAM"
+      ]
+    },
+    {
+      "id": "swann-66",
+      "url": "/H264/ch1/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4580NR",
+        "DVR8-4580RN"
+      ]
+    },
+    {
+      "id": "swann-67",
+      "url": "/H264/ch1/sub/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4580RN"
+      ]
+    },
+    {
+      "id": "swann-68",
+      "url": "/H264/ch2/sub/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4580RN"
+      ]
+    },
+    {
+      "id": "swann-69",
+      "url": "/H264/ch3/sub/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4580RN"
+      ]
+    },
+    {
+      "id": "swann-70",
+      "url": "/H264/ch2/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4580RN"
+      ]
+    },
+    {
+      "id": "swann-71",
+      "url": "/H264/ch3/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4580RN"
+      ]
+    },
+    {
+      "id": "swann-72",
+      "url": "/H264/ch4/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4580RN"
+      ]
+    },
+    {
+      "id": "swann-73",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8282,
+      "models": [
+        "DVR8-4680xc8",
+        "SWIFI-ALERTCAM",
+        "SWWHD-INTCAM-AU",
+        "SWWHD-INTCAM-US",
+        "VDD16KATLD9BDJDG111A"
+      ]
+    },
+    {
+      "id": "swann-74",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-5580",
+        "Spotcam",
+        "Swann Buddy Video Doorbell",
+        "swifi spotcam",
+        "SWIFI-ALERTCAM-EU",
+        "SWIFI-SPOTCAM",
+        "SWWHD-INTCAM-US",
+        "WIFISPOTCAM"
+      ]
+    },
+    {
+      "id": "swann-75",
+      "url": "/ch06/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-5680RN",
+        "NVR8-8580"
+      ]
+    },
+    {
+      "id": "swann-76",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GS3500",
+        "OUTCAM",
+        "pro-t852CAM",
+        "SWADS456",
+        "SWIFI",
+        "swifi spotcam",
+        "SWIFI-ALERTCAM",
+        "swifi-spotcam",
+        "SWWHD-OUTCAM",
+        "Wifi Spot Cam"
+      ]
+    },
+    {
+      "id": "swann-77",
+      "url": "/cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP-3g ConnectCamm 3000"
+      ]
+    },
+    {
+      "id": "swann-78",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NHD 880",
+        "Other",
+        "SWADS-446-CAM"
+      ]
+    },
+    {
+      "id": "swann-79",
+      "url": "/rtsp/streaming?channel=6&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NHD-1200BE"
+      ]
+    },
+    {
+      "id": "swann-80",
+      "url": "/index.html?",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "NHD-887"
+      ]
+    },
+    {
+      "id": "swann-81",
+      "url": "/rtsp/streaming?channel=8&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NHD-900BE"
+      ]
+    },
+    {
+      "id": "swann-82",
+      "url": "/rtsp/streaming?channel=11&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NHD-900PT"
+      ]
+    },
+    {
+      "id": "swann-83",
+      "url": "/Streaming/Channel1/102",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "nvr16-7090"
+      ]
+    },
+    {
+      "id": "swann-84",
+      "url": "/Camera%201/Channel1/1",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "nvr16-7090",
+        "SWIFI-PTCAM2"
+      ]
+    },
+    {
+      "id": "swann-85",
+      "url": "/live/h264/HD1080P",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "swifi-spotcam",
+        "SWWHD-OUTCAM"
+      ]
+    },
+    {
+      "id": "swann-86",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SWK-2550"
+      ]
+    },
+    {
+      "id": "swann-87",
+      "url": "stillimg[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-88",
+      "url": "Getvideo.cgi?Cookie=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-89",
+      "url": "cgi-bin/Stream?Video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-90",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-91",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-92",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-93",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-94",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SWADS-446-CAM",
+        "SWADS-466-CAM",
+        "swifi-spotcam"
+      ]
+    },
+    {
+      "id": "swann-95",
+      "url": "[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "RTSP(TCP) DVR"
+      ]
+    },
+    {
+      "id": "swann-96",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-97",
+      "url": "/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "SWADS-440UIPC"
+      ]
+    },
+    {
+      "id": "swann-98",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SWADS-446-CAM",
+        "SWO-SVC02K",
+        "SWWHD-OUTCAM"
+      ]
+    },
+    {
+      "id": "swann-99",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "7-12",
+        "8ch 3MP NVR",
+        "dv8-3425",
+        "DVR w/ Web Port",
+        "DVR W/ WEB PORT",
+        "DVR4 4350",
+        "DVR8",
+        "DVR8-4900",
+        "DVR8-8050",
+        "DVR8-8075",
+        "HDR8050",
+        "lv-9808",
+        "NHD-850CAM",
+        "NHH-880CAM",
+        "nvr16-7090",
+        "NVR-7200",
+        "Other",
+        "SWIFI-FLOCAM2",
+        "swifi-spotcam",
+        "SWIFI-XTRCAM",
+        "SWWHD-OUTCAM",
+        "T855"
+      ]
+    },
+    {
+      "id": "swann-100",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "880",
+        "DVR4 4350",
+        "DVR8-1500",
+        "DVR8-1525",
+        "DVR8-4500",
+        "DVR8-4900",
+        "HDR8050",
+        "lv-9808",
+        "NHD-850CAM",
+        "nvr16-7090",
+        "NVR-7200",
+        "Other",
+        "SPOTCAM",
+        "WIFI-PT"
+      ]
+    },
+    {
+      "id": "swann-101",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR W/ WEB PORT",
+        "DVR4 4350",
+        "DVR8-8075",
+        "lv-9808",
+        "Other"
+      ]
+    },
+    {
+      "id": "swann-102",
+      "url": "/Streaming/Channels/701",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR-1500"
+      ]
+    },
+    {
+      "id": "swann-103",
+      "url": "/Streaming/Channels/601",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR-1500"
+      ]
+    },
+    {
+      "id": "swann-104",
+      "url": "/Streaming/Channels/301",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR8-4500"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Concord",
+  "brand_id": "concord",
+  "streams": [
+    {
+      "id": "concord-1",
+      "url": "/ch01/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5mp",
+        "CNC5IDP-A",
+        "CNC5IDP-V2",
+        "CNC8IBP-A",
+        "CNCK",
+        "floodlight"
+      ]
+    },
+    {
+      "id": "concord-2",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CDC5ABP-A",
+        "CNC5IBP-A",
+        "CNC5IDP-A",
+        "CNC5IDP-V2",
+        "CNC8IBPFA-V2",
+        "CNC8IDP-A",
+        "Concord 1080P",
+        "Concord 4K",
+        "RS-CM-317D"
+      ]
+    }
+  ]
+}

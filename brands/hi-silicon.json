@@ -1,0 +1,113 @@
+{
+  "version": 2,
+  "brand": "Hi Silicon",
+  "brand_id": "hi-silicon",
+  "streams": [
+    {
+      "id": "hi-silicon-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3158",
+        "3518",
+        "B18EV200HX",
+        "HI3516C",
+        "NB-XVR-80N08T-LME"
+      ]
+    },
+    {
+      "id": "hi-silicon-2",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "50H20L",
+        "HI3516C",
+        "Other"
+      ]
+    },
+    {
+      "id": "hi-silicon-3",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HI 3507"
+      ]
+    },
+    {
+      "id": "hi-silicon-4",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Hi3516c"
+      ]
+    },
+    {
+      "id": "hi-silicon-5",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HI3516C"
+      ]
+    },
+    {
+      "id": "hi-silicon-6",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HI3516C"
+      ]
+    },
+    {
+      "id": "hi-silicon-7",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Hi3518E"
+      ]
+    },
+    {
+      "id": "hi-silicon-8",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "IPDOME"
+      ]
+    },
+    {
+      "id": "hi-silicon-9",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TC98"
+      ]
+    },
+    {
+      "id": "hi-silicon-10",
+      "url": "/user=_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TC98"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Breno",
+  "brand_id": "breno",
+  "streams": [
+    {
+      "id": "breno-1",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

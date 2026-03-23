@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Saphire",
+  "brand_id": "saphire",
+  "streams": [
+    {
+      "id": "saphire-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SF-IPCV025-2"
+      ]
+    }
+  ]
+}

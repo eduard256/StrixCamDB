@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Nihon",
+  "brand_id": "nihon",
+  "streams": [
+    {
+      "id": "nihon-1",
+      "url": "/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "wnipt40n"
+      ]
+    },
+    {
+      "id": "nihon-2",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WNIPT40N"
+      ]
+    }
+  ]
+}

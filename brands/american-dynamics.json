@@ -1,0 +1,245 @@
+{
+  "version": 2,
+  "brand": "American Dynamics",
+  "brand_id": "american-dynamics",
+  "streams": [
+    {
+      "id": "american-dynamics-1",
+      "url": "live1.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "410",
+        "610",
+        "Other"
+      ]
+    },
+    {
+      "id": "american-dynamics-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5105DN"
+      ]
+    },
+    {
+      "id": "american-dynamics-3",
+      "url": "/primarystream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "610",
+        "ADCI400-D033",
+        "i600",
+        "I610",
+        "i610-D321-150500000344",
+        "illustra 600",
+        "illustra 610",
+        "Other"
+      ]
+    },
+    {
+      "id": "american-dynamics-4",
+      "url": "dms",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "610",
+        "ADCi400-D021",
+        "ADCI400-D023",
+        "ADCI400-D033",
+        "Illustr400",
+        "Illustrai400",
+        "IP Indoor Mini dome",
+        "Other"
+      ]
+    },
+    {
+      "id": "american-dynamics-5",
+      "url": "ipcam/jpegcif.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "610",
+        "acdi610-d021",
+        "ADCi210-D011",
+        "ADCI400-D023",
+        "ILLUSTR400",
+        "illustra 600",
+        "ILLUSTRA 610"
+      ]
+    },
+    {
+      "id": "american-dynamics-6",
+      "url": "/Video?Codec=MPEG4&Width=720&Height=576&Fps=30",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "625",
+        "ADVEIPSD22N"
+      ]
+    },
+    {
+      "id": "american-dynamics-7",
+      "url": "/live2.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ADCi400-D023"
+      ]
+    },
+    {
+      "id": "american-dynamics-8",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ADCi400-D033"
+      ]
+    },
+    {
+      "id": "american-dynamics-9",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ADCIPE37120",
+        "VideoEdge"
+      ]
+    },
+    {
+      "id": "american-dynamics-10",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ILLUSTRA 600",
+        "ILLUSTRA 610"
+      ]
+    },
+    {
+      "id": "american-dynamics-11",
+      "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ILLUSTRA 600",
+        "ILLUSTRA ADCI-M-111"
+      ]
+    },
+    {
+      "id": "american-dynamics-12",
+      "url": "ipcam/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ILLUSTRA 600",
+        "ILLUSTRA 610",
+        "Other"
+      ]
+    },
+    {
+      "id": "american-dynamics-13",
+      "url": "/ufirststream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Illustra ADCi-M-111"
+      ]
+    },
+    {
+      "id": "american-dynamics-14",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "indoor dome"
+      ]
+    },
+    {
+      "id": "american-dynamics-15",
+      "url": "now.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Indoor Mini dome"
+      ]
+    },
+    {
+      "id": "american-dynamics-16",
+      "url": "/Video",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ipdome"
+      ]
+    },
+    {
+      "id": "american-dynamics-17",
+      "url": "nvc-cgi/operator/snapshot.fcgi?channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "american-dynamics-18",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "american-dynamics-19",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "american-dynamics-20",
+      "url": "operator/get_jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "american-dynamics-21",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Kayodo",
+  "brand_id": "kayodo",
+  "streams": [
+    {
+      "id": "kayodo-1",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2Mp",
+        "KYD-IPD200M"
+      ]
+    }
+  ]
+}

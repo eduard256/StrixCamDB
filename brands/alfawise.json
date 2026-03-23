@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Alfawise",
+  "brand_id": "alfawise",
+  "streams": [
+    {
+      "id": "alfawise-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "alfa",
+        "ONVVIF"
+      ]
+    }
+  ]
+}

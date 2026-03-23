@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Dmp",
+  "brand_id": "dmp",
+  "streams": [
+    {
+      "id": "dmp-1",
+      "url": "img/video.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OC-810"
+      ]
+    },
+    {
+      "id": "dmp-2",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OtOC810",
+        "RC8021"
+      ]
+    },
+    {
+      "id": "dmp-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8021"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ait",
+  "brand_id": "ait",
+  "streams": [
+    {
+      "id": "ait-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

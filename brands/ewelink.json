@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ewelink",
+  "brand_id": "ewelink",
+  "streams": [
+    {
+      "id": "ewelink-1",
+      "url": "/av_stream/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

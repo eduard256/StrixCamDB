@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Seecam",
+  "brand_id": "seecam",
+  "streams": [
+    {
+      "id": "seecam-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HS-6100-HD1"
+      ]
+    }
+  ]
+}

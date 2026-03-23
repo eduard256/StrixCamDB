@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Skyfield",
+  "brand_id": "skyfield",
+  "streams": [
+    {
+      "id": "skyfield-1",
+      "url": "/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "DE3117"
+      ]
+    }
+  ]
+}

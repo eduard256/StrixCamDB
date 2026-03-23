@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Epson",
+  "brand_id": "epson",
+  "streams": [
+    {
+      "id": "epson-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Moverio"
+      ]
+    }
+  ]
+}

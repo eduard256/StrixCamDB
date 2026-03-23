@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "brand": "Kavass",
+  "brand_id": "kavass",
+  "streams": [
+    {
+      "id": "kavass-1",
+      "url": "/cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "clg-020"
+      ]
+    },
+    {
+      "id": "kavass-2",
+      "url": "/cgi-bin/net_video.cgi?channel=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "CLG-020"
+      ]
+    },
+    {
+      "id": "kavass-3",
+      "url": "/videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "CLG-020"
+      ]
+    },
+    {
+      "id": "kavass-4",
+      "url": "/videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "CLG-020",
+        "CLG-080"
+      ]
+    },
+    {
+      "id": "kavass-5",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CLG-080",
+        "CLG-A211M13",
+        "CLG-A371M13",
+        "CLG-A611M1",
+        "KAVAS",
+        "Other"
+      ]
+    },
+    {
+      "id": "kavass-6",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CLG-A212"
+      ]
+    },
+    {
+      "id": "kavass-7",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=[CHANNEL].sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CLG-A611M1",
+        "CLG-C1",
+        "Other",
+        "Other - JB"
+      ]
+    },
+    {
+      "id": "kavass-8",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CLG-QY120WDEP"
+      ]
+    },
+    {
+      "id": "kavass-9",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KAVAS"
+      ]
+    },
+    {
+      "id": "kavass-10",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Other?"
+      ]
+    },
+    {
+      "id": "kavass-11",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kavass-12",
+      "url": "SnapshotJPEG?Resolution=320x240",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

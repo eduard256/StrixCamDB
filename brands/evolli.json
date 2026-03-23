@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Evolli",
+  "brand_id": "evolli",
+  "streams": [
+    {
+      "id": "evolli-1",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "5050"
+      ]
+    },
+    {
+      "id": "evolli-2",
+      "url": "/user=admin_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "5050"
+      ]
+    },
+    {
+      "id": "evolli-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "5050"
+      ]
+    },
+    {
+      "id": "evolli-4",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "5050"
+      ]
+    }
+  ]
+}

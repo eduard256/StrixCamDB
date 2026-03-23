@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "brand": "Dvs-ip-cam",
+  "brand_id": "dvs-ip-cam",
+  "streams": [
+    {
+      "id": "dvs-ip-cam-1",
+      "url": "/:554",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2028HT"
+      ]
+    },
+    {
+      "id": "dvs-ip-cam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "20xx",
+        "DVS",
+        "FULLHD"
+      ]
+    },
+    {
+      "id": "dvs-ip-cam-3",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVS"
+      ]
+    },
+    {
+      "id": "dvs-ip-cam-4",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVS",
+        "FULLHD",
+        "Other",
+        "OUTDOOR/IR"
+      ]
+    },
+    {
+      "id": "dvs-ip-cam-5",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dvs-ip-cam-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Outdoor/IR"
+      ]
+    }
+  ]
+}

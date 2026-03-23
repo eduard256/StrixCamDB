@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "brand": "Bionics",
+  "brand_id": "bionics",
+  "streams": [
+    {
+      "id": "bionics-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c7824wip",
+        "Robo2",
+        "robocam2"
+      ]
+    },
+    {
+      "id": "bionics-2",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DOMEH264"
+      ]
+    },
+    {
+      "id": "bionics-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Robo2",
+        "ROBOCAM 3",
+        "robocam2",
+        "ROBOT3"
+      ]
+    },
+    {
+      "id": "bionics-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "ROBOCAM 4",
+        "t6892wp"
+      ]
+    },
+    {
+      "id": "bionics-5",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Robo2"
+      ]
+    },
+    {
+      "id": "bionics-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Robocam 4"
+      ]
+    },
+    {
+      "id": "bionics-7",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ROBOCAM 4",
+        "SAFECAM 4",
+        "safecam4",
+        "UNLISTED",
+        "WXH-118320-DCEEE"
+      ]
+    },
+    {
+      "id": "bionics-8",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Robocam5 (ninos)",
+        "T6892WP"
+      ]
+    },
+    {
+      "id": "bionics-9",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Safe cam 5"
+      ]
+    }
+  ]
+}

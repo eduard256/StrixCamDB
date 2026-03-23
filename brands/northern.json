@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Northern",
+  "brand_id": "northern",
+  "streams": [
+    {
+      "id": "northern-1",
+      "url": "/snl/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP4"
+      ]
+    },
+    {
+      "id": "northern-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP4",
+        "NTH-IP3W",
+        "nth-ip4w"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Benyuan",
+  "brand_id": "benyuan",
+  "streams": [
+    {
+      "id": "benyuan-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bn-hip100hcvl/ir"
+      ]
+    },
+    {
+      "id": "benyuan-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BN-HIP200HDV-IR"
+      ]
+    }
+  ]
+}

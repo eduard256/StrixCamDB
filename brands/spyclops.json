@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Spyclops",
+  "brand_id": "spyclops",
+  "streams": [
+    {
+      "id": "spyclops-1",
+      "url": "/snap.jpg?JpegCam=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "NVR"
+      ]
+    },
+    {
+      "id": "spyclops-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "spy-mnbltwip5",
+        "SPY-MNDMWIP4"
+      ]
+    }
+  ]
+}

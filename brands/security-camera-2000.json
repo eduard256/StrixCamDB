@@ -1,0 +1,100 @@
+{
+  "version": 2,
+  "brand": "Security Camera 2000",
+  "brand_id": "security-camera-2000",
+  "streams": [
+    {
+      "id": "security-camera-2000-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4MP"
+      ]
+    },
+    {
+      "id": "security-camera-2000-2",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MP"
+      ]
+    },
+    {
+      "id": "security-camera-2000-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "bosch"
+      ]
+    },
+    {
+      "id": "security-camera-2000-4",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPQ-2367XL6"
+      ]
+    },
+    {
+      "id": "security-camera-2000-5",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPQ-2385XPOE",
+        "Other",
+        "SKU-IPQ-2385X"
+      ]
+    },
+    {
+      "id": "security-camera-2000-6",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "neye3c"
+      ]
+    },
+    {
+      "id": "security-camera-2000-7",
+      "url": "snapshot/view[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SKU-IPQW-2283X"
+      ]
+    },
+    {
+      "id": "security-camera-2000-8",
+      "url": "[CHANNEL]/1:1/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "security-camera-2000-9",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SKU-IPQW-2367X"
+      ]
+    }
+  ]
+}

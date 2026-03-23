@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ev3c",
+  "brand_id": "ev3c",
+  "streams": [
+    {
+      "id": "ev3c-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ev3c-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SV-B07W-1080P-HX"
+      ]
+    }
+  ]
+}

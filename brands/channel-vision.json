@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Channel Vision",
+  "brand_id": "channel-vision",
+  "streams": [
+    {
+      "id": "channel-vision-1",
+      "url": "/v2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6521",
+        "SC565w"
+      ]
+    },
+    {
+      "id": "channel-vision-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6554",
+        "6564",
+        "Other"
+      ]
+    }
+  ]
+}

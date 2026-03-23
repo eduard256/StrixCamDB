@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Motion",
+  "brand_id": "motion",
+  "streams": [
+    {
+      "id": "motion-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "4.0",
+        "LogitechUSB",
+        "raspberrypi"
+      ]
+    },
+    {
+      "id": "motion-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

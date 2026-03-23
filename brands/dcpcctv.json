@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dcpcctv",
+  "brand_id": "dcpcctv",
+  "streams": [
+    {
+      "id": "dcpcctv-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DS-2CD1023"
+      ]
+    }
+  ]
+}

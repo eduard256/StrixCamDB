@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dentech",
+  "brand_id": "dentech",
+  "streams": [
+    {
+      "id": "dentech-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ-LR"
+      ]
+    }
+  ]
+}

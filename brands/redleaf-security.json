@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Redleaf Security",
+  "brand_id": "redleaf-security",
+  "streams": [
+    {
+      "id": "redleaf-security-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DF-2011",
+        "Other"
+      ]
+    },
+    {
+      "id": "redleaf-security-2",
+      "url": "media/video1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

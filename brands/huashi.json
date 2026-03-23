@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Huashi",
+  "brand_id": "huashi",
+  "streams": [
+    {
+      "id": "huashi-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "p2p"
+      ]
+    }
+  ]
+}

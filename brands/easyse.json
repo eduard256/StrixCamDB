@@ -1,0 +1,209 @@
+{
+  "version": 2,
+  "brand": "Easyse",
+  "brand_id": "easyse",
+  "streams": [
+    {
+      "id": "easyse-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F/B/N/I",
+        "H2",
+        "M1",
+        "M2",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-2",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F/B/N/I"
+      ]
+    },
+    {
+      "id": "easyse-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F/B/N/I",
+        "M2",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-4",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F/B/N/I",
+        "H2",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-5",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F/B/N/I",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-6",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F/B/N/I",
+        "H2",
+        "M2",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-7",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F/B/N/I",
+        "M2"
+      ]
+    },
+    {
+      "id": "easyse-8",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F/B/N/I",
+        "H3",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-9",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H2",
+        "M2"
+      ]
+    },
+    {
+      "id": "easyse-10",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H2",
+        "H3"
+      ]
+    },
+    {
+      "id": "easyse-11",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H3",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-12",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H3",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-13",
+      "url": "live_h264.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H3e"
+      ]
+    },
+    {
+      "id": "easyse-14",
+      "url": "snapshot.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H3e",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-15",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H3e",
+        "Other"
+      ]
+    },
+    {
+      "id": "easyse-16",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H3e"
+      ]
+    },
+    {
+      "id": "easyse-17",
+      "url": "H264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H3e"
+      ]
+    },
+    {
+      "id": "easyse-18",
+      "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M1",
+        "M2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Prestel",
+  "brand_id": "prestel",
+  "streams": [
+    {
+      "id": "prestel-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "420ip"
+      ]
+    },
+    {
+      "id": "prestel-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD-PTZ8IP"
+      ]
+    }
+  ]
+}

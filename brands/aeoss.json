@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Aeoss",
+  "brand_id": "aeoss",
+  "streams": [
+    {
+      "id": "aeoss-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "610W",
+        "Other"
+      ]
+    },
+    {
+      "id": "aeoss-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BS-200W",
+        "BW-200W",
+        "srr",
+        "Vision BW-200"
+      ]
+    },
+    {
+      "id": "aeoss-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Eos PTZ-100W",
+        "J6358"
+      ]
+    },
+    {
+      "id": "aeoss-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "J6358"
+      ]
+    },
+    {
+      "id": "aeoss-5",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "J6358"
+      ]
+    },
+    {
+      "id": "aeoss-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "J6358"
+      ]
+    }
+  ]
+}

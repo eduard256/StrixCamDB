@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Hamlet",
+  "brand_id": "hamlet",
+  "streams": [
+    {
+      "id": "hamlet-1",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hnipc30w",
+        "Other"
+      ]
+    }
+  ]
+}

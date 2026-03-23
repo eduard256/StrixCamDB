@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Sovmiku",
+  "brand_id": "sovmiku",
+  "streams": [
+    {
+      "id": "sovmiku-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "SFWS318"
+      ]
+    },
+    {
+      "id": "sovmiku-2",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SFWS318"
+      ]
+    }
+  ]
+}

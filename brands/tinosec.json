@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "brand": "Tinosec",
+  "brand_id": "tinosec",
+  "streams": [
+    {
+      "id": "tinosec-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DomeIPCAM",
+        "IPC-BT5025C",
+        "IPC-BT513S",
+        "IPC-DM06WV-2.0",
+        "TC-BT635"
+      ]
+    },
+    {
+      "id": "tinosec-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-BT511SW",
+        "IPC-BT619W",
+        "IPC-Z10B"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "version": 2,
+  "brand": "Srihome",
+  "brand_id": "srihome",
+  "streams": [
+    {
+      "id": "srihome-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "0004",
+        "511WA",
+        "RLC-511 WA",
+        "S024",
+        "sh024",
+        "sh025",
+        "SH026"
+      ]
+    },
+    {
+      "id": "srihome-2",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "031",
+        "S024",
+        "sh024",
+        "sh025",
+        "sh029"
+      ]
+    },
+    {
+      "id": "srihome-3",
+      "url": "/cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "E1A3000-W",
+        "S024",
+        "sh024",
+        "sh025",
+        "sh029",
+        "SH030"
+      ]
+    },
+    {
+      "id": "srihome-4",
+      "url": "/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "HD-IPC",
+        "Other",
+        "S025",
+        "SH020",
+        "SH021",
+        "SH025",
+        "SH029",
+        "SH032",
+        "SH034",
+        "SH035",
+        "SH039",
+        "SH041",
+        "sh052",
+        "SH20",
+        "SHO21",
+        "SP028",
+        "sp030"
+      ]
+    },
+    {
+      "id": "srihome-5",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "RoHS",
+        "SH 28",
+        "sh024",
+        "SH026",
+        "SH027",
+        "SH028",
+        "SH035",
+        "SH25",
+        "SHO24",
+        "SHO26",
+        "srihome sh028"
+      ]
+    },
+    {
+      "id": "srihome-6",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "sh024",
+        "SH028"
+      ]
+    },
+    {
+      "id": "srihome-7",
+      "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "sh024",
+        "SH024"
+      ]
+    },
+    {
+      "id": "srihome-8",
+      "url": "/onvif-stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "SH025",
+        "SH029",
+        "SH036",
+        "sh038",
+        "SH038",
+        "SH038-4MP",
+        "SH039B",
+        "SH20",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "srihome-9",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "SH029"
+      ]
+    },
+    {
+      "id": "srihome-10",
+      "url": "/cam5/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "srihome sh028"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Doma",
+  "brand_id": "doma",
+  "streams": [
+    {
+      "id": "doma-1",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Cotier",
+        "TV-631W/IP",
+        "v380"
+      ]
+    }
+  ]
+}

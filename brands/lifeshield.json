@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Lifeshield",
+  "brand_id": "lifeshield",
+  "streams": [
+    {
+      "id": "lifeshield-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RC8221",
+        "rs221"
+      ]
+    },
+    {
+      "id": "lifeshield-2",
+      "url": "/img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "RCM811LS"
+      ]
+    }
+  ]
+}

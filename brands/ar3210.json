@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ar3210",
+  "brand_id": "ar3210",
+  "streams": [
+    {
+      "id": "ar3210-1",
+      "url": "/Onvif/Streaming/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8557,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

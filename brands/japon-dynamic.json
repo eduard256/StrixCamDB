@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Japon Dynamic",
+  "brand_id": "japon-dynamic",
+  "streams": [
+    {
+      "id": "japon-dynamic-1",
+      "url": "/SubStream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1.3"
+      ]
+    }
+  ]
+}

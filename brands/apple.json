@@ -1,0 +1,238 @@
+{
+  "version": 2,
+  "brand": "Apple",
+  "brand_id": "apple",
+  "streams": [
+    {
+      "id": "apple-1",
+      "url": "live?codec=mjpeg&camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3GS",
+        "ipad",
+        "iPad 2",
+        "iPad Air",
+        "iphone 4",
+        "iPhone 4 CDMA",
+        "iPhone 4S",
+        "iphone 5",
+        "iPhone 5S",
+        "iphone 6",
+        "Iphone4",
+        "iPod",
+        "Other"
+      ]
+    },
+    {
+      "id": "apple-2",
+      "url": "live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3GS",
+        "Iphone",
+        "IPHONE 4",
+        "IPHONE 6",
+        "IPHONE 6 PLUS",
+        "Iphone4",
+        "iphone6",
+        "iPod"
+      ]
+    },
+    {
+      "id": "apple-3",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "iipad",
+        "ipad",
+        "iphone 5"
+      ]
+    },
+    {
+      "id": "apple-4",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "iipas",
+        "iphone 6"
+      ]
+    },
+    {
+      "id": "apple-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "ipad"
+      ]
+    },
+    {
+      "id": "apple-6",
+      "url": "live?camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPAD 2",
+        "iphone",
+        "iphone1",
+        "IPHONE6",
+        "iPhone7"
+      ]
+    },
+    {
+      "id": "apple-7",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ipad Air",
+        "iPhone 4",
+        "IPHONE 4 CDMA",
+        "iPhone 4S",
+        "iPhone 5",
+        "iPhone 6 Plus",
+        "iPhone3",
+        "IPHONE6",
+        "IPOD",
+        "macbook",
+        "Other"
+      ]
+    },
+    {
+      "id": "apple-8",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "IP-CAM-APP",
+        "iphone 7",
+        "Other"
+      ]
+    },
+    {
+      "id": "apple-9",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "iphone",
+        "iphone 4",
+        "Other"
+      ]
+    },
+    {
+      "id": "apple-10",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "iPhone",
+        "iPhone 4",
+        "IPHONE 4S",
+        "iPhone 6",
+        "iPhone SE",
+        "Other"
+      ]
+    },
+    {
+      "id": "apple-11",
+      "url": "/live?codec=mjpeg&camera=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "iphone 4",
+        "iphone se"
+      ]
+    },
+    {
+      "id": "apple-12",
+      "url": "cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPHONE 4",
+        "iphone3",
+        "Ipod"
+      ]
+    },
+    {
+      "id": "apple-13",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "iPhone 4S"
+      ]
+    },
+    {
+      "id": "apple-14",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "iphone 5",
+        "IPHONE 5S",
+        "iPhone 8"
+      ]
+    },
+    {
+      "id": "apple-15",
+      "url": "image.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPHONE 5"
+      ]
+    },
+    {
+      "id": "apple-16",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPHONE 5S",
+        "Sony"
+      ]
+    },
+    {
+      "id": "apple-17",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "iphone 6"
+      ]
+    },
+    {
+      "id": "apple-18",
+      "url": "out.jpg?id=0.5",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

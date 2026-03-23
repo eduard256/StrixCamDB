@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Firetruck",
+  "brand_id": "firetruck",
+  "streams": [
+    {
+      "id": "firetruck-1",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N99102"
+      ]
+    }
+  ]
+}

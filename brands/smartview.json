@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Smartview",
+  "brand_id": "smartview",
+  "streams": [
+    {
+      "id": "smartview-1",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "thd2410A",
+        "The2410a"
+      ]
+    }
+  ]
+}

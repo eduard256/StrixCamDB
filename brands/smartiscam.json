@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "brand": "Smartiscam",
+  "brand_id": "smartiscam",
+  "streams": [
+    {
+      "id": "smartiscam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080p",
+        "Bullett",
+        "HD-701",
+        "PanTilt",
+        "Spinner"
+      ]
+    },
+    {
+      "id": "smartiscam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullett",
+        "Spinner"
+      ]
+    },
+    {
+      "id": "smartiscam-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "h.264"
+      ]
+    }
+  ]
+}

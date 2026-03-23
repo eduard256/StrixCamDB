@@ -1,0 +1,952 @@
+{
+  "version": 2,
+  "brand": "Annke",
+  "brand_id": "annke",
+  "streams": [
+    {
+      "id": "annke-1",
+      "url": "/Streaming/Channels/[CHANNEL+1]01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "annke-2",
+      "url": "/Streaming/Channels/[CHANNEL]01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "annke-3",
+      "url": "/Streaming/Channels/[CHANNEL+1]02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "annke-4",
+      "url": "/Streaming/Channels/[CHANNEL]02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "annke-5",
+      "url": "/bubble/live?ch={channel}&stream=0",
+      "type": "BUBBLE",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "NVR",
+        "DVR",
+        "H.264",
+        "H.265",
+        "HiSilicon",
+        "Other"
+      ],
+      "notes": "Bubble Protocol - main stream (works with go2rtc bubble:// source)"
+    },
+    {
+      "id": "annke-6",
+      "url": "/bubble/live?ch={channel}&stream=1",
+      "type": "BUBBLE",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "NVR",
+        "DVR",
+        "H.264",
+        "H.265",
+        "HiSilicon",
+        "Other"
+      ],
+      "notes": "Bubble Protocol - sub stream (lower quality)"
+    },
+    {
+      "id": "annke-7",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "cheap p-t",
+        "C1200",
+        "C500 (I51DL)",
+        "i51el",
+        "NCD8000"
+      ]
+    },
+    {
+      "id": "annke-8",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080p",
+        "141CS",
+        "171gp",
+        "i41fl"
+      ]
+    },
+    {
+      "id": "annke-9",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "1080P",
+        "131m",
+        "141cs",
+        "141CS TJF",
+        "151dj",
+        "151DM",
+        "151DS",
+        "151EH",
+        "191BF",
+        "191BL",
+        "2MP",
+        "4MP BULLET",
+        "AC500",
+        "C1DSP",
+        "C500",
+        "c800",
+        "FCD600",
+        "FFMPEG H.264",
+        "H264",
+        "Hi3518E-IP",
+        "I51DL",
+        "I51DM",
+        "i51DS",
+        "I51DW",
+        "I51DX",
+        "I51EC",
+        "I51EG",
+        "I51EH",
+        "i61dq",
+        "I61DR",
+        "I61DU",
+        "i61fb",
+        "I91BF",
+        "I91BH",
+        "I91BL",
+        "I91DB",
+        "I91F",
+        "l21G",
+        "NC400 (I81HC)",
+        "NC800",
+        "NOVA S",
+        "NP41F1P",
+        "Other",
+        "OTHER 2",
+        "TURRET CAMERA",
+        "w300"
+      ]
+    },
+    {
+      "id": "annke-10",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "1080P",
+        "141CW",
+        "191BF",
+        "191BL",
+        "5mp",
+        "720p",
+        "Back Porch",
+        "c500",
+        "c800",
+        "C800-4k",
+        "DL81A",
+        "DL81A1t",
+        "DN41R",
+        "DN81R",
+        "dvr",
+        "DVR",
+        "FFMPEG OTHER",
+        "i21ae",
+        "i21G",
+        "I41G",
+        "I51DM",
+        "i51DS",
+        "I91BF",
+        "I91BL",
+        "l91BL",
+        "N44SU",
+        "NP41F1P",
+        "Other",
+        "POE",
+        "POEcustom",
+        "Turret Camera",
+        "Upper Side Yard",
+        "VIEW"
+      ]
+    },
+    {
+      "id": "annke-11",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "131v",
+        "2mp",
+        "2MP",
+        "720P",
+        "Apoo",
+        "DE41g",
+        "DL81A",
+        "DVR",
+        "H264",
+        "I21DE",
+        "I21G",
+        "I31V",
+        "i41ec",
+        "i71gd",
+        "K9504",
+        "K9604-W",
+        "N34WDB+I31DB",
+        "n441l",
+        "N44WBD1T",
+        "NVR",
+        "Other"
+      ]
+    },
+    {
+      "id": "annke-12",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "131V",
+        "141 fl",
+        "CES",
+        "i31",
+        "I31V",
+        "i41",
+        "I4iDG",
+        "JPG",
+        "l31v"
+      ]
+    },
+    {
+      "id": "annke-13",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "131V",
+        "141CW",
+        "141gd",
+        "171gp",
+        "2MP",
+        "I21v",
+        "I23EB",
+        "i41fl",
+        "IPC",
+        "l31v"
+      ]
+    },
+    {
+      "id": "annke-14",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "141CS",
+        "151DE",
+        "151DM",
+        "161fc",
+        "181HD",
+        "191BF",
+        "191BM",
+        "191DB",
+        "AC500",
+        "ANNKE 4MP PoE",
+        "C500",
+        "c800",
+        "CZ400",
+        "FCD600",
+        "I51DF",
+        "I51DX",
+        "I61BK",
+        "I61DS",
+        "I81HB",
+        "I81HD",
+        "i91be",
+        "I91BF",
+        "I91BL",
+        "I91BN",
+        "I91BQ",
+        "I91DH",
+        "l61fc",
+        "NC400 (I81HC)",
+        "Other",
+        "P01",
+        "PO1",
+        "POE",
+        "sumo"
+      ]
+    },
+    {
+      "id": "annke-15",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "141CW",
+        "AK-N48PIA0-68DT",
+        "de81g",
+        "DL81A",
+        "DVR",
+        "POE"
+      ]
+    },
+    {
+      "id": "annke-16",
+      "url": "cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "141CW"
+      ]
+    },
+    {
+      "id": "annke-17",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "141gd",
+        "151DE",
+        "I51DE",
+        "I51DF",
+        "I51DL",
+        "i51dm",
+        "i91bn",
+        "I91DH",
+        "NC400 (I81HC)",
+        "NVR"
+      ]
+    },
+    {
+      "id": "annke-18",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "151",
+        "151de",
+        "151DM",
+        "4k POE Turret",
+        "4K Turret",
+        "4MP BULLET",
+        "C800",
+        "CZ400",
+        "I19BN",
+        "I51DM",
+        "I51DN",
+        "I51ds",
+        "I51ES",
+        "I61DR",
+        "I91BF",
+        "I91BL",
+        "I91BM",
+        "I91BN",
+        "I91dn",
+        "NOVA S",
+        "Other",
+        "p10",
+        "POE",
+        "TURRET CAMERA"
+      ]
+    },
+    {
+      "id": "annke-19",
+      "url": "/H264/ch1/sub/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "151CK",
+        "151DM",
+        "C800-4k",
+        "I51CK",
+        "I51DX",
+        "Other",
+        "WZ500"
+      ]
+    },
+    {
+      "id": "annke-20",
+      "url": "/H264/ch1/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "151CK",
+        "191BL",
+        "DW81KD",
+        "I51DN",
+        "I51EH",
+        "I91DS",
+        "NOVA S",
+        "Turret Camera",
+        "WS500",
+        "WZ500",
+        "WZ504"
+      ]
+    },
+    {
+      "id": "annke-21",
+      "url": "/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "151DM",
+        "I91BQ",
+        "l51DS"
+      ]
+    },
+    {
+      "id": "annke-22",
+      "url": "/Streaming/Channels/102/?transportmode=unicast.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "151DQ",
+        "191BV",
+        "i51dm",
+        "NVR"
+      ]
+    },
+    {
+      "id": "annke-23",
+      "url": "/Streaming/Channels/101/?transportmode=unicast.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "151DQ",
+        "191BV",
+        "i51dm",
+        "I91BN"
+      ]
+    },
+    {
+      "id": "annke-24",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=[USERNAME]_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "191BE",
+        "DVR"
+      ]
+    },
+    {
+      "id": "annke-25",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "191bk",
+        "191BL",
+        "c500",
+        "C800-4K",
+        "CZ400",
+        "I19BM",
+        "I51DS",
+        "I91BF",
+        "I91BQ",
+        "isb92",
+        "l51DL",
+        "l91BL",
+        "l91bm",
+        "l91bn",
+        "Pano360 Pro",
+        "Turret",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "annke-26",
+      "url": "/onvif2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "191BL",
+        "I91DS",
+        "Pano360 Pro"
+      ]
+    },
+    {
+      "id": "annke-27",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2MP",
+        "i21an"
+      ]
+    },
+    {
+      "id": "annke-28",
+      "url": "/cam2/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "4k Turret",
+        "c500",
+        "C800",
+        "I91BN"
+      ]
+    },
+    {
+      "id": "annke-29",
+      "url": "/Streaming/Unicast/channels/501",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720P",
+        "DN61R",
+        "DN81R",
+        "DVR",
+        "Other",
+        "View"
+      ]
+    },
+    {
+      "id": "annke-30",
+      "url": "/H265/ch1/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ACZ800"
+      ]
+    },
+    {
+      "id": "annke-31",
+      "url": "/H265/ch1/sub/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ACZ800"
+      ]
+    },
+    {
+      "id": "annke-32",
+      "url": "/user=[USERNAME]_Chayse01April=tlJwpbo6_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "c800",
+        "I91DS"
+      ]
+    },
+    {
+      "id": "annke-33",
+      "url": "/user=[USERNAME]_password=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "c800"
+      ]
+    },
+    {
+      "id": "annke-34",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C800-4k",
+        "FCD600",
+        "I81EM",
+        "I91BL",
+        "I91BN",
+        "NCPT500"
+      ]
+    },
+    {
+      "id": "annke-35",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Dan",
+        "I41GD"
+      ]
+    },
+    {
+      "id": "annke-36",
+      "url": "/Streaming/Unicast/channels/401",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DN81R",
+        "DVR",
+        "H264",
+        "Other",
+        "View"
+      ]
+    },
+    {
+      "id": "annke-37",
+      "url": "PSIA/Streaming/channels/[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "dt81dx"
+      ]
+    },
+    {
+      "id": "annke-38",
+      "url": "/cgi-bin/snapshot.cgi?chn=4&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "dvr"
+      ]
+    },
+    {
+      "id": "annke-39",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "h264",
+        "NP41F1P"
+      ]
+    },
+    {
+      "id": "annke-40",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=&stream=.sdp?real_stream--rtp-caching=100",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Hi3518E-IP"
+      ]
+    },
+    {
+      "id": "annke-41",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "I21eb"
+      ]
+    },
+    {
+      "id": "annke-42",
+      "url": "/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I51DL",
+        "NC800"
+      ]
+    },
+    {
+      "id": "annke-43",
+      "url": "/h265_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I51DL"
+      ]
+    },
+    {
+      "id": "annke-44",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I51DM",
+        "I91BN"
+      ]
+    },
+    {
+      "id": "annke-45",
+      "url": "/h264/0/sub/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I51DS"
+      ]
+    },
+    {
+      "id": "annke-46",
+      "url": "/h264/0/main/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I51DS"
+      ]
+    },
+    {
+      "id": "annke-47",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=2.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I51EG"
+      ]
+    },
+    {
+      "id": "annke-48",
+      "url": "/cgi/mjpg/mjpeg.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "I61G"
+      ]
+    },
+    {
+      "id": "annke-49",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "i91bf"
+      ]
+    },
+    {
+      "id": "annke-50",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I91BN"
+      ]
+    },
+    {
+      "id": "annke-51",
+      "url": "/user=admin_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "I91DQ"
+      ]
+    },
+    {
+      "id": "annke-52",
+      "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "annke-53",
+      "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "K8208-W"
+      ]
+    },
+    {
+      "id": "annke-54",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "N48PAW"
+      ]
+    },
+    {
+      "id": "annke-55",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NCD800",
+        "WZ500"
+      ]
+    },
+    {
+      "id": "annke-56",
+      "url": "/snapshot.jpg?",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "annke-57",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "POE"
+      ]
+    },
+    {
+      "id": "annke-58",
+      "url": "/h264/ch1/main/av_stream",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "vc500"
+      ]
+    },
+    {
+      "id": "annke-59",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "141CS",
+        "151DB",
+        "151de",
+        "151dj",
+        "151DM",
+        "191BS",
+        "2MP",
+        "4MP Bullet",
+        "4MP DOME",
+        "720P",
+        "AC500",
+        "AK-N48PIA0-68DT",
+        "c500",
+        "C800",
+        "DE81GB",
+        "DN41R",
+        "DN81R",
+        "DVR",
+        "DW81KD",
+        "i15dx",
+        "i51dm",
+        "I51DS",
+        "I51DX",
+        "I61BK",
+        "I61DR",
+        "I61FC",
+        "I61G",
+        "I91BD",
+        "I91BF",
+        "I91BM",
+        "I91F",
+        "l51DM",
+        "N481Y",
+        "N48PI",
+        "NC400",
+        "NC800",
+        "NCPT500",
+        "Other",
+        "P01",
+        "POE",
+        "VIEW"
+      ]
+    },
+    {
+      "id": "annke-60",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "191BS",
+        "AC500",
+        "c800",
+        "C800-4k",
+        "I51DX",
+        "I91BF",
+        "NC800"
+      ]
+    },
+    {
+      "id": "annke-61",
+      "url": "/Streaming/channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "191df"
+      ]
+    },
+    {
+      "id": "annke-62",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "191df"
+      ]
+    },
+    {
+      "id": "annke-63",
+      "url": "/Streaming/Channels/201",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR"
+      ]
+    }
+  ]
+}

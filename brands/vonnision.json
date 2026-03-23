@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Vonnision",
+  "brand_id": "vonnision",
+  "streams": [
+    {
+      "id": "vonnision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "7963",
+        "VS-IP305BRWM5"
+      ]
+    },
+    {
+      "id": "vonnision-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VS-IP2082RWMS"
+      ]
+    }
+  ]
+}

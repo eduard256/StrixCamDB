@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Photonisvip",
+  "brand_id": "photonisvip",
+  "streams": [
+    {
+      "id": "photonisvip-1",
+      "url": "/videoinput_1:0/h264_1/onvif.stm",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OurCam"
+      ]
+    }
+  ]
+}

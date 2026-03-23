@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "brand": "Dynacolor",
+  "brand_id": "dynacolor",
+  "streams": [
+    {
+      "id": "dynacolor-1",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2.0L-E3-BO2-IR",
+        "AKVATEK",
+        "nh-070",
+        "nh-073",
+        "NH820",
+        "Other",
+        "W3A2-6",
+        "xos7-j"
+      ]
+    },
+    {
+      "id": "dynacolor-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "L08EE"
+      ]
+    },
+    {
+      "id": "dynacolor-3",
+      "url": "h264_2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dynacolor-4",
+      "url": "jpeg",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dynacolor-5",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "dynacolor-6",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P2V6-5"
+      ]
+    },
+    {
+      "id": "dynacolor-7",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "R2SD-G"
+      ]
+    },
+    {
+      "id": "dynacolor-8",
+      "url": "/cam0/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "W2v1"
+      ]
+    }
+  ]
+}

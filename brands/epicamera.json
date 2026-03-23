@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Epicamera",
+  "brand_id": "epicamera",
+  "streams": [
+    {
+      "id": "epicamera-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1000"
+      ]
+    },
+    {
+      "id": "epicamera-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DCL-F980A"
+      ]
+    },
+    {
+      "id": "epicamera-3",
+      "url": "img/media.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICONNECT"
+      ]
+    }
+  ]
+}

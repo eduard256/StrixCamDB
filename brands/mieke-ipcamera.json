@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Mieke Ipcamera",
+  "brand_id": "mieke-ipcamera",
+  "streams": [
+    {
+      "id": "mieke-ipcamera-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mieke-ipcamera-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mieke-ipcamera-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 6554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mieke-ipcamera-4",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Tablet"
+      ]
+    }
+  ]
+}

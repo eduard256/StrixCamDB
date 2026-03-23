@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Av40185dn-cd",
+  "brand_id": "av40185dn-cd",
+  "streams": [
+    {
+      "id": "av40185dn-cd-1",
+      "url": "/h264.sdp4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "av40185dn"
+      ]
+    }
+  ]
+}

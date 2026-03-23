@@ -1,0 +1,369 @@
+{
+  "version": 2,
+  "brand": "Digitus",
+  "brand_id": "digitus",
+  "streams": [
+    {
+      "id": "digitus-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "16036",
+        "16037",
+        "16037:WIFI",
+        "16040",
+        "16044",
+        "DN 16027",
+        "DN 16035",
+        "DN 16037",
+        "DN 16039",
+        "dn-16036",
+        "DN-16038",
+        "dn16040",
+        "DN-16040",
+        "DN-16044",
+        "DN-1608",
+        "Optidome",
+        "OPTIZOOM",
+        "Other",
+        "PSCAM"
+      ]
+    },
+    {
+      "id": "digitus-2",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "16037"
+      ]
+    },
+    {
+      "id": "digitus-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "16040",
+        "DN 16027",
+        "DN 16037",
+        "DN 16039",
+        "dn-16036",
+        "DN-16038",
+        "dn-16039",
+        "DN-16040",
+        "DN-16043",
+        "DN-16044",
+        "Other",
+        "slc"
+      ]
+    },
+    {
+      "id": "digitus-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "16048",
+        "16049",
+        "DN 16047",
+        "DN 16049",
+        "DN-16029",
+        "DN-16038",
+        "DN-16039",
+        "DN-16039R2",
+        "DN-16040",
+        "DN-16043",
+        "DN-16046",
+        "DN-16047",
+        "dn16048",
+        "MoBa 01",
+        "MoBa 02",
+        "MoBa 03"
+      ]
+    },
+    {
+      "id": "digitus-5",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "16054",
+        "DN-16027",
+        "DN-16053",
+        "DN-16055",
+        "DN-16071",
+        "DN-16082",
+        "DN-16083",
+        "IP Camera Garten",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-6",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN 16034",
+        "DN-16025"
+      ]
+    },
+    {
+      "id": "digitus-7",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN 16035",
+        "DN-16023",
+        "DN-16026",
+        "DN-16043",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-8",
+      "url": "ipcam_h264.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DN 16035"
+      ]
+    },
+    {
+      "id": "digitus-9",
+      "url": "goform/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16004",
+        "DN-16005",
+        "DN-16025",
+        "DN-16030",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-10",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DN-16005",
+        "DN-16069",
+        "DN-16071",
+        "DN-16083",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-11",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16024",
+        "DN-16025",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-12",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16025",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-13",
+      "url": "live/mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16025",
+        "DN-16026",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-14",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16026",
+        "DN-16028",
+        "dn-16036",
+        "oneway"
+      ]
+    },
+    {
+      "id": "digitus-15",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16026"
+      ]
+    },
+    {
+      "id": "digitus-16",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16026"
+      ]
+    },
+    {
+      "id": "digitus-17",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16027",
+        "DN-16028"
+      ]
+    },
+    {
+      "id": "digitus-18",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16028"
+      ]
+    },
+    {
+      "id": "digitus-19",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16029"
+      ]
+    },
+    {
+      "id": "digitus-20",
+      "url": "_gCVimage.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16030"
+      ]
+    },
+    {
+      "id": "digitus-21",
+      "url": "/video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "DN-16032"
+      ]
+    },
+    {
+      "id": "digitus-22",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DN-16036",
+        "dn-16039r2",
+        "DN-16043",
+        "DN-16046"
+      ]
+    },
+    {
+      "id": "digitus-23",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DN-16047",
+        "DN-16053",
+        "DN-16071",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-24",
+      "url": "/live/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DN-16063",
+        "DN-16082"
+      ]
+    },
+    {
+      "id": "digitus-25",
+      "url": "live/h264/ch[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DN-1608",
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-26",
+      "url": "/live/video/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 88,
+      "models": [
+        "DN-16084"
+      ]
+    },
+    {
+      "id": "digitus-27",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "digitus-28",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

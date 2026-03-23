@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Digma",
+  "brand_id": "digma",
+  "streams": [
+    {
+      "id": "digma-1",
+      "url": "snapshot.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100"
+      ]
+    },
+    {
+      "id": "digma-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DiVision1000"
+      ]
+    }
+  ]
+}

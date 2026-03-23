@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Redline",
+  "brand_id": "redline",
+  "streams": [
+    {
+      "id": "redline-1",
+      "url": "img/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3008"
+      ]
+    }
+  ]
+}

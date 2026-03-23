@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Amsecu",
+  "brand_id": "amsecu",
+  "streams": [
+    {
+      "id": "amsecu-1",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CA-IP-D28R"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Agptek",
+  "brand_id": "agptek",
+  "streams": [
+    {
+      "id": "agptek-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V20"
+      ]
+    }
+  ]
+}

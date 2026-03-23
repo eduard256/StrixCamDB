@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "brand": "Tuya",
+  "brand_id": "tuya",
+  "streams": [
+    {
+      "id": "tuya-1",
+      "url": "/stream_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 6554,
+      "models": [
+        "AK8743",
+        "China Spy",
+        "Kerui",
+        "lsc"
+      ]
+    },
+    {
+      "id": "tuya-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Fesh",
+        "LF-C1D",
+        "Other"
+      ]
+    },
+    {
+      "id": "tuya-3",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "smart"
+      ]
+    },
+    {
+      "id": "tuya-4",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SRG-007"
+      ]
+    }
+  ]
+}

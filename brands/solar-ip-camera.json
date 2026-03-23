@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "brand": "Solar Ip Camera",
+  "brand_id": "solar-ip-camera",
+  "streams": [
+    {
+      "id": "solar-ip-camera-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "122334",
+        "1234",
+        "344556",
+        "3455",
+        "6KT",
+        "ggakh"
+      ]
+    },
+    {
+      "id": "solar-ip-camera-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3455",
+        "425"
+      ]
+    },
+    {
+      "id": "solar-ip-camera-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "solar-ip-camera-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

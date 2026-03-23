@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bwa",
+  "brand_id": "bwa",
+  "streams": [
+    {
+      "id": "bwa-1",
+      "url": "cgi-bin/mjpegstream?cam=[CHANNEL]&single=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DiREX-Pro DVR"
+      ]
+    },
+    {
+      "id": "bwa-2",
+      "url": "cgi-bin/mjpegstream?cam=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DiREX-Pro DVR"
+      ]
+    }
+  ]
+}

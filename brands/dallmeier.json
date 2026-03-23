@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Dallmeier",
+  "brand_id": "dallmeier",
+  "streams": [
+    {
+      "id": "dallmeier-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DF4910HD-DN",
+        "DF5140HD",
+        "MDF4220HD"
+      ]
+    },
+    {
+      "id": "dallmeier-2",
+      "url": "encoder[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

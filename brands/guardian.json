@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Guardian",
+  "brand_id": "guardian",
+  "streams": [
+    {
+      "id": "guardian-1",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1013",
+        "2MP"
+      ]
+    },
+    {
+      "id": "guardian-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IMX",
+        "IMX323",
+        "IMX333"
+      ]
+    }
+  ]
+}

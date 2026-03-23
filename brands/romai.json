@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Romai",
+  "brand_id": "romai",
+  "streams": [
+    {
+      "id": "romai-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CL201"
+      ]
+    }
+  ]
+}

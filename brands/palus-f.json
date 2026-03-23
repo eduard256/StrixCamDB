@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Palus-f",
+  "brand_id": "palus-f",
+  "streams": [
+    {
+      "id": "palus-f-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

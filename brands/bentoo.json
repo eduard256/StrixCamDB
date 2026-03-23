@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bentoo",
+  "brand_id": "bentoo",
+  "streams": [
+    {
+      "id": "bentoo-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P2P-ICP-720P"
+      ]
+    }
+  ]
+}

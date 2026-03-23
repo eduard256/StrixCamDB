@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Yotex",
+  "brand_id": "yotex",
+  "streams": [
+    {
+      "id": "yotex-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "200",
+        "Other"
+      ]
+    },
+    {
+      "id": "yotex-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Hs Ip Camera",
+  "brand_id": "hs-ip-camera",
+  "streams": [
+    {
+      "id": "hs-ip-camera-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Agter"
+      ]
+    },
+    {
+      "id": "hs-ip-camera-2",
+      "url": "/cam/realmonitor?channel=0&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LD-P2P-2"
+      ]
+    },
+    {
+      "id": "hs-ip-camera-3",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "YCW608FCZ49EA"
+      ]
+    },
+    {
+      "id": "hs-ip-camera-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "YCW608FCZ49EA"
+      ]
+    }
+  ]
+}

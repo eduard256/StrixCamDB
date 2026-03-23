@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fostar",
+  "brand_id": "fostar",
+  "streams": [
+    {
+      "id": "fostar-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 88,
+      "models": [
+        "FC2501P"
+      ]
+    }
+  ]
+}

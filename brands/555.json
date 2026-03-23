@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "555",
+  "brand_id": "555",
+  "streams": [
+    {
+      "id": "555-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

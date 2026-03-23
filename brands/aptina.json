@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "brand": "Aptina",
+  "brand_id": "aptina",
+  "streams": [
+    {
+      "id": "aptina-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "9P006"
+      ]
+    },
+    {
+      "id": "aptina-2",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "9P006"
+      ]
+    },
+    {
+      "id": "aptina-3",
+      "url": "snapshot/view[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ARR0331",
+        "MT9M034"
+      ]
+    },
+    {
+      "id": "aptina-4",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ARR0331"
+      ]
+    },
+    {
+      "id": "aptina-5",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10888,
+      "models": [
+        "GXV3662HD"
+      ]
+    }
+  ]
+}

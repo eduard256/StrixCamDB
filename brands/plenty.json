@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "brand": "Plenty",
+  "brand_id": "plenty",
+  "streams": [
+    {
+      "id": "plenty-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c50 pro",
+        "C50-PRO",
+        "IP-J03",
+        "IP-J03-KS"
+      ]
+    },
+    {
+      "id": "plenty-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-J03",
+        "IP-J03-KS",
+        "IP-J03-WS",
+        "IP-J05-WS",
+        "Other"
+      ]
+    },
+    {
+      "id": "plenty-3",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-J03",
+        "IP-J03-KS",
+        "IP-J03-WS",
+        "IP-T03-KS",
+        "Other"
+      ]
+    },
+    {
+      "id": "plenty-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-J03"
+      ]
+    },
+    {
+      "id": "plenty-5",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-J03-KS",
+        "IP-J03-WS",
+        "IP-J05-WS"
+      ]
+    },
+    {
+      "id": "plenty-6",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-J03-WS",
+        "J03"
+      ]
+    },
+    {
+      "id": "plenty-7",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-J03-WS"
+      ]
+    },
+    {
+      "id": "plenty-8",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

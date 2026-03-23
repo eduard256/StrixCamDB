@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Helios",
+  "brand_id": "helios",
+  "streams": [
+    {
+      "id": "helios-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2n",
+        "IP Force",
+        "IP FORCE",
+        "IP Vario"
+      ]
+    },
+    {
+      "id": "helios-2",
+      "url": "/mjpeg_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-54-1190-0554"
+      ]
+    }
+  ]
+}

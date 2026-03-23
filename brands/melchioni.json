@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Melchioni",
+  "brand_id": "melchioni",
+  "streams": [
+    {
+      "id": "melchioni-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "pinhole"
+      ]
+    }
+  ]
+}

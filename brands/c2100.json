@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "C2100",
+  "brand_id": "c2100",
+  "streams": [
+    {
+      "id": "c2100-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2rmo",
+        "Altan",
+        "camera1",
+        "CHUNGA",
+        "Other",
+        "tapo",
+        "Tapo C200",
+        "Tapo-c200",
+        "TPL"
+      ]
+    },
+    {
+      "id": "c2100-2",
+      "url": "/ONVIF/channel1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Acam"
+      ]
+    },
+    {
+      "id": "c2100-3",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "c100",
+        "c210",
+        "TPlink"
+      ]
+    },
+    {
+      "id": "c2100-4",
+      "url": "/stream8",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "c200"
+      ]
+    }
+  ]
+}

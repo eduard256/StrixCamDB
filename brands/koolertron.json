@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Koolertron",
+  "brand_id": "koolertron",
+  "streams": [
+    {
+      "id": "koolertron-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SP-SHEX21-SL"
+      ]
+    },
+    {
+      "id": "koolertron-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other",
+        "PnP",
+        "SP-SHEX21-SL"
+      ]
+    },
+    {
+      "id": "koolertron-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SP-SHEX21-SL"
+      ]
+    },
+    {
+      "id": "koolertron-4",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SP-SHEX21-SL"
+      ]
+    }
+  ]
+}

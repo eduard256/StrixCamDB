@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Chint",
+  "brand_id": "chint",
+  "streams": [
+    {
+      "id": "chint-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

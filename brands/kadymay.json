@@ -1,0 +1,182 @@
+{
+  "version": 2,
+  "brand": "Kadymay",
+  "brand_id": "kadymay",
+  "streams": [
+    {
+      "id": "kadymay-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "791WL",
+        "KDM-6708AL",
+        "KDM-6821A",
+        "Other"
+      ]
+    },
+    {
+      "id": "kadymay-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8506",
+        "Other"
+      ]
+    },
+    {
+      "id": "kadymay-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FishEye",
+        "kdm-8715d"
+      ]
+    },
+    {
+      "id": "kadymay-4",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "KDM"
+      ]
+    },
+    {
+      "id": "kadymay-5",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KDM6700"
+      ]
+    },
+    {
+      "id": "kadymay-6",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KDM6702"
+      ]
+    },
+    {
+      "id": "kadymay-7",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KDM6702",
+        "KDM-6800",
+        "KMD-6800",
+        "Other"
+      ]
+    },
+    {
+      "id": "kadymay-8",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KDM-6706AL",
+        "Other"
+      ]
+    },
+    {
+      "id": "kadymay-9",
+      "url": "vdata.v",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KDM-6742H"
+      ]
+    },
+    {
+      "id": "kadymay-10",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KDM-6821A",
+        "Other"
+      ]
+    },
+    {
+      "id": "kadymay-11",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KDM-6821A",
+        "KDM-6828A",
+        "KDM-6836A",
+        "Other"
+      ]
+    },
+    {
+      "id": "kadymay-12",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KDM-6828A",
+        "KDM-6836A",
+        "Other"
+      ]
+    },
+    {
+      "id": "kadymay-13",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "KDM-6853A"
+      ]
+    },
+    {
+      "id": "kadymay-14",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KDM-A103"
+      ]
+    },
+    {
+      "id": "kadymay-15",
+      "url": "snap.jpg?JpegSize=M",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "kadymay-16",
+      "url": "cgi-bin/sf.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

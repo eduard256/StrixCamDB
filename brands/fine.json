@@ -1,0 +1,154 @@
+{
+  "version": 2,
+  "brand": "Fine",
+  "brand_id": "fine",
+  "streams": [
+    {
+      "id": "fine-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3 mega",
+        "MDH",
+        "MH802DN",
+        "MHDB",
+        "MHDN",
+        "Other",
+        "tcp-irh5040c",
+        "TCP-VM559WI"
+      ]
+    },
+    {
+      "id": "fine-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ACM-V3002",
+        "cdv-3vm301",
+        "fine3000",
+        "fine3002",
+        "RH5",
+        "TCP-HFB1080D"
+      ]
+    },
+    {
+      "id": "fine-3",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ACM-V3002",
+        "ACM-V3002-1"
+      ]
+    },
+    {
+      "id": "fine-4",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ACM-V3002",
+        "Other",
+        "rfg",
+        "tcp-irh5040c"
+      ]
+    },
+    {
+      "id": "fine-5",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cb-100"
+      ]
+    },
+    {
+      "id": "fine-6",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FINE_X",
+        "Other"
+      ]
+    },
+    {
+      "id": "fine-7",
+      "url": "channel2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fine-8",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fine-9",
+      "url": "screen.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fine-10",
+      "url": "v2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fine-11",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fine-12",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "fine-13",
+      "url": "/s1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TCP-VM501"
+      ]
+    }
+  ]
+}

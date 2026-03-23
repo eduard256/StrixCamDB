@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Smarttec",
+  "brand_id": "smarttec",
+  "streams": [
+    {
+      "id": "smarttec-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "smarttec-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ptz p9"
+      ]
+    }
+  ]
+}

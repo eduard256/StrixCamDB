@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wtw Tsukamoto",
+  "brand_id": "wtw-tsukamoto",
+  "streams": [
+    {
+      "id": "wtw-tsukamoto-1",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "WTW-IPC"
+      ]
+    }
+  ]
+}

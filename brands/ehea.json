@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ehea",
+  "brand_id": "ehea",
+  "streams": [
+    {
+      "id": "ehea-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "fss"
+      ]
+    }
+  ]
+}

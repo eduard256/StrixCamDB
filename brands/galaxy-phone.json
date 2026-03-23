@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Galaxy Phone",
+  "brand_id": "galaxy-phone",
+  "streams": [
+    {
+      "id": "galaxy-phone-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "700",
+        "note 3"
+      ]
+    }
+  ]
+}

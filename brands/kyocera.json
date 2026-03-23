@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "brand": "Kyocera",
+  "brand_id": "kyocera",
+  "streams": [
+    {
+      "id": "kyocera-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c6725",
+        "event",
+        "hydro1",
+        "Phone",
+        "POS",
+        "rise",
+        "Wave"
+      ]
+    }
+  ]
+}

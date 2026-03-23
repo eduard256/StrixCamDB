@@ -1,0 +1,195 @@
+{
+  "version": 2,
+  "brand": "Guudgo",
+  "brand_id": "guudgo",
+  "streams": [
+    {
+      "id": "guudgo-1",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720p"
+      ]
+    },
+    {
+      "id": "guudgo-2",
+      "url": "/0/av1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BANGOOD",
+        "C-P08-10",
+        "SC-03",
+        "sc-2",
+        "v380",
+        "VT380"
+      ]
+    },
+    {
+      "id": "guudgo-3",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BANGOOD",
+        "GD-SC03",
+        "SC-03"
+      ]
+    },
+    {
+      "id": "guudgo-4",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C-P08-10",
+        "GD-SC11 960P",
+        "v380"
+      ]
+    },
+    {
+      "id": "guudgo-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GD -SC11",
+        "GD01",
+        "GD-SC01",
+        "GD-sc03",
+        "SC03"
+      ]
+    },
+    {
+      "id": "guudgo-6",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GD01",
+        "gd-sc01"
+      ]
+    },
+    {
+      "id": "guudgo-7",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GD-SC01"
+      ]
+    },
+    {
+      "id": "guudgo-8",
+      "url": "/cam0/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "GD-sc03",
+        "Other",
+        "Tuya"
+      ]
+    },
+    {
+      "id": "guudgo-9",
+      "url": "/onvif-stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GD-SC11 960P",
+        "SC-03"
+      ]
+    },
+    {
+      "id": "guudgo-10",
+      "url": "/live/ch01_0:554",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H265"
+      ]
+    },
+    {
+      "id": "guudgo-11",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HD 1080P E27"
+      ]
+    },
+    {
+      "id": "guudgo-12",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HD 1080P E27"
+      ]
+    },
+    {
+      "id": "guudgo-13",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SC01"
+      ]
+    },
+    {
+      "id": "guudgo-14",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SC-03"
+      ]
+    },
+    {
+      "id": "guudgo-15",
+      "url": "/onvif-stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SD-01",
+        "v380"
+      ]
+    },
+    {
+      "id": "guudgo-16",
+      "url": "/live/ch00_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "V380pro"
+      ]
+    },
+    {
+      "id": "guudgo-17",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V380pro"
+      ]
+    }
+  ]
+}

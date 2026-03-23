@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jvt",
+  "brand_id": "jvt",
+  "streams": [
+    {
+      "id": "jvt-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

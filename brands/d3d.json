@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "D3d",
+  "brand_id": "d3d",
+  "streams": [
+    {
+      "id": "d3d-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8801",
+        "8809",
+        "8810",
+        "8862",
+        "D8801",
+        "D8810",
+        "Other",
+        "TH661"
+      ]
+    },
+    {
+      "id": "d3d-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8810",
+        "D8810"
+      ]
+    },
+    {
+      "id": "d3d-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D3D T8801",
+        "JPT3815W-HD",
+        "T8801"
+      ]
+    },
+    {
+      "id": "d3d-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D6022Y"
+      ]
+    },
+    {
+      "id": "d3d-5",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Camerawelt",
+  "brand_id": "camerawelt",
+  "streams": [
+    {
+      "id": "camerawelt-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5MP POE IP Cam"
+      ]
+    }
+  ]
+}

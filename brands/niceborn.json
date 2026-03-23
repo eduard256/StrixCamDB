@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Niceborn",
+  "brand_id": "niceborn",
+  "streams": [
+    {
+      "id": "niceborn-1",
+      "url": "/streamtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BabyMonitor"
+      ]
+    }
+  ]
+}

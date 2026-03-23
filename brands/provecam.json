@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Provecam",
+  "brand_id": "provecam",
+  "streams": [
+    {
+      "id": "provecam-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ip2521"
+      ]
+    },
+    {
+      "id": "provecam-2",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP2521"
+      ]
+    },
+    {
+      "id": "provecam-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP2521"
+      ]
+    },
+    {
+      "id": "provecam-4",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP2521"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "Goclever",
+  "brand_id": "goclever",
+  "streams": [
+    {
+      "id": "goclever-1",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "EYE"
+      ]
+    },
+    {
+      "id": "goclever-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "EYE",
+        "EYE2"
+      ]
+    },
+    {
+      "id": "goclever-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "EYE"
+      ]
+    },
+    {
+      "id": "goclever-4",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "Eye2",
+        "Nanny"
+      ]
+    },
+    {
+      "id": "goclever-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "EYE2"
+      ]
+    }
+  ]
+}

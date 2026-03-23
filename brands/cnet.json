@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Cnet",
+  "brand_id": "cnet",
+  "streams": [
+    {
+      "id": "cnet-1",
+      "url": "vdata.v",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CIC-920W"
+      ]
+    },
+    {
+      "id": "cnet-2",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CIC-930w"
+      ]
+    },
+    {
+      "id": "cnet-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CIC-930W"
+      ]
+    },
+    {
+      "id": "cnet-4",
+      "url": "cgi-bin/getimage.cgi?motion=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CIC-930W"
+      ]
+    }
+  ]
+}

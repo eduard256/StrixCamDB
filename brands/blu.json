@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Blu",
+  "brand_id": "blu",
+  "streams": [
+    {
+      "id": "blu-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "bluipandroid"
+      ]
+    },
+    {
+      "id": "blu-2",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Studio X 5.5"
+      ]
+    }
+  ]
+}

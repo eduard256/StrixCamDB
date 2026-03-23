@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Airtop",
+  "brand_id": "airtop",
+  "streams": [
+    {
+      "id": "airtop-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AT-LIR400"
+      ]
+    }
+  ]
+}

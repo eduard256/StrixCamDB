@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Goldnet",
+  "brand_id": "goldnet",
+  "streams": [
+    {
+      "id": "goldnet-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RT-5176"
+      ]
+    }
+  ]
+}

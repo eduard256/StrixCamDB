@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "Commend",
+  "brand_id": "commend",
+  "streams": [
+    {
+      "id": "commend-1",
+      "url": "3.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Duetto",
+        "EE980CM"
+      ]
+    },
+    {
+      "id": "commend-2",
+      "url": "/mjpeg/video.mjpg?resolution=1280x960&fps=15",
+      "type": "MJPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "ID5"
+      ]
+    },
+    {
+      "id": "commend-3",
+      "url": "video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Intercom Client",
+        "TS8110V"
+      ]
+    },
+    {
+      "id": "commend-4",
+      "url": "mjpeg/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WS-300"
+      ]
+    },
+    {
+      "id": "commend-5",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WS-CM"
+      ]
+    }
+  ]
+}

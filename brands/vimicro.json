@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "brand": "Vimicro",
+  "brand_id": "vimicro",
+  "streams": [
+    {
+      "id": "vimicro-1",
+      "url": "cgi/sf.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1002",
+        "Other",
+        "VC0568",
+        "VS-IPC1002"
+      ]
+    },
+    {
+      "id": "vimicro-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vimicro-3",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vimicro-4",
+      "url": "cgi-bin/sf.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VC305",
+        "VS-IPC1002"
+      ]
+    },
+    {
+      "id": "vimicro-5",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vimicro-6",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "vimicro-7",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VIN-IP-L14-96IB36"
+      ]
+    },
+    {
+      "id": "vimicro-8",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VS-IPC1002"
+      ]
+    },
+    {
+      "id": "vimicro-9",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VS-IPC1002"
+      ]
+    },
+    {
+      "id": "vimicro-10",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VS-IPC1002"
+      ]
+    }
+  ]
+}

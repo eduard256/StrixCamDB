@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Signet",
+  "brand_id": "signet",
+  "streams": [
+    {
+      "id": "signet-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QC3399"
+      ]
+    },
+    {
+      "id": "signet-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QC3399"
+      ]
+    }
+  ]
+}

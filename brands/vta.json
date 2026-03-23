@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Vta",
+  "brand_id": "vta",
+  "streams": [
+    {
+      "id": "vta-1",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "83701"
+      ]
+    },
+    {
+      "id": "vta-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "83701"
+      ]
+    }
+  ]
+}

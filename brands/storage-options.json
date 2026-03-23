@@ -1,0 +1,224 @@
+{
+  "version": 2,
+  "brand": "Storage Options",
+  "brand_id": "storage-options",
+  "streams": [
+    {
+      "id": "storage-options-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "55663",
+        "EYECAM",
+        "F Series",
+        "Other",
+        "Sn IPC1",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-2",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Eyecam",
+        "Other"
+      ]
+    },
+    {
+      "id": "storage-options-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HOMEGUARD",
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-4",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HOMEGUARD",
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Homeguard 720p"
+      ]
+    },
+    {
+      "id": "storage-options-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "storage-options-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-9",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-10",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-11",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "storage-options-12",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-13",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "storage-options-14",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-15",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "storage-options-16",
+      "url": "live/h264/ch[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "storage-options-17",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-18",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-19",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SON-IPC1"
+      ]
+    },
+    {
+      "id": "storage-options-20",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SON-IPC1"
+      ]
+    }
+  ]
+}

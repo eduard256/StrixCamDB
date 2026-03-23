@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "brand": "Sonoff",
+  "brand_id": "sonoff",
+  "streams": [
+    {
+      "id": "sonoff-1",
+      "url": "/av_stream/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Cam Slim",
+        "CAM-S2",
+        "DW2",
+        "GBP",
+        "GK_200MP2C",
+        "GK-200",
+        "GK-200MP2-B",
+        "Other",
+        "S-CAM",
+        "Slim"
+      ]
+    },
+    {
+      "id": "sonoff-2",
+      "url": "/av_stream/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CAM Slim",
+        "GK-200MP2B",
+        "GK-200MP2-B",
+        "Slim"
+      ]
+    },
+    {
+      "id": "sonoff-3",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "gk-200",
+        "GK-200MP2",
+        "GK-200MP2-B",
+        "Pant-Tilt",
+        "XXXX"
+      ]
+    },
+    {
+      "id": "sonoff-4",
+      "url": "/cgi-bin/snapshot.sh?res=low",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "GK-200MP2B"
+      ]
+    },
+    {
+      "id": "sonoff-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "GK-200MP2-B"
+      ]
+    },
+    {
+      "id": "sonoff-6",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sonoff-7",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "SONOFF-HACK",
+        "GK-200MP2-B with sonoff-hack",
+        "sonoff-hack"
+      ],
+      "notes": "Sonoff-hack custom firmware - JPEG snapshot (port 8080)"
+    }
+  ]
+}

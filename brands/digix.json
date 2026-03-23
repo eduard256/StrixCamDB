@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Digix",
+  "brand_id": "digix",
+  "streams": [
+    {
+      "id": "digix-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "digix-2",
+      "url": "viewdevice.jsp?deviceid=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Surveillance Center"
+      ]
+    }
+  ]
+}

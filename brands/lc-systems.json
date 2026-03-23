@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lc Systems",
+  "brand_id": "lc-systems",
+  "streams": [
+    {
+      "id": "lc-systems-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Orange Pi Zero"
+      ]
+    }
+  ]
+}

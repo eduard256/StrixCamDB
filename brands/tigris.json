@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Tigris",
+  "brand_id": "tigris",
+  "streams": [
+    {
+      "id": "tigris-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "S2M",
+        "Ti-S2M"
+      ]
+    }
+  ]
+}

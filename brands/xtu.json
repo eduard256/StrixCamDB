@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xtu",
+  "brand_id": "xtu",
+  "streams": [
+    {
+      "id": "xtu-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Doorbell J5"
+      ]
+    }
+  ]
+}

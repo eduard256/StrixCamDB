@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Viking",
+  "brand_id": "viking",
+  "streams": [
+    {
+      "id": "viking-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "5mp"
+      ]
+    }
+  ]
+}

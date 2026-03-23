@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Metzler",
+  "brand_id": "metzler",
+  "streams": [
+    {
+      "id": "metzler-1",
+      "url": "/stream1_v",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VDM10"
+      ]
+    }
+  ]
+}

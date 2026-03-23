@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fkyro",
+  "brand_id": "fkyro",
+  "streams": [
+    {
+      "id": "fkyro-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "oluhn"
+      ]
+    }
+  ]
+}

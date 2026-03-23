@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Aha",
+  "brand_id": "aha",
+  "streams": [
+    {
+      "id": "aha-1",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aha-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "touch"
+      ]
+    }
+  ]
+}

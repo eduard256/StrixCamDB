@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Retina",
+  "brand_id": "retina",
+  "streams": [
+    {
+      "id": "retina-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "iPro"
+      ]
+    }
+  ]
+}

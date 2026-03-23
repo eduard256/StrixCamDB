@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "A-bmi",
+  "brand_id": "a-bmi",
+  "streams": [
+    {
+      "id": "a-bmi-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

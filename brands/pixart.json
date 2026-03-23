@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pixart",
+  "brand_id": "pixart",
+  "streams": [
+    {
+      "id": "pixart-1",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

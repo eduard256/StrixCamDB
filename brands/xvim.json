@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Xvim",
+  "brand_id": "xvim",
+  "streams": [
+    {
+      "id": "xvim-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "d8-1t",
+        "N1010"
+      ]
+    },
+    {
+      "id": "xvim-2",
+      "url": "/ONVIF/channel2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D8-1T",
+        "N1010",
+        "Other"
+      ]
+    },
+    {
+      "id": "xvim-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N1010"
+      ]
+    }
+  ]
+}

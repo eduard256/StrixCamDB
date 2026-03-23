@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "brand": "Avantgarde",
+  "brand_id": "avantgarde",
+  "streams": [
+    {
+      "id": "avantgarde-1",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "123456",
+        "ip100",
+        "px-3720-675",
+        "pyle",
+        "S631",
+        "Sumpple",
+        "Sumpple S650"
+      ]
+    },
+    {
+      "id": "avantgarde-2",
+      "url": "/live/av1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "S610"
+      ]
+    },
+    {
+      "id": "avantgarde-3",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SUMPPLE",
+        "SUMPPLE S650"
+      ]
+    }
+  ]
+}

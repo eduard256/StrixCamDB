@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eastcam",
+  "brand_id": "eastcam",
+  "streams": [
+    {
+      "id": "eastcam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip-5158"
+      ]
+    }
+  ]
+}

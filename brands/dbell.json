@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Dbell",
+  "brand_id": "dbell",
+  "streams": [
+    {
+      "id": "dbell-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "dbell HD Live",
+        "HD live"
+      ]
+    },
+    {
+      "id": "dbell-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DB-HD-LIVE"
+      ]
+    },
+    {
+      "id": "dbell-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "ha live",
+        "HD Live"
+      ]
+    },
+    {
+      "id": "dbell-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hd live"
+      ]
+    }
+  ]
+}

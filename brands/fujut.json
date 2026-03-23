@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fujut",
+  "brand_id": "fujut",
+  "streams": [
+    {
+      "id": "fujut-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "utut"
+      ]
+    }
+  ]
+}

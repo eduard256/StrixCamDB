@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Living",
+  "brand_id": "living",
+  "streams": [
+    {
+      "id": "living-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hw0046"
+      ]
+    },
+    {
+      "id": "living-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N3011"
+      ]
+    },
+    {
+      "id": "living-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

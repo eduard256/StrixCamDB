@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Intamac",
+  "brand_id": "intamac",
+  "streams": [
+    {
+      "id": "intamac-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8020"
+      ]
+    }
+  ]
+}

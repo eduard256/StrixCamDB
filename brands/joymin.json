@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Joymin",
+  "brand_id": "joymin",
+  "streams": [
+    {
+      "id": "joymin-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "JM-6600B-IPC"
+      ]
+    }
+  ]
+}

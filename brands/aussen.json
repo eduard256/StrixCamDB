@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Aussen",
+  "brand_id": "aussen",
+  "streams": [
+    {
+      "id": "aussen-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aussen-2",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

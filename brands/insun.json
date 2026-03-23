@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Insun",
+  "brand_id": "insun",
+  "streams": [
+    {
+      "id": "insun-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "INS-IPPTZ02",
+        "Other"
+      ]
+    }
+  ]
+}

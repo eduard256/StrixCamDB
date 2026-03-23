@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fyuui",
+  "brand_id": "fyuui",
+  "streams": [
+    {
+      "id": "fyuui-1",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "y7-1080p-fy"
+      ]
+    }
+  ]
+}

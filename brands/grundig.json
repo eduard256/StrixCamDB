@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "brand": "Grundig",
+  "brand_id": "grundig",
+  "streams": [
+    {
+      "id": "grundig-1",
+      "url": "jpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GCI:K1523D",
+        "GCI-F4616T",
+        "gci-f4616w",
+        "GCI-K0503B",
+        "GCI-K0589T",
+        "GCI-K2505B",
+        "GCI-K2812",
+        "GCI-K2812W",
+        "gec-d2201ar",
+        "IP - MJPEG",
+        "IP-Cam",
+        "IP-CAM",
+        "Other",
+        "QLS IP-CAM",
+        "QLsIP-CAM"
+      ]
+    },
+    {
+      "id": "grundig-2",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GCI-F4626T",
+        "GCI-K0589T",
+        "Other"
+      ]
+    },
+    {
+      "id": "grundig-3",
+      "url": "/jpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "GCI-H0522V",
+        "GCI-K0503B",
+        "GD-CI-AT8637T",
+        "GD-CI-BC2626V"
+      ]
+    },
+    {
+      "id": "grundig-4",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "GCI-K1523V",
+        "GCI-K1527V",
+        "GCI-K1627D",
+        "GD-CI-BP4637T"
+      ]
+    },
+    {
+      "id": "grundig-5",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP - MJPEG"
+      ]
+    },
+    {
+      "id": "grundig-6",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "grundig-7",
+      "url": "cgi-bin/jpg/image.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "grundig-8",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "T6836W",
+        "T6836WITP"
+      ]
+    }
+  ]
+}

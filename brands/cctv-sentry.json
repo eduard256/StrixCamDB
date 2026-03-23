@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Cctv Sentry",
+  "brand_id": "cctv-sentry",
+  "streams": [
+    {
+      "id": "cctv-sentry-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "180"
+      ]
+    },
+    {
+      "id": "cctv-sentry-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H264-IPCAM"
+      ]
+    },
+    {
+      "id": "cctv-sentry-3",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "cctv-sentry-4",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

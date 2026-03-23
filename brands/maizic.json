@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Maizic",
+  "brand_id": "maizic",
+  "streams": [
+    {
+      "id": "maizic-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V380"
+      ]
+    }
+  ]
+}

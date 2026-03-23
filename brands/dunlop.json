@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Dunlop",
+  "brand_id": "dunlop",
+  "streams": [
+    {
+      "id": "dunlop-1",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dp-22xm122fwd-i"
+      ]
+    },
+    {
+      "id": "dunlop-2",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "dp-22xm122fwd-i"
+      ]
+    }
+  ]
+}

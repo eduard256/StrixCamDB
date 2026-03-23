@@ -1,0 +1,779 @@
+{
+  "version": 2,
+  "brand": "Planet",
+  "brand_id": "planet",
+  "streams": [
+    {
+      "id": "planet-1",
+      "url": "ipcam.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "101",
+        "107",
+        "ICA-107",
+        "ICA-108",
+        "ICA-108W",
+        "ICA-150 MPEG4",
+        "ICA-350",
+        "ICA-HM100",
+        "ICA-HM132/136/316",
+        "ICA-HM230",
+        "IVS-H125",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-2",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "107",
+        "ICA-108",
+        "ICA-108W",
+        "ica-4200v",
+        "ICA-510",
+        "ICA-5250V",
+        "ICA-M220"
+      ]
+    },
+    {
+      "id": "planet-3",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "107",
+        "IC-107",
+        "ICA-107",
+        "ICA-108w",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-4",
+      "url": "/stander/livestream/0/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080p",
+        "bullet",
+        "dome",
+        "ICA 3250",
+        "ica hm-130",
+        "ICA-4500v",
+        "ICA-HM350",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-5",
+      "url": "/stander/livestream/0/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080p",
+        "3250",
+        "admin",
+        "ICA-3150",
+        "ICA-3250",
+        "ica-4250"
+      ]
+    },
+    {
+      "id": "planet-6",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "210",
+        "H-625",
+        "H-652",
+        "HM-126",
+        "HM-131",
+        "ICA HM351",
+        "ICA-1200",
+        "ICA-150",
+        "ICA-210",
+        "ICA-651",
+        "ICA-HC652",
+        "ICA-HM 312",
+        "ICA-HM100",
+        "ICA-HM126",
+        "ICA-HM132",
+        "ICA-HM132/136/316",
+        "ICA-HM136",
+        "ICA-HM210",
+        "ICA-HM620",
+        "ICA-HM718",
+        "IVS-H125",
+        "IVS-H125p",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-7",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "211",
+        "H-652",
+        "HM-126",
+        "HM-351",
+        "ICA-100C",
+        "ICA-108",
+        "ICA-108W",
+        "ICA-1200",
+        "ICA-150 MPEG4",
+        "ICA-210",
+        "ICA-2200",
+        "ICA-500",
+        "ICA-510",
+        "ICA-HM100",
+        "ICA-HM101",
+        "ICA-HM120",
+        "ICA-HM130",
+        "ICA-HM132",
+        "ICA-HM132/136/316",
+        "ICA-HM230",
+        "ICA-HM620",
+        "ICA-M220",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-8",
+      "url": "GetData.cgi?Status=false",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "500",
+        "ICA",
+        "ICA 300",
+        "ICA-500",
+        "ICA-500-MAG",
+        "ica-500-pa",
+        "ica-5ICA-500-PA00",
+        "ICA-HM100",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-9",
+      "url": "v2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "550",
+        "ICA-HM",
+        "ICA-HM132",
+        "ICA-HM132/136/316",
+        "IVS-H125",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-10",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BC-5010",
+        "HM-227W",
+        "ICA",
+        "ICA-107",
+        "ICA-108",
+        "ICA-2200",
+        "ICA-700",
+        "ICA-E5550V",
+        "ICA-HM101",
+        "ICA-HM132/136/316",
+        "ICA-HM230",
+        "ICA-HM317",
+        "ICA-HM350",
+        "ICA-M227",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-11",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS-32C65E",
+        "ICA-100C",
+        "ics100"
+      ]
+    },
+    {
+      "id": "planet-12",
+      "url": "jpeg",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hm.130",
+        "ICA-100C",
+        "ICA-108",
+        "ICA-108W",
+        "ICA-210",
+        "ICA-500",
+        "ICA-HM100",
+        "ICA-HM120",
+        "ICA-HM132/136/316",
+        "ICA-HM230",
+        "ICA-M220",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-13",
+      "url": "cgi-bin/admin/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HM-1126",
+        "ICA-HM120",
+        "ICA-HM125",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-14",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hm-126",
+        "HM610",
+        "ICA-108W",
+        "ICA-210",
+        "ICA-220-nr1",
+        "ICA-4200V",
+        "ICA-530",
+        "ICA-8350",
+        "ICA-HM126",
+        "ICA-HM312",
+        "IVS-H125",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-15",
+      "url": "axis-media/media.amp?videocodec=h264&resolution=640x480",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HM-126"
+      ]
+    },
+    {
+      "id": "planet-16",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HM-126",
+        "ICA 3350",
+        "ICA-107",
+        "ICA-2200",
+        "ICA-510",
+        "ICA-530n",
+        "ICA-5350V",
+        "ICA-8350",
+        "ICA-HM126",
+        "ICA-W1200"
+      ]
+    },
+    {
+      "id": "planet-17",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HM-126",
+        "hm-131",
+        "HM-131",
+        "hm-31",
+        "ICA",
+        "ica-hm126",
+        "Other",
+        "PLANET ICA-H652"
+      ]
+    },
+    {
+      "id": "planet-18",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HM-131",
+        "HM-316w",
+        "HM-316W",
+        "ICA-5250",
+        "ICA-HM136"
+      ]
+    },
+    {
+      "id": "planet-19",
+      "url": "GetData.cgi?CH=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HM-132",
+        "ICA-302",
+        "ICA-500",
+        "ICA-HM132",
+        "ICA-HM132/136/316",
+        "ICA-HM136",
+        "ICA-MS8350",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-20",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HM-227W",
+        "ICA-HM132/136/316",
+        "ICA-HM317"
+      ]
+    },
+    {
+      "id": "planet-21",
+      "url": "mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA",
+        "ICA-108",
+        "ICA-120",
+        "ICA-510",
+        "ICA-5350v",
+        "ICA-8350",
+        "ICA-HM 312",
+        "ICA-M4320P",
+        "nevim1",
+        "nevim2",
+        "Other",
+        "Planet ICA-H652"
+      ]
+    },
+    {
+      "id": "planet-22",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ica 550w"
+      ]
+    },
+    {
+      "id": "planet-23",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA100",
+        "ica-110",
+        "ICA-210W",
+        "ICA300"
+      ]
+    },
+    {
+      "id": "planet-24",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ica100c"
+      ]
+    },
+    {
+      "id": "planet-25",
+      "url": "img/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-100C",
+        "ICA-108",
+        "ICA-HM100",
+        "ICA-HM101",
+        "ICA-HM132/136/316",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-26",
+      "url": "IMAGE.JPG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-100C",
+        "ICA-100pe",
+        "ICA-110",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-27",
+      "url": "img/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-100C",
+        "ICA-108",
+        "ICA-108W",
+        "ICA--750",
+        "ICA-750-PA",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-28",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-100C",
+        "ICA-108W",
+        "ICA-HM100",
+        "ICA-HM100W",
+        "ICA-HM230",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-29",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-106",
+        "ICA-150 MPEG4",
+        "ICA-510",
+        "ICA-550",
+        "ICA-700",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-30",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-107",
+        "ica-108",
+        "ICA-510",
+        "ICA-700",
+        "ICA-HC652"
+      ]
+    },
+    {
+      "id": "planet-31",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-107",
+        "ICA-107P",
+        "ica-107w",
+        "ICA-108p",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-32",
+      "url": "GetData.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-108",
+        "ICA-HM100",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-33",
+      "url": "goform/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-108",
+        "ICA-210",
+        "ICA-HM100",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-34",
+      "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-108",
+        "ICA-108W",
+        "ICA-HM100",
+        "ICA-HM230",
+        "IVS-H125",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-35",
+      "url": "goform/video2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-110",
+        "ICA-110W",
+        "ICA-210",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-36",
+      "url": "img/mjpeg.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-150",
+        "ICA-550",
+        "ICA-700",
+        "ICA-HM101",
+        "ICA-HM132/136/316"
+      ]
+    },
+    {
+      "id": "planet-37",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ica3350V",
+        "IVS-H125P"
+      ]
+    },
+    {
+      "id": "planet-38",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ICA-4480"
+      ]
+    },
+    {
+      "id": "planet-39",
+      "url": "Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-500",
+        "ica-500-pa",
+        "ICA-HM100",
+        "ICA-HM101"
+      ]
+    },
+    {
+      "id": "planet-40",
+      "url": "/Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ica-500-pa"
+      ]
+    },
+    {
+      "id": "planet-41",
+      "url": "img/media.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICA-510",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-42",
+      "url": "ipcam_h264.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICA-510"
+      ]
+    },
+    {
+      "id": "planet-43",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-510",
+        "ICA-5350V",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-44",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICA-HM100"
+      ]
+    },
+    {
+      "id": "planet-45",
+      "url": "media/media.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICA-HM120"
+      ]
+    },
+    {
+      "id": "planet-46",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-HM132/136/316",
+        "ICA-M220"
+      ]
+    },
+    {
+      "id": "planet-47",
+      "url": "h264/ch1/sub/",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICA-HM132/136/316",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-48",
+      "url": "snapshot.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICA-M220"
+      ]
+    },
+    {
+      "id": "planet-49",
+      "url": "live1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICA-W8100",
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-50",
+      "url": "/ipcam.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IVS-H125"
+      ]
+    },
+    {
+      "id": "planet-51",
+      "url": "tmp/snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-52",
+      "url": "video",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-53",
+      "url": "/onvif-stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7070,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "planet-54",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

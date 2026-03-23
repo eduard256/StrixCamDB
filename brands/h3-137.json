@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "H3 137",
+  "brand_id": "h3-137",
+  "streams": [
+    {
+      "id": "h3-137-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "brand": "Wiwacam",
+  "brand_id": "wiwacam",
+  "streams": [
+    {
+      "id": "wiwacam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "mw1",
+        "MW1Pro",
+        "MW5",
+        "Other",
+        "wm3"
+      ]
+    },
+    {
+      "id": "wiwacam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MW1",
+        "mw5",
+        "MW5",
+        "MW8"
+      ]
+    },
+    {
+      "id": "wiwacam-3",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=[CHANNEL].sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MW3"
+      ]
+    },
+    {
+      "id": "wiwacam-4",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MW5",
+        "MW7"
+      ]
+    },
+    {
+      "id": "wiwacam-5",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "MW5K"
+      ]
+    }
+  ]
+}

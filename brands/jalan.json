@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "brand": "Jalan",
+  "brand_id": "jalan",
+  "streams": [
+    {
+      "id": "jalan-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "JalanTunRazak"
+      ]
+    },
+    {
+      "id": "jalan-2",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "pelco",
+        "pelco1",
+        "pelco2",
+        "pelco3",
+        "pelco4",
+        "pelco5"
+      ]
+    }
+  ]
+}

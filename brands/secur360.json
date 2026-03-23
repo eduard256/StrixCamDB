@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Secur360",
+  "brand_id": "secur360",
+  "streams": [
+    {
+      "id": "secur360-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "SL 9600",
+        "SL-9601-00",
+        "Video Doorbell SL-9601-00"
+      ]
+    }
+  ]
+}

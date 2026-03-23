@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wepra",
+  "brand_id": "wepra",
+  "streams": [
+    {
+      "id": "wepra-1",
+      "url": "h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4000I"
+      ]
+    }
+  ]
+}

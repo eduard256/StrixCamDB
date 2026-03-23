@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Kmw",
+  "brand_id": "kmw",
+  "streams": [
+    {
+      "id": "kmw-1",
+      "url": "live/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SPES-01"
+      ]
+    },
+    {
+      "id": "kmw-2",
+      "url": "live/second",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SPES-01"
+      ]
+    },
+    {
+      "id": "kmw-3",
+      "url": "/live/second",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SPES-2"
+      ]
+    }
+  ]
+}

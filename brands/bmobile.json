@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Bmobile",
+  "brand_id": "bmobile",
+  "streams": [
+    {
+      "id": "bmobile-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "andriod",
+        "AX530",
+        "AX830"
+      ]
+    },
+    {
+      "id": "bmobile-2",
+      "url": "/onvif-stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7070,
+      "models": [
+        "mobile rtsp"
+      ]
+    }
+  ]
+}

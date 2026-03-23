@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Grey Cam",
+  "brand_id": "grey-cam",
+  "streams": [
+    {
+      "id": "grey-cam-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

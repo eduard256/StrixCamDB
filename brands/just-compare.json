@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Just Compare",
+  "brand_id": "just-compare",
+  "streams": [
+    {
+      "id": "just-compare-1",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4L-TZ808-960P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "brand": "Eyevision",
+  "brand_id": "eyevision",
+  "streams": [
+    {
+      "id": "eyevision-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EV-100B1WFIP",
+        "EV-100d36ipc",
+        "HMIFI1001-IR",
+        "mbg 001",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyevision-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EV-IP100M",
+        "NC300"
+      ]
+    },
+    {
+      "id": "eyevision-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EYE-7003P 4MM"
+      ]
+    },
+    {
+      "id": "eyevision-4",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HMIFI1001-IR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Dcl",
+  "brand_id": "dcl",
+  "streams": [
+    {
+      "id": "dcl-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F980A",
+        "T98186(W)"
+      ]
+    },
+    {
+      "id": "dcl-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F980A",
+        "f98a",
+        "T98186(W)"
+      ]
+    },
+    {
+      "id": "dcl-3",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

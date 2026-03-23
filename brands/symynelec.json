@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Symynelec",
+  "brand_id": "symynelec",
+  "streams": [
+    {
+      "id": "symynelec-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Smart Camera"
+      ]
+    },
+    {
+      "id": "symynelec-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v380pro"
+      ]
+    }
+  ]
+}

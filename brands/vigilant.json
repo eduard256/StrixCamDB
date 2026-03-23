@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vigilant",
+  "brand_id": "vigilant",
+  "streams": [
+    {
+      "id": "vigilant-1",
+      "url": "cmd=live&codec=mjpeg&ID=[CHANNEL]/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RGS Server"
+      ]
+    }
+  ]
+}

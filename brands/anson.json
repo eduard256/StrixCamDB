@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Anson",
+  "brand_id": "anson",
+  "streams": [
+    {
+      "id": "anson-1",
+      "url": "/mpeg4cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ax-200dbi-ip",
+        "Ax-200PID-IP",
+        "AX-4201IPW-B"
+      ]
+    },
+    {
+      "id": "anson-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AX-200PID-IP"
+      ]
+    },
+    {
+      "id": "anson-3",
+      "url": "/channel=0;stream=1;user=[USERNAME];pass=[PASSWORD];",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AX-A005"
+      ]
+    }
+  ]
+}

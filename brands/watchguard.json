@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Watchguard",
+  "brand_id": "watchguard",
+  "streams": [
+    {
+      "id": "watchguard-1",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VSIP13B"
+      ]
+    }
+  ]
+}

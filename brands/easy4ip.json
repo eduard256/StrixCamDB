@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Easy4ip",
+  "brand_id": "easy4ip",
+  "streams": [
+    {
+      "id": "easy4ip-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "22345"
+      ]
+    },
+    {
+      "id": "easy4ip-2",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "22345",
+        "K35"
+      ]
+    }
+  ]
+}

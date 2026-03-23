@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aksilium",
+  "brand_id": "aksilium",
+  "streams": [
+    {
+      "id": "aksilium-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ip-203 VP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Nassicam",
+  "brand_id": "nassicam",
+  "streams": [
+    {
+      "id": "nassicam-1",
+      "url": "/img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "301f"
+      ]
+    },
+    {
+      "id": "nassicam-2",
+      "url": "img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WVC Series"
+      ]
+    },
+    {
+      "id": "nassicam-3",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WVC Series"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tseeu",
+  "brand_id": "tseeu",
+  "streams": [
+    {
+      "id": "tseeu-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "TS-SD0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Dsnny",
+  "brand_id": "dsnny",
+  "streams": [
+    {
+      "id": "dsnny-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dsn-618iprt",
+        "IPRST"
+      ]
+    },
+    {
+      "id": "dsnny-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DSN-619IPRT"
+      ]
+    },
+    {
+      "id": "dsnny-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

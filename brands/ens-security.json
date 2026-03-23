@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ens Security",
+  "brand_id": "ens-security",
+  "streams": [
+    {
+      "id": "ens-security-1",
+      "url": "/stream=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ED8004TSC-2"
+      ]
+    }
+  ]
+}

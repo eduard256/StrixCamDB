@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cco",
+  "brand_id": "cco",
+  "streams": [
+    {
+      "id": "cco-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CYBO-T555V"
+      ]
+    },
+    {
+      "id": "cco-2",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CYBO-T555V"
+      ]
+    }
+  ]
+}

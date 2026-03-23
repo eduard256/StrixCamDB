@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "brand": "Vatilon",
+  "brand_id": "vatilon",
+  "streams": [
+    {
+      "id": "vatilon-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "h62",
+        "PB4"
+      ]
+    },
+    {
+      "id": "vatilon-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HD Bullet"
+      ]
+    },
+    {
+      "id": "vatilon-3",
+      "url": "/LowResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "P03H42",
+        "PA2"
+      ]
+    },
+    {
+      "id": "vatilon-4",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "P05",
+        "PA2",
+        "PB4",
+        "T62",
+        "YC-W608"
+      ]
+    },
+    {
+      "id": "vatilon-5",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "pb1"
+      ]
+    },
+    {
+      "id": "vatilon-6",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "PB4"
+      ]
+    }
+  ]
+}

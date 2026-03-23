@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bridge",
+  "brand_id": "bridge",
+  "streams": [
+    {
+      "id": "bridge-1",
+      "url": "HighResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "md1300 ir-od"
+      ]
+    }
+  ]
+}

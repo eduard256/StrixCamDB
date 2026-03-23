@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Avenir",
+  "brand_id": "avenir",
+  "streams": [
+    {
+      "id": "avenir-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AV-DS2CD1021I"
+      ]
+    }
+  ]
+}

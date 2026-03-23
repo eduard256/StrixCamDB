@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smart380",
+  "brand_id": "smart380",
+  "streams": [
+    {
+      "id": "smart380-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "v380"
+      ]
+    }
+  ]
+}

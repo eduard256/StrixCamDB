@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ciqurix",
+  "brand_id": "ciqurix",
+  "streams": [
+    {
+      "id": "ciqurix-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCam"
+      ]
+    },
+    {
+      "id": "ciqurix-2",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FCamX"
+      ]
+    }
+  ]
+}

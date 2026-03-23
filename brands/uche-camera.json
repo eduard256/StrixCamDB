@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Uche Camera",
+  "brand_id": "uche-camera",
+  "streams": [
+    {
+      "id": "uche-camera-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Tecno"
+      ]
+    }
+  ]
+}

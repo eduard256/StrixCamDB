@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Bsp Security",
+  "brand_id": "bsp-security",
+  "streams": [
+    {
+      "id": "bsp-security-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2.8",
+        "2.8.60.4",
+        "Other"
+      ]
+    },
+    {
+      "id": "bsp-security-2",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bo20-fl-03"
+      ]
+    },
+    {
+      "id": "bsp-security-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

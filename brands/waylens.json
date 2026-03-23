@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Waylens",
+  "brand_id": "waylens",
+  "streams": [
+    {
+      "id": "waylens-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Secure360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Elisa",
+  "brand_id": "elisa",
+  "streams": [
+    {
+      "id": "elisa-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC8021"
+      ]
+    },
+    {
+      "id": "elisa-2",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC8021"
+      ]
+    }
+  ]
+}

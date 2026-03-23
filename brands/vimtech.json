@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vimtech",
+  "brand_id": "vimtech",
+  "streams": [
+    {
+      "id": "vimtech-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "N1010"
+      ]
+    }
+  ]
+}

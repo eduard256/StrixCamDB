@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vea",
+  "brand_id": "vea",
+  "streams": [
+    {
+      "id": "vea-1",
+      "url": "/user=admin_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "aese"
+      ]
+    }
+  ]
+}

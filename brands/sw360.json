@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Sw360",
+  "brand_id": "sw360",
+  "streams": [
+    {
+      "id": "sw360-1",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CIP-37186AT",
+        "CIP-39218KL"
+      ]
+    },
+    {
+      "id": "sw360-2",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "CIP-39218AT",
+        "IP66"
+      ]
+    }
+  ]
+}

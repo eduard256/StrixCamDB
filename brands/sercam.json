@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sercam",
+  "brand_id": "sercam",
+  "streams": [
+    {
+      "id": "sercam-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1245"
+      ]
+    }
+  ]
+}

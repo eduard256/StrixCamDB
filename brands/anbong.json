@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anbong",
+  "brand_id": "anbong",
+  "streams": [
+    {
+      "id": "anbong-1",
+      "url": "/ch01.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "St-team",
+  "brand_id": "st-team",
+  "streams": [
+    {
+      "id": "st-team-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ST-S2541Lite"
+      ]
+    }
+  ]
+}

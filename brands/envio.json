@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Envio",
+  "brand_id": "envio",
+  "streams": [
+    {
+      "id": "envio-1",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2MP",
+        "IP-Fix4.0"
+      ]
+    }
+  ]
+}

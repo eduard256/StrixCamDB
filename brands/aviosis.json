@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aviosis",
+  "brand_id": "aviosis",
+  "streams": [
+    {
+      "id": "aviosis-1",
+      "url": "cam3/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "9070csw"
+      ]
+    }
+  ]
+}

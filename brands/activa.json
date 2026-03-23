@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Activa",
+  "brand_id": "activa",
+  "streams": [
+    {
+      "id": "activa-1",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ACT-200W",
+        "ACT-2800/3100"
+      ]
+    },
+    {
+      "id": "activa-2",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ACT-2100",
+        "ACT-2800/3100"
+      ]
+    }
+  ]
+}

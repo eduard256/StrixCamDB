@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "brand": "Brillcam",
+  "brand_id": "brillcam",
+  "streams": [
+    {
+      "id": "brillcam-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "20927/05",
+        "BRC-D150"
+      ]
+    },
+    {
+      "id": "brillcam-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "20927/05"
+      ]
+    },
+    {
+      "id": "brillcam-3",
+      "url": "//action/stream?subject=mjpeg&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "B780"
+      ]
+    },
+    {
+      "id": "brillcam-4",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BRC-B750DV2",
+        "BRC-B752W",
+        "BRC-B782",
+        "BRC-B782W",
+        "BRC-D150",
+        "brc-s5194p2irwl",
+        "BRC-S8151P2",
+        "D150"
+      ]
+    }
+  ]
+}

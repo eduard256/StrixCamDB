@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bridget",
+  "brand_id": "bridget",
+  "streams": [
+    {
+      "id": "bridget-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DR816"
+      ]
+    },
+    {
+      "id": "bridget-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DR816"
+      ]
+    }
+  ]
+}

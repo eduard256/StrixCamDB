@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kobert",
+  "brand_id": "kobert",
+  "streams": [
+    {
+      "id": "kobert-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "KG26"
+      ]
+    }
+  ]
+}

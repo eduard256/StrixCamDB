@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Forti",
+  "brand_id": "forti",
+  "streams": [
+    {
+      "id": "forti-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "md20"
+      ]
+    }
+  ]
+}

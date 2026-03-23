@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Memtex",
+  "brand_id": "memtex",
+  "streams": [
+    {
+      "id": "memtex-1",
+      "url": "/162C/cam0/vidaud",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 53000,
+      "models": [
+        "cv100"
+      ]
+    }
+  ]
+}

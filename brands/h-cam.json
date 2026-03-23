@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "H-cam",
+  "brand_id": "h-cam",
+  "streams": [
+    {
+      "id": "h-cam-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MZoom"
+      ]
+    }
+  ]
+}

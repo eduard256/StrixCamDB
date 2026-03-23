@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "brand": "Proelite",
+  "brand_id": "proelite",
+  "streams": [
+    {
+      "id": "proelite-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP01A",
+        "Ip01ax",
+        "ProElite POD04"
+      ]
+    },
+    {
+      "id": "proelite-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP01A",
+        "IP01AX",
+        "Other",
+        "pro"
+      ]
+    }
+  ]
+}

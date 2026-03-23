@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Merkury",
+  "brand_id": "merkury",
+  "streams": [
+    {
+      "id": "merkury-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cw001",
+        "cw017-101"
+      ]
+    },
+    {
+      "id": "merkury-2",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Cw007"
+      ]
+    },
+    {
+      "id": "merkury-3",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "CW007",
+        "MIC-CW007-199W",
+        "MI-CW217",
+        "WiFiCam720"
+      ]
+    },
+    {
+      "id": "merkury-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "MI-CW007-199W",
+        "Other"
+      ]
+    },
+    {
+      "id": "merkury-5",
+      "url": "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "MI-CW020"
+      ]
+    },
+    {
+      "id": "merkury-6",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "mi-cw051"
+      ]
+    }
+  ]
+}

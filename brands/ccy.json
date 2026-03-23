@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ccy",
+  "brand_id": "ccy",
+  "streams": [
+    {
+      "id": "ccy-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FC0"
+      ]
+    },
+    {
+      "id": "ccy-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "L100"
+      ]
+    }
+  ]
+}

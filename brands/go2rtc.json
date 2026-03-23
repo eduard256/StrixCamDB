@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Go2rtc",
+  "brand_id": "go2rtc",
+  "streams": [
+    {
+      "id": "go2rtc-1",
+      "url": "/cam04",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Home Assistant Integration"
+      ]
+    }
+  ]
+}

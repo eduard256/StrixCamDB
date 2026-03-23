@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Eyewatch",
+  "brand_id": "eyewatch",
+  "streams": [
+    {
+      "id": "eyewatch-1",
+      "url": "/mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8111,
+      "models": [
+        "eyeFOUR",
+        "eyeFOUR iMX.6"
+      ]
+    }
+  ]
+}

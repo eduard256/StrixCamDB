@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Vcenter",
+  "brand_id": "vcenter",
+  "streams": [
+    {
+      "id": "vcenter-1",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-1000",
+        "Other"
+      ]
+    },
+    {
+      "id": "vcenter-2",
+      "url": "cgi-bin/getimage.cgi?motion=1",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

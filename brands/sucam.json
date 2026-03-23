@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sucam",
+  "brand_id": "sucam",
+  "streams": [
+    {
+      "id": "sucam-1",
+      "url": "/tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8082,
+      "models": [
+        "y3h-20"
+      ]
+    }
+  ]
+}

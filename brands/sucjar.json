@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sucjar",
+  "brand_id": "sucjar",
+  "streams": [
+    {
+      "id": "sucjar-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "PTZ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "version": 2,
+  "brand": "Iris",
+  "brand_id": "iris",
+  "streams": [
+    {
+      "id": "iris-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0C830",
+        "IndoorOutdoor",
+        "NetCam",
+        "oc432",
+        "OC81D",
+        "OC821",
+        "oc8221",
+        "oc8821",
+        "Other",
+        "RC8221",
+        "SERCOMM"
+      ]
+    },
+    {
+      "id": "iris-2",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AICN500",
+        "OC821",
+        "oc821D",
+        "oc8221",
+        "OC830",
+        "Other",
+        "rc8221",
+        "RC-8221",
+        "sercomm"
+      ]
+    },
+    {
+      "id": "iris-3",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AICN500/A"
+      ]
+    },
+    {
+      "id": "iris-4",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Indoor",
+        "Indoor / Outdoor",
+        "OC810",
+        "OC821",
+        "OC821D",
+        "oc8221",
+        "OC830",
+        "Other",
+        "Outdoor IP Camera",
+        "rc8221",
+        "RC-8221",
+        "rc8221d"
+      ]
+    },
+    {
+      "id": "iris-5",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "indoorcam",
+        "rc-8221",
+        "RC8221"
+      ]
+    },
+    {
+      "id": "iris-6",
+      "url": "img/mjpeg.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "oc821",
+        "oc821D",
+        "RC-8221"
+      ]
+    },
+    {
+      "id": "iris-7",
+      "url": "img/snapshot.cgi?img=vga",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "oc821",
+        "RC8221"
+      ]
+    },
+    {
+      "id": "iris-8",
+      "url": "/img/video.mjpeg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "rc8221"
+      ]
+    },
+    {
+      "id": "iris-9",
+      "url": "/img/media.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "S460"
+      ]
+    }
+  ]
+}

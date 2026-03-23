@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "brand": "Lucky Star",
+  "brand_id": "lucky-star",
+  "streams": [
+    {
+      "id": "lucky-star-1",
+      "url": "/live/ch2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CLOUD IP CAMERA 720P",
+        "X Series"
+      ]
+    },
+    {
+      "id": "lucky-star-2",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CloudIP",
+        "CLOUDIP",
+        "LuckyStar720p",
+        "Other",
+        "small smart"
+      ]
+    }
+  ]
+}

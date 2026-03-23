@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Intellio",
+  "brand_id": "intellio",
+  "streams": [
+    {
+      "id": "intellio-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ILB-340-BL-F"
+      ]
+    }
+  ]
+}

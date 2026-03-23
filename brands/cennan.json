@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cennan",
+  "brand_id": "cennan",
+  "streams": [
+    {
+      "id": "cennan-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8021v"
+      ]
+    }
+  ]
+}

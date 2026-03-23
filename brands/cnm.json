@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "brand": "Cnm",
+  "brand_id": "cnm",
+  "streams": [
+    {
+      "id": "cnm-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DM365_IPNC"
+      ]
+    },
+    {
+      "id": "cnm-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP103"
+      ]
+    },
+    {
+      "id": "cnm-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP103",
+        "Other",
+        "sec-ip-cam"
+      ]
+    },
+    {
+      "id": "cnm-4",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "cnm-5",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sec-ip-cam"
+      ]
+    },
+    {
+      "id": "cnm-6",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "sec-ip-cam"
+      ]
+    }
+  ]
+}

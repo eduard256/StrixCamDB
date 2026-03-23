@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bulletzoom",
+  "brand_id": "bulletzoom",
+  "streams": [
+    {
+      "id": "bulletzoom-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HIKVISION"
+      ]
+    },
+    {
+      "id": "bulletzoom-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

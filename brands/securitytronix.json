@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Securitytronix",
+  "brand_id": "securitytronix",
+  "streams": [
+    {
+      "id": "securitytronix-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "securitytronix-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "STEVO36BT"
+      ]
+    },
+    {
+      "id": "securitytronix-3",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ST-HD-BT2812-720-G"
+      ]
+    },
+    {
+      "id": "securitytronix-4",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ST-HD-BT2812-720-G"
+      ]
+    }
+  ]
+}

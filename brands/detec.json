@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Detec",
+  "brand_id": "detec",
+  "streams": [
+    {
+      "id": "detec-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "790061"
+      ]
+    }
+  ]
+}

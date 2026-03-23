@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jatech",
+  "brand_id": "jatech",
+  "streams": [
+    {
+      "id": "jatech-1",
+      "url": "cam4/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-E2B5Y18"
+      ]
+    }
+  ]
+}

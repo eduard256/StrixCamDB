@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Nobitech",
+  "brand_id": "nobitech",
+  "streams": [
+    {
+      "id": "nobitech-1",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "WS-Q5A"
+      ]
+    },
+    {
+      "id": "nobitech-2",
+      "url": "mpeg4/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WS-Q5A"
+      ]
+    }
+  ]
+}

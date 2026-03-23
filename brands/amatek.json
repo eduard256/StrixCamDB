@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Amatek",
+  "brand_id": "amatek",
+  "streams": [
+    {
+      "id": "amatek-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I5NT",
+        "Other"
+      ]
+    },
+    {
+      "id": "amatek-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I5NT"
+      ]
+    }
+  ]
+}

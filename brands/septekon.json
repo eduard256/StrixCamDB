@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Septekon",
+  "brand_id": "septekon",
+  "streams": [
+    {
+      "id": "septekon-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "640",
+        "764",
+        "Other",
+        "ty30"
+      ]
+    },
+    {
+      "id": "septekon-2",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1000,
+      "models": [
+        "764"
+      ]
+    },
+    {
+      "id": "septekon-3",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

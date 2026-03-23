@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Electriq",
+  "brand_id": "electriq",
+  "streams": [
+    {
+      "id": "electriq-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IQ-31FX",
+        "iq-51fx",
+        "IQ-51FX"
+      ]
+    }
+  ]
+}

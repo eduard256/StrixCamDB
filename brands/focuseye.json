@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Focuseye",
+  "brand_id": "focuseye",
+  "streams": [
+    {
+      "id": "focuseye-1",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "focuseye-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

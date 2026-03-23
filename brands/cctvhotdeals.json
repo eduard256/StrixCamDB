@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "brand": "Cctvhotdeals",
+  "brand_id": "cctvhotdeals",
+  "streams": [
+    {
+      "id": "cctvhotdeals-1",
+      "url": "mobile/channel[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-2",
+      "url": "current[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-3",
+      "url": "image/[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-4",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-5",
+      "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-6",
+      "url": "screen.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-7",
+      "url": "jpg/1/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-8",
+      "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-9",
+      "url": "cgi-bin/viewer/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-10",
+      "url": "[USERNAME]/cam[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-11",
+      "url": "images/stream_[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-12",
+      "url": "snapshot_ch0[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-13",
+      "url": "stillimg[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-14",
+      "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-15",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-16",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H9008 w/ Web Port"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-17",
+      "url": "snapshot/view[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "cctvhotdeals-18",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "pokus"
+      ]
+    }
+  ]
+}

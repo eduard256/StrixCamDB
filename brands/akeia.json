@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Akeia",
+  "brand_id": "akeia",
+  "streams": [
+    {
+      "id": "akeia-1",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

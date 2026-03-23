@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ysa",
+  "brand_id": "ysa",
+  "streams": [
+    {
+      "id": "ysa-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cipc-gc13h"
+      ]
+    }
+  ]
+}

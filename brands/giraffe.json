@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Giraffe",
+  "brand_id": "giraffe",
+  "streams": [
+    {
+      "id": "giraffe-1",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GF-IPDIR4323MP2.0",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Linia",
+  "brand_id": "linia",
+  "streams": [
+    {
+      "id": "linia-1",
+      "url": "/live/h264/VGA",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "avtech459"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "brand": "Reobiux",
+  "brand_id": "reobiux",
+  "streams": [
+    {
+      "id": "reobiux-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "A9QH",
+        "A33H-1P",
+        "B0CSYYZZj6",
+        "dual lens",
+        "K8Q",
+        "X6C-WEQ"
+      ]
+    }
+  ]
+}

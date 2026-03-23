@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Fifi Spectrum",
+  "brand_id": "fifi-spectrum",
+  "streams": [
+    {
+      "id": "fifi-spectrum-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Hidden USB Wifi"
+      ]
+    },
+    {
+      "id": "fifi-spectrum-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Hidden Wifi USB"
+      ]
+    },
+    {
+      "id": "fifi-spectrum-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Wifi HIdden USB Power Charger"
+      ]
+    }
+  ]
+}

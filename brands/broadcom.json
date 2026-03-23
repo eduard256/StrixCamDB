@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Broadcom",
+  "brand_id": "broadcom",
+  "streams": [
+    {
+      "id": "broadcom-1",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "L series"
+      ]
+    }
+  ]
+}

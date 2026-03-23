@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Elinksmart Ip Camera",
+  "brand_id": "elinksmart-ip-camera",
+  "streams": [
+    {
+      "id": "elinksmart-ip-camera-1",
+      "url": "/rtsp_live1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "960p"
+      ]
+    },
+    {
+      "id": "elinksmart-ip-camera-2",
+      "url": "/rtsp_live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "960p"
+      ]
+    },
+    {
+      "id": "elinksmart-ip-camera-3",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

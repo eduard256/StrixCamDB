@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Konan",
+  "brand_id": "konan",
+  "streams": [
+    {
+      "id": "konan-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

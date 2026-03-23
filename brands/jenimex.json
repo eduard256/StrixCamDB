@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "brand": "Jenimex",
+  "brand_id": "jenimex",
+  "streams": [
+    {
+      "id": "jenimex-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1_mpx1"
+      ]
+    },
+    {
+      "id": "jenimex-2",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2MPX"
+      ]
+    },
+    {
+      "id": "jenimex-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2MPX1",
+        "2MPX2"
+      ]
+    },
+    {
+      "id": "jenimex-4",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2MPX2",
+        "Other"
+      ]
+    },
+    {
+      "id": "jenimex-5",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MPx"
+      ]
+    },
+    {
+      "id": "jenimex-6",
+      "url": "/mpeg4cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 9002,
+      "models": [
+        "JENCMPP205"
+      ]
+    },
+    {
+      "id": "jenimex-7",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 9002,
+      "models": [
+        "JENCMPP205"
+      ]
+    }
+  ]
+}

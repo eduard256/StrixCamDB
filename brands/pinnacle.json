@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pinnacle",
+  "brand_id": "pinnacle",
+  "streams": [
+    {
+      "id": "pinnacle-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "phs-4516u"
+      ]
+    }
+  ]
+}

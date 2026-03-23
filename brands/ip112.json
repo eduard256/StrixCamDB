@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ip112",
+  "brand_id": "ip112",
+  "streams": [
+    {
+      "id": "ip112-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EASYN"
+      ]
+    },
+    {
+      "id": "ip112-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

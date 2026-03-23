@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Linudix",
+  "brand_id": "linudix",
+  "streams": [
+    {
+      "id": "linudix-1",
+      "url": "axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "110",
+        "LWJ-330"
+      ]
+    },
+    {
+      "id": "linudix-2",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "112w",
+        "120w"
+      ]
+    },
+    {
+      "id": "linudix-3",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "112w"
+      ]
+    },
+    {
+      "id": "linudix-4",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LWJ-330",
+        "Other"
+      ]
+    },
+    {
+      "id": "linudix-5",
+      "url": "cgi-bin/nph-update_4ch.cgi?ch=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

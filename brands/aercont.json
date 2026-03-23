@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "brand": "Aercont",
+  "brand_id": "aercont",
+  "streams": [
+    {
+      "id": "aercont-1",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2155M",
+        "AV 8185 DN HB",
+        "AV8365DN",
+        "Other"
+      ]
+    },
+    {
+      "id": "aercont-2",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "8365DN",
+        "AV 8185 DN HB",
+        "AV8365DN"
+      ]
+    },
+    {
+      "id": "aercont-3",
+      "url": "img.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AV 8185 DN HB",
+        "AV3100",
+        "AV8365DN",
+        "Other"
+      ]
+    },
+    {
+      "id": "aercont-4",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AV12776DN"
+      ]
+    }
+  ]
+}

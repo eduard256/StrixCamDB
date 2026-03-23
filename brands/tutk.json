@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Tutk",
+  "brand_id": "tutk",
+  "streams": [
+    {
+      "id": "tutk-1",
+      "url": "mpeg4/media.amp?resolution=640x480",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "tutk-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

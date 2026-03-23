@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Wonsdar",
+  "brand_id": "wonsdar",
+  "streams": [
+    {
+      "id": "wonsdar-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "XM28s-8MP"
+      ]
+    },
+    {
+      "id": "wonsdar-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "XM80"
+      ]
+    }
+  ]
+}

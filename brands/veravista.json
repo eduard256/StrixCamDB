@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Veravista",
+  "brand_id": "veravista",
+  "streams": [
+    {
+      "id": "veravista-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "700"
+      ]
+    }
+  ]
+}

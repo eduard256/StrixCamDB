@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Goliath",
+  "brand_id": "goliath",
+  "streams": [
+    {
+      "id": "goliath-1",
+      "url": "/cam/realmonitor?channel=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP Doorbell"
+      ]
+    }
+  ]
+}

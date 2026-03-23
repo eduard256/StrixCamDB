@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Visionxip",
+  "brand_id": "visionxip",
+  "streams": [
+    {
+      "id": "visionxip-1",
+      "url": "image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "9852W"
+      ]
+    },
+    {
+      "id": "visionxip-2",
+      "url": "image.cgi?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "9852W",
+        "Other"
+      ]
+    },
+    {
+      "id": "visionxip-3",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "visionxip-4",
+      "url": "cam3/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

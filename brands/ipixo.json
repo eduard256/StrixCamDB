@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipixo",
+  "brand_id": "ipixo",
+  "streams": [
+    {
+      "id": "ipixo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Internal wifi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Sunywo",
+  "brand_id": "sunywo",
+  "streams": [
+    {
+      "id": "sunywo-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "H6EV100-N4"
+      ]
+    },
+    {
+      "id": "sunywo-2",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "JVSW0711"
+      ]
+    },
+    {
+      "id": "sunywo-3",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "JVSW0711"
+      ]
+    }
+  ]
+}

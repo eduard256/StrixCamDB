@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Usaginc",
+  "brand_id": "usaginc",
+  "streams": [
+    {
+      "id": "usaginc-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DK-7043GP",
+        "STIP-7135MH265"
+      ]
+    },
+    {
+      "id": "usaginc-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Supvin",
+  "brand_id": "supvin",
+  "streams": [
+    {
+      "id": "supvin-1",
+      "url": "/tcp/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "supvin-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "WIFICAM"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "version": 2,
+  "brand": "Canon",
+  "brand_id": "canon",
+  "streams": [
+    {
+      "id": "canon-1",
+      "url": "/stream/profile2=r",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "740",
+        "CRN-300",
+        "VB-M50B"
+      ]
+    },
+    {
+      "id": "canon-2",
+      "url": "-wvhttp-01-/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CN-R500",
+        "H-SERIES",
+        "M42",
+        "m44",
+        "Other",
+        "vb-610",
+        "VB-C10",
+        "VB-C300",
+        "VB-C50I/C50IR SERIES",
+        "VB-C60",
+        "VB-H41",
+        "VB-H43",
+        "VB-H45",
+        "VB-h610",
+        "VB-H610VE",
+        "VB-H630VE",
+        "VB-H710F",
+        "VB-H730F",
+        "VB-M40",
+        "VB-M42",
+        "VB-M44",
+        "VB-M600D",
+        "VB-M700F",
+        "VBS30D",
+        "VB-S30VE",
+        "VB-S805D"
+      ]
+    },
+    {
+      "id": "canon-3",
+      "url": "/-wvhttp-01-/GetOneShot?image_size=320x240&frame_count=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CRN-300",
+        "VB-M720F"
+      ]
+    },
+    {
+      "id": "canon-4",
+      "url": "/-wvhttp-01-/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CR-N500",
+        "Unknown Model",
+        "VB-C60",
+        "VB-M44",
+        "VB-M50B",
+        "VB-M620VE",
+        "VB-M720F",
+        "VB-S30D",
+        "VB-S805D",
+        "VB-S900F",
+        "VB-S905F"
+      ]
+    },
+    {
+      "id": "canon-5",
+      "url": "?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DC210"
+      ]
+    },
+    {
+      "id": "canon-6",
+      "url": "-wvhttp-01-/GetLiveImage",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H-SERIES",
+        "Other",
+        "VB-C10",
+        "VB-C300",
+        "VB-M40"
+      ]
+    },
+    {
+      "id": "canon-7",
+      "url": "-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "i50",
+        "Other",
+        "Public WebCam",
+        "VB300",
+        "VB-C10",
+        "VB-C300",
+        "VB-C500D",
+        "VB-C50FSi",
+        "vb-c50i",
+        "VB-C50i/C50iR Series",
+        "VB-C60",
+        "vb-h41",
+        "VB-H43",
+        "VB-H630",
+        "VB-H630VE",
+        "VB-M40",
+        "VB-M42",
+        "VB-M50B",
+        "VBS30D",
+        "VB-S900F"
+      ]
+    },
+    {
+      "id": "canon-8",
+      "url": "-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Public WebCam",
+        "vb150",
+        "VB-C10",
+        "vb-c10r",
+        "VB-C10r",
+        "VB-C10R",
+        "VB-C300",
+        "VB-C50Fi",
+        "VB-C50FSi",
+        "vb-c50i",
+        "VB-C50i/C50iR Series",
+        "VB-C50İ/C50İR SERİES",
+        "VB-C60",
+        "VB-M40",
+        "VB-M42",
+        "VB-M600D"
+      ]
+    },
+    {
+      "id": "canon-9",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "canon-10",
+      "url": "vdata.v",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "canon-11",
+      "url": "/stream/profile1=r",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "vb-h41",
+        "VB-H41",
+        "vb-h630",
+        "VB-H710F",
+        "VB-M42",
+        "VB-M50B",
+        "VB-M720F",
+        "VB-S900F",
+        "VB-S905F"
+      ]
+    },
+    {
+      "id": "canon-12",
+      "url": "/stream/profile0=r",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VB-H43",
+        "VB-S800D"
+      ]
+    },
+    {
+      "id": "canon-13",
+      "url": "profile1=u",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VB-M40"
+      ]
+    },
+    {
+      "id": "canon-14",
+      "url": "profile1=r",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VB-M600D"
+      ]
+    },
+    {
+      "id": "canon-15",
+      "url": "/-wvhttp-01-/GetOneShot?image_size=320x240",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "VB-M720F",
+        "VB-R12VE"
+      ]
+    },
+    {
+      "id": "canon-16",
+      "url": "/viewer/admin/index.html?lang=en",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "VB-S900F"
+      ]
+    },
+    {
+      "id": "canon-17",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VB-S900F"
+      ]
+    }
+  ]
+}

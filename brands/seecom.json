@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Seecom",
+  "brand_id": "seecom",
+  "streams": [
+    {
+      "id": "seecom-1",
+      "url": "/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SNP"
+      ]
+    }
+  ]
+}

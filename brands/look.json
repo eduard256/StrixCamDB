@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Look",
+  "brand_id": "look",
+  "streams": [
+    {
+      "id": "look-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-D120"
+      ]
+    }
+  ]
+}

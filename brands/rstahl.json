@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Rstahl",
+  "brand_id": "rstahl",
+  "streams": [
+    {
+      "id": "rstahl-1",
+      "url": "/live1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EC-910-AFZ-I03-P00"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anxinshi",
+  "brand_id": "anxinshi",
+  "streams": [
+    {
+      "id": "anxinshi-1",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-D53M02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Leopard Imaging Inc",
+  "brand_id": "leopard-imaging-inc",
+  "streams": [
+    {
+      "id": "leopard-imaging-inc-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

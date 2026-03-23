@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Mjpg-streamer",
+  "brand_id": "mjpg-streamer",
+  "streams": [
+    {
+      "id": "mjpg-streamer-1",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mjpg-streamer-2",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "PIZero"
+      ]
+    },
+    {
+      "id": "mjpg-streamer-3",
+      "url": "/html/cam_pic_new.php",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "RPI"
+      ]
+    }
+  ]
+}

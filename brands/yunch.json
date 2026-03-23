@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Yunch",
+  "brand_id": "yunch",
+  "streams": [
+    {
+      "id": "yunch-1",
+      "url": "cam2/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "yc-110ar",
+        "YC-110ar",
+        "yc-11ar"
+      ]
+    }
+  ]
+}

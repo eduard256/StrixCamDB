@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Koicong",
+  "brand_id": "koicong",
+  "streams": [
+    {
+      "id": "koicong-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1601"
+      ]
+    },
+    {
+      "id": "koicong-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

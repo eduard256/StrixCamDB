@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "brand": "Anspo",
+  "brand_id": "anspo",
+  "streams": [
+    {
+      "id": "anspo-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ASP 8836-200Bulb",
+        "ASP-32130TPOE",
+        "ASP-8404XVR-1080N",
+        "ASP-IP70130",
+        "Other"
+      ]
+    },
+    {
+      "id": "anspo-2",
+      "url": "/user=_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ASP-8004XVR-1080N"
+      ]
+    },
+    {
+      "id": "anspo-3",
+      "url": "/Onvif/Streaming/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ASP-8016XVR",
+        "ASP-82200P"
+      ]
+    },
+    {
+      "id": "anspo-4",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ASP-82200P",
+        "Other"
+      ]
+    }
+  ]
+}

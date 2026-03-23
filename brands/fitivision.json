@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Fitivision",
+  "brand_id": "fitivision",
+  "streams": [
+    {
+      "id": "fitivision-1",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS1300",
+        "CS1330",
+        "netcam"
+      ]
+    },
+    {
+      "id": "fitivision-2",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS1300",
+        "CS131",
+        "Other"
+      ]
+    },
+    {
+      "id": "fitivision-3",
+      "url": "img/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

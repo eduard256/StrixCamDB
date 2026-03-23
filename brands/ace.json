@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "brand": "Ace",
+  "brand_id": "ace",
+  "streams": [
+    {
+      "id": "ace-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Esperanza",
+        "Other",
+        "samsung",
+        "Xin",
+        "Yca"
+      ]
+    },
+    {
+      "id": "ace-2",
+      "url": "/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "noname",
+        "Other"
+      ]
+    }
+  ]
+}

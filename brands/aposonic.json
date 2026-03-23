@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "brand": "Aposonic",
+  "brand_id": "aposonic",
+  "streams": [
+    {
+      "id": "aposonic-1",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A H.264 DVR"
+      ]
+    },
+    {
+      "id": "aposonic-2",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A H.264 DVR"
+      ]
+    },
+    {
+      "id": "aposonic-3",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A H.264 DVR",
+        "A H.264 w/ Web Port"
+      ]
+    },
+    {
+      "id": "aposonic-4",
+      "url": "cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A-BR18B8-C500",
+        "A-S0401R1"
+      ]
+    },
+    {
+      "id": "aposonic-5",
+      "url": "GetStream.cgi?Video=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A-S0401R1",
+        "H.264 DVR"
+      ]
+    },
+    {
+      "id": "aposonic-6",
+      "url": "images/stream_[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "A-S0401R23"
+      ]
+    },
+    {
+      "id": "aposonic-7",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264 DVR"
+      ]
+    },
+    {
+      "id": "aposonic-8",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

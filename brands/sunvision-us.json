@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Sunvision Us",
+  "brand_id": "sunvision-us",
+  "streams": [
+    {
+      "id": "sunvision-us-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B603W"
+      ]
+    },
+    {
+      "id": "sunvision-us-2",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B603W"
+      ]
+    },
+    {
+      "id": "sunvision-us-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sunvision-us-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

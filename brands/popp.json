@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Popp",
+  "brand_id": "popp",
+  "streams": [
+    {
+      "id": "popp-1",
+      "url": "/010129123.112borsti",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Home"
+      ]
+    }
+  ]
+}

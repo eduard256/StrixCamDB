@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "brand": "Plustek",
+  "brand_id": "plustek",
+  "streams": [
+    {
+      "id": "plustek-1",
+      "url": "cgi-bin/Stream?Video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "P1000",
+        "P1100",
+        "SLIM 240 NVR"
+      ]
+    },
+    {
+      "id": "plustek-2",
+      "url": "cgi-bin/Stream?Video?Acc=[USERNAME]?Pwd=[PASSWORD]?webcamPWD=UserCookie00000",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P1000",
+        "P2000"
+      ]
+    },
+    {
+      "id": "plustek-3",
+      "url": "/cgi-bin/Stream?Video?Acc=[USERNAME]?Pwd=[PASSWORD]?webcamPWD=UserCookie00000",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P1000",
+        "P2000"
+      ]
+    },
+    {
+      "id": "plustek-4",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Slim 240 NVR"
+      ]
+    }
+  ]
+}

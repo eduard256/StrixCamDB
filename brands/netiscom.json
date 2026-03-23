@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Netiscom",
+  "brand_id": "netiscom",
+  "streams": [
+    {
+      "id": "netiscom-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "nc100"
+      ]
+    }
+  ]
+}

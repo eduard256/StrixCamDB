@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Unioptek",
+  "brand_id": "unioptek",
+  "streams": [
+    {
+      "id": "unioptek-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1MP"
+      ]
+    },
+    {
+      "id": "unioptek-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M201F"
+      ]
+    }
+  ]
+}

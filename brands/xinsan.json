@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Xinsan",
+  "brand_id": "xinsan",
+  "streams": [
+    {
+      "id": "xinsan-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "xsa-7904"
+      ]
+    },
+    {
+      "id": "xinsan-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "xsa-7904"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Itx",
+  "brand_id": "itx",
+  "streams": [
+    {
+      "id": "itx-1",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H264"
+      ]
+    },
+    {
+      "id": "itx-2",
+      "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HEVM-0412"
+      ]
+    },
+    {
+      "id": "itx-3",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HEVM-0412"
+      ]
+    }
+  ]
+}

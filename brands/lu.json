@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lu",
+  "brand_id": "lu",
+  "streams": [
+    {
+      "id": "lu-1",
+      "url": "H264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LUX"
+      ]
+    }
+  ]
+}

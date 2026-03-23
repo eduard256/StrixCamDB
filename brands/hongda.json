@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Hongda",
+  "brand_id": "hongda",
+  "streams": [
+    {
+      "id": "hongda-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720P",
+        "HD 720P"
+      ]
+    },
+    {
+      "id": "hongda-2",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720P"
+      ]
+    },
+    {
+      "id": "hongda-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

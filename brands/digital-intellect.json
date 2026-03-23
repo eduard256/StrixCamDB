@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Digital Intellect",
+  "brand_id": "digital-intellect",
+  "streams": [
+    {
+      "id": "digital-intellect-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "238"
+      ]
+    },
+    {
+      "id": "digital-intellect-2",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "238"
+      ]
+    }
+  ]
+}

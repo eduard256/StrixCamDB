@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Aetos",
+  "brand_id": "aetos",
+  "streams": [
+    {
+      "id": "aetos-1",
+      "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "400w"
+      ]
+    },
+    {
+      "id": "aetos-2",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "400w"
+      ]
+    },
+    {
+      "id": "aetos-3",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "700W"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Botslab",
+  "brand_id": "botslab",
+  "streams": [
+    {
+      "id": "botslab-1",
+      "url": "/onvif/live/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C212",
+        "W312"
+      ]
+    }
+  ]
+}

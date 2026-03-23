@@ -1,0 +1,179 @@
+{
+  "version": 2,
+  "brand": "Rosewill",
+  "brand_id": "rosewill",
+  "streams": [
+    {
+      "id": "rosewill-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "12001",
+        "Other",
+        "RSCM-12001",
+        "RSCM-12002"
+      ]
+    },
+    {
+      "id": "rosewill-2",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICS303C",
+        "Other",
+        "rsc-2002",
+        "RSCM-12001",
+        "RSCM-12002",
+        "RXS-3211"
+      ]
+    },
+    {
+      "id": "rosewill-3",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RSCM=13601B",
+        "RSCM-13601W"
+      ]
+    },
+    {
+      "id": "rosewill-4",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RSCM-12001",
+        "RSCM-12002"
+      ]
+    },
+    {
+      "id": "rosewill-5",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RSCM-12001",
+        "RXS-3323"
+      ]
+    },
+    {
+      "id": "rosewill-6",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "rscm-13701w"
+      ]
+    },
+    {
+      "id": "rosewill-7",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RSCM-15701W"
+      ]
+    },
+    {
+      "id": "rosewill-8",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rosewill-9",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RSX3211",
+        "RXS-3211"
+      ]
+    },
+    {
+      "id": "rosewill-10",
+      "url": "video1+audio1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "rcsm-13701w",
+        "RSCM-11001",
+        "RSCM-12001",
+        "RSCM-13701W",
+        "RSCM-15701W"
+      ]
+    },
+    {
+      "id": "rosewill-11",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RSCM 13601W"
+      ]
+    },
+    {
+      "id": "rosewill-12",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RSCM-13601W"
+      ]
+    },
+    {
+      "id": "rosewill-13",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RXS-3211"
+      ]
+    },
+    {
+      "id": "rosewill-14",
+      "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RXS-3323"
+      ]
+    },
+    {
+      "id": "rosewill-15",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RXS-3323"
+      ]
+    }
+  ]
+}

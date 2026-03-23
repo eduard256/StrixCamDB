@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Svision Co",
+  "brand_id": "svision-co",
+  "streams": [
+    {
+      "id": "svision-co-1",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 34567,
+      "models": [
+        "idk"
+      ]
+    }
+  ]
+}

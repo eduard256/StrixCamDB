@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Brovision",
+  "brand_id": "brovision",
+  "streams": [
+    {
+      "id": "brovision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "olsen"
+      ]
+    },
+    {
+      "id": "brovision-2",
+      "url": "/Streaming/channels/202",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WH-D5208"
+      ]
+    },
+    {
+      "id": "brovision-3",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WH-D5208"
+      ]
+    }
+  ]
+}

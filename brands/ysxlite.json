@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ysxlite",
+  "brand_id": "ysxlite",
+  "streams": [
+    {
+      "id": "ysxlite-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BATC"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Unilook",
+  "brand_id": "unilook",
+  "streams": [
+    {
+      "id": "unilook-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ipc-d3a40w-s"
+      ]
+    }
+  ]
+}

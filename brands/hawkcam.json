@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "brand": "Hawkcam",
+  "brand_id": "hawkcam",
+  "streams": [
+    {
+      "id": "hawkcam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SP-FJ01W"
+      ]
+    },
+    {
+      "id": "hawkcam-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "hawkcam-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "r09"
+      ]
+    },
+    {
+      "id": "hawkcam-4",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SP-FJ01W"
+      ]
+    },
+    {
+      "id": "hawkcam-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SP-FJ01W"
+      ]
+    }
+  ]
+}

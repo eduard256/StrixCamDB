@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Cellinx",
+  "brand_id": "cellinx",
+  "streams": [
+    {
+      "id": "cellinx-1",
+      "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NVR IP Camera"
+      ]
+    },
+    {
+      "id": "cellinx-2",
+      "url": "/AVStream1_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NVR IP CAMERA",
+        "STH780"
+      ]
+    }
+  ]
+}

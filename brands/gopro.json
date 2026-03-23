@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Gopro",
+  "brand_id": "gopro",
+  "streams": [
+    {
+      "id": "gopro-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "Hero 3+"
+      ]
+    },
+    {
+      "id": "gopro-2",
+      "url": "/live",
+      "type": "MJPEG",
+      "protocol": "rtmp",
+      "port": 1935,
+      "models": [
+        "Hero 9 Black",
+        "Hero7",
+        "Hero9"
+      ]
+    }
+  ]
+}

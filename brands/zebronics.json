@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Zebronics",
+  "brand_id": "zebronics",
+  "streams": [
+    {
+      "id": "zebronics-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1MP",
+        "ZEB-IP1MB18L20M"
+      ]
+    }
+  ]
+}

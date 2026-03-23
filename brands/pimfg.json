@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pimfg",
+  "brand_id": "pimfg",
+  "streams": [
+    {
+      "id": "pimfg-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR-MP-4s-500g"
+      ]
+    }
+  ]
+}

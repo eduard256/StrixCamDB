@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ds-i200",
+  "brand_id": "ds-i200",
+  "streams": [
+    {
+      "id": "ds-i200-1",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C"
+      ]
+    }
+  ]
+}

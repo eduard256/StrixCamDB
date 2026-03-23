@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "brand": "Cooau",
+  "brand_id": "cooau",
+  "streams": [
+    {
+      "id": "cooau-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "001",
+        "1080",
+        "720p",
+        "BULLET",
+        "CT0258BKEU",
+        "CT0258BKUK",
+        "CT0258WHUS",
+        "ct0276bkeu",
+        "CT0276BKUK",
+        "IP-CAMERA",
+        "Other",
+        "ZZZZ-320984-EBFFC"
+      ]
+    },
+    {
+      "id": "cooau-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080",
+        "1080P",
+        "2.0MPIX",
+        "362c",
+        "623c",
+        "720P",
+        "BULLET",
+        "ct0276bkuk",
+        "CT044SWHUK",
+        "CT2076BKUK",
+        "F300",
+        "Other",
+        "SV3C",
+        "x000s lhqn3"
+      ]
+    },
+    {
+      "id": "cooau-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C23S"
+      ]
+    },
+    {
+      "id": "cooau-4",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ct0276bkuk",
+        "Other",
+        "SV3C"
+      ]
+    },
+    {
+      "id": "cooau-5",
+      "url": "snap.jpg?JpegSize=M",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CT2076BKUK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Antkr",
+  "brand_id": "antkr",
+  "streams": [
+    {
+      "id": "antkr-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AMA-2500",
+        "AMZ-1100",
+        "xgen"
+      ]
+    },
+    {
+      "id": "antkr-2",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AMA-2500"
+      ]
+    }
+  ]
+}

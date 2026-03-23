@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ncx",
+  "brand_id": "ncx",
+  "streams": [
+    {
+      "id": "ncx-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "aper"
+      ]
+    }
+  ]
+}

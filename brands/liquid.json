@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Liquid",
+  "brand_id": "liquid",
+  "streams": [
+    {
+      "id": "liquid-1",
+      "url": "?action=appletvstream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ego"
+      ]
+    }
+  ]
+}

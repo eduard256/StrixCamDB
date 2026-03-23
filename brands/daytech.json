@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Daytech",
+  "brand_id": "daytech",
+  "streams": [
+    {
+      "id": "daytech-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "14151520",
+        "8815",
+        "DT-8815",
+        "DT-C8815"
+      ]
+    },
+    {
+      "id": "daytech-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DT-H06",
+        "Other"
+      ]
+    }
+  ]
+}

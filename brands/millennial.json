@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Millennial",
+  "brand_id": "millennial",
+  "streams": [
+    {
+      "id": "millennial-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EYES"
+      ]
+    }
+  ]
+}

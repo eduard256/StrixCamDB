@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kina Kamera",
+  "brand_id": "kina-kamera",
+  "streams": [
+    {
+      "id": "kina-kamera-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

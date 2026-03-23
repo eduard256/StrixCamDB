@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Topway",
+  "brand_id": "topway",
+  "streams": [
+    {
+      "id": "topway-1",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4ch",
+        "DVR 4 CH"
+      ]
+    }
+  ]
+}

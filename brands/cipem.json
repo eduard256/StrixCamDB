@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cipem",
+  "brand_id": "cipem",
+  "streams": [
+    {
+      "id": "cipem-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

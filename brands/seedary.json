@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Seedary",
+  "brand_id": "seedary",
+  "streams": [
+    {
+      "id": "seedary-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=0_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D2-X-20",
+        "PTZ 4MP"
+      ]
+    },
+    {
+      "id": "seedary-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D2-X-20",
+        "Other",
+        "PTZ 4MP"
+      ]
+    }
+  ]
+}

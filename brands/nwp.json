@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nwp",
+  "brand_id": "nwp",
+  "streams": [
+    {
+      "id": "nwp-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1.0mp"
+      ]
+    }
+  ]
+}

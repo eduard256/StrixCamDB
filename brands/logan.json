@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Logan",
+  "brand_id": "logan",
+  "streams": [
+    {
+      "id": "logan-1",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=0&stream=0.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LX4CB"
+      ]
+    },
+    {
+      "id": "logan-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "n8504hh"
+      ]
+    },
+    {
+      "id": "logan-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "n8504hh"
+      ]
+    },
+    {
+      "id": "logan-4",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "n8504hh"
+      ]
+    },
+    {
+      "id": "logan-5",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N8704HH"
+      ]
+    }
+  ]
+}

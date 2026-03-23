@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Vido.at",
+  "brand_id": "vido.at",
+  "streams": [
+    {
+      "id": "vido.at-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVIR"
+      ]
+    },
+    {
+      "id": "vido.at-2",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HDVIR",
+        "LVDT45SL200"
+      ]
+    },
+    {
+      "id": "vido.at-3",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LVDT45SL200"
+      ]
+    }
+  ]
+}

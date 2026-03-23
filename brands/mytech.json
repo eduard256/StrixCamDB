@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Mytech",
+  "brand_id": "mytech",
+  "streams": [
+    {
+      "id": "mytech-1",
+      "url": "cam2/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ptz"
+      ]
+    }
+  ]
+}

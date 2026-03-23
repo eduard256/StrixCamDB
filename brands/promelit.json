@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Promelit",
+  "brand_id": "promelit",
+  "streams": [
+    {
+      "id": "promelit-1",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MP20"
+      ]
+    },
+    {
+      "id": "promelit-2",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Sentry H-230"
+      ]
+    },
+    {
+      "id": "promelit-3",
+      "url": "cgi-bin/jpg/image.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SENTRY H-230"
+      ]
+    }
+  ]
+}

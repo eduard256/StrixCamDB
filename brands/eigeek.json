@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "brand": "Eigeek",
+  "brand_id": "eigeek",
+  "streams": [
+    {
+      "id": "eigeek-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080"
+      ]
+    },
+    {
+      "id": "eigeek-2",
+      "url": "/onvif/device_service",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "1080p"
+      ]
+    },
+    {
+      "id": "eigeek-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "bullet",
+        "bullet 1",
+        "bullet 2"
+      ]
+    },
+    {
+      "id": "eigeek-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "BULLET",
+        "BULLET 2",
+        "CT0414BKEU",
+        "Other"
+      ]
+    }
+  ]
+}

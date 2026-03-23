@@ -1,0 +1,285 @@
+{
+  "version": 2,
+  "brand": "Turbo X",
+  "brand_id": "turbo-x",
+  "streams": [
+    {
+      "id": "turbo-x-1",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "1080 Starlight"
+      ]
+    },
+    {
+      "id": "turbo-x-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C16S",
+        "EYEGUARD IIPC 30"
+      ]
+    },
+    {
+      "id": "turbo-x-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dome",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-4",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "endurance 1080 dome 2"
+      ]
+    },
+    {
+      "id": "turbo-x-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Endurance OIPC-10",
+        "ENDURANCE OIPC-10",
+        "IIPC-20",
+        "IIPC-30",
+        "inspector II PC 20",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Endurance OIPC-10",
+        "IIPC-30",
+        "Inspector IIPC-20",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-7",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Endurance OIPC-10",
+        "Endurance OIPC-10HD",
+        "Endurance OIPC-15HD",
+        "iip20-hd",
+        "IIPC-10HD",
+        "IIPC-20",
+        "IIPC-20HD",
+        "IIPC25HD",
+        "IIPC-25HD",
+        "IIPC-35FHD",
+        "IIPC-35HD",
+        "oipc-10hd",
+        "OIPC-10HD",
+        "OIPC-15HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Endurance OIPC-10",
+        "IIPC-30"
+      ]
+    },
+    {
+      "id": "turbo-x-9",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Endurance OIPC-10",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-10",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Endurance OIPC-10",
+        "IIPC-20",
+        "Inspector IIPC-20"
+      ]
+    },
+    {
+      "id": "turbo-x-11",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "eyeguard",
+        "eyeguard iipc30"
+      ]
+    },
+    {
+      "id": "turbo-x-12",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EZ10E",
+        "EZ-10W",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-13",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EZ-10W",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-14",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 91,
+      "models": [
+        "IIPC-10HD",
+        "IIPC-20HD",
+        "IIPC-35FHD"
+      ]
+    },
+    {
+      "id": "turbo-x-15",
+      "url": "videoMain",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IIPC-20HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-16",
+      "url": "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "IIPC-20HD"
+      ]
+    },
+    {
+      "id": "turbo-x-17",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IIPC-30",
+        "Inspetor IIPC21",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-18",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC-720C"
+      ]
+    },
+    {
+      "id": "turbo-x-19",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OIPC-15HD",
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-20",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-21",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-22",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-23",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "turbo-x-24",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Divisat",
+  "brand_id": "divisat",
+  "streams": [
+    {
+      "id": "divisat-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "S111"
+      ]
+    }
+  ]
+}

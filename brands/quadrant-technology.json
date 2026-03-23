@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Quadrant Technology",
+  "brand_id": "quadrant-technology",
+  "streams": [
+    {
+      "id": "quadrant-technology-1",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "qcp-a356"
+      ]
+    },
+    {
+      "id": "quadrant-technology-2",
+      "url": "/app/camera.html",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "qcp-a356"
+      ]
+    },
+    {
+      "id": "quadrant-technology-3",
+      "url": "/app/events.html?partnerId=iSecurityPlus",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "qcp-a356"
+      ]
+    },
+    {
+      "id": "quadrant-technology-4",
+      "url": "/app/camera.html?partnerId=iSecurityPlus",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "qcp-a356"
+      ]
+    }
+  ]
+}

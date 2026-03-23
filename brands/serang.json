@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Serang",
+  "brand_id": "serang",
+  "streams": [
+    {
+      "id": "serang-1",
+      "url": "cgi-bin/jpg/image",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "tl-3171"
+      ]
+    }
+  ]
+}

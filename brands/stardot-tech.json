@@ -1,0 +1,142 @@
+{
+  "version": 2,
+  "brand": "Stardot Tech",
+  "brand_id": "stardot-tech",
+  "streams": [
+    {
+      "id": "stardot-tech-1",
+      "url": "netcam.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0030f4c10852",
+        "Express Video Server",
+        "NETCAM SC",
+        "NETCAM XL",
+        "Other"
+      ]
+    },
+    {
+      "id": "stardot-tech-2",
+      "url": "nph-mjpeg.cgi?[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Express 2",
+        "Express Video Server",
+        "ExpressXL",
+        "NetcamSC"
+      ]
+    },
+    {
+      "id": "stardot-tech-3",
+      "url": "jpeg.cgi?[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Express Video Server",
+        "EXPRESS VIDEO SERVER",
+        "ExpressXL",
+        "NetCam XL",
+        "Netcam XL 3MP",
+        "NetcamSC",
+        "Other",
+        "SDH130V"
+      ]
+    },
+    {
+      "id": "stardot-tech-4",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ExpressXL",
+        "NetCam XL"
+      ]
+    },
+    {
+      "id": "stardot-tech-5",
+      "url": "nph-mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NETCAM",
+        "NetCam SC",
+        "NETCAM sc",
+        "NetCam XL",
+        "Other"
+      ]
+    },
+    {
+      "id": "stardot-tech-6",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 1935,
+      "models": [
+        "NETCAM",
+        "stardot"
+      ]
+    },
+    {
+      "id": "stardot-tech-7",
+      "url": "jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NetCam SC",
+        "NetCam XL",
+        "NETCAMSC"
+      ]
+    },
+    {
+      "id": "stardot-tech-8",
+      "url": "nph-h264.cgi",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NETCAM SC",
+        "NETCAM XL",
+        "NetcamSC",
+        "Other"
+      ]
+    },
+    {
+      "id": "stardot-tech-9",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NETCAM SC"
+      ]
+    },
+    {
+      "id": "stardot-tech-10",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "NetCamSC"
+      ]
+    },
+    {
+      "id": "stardot-tech-11",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

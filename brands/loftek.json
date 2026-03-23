@@ -1,0 +1,427 @@
+{
+  "version": 2,
+  "brand": "Loftek",
+  "brand_id": "loftek",
+  "streams": [
+    {
+      "id": "loftek-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2040",
+        "543",
+        "7200CSX2200WORKING",
+        "B Series",
+        "Beacon",
+        "CSX2200",
+        "CSX2200WORKING",
+        "CSX3200",
+        "CX 3200",
+        "CXS 2200",
+        "CXS 3200",
+        "Nexus 543",
+        "Other",
+        "SENTINEL",
+        "Sentinel D3"
+      ]
+    },
+    {
+      "id": "loftek-2",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2040",
+        "CSX2200",
+        "CSX2200WORKING",
+        "CXS 3200",
+        "Nexus 543",
+        "Other",
+        "Sendinel D1",
+        "Sentinel D1"
+      ]
+    },
+    {
+      "id": "loftek-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "245",
+        "CXS 2200",
+        "CXS 3200",
+        "Other",
+        "SENTINEL D1"
+      ]
+    },
+    {
+      "id": "loftek-4",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "245",
+        "Nexus 543",
+        "Other",
+        "Sendinel D1",
+        "Sentinel",
+        "Sentinel D1",
+        "Sentinel D2"
+      ]
+    },
+    {
+      "id": "loftek-5",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "245",
+        "CSX2200",
+        "CXS 2200",
+        "CXS 3200",
+        "D3",
+        "Nexus 543",
+        "Nexus 543 custom",
+        "Other"
+      ]
+    },
+    {
+      "id": "loftek-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "543"
+      ]
+    },
+    {
+      "id": "loftek-7",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "543",
+        "Nexus 543",
+        "Nexus 543 custom",
+        "Other"
+      ]
+    },
+    {
+      "id": "loftek-8",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "abc",
+        "CSX2200",
+        "CSX3200",
+        "CXS 2200",
+        "CXS 3200",
+        "D2",
+        "Nexus 543",
+        "Nexus 543 custom",
+        "Other",
+        "OUTSIDE",
+        "Sendinel D1",
+        "Sentinel D1",
+        "Sentinel D2",
+        "Sentinel D3",
+        "Spector"
+      ]
+    },
+    {
+      "id": "loftek-9",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Aegis"
+      ]
+    },
+    {
+      "id": "loftek-10",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSX2200",
+        "CSX2200WORKING"
+      ]
+    },
+    {
+      "id": "loftek-11",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSX2200",
+        "cx2200",
+        "CXS 2200",
+        "Loftek2200",
+        "Nexus 543",
+        "Other"
+      ]
+    },
+    {
+      "id": "loftek-12",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSX2200",
+        "CXS 2200",
+        "CXS 3200"
+      ]
+    },
+    {
+      "id": "loftek-13",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSX2200",
+        "CXS 3200",
+        "HDX 2640",
+        "Sentinel D3"
+      ]
+    },
+    {
+      "id": "loftek-14",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSX2200",
+        "NEXUS 543"
+      ]
+    },
+    {
+      "id": "loftek-15",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSX2200",
+        "Other",
+        "Sendinel D1"
+      ]
+    },
+    {
+      "id": "loftek-16",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSX2200"
+      ]
+    },
+    {
+      "id": "loftek-17",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CSX2200"
+      ]
+    },
+    {
+      "id": "loftek-18",
+      "url": "/video.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CSX2200"
+      ]
+    },
+    {
+      "id": "loftek-19",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CSX2200"
+      ]
+    },
+    {
+      "id": "loftek-20",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSX3200",
+        "Sendinel D1",
+        "Sentinel-D1"
+      ]
+    },
+    {
+      "id": "loftek-21",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cx 2200",
+        "CXS 2200",
+        "Nexus 543",
+        "Other",
+        "Sentinel D1",
+        "Sentinel D3",
+        "seraph",
+        "XYZ"
+      ]
+    },
+    {
+      "id": "loftek-22",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CXS 2200"
+      ]
+    },
+    {
+      "id": "loftek-23",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CXS 3200",
+        "SPECTOR"
+      ]
+    },
+    {
+      "id": "loftek-24",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CXS 3200",
+        "Nexus 543",
+        "Nexus 543 Hi-Fi",
+        "Other",
+        "SENTINEL D1",
+        "SENTINEL D3"
+      ]
+    },
+    {
+      "id": "loftek-25",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDX 2640"
+      ]
+    },
+    {
+      "id": "loftek-26",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nexus 543",
+        "NEXUS 543 (Alley)",
+        "Nexus 543 custom",
+        "Other",
+        "Sendinel D1"
+      ]
+    },
+    {
+      "id": "loftek-27",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nexus 543",
+        "Nexus 543 custom",
+        "Sentinel D3"
+      ]
+    },
+    {
+      "id": "loftek-28",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nexus 543"
+      ]
+    },
+    {
+      "id": "loftek-29",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=Ru55ell%21&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Nexus 543"
+      ]
+    },
+    {
+      "id": "loftek-30",
+      "url": "snapshot.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nexus 543 custom"
+      ]
+    },
+    {
+      "id": "loftek-31",
+      "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "loftek-32",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "loftek-33",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SENTINEL D1"
+      ]
+    }
+  ]
+}

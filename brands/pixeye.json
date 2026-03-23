@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pixeye",
+  "brand_id": "pixeye",
+  "streams": [
+    {
+      "id": "pixeye-1",
+      "url": "cgi-bin/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ck 868"
+      ]
+    }
+  ]
+}

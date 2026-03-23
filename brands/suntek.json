@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Suntek",
+  "brand_id": "suntek",
+  "streams": [
+    {
+      "id": "suntek-1",
+      "url": "image/qvga.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "S6211Y-WR"
+      ]
+    }
+  ]
+}

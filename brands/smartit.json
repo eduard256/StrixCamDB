@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smartit",
+  "brand_id": "smartit",
+  "streams": [
+    {
+      "id": "smartit-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "b30-6"
+      ]
+    }
+  ]
+}

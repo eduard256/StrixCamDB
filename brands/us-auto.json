@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Us Auto",
+  "brand_id": "us-auto",
+  "streams": [
+    {
+      "id": "us-auto-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1123"
+      ]
+    },
+    {
+      "id": "us-auto-2",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1123"
+      ]
+    }
+  ]
+}

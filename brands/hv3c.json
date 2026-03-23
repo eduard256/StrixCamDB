@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hv3c",
+  "brand_id": "hv3c",
+  "streams": [
+    {
+      "id": "hv3c-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

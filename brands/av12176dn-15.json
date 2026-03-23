@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Av12176dn-15",
+  "brand_id": "av12176dn-15",
+  "streams": [
+    {
+      "id": "av12176dn-15-1",
+      "url": "/h264.sdp1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "av12176dn"
+      ]
+    },
+    {
+      "id": "av12176dn-15-2",
+      "url": "/h264.sdp2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "av12176dn"
+      ]
+    }
+  ]
+}

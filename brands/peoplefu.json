@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Peoplefu",
+  "brand_id": "peoplefu",
+  "streams": [
+    {
+      "id": "peoplefu-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "FU 1010-I"
+      ]
+    },
+    {
+      "id": "peoplefu-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-674",
+        "IPCAM3",
+        "IPCAM5",
+        "Other"
+      ]
+    },
+    {
+      "id": "peoplefu-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "peoplefu-4",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

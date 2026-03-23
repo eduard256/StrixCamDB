@@ -1,0 +1,203 @@
+{
+  "version": 2,
+  "brand": "Techage",
+  "brand_id": "techage",
+  "streams": [
+    {
+      "id": "techage-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "3MP",
+        "8MP 4K",
+        "Other",
+        "XMEye"
+      ]
+    },
+    {
+      "id": "techage-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5 MP POE",
+        "NVR"
+      ]
+    },
+    {
+      "id": "techage-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "508",
+        "BT508GV-20SC",
+        "east3.0",
+        "IPC",
+        "IPC_NT98566_80N50_S38",
+        "ipc-bt511sw-1.0",
+        "IPC-BT618-40",
+        "IPC-BT619W-2.0",
+        "NVR",
+        "Other",
+        "PT915",
+        "TA-520SB-20W",
+        "TA-608G-AI",
+        "TA-XM-605GP-AI-50",
+        "TA-XM-PT825G-80P",
+        "XM530",
+        "XM530_50X20-WG_8M",
+        "XM-IP508GV-20",
+        "XM-IP511SWTV-20-64G",
+        "XM-IP605GV-50",
+        "XM-IP608G-AI-20W",
+        "YN-IPC-511SW"
+      ]
+    },
+    {
+      "id": "techage-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "5MP POE PTZ"
+      ]
+    },
+    {
+      "id": "techage-5",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "techage-6",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC",
+        "IPC-BT619W-10",
+        "ipc-bt619w-2.0",
+        "IPC-BT619W-2.0",
+        "JA-608GW-20",
+        "NVR",
+        "Other"
+      ]
+    },
+    {
+      "id": "techage-7",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "techage-8",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC",
+        "IPC-BT511SW",
+        "ipc-bt618-40",
+        "NVR",
+        "TA-XM-605GP-AI-50",
+        "TA-XM-M29SP-AI-50N",
+        "XM530",
+        "XMEYE",
+        "xm-ip511swtv-20",
+        "XM-IP608G-AI-20W"
+      ]
+    },
+    {
+      "id": "techage-9",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-BT511SW-1.0",
+        "IPC-BT619W-2.0",
+        "NVR",
+        "NVS",
+        "Other",
+        "W4W4S-BT619AW-13",
+        "w4w4s-bt619aw-15"
+      ]
+    },
+    {
+      "id": "techage-10",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC-BT618-20"
+      ]
+    },
+    {
+      "id": "techage-11",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "techage-12",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TA-605P-AI-50"
+      ]
+    },
+    {
+      "id": "techage-13",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "TA-JA-508GW-30"
+      ]
+    },
+    {
+      "id": "techage-14",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "TA-XM-DM13EP-50"
+      ]
+    },
+    {
+      "id": "techage-15",
+      "url": "/onvif/device_service",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8899,
+      "models": [
+        "vm-530"
+      ]
+    }
+  ]
+}

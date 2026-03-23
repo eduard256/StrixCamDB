@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "brand": "Wgcc",
+  "brand_id": "wgcc",
+  "streams": [
+    {
+      "id": "wgcc-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2204FWD-IS",
+        "domet",
+        "UNIPC-2204FWD-IS",
+        "UNIPC-3204WD-I"
+      ]
+    },
+    {
+      "id": "wgcc-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "bullet cam",
+        "unipc-3204wd-i"
+      ]
+    },
+    {
+      "id": "wgcc-3",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "domet"
+      ]
+    },
+    {
+      "id": "wgcc-4",
+      "url": "video.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "unipc-3204wd-i"
+      ]
+    },
+    {
+      "id": "wgcc-5",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "wgcc-6",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "wgcc-7",
+      "url": "live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "PTZ IP Camera"
+      ]
+    },
+    {
+      "id": "wgcc-8",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "wgcc-9",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "UNIPC-2204FWD-IS"
+      ]
+    }
+  ]
+}

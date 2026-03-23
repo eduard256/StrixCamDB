@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Chinese Lamp Camera",
+  "brand_id": "chinese-lamp-camera",
+  "streams": [
+    {
+      "id": "chinese-lamp-camera-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "CAM HI"
+      ]
+    },
+    {
+      "id": "chinese-lamp-camera-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

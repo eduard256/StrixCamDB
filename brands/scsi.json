@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Scsi",
+  "brand_id": "scsi",
+  "streams": [
+    {
+      "id": "scsi-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SDN-2000",
+        "V-2001"
+      ]
+    },
+    {
+      "id": "scsi-2",
+      "url": "/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V-2000"
+      ]
+    },
+    {
+      "id": "scsi-3",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V-2001"
+      ]
+    }
+  ]
+}

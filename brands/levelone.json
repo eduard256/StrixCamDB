@@ -1,0 +1,838 @@
+{
+  "version": 2,
+  "brand": "Levelone",
+  "brand_id": "levelone",
+  "streams": [
+    {
+      "id": "levelone-1",
+      "url": "/Streaming/Channels/[CHANNEL+1]02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "levelone-2",
+      "url": "/Streaming/Channels/[CHANNEL]02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "levelone-3",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0010/0020",
+        "1091",
+        "fcs_0010",
+        "FCS-0020",
+        "FCS-0040",
+        "FCS-1030",
+        "FCS-3031",
+        "FSC-0040",
+        "WCS 0040",
+        "wcs-0010",
+        "WCS-6020"
+      ]
+    },
+    {
+      "id": "levelone-4",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0010/0020",
+        "0030",
+        "0031/1121/3061/5041",
+        "1010/2010",
+        "1131/1141/3071/3081/5051",
+        "FCS 4000",
+        "FCS-0010",
+        "FCS-0030",
+        "FCS-1020",
+        "FCS-1030",
+        "FCS-1040",
+        "FCS-1101",
+        "FCS-3000",
+        "FCS-3021",
+        "FCS-3031",
+        "FCS-5011",
+        "FCS-5030",
+        "Other",
+        "WCS-0040"
+      ]
+    },
+    {
+      "id": "levelone-5",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0010/0020",
+        "0030",
+        "1010/2010",
+        "1091",
+        "1131/1141/3071/3081/5051",
+        "FCS 4000",
+        "FCS-0010",
+        "Fcs-0020",
+        "FCS-0030",
+        "FCS-0040",
+        "FCS-1020",
+        "FCS-1030",
+        "fcs-1040",
+        "FCS-3000",
+        "FCS-3031",
+        "FCS-3091",
+        "FSC-0040",
+        "Other",
+        "WCS 0040",
+        "WCS-1090"
+      ]
+    },
+    {
+      "id": "levelone-6",
+      "url": "img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0010/0020",
+        "10_212",
+        "1010_2",
+        "1091",
+        "FCS-0010",
+        "FCS-0020",
+        "FCS-0040",
+        "fcs-1040",
+        "FCS-1091",
+        "FCS-1131",
+        "FCS-3051",
+        "Other",
+        "wcs-0010",
+        "WCS-2003"
+      ]
+    },
+    {
+      "id": "levelone-7",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0030",
+        "5052",
+        "FCS-0031",
+        "FCS-1020",
+        "fcs-1122",
+        "FCS-5030",
+        "FCS-5041",
+        "fcs-6010",
+        "Other",
+        "Wcs 00500",
+        "WCS-0030",
+        "WCS-0050"
+      ]
+    },
+    {
+      "id": "levelone-8",
+      "url": "cgi-bin/media.cgi?action=getSnapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0030",
+        "0031/1121/3061/5041",
+        "FCS-0050",
+        "Other",
+        "Wcs 00500"
+      ]
+    },
+    {
+      "id": "levelone-9",
+      "url": "channel2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0030",
+        "0031/1121/3061/5041",
+        "FCS-0030",
+        "FCS-0050",
+        "FCS-1121",
+        "FCS-3063",
+        "FCS-5041",
+        "FCS-6010",
+        "Other",
+        "Wcs 00500",
+        "WCS-0030",
+        "WCS-0050",
+        "ws050"
+      ]
+    },
+    {
+      "id": "levelone-10",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0031/1121/3061/5041",
+        "1131/1141/3071/3081/5051",
+        "5051",
+        "FCS-1131",
+        "FCS-5031",
+        "FCS-5051",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-11",
+      "url": "cgi-bin/viewer/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0031/1121/3061/5041",
+        "FCS-0032",
+        "FCS-3021",
+        "FCS-5011",
+        "FCS-5030"
+      ]
+    },
+    {
+      "id": "levelone-12",
+      "url": "channel[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "0031/1121/3061/5041",
+        "3061",
+        "FCS-0030",
+        "FCS-0031",
+        "FCS-1121",
+        "FCS-5041",
+        "FCS-5067",
+        "Other",
+        "WCS-0050"
+      ]
+    },
+    {
+      "id": "levelone-13",
+      "url": "/channel1",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "0051",
+        "fcs 1121",
+        "fcs-4203"
+      ]
+    },
+    {
+      "id": "levelone-14",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "020",
+        "FCS-1091",
+        "FSC-0040",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-15",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1010",
+        "1010/2010",
+        "1030",
+        "fcs 1010",
+        "FCS 1060",
+        "Fcs 9064",
+        "FCS-1010",
+        "FCS1030",
+        "FCS-1040",
+        "FCS-1040-JPG",
+        "fcs-1050",
+        "FCS-1070",
+        "FCS-1081",
+        "FCS-1131",
+        "FCS-3000",
+        "FCS-4101",
+        "FCS-5030",
+        "fsc1010",
+        "IP61x2",
+        "Other",
+        "WCS",
+        "wcs 2040",
+        "wcs-2010",
+        "WCS-2030",
+        "wcs-2060",
+        "WSC-2030"
+      ]
+    },
+    {
+      "id": "levelone-16",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1010/2010"
+      ]
+    },
+    {
+      "id": "levelone-17",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1081",
+        "FCS 4000",
+        "FCS-1101",
+        "fcs-4100",
+        "Min",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-18",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1091",
+        "FCS-1030",
+        "FCS-1060",
+        "FCS-5011",
+        "FCS-5030",
+        "Other",
+        "WCS-0040",
+        "WCS-2030",
+        "WCS-2060"
+      ]
+    },
+    {
+      "id": "levelone-19",
+      "url": "h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1131/1141/3071/3081/5051",
+        "5051",
+        "FCS-0071",
+        "FCS-1131",
+        "fcs-3073",
+        "FCS-3080",
+        "FCS-3081",
+        "FCS-5011",
+        "FCS-5051",
+        "FCS-5061",
+        "Other",
+        "WCS 0040",
+        "wcs-0010"
+      ]
+    },
+    {
+      "id": "levelone-20",
+      "url": "cgi-bin/jpg/image.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3061",
+        "5051",
+        "fcs 3071",
+        "FCS-3081",
+        "FCS-5051",
+        "WCS-2030"
+      ]
+    },
+    {
+      "id": "levelone-21",
+      "url": "/live1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4101",
+        "FCS 3101",
+        "FCS-1060",
+        "FCS-4101",
+        "FCS-4301",
+        "FCS-4302",
+        "FCS5068",
+        "FCS-5093",
+        "FSC-4101",
+        "FSC-6020",
+        "wcs-6050"
+      ]
+    },
+    {
+      "id": "levelone-22",
+      "url": "video2.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4101",
+        "fcs-4020",
+        "FCS-5030"
+      ]
+    },
+    {
+      "id": "levelone-23",
+      "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fcs- 0032",
+        "FCS 3065",
+        "FCS-0032",
+        "FCS-1152",
+        "FCS-3053",
+        "FCS-3054",
+        "FCS-4044",
+        "FCS-5056",
+        "FCS-5064"
+      ]
+    },
+    {
+      "id": "levelone-24",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fcs 3061",
+        "FCS-0030",
+        "FCS-0050",
+        "FCS-1122",
+        "FCS-3052",
+        "fcs-5052",
+        "fcs-6010",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-25",
+      "url": "/onvif-stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCS 3065",
+        "FCS 3101",
+        "FCS-3054",
+        "FCS-4044",
+        "FCS-5056"
+      ]
+    },
+    {
+      "id": "levelone-26",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS 4000",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-27",
+      "url": "imagep/picture.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS 4202",
+        "FCS-1041",
+        "FCS-4302",
+        "FCS-5041",
+        "FCS-5042",
+        "WCS-2060",
+        "WCS-6020",
+        "WCS-6050"
+      ]
+    },
+    {
+      "id": "levelone-28",
+      "url": "access_code",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-0010",
+        "FCS-0020"
+      ]
+    },
+    {
+      "id": "levelone-29",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-0030",
+        "FSC-1122",
+        "FSC-6010",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-30",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-0030",
+        "FCS-1020"
+      ]
+    },
+    {
+      "id": "levelone-31",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "FCS-0030",
+        "FCS-4051"
+      ]
+    },
+    {
+      "id": "levelone-32",
+      "url": "/live.sdp",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FCS-0030",
+        "FCS-4302"
+      ]
+    },
+    {
+      "id": "levelone-33",
+      "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-0032",
+        "FCS-3021",
+        "FCS-5030",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-34",
+      "url": "img/video.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCS-0040",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-35",
+      "url": "cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-0051",
+        "FCS-3063"
+      ]
+    },
+    {
+      "id": "levelone-36",
+      "url": "/onvif&event&video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7070,
+      "models": [
+        "FCS-0051",
+        "FCS-5056"
+      ]
+    },
+    {
+      "id": "levelone-37",
+      "url": "tmp/snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-0071",
+        "FCS-3091"
+      ]
+    },
+    {
+      "id": "levelone-38",
+      "url": "cgi-bin/admin/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-0071",
+        "FCS-3091",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-39",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-1010",
+        "FCS-1030",
+        "FCS-1040",
+        "fcs-1040-jpg",
+        "Fcs-1050",
+        "fcs-1060",
+        "FCS-2030",
+        "FCS-3000",
+        "WCS 2040",
+        "WCS-0040",
+        "WCS-2010",
+        "WCS-2030",
+        "WCS-2060",
+        "WCS-2070",
+        "wsc2010",
+        "WSC2010"
+      ]
+    },
+    {
+      "id": "levelone-40",
+      "url": "cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fcs-1040",
+        "FCS-5030",
+        "FCS-7111"
+      ]
+    },
+    {
+      "id": "levelone-41",
+      "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-1040",
+        "FCS-3000"
+      ]
+    },
+    {
+      "id": "levelone-42",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCS-1081",
+        "FCS-1101",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-43",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FCS-1135",
+        "FCS-3085"
+      ]
+    },
+    {
+      "id": "levelone-44",
+      "url": "/onvif-stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7070,
+      "models": [
+        "FCS-1153",
+        "FCS-3053",
+        "FCS-3054",
+        "FCS-5053"
+      ]
+    },
+    {
+      "id": "levelone-45",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCS-3081"
+      ]
+    },
+    {
+      "id": "levelone-46",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FCS-4051",
+        "NVC-810"
+      ]
+    },
+    {
+      "id": "levelone-47",
+      "url": "/channel0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FCS-4051",
+        "FSC-5060"
+      ]
+    },
+    {
+      "id": "levelone-48",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fcs-4100",
+        "fcs-4101",
+        "Other",
+        "WCS-6050"
+      ]
+    },
+    {
+      "id": "levelone-49",
+      "url": "IEIDVR?CH=[USERNAME]&CARD=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-500x Camera Server"
+      ]
+    },
+    {
+      "id": "levelone-50",
+      "url": "cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FCS-5030"
+      ]
+    },
+    {
+      "id": "levelone-51",
+      "url": "//Hauptstream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FCS-5058"
+      ]
+    },
+    {
+      "id": "levelone-52",
+      "url": "stream/bidirect/channel[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCS-5067",
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-53",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-54",
+      "url": "loginfree.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "levelone-55",
+      "url": "img/media.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "WCS-0040"
+      ]
+    },
+    {
+      "id": "levelone-56",
+      "url": "/cgi-bin/video.jpg?cam=1&quality=3&size=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "wcs-2010"
+      ]
+    },
+    {
+      "id": "levelone-57",
+      "url": "/cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "WCS2040"
+      ]
+    },
+    {
+      "id": "levelone-58",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCS-3084"
+      ]
+    }
+  ]
+}

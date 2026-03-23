@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Security Cam",
+  "brand_id": "security-cam",
+  "streams": [
+    {
+      "id": "security-cam-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullet HD",
+        "BULLET HD 1080"
+      ]
+    },
+    {
+      "id": "security-cam-2",
+      "url": "/0/888888:888888/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPVA58",
+        "Other"
+      ]
+    },
+    {
+      "id": "security-cam-3",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sec"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Lecoe",
+  "brand_id": "lecoe",
+  "streams": [
+    {
+      "id": "lecoe-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DomeCam",
+        "W72S"
+      ]
+    }
+  ]
+}

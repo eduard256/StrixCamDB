@@ -1,0 +1,572 @@
+{
+  "version": 2,
+  "brand": "Neo Coolcam",
+  "brand_id": "neo-coolcam",
+  "streams": [
+    {
+      "id": "neo-coolcam-1",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "16CH"
+      ]
+    },
+    {
+      "id": "neo-coolcam-2",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "197",
+        "COOLCAM",
+        "COOLCAM HBAAP",
+        "Coolcam HBP",
+        "COOLCAM HBP",
+        "HBP",
+        "NEO",
+        "NIP",
+        "NIP 06",
+        "NIP 21",
+        "NIP-12",
+        "NIP-20",
+        "NIP-31H",
+        "NIP-36",
+        "NIP-51FX",
+        "nip-61(GE)",
+        "NIP-61GE",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-3",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "coolcam",
+        "COOLCAM",
+        "E-LOCK",
+        "NC603P",
+        "NIP-02",
+        "nip-06",
+        "NIP-12",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "coolcam",
+        "neo",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "coolcam",
+        "IP-20",
+        "NEO",
+        "nip-02",
+        "NIP-02",
+        "NIP-55",
+        "NIP-550VX",
+        "p2p",
+        "P2P"
+      ]
+    },
+    {
+      "id": "neo-coolcam-6",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "coolcam",
+        "Coolcam HBP",
+        "NIP",
+        "NIP 06",
+        "NIP 20",
+        "NIP-02",
+        "NIP-02(OAM)",
+        "NIPJEAN2",
+        "Other",
+        "P2P"
+      ]
+    },
+    {
+      "id": "neo-coolcam-7",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "coolcam",
+        "Nip-53",
+        "Other",
+        "P2P"
+      ]
+    },
+    {
+      "id": "neo-coolcam-8",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Coolcam",
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-9",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COOLCAM",
+        "COOLCAM HBP",
+        "IP-20",
+        "NIP 06",
+        "NIP-02",
+        "NIP-227316-CACCC",
+        "P2P"
+      ]
+    },
+    {
+      "id": "neo-coolcam-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COOLCAM",
+        "E-Lock",
+        "E-LOCK",
+        "NIP-02",
+        "NIP-06",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-11",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COOLCAM",
+        "COOLCAM HBP",
+        "COOLCAM nip22",
+        "COOLCAM NIP-22",
+        "NEO",
+        "NIP",
+        "NIP-061GE",
+        "NIP-06NEW",
+        "NIP-25",
+        "NIP-28",
+        "NIP-28 (FX)",
+        "NIP-31",
+        "nip-51fx",
+        "NIP-55",
+        "nip-55ge",
+        "nip-56fx",
+        "NIP-61GE",
+        "NP20",
+        "Other",
+        "P2P"
+      ]
+    },
+    {
+      "id": "neo-coolcam-12",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COOLCAM",
+        "NIP-02",
+        "NIP-02BGPW3A2",
+        "NIP-06",
+        "NIP-09",
+        "NIP-31",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-13",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COOLCAM",
+        "nip-12",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-14",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COOLCAM",
+        "neo",
+        "NIP-02(OAM)",
+        "NIP-06",
+        "NIP-102428-DFBEF",
+        "NIP-H20(OZX)",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-15",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COOLCAM",
+        "neo",
+        "NIP-02",
+        "NIP-02(OAO)",
+        "NIP-03(OAM)",
+        "NIP-06",
+        "NIP-160238-AADDB",
+        "NIP-O2 (OAO)",
+        "Other",
+        "p2p"
+      ]
+    },
+    {
+      "id": "neo-coolcam-16",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "COOLCAM HBP",
+        "NIP-12",
+        "NIP-12(OAM)",
+        "NIP-130876-ADAEB",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-17",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "COOLCAM HBP",
+        "NIP 180x",
+        "NIP 20",
+        "NIP JEAN",
+        "NIP-02(OAM)",
+        "NIP-066777-BWESL",
+        "NIP-102428-DFBEF",
+        "NIP-161397-AADBF",
+        "NIP-MJPEG",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-18",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Low Res",
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-19",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC603P",
+        "NIP-02BGPW3A2",
+        "NIP-06",
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-20",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "neo"
+      ]
+    },
+    {
+      "id": "neo-coolcam-21",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP 06",
+        "NIP-06new",
+        "NIP-213979-DBAFA"
+      ]
+    },
+    {
+      "id": "neo-coolcam-22",
+      "url": "/0/av1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "NIP 06",
+        "NIP-31H"
+      ]
+    },
+    {
+      "id": "neo-coolcam-23",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP 20",
+        "NIP-12",
+        "NIP-55",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-24",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-02",
+        "NIP-02(OAM)",
+        "NIP-02BGPW3A2",
+        "NIP-06",
+        "NIP-09",
+        "nip-11",
+        "NIP-12",
+        "NIP-26",
+        "NIP-31",
+        "NIP-61GE",
+        "OBJ-007260-LYLDU",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-25",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-02BGPW3A2",
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-26",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-02BGPW3A2",
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-27",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nip-06",
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-28",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "nip-06"
+      ]
+    },
+    {
+      "id": "neo-coolcam-29",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NIP-06",
+        "NIP-09",
+        "NIP-36",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-30",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-06",
+        "OBJ-007260-LYLDU",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-31",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-32",
+      "url": "mobile/channel[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-09"
+      ]
+    },
+    {
+      "id": "neo-coolcam-33",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-34",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NIP-09",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-35",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NIP-09"
+      ]
+    },
+    {
+      "id": "neo-coolcam-36",
+      "url": "medias2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NIP-09"
+      ]
+    },
+    {
+      "id": "neo-coolcam-37",
+      "url": "ipcam.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NIP-09"
+      ]
+    },
+    {
+      "id": "neo-coolcam-38",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nip-11",
+        "nip-20",
+        "NIP-55",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-39",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-12(OAM)",
+        "Other"
+      ]
+    },
+    {
+      "id": "neo-coolcam-40",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-55"
+      ]
+    },
+    {
+      "id": "neo-coolcam-41",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "version": 2,
+  "brand": "Basler",
+  "brand_id": "basler",
+  "streams": [
+    {
+      "id": "basler-1",
+      "url": "/cgi-bin/mjpeg?session_id=0&buffer=0&prio=high&frame=4",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "1280C"
+      ]
+    },
+    {
+      "id": "basler-2",
+      "url": "cgi-bin/mjpeg?session_id=[CHANNEL]&buffer=0&prio=high&frame=4",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "bip1300",
+        "bip-2",
+        "bip2-1300",
+        "IP Camera (2)",
+        "Other"
+      ]
+    },
+    {
+      "id": "basler-3",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bip-2",
+        "Other"
+      ]
+    },
+    {
+      "id": "basler-4",
+      "url": "h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bip-2",
+        "IP CAMERA (2)",
+        "Other"
+      ]
+    },
+    {
+      "id": "basler-5",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BIP-2",
+        "IP CAMERA (2)"
+      ]
+    },
+    {
+      "id": "basler-6",
+      "url": "cgi-bin/jpeg?stream=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BIP-2",
+        "BIP2-1300",
+        "BIP-640c",
+        "Other"
+      ]
+    },
+    {
+      "id": "basler-7",
+      "url": "cgi-bin/mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BIP-2",
+        "bip2-1300c-dn",
+        "IP CAMERA (2)",
+        "Other"
+      ]
+    },
+    {
+      "id": "basler-8",
+      "url": "jpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BIP-2",
+        "Other"
+      ]
+    },
+    {
+      "id": "basler-9",
+      "url": "cgi-bin/jpeg?session_id=[CHANNEL]&buffer=0&prio=high&frame=4",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BIP2-1000C-DN",
+        "IP Camera (2)"
+      ]
+    },
+    {
+      "id": "basler-10",
+      "url": "cgi-bin/mjpeg?stream=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

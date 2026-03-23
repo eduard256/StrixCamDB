@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wca",
+  "brand_id": "wca",
+  "streams": [
+    {
+      "id": "wca-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

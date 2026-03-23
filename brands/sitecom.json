@@ -1,0 +1,207 @@
+{
+  "version": 2,
+  "brand": "Sitecom",
+  "brand_id": "sitecom",
+  "streams": [
+    {
+      "id": "sitecom-1",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "150N",
+        "150-NWL-405",
+        "IC-192701",
+        "wl_405",
+        "WL-405"
+      ]
+    },
+    {
+      "id": "sitecom-2",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "150N",
+        "150-NWL-405",
+        "Other",
+        "WL-404",
+        "WL-405"
+      ]
+    },
+    {
+      "id": "sitecom-3",
+      "url": "ipcam.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "150-NWL-405",
+        "WL405",
+        "WL-405"
+      ]
+    },
+    {
+      "id": "sitecom-4",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LN-400",
+        "LN-401",
+        "Other",
+        "WL-400",
+        "WL-402"
+      ]
+    },
+    {
+      "id": "sitecom-5",
+      "url": "Image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LN-400",
+        "LN-401",
+        "Other",
+        "WL-402"
+      ]
+    },
+    {
+      "id": "sitecom-6",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LN-406"
+      ]
+    },
+    {
+      "id": "sitecom-7",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LN-406",
+        "Other",
+        "WL-404"
+      ]
+    },
+    {
+      "id": "sitecom-8",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LN-406",
+        "WL-404"
+      ]
+    },
+    {
+      "id": "sitecom-9",
+      "url": "img/video.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LN-406"
+      ]
+    },
+    {
+      "id": "sitecom-10",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&snapshot=on",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sitecom-11",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sitecom-12",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sitecom-13",
+      "url": "image.jpg?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sitecom-14",
+      "url": "cgi-bin/still.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sitecom-15",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "sitecom-16",
+      "url": "img/snapshot.cgi?img=vga",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WL-404"
+      ]
+    },
+    {
+      "id": "sitecom-17",
+      "url": "/img/video.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WLC1000"
+      ]
+    },
+    {
+      "id": "sitecom-18",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wlc-4000"
+      ]
+    }
+  ]
+}

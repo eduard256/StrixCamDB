@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Avonic",
+  "brand_id": "avonic",
+  "streams": [
+    {
+      "id": "avonic-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cm60"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ronin",
+  "brand_id": "ronin",
+  "streams": [
+    {
+      "id": "ronin-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NR-W1CIP2SC"
+      ]
+    }
+  ]
+}

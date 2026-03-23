@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Spytech",
+  "brand_id": "spytech",
+  "streams": [
+    {
+      "id": "spytech-1",
+      "url": "/live/0/onvif.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NC128PW"
+      ]
+    },
+    {
+      "id": "spytech-2",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC128PW"
+      ]
+    }
+  ]
+}

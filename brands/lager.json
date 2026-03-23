@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Lager",
+  "brand_id": "lager",
+  "streams": [
+    {
+      "id": "lager-1",
+      "url": "GetData.cgi?Camera=0&BandWidth=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ka"
+      ]
+    },
+    {
+      "id": "lager-2",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "lager-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Fujitel",
+  "brand_id": "fujitel",
+  "streams": [
+    {
+      "id": "fujitel-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "FJ-C7837WIP"
+      ]
+    },
+    {
+      "id": "fujitel-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "I8313",
+        "I9811",
+        "I9813"
+      ]
+    }
+  ]
+}

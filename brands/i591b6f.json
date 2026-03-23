@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "I591b6f",
+  "brand_id": "i591b6f",
+  "streams": [
+    {
+      "id": "i591b6f-1",
+      "url": "/rtsp/record.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HIV6"
+      ]
+    },
+    {
+      "id": "i591b6f-2",
+      "url": "/rtsp/mjpeg.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HIV67"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Owlvision",
+  "brand_id": "owlvision",
+  "streams": [
+    {
+      "id": "owlvision-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "10x960p",
+        "NR10X-130H",
+        "NR10X-200H"
+      ]
+    }
+  ]
+}

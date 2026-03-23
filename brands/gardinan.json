@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gardinan",
+  "brand_id": "gardinan",
+  "streams": [
+    {
+      "id": "gardinan-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "H360-SN"
+      ]
+    }
+  ]
+}

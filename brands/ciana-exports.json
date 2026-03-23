@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ciana Exports",
+  "brand_id": "ciana-exports",
+  "streams": [
+    {
+      "id": "ciana-exports-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "antani"
+      ]
+    },
+    {
+      "id": "ciana-exports-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "antani"
+      ]
+    }
+  ]
+}

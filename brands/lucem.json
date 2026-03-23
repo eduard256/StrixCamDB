@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Lucem",
+  "brand_id": "lucem",
+  "streams": [
+    {
+      "id": "lucem-1",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LIP-579VR(G)",
+        "n732"
+      ]
+    }
+  ]
+}

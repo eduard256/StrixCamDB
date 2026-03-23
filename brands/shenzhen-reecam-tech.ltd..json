@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Shenzhen Reecam Tech.ltd.",
+  "brand_id": "shenzhen-reecam-tech.ltd.",
+  "streams": [
+    {
+      "id": "shenzhen-reecam-tech.ltd.-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "SPOT-WIFI"
+      ]
+    }
+  ]
+}

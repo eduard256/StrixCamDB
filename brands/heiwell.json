@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Heiwell",
+  "brand_id": "heiwell",
+  "streams": [
+    {
+      "id": "heiwell-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "brand": "Eagle Eye",
+  "brand_id": "eagle-eye",
+  "streams": [
+    {
+      "id": "eagle-eye-1",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AVTECH",
+        "LANTAI 1"
+      ]
+    },
+    {
+      "id": "eagle-eye-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B Series",
+        "en041",
+        "i spy",
+        "i watch"
+      ]
+    },
+    {
+      "id": "eagle-eye-3",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EN-CCUZ-001a",
+        "Other"
+      ]
+    },
+    {
+      "id": "eagle-eye-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip-005"
+      ]
+    },
+    {
+      "id": "eagle-eye-5",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "L SERIES",
+        "Other"
+      ]
+    },
+    {
+      "id": "eagle-eye-6",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "eagle-eye-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Voyo",
+  "brand_id": "voyo",
+  "streams": [
+    {
+      "id": "voyo-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Imax"
+      ]
+    }
+  ]
+}

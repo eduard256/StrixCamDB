@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Camtronics",
+  "brand_id": "camtronics",
+  "streams": [
+    {
+      "id": "camtronics-1",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "DM IP EYEFISH 2"
+      ]
+    },
+    {
+      "id": "camtronics-2",
+      "url": "/image/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "DM IP FISHEYE 2"
+      ]
+    },
+    {
+      "id": "camtronics-3",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPSC-200"
+      ]
+    },
+    {
+      "id": "camtronics-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

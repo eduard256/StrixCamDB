@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jwt",
+  "brand_id": "jwt",
+  "streams": [
+    {
+      "id": "jwt-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

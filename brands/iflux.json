@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Iflux",
+  "brand_id": "iflux",
+  "streams": [
+    {
+      "id": "iflux-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IC12R3-F4"
+      ]
+    }
+  ]
+}

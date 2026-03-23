@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "brand": "Dongjia",
+  "brand_id": "dongjia",
+  "streams": [
+    {
+      "id": "dongjia-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DA-IP3100HR",
+        "DA-IP8532TD-POE",
+        "Other"
+      ]
+    },
+    {
+      "id": "dongjia-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DA-IP3100HR",
+        "DA-IP3133HD",
+        "Mala",
+        "Other"
+      ]
+    },
+    {
+      "id": "dongjia-3",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DA-IP3100HR"
+      ]
+    },
+    {
+      "id": "dongjia-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DA-IP8520TR"
+      ]
+    }
+  ]
+}

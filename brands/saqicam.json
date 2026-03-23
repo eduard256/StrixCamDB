@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Saqicam",
+  "brand_id": "saqicam",
+  "streams": [
+    {
+      "id": "saqicam-1",
+      "url": "/live/0/MAIN",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SQ-D20CT30-POE"
+      ]
+    }
+  ]
+}

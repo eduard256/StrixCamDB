@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipnz",
+  "brand_id": "ipnz",
+  "streams": [
+    {
+      "id": "ipnz-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

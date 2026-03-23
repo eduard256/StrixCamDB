@@ -1,0 +1,104 @@
+{
+  "version": 2,
+  "brand": "Telview Cctv",
+  "brand_id": "telview-cctv",
+  "streams": [
+    {
+      "id": "telview-cctv-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CM35SR-S3235-H16EV2",
+        "FIW321H",
+        "H16EV2",
+        "Other",
+        "WID320"
+      ]
+    },
+    {
+      "id": "telview-cctv-2",
+      "url": "live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fid320"
+      ]
+    },
+    {
+      "id": "telview-cctv-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "telview-cctv-4",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "telview-cctv-5",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "telview-cctv-6",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "WID320"
+      ]
+    },
+    {
+      "id": "telview-cctv-7",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "telview-cctv-8",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SWB-1612"
+      ]
+    },
+    {
+      "id": "telview-cctv-9",
+      "url": "monitor.cgi?Channel=[CHANNEL]&Audio=0000&Live=1",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SWB-1612"
+      ]
+    }
+  ]
+}

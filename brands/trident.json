@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Trident",
+  "brand_id": "trident",
+  "streams": [
+    {
+      "id": "trident-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TP100W"
+      ]
+    }
+  ]
+}

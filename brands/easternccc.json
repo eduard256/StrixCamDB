@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Easternccc",
+  "brand_id": "easternccc",
+  "streams": [
+    {
+      "id": "easternccc-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-IRD2S02-W"
+      ]
+    }
+  ]
+}

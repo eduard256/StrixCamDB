@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "brand": "Nexcom",
+  "brand_id": "nexcom",
+  "streams": [
+    {
+      "id": "nexcom-1",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "231F",
+        "Other"
+      ]
+    },
+    {
+      "id": "nexcom-2",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2560"
+      ]
+    },
+    {
+      "id": "nexcom-3",
+      "url": "/live/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2MP-Box",
+        "3MP-Mobile",
+        "nex"
+      ]
+    },
+    {
+      "id": "nexcom-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "543"
+      ]
+    },
+    {
+      "id": "nexcom-5",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LG-Android",
+        "One",
+        "Other"
+      ]
+    },
+    {
+      "id": "nexcom-6",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NGMP0.3MP"
+      ]
+    },
+    {
+      "id": "nexcom-7",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "nexcom-8",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "nexcom-9",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "S-CAM"
+      ]
+    }
+  ]
+}

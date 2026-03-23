@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Moko",
+  "brand_id": "moko",
+  "streams": [
+    {
+      "id": "moko-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "e10",
+        "NIP-61GE"
+      ]
+    },
+    {
+      "id": "moko-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "e152",
+        "NIP-61GE"
+      ]
+    }
+  ]
+}

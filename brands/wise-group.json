@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "brand": "Wise Group",
+  "brand_id": "wise-group",
+  "streams": [
+    {
+      "id": "wise-group-1",
+      "url": "/ch1_s1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MY-303IP/M"
+      ]
+    },
+    {
+      "id": "wise-group-2",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NVS-365-V01",
+        "NVS-365-VO1",
+        "Other"
+      ]
+    },
+    {
+      "id": "wise-group-3",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "wise-group-4",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WS-A9R31",
+        "WS-D9638H"
+      ]
+    },
+    {
+      "id": "wise-group-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

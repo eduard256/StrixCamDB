@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "brand": "Storex",
+  "brand_id": "storex",
+  "streams": [
+    {
+      "id": "storex-1",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D-10H"
+      ]
+    },
+    {
+      "id": "storex-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D-10H",
+        "DH-20",
+        "DNR-30",
+        "DNR-30H"
+      ]
+    },
+    {
+      "id": "storex-3",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D-10H"
+      ]
+    },
+    {
+      "id": "storex-4",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D-10H"
+      ]
+    },
+    {
+      "id": "storex-5",
+      "url": "medias2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "D-10H",
+        "DN-20H"
+      ]
+    }
+  ]
+}

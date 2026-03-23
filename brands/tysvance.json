@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Tysvance",
+  "brand_id": "tysvance",
+  "streams": [
+    {
+      "id": "tysvance-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "B08LGWJD5Z"
+      ]
+    },
+    {
+      "id": "tysvance-2",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "B08LGWJD5Z"
+      ]
+    }
+  ]
+}

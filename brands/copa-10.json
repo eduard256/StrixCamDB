@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Copa 10",
+  "brand_id": "copa-10",
+  "streams": [
+    {
+      "id": "copa-10-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

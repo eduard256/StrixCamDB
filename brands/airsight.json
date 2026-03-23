@@ -1,0 +1,451 @@
+{
+  "version": 2,
+  "brand": "Airsight",
+  "brand_id": "airsight",
+  "streams": [
+    {
+      "id": "airsight-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "TOTO",
+        "X10",
+        "x10Airsight",
+        "XC36A",
+        "xc40a",
+        "XX36A",
+        "xx38",
+        "xx40a",
+        "XX41A",
+        "xx42a",
+        "xx52A",
+        "xx60a"
+      ]
+    },
+    {
+      "id": "airsight-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "X10",
+        "X36A",
+        "X38A",
+        "xc36a",
+        "XC36C",
+        "XC38A",
+        "XX59"
+      ]
+    },
+    {
+      "id": "airsight-3",
+      "url": "IMAGE.JPG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airsight-4",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "x10",
+        "x10Airsight",
+        "X36A",
+        "x69",
+        "X70A",
+        "XC39A",
+        "xc49a",
+        "XX34A",
+        "XX36A",
+        "xx39A",
+        "xx49a",
+        "XX52A",
+        "xx59a"
+      ]
+    },
+    {
+      "id": "airsight-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "x10",
+        "x10Airsight",
+        "x36a",
+        "xc36a",
+        "XC38A",
+        "xx36",
+        "XX36A",
+        "xx39a",
+        "xx40a",
+        "XX41A",
+        "xx42a",
+        "xx52a"
+      ]
+    },
+    {
+      "id": "airsight-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Wideeye",
+        "x10",
+        "X10",
+        "x10Airsight",
+        "X10AIRSIGHT",
+        "X36A",
+        "X39A",
+        "xc36a",
+        "XC36A",
+        "xc38",
+        "xc38a",
+        "XC39A",
+        "XC40A",
+        "XX34A",
+        "xx34c",
+        "XX36A",
+        "xx40a",
+        "XX41A",
+        "xx42a",
+        "XX42A",
+        "xx52a",
+        "XX52a",
+        "xx59a",
+        "XXA36A"
+      ]
+    },
+    {
+      "id": "airsight-7",
+      "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "X10",
+        "X39A",
+        "XC39A",
+        "xx39a",
+        "XX49A",
+        "xx59",
+        "XX59A"
+      ]
+    },
+    {
+      "id": "airsight-8",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "X10",
+        "x10Airsight",
+        "XC39A",
+        "XX34A",
+        "xx59A"
+      ]
+    },
+    {
+      "id": "airsight-9",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "x10Airsight",
+        "XC36A",
+        "xx40a",
+        "XX41A"
+      ]
+    },
+    {
+      "id": "airsight-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "x10a",
+        "X39A",
+        "XC36A",
+        "XC38A",
+        "XX36A",
+        "XX41A"
+      ]
+    },
+    {
+      "id": "airsight-11",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "X10AIRSIGHT",
+        "X34A"
+      ]
+    },
+    {
+      "id": "airsight-12",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "xc36a",
+        "xc38a",
+        "xx42a"
+      ]
+    },
+    {
+      "id": "airsight-13",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "X10",
+        "X34A",
+        "X38A",
+        "xc36a",
+        "XC38A",
+        "XX34A",
+        "XX36A",
+        "XX40A",
+        "xx51a",
+        "xx60a"
+      ]
+    },
+    {
+      "id": "airsight-14",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "X10",
+        "X34A",
+        "XC38A",
+        "XX34A",
+        "XX36A",
+        "xx40a",
+        "xx51A"
+      ]
+    },
+    {
+      "id": "airsight-15",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "xx52a"
+      ]
+    },
+    {
+      "id": "airsight-16",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "XX60A"
+      ]
+    },
+    {
+      "id": "airsight-17",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "xx40a",
+        "xx42a"
+      ]
+    },
+    {
+      "id": "airsight-18",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "airsight-19",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "x10",
+        "x10a",
+        "xx51a"
+      ]
+    },
+    {
+      "id": "airsight-20",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "X10",
+        "x10Airsight",
+        "xx51a"
+      ]
+    },
+    {
+      "id": "airsight-21",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "X10",
+        "xx40a",
+        "xx51a"
+      ]
+    },
+    {
+      "id": "airsight-22",
+      "url": "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 131,
+      "models": [
+        "x10a"
+      ]
+    },
+    {
+      "id": "airsight-23",
+      "url": "snapshot.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "X10A",
+        "xx52a"
+      ]
+    },
+    {
+      "id": "airsight-24",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "X34A",
+        "X38A"
+      ]
+    },
+    {
+      "id": "airsight-25",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "X34A",
+        "xx40a",
+        "xx60a"
+      ]
+    },
+    {
+      "id": "airsight-26",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "x38a",
+        "X39A",
+        "X40A",
+        "xc36a"
+      ]
+    },
+    {
+      "id": "airsight-27",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "x40a",
+        "xx40a"
+      ]
+    },
+    {
+      "id": "airsight-28",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "xc36a"
+      ]
+    },
+    {
+      "id": "airsight-29",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "xc38a",
+        "XC39A",
+        "XX34A",
+        "XX36A"
+      ]
+    },
+    {
+      "id": "airsight-30",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "xx40a",
+        "xx51A"
+      ]
+    },
+    {
+      "id": "airsight-31",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "XX59"
+      ]
+    }
+  ]
+}

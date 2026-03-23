@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Imago",
+  "brand_id": "imago",
+  "streams": [
+    {
+      "id": "imago-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ITN-22P3 NB 4"
+      ]
+    }
+  ]
+}

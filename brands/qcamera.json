@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Qcamera",
+  "brand_id": "qcamera",
+  "streams": [
+    {
+      "id": "qcamera-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

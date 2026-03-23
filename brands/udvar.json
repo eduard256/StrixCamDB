@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Udvar",
+  "brand_id": "udvar",
+  "streams": [
+    {
+      "id": "udvar-1",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc"
+      ]
+    },
+    {
+      "id": "udvar-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Wanscam 00038"
+      ]
+    }
+  ]
+}

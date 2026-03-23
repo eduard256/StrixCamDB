@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Iv9000",
+  "brand_id": "iv9000",
+  "streams": [
+    {
+      "id": "iv9000-1",
+      "url": "/rtsp/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "9150"
+      ]
+    }
+  ]
+}

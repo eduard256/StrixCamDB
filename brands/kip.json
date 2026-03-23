@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Kip",
+  "brand_id": "kip",
+  "streams": [
+    {
+      "id": "kip-1",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "100hv20h",
+        "20HI-960P-FL-W"
+      ]
+    },
+    {
+      "id": "kip-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KIP-200PT40N"
+      ]
+    }
+  ]
+}

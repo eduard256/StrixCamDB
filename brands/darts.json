@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Darts",
+  "brand_id": "darts",
+  "streams": [
+    {
+      "id": "darts-1",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2 hd"
+      ]
+    }
+  ]
+}

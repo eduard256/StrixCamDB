@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Akon",
+  "brand_id": "akon",
+  "streams": [
+    {
+      "id": "akon-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "121"
+      ]
+    },
+    {
+      "id": "akon-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "121"
+      ]
+    }
+  ]
+}

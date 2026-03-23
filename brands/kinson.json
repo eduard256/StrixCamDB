@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Kinson",
+  "brand_id": "kinson",
+  "streams": [
+    {
+      "id": "kinson-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C720PWIP"
+      ]
+    },
+    {
+      "id": "kinson-2",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C720PWIP"
+      ]
+    },
+    {
+      "id": "kinson-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C720PWIP"
+      ]
+    }
+  ]
+}

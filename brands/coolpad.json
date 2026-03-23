@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Coolpad",
+  "brand_id": "coolpad",
+  "streams": [
+    {
+      "id": "coolpad-1",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1234",
+        "332QA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "version": 2,
+  "brand": "Chacon",
+  "brand_id": "chacon",
+  "streams": [
+    {
+      "id": "chacon-1",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "345",
+        "34535",
+        "34546",
+        "34547",
+        "345473",
+        "34548",
+        "Other"
+      ]
+    },
+    {
+      "id": "chacon-2",
+      "url": "/image.jpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 29931,
+      "models": [
+        "34530"
+      ]
+    },
+    {
+      "id": "chacon-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "34535",
+        "345473"
+      ]
+    },
+    {
+      "id": "chacon-4",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "34535"
+      ]
+    },
+    {
+      "id": "chacon-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "34535-frich"
+      ]
+    },
+    {
+      "id": "chacon-6",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "34537",
+        "Other"
+      ]
+    },
+    {
+      "id": "chacon-7",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CHa",
+        "Other"
+      ]
+    },
+    {
+      "id": "chacon-8",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CHa"
+      ]
+    },
+    {
+      "id": "chacon-9",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "IPCAM FI02"
+      ]
+    },
+    {
+      "id": "chacon-10",
+      "url": "/videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPCAM FI02"
+      ]
+    },
+    {
+      "id": "chacon-11",
+      "url": "/cgi-bin/video.jpg?size=2",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPCAM-FI02"
+      ]
+    },
+    {
+      "id": "chacon-12",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

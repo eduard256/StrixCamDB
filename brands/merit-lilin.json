@@ -1,0 +1,506 @@
+{
+  "version": 2,
+  "brand": "Merit Lilin",
+  "brand_id": "merit-lilin",
+  "streams": [
+    {
+      "id": "merit-lilin-1",
+      "url": "rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2MP Camera 1080p",
+        "2MP CAMERA 1080P",
+        "2MP Camera 1080p (port 80)",
+        "2MP Camera 2MP",
+        "2MP Camera 2MP (port 80)",
+        "3MP Camera 1080p",
+        "3MP Camera 1080p (port 80)",
+        "5MP Camera 1080p",
+        "5MP Camera 1080p (port 80)",
+        "7022",
+        "H.264",
+        "IPG1022ES",
+        "IPG1052",
+        "L series 2MP Camera 2MP",
+        "L series 2MP Camera 2MP (port 80)",
+        "LR7022",
+        "LR7022E4",
+        "LR7722EX",
+        "LR7722X",
+        "mr832",
+        "Other",
+        "ZR2322"
+      ]
+    },
+    {
+      "id": "merit-lilin-2",
+      "url": "rtsph264480p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2MP Camera 480p",
+        "2MP Camera 480p (port 80)",
+        "3MP Camera 480p",
+        "3MP Camera 480p (port 80)",
+        "5MP Camera 480p",
+        "5MP Camera 480p (port 80)",
+        "960H 480p",
+        "960H 480p (port 80)",
+        "IPS622 480p",
+        "IPS622 480p (port 80)",
+        "IPS722 480p",
+        "IPS722 480p (port 80)",
+        "L series 2MP Camera 480p",
+        "L series 2MP Camera 480p (port 80)",
+        "VS212 480p",
+        "VS212 480p (port 80)"
+      ]
+    },
+    {
+      "id": "merit-lilin-3",
+      "url": "rtspjpeg480p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2MP Camera 480p jpeg",
+        "2MP Camera 480p jpeg (port 80)",
+        "3MP Camera 480p jpeg",
+        "3MP Camera 480p jpeg (port 80)",
+        "5MP Camera 480p jpeg",
+        "5MP Camera 480p jpeg (port 80)",
+        "960H jpeg",
+        "960H jpeg (port 80)",
+        "IPS622 jpeg",
+        "IPS622 jpeg (port 80)",
+        "IPS722 jpeg",
+        "IPS722 jpeg (port 80)",
+        "L series 2MP Camera 480p jpeg",
+        "L series 2MP Camera 480p jpeg (port 80)",
+        "VS212 jpeg",
+        "VS212 jpeg (port 80)"
+      ]
+    },
+    {
+      "id": "merit-lilin-4",
+      "url": "rtsph264720p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2MP Camera 720p",
+        "2MP Camera 720p (port 80)",
+        "3MP Camera 720p",
+        "3MP Camera 720p (port 80)",
+        "5MP Camera 720p",
+        "5MP Camera 720p (port 80)",
+        "IPFASTDOME",
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-5",
+      "url": "rtspjpeg720p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2MP Camera jpeg 720p",
+        "2MP Camera jpeg 720p (port 80)",
+        "3MP Camera jpeg 720p",
+        "3MP Camera jpeg 720p (port 80)",
+        "5MP Camera jpeg 720p",
+        "5MP Camera jpeg 720p (port 80)"
+      ]
+    },
+    {
+      "id": "merit-lilin-6",
+      "url": "rtspjpegcif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2MP Camera jpeg cif",
+        "2MP Camera jpeg cif (port 80)",
+        "3MP Camera jpeg cif",
+        "3MP Camera jpeg cif (port 80)",
+        "5MP Camera jpeg cif",
+        "5MP Camera jpeg cif (port 80)"
+      ]
+    },
+    {
+      "id": "merit-lilin-7",
+      "url": "rtsph2643m",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3MP Camera 3MP",
+        "3MP Camera 3MP (port 80)"
+      ]
+    },
+    {
+      "id": "merit-lilin-8",
+      "url": "getimage[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5522E",
+        "Dome",
+        "DVR3xx/NDR1xx",
+        "DVR5xx",
+        "IPG1022ES",
+        "IPR434",
+        "IPR6122",
+        "LR7022E4",
+        "LR7424",
+        "Other",
+        "SIP"
+      ]
+    },
+    {
+      "id": "merit-lilin-9",
+      "url": "rtsph2645m",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MP Camera 5MP",
+        "5MP Camera 5MP (port 80)"
+      ]
+    },
+    {
+      "id": "merit-lilin-10",
+      "url": "/rtsph264480p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "7022",
+        "D/N2mp",
+        "H.264",
+        "ipd552ex4.2n",
+        "IPR6122",
+        "ipr7334",
+        "LD2222",
+        "LR2122E4",
+        "LR2322EX.3.6",
+        "LR2522",
+        "LR6022",
+        "MR6342",
+        "mr832",
+        "Other",
+        "S210"
+      ]
+    },
+    {
+      "id": "merit-lilin-11",
+      "url": "rtsph264960h",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "960H",
+        "960H (port 80)",
+        "VS212",
+        "VS212 (port 80)"
+      ]
+    },
+    {
+      "id": "merit-lilin-12",
+      "url": "sub_[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AHD DVR"
+      ]
+    },
+    {
+      "id": "merit-lilin-13",
+      "url": "main_[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AHD DVR"
+      ]
+    },
+    {
+      "id": "merit-lilin-14",
+      "url": "/cgi-bin/net_jpeg.cgi?ch=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "DHD216"
+      ]
+    },
+    {
+      "id": "merit-lilin-15",
+      "url": "/cgi-bin/net_jpeg.cgi?ch=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "DHD216"
+      ]
+    },
+    {
+      "id": "merit-lilin-16",
+      "url": "GetStream.cgi?Video=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR204"
+      ]
+    },
+    {
+      "id": "merit-lilin-17",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR204"
+      ]
+    },
+    {
+      "id": "merit-lilin-18",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR204",
+        "H.264 D1 Camera",
+        "H.264 HD CAMERA",
+        "IPFASTDOME",
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-19",
+      "url": "snap",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR204",
+        "H.264 HD Camera",
+        "iMEGAPRO Camera",
+        "IPR320ESX",
+        "IPR434",
+        "IPR6122",
+        "IPS420",
+        "LD2222",
+        "LR7722EX",
+        "Other",
+        "P5R6352E2",
+        "ZR6122-IVS"
+      ]
+    },
+    {
+      "id": "merit-lilin-20",
+      "url": "getimage?camera=[CHANNEL]&fmt=vga",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR308",
+        "H.264 HD Camera",
+        "iMEGAPRO Camera",
+        "LR7022E4",
+        "Other",
+        "P5R6352E2"
+      ]
+    },
+    {
+      "id": "merit-lilin-21",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264"
+      ]
+    },
+    {
+      "id": "merit-lilin-22",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264",
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-23",
+      "url": "getimage",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264 HD CAMERA",
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-24",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Ipd2220es",
+        "IPR434",
+        "LD2222",
+        "LR832",
+        "Other",
+        "S210",
+        "ZMR8122X-P"
+      ]
+    },
+    {
+      "id": "merit-lilin-25",
+      "url": "/rtsph264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPFastDome"
+      ]
+    },
+    {
+      "id": "merit-lilin-26",
+      "url": "/rtsph2641024p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPR712M4.3"
+      ]
+    },
+    {
+      "id": "merit-lilin-27",
+      "url": "/rtsph264720p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPR712S"
+      ]
+    },
+    {
+      "id": "merit-lilin-28",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipr7334",
+        "LR7022"
+      ]
+    },
+    {
+      "id": "merit-lilin-29",
+      "url": "rtsph264sxga",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPS622 SXGA",
+        "IPS622 SXGA (port 80)",
+        "IPS722 SXGA",
+        "IPS722 SXGA (port 80)"
+      ]
+    },
+    {
+      "id": "merit-lilin-30",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LR7022"
+      ]
+    },
+    {
+      "id": "merit-lilin-31",
+      "url": "/getimage0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "LR7022E4"
+      ]
+    },
+    {
+      "id": "merit-lilin-32",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-33",
+      "url": "image/[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-34",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 8085,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-35",
+      "url": "rtsph264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-36",
+      "url": "rtspjpeg",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "merit-lilin-37",
+      "url": "cgi-bin/Stream?Video",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PDR-400"
+      ]
+    }
+  ]
+}

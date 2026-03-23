@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Tungson Ages",
+  "brand_id": "tungson-ages",
+  "streams": [
+    {
+      "id": "tungson-ages-1",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP71",
+        "IP72"
+      ]
+    }
+  ]
+}

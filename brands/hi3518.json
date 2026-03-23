@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Hi3518",
+  "brand_id": "hi3518",
+  "streams": [
+    {
+      "id": "hi3518-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Boavision"
+      ]
+    },
+    {
+      "id": "hi3518-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hd security camera"
+      ]
+    },
+    {
+      "id": "hi3518-3",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RS7518"
+      ]
+    }
+  ]
+}

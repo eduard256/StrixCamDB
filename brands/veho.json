@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Veho",
+  "brand_id": "veho",
+  "streams": [
+    {
+      "id": "veho-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "cave"
+      ]
+    }
+  ]
+}

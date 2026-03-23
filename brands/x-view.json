@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "X-view",
+  "brand_id": "x-view",
+  "streams": [
+    {
+      "id": "x-view-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "Overwatch"
+      ]
+    }
+  ]
+}

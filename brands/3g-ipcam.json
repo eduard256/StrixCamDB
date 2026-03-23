@@ -1,0 +1,517 @@
+{
+  "version": 2,
+  "brand": "3g Ipcam",
+  "brand_id": "3g-ipcam",
+  "streams": [
+    {
+      "id": "3g-ipcam-1",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002a",
+        "720 P IP CAMERA",
+        "L Series",
+        "Other",
+        "SRICAM SP004"
+      ]
+    },
+    {
+      "id": "3g-ipcam-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002A",
+        "IPCAM V380",
+        "IPC-HFW2231R-ZS-IRE6",
+        "Other",
+        "P2P"
+      ]
+    },
+    {
+      "id": "3g-ipcam-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002A",
+        "720 P IP CAMERA",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-4",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002A",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1234",
+        "C6F0SEZ0N0P0L0",
+        "C6F0SFZ3NOP5L0",
+        "C6F0SGZ0N0P3L0",
+        "C6F0SGZ3N0P6L2",
+        "C6F0SiZ3N0P0L0",
+        "C6F0SoZ3N0PcL2",
+        "C9F0SeZ0N0P4L0",
+        "C9F0SEZ0N0P4L0",
+        "C9F0SGZ0N0P2L1",
+        "C9F0SgZ3NP8L0",
+        "Chemin",
+        "F-SERIES",
+        "Other",
+        "SRICAM"
+      ]
+    },
+    {
+      "id": "3g-ipcam-6",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2016w"
+      ]
+    },
+    {
+      "id": "3g-ipcam-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2018",
+        "F-series",
+        "P2P"
+      ]
+    },
+    {
+      "id": "3g-ipcam-8",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3245",
+        "328",
+        "3285",
+        "3289",
+        "454",
+        "4556",
+        "546577",
+        "720 P IP CAMERA",
+        "B987w",
+        "BM16",
+        "C6F0SeZ0N0P0L0",
+        "C6F0SfZ0N0P3L0",
+        "C6F0SfZ3NOP5L0",
+        "C6F0SgZ0N0P3L0",
+        "C6F0SgZ3N0P6L2",
+        "C6F0SIZ3N0P0L0",
+        "C9F0SgZ0N0P2L1",
+        "CT0276WHUK",
+        "Fd7902",
+        "GGGG-152116-FCEEA",
+        "L SERIES",
+        "Other",
+        "p2p",
+        "sr1",
+        "SRICAM SP004"
+      ]
+    },
+    {
+      "id": "3g-ipcam-9",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "355566",
+        "546577",
+        "Other",
+        "X6130"
+      ]
+    },
+    {
+      "id": "3g-ipcam-10",
+      "url": "/stream_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "3g Ipcam: C6F0SoZ3N0PdL2"
+      ]
+    },
+    {
+      "id": "3g-ipcam-11",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "3g Ipcam: C6F0SoZ3N0PdL2"
+      ]
+    },
+    {
+      "id": "3g-ipcam-12",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "556",
+        "c6f0SoZ3n0P9L2",
+        "ipc"
+      ]
+    },
+    {
+      "id": "3g-ipcam-13",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "590"
+      ]
+    },
+    {
+      "id": "3g-ipcam-14",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720 P IP CAMERA",
+        "IPC701939"
+      ]
+    },
+    {
+      "id": "3g-ipcam-15",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "720 P IP CAMERA"
+      ]
+    },
+    {
+      "id": "3g-ipcam-16",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "720 P IP CAMERA"
+      ]
+    },
+    {
+      "id": "3g-ipcam-17",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "720 P IP CAMERA"
+      ]
+    },
+    {
+      "id": "3g-ipcam-18",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C6F0SEZ0N0P0L0",
+        "c9F0SeZ0N0P4L0",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-19",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C6F0SFZ0N0P3L0",
+        "PPCN060874FEGNW"
+      ]
+    },
+    {
+      "id": "3g-ipcam-20",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C6F0SGZ3N0P6L2",
+        "C9F0SeZ0N0P7L0",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-21",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "C9F0SEZ0N0P7L0"
+      ]
+    },
+    {
+      "id": "3g-ipcam-22",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ipc720"
+      ]
+    },
+    {
+      "id": "3g-ipcam-23",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "mms",
+      "port": 0,
+      "models": [
+        "IP-CAM"
+      ]
+    },
+    {
+      "id": "3g-ipcam-24",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "IP-CAM"
+      ]
+    },
+    {
+      "id": "3g-ipcam-25",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM v380",
+        "IPCAM V380"
+      ]
+    },
+    {
+      "id": "3g-ipcam-26",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAM V380",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-27",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "IPCAM V380",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-28",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM V380",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-29",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "L SERIES",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-30",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "L SERIES",
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-31",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "NEXHT360"
+      ]
+    },
+    {
+      "id": "3g-ipcam-32",
+      "url": "live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-33",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-34",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-35",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-36",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-37",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-38",
+      "url": "video.mjpg?q=30&fps=33&id=0.5",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-39",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "P2P"
+      ]
+    },
+    {
+      "id": "3g-ipcam-40",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-41",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-42",
+      "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "3g-ipcam-43",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8025"
+      ]
+    },
+    {
+      "id": "3g-ipcam-44",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SCRICAM AP004",
+        "SRICAM AP006"
+      ]
+    }
+  ]
+}

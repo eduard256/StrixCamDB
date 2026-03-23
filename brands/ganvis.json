@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Ganvis",
+  "brand_id": "ganvis",
+  "streams": [
+    {
+      "id": "ganvis-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5mp",
+        "GV-T430A",
+        "t554f"
+      ]
+    },
+    {
+      "id": "ganvis-2",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5MP",
+        "GV/T455V",
+        "GV-T530A"
+      ]
+    },
+    {
+      "id": "ganvis-3",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GV-T254F"
+      ]
+    }
+  ]
+}

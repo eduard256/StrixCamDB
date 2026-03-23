@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sibo",
+  "brand_id": "sibo",
+  "streams": [
+    {
+      "id": "sibo-1",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "hd1080"
+      ]
+    }
+  ]
+}

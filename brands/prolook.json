@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Prolook",
+  "brand_id": "prolook",
+  "streams": [
+    {
+      "id": "prolook-1",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "arka"
+      ]
+    },
+    {
+      "id": "prolook-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "arka"
+      ]
+    }
+  ]
+}

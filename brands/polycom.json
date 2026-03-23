@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Polycom",
+  "brand_id": "polycom",
+  "streams": [
+    {
+      "id": "polycom-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "polycom-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "viewstationex"
+      ]
+    },
+    {
+      "id": "polycom-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PN20"
+      ]
+    },
+    {
+      "id": "polycom-4",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "pvs-14xx"
+      ]
+    },
+    {
+      "id": "polycom-5",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SP 128",
+        "VFX",
+        "View Station EX"
+      ]
+    }
+  ]
+}

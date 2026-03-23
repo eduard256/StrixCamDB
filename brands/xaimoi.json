@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xaimoi",
+  "brand_id": "xaimoi",
+  "streams": [
+    {
+      "id": "xaimoi-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Note 8 pro"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "307 Hi Silicon",
+  "brand_id": "307-hi-silicon",
+  "streams": [
+    {
+      "id": "307-hi-silicon-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "101"
+      ]
+    },
+    {
+      "id": "307-hi-silicon-2",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "318e"
+      ]
+    },
+    {
+      "id": "307-hi-silicon-3",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HI3516C"
+      ]
+    },
+    {
+      "id": "307-hi-silicon-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HI3518E"
+      ]
+    }
+  ]
+}

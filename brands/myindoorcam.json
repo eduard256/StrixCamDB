@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Myindoorcam",
+  "brand_id": "myindoorcam",
+  "streams": [
+    {
+      "id": "myindoorcam-1",
+      "url": "live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1032,
+      "models": [
+        "ADC-V520IR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Kt And C",
+  "brand_id": "kt-and-c",
+  "streams": [
+    {
+      "id": "kt-and-c-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "KNC-HDi47"
+      ]
+    },
+    {
+      "id": "kt-and-c-2",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "KNC-p2DR28V12IR"
+      ]
+    },
+    {
+      "id": "kt-and-c-3",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "KNC-p3BR4IR"
+      ]
+    },
+    {
+      "id": "kt-and-c-4",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "KNC-p3BR4IR"
+      ]
+    }
+  ]
+}

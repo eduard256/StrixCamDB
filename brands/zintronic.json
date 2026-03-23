@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "brand": "Zintronic",
+  "brand_id": "zintronic",
+  "streams": [
+    {
+      "id": "zintronic-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ah5",
+        "IKPW220V1",
+        "IKTW530CV1",
+        "P5LIGHT"
+      ]
+    },
+    {
+      "id": "zintronic-2",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B4 PoE"
+      ]
+    },
+    {
+      "id": "zintronic-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IKPW330ICSW1",
+        "Other",
+        "P5 Lite",
+        "P5LIGHT"
+      ]
+    },
+    {
+      "id": "zintronic-4",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NVR IP IR9S18MP 9"
+      ]
+    },
+    {
+      "id": "zintronic-5",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

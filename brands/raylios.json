@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Raylios",
+  "brand_id": "raylios",
+  "streams": [
+    {
+      "id": "raylios-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "raylios-2",
+      "url": "jpg/1/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "K2-100"
+      ]
+    }
+  ]
+}

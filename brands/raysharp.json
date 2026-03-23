@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "brand": "Raysharp",
+  "brand_id": "raysharp",
+  "streams": [
+    {
+      "id": "raysharp-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "960"
+      ]
+    },
+    {
+      "id": "raysharp-2",
+      "url": "/ch00/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "960",
+        "MSK"
+      ]
+    },
+    {
+      "id": "raysharp-3",
+      "url": "/ch1/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B-RS-D214HR-NS",
+        "Megalith Ultra Thermal 5million",
+        "Other",
+        "rs-ch581h",
+        "UPC 193175419309"
+      ]
+    },
+    {
+      "id": "raysharp-4",
+      "url": "stillimg[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H264 DVR w/ Web Port",
+        "Other"
+      ]
+    },
+    {
+      "id": "raysharp-5",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "raysharp-6",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RVH DVR"
+      ]
+    },
+    {
+      "id": "raysharp-7",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RX100"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Concept Pro",
+  "brand_id": "concept-pro",
+  "streams": [
+    {
+      "id": "concept-pro-1",
+      "url": "/snl/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CVP9324DNIR-IP4M"
+      ]
+    },
+    {
+      "id": "concept-pro-2",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cvp9328dnir-ip4m-g",
+        "KCI4D-1080",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Teletek Electronics",
+  "brand_id": "teletek-electronics",
+  "streams": [
+    {
+      "id": "teletek-electronics-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD-313"
+      ]
+    },
+    {
+      "id": "teletek-electronics-2",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

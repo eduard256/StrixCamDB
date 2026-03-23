@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Seteye",
+  "brand_id": "seteye",
+  "streams": [
+    {
+      "id": "seteye-1",
+      "url": "shot.asp",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANC-818GE"
+      ]
+    },
+    {
+      "id": "seteye-2",
+      "url": "getimage?video=1&audio=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANC-818GE"
+      ]
+    },
+    {
+      "id": "seteye-3",
+      "url": "imagep/picture.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANC-818GR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Predator",
+  "brand_id": "predator",
+  "streams": [
+    {
+      "id": "predator-1",
+      "url": "/h264main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PTZ_1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aprox",
+  "brand_id": "aprox",
+  "streams": [
+    {
+      "id": "aprox-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

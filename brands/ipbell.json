@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ipbell",
+  "brand_id": "ipbell",
+  "streams": [
+    {
+      "id": "ipbell-1",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "doorbell"
+      ]
+    }
+  ]
+}

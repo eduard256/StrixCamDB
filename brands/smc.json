@@ -1,0 +1,238 @@
+{
+  "version": 2,
+  "brand": "Smc",
+  "brand_id": "smc",
+  "streams": [
+    {
+      "id": "smc-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1010-W",
+        "1011"
+      ]
+    },
+    {
+      "id": "smc-2",
+      "url": "img/snapshot.cgi?img=vga",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1010-W",
+        "RC-8021",
+        "RC-8120",
+        "SMC-1010W"
+      ]
+    },
+    {
+      "id": "smc-3",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1010-W",
+        "SMC-1010W",
+        "SMC-1011W",
+        "SMCWIPCAM-PZ"
+      ]
+    },
+    {
+      "id": "smc-4",
+      "url": "img/mjpeg.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1010-W",
+        "Other",
+        "SMC-1010W"
+      ]
+    },
+    {
+      "id": "smc-5",
+      "url": "img/media.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1010-W",
+        "RC-1010W",
+        "RC-8021",
+        "RC-8120",
+        "SMC-1010W"
+      ]
+    },
+    {
+      "id": "smc-6",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1010-W",
+        "1011",
+        "1011-W",
+        "110-W",
+        "FD1",
+        "Other",
+        "RC-1010W",
+        "SD1",
+        "SMC-1010W",
+        "SMC-1011W"
+      ]
+    },
+    {
+      "id": "smc-7",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1011",
+        "1011w",
+        "1011-W",
+        "SMC-1011W",
+        "SMC-1011WLeft"
+      ]
+    },
+    {
+      "id": "smc-8",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1011",
+        "1011-W",
+        "SMC-1010W",
+        "SMC-1011W",
+        "t Window"
+      ]
+    },
+    {
+      "id": "smc-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1011-W",
+        "Other"
+      ]
+    },
+    {
+      "id": "smc-10",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1011-W",
+        "Other",
+        "SMC-1011W",
+        "SMC-1011W2"
+      ]
+    },
+    {
+      "id": "smc-11",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1011-W",
+        "Other",
+        "SMC-1010W"
+      ]
+    },
+    {
+      "id": "smc-12",
+      "url": "snapshot.html",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "smc-13",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SMC-1010W"
+      ]
+    },
+    {
+      "id": "smc-14",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "smc-15",
+      "url": "vdata.v",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SMCWIPCFN-G2"
+      ]
+    },
+    {
+      "id": "smc-16",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SMC1",
+        "SMCWIPCAM-PZ",
+        "SMCWIPCFN-G2"
+      ]
+    },
+    {
+      "id": "smc-17",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SMCWIPCAM-PZ",
+        "smcwipcfn-g2"
+      ]
+    },
+    {
+      "id": "smc-18",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SMCWIPCAM-PZ"
+      ]
+    },
+    {
+      "id": "smc-19",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SMCWIPCAM-PZ"
+      ]
+    }
+  ]
+}

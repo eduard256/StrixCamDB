@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Qgs",
+  "brand_id": "qgs",
+  "streams": [
+    {
+      "id": "qgs-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC031"
+      ]
+    },
+    {
+      "id": "qgs-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KN-IPC8401A"
+      ]
+    }
+  ]
+}

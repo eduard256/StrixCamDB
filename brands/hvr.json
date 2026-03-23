@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Hvr",
+  "brand_id": "hvr",
+  "streams": [
+    {
+      "id": "hvr-1",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Dev.XM",
+        "giga",
+        "Other"
+      ]
+    }
+  ]
+}

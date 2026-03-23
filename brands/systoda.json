@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Systoda",
+  "brand_id": "systoda",
+  "streams": [
+    {
+      "id": "systoda-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "SY-1500"
+      ]
+    }
+  ]
+}

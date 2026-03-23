@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Avl Hd Dome",
+  "brand_id": "avl-hd-dome",
+  "streams": [
+    {
+      "id": "avl-hd-dome-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AVLHDD"
+      ]
+    }
+  ]
+}

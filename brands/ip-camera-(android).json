@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "brand": "Ip Camera (android)",
+  "brand_id": "ip-camera-(android)",
+  "streams": [
+    {
+      "id": "ip-camera-(android)-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "C6F0SGZ3N0P3L2",
+        "C9F0SfZ3N0P6L0",
+        "C9F0SgZ3N0PbL0",
+        "ssd"
+      ]
+    },
+    {
+      "id": "ip-camera-(android)-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "HKview"
+      ]
+    },
+    {
+      "id": "ip-camera-(android)-3",
+      "url": "video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP WEBCAM FOR ANDROID",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-camera-(android)-4",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 4747,
+      "models": [
+        "IP WEBCAM FOR ANDROID"
+      ]
+    },
+    {
+      "id": "ip-camera-(android)-5",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-CAMERA"
+      ]
+    },
+    {
+      "id": "ip-camera-(android)-6",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 4747,
+      "models": [
+        "IP-CAMERA",
+        "XT1609"
+      ]
+    },
+    {
+      "id": "ip-camera-(android)-7",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Pixel",
+        "Pro"
+      ]
+    },
+    {
+      "id": "ip-camera-(android)-8",
+      "url": "/axis-cgi/mjpg/video.cgi?camera=1",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 8083,
+      "models": [
+        "TinyCam"
+      ]
+    }
+  ]
+}

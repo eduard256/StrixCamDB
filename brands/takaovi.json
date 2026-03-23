@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Takaovi",
+  "brand_id": "takaovi",
+  "streams": [
+    {
+      "id": "takaovi-1",
+      "url": "mpeg4/media.amp?resolution=640x480",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "1080P"
+      ]
+    }
+  ]
+}

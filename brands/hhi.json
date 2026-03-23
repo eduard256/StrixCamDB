@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Hhi",
+  "brand_id": "hhi",
+  "streams": [
+    {
+      "id": "hhi-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "P34H"
+      ]
+    },
+    {
+      "id": "hhi-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ST-VBIP4002DL6"
+      ]
+    }
+  ]
+}

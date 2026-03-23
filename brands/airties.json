@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Airties",
+  "brand_id": "airties",
+  "streams": [
+    {
+      "id": "airties-1",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PZ61x2"
+      ]
+    },
+    {
+      "id": "airties-2",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PZ61x2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Nokia",
+  "brand_id": "nokia",
+  "streams": [
+    {
+      "id": "nokia-1",
+      "url": "/video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "2.3"
+      ]
+    },
+    {
+      "id": "nokia-2",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 4747,
+      "models": [
+        "7.2",
+        "850"
+      ]
+    },
+    {
+      "id": "nokia-3",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Lumia 635"
+      ]
+    },
+    {
+      "id": "nokia-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Lumia 930"
+      ]
+    }
+  ]
+}

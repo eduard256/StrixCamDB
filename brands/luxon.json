@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Luxon",
+  "brand_id": "luxon",
+  "streams": [
+    {
+      "id": "luxon-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ICS4-20v1"
+      ]
+    },
+    {
+      "id": "luxon-2",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ICS4-20v1"
+      ]
+    },
+    {
+      "id": "luxon-3",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MIPD"
+      ]
+    }
+  ]
+}

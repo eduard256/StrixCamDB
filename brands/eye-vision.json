@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eye Vision",
+  "brand_id": "eye-vision",
+  "streams": [
+    {
+      "id": "eye-vision-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "700"
+      ]
+    }
+  ]
+}

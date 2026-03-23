@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hodely",
+  "brand_id": "hodely",
+  "streams": [
+    {
+      "id": "hodely-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

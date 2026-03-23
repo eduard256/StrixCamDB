@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sefica",
+  "brand_id": "sefica",
+  "streams": [
+    {
+      "id": "sefica-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1554,
+      "models": [
+        "PC95BOF/IR-IP"
+      ]
+    }
+  ]
+}

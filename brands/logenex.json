@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Logenex",
+  "brand_id": "logenex",
+  "streams": [
+    {
+      "id": "logenex-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Master",
+  "brand_id": "master",
+  "streams": [
+    {
+      "id": "master-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MR15D",
+        "MR-15D-106",
+        "Other"
+      ]
+    }
+  ]
+}

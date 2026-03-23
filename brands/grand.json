@@ -1,0 +1,132 @@
+{
+  "version": 2,
+  "brand": "Grand",
+  "brand_id": "grand",
+  "streams": [
+    {
+      "id": "grand-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3610"
+      ]
+    },
+    {
+      "id": "grand-2",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP video server",
+        "Other"
+      ]
+    },
+    {
+      "id": "grand-3",
+      "url": "cgi-bin/still.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP video server",
+        "Other"
+      ]
+    },
+    {
+      "id": "grand-4",
+      "url": "Webcam.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP VIDEO SERVER",
+        "Other"
+      ]
+    },
+    {
+      "id": "grand-5",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Pan and Tilt"
+      ]
+    },
+    {
+      "id": "grand-6",
+      "url": "[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "wiifi"
+      ]
+    },
+    {
+      "id": "grand-7",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "grand-8",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "grand-9",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "grand-10",
+      "url": "live/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "grand-11",
+      "url": "[CHANNEL]/1:1/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "grand-12",
+      "url": "still.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wiifi"
+      ]
+    }
+  ]
+}

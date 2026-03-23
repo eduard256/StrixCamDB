@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Alpha Power",
+  "brand_id": "alpha-power",
+  "streams": [
+    {
+      "id": "alpha-power-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fic-am101"
+      ]
+    },
+    {
+      "id": "alpha-power-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

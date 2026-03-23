@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Qihan",
+  "brand_id": "qihan",
+  "streams": [
+    {
+      "id": "qihan-1",
+      "url": "/tcp_live/ch0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "356",
+        "QH-NV534DS-P"
+      ]
+    },
+    {
+      "id": "qihan-2",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ccd 104",
+        "Other",
+        "QH-IP130LL-WDR"
+      ]
+    },
+    {
+      "id": "qihan-3",
+      "url": "/tcp_live/ch0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "QH-NV534DS-P"
+      ]
+    },
+    {
+      "id": "qihan-4",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "rp104"
+      ]
+    },
+    {
+      "id": "qihan-5",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "QCY-62401"
+      ]
+    },
+    {
+      "id": "qihan-6",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "QH-ND103AN1-WISM"
+      ]
+    }
+  ]
+}

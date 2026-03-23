@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Hanwei",
+  "brand_id": "hanwei",
+  "streams": [
+    {
+      "id": "hanwei-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RS7507"
+      ]
+    },
+    {
+      "id": "hanwei-2",
+      "url": "ch0_[CHANNEL].H264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RS7507"
+      ]
+    }
+  ]
+}

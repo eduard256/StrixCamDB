@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Digitalwatchdog",
+  "brand_id": "digitalwatchdog",
+  "streams": [
+    {
+      "id": "digitalwatchdog-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DWC-MTT4Wi36"
+      ]
+    }
+  ]
+}

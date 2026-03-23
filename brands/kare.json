@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Kare",
+  "brand_id": "kare",
+  "streams": [
+    {
+      "id": "kare-1",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CSST-DIT",
+        "N7205JV"
+      ]
+    },
+    {
+      "id": "kare-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "D3044"
+      ]
+    },
+    {
+      "id": "kare-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N7205JV",
+        "Other"
+      ]
+    },
+    {
+      "id": "kare-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N7205JV",
+        "Other"
+      ]
+    },
+    {
+      "id": "kare-5",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

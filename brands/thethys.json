@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Thethys",
+  "brand_id": "thethys",
+  "streams": [
+    {
+      "id": "thethys-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SmartCam"
+      ]
+    }
+  ]
+}

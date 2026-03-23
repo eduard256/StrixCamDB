@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kafeoinos Tv",
+  "brand_id": "kafeoinos-tv",
+  "streams": [
+    {
+      "id": "kafeoinos-tv-1",
+      "url": "/mjpeg_vga.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NC220"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Digilan",
+  "brand_id": "digilan",
+  "streams": [
+    {
+      "id": "digilan-1",
+      "url": "cgi-bin/viewer/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "7230"
+      ]
+    },
+    {
+      "id": "digilan-2",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ABUS"
+      ]
+    },
+    {
+      "id": "digilan-3",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "TV7204"
+      ]
+    }
+  ]
+}

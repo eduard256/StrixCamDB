@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "brand": "Finesight",
+  "brand_id": "finesight",
+  "streams": [
+    {
+      "id": "finesight-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "RC8021"
+      ]
+    },
+    {
+      "id": "finesight-2",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "finesight-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8021"
+      ]
+    },
+    {
+      "id": "finesight-4",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8021"
+      ]
+    },
+    {
+      "id": "finesight-5",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC8021"
+      ]
+    },
+    {
+      "id": "finesight-6",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC8021"
+      ]
+    }
+  ]
+}

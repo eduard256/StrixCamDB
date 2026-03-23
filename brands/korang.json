@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Korang",
+  "brand_id": "korang",
+  "streams": [
+    {
+      "id": "korang-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ka-dm02-w-1.3mp-32g"
+      ]
+    }
+  ]
+}

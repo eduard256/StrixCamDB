@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ip-m-p836v",
+  "brand_id": "ip-m-p836v",
+  "streams": [
+    {
+      "id": "ip-m-p836v-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264"
+      ]
+    }
+  ]
+}

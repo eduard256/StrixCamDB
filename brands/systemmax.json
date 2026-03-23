@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Systemmax",
+  "brand_id": "systemmax",
+  "streams": [
+    {
+      "id": "systemmax-1",
+      "url": "cgi-bin/view/image?pro_[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N-1350",
+        "Other"
+      ]
+    },
+    {
+      "id": "systemmax-2",
+      "url": "1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SMB-2MPIR"
+      ]
+    }
+  ]
+}

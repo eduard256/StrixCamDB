@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Devant",
+  "brand_id": "devant",
+  "streams": [
+    {
+      "id": "devant-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C3X"
+      ]
+    }
+  ]
+}

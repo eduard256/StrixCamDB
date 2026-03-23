@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ctvison",
+  "brand_id": "ctvison",
+  "streams": [
+    {
+      "id": "ctvison-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CT-36DSWIFIBT"
+      ]
+    }
+  ]
+}

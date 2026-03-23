@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Secvision",
+  "brand_id": "secvision",
+  "streams": [
+    {
+      "id": "secvision-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "pa3020w"
+      ]
+    }
+  ]
+}

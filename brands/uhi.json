@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Uhi",
+  "brand_id": "uhi",
+  "streams": [
+    {
+      "id": "uhi-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "755",
+        "755R"
+      ]
+    }
+  ]
+}

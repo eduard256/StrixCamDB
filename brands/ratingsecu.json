@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ratingsecu",
+  "brand_id": "ratingsecu",
+  "streams": [
+    {
+      "id": "ratingsecu-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 88,
+      "models": [
+        "R-H534N"
+      ]
+    },
+    {
+      "id": "ratingsecu-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "R-N400A5"
+      ]
+    }
+  ]
+}

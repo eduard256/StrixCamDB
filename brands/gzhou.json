@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gzhou",
+  "brand_id": "gzhou",
+  "streams": [
+    {
+      "id": "gzhou-1",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "standard"
+      ]
+    }
+  ]
+}

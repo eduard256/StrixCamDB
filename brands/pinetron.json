@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Pinetron",
+  "brand_id": "pinetron",
+  "streams": [
+    {
+      "id": "pinetron-1",
+      "url": "monitor.cgi?Channel=[CHANNEL]&Audio=0000&Live=1",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IZ22",
+        "PDR-XM DVR",
+        "PNC-IZ22"
+      ]
+    },
+    {
+      "id": "pinetron-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PNC-IX1083P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Openwrt",
+  "brand_id": "openwrt",
+  "streams": [
+    {
+      "id": "openwrt-1",
+      "url": "/?action=stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 28080,
+      "models": [
+        "mjpeg_streamer"
+      ]
+    }
+  ]
+}

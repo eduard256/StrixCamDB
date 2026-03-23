@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Universal",
+  "brand_id": "universal",
+  "streams": [
+    {
+      "id": "universal-1",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "h264"
+      ]
+    }
+  ]
+}

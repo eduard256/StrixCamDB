@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Svbc",
+  "brand_id": "svbc",
+  "streams": [
+    {
+      "id": "svbc-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "A Series",
+        "Sv3c",
+        "SV-B01POE"
+      ]
+    },
+    {
+      "id": "svbc-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "B06W-720P-HX",
+        "B08W-5MP-HX",
+        "Eas",
+        "Other",
+        "SV3C",
+        "SV-B01-960P",
+        "SV-B01W-1080p-HX",
+        "sv-b05w-5mp-hx",
+        "SV-B11vPOE-1080p"
+      ]
+    },
+    {
+      "id": "svbc-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SAEU"
+      ]
+    }
+  ]
+}

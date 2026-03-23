@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Zeustech",
+  "brand_id": "zeustech",
+  "streams": [
+    {
+      "id": "zeustech-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Floodlight Camera",
+        "floodlightcam",
+        "UNKOWN"
+      ]
+    },
+    {
+      "id": "zeustech-2",
+      "url": "cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipr-hd",
+        "zt_iproHD",
+        "zt-iprohd"
+      ]
+    }
+  ]
+}

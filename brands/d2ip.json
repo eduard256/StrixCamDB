@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "D2ip",
+  "brand_id": "d2ip",
+  "streams": [
+    {
+      "id": "d2ip-1",
+      "url": "/cam0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "215D2iP"
+      ]
+    }
+  ]
+}

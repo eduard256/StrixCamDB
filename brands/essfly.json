@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Essfly",
+  "brand_id": "essfly",
+  "streams": [
+    {
+      "id": "essfly-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FSERIES"
+      ]
+    },
+    {
+      "id": "essfly-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fseriess",
+        "Other"
+      ]
+    }
+  ]
+}

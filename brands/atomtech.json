@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Atomtech",
+  "brand_id": "atomtech",
+  "streams": [
+    {
+      "id": "atomtech-1",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ATOM Cam",
+        "ATOM Cam 2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xvi",
+  "brand_id": "xvi",
+  "streams": [
+    {
+      "id": "xvi-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "E5216CIP-IR"
+      ]
+    }
+  ]
+}

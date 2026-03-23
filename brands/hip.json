@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hip",
+  "brand_id": "hip",
+  "streams": [
+    {
+      "id": "hip-1",
+      "url": "medias2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cmt9013f"
+      ]
+    }
+  ]
+}

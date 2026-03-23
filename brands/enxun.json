@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Enxun",
+  "brand_id": "enxun",
+  "streams": [
+    {
+      "id": "enxun-1",
+      "url": "/PSIA/Streaming/channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Dome",
+        "MIP-813W",
+        "MIP-823H1",
+        "MP180"
+      ]
+    },
+    {
+      "id": "enxun-2",
+      "url": "PSIA/Streaming/channels/2?videoCodecType=H.264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MIP-812A",
+        "VS-MIP723Y1"
+      ]
+    },
+    {
+      "id": "enxun-3",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MIP-822a"
+      ]
+    }
+  ]
+}

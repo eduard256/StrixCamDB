@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Voor/keuken",
+  "brand_id": "voor%2fkeuken",
+  "streams": [
+    {
+      "id": "voor%2fkeuken-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Mini PTZ"
+      ]
+    }
+  ]
+}

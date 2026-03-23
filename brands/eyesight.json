@@ -1,0 +1,237 @@
+{
+  "version": 2,
+  "brand": "Eyesight",
+  "brand_id": "eyesight",
+  "streams": [
+    {
+      "id": "eyesight-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "609",
+        "ES-IP601W",
+        "ES-IP811W",
+        "ES-IP902W",
+        "ES-IP909IW",
+        "ES-IP910IW",
+        "ES-IP935FW",
+        "ES-IP935IW",
+        "IP807TW",
+        "IP817TW",
+        "ip915iw",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W"
+      ]
+    },
+    {
+      "id": "eyesight-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W",
+        "IP613W"
+      ]
+    },
+    {
+      "id": "eyesight-4",
+      "url": "cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W"
+      ]
+    },
+    {
+      "id": "eyesight-5",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-6",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W",
+        "ES-IP811W",
+        "ip609IW",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-7",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W",
+        "IP609IW",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-8",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-9",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W",
+        "ES-IP935FW",
+        "ES-IP935IW"
+      ]
+    },
+    {
+      "id": "eyesight-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP607W"
+      ]
+    },
+    {
+      "id": "eyesight-11",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP611W",
+        "ES-IP613W",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-12",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP611W"
+      ]
+    },
+    {
+      "id": "eyesight-13",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP611W"
+      ]
+    },
+    {
+      "id": "eyesight-14",
+      "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "ES-IP815IW M"
+      ]
+    },
+    {
+      "id": "eyesight-15",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP909IW",
+        "ES-IP935FW",
+        "ip915iw",
+        "mjpeg 909iw",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-16",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP910IW"
+      ]
+    },
+    {
+      "id": "eyesight-17",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP935IW",
+        "ip909iw",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-18",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ES-IP-MP2-DM1",
+        "Other"
+      ]
+    },
+    {
+      "id": "eyesight-19",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP817TW"
+      ]
+    },
+    {
+      "id": "eyesight-20",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

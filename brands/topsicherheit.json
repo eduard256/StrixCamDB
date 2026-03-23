@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Topsicherheit",
+  "brand_id": "topsicherheit",
+  "streams": [
+    {
+      "id": "topsicherheit-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "YUC-K7B89M"
+      ]
+    }
+  ]
+}

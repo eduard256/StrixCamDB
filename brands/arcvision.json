@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Arcvision",
+  "brand_id": "arcvision",
+  "streams": [
+    {
+      "id": "arcvision-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "19240",
+        "ARC-19220",
+        "C735"
+      ]
+    },
+    {
+      "id": "arcvision-2",
+      "url": "image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

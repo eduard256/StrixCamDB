@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Mitra Utama",
+  "brand_id": "mitra-utama",
+  "streams": [
+    {
+      "id": "mitra-utama-1",
+      "url": "stream1.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLK N3304MV"
+      ]
+    },
+    {
+      "id": "mitra-utama-2",
+      "url": "stream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLK N3304MV"
+      ]
+    }
+  ]
+}

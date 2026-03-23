@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "brand": "Pheenet",
+  "brand_id": "pheenet",
+  "streams": [
+    {
+      "id": "pheenet-1",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100",
+        "Mcas-100",
+        "MCAS100",
+        "Mcas300",
+        "MCAS-400PT",
+        "Other"
+      ]
+    },
+    {
+      "id": "pheenet-2",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "151",
+        "153",
+        "Other"
+      ]
+    },
+    {
+      "id": "pheenet-3",
+      "url": "live",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MCAS-400PT",
+        "MCAS-400PTG"
+      ]
+    }
+  ]
+}

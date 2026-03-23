@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Panomera",
+  "brand_id": "panomera",
+  "streams": [
+    {
+      "id": "panomera-1",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "3D-VR-AHD3"
+      ]
+    },
+    {
+      "id": "panomera-2",
+      "url": "/encoder1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Panomera S4"
+      ]
+    }
+  ]
+}

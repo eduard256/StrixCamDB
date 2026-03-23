@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "yi-hack-Allwinner-v2",
+  "brand_id": "yi-hack-allwinner-v2",
+  "streams": [
+    {
+      "id": "yi-hack-allwinner-v2-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALLWINNER V2 PLATFORM",
+        "Yi Allwinner v2",
+        "Different flash layout",
+        "Tovendor Mini Smart Home Camera"
+      ],
+      "notes": "Allwinner v2 platform (different flash layout) - High resolution"
+    },
+    {
+      "id": "yi-hack-allwinner-v2-2",
+      "url": "/ch0_1.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALLWINNER V2 PLATFORM",
+        "Yi Allwinner v2",
+        "Different flash layout",
+        "Tovendor Mini Smart Home Camera"
+      ],
+      "notes": "Allwinner v2 platform (different flash layout) - Low resolution"
+    },
+    {
+      "id": "yi-hack-allwinner-v2-3",
+      "url": "/ch0_2.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ALLWINNER V2 PLATFORM",
+        "Yi Allwinner v2",
+        "Different flash layout",
+        "Tovendor Mini Smart Home Camera"
+      ],
+      "notes": "Allwinner v2 platform (different flash layout) - Audio only"
+    }
+  ]
+}

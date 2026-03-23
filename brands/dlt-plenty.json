@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dlt Plenty",
+  "brand_id": "dlt-plenty",
+  "streams": [
+    {
+      "id": "dlt-plenty-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C50-PRO"
+      ]
+    }
+  ]
+}

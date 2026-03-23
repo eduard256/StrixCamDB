@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Asrock",
+  "brand_id": "asrock",
+  "streams": [
+    {
+      "id": "asrock-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AS-5110HQ",
+        "AS-5313-EJ",
+        "ipd=10mf23w",
+        "xxdxxddf"
+      ]
+    },
+    {
+      "id": "asrock-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "h264"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Amcast",
+  "brand_id": "amcast",
+  "streams": [
+    {
+      "id": "amcast-1",
+      "url": "/cam/realmonitor?channel=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 80,
+      "models": [
+        "IP4M-1041B (RTSP)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kodu",
+  "brand_id": "kodu",
+  "streams": [
+    {
+      "id": "kodu-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Hoov"
+      ]
+    }
+  ]
+}

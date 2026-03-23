@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Elegate",
+  "brand_id": "elegate",
+  "streams": [
+    {
+      "id": "elegate-1",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "izazaga19_caja"
+      ]
+    }
+  ]
+}

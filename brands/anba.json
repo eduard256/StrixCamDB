@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Anba",
+  "brand_id": "anba",
+  "streams": [
+    {
+      "id": "anba-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300",
+        "720P IP NETWORK CAMERA",
+        "ab003L",
+        "AB-003L",
+        "anban",
+        "Other"
+      ]
+    },
+    {
+      "id": "anba-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "C9F0SeZ0N0P0L0"
+      ]
+    },
+    {
+      "id": "anba-3",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HZD-600DM"
+      ]
+    },
+    {
+      "id": "anba-4",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HZD-600DM",
+        "K and D",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Jecurity",
+  "brand_id": "jecurity",
+  "streams": [
+    {
+      "id": "jecurity-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Je-q001",
+        "Je-q0012",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Qavi",
+  "brand_id": "qavi",
+  "streams": [
+    {
+      "id": "qavi-1",
+      "url": "/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "4MP"
+      ]
+    }
+  ]
+}

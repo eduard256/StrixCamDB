@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Revodata",
+  "brand_id": "revodata",
+  "streams": [
+    {
+      "id": "revodata-1",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I712-P-TS-RD",
+        "1706-P-A",
+        "1712-P-TS",
+        "5MP POE mini IP",
+        "Fisheye 180",
+        "I704-P-TS",
+        "I708-P-HS 1616P",
+        "I712-P-HS",
+        "MainStream",
+        "Other",
+        "PA4"
+      ]
+    },
+    {
+      "id": "revodata-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD 5MP"
+      ]
+    },
+    {
+      "id": "revodata-3",
+      "url": "/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "I3006-P-Audio-FHW",
+        "SW2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Dynamode",
+  "brand_id": "dynamode",
+  "streams": [
+    {
+      "id": "dynamode-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CAM58-IP-B"
+      ]
+    },
+    {
+      "id": "dynamode-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CAM58-IP-B",
+        "DYN-621",
+        "DYN-623"
+      ]
+    },
+    {
+      "id": "dynamode-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CAM58-IP-B"
+      ]
+    }
+  ]
+}

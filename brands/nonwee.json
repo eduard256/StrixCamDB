@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nonwee",
+  "brand_id": "nonwee",
+  "streams": [
+    {
+      "id": "nonwee-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "C6F0SoZ3N0PdL2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Triax",
+  "brand_id": "triax",
+  "streams": [
+    {
+      "id": "triax-1",
+      "url": "/H264?ch=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CM-MHL400",
+        "TBF 2IP",
+        "TBV 4IP"
+      ]
+    },
+    {
+      "id": "triax-2",
+      "url": "/H264?ch=1&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CM-MHL400",
+        "TBF 2IP",
+        "TBV 4IP"
+      ]
+    }
+  ]
+}

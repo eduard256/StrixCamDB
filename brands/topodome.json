@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "brand": "Topodome",
+  "brand_id": "topodome",
+  "streams": [
+    {
+      "id": "topodome-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP66",
+        "S503B",
+        "S50B",
+        "td10c",
+        "TD-J10A",
+        "TD-S10C",
+        "TD-S50B"
+      ]
+    },
+    {
+      "id": "topodome-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "S40B",
+        "TD-J10A",
+        "TD-S10C",
+        "td-s50b"
+      ]
+    },
+    {
+      "id": "topodome-3",
+      "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TD-S10C"
+      ]
+    }
+  ]
+}

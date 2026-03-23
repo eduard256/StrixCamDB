@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "I-view",
+  "brand_id": "i-view",
+  "streams": [
+    {
+      "id": "i-view-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cm-ip100"
+      ]
+    }
+  ]
+}

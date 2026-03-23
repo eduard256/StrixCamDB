@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cyrus",
+  "brand_id": "cyrus",
+  "streams": [
+    {
+      "id": "cyrus-1",
+      "url": "/1/cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "P2P IP Camera"
+      ]
+    },
+    {
+      "id": "cyrus-2",
+      "url": "/2/cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "P2P IP Camera"
+      ]
+    }
+  ]
+}

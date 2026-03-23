@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Provisual",
+  "brand_id": "provisual",
+  "streams": [
+    {
+      "id": "provisual-1",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DH Series"
+      ]
+    },
+    {
+      "id": "provisual-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DH SERIES"
+      ]
+    },
+    {
+      "id": "provisual-3",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

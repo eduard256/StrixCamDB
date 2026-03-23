@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aomg",
+  "brand_id": "aomg",
+  "streams": [
+    {
+      "id": "aomg-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CBSKY FI-831"
+      ]
+    }
+  ]
+}

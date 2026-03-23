@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Ipg",
+  "brand_id": "ipg",
+  "streams": [
+    {
+      "id": "ipg-1",
+      "url": "/live/0/MAIN",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8150PSS",
+        "IPG-7920PSS-AI"
+      ]
+    },
+    {
+      "id": "ipg-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPG-6220PSS-F30"
+      ]
+    }
+  ]
+}

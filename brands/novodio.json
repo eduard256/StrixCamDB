@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Novodio",
+  "brand_id": "novodio",
+  "streams": [
+    {
+      "id": "novodio-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "smartCam HD+"
+      ]
+    }
+  ]
+}

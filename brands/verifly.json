@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Verifly",
+  "brand_id": "verifly",
+  "streams": [
+    {
+      "id": "verifly-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 5554,
+      "models": [
+        "lirdnts200",
+        "Lirdnts200"
+      ]
+    }
+  ]
+}

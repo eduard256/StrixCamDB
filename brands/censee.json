@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Censee",
+  "brand_id": "censee",
+  "streams": [
+    {
+      "id": "censee-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C57TW"
+      ]
+    }
+  ]
+}

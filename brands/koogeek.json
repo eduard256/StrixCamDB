@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Koogeek",
+  "brand_id": "koogeek",
+  "streams": [
+    {
+      "id": "koogeek-1",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "tv-6024h-2mp"
+      ]
+    }
+  ]
+}

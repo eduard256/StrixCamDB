@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Guoanvision",
+  "brand_id": "guoanvision",
+  "streams": [
+    {
+      "id": "guoanvision-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "A1 Security  Camera",
+        "s400"
+      ]
+    },
+    {
+      "id": "guoanvision-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "UNLISTED",
+        "WiFi Smart Camera"
+      ]
+    }
+  ]
+}

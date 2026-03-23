@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Grainmedia",
+  "brand_id": "grainmedia",
+  "streams": [
+    {
+      "id": "grainmedia-1",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "sam"
+      ]
+    }
+  ]
+}

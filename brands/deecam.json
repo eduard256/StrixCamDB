@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "brand": "Deecam",
+  "brand_id": "deecam",
+  "streams": [
+    {
+      "id": "deecam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "200",
+        "D200",
+        "Other"
+      ]
+    },
+    {
+      "id": "deecam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D200",
+        "Other"
+      ]
+    },
+    {
+      "id": "deecam-3",
+      "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D200"
+      ]
+    },
+    {
+      "id": "deecam-4",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D200",
+        "D2000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Imogen",
+  "brand_id": "imogen",
+  "streams": [
+    {
+      "id": "imogen-1",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Kerby Wireless Camera"
+      ]
+    },
+    {
+      "id": "imogen-2",
+      "url": "operator/get_jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "imogen-3",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

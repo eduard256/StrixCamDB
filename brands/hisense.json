@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Hisense",
+  "brand_id": "hisense",
+  "streams": [
+    {
+      "id": "hisense-1",
+      "url": "/webcapture.jpg?command=snap&channel=1?COUNTER",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "HD3516"
+      ]
+    },
+    {
+      "id": "hisense-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

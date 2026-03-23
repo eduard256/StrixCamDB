@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Velpro",
+  "brand_id": "velpro",
+  "streams": [
+    {
+      "id": "velpro-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Res Cam"
+      ]
+    },
+    {
+      "id": "velpro-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Wifi-212",
+        "wifi-400"
+      ]
+    }
+  ]
+}

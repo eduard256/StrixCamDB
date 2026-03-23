@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "brand": "Hamrol",
+  "brand_id": "hamrol",
+  "streams": [
+    {
+      "id": "hamrol-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "180",
+        "5mp ptz",
+        "8MP Ultra HD",
+        "8MP ULTRA HD",
+        "H5015M-XMI",
+        "NVT",
+        "Other"
+      ]
+    },
+    {
+      "id": "hamrol-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EO Hamrol PTZ_2NVT",
+        "NVT"
+      ]
+    }
+  ]
+}

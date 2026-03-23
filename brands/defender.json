@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "brand": "Defender",
+  "brand_id": "defender",
+  "streams": [
+    {
+      "id": "defender-1",
+      "url": "stillimg[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "301 mobile port",
+        "Other",
+        "sn301",
+        "SN301-8CH w/ Web Port"
+      ]
+    },
+    {
+      "id": "defender-2",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Guard 2k",
+        "Other"
+      ]
+    },
+    {
+      "id": "defender-3",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SN500 DVR"
+      ]
+    },
+    {
+      "id": "defender-4",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "defender-5",
+      "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SN301-8CH W/ WEB PORT"
+      ]
+    },
+    {
+      "id": "defender-6",
+      "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SN500 DVR"
+      ]
+    },
+    {
+      "id": "defender-7",
+      "url": "GetStream.cgi?Video=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SN500 DVR (old)"
+      ]
+    }
+  ]
+}

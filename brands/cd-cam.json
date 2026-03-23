@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cd-cam",
+  "brand_id": "cd-cam",
+  "streams": [
+    {
+      "id": "cd-cam-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SN-IPC-HW16"
+      ]
+    }
+  ]
+}

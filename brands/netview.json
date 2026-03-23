@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "brand": "Netview",
+  "brand_id": "netview",
+  "streams": [
+    {
+      "id": "netview-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B Series",
+        "Other"
+      ]
+    },
+    {
+      "id": "netview-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H Series",
+        "NC 9800",
+        "Other"
+      ]
+    },
+    {
+      "id": "netview-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H SERIES",
+        "nc9800"
+      ]
+    },
+    {
+      "id": "netview-4",
+      "url": "/snap.jpg?JpegCam=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "NC 9800"
+      ]
+    },
+    {
+      "id": "netview-5",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

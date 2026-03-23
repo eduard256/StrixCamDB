@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Binnencamera",
+  "brand_id": "binnencamera",
+  "streams": [
+    {
+      "id": "binnencamera-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc100"
+      ]
+    }
+  ]
+}

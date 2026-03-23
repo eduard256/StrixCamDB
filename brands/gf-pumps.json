@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gf-pumps",
+  "brand_id": "gf-pumps",
+  "streams": [
+    {
+      "id": "gf-pumps-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "xenon"
+      ]
+    }
+  ]
+}

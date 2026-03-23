@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Widix",
+  "brand_id": "widix",
+  "streams": [
+    {
+      "id": "widix-1",
+      "url": "/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WDX-IPD4028K3C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Annahme",
+  "brand_id": "annahme",
+  "streams": [
+    {
+      "id": "annahme-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6012"
+      ]
+    },
+    {
+      "id": "annahme-2",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IN6012"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Intelkam",
+  "brand_id": "intelkam",
+  "streams": [
+    {
+      "id": "intelkam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "203",
+        "wr-109"
+      ]
+    },
+    {
+      "id": "intelkam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "203",
+        "wip-203vr",
+        "ZZZZ-580812-FBDEE"
+      ]
+    },
+    {
+      "id": "intelkam-3",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wip"
+      ]
+    },
+    {
+      "id": "intelkam-4",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wip-203vr"
+      ]
+    }
+  ]
+}

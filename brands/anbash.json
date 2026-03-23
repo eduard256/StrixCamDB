@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Anbash",
+  "brand_id": "anbash",
+  "streams": [
+    {
+      "id": "anbash-1",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC128PW",
+        "NC223W-IR",
+        "NC355PW"
+      ]
+    },
+    {
+      "id": "anbash-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC233W-IR"
+      ]
+    }
+  ]
+}

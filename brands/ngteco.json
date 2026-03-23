@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ngteco",
+  "brand_id": "ngteco",
+  "streams": [
+    {
+      "id": "ngteco-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "NG-C4320A"
+      ]
+    }
+  ]
+}

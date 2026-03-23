@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Webvision",
+  "brand_id": "webvision",
+  "streams": [
+    {
+      "id": "webvision-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HOME VISION",
+        "PPCN453889TMUTT"
+      ]
+    }
+  ]
+}

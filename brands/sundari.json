@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sundari",
+  "brand_id": "sundari",
+  "streams": [
+    {
+      "id": "sundari-1",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WV2210"
+      ]
+    }
+  ]
+}

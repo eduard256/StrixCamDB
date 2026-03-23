@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Empiretech",
+  "brand_id": "empiretech",
+  "streams": [
+    {
+      "id": "empiretech-1",
+      "url": "/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-T54IR-ZE"
+      ]
+    },
+    {
+      "id": "empiretech-2",
+      "url": "/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-T54IR-ZE"
+      ]
+    },
+    {
+      "id": "empiretech-3",
+      "url": "/cam/realmonitor?channel=1&subtype=2&unicast=true&proto=Onvif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-T54IR-ZE"
+      ]
+    }
+  ]
+}

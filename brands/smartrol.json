@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Smartrol",
+  "brand_id": "smartrol",
+  "streams": [
+    {
+      "id": "smartrol-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ZX-C23"
+      ]
+    },
+    {
+      "id": "smartrol-2",
+      "url": "/cam2/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ZX-C23"
+      ]
+    }
+  ]
+}

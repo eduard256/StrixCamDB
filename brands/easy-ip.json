@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Easy Ip",
+  "brand_id": "easy-ip",
+  "streams": [
+    {
+      "id": "easy-ip-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4356",
+        "Other"
+      ]
+    },
+    {
+      "id": "easy-ip-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4356",
+        "Other"
+      ]
+    }
+  ]
+}

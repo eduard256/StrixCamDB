@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Talos",
+  "brand_id": "talos",
+  "streams": [
+    {
+      "id": "talos-1",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D1082PN"
+      ]
+    }
+  ]
+}

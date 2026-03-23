@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Buffalo",
+  "brand_id": "buffalo",
+  "streams": [
+    {
+      "id": "buffalo-1",
+      "url": "channel2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wnc01wh"
+      ]
+    },
+    {
+      "id": "buffalo-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WNC01WH"
+      ]
+    }
+  ]
+}

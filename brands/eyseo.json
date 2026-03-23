@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Eyseo",
+  "brand_id": "eyseo",
+  "streams": [
+    {
+      "id": "eyseo-1",
+      "url": "cgi-bin/viewer/video.jpg?resolution=640x480",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "7203",
+        "TV7204"
+      ]
+    },
+    {
+      "id": "eyseo-2",
+      "url": "video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "eyseo-3",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TV7204",
+        "TV7230",
+        "TV7240"
+      ]
+    }
+  ]
+}

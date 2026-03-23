@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "brand": "Ip Webcam Pro",
+  "brand_id": "ip-webcam-pro",
+  "streams": [
+    {
+      "id": "ip-webcam-pro-1",
+      "url": "/videofeed",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Galaxy note 8",
+        "Galaxy S21",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-pro-2",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Galaxy S10+",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-pro-3",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Moto G",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-pro-4",
+      "url": "/video/mjpeg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Moto G"
+      ]
+    },
+    {
+      "id": "ip-webcam-pro-5",
+      "url": "/video/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8080,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-pro-6",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "PSI"
+      ]
+    }
+  ]
+}

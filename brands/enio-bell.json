@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Enio Bell",
+  "brand_id": "enio-bell",
+  "streams": [
+    {
+      "id": "enio-bell-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

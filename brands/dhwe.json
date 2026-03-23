@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Dhwe",
+  "brand_id": "dhwe",
+  "streams": [
+    {
+      "id": "dhwe-1",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "960"
+      ]
+    },
+    {
+      "id": "dhwe-2",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DSR20H130"
+      ]
+    }
+  ]
+}

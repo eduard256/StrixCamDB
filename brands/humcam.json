@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Humcam",
+  "brand_id": "humcam",
+  "streams": [
+    {
+      "id": "humcam-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8021v"
+      ]
+    }
+  ]
+}

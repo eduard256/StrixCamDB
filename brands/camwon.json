@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Camwon",
+  "brand_id": "camwon",
+  "streams": [
+    {
+      "id": "camwon-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C6F0SpZ3N0PgL2",
+        "Other",
+        "SSA-290980-BBFEF"
+      ]
+    },
+    {
+      "id": "camwon-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 5544,
+      "models": [
+        "WIP-PB200N"
+      ]
+    }
+  ]
+}

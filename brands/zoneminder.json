@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zoneminder",
+  "brand_id": "zoneminder",
+  "streams": [
+    {
+      "id": "zoneminder-1",
+      "url": "cgi-bin/nph-zms?mode=jpeg&monitor=[CHANNEL]&scale=100&maxfps=30&buffer=1000&user=[USERNAME]&pass=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

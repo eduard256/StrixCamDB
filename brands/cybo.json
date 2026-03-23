@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cybo",
+  "brand_id": "cybo",
+  "streams": [
+    {
+      "id": "cybo-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "T554"
+      ]
+    }
+  ]
+}

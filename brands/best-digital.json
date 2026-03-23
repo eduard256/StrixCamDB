@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Best Digital",
+  "brand_id": "best-digital",
+  "streams": [
+    {
+      "id": "best-digital-1",
+      "url": "/ssnadmin_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BNC-771BR"
+      ]
+    }
+  ]
+}

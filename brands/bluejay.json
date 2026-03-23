@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Bluejay",
+  "brand_id": "bluejay",
+  "streams": [
+    {
+      "id": "bluejay-1",
+      "url": "cgi-bin/Stream?Video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BCN-401"
+      ]
+    },
+    {
+      "id": "bluejay-2",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BCN-401"
+      ]
+    },
+    {
+      "id": "bluejay-3",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BNC-501C"
+      ]
+    },
+    {
+      "id": "bluejay-4",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

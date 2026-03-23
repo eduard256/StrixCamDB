@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Kbvision",
+  "brand_id": "kbvision",
+  "streams": [
+    {
+      "id": "kbvision-1",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR",
+        "KX - H13WN",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "version": 2,
+  "brand": "Mobotix",
+  "brand_id": "mobotix",
+  "streams": [
+    {
+      "id": "mobotix-1",
+      "url": "control/faststream.jpg?stream=full",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BO",
+        "C25",
+        "C25 D016-AUD",
+        "D-12",
+        "D-14",
+        "D15",
+        "D16",
+        "D-22M",
+        "D-24",
+        "D24M-Night",
+        "DM-25M",
+        "I25",
+        "M 12",
+        "M-10",
+        "M12D-SEC",
+        "M-15",
+        "M-15D",
+        "M16",
+        "M-22",
+        "m22d",
+        "M-24",
+        "M25",
+        "M26",
+        "M-Series",
+        "M-SERIES",
+        "Other",
+        "p25",
+        "Q22",
+        "Q-24",
+        "Q-25",
+        "Q25M",
+        "Q-Series",
+        "Q-SERIES",
+        "S16",
+        "t24",
+        "T24M-Sec-Night",
+        "T25",
+        "T25M",
+        "V25"
+      ]
+    },
+    {
+      "id": "mobotix-2",
+      "url": "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Bullet",
+        "c16 b",
+        "D71",
+        "M 25",
+        "M12D-Sec",
+        "M-15D",
+        "M16",
+        "M73",
+        "MOBOTIX i26B-6D",
+        "Move",
+        "Mx-VH1A-12-IR-VA",
+        "One",
+        "Other",
+        "P71",
+        "Q26B-6D",
+        "Q71",
+        "S74"
+      ]
+    },
+    {
+      "id": "mobotix-3",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c25",
+        "C25 D016-AUD",
+        "c26B-6D",
+        "D12",
+        "D-14",
+        "d14d",
+        "D24M",
+        "D25",
+        "DM-25M",
+        "DM-26",
+        "M10",
+        "M-10",
+        "M12",
+        "M12D-SEC",
+        "M-15",
+        "m15d",
+        "M-15D",
+        "M16",
+        "m-24",
+        "M24",
+        "M25",
+        "M73",
+        "MOB1",
+        "M-Series",
+        "M-SERIES",
+        "MX10",
+        "Mx-Q26B",
+        "Other",
+        "Q-24",
+        "Q24M",
+        "Q24m-Sec",
+        "Q24M-Sec",
+        "q25",
+        "Q-25",
+        "Q26B-6D",
+        "Q-Series",
+        "S14",
+        "S15",
+        "S-15",
+        "S16",
+        "S26",
+        "SUS",
+        "t24",
+        "T-24",
+        "T24M-Sec-Night",
+        "T25",
+        "T-25",
+        "V16 PLBN",
+        "V25"
+      ]
+    },
+    {
+      "id": "mobotix-4",
+      "url": "record/current.jpg?sync=-99",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C25",
+        "C25-2",
+        "D-12",
+        "D-14",
+        "D15",
+        "D-22M",
+        "D-24",
+        "D25",
+        "i25",
+        "M-10",
+        "M-12",
+        "M12D-SEC",
+        "M-15",
+        "M-15D",
+        "M-22",
+        "m-24",
+        "M24",
+        "M25",
+        "M-Series",
+        "M-SERIES",
+        "Other",
+        "P25",
+        "p25-Night",
+        "Q-24",
+        "Q24M",
+        "Q-25",
+        "Q-Series",
+        "s-15",
+        "T-25",
+        "T25M"
+      ]
+    },
+    {
+      "id": "mobotix-5",
+      "url": "cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C25 D016-AUD",
+        "m12",
+        "M-15",
+        "M-15D",
+        "M-22",
+        "M22M",
+        "M-24",
+        "M-Series",
+        "Other",
+        "Q-24",
+        "q25m",
+        "Q-Series",
+        "t25",
+        "T-25"
+      ]
+    },
+    {
+      "id": "mobotix-6",
+      "url": "/control/faststream.jpg?stream=full",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 9083,
+      "models": [
+        "C26",
+        "D12",
+        "D-14",
+        "D24",
+        "D24M-Night",
+        "i25",
+        "m 25",
+        "M10",
+        "m12",
+        "M12D-Sec",
+        "M15",
+        "M-15",
+        "M16",
+        "M-22",
+        "M24",
+        "M25",
+        "M26",
+        "M73",
+        "MOBOTIX i26B-6D",
+        "MQ24",
+        "One",
+        "Q24M",
+        "Q71",
+        "S16b ok!",
+        "t24",
+        "T-24",
+        "T24M-Sec-Night",
+        "T-25",
+        "T26",
+        "V25"
+      ]
+    },
+    {
+      "id": "mobotix-7",
+      "url": "api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c26 B-D06",
+        "D12",
+        "M16",
+        "Move",
+        "sd1a"
+      ]
+    },
+    {
+      "id": "mobotix-8",
+      "url": "/control/faststream.jpg?stream=MxPEG&preview&previewsize=1280x960&quality=70&fps=24&camera=auto",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "c26B-6D",
+        "Q24M"
+      ]
+    },
+    {
+      "id": "mobotix-9",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D12"
+      ]
+    },
+    {
+      "id": "mobotix-10",
+      "url": "record/current.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D-12",
+        "D-14",
+        "d-15",
+        "D15",
+        "D16",
+        "D-22M",
+        "D24",
+        "DM-26",
+        "M 25",
+        "M-12",
+        "M12D-Sec",
+        "M-15",
+        "M-22",
+        "M22M",
+        "M-24",
+        "M-Series",
+        "M-SERIES",
+        "Other",
+        "Q-22",
+        "Q-24",
+        "Q-25",
+        "Q-SERIES",
+        "S-15",
+        "T-24"
+      ]
+    },
+    {
+      "id": "mobotix-11",
+      "url": "cgi-bin/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "D-12",
+        "D22M-Sec",
+        "M-12",
+        "M-15",
+        "M-22",
+        "M25",
+        "Other",
+        "Q-22",
+        "Q-24",
+        "Q-Series",
+        "T-24"
+      ]
+    },
+    {
+      "id": "mobotix-12",
+      "url": "/cgi-bin/faststream.jpg?stream=full&fps=10.0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "D-14",
+        "M24M",
+        "M25",
+        "Q-24",
+        "Q26"
+      ]
+    },
+    {
+      "id": "mobotix-13",
+      "url": "/record/current.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "D15",
+        "M12D-Sec",
+        "M1M",
+        "s16",
+        "T26",
+        "Unlisted"
+      ]
+    },
+    {
+      "id": "mobotix-14",
+      "url": "/stream0/mobotix.mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D16",
+        "V25"
+      ]
+    },
+    {
+      "id": "mobotix-15",
+      "url": "/record/current.jpg?sync=-99",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "D22",
+        "M 12",
+        "m12",
+        "s16"
+      ]
+    },
+    {
+      "id": "mobotix-16",
+      "url": "/mobotix.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "D26",
+        "M26B"
+      ]
+    },
+    {
+      "id": "mobotix-17",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "i25"
+      ]
+    },
+    {
+      "id": "mobotix-18",
+      "url": "/axis-cgi/mjpg/video.cgi?camera=1&resolution=320x240",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M 12"
+      ]
+    },
+    {
+      "id": "mobotix-19",
+      "url": "/cgi-bin/image.jpg?imgprof=VGA-L",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "m 25",
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-20",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=24",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M10",
+        "M16",
+        "Q24M"
+      ]
+    },
+    {
+      "id": "mobotix-21",
+      "url": "/cgi-bin/image.jpg?size=320x240",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 20001,
+      "models": [
+        "m12",
+        "M-22"
+      ]
+    },
+    {
+      "id": "mobotix-22",
+      "url": "/control/userimage.html",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 20004,
+      "models": [
+        "M12D-Sec"
+      ]
+    },
+    {
+      "id": "mobotix-23",
+      "url": "/onvif/mobotix.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "M-15D",
+        "M72",
+        "MOBOTIX c26B-AU-6D",
+        "MOBOTIX i26B-6D",
+        "Q24M"
+      ]
+    },
+    {
+      "id": "mobotix-24",
+      "url": "/cgi-bin/image.jpg?imgprof=CIF",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-25",
+      "url": "/cgi-bin/image.jpg?imgprof=MEGA",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-26",
+      "url": "/cgi-bin/image.jpg?imgprof=VGA",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-27",
+      "url": "/cgi-bin/image.jpg?imgprof=CIF-R",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-28",
+      "url": "/cgi-bin/image.jpg?imgprof=CIF-L",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-29",
+      "url": "/cgi-bin/image.jpg?imgprof=VGA-R",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-30",
+      "url": "/cgi-bin/image.jpg?imgprof=CIF-2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8011,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-31",
+      "url": "/cgi-bin/image.jpg?imgprof=CIF-1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8011,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-32",
+      "url": "/control/event.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8011,
+      "models": [
+        "M-15D"
+      ]
+    },
+    {
+      "id": "mobotix-33",
+      "url": "faststream.jpg?stream=full&fps=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M-22",
+        "M-Series",
+        "Other",
+        "Q-SERIES"
+      ]
+    },
+    {
+      "id": "mobotix-34",
+      "url": "/cgi-bin/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M25"
+      ]
+    },
+    {
+      "id": "mobotix-35",
+      "url": "/control/faststream.jpg?stream=full&preview&previewsize=640x480&quality=40&fps=20.0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M25",
+        "V25"
+      ]
+    },
+    {
+      "id": "mobotix-36",
+      "url": "/control/faststream.jpg?stream=full&preview&previewsize=800x600&quality=80&fps=30.0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M25"
+      ]
+    },
+    {
+      "id": "mobotix-37",
+      "url": "/stream/profile0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "M72"
+      ]
+    },
+    {
+      "id": "mobotix-38",
+      "url": "/onvif/stream3/mobotix.mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MOBOTIX c26B-6D",
+        "MOBOTIX i26B-6D"
+      ]
+    },
+    {
+      "id": "mobotix-39",
+      "url": "/cgi-bin/guestimage.html",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8038,
+      "models": [
+        "MQ24",
+        "Q24M"
+      ]
+    },
+    {
+      "id": "mobotix-40",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M-Series"
+      ]
+    },
+    {
+      "id": "mobotix-41",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mobotix-42",
+      "url": "cgi-bin/guest/Video.cgi?media=JPEG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mobotix-43",
+      "url": "-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mobotix-44",
+      "url": "jpeg/vga.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mobotix-45",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Q24M"
+      ]
+    },
+    {
+      "id": "mobotix-46",
+      "url": "/control/faststream.jpg?stream=MxPEG&preview&previewsize=2048x1536&quality=100&fps=20&camera=auto",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "q24m-sec",
+        "q24m-secure"
+      ]
+    },
+    {
+      "id": "mobotix-47",
+      "url": "/cgi-bin/image.jpg?display_mode=simple&size=3072x2048",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Q26"
+      ]
+    },
+    {
+      "id": "mobotix-48",
+      "url": "/cgi-bin/image.jpg?display_mode=simple&size=3072x2048&textdisplay=datetime&displayfontsize=24&rotate=180",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Q26"
+      ]
+    },
+    {
+      "id": "mobotix-49",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Q-Series"
+      ]
+    },
+    {
+      "id": "mobotix-50",
+      "url": "video.mjpg?q=30&fps=33&id=0.5",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "S-15"
+      ]
+    },
+    {
+      "id": "mobotix-51",
+      "url": "/cgi-bin/image.jpg?imgprof=CIF-B",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "S16b"
+      ]
+    },
+    {
+      "id": "mobotix-52",
+      "url": "/stream1/mobotix.mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V25"
+      ]
+    },
+    {
+      "id": "mobotix-53",
+      "url": "/stream1/mobotix.mxg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V25"
+      ]
+    },
+    {
+      "id": "mobotix-54",
+      "url": "/stream0/mobotix.mxg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V25"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Facetime",
+  "brand_id": "facetime",
+  "streams": [
+    {
+      "id": "facetime-1",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

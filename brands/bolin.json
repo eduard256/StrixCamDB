@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bolin",
+  "brand_id": "bolin",
+  "streams": [
+    {
+      "id": "bolin-1",
+      "url": "/media/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SD522B4K-IRNA"
+      ]
+    }
+  ]
+}

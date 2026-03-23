@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Rds",
+  "brand_id": "rds",
+  "streams": [
+    {
+      "id": "rds-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP3120"
+      ]
+    }
+  ]
+}

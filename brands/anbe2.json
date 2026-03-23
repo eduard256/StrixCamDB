@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Anbe2",
+  "brand_id": "anbe2",
+  "streams": [
+    {
+      "id": "anbe2-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "006",
+        "720p",
+        "720p IP Network Camera",
+        "China"
+      ]
+    },
+    {
+      "id": "anbe2-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720p",
+        "720p IP Network Camera"
+      ]
+    }
+  ]
+}

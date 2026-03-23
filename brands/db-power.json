@@ -1,0 +1,903 @@
+{
+  "version": 2,
+  "brand": "Db Power",
+  "brand_id": "db-power",
+  "streams": [
+    {
+      "id": "db-power-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002duht",
+        "H264 1080P",
+        "HD023P",
+        "hd024p",
+        "hdo24p",
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002DUHT",
+        "AddyCam",
+        "AMAZON ONE!",
+        "b",
+        "b-series",
+        "C301E",
+        "H.264",
+        "HD015P",
+        "IP030",
+        "IPC",
+        "IPCAMERA HOF",
+        "MartyCam",
+        "mjpeg",
+        "Mobile_Cam",
+        "Other",
+        "P2P H264",
+        "PTZ",
+        "VA0033k",
+        "VA0044_M",
+        "VA033K",
+        "VA033K+",
+        "VA036K",
+        "VA038K",
+        "VA039K"
+      ]
+    },
+    {
+      "id": "db-power-3",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002euqv",
+        "003abtu",
+        "003bniy",
+        "B SERIES",
+        "b-series",
+        "CAM0077",
+        "cam0086",
+        "cAM0546",
+        "Other",
+        "VA035K"
+      ]
+    },
+    {
+      "id": "db-power-4",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "003add series b",
+        "va035k"
+      ]
+    },
+    {
+      "id": "db-power-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "003agam",
+        "b",
+        "b series",
+        "eagleone",
+        "f1368",
+        "H.264",
+        "hc-wv06",
+        "HD011P",
+        "IP030",
+        "IPC",
+        "Other",
+        "P2P H264",
+        "PTZ",
+        "VA0038K",
+        "VA035K",
+        "WIFI IP IR"
+      ]
+    },
+    {
+      "id": "db-power-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "003AGAM",
+        "003chpy",
+        "003cmqa",
+        "ACT-2800/3100",
+        "b",
+        "b series",
+        "B Series",
+        "B-SERIES",
+        "CAM0078",
+        "cAM0546",
+        "H.264",
+        "HD IP",
+        "HD011P",
+        "Other",
+        "Salis Cam",
+        "Shaker",
+        "Something",
+        "VA-033K",
+        "va035k",
+        "VA035K",
+        "VA036K",
+        "VA038K",
+        "wifi ip ir"
+      ]
+    },
+    {
+      "id": "db-power-7",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "003aipx"
+      ]
+    },
+    {
+      "id": "db-power-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "003akmx",
+        "b series",
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "003apyi",
+        "035k",
+        "B serie"
+      ]
+    },
+    {
+      "id": "db-power-10",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "003arfu",
+        "b series",
+        "HC-WV06",
+        "HD011P",
+        "HD015P",
+        "HD024P",
+        "IPCam_HOF",
+        "JWEV-094466-MJHVG",
+        "Other",
+        "Other2",
+        "VA0033K",
+        "va033",
+        "VA033K",
+        "VA033K+",
+        "va035k",
+        "VA038k",
+        "wifi ip ir"
+      ]
+    },
+    {
+      "id": "db-power-11",
+      "url": "/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "003axzi"
+      ]
+    },
+    {
+      "id": "db-power-12",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "003bcwn",
+        "005uwzf",
+        "C300E",
+        "Cube IP",
+        "H022P",
+        "HD022P",
+        "HD025",
+        "HD027P",
+        "HD028P",
+        "M Series",
+        "Other",
+        "VA0033M",
+        "va035k hd"
+      ]
+    },
+    {
+      "id": "db-power-13",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "003ciwk",
+        "b-series",
+        "ERIK",
+        "HD011P",
+        "HD012P",
+        "HD015P",
+        "L-615W",
+        "LA040",
+        "Other",
+        "VA0038K",
+        "VA003K+",
+        "VA033K",
+        "VA033K+",
+        "VA035K",
+        "VA038",
+        "VA039K",
+        "VA039K-Test",
+        "VA040",
+        "VA390k"
+      ]
+    },
+    {
+      "id": "db-power-14",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "003coos",
+        "b series",
+        "B-Series",
+        "f-series",
+        "hd024p",
+        "Other",
+        "VA035K"
+      ]
+    },
+    {
+      "id": "db-power-15",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "10003",
+        "1080 P",
+        "123456",
+        "700gb",
+        "700GB",
+        "700MB",
+        "AMAZON ONE!",
+        "C 754",
+        "c300e",
+        "C754 1080p",
+        "C754 1080P",
+        "C754-2",
+        "Decking",
+        "H.264 1080P",
+        "H264 1080p",
+        "HD024p",
+        "HD027P",
+        "HD028P",
+        "IPC",
+        "Other",
+        "V754",
+        "VA0129",
+        "X Series",
+        "XSERIES"
+      ]
+    },
+    {
+      "id": "db-power-16",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1HD",
+        "Other",
+        "va035k"
+      ]
+    },
+    {
+      "id": "db-power-17",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "302c",
+        "302e",
+        "720P",
+        "8GB",
+        "C300E",
+        "c301e",
+        "C301E",
+        "C302E",
+        "C303E",
+        "c320w"
+      ]
+    },
+    {
+      "id": "db-power-18",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "b",
+        "Other",
+        "wifi ip ir"
+      ]
+    },
+    {
+      "id": "db-power-19",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B",
+        "b series",
+        "H.264",
+        "HC-WV06",
+        "IP030",
+        "IPCamHof",
+        "Other",
+        "VA003K+",
+        "VA-033K",
+        "VA033K+",
+        "VA036K"
+      ]
+    },
+    {
+      "id": "db-power-20",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B",
+        "B series",
+        "Other",
+        "VA-033K",
+        "VA-033K+",
+        "VA035K"
+      ]
+    },
+    {
+      "id": "db-power-21",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "b series",
+        "Other",
+        "VA-033K",
+        "VA035K",
+        "VA039K"
+      ]
+    },
+    {
+      "id": "db-power-22",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "b series",
+        "DBPOWER",
+        "extcams",
+        "HD015P",
+        "IPC",
+        "kiskFirstCam",
+        "Other",
+        "va033k",
+        "VA033K",
+        "VA033K+",
+        "VA035K",
+        "VA036K",
+        "VA038k",
+        "va039k",
+        "VA039K",
+        "wifi ip ir"
+      ]
+    },
+    {
+      "id": "db-power-23",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "b series",
+        "Other",
+        "VA-033K",
+        "wifi ip ir"
+      ]
+    },
+    {
+      "id": "db-power-24",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "b series",
+        "cAM0546",
+        "Other",
+        "VA035K"
+      ]
+    },
+    {
+      "id": "db-power-25",
+      "url": "/1.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "bhv"
+      ]
+    },
+    {
+      "id": "db-power-26",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C 754",
+        "C475",
+        "C75",
+        "C754 1080p",
+        "HD027P2",
+        "Other",
+        "VA0129",
+        "x-series"
+      ]
+    },
+    {
+      "id": "db-power-27",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "c-100e",
+        "C-100E",
+        "C200E",
+        "pt100c",
+        "PT100C"
+      ]
+    },
+    {
+      "id": "db-power-28",
+      "url": "/ROH/channel/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C300E",
+        "c302e"
+      ]
+    },
+    {
+      "id": "db-power-29",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C300E",
+        "M Series"
+      ]
+    },
+    {
+      "id": "db-power-30",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C300E",
+        "C302E"
+      ]
+    },
+    {
+      "id": "db-power-31",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CAM0989",
+        "h240",
+        "HD021P",
+        "HDPCI",
+        "Other",
+        "VA0074_M",
+        "VA0087_M",
+        "VA0089_M"
+      ]
+    },
+    {
+      "id": "db-power-32",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CameraHof",
+        "IP030",
+        "IPC",
+        "IPCamera Hof",
+        "IPCAMERA HOF",
+        "IPCamHof",
+        "Other",
+        "VA0033K",
+        "VA003K+",
+        "VA038k"
+      ]
+    },
+    {
+      "id": "db-power-33",
+      "url": "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "DBD",
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-34",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DBPOWER",
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-35",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H Series",
+        "HD023P",
+        "hd024p",
+        "HD024P",
+        "HD924P",
+        "hdo24p",
+        "m series",
+        "Other",
+        "P2P H264",
+        "VA-003K+",
+        "VA033K+",
+        "va035k",
+        "VA038k"
+      ]
+    },
+    {
+      "id": "db-power-36",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H.264",
+        "HD022P",
+        "HD023P",
+        "Other",
+        "VA-033K",
+        "va035k",
+        "VA060K"
+      ]
+    },
+    {
+      "id": "db-power-37",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264",
+        "M SERIES",
+        "Other",
+        "VA003K+",
+        "VA033K+",
+        "wifi ip ir"
+      ]
+    },
+    {
+      "id": "db-power-38",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "H.264",
+        "Other",
+        "VA0032_M"
+      ]
+    },
+    {
+      "id": "db-power-39",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD011P",
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-40",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD023P",
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-41",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip030",
+        "L-615W",
+        "Other",
+        "VA0044_M",
+        "VA-033K",
+        "VA033K+",
+        "va039k"
+      ]
+    },
+    {
+      "id": "db-power-42",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCamHof"
+      ]
+    },
+    {
+      "id": "db-power-43",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipw391",
+        "L-615W",
+        "MOBILE_CAM",
+        "Other",
+        "VA0033M",
+        "VA0034_M",
+        "VA-033K",
+        "VA033K+",
+        "VA038k",
+        "VA039K"
+      ]
+    },
+    {
+      "id": "db-power-44",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "M Series",
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-45",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-46",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-47",
+      "url": "/cam1/onvif-h264-1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "VA038k"
+      ]
+    },
+    {
+      "id": "db-power-48",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "va060k",
+        "VA060K"
+      ]
+    },
+    {
+      "id": "db-power-49",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-50",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VA036K"
+      ]
+    },
+    {
+      "id": "db-power-51",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-52",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Version 2",
+        "wifi ip ir"
+      ]
+    },
+    {
+      "id": "db-power-53",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-54",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-55",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VA-033K",
+        "VA033K+"
+      ]
+    },
+    {
+      "id": "db-power-56",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-57",
+      "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "db-power-58",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PTZ Dome",
+        "VA033K+",
+        "va039k",
+        "VA040K"
+      ]
+    },
+    {
+      "id": "db-power-59",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VA003K+",
+        "VA-033K",
+        "VA-033K+"
+      ]
+    },
+    {
+      "id": "db-power-60",
+      "url": "video/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VA038K"
+      ]
+    }
+  ]
+}

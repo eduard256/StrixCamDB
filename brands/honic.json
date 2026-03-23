@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Honic",
+  "brand_id": "honic",
+  "streams": [
+    {
+      "id": "honic-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HN-4KA",
+        "HN-IRDNS200"
+      ]
+    },
+    {
+      "id": "honic-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HN-4KA",
+        "HN-DC5",
+        "HN-IRDN200F"
+      ]
+    },
+    {
+      "id": "honic-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "hn-4kz"
+      ]
+    },
+    {
+      "id": "honic-4",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HN-IRDNS200"
+      ]
+    }
+  ]
+}

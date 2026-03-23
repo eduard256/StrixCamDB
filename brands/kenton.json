@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Kenton",
+  "brand_id": "kenton",
+  "streams": [
+    {
+      "id": "kenton-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "gjc02",
+        "kep2pcam"
+      ]
+    },
+    {
+      "id": "kenton-2",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "gjc02"
+      ]
+    },
+    {
+      "id": "kenton-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

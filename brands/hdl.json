@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Hdl",
+  "brand_id": "hdl",
+  "streams": [
+    {
+      "id": "hdl-1",
+      "url": "H264/ch[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HMEG-70/70W"
+      ]
+    },
+    {
+      "id": "hdl-2",
+      "url": "H264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HMEG-70/70W (rtsp)"
+      ]
+    },
+    {
+      "id": "hdl-3",
+      "url": "dms?nowprofileid=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HMEG-70P/70DVIR",
+        "HMEG-80PIR",
+        "HMS1 Video Server"
+      ]
+    },
+    {
+      "id": "hdl-4",
+      "url": "ipcam/stream.cgi?nowprofileid=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HMEG-70P/70DVIR",
+        "HMEG-80PIR",
+        "HMS1 Video Server"
+      ]
+    },
+    {
+      "id": "hdl-5",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HMEG-70P/70DVIR",
+        "Other"
+      ]
+    },
+    {
+      "id": "hdl-6",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

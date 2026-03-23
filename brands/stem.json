@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Stem",
+  "brand_id": "stem",
+  "streams": [
+    {
+      "id": "stem-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Izon",
+        "Izon View"
+      ]
+    }
+  ]
+}

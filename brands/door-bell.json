@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Door Bell",
+  "brand_id": "door-bell",
+  "streams": [
+    {
+      "id": "door-bell-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "huanso"
+      ]
+    }
+  ]
+}

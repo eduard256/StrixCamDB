@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xblock",
+  "brand_id": "xblock",
+  "streams": [
+    {
+      "id": "xblock-1",
+      "url": "/cam0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GPCZ-636A1NT"
+      ]
+    }
+  ]
+}

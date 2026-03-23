@@ -1,0 +1,133 @@
+{
+  "version": 2,
+  "brand": "Ips",
+  "brand_id": "ips",
+  "streams": [
+    {
+      "id": "ips-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1024V"
+      ]
+    },
+    {
+      "id": "ips-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1812VW",
+        "EA1812",
+        "ea-1822",
+        "EYE 03W",
+        "ips-eye01w",
+        "IPS-Ki-EL",
+        "Ki-DL",
+        "Other"
+      ]
+    },
+    {
+      "id": "ips-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "7038",
+        "911",
+        "914V",
+        "922V",
+        "924v",
+        "925POE",
+        "925POE (RS7507)",
+        "ips-eye01w",
+        "IPS-EYE01W2",
+        "IPS-eye03w",
+        "Other"
+      ]
+    },
+    {
+      "id": "ips-4",
+      "url": "/ch0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "911",
+        "913V",
+        "922V",
+        "923",
+        "Eye",
+        "Hi3507   RS7507H",
+        "ips-eye01a",
+        "Other"
+      ]
+    },
+    {
+      "id": "ips-5",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "911",
+        "911s",
+        "911V",
+        "912",
+        "913V",
+        "914V",
+        "922",
+        "924VPOE",
+        "925",
+        "925POE",
+        "eye01w",
+        "Eye3",
+        "eyeow1",
+        "Hi3507   RS7507H",
+        "IPS-911",
+        "IPS-924V",
+        "IPS-EYE01W",
+        "IPS-EYE01W2",
+        "IPS-eye03w",
+        "Ki-C",
+        "ki-e",
+        "Other"
+      ]
+    },
+    {
+      "id": "ips-6",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "911",
+        "IPS IPS-EYE01W"
+      ]
+    },
+    {
+      "id": "ips-7",
+      "url": "ch0_[CHANNEL].H264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "913V"
+      ]
+    },
+    {
+      "id": "ips-8",
+      "url": "cgi-bin/net_jpeg.cgi?ch=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ips-eye01w"
+      ]
+    }
+  ]
+}

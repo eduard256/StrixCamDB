@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Wintech",
+  "brand_id": "wintech",
+  "streams": [
+    {
+      "id": "wintech-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C2007DN2",
+        "IPC"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Apleye",
+  "brand_id": "apleye",
+  "streams": [
+    {
+      "id": "apleye-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HC414"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ancarla",
+  "brand_id": "ancarla",
+  "streams": [
+    {
+      "id": "ancarla-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "hd20m14hx-wifi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "version": 2,
+  "brand": "Maygion",
+  "brand_id": "maygion",
+  "streams": [
+    {
+      "id": "maygion-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "black IP Camera V3",
+        "id002a",
+        "IP Camera V3",
+        "ip v3",
+        "IP607WX",
+        "Other",
+        "P2P H.264",
+        "V3",
+        "vs3.1"
+      ]
+    },
+    {
+      "id": "maygion-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "black IP Camera V3",
+        "CAMARA OTHER",
+        "IP Camera V3",
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "black IP Camera V3",
+        "id002a",
+        "IP Camera v3",
+        "IP Camera V3",
+        "Other",
+        "P2P H.264",
+        "q701"
+      ]
+    },
+    {
+      "id": "maygion-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "black IP Camera V3",
+        "ip-601",
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-5",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "black IP Camera V3",
+        "IP Camera V3",
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-6",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "black IP Camera V3",
+        "IP Camera V3",
+        "Other",
+        "V3"
+      ]
+    },
+    {
+      "id": "maygion-7",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "black IP Camera V3",
+        "IP Camera V3",
+        "Other",
+        "OTHER2",
+        "V3"
+      ]
+    },
+    {
+      "id": "maygion-8",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLACK IP CAMERA V3",
+        "CAMARA OTHER",
+        "id002a",
+        "IP Camera V3",
+        "ip v3",
+        "Other",
+        "V3"
+      ]
+    },
+    {
+      "id": "maygion-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLACK IP CAMERA V3",
+        "ID002A",
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLACK IP CAMERA V3",
+        "IP Camera V3",
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-11",
+      "url": "live_h264_1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CAMARA Other"
+      ]
+    },
+    {
+      "id": "maygion-12",
+      "url": "snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ID002A",
+        "IP Camera V3",
+        "V3"
+      ]
+    },
+    {
+      "id": "maygion-13",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Camera V3"
+      ]
+    },
+    {
+      "id": "maygion-14",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP CAMERA V3",
+        "Other",
+        "V3"
+      ]
+    },
+    {
+      "id": "maygion-15",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip v3",
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-16",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-17",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-18",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "maygion-19",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "P2P H.264"
+      ]
+    },
+    {
+      "id": "maygion-20",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P2P H.264"
+      ]
+    },
+    {
+      "id": "maygion-21",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "rossm"
+      ]
+    }
+  ]
+}

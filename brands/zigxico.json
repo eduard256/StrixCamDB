@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zigxico",
+  "brand_id": "zigxico",
+  "streams": [
+    {
+      "id": "zigxico-1",
+      "url": "/onvif/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "W11"
+      ]
+    }
+  ]
+}

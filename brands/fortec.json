@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Fortec",
+  "brand_id": "fortec",
+  "streams": [
+    {
+      "id": "fortec-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IDG-2020"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Goldchamp",
+  "brand_id": "goldchamp",
+  "streams": [
+    {
+      "id": "goldchamp-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Mini PTZ ST-496-5M-IC"
+      ]
+    },
+    {
+      "id": "goldchamp-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "S3-495-5M1C-W-US"
+      ]
+    }
+  ]
+}

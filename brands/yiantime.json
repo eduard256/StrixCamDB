@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Yiantime",
+  "brand_id": "yiantime",
+  "streams": [
+    {
+      "id": "yiantime-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5060L",
+        "YT-5060L"
+      ]
+    }
+  ]
+}

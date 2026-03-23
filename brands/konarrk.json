@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Konarrk",
+  "brand_id": "konarrk",
+  "streams": [
+    {
+      "id": "konarrk-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "x000S5ZBFJ"
+      ]
+    }
+  ]
+}

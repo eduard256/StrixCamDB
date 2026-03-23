@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "brand": "Engenius",
+  "brand_id": "engenius",
+  "streams": [
+    {
+      "id": "engenius-1",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "E200",
+        "eds1130",
+        "EDS5110",
+        "EDS5115",
+        "EDS5250",
+        "EDS6225",
+        "EWS Mesh Cam",
+        "EWS1025CAM",
+        "Framsidan",
+        "Other"
+      ]
+    },
+    {
+      "id": "engenius-2",
+      "url": "/live/ch01_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EDS1130",
+        "EDS5110",
+        "eds5250",
+        "EDS6115"
+      ]
+    },
+    {
+      "id": "engenius-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EDS5110"
+      ]
+    },
+    {
+      "id": "engenius-4",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "eds5255",
+        "EWS1025"
+      ]
+    },
+    {
+      "id": "engenius-5",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

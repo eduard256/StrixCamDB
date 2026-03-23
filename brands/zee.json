@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zee",
+  "brand_id": "zee",
+  "streams": [
+    {
+      "id": "zee-1",
+      "url": "/video.pro1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RS 25"
+      ]
+    }
+  ]
+}

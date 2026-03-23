@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Visionstar",
+  "brand_id": "visionstar",
+  "streams": [
+    {
+      "id": "visionstar-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "D3330IR-IP"
+      ]
+    }
+  ]
+}

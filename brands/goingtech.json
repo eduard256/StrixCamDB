@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Goingtech",
+  "brand_id": "goingtech",
+  "streams": [
+    {
+      "id": "goingtech-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1109,
+      "models": [
+        "PTZ"
+      ]
+    }
+  ]
+}

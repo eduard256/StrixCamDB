@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Iclp",
+  "brand_id": "iclp",
+  "streams": [
+    {
+      "id": "iclp-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "iclp-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

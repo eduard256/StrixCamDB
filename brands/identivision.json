@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Identivision",
+  "brand_id": "identivision",
+  "streams": [
+    {
+      "id": "identivision-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3131",
+        "IIP-L3301VFW ALLIGATOR",
+        "SCI-DMP130F",
+        "SP1013"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Honestech",
+  "brand_id": "honestech",
+  "streams": [
+    {
+      "id": "honestech-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ne01"
+      ]
+    }
+  ]
+}

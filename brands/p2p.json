@@ -1,0 +1,178 @@
+{
+  "version": 2,
+  "brand": "P2p",
+  "brand_id": "p2p",
+  "streams": [
+    {
+      "id": "p2p-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cameranetwork",
+        "dbpower",
+        "HD024P",
+        "NETWORK CAMERA",
+        "P2P IP CAMERA"
+      ]
+    },
+    {
+      "id": "p2p-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ec76-u15",
+        "IP/NETWORK CAMERA",
+        "NETWORK CAMERA",
+        "Other",
+        "P2P IP",
+        "p2p ip came",
+        "WXH-094175-DAFAA"
+      ]
+    },
+    {
+      "id": "p2p-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FJM-Y1",
+        "P2P IP CAMERA",
+        "WIFICAM"
+      ]
+    },
+    {
+      "id": "p2p-4",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H.264 AHDVR",
+        "NETWORK CAMERA"
+      ]
+    },
+    {
+      "id": "p2p-5",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264 AHDVR"
+      ]
+    },
+    {
+      "id": "p2p-6",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP/Network Camera",
+        "Other",
+        "P2P IP",
+        "p2pcamera",
+        "WIFICAM"
+      ]
+    },
+    {
+      "id": "p2p-7",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP/NETWORK CAMERA",
+        "NETWORK CAMERA",
+        "p2p ip camera",
+        "seriesx",
+        "x series"
+      ]
+    },
+    {
+      "id": "p2p-8",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "ip602iw",
+        "P2P IP",
+        "P2P IP CAMERA",
+        "P2PCAMERA",
+        "PPCN522683TKSDM"
+      ]
+    },
+    {
+      "id": "p2p-9",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NP2P1",
+        "P2P IP"
+      ]
+    },
+    {
+      "id": "p2p-10",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SERIESX",
+        "v100"
+      ]
+    },
+    {
+      "id": "p2p-11",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SERIESX",
+        "wificam",
+        "WIFICAMm"
+      ]
+    },
+    {
+      "id": "p2p-12",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "p2p-13",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P2PCAM"
+      ]
+    },
+    {
+      "id": "p2p-14",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "x8900"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tethys Innovation",
+  "brand_id": "tethys-innovation",
+  "streams": [
+    {
+      "id": "tethys-innovation-1",
+      "url": "/?action=stream",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "825-C"
+      ]
+    }
+  ]
+}

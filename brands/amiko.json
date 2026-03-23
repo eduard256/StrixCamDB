@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Amiko",
+  "brand_id": "amiko",
+  "streams": [
+    {
+      "id": "amiko-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "60F",
+        "B60M400zoom",
+        "FE20A400POE WIFI"
+      ]
+    },
+    {
+      "id": "amiko-2",
+      "url": "/onvif-stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7070,
+      "models": [
+        "D20V200"
+      ]
+    }
+  ]
+}

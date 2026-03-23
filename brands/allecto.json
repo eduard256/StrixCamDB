@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Allecto",
+  "brand_id": "allecto",
+  "streams": [
+    {
+      "id": "allecto-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dvc-150ip"
+      ]
+    },
+    {
+      "id": "allecto-2",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVC-150IP"
+      ]
+    },
+    {
+      "id": "allecto-3",
+      "url": "/11d=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "dvi-155"
+      ]
+    }
+  ]
+}

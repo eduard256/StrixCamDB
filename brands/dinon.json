@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "brand": "Dinon",
+  "brand_id": "dinon",
+  "streams": [
+    {
+      "id": "dinon-1",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8475",
+        "8674"
+      ]
+    },
+    {
+      "id": "dinon-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8673",
+        "8675",
+        "SEGEV-105"
+      ]
+    },
+    {
+      "id": "dinon-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8673"
+      ]
+    },
+    {
+      "id": "dinon-4",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8675"
+      ]
+    },
+    {
+      "id": "dinon-5",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "9300",
+        "9330"
+      ]
+    },
+    {
+      "id": "dinon-6",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "p2p"
+      ]
+    },
+    {
+      "id": "dinon-7",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SEGEV-101",
+        "segev-103"
+      ]
+    },
+    {
+      "id": "dinon-8",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "segev-103",
+        "segev4"
+      ]
+    }
+  ]
+}

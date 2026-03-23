@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Hfws",
+  "brand_id": "hfws",
+  "streams": [
+    {
+      "id": "hfws-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HF-NMW620-A20A"
+      ]
+    },
+    {
+      "id": "hfws-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HF-NSW631-B80C",
+        "HF-NSWAF719-B80D"
+      ]
+    }
+  ]
+}

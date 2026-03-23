@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Ledvance",
+  "brand_id": "ledvance",
+  "streams": [
+    {
+      "id": "ledvance-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SMART+ Wifi Wall Camera Control",
+        "wifi smart +"
+      ]
+    }
+  ]
+}

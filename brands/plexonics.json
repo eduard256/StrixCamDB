@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Plexonics",
+  "brand_id": "plexonics",
+  "streams": [
+    {
+      "id": "plexonics-1",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AMTKAN2573D-A4F4AAO",
+        "PL 7573"
+      ]
+    },
+    {
+      "id": "plexonics-2",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

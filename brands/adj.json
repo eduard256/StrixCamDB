@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Adj",
+  "brand_id": "adj",
+  "streams": [
+    {
+      "id": "adj-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1024,
+      "models": [
+        "700-00048"
+      ]
+    },
+    {
+      "id": "adj-2",
+      "url": "/cam/realmonitor?channel=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR (Channel 1)"
+      ]
+    },
+    {
+      "id": "adj-3",
+      "url": "/cam/realmonitor?channel=2&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR (Channel 2)"
+      ]
+    },
+    {
+      "id": "adj-4",
+      "url": "/cam/realmonitor?channel=3&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVR (Channel 3)"
+      ]
+    },
+    {
+      "id": "adj-5",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Wireless IPCAM"
+      ]
+    },
+    {
+      "id": "adj-6",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WIRELESS IPCAM"
+      ]
+    }
+  ]
+}

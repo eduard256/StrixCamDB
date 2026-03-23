@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ayrstone",
+  "brand_id": "ayrstone",
+  "streams": [
+    {
+      "id": "ayrstone-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Ayrscout"
+      ]
+    },
+    {
+      "id": "ayrstone-2",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FR4020a2"
+      ]
+    }
+  ]
+}

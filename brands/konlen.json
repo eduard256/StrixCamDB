@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Konlen",
+  "brand_id": "konlen",
+  "streams": [
+    {
+      "id": "konlen-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hd cloud",
+        "KL-X624GAW",
+        "X Series",
+        "Xseries"
+      ]
+    },
+    {
+      "id": "konlen-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KLN-IP629"
+      ]
+    },
+    {
+      "id": "konlen-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KL-X624GAW"
+      ]
+    }
+  ]
+}

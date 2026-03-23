@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Galaxy S3",
+  "brand_id": "galaxy-s3",
+  "streams": [
+    {
+      "id": "galaxy-s3-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP WebCAM",
+        "Other"
+      ]
+    },
+    {
+      "id": "galaxy-s3-2",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP WebCAM"
+      ]
+    }
+  ]
+}

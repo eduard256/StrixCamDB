@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Hoswell",
+  "brand_id": "hoswell",
+  "streams": [
+    {
+      "id": "hoswell-1",
+      "url": "/stream_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 6554,
+      "models": [
+        "Other",
+        "WJ01"
+      ]
+    }
+  ]
+}

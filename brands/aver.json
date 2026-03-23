@@ -1,0 +1,120 @@
+{
+  "version": 2,
+  "brand": "Aver",
+  "brand_id": "aver",
+  "streams": [
+    {
+      "id": "aver-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2012",
+        "SF2012H-B",
+        "SF2012H-D",
+        "TR311HN"
+      ]
+    },
+    {
+      "id": "aver-2",
+      "url": "/live_st1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "520Pro",
+        "AVer CAM520 Pro2",
+        "DL30",
+        "FB2027-3",
+        "FB3027",
+        "FD2020-M",
+        "fv3808",
+        "Other",
+        "ptc500s",
+        "PTZ310N",
+        "TR-311",
+        "TR311HN"
+      ]
+    },
+    {
+      "id": "aver-3",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AV-CM20"
+      ]
+    },
+    {
+      "id": "aver-4",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FB 1026",
+        "Other"
+      ]
+    },
+    {
+      "id": "aver-5",
+      "url": "GetData.cgi?Status=false",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FS2012H-C",
+        "Other",
+        "SF2012H-C"
+      ]
+    },
+    {
+      "id": "aver-6",
+      "url": "/live_st2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FX2000",
+        "Other",
+        "SF1311H-C",
+        "TR311HN"
+      ]
+    },
+    {
+      "id": "aver-7",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aver-8",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "PTC310H",
+        "PTC330UV2"
+      ]
+    },
+    {
+      "id": "aver-9",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SF2012B",
+        "SF2012H-B",
+        "SF2012H-D"
+      ]
+    }
+  ]
+}

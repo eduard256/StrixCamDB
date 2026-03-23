@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Tecvoz",
+  "brand_id": "tecvoz",
+  "streams": [
+    {
+      "id": "tecvoz-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "THK-IDM13"
+      ]
+    },
+    {
+      "id": "tecvoz-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "THK-ICB13"
+      ]
+    }
+  ]
+}

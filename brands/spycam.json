@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Spycam",
+  "brand_id": "spycam",
+  "streams": [
+    {
+      "id": "spycam-1",
+      "url": "/cgi-bin/hi3510/snap.cgi?&-getstream&-chn=2",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Mini"
+      ]
+    },
+    {
+      "id": "spycam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "SQ29"
+      ]
+    }
+  ]
+}

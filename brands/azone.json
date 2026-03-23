@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Azone",
+  "brand_id": "azone",
+  "streams": [
+    {
+      "id": "azone-1",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "960",
+        "960p",
+        "K9604-W",
+        "Other",
+        "TL-X5F440"
+      ]
+    },
+    {
+      "id": "azone-2",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "960P",
+        "AZ-B047"
+      ]
+    },
+    {
+      "id": "azone-3",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AZ-B047",
+        "K9604-W",
+        "Other"
+      ]
+    },
+    {
+      "id": "azone-4",
+      "url": "/snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "AZ-B047"
+      ]
+    }
+  ]
+}

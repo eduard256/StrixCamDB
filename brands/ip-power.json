@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Ip Power",
+  "brand_id": "ip-power",
+  "streams": [
+    {
+      "id": "ip-power-1",
+      "url": "/snl/live/1/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NIT C422D-W",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-power-2",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 555,
+      "models": [
+        "NLP C2712M-W72"
+      ]
+    },
+    {
+      "id": "ip-power-3",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-power-4",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

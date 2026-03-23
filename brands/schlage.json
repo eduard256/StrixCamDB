@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Schlage",
+  "brand_id": "schlage",
+  "streams": [
+    {
+      "id": "schlage-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NEXIA WCW100"
+      ]
+    }
+  ]
+}

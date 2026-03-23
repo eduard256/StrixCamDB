@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Stanley",
+  "brand_id": "stanley",
+  "streams": [
+    {
+      "id": "stanley-1",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "8000 irv",
+        "IPC-5100"
+      ]
+    },
+    {
+      "id": "stanley-2",
+      "url": "cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-5100"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Inside",
+  "brand_id": "inside",
+  "streams": [
+    {
+      "id": "inside-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NC-1200 SERIES"
+      ]
+    },
+    {
+      "id": "inside-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "V3080S"
+      ]
+    }
+  ]
+}

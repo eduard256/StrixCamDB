@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kanda",
+  "brand_id": "kanda",
+  "streams": [
+    {
+      "id": "kanda-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "QooCam8K"
+      ]
+    }
+  ]
+}

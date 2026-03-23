@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sunnylux",
+  "brand_id": "sunnylux",
+  "streams": [
+    {
+      "id": "sunnylux-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "h.264"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "version": 2,
+  "brand": "Alecto",
+  "brand_id": "alecto",
+  "streams": [
+    {
+      "id": "alecto-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "150",
+        "150IP",
+        "Atheros",
+        "c903IP",
+        "dv150",
+        "dvc",
+        "dvc 120 ip",
+        "dvc 160ip",
+        "DVC 210IP",
+        "dvc-150ip",
+        "DVC-150-IP",
+        "DVC-1601",
+        "dvc210IP",
+        "dvc215IP"
+      ]
+    },
+    {
+      "id": "alecto-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "150ip",
+        "DCV-210IP",
+        "DVC120",
+        "dvc-120IP",
+        "DVC-150-IP",
+        "DVC-160IP",
+        "DVC-210ip",
+        "DVC-210IP",
+        "Other",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "alecto-3",
+      "url": "live/av0?user=[USERNAME]&passwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dbvc-215IP",
+        "DVC 135IP",
+        "dvc 154ip",
+        "DVC 215IP",
+        "DVC_125IP",
+        "dvc-1000",
+        "DVC-125IP",
+        "dvc135IP",
+        "dvc-135IP",
+        "DVC154IP",
+        "dvc210IP",
+        "dvc-210IP",
+        "dvc-215",
+        "dvc215IP",
+        "dvc-215IP",
+        "DVC-215IP",
+        "dvc-315IP",
+        "Other",
+        "Voordeur"
+      ]
+    },
+    {
+      "id": "alecto-4",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVC 135IP",
+        "DVC 215IP",
+        "DVC-125IP",
+        "dvc-135ip",
+        "DVC-154",
+        "DVC-155-IP",
+        "DVC-215IP",
+        "DVC-255-IP",
+        "dvi135",
+        "Other"
+      ]
+    },
+    {
+      "id": "alecto-5",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dvc 150ip",
+        "DVC120",
+        "DVC150IP",
+        "dvc-210IP"
+      ]
+    },
+    {
+      "id": "alecto-6",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "dvc 215",
+        "DVC-125IP",
+        "DVC-164IP",
+        "DVC-215IP",
+        "Other"
+      ]
+    },
+    {
+      "id": "alecto-7",
+      "url": "/videostream.cgi?rate=11",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "DVC 215IP"
+      ]
+    },
+    {
+      "id": "alecto-8",
+      "url": "/11d=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVC 215IP"
+      ]
+    },
+    {
+      "id": "alecto-9",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVC-105IP",
+        "DVC-255-IP",
+        "SMARTBABY10"
+      ]
+    },
+    {
+      "id": "alecto-10",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVC-135IP",
+        "Other"
+      ]
+    },
+    {
+      "id": "alecto-11",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVC-150IP",
+        "DVC-210IP"
+      ]
+    },
+    {
+      "id": "alecto-12",
+      "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "DVC-155-IP",
+        "dvc215IP"
+      ]
+    },
+    {
+      "id": "alecto-13",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "dvc-215IP"
+      ]
+    },
+    {
+      "id": "alecto-14",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVC-250-IP"
+      ]
+    },
+    {
+      "id": "alecto-15",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IVM150 ?",
+        "Other"
+      ]
+    },
+    {
+      "id": "alecto-16",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "SMARTBABY10"
+      ]
+    },
+    {
+      "id": "alecto-17",
+      "url": "/live/av0?user=[USERNAME]&passwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "SMARTBABY10"
+      ]
+    }
+  ]
+}

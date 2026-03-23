@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Mubview",
+  "brand_id": "mubview",
+  "streams": [
+    {
+      "id": "mubview-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "PK320 2k"
+      ]
+    }
+  ]
+}

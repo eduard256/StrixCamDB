@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Jubson",
+  "brand_id": "jubson",
+  "streams": [
+    {
+      "id": "jubson-1",
+      "url": "/PSIA/Streaming/channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8557,
+      "models": [
+        "720p",
+        "ES500-MIP-813A"
+      ]
+    }
+  ]
+}

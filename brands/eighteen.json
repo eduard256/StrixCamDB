@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eighteen",
+  "brand_id": "eighteen",
+  "streams": [
+    {
+      "id": "eighteen-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Birds"
+      ]
+    }
+  ]
+}

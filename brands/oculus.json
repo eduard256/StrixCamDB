@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Oculus",
+  "brand_id": "oculus",
+  "streams": [
+    {
+      "id": "oculus-1",
+      "url": "MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CVIP2MVDFW"
+      ]
+    }
+  ]
+}

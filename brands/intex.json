@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Intex",
+  "brand_id": "intex",
+  "streams": [
+    {
+      "id": "intex-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "It 101"
+      ]
+    },
+    {
+      "id": "intex-2",
+      "url": "video",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

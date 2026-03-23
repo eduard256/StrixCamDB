@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Ajt",
+  "brand_id": "ajt",
+  "streams": [
+    {
+      "id": "ajt-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5636",
+        "AJT-019129-BBCEF"
+      ]
+    },
+    {
+      "id": "ajt-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AJT-019129-BBCEF",
+        "AJT-026729-FDFC",
+        "Other"
+      ]
+    },
+    {
+      "id": "ajt-3",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "BCS"
+      ]
+    },
+    {
+      "id": "ajt-4",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LUCA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Chortau",
+  "brand_id": "chortau",
+  "streams": [
+    {
+      "id": "chortau-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1080 wireless outdoow",
+        "1080 WIRELESS OUTDOOW",
+        "201",
+        "202",
+        "2022",
+        "C63S",
+        "q/wsdk 001-2015",
+        "Q/WSDK 001-2015",
+        "SE2000",
+        "se3000",
+        "se4000"
+      ]
+    },
+    {
+      "id": "chortau-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2021",
+        "C53S",
+        "SE200",
+        "SE2000",
+        "SE3000",
+        "SE-4000"
+      ]
+    },
+    {
+      "id": "chortau-3",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Q/WSDK"
+      ]
+    },
+    {
+      "id": "chortau-4",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SE4000"
+      ]
+    },
+    {
+      "id": "chortau-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "SE-4000"
+      ]
+    }
+  ]
+}

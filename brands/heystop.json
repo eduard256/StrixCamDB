@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Heystop",
+  "brand_id": "heystop",
+  "streams": [
+    {
+      "id": "heystop-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mini cam"
+      ]
+    },
+    {
+      "id": "heystop-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "miny cam"
+      ]
+    }
+  ]
+}

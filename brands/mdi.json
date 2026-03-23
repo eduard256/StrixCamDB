@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Mdi",
+  "brand_id": "mdi",
+  "streams": [
+    {
+      "id": "mdi-1",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MDI-2016"
+      ]
+    }
+  ]
+}

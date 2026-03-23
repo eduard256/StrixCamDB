@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Apn Vision Ltd.",
+  "brand_id": "apn-vision-ltd.",
+  "streams": [
+    {
+      "id": "apn-vision-ltd.-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "QC16"
+      ]
+    }
+  ]
+}

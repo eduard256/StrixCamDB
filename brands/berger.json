@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Berger",
+  "brand_id": "berger",
+  "streams": [
+    {
+      "id": "berger-1",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

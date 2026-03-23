@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Eopen",
+  "brand_id": "eopen",
+  "streams": [
+    {
+      "id": "eopen-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Open 720"
+      ]
+    },
+    {
+      "id": "eopen-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Open730"
+      ]
+    },
+    {
+      "id": "eopen-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Open730"
+      ]
+    }
+  ]
+}

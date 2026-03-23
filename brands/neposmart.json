@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Neposmart",
+  "brand_id": "neposmart",
+  "streams": [
+    {
+      "id": "neposmart-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "333",
+        "Other"
+      ]
+    },
+    {
+      "id": "neposmart-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

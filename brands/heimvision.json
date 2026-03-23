@@ -1,0 +1,325 @@
+{
+  "version": 2,
+  "brand": "Heimvision",
+  "brand_id": "heimvision",
+  "streams": [
+    {
+      "id": "heimvision-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "201",
+        "hm202A",
+        "Protect B2",
+        "Protect D1 HM612 PTZ"
+      ]
+    },
+    {
+      "id": "heimvision-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "201",
+        "HM 241",
+        "hm202A",
+        "hm203",
+        "hm311",
+        "HMA2",
+        "hme311",
+        "protect D1",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "heimvision-3",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "241",
+        "H-241",
+        "HM 241"
+      ]
+    },
+    {
+      "id": "heimvision-4",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "241",
+        "cloudcam",
+        "hm202A",
+        "HM311"
+      ]
+    },
+    {
+      "id": "heimvision-5",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "311",
+        "hm311"
+      ]
+    },
+    {
+      "id": "heimvision-6",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.554",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "311",
+        "HM311"
+      ]
+    },
+    {
+      "id": "heimvision-7",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "311",
+        "Protect ID1"
+      ]
+    },
+    {
+      "id": "heimvision-8",
+      "url": "/MainStream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "92.168.0.18",
+        "CloudCam",
+        "hm202A",
+        "HM211",
+        "hm311",
+        "Protect B2",
+        "Protect D1",
+        "Protect D1 HM612 PTZ"
+      ]
+    },
+    {
+      "id": "heimvision-9",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ca1",
+        "hm541"
+      ]
+    },
+    {
+      "id": "heimvision-10",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CloudCam",
+        "hm202A",
+        "hm203",
+        "hm311",
+        "Other",
+        "Protect D1",
+        "PROTECT D1",
+        "Protect D1 HM612 PTZ"
+      ]
+    },
+    {
+      "id": "heimvision-11",
+      "url": "/cgi-bin/snapshot.cgi?chn=2&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 49779,
+      "models": [
+        "CLOUDCAM",
+        "HM 241",
+        "Wireless"
+      ]
+    },
+    {
+      "id": "heimvision-12",
+      "url": "/cgi-bin/snapshot.cgi?chn=3&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 49779,
+      "models": [
+        "CLOUDCAM",
+        "HM 241"
+      ]
+    },
+    {
+      "id": "heimvision-13",
+      "url": "/cgi-bin/snapshot.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 49779,
+      "models": [
+        "CLOUDCAM",
+        "hm241"
+      ]
+    },
+    {
+      "id": "heimvision-14",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CLOUDCAM",
+        "HE6800SB",
+        "HM203",
+        "HM311",
+        "Protect D1",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "heimvision-15",
+      "url": "/cgi-bin/snapshot.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "H241",
+        "HM 241",
+        "HM541"
+      ]
+    },
+    {
+      "id": "heimvision-16",
+      "url": "/cgi-bin/snapshot.cgi?chn=2&u=[USERNAME]&p=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "HM 241"
+      ]
+    },
+    {
+      "id": "heimvision-17",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HM 245"
+      ]
+    },
+    {
+      "id": "heimvision-18",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 555,
+      "models": [
+        "hm202A",
+        "Other"
+      ]
+    },
+    {
+      "id": "heimvision-19",
+      "url": "/0/av1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "hm202A",
+        "HM311"
+      ]
+    },
+    {
+      "id": "heimvision-20",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "hm203"
+      ]
+    },
+    {
+      "id": "heimvision-21",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "hm203"
+      ]
+    },
+    {
+      "id": "heimvision-22",
+      "url": "/SubStream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hm211",
+        "Other"
+      ]
+    },
+    {
+      "id": "heimvision-23",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hm311"
+      ]
+    },
+    {
+      "id": "heimvision-24",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "mh612"
+      ]
+    },
+    {
+      "id": "heimvision-25",
+      "url": "live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "heimvision-26",
+      "url": "mpeg4/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "heimvision-27",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PTZ"
+      ]
+    }
+  ]
+}

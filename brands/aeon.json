@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Aeon",
+  "brand_id": "aeon",
+  "streams": [
+    {
+      "id": "aeon-1",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "AEON SC"
+      ]
+    },
+    {
+      "id": "aeon-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nc325w",
+        "Other"
+      ]
+    }
+  ]
+}

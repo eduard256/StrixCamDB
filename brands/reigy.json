@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Reigy",
+  "brand_id": "reigy",
+  "streams": [
+    {
+      "id": "reigy-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3MP"
+      ]
+    },
+    {
+      "id": "reigy-2",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "3Mp Tipo: 5323-W-Q"
+      ]
+    }
+  ]
+}

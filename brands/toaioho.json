@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Toaioho",
+  "brand_id": "toaioho",
+  "streams": [
+    {
+      "id": "toaioho-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "QB320"
+      ]
+    }
+  ]
+}

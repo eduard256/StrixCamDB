@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Lotus",
+  "brand_id": "lotus",
+  "streams": [
+    {
+      "id": "lotus-1",
+      "url": "/onvif-stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LT-C008"
+      ]
+    },
+    {
+      "id": "lotus-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "LT-C009"
+      ]
+    }
+  ]
+}

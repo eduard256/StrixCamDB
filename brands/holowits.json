@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Holowits",
+  "brand_id": "holowits",
+  "streams": [
+    {
+      "id": "holowits-1",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2030",
+        "hwd 2030"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eonboom",
+  "brand_id": "eonboom",
+  "streams": [
+    {
+      "id": "eonboom-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVI20B-2.0M"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ip Chitchat",
+  "brand_id": "ip-chitchat",
+  "streams": [
+    {
+      "id": "ip-chitchat-1",
+      "url": "video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PT-DOOR01C"
+      ]
+    }
+  ]
+}

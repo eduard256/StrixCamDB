@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aegis",
+  "brand_id": "aegis",
+  "streams": [
+    {
+      "id": "aegis-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

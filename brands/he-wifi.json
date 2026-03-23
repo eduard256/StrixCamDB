@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "He-wifi",
+  "brand_id": "he-wifi",
+  "streams": [
+    {
+      "id": "he-wifi-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100pcx"
+      ]
+    }
+  ]
+}

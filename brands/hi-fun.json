@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hi-fun",
+  "brand_id": "hi-fun",
+  "streams": [
+    {
+      "id": "hi-fun-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "cooah"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dvrusa",
+  "brand_id": "dvrusa",
+  "streams": [
+    {
+      "id": "dvrusa-1",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Viewmaster Series"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wistron",
+  "brand_id": "wistron",
+  "streams": [
+    {
+      "id": "wistron-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

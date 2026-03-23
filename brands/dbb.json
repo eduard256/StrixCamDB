@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Dbb",
+  "brand_id": "dbb",
+  "streams": [
+    {
+      "id": "dbb-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP607W",
+        "Other"
+      ]
+    },
+    {
+      "id": "dbb-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP607W LQ"
+      ]
+    },
+    {
+      "id": "dbb-3",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

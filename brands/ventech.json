@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Ventech",
+  "brand_id": "ventech",
+  "streams": [
+    {
+      "id": "ventech-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "889ip"
+      ]
+    },
+    {
+      "id": "ventech-2",
+      "url": "/onvif/live/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "889ip",
+        "VT898IP",
+        "VT-DM688IP"
+      ]
+    },
+    {
+      "id": "ventech-3",
+      "url": "MediaInput/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "889ip"
+      ]
+    },
+    {
+      "id": "ventech-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip889",
+        "VT-R889IP"
+      ]
+    },
+    {
+      "id": "ventech-5",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "vt-r889ip"
+      ]
+    }
+  ]
+}

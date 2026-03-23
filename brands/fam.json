@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Fam",
+  "brand_id": "fam",
+  "streams": [
+    {
+      "id": "fam-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002famr"
+      ]
+    },
+    {
+      "id": "fam-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FAM-IPC3013"
+      ]
+    },
+    {
+      "id": "fam-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FAM-IPC3013"
+      ]
+    },
+    {
+      "id": "fam-4",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FAM-IPC3013"
+      ]
+    },
+    {
+      "id": "fam-5",
+      "url": "api/video?encode=h264(1)",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FAM-IPC3013"
+      ]
+    },
+    {
+      "id": "fam-6",
+      "url": "live/h264_ulaw",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FAM-IPC3013"
+      ]
+    },
+    {
+      "id": "fam-7",
+      "url": "video/cam[CHANNEL]/2.0?audio=0&stream=0",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FAM-IPC3013"
+      ]
+    },
+    {
+      "id": "fam-8",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FAM-IPC3013"
+      ]
+    }
+  ]
+}

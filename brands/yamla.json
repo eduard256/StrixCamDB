@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Yamla",
+  "brand_id": "yamla",
+  "streams": [
+    {
+      "id": "yamla-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "F300"
+      ]
+    }
+  ]
+}

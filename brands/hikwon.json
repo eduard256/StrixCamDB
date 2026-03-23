@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Hikwon",
+  "brand_id": "hikwon",
+  "streams": [
+    {
+      "id": "hikwon-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2000",
+        "IS-3NA66"
+      ]
+    }
+  ]
+}

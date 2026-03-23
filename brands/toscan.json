@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Toscan",
+  "brand_id": "toscan",
+  "streams": [
+    {
+      "id": "toscan-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v380"
+      ]
+    }
+  ]
+}

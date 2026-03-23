@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Zennox",
+  "brand_id": "zennox",
+  "streams": [
+    {
+      "id": "zennox-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "zennox-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Surveillance IP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "brand": "Creative",
+  "brand_id": "creative",
+  "streams": [
+    {
+      "id": "creative-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "best"
+      ]
+    },
+    {
+      "id": "creative-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Live Wireless",
+        "Other"
+      ]
+    },
+    {
+      "id": "creative-3",
+      "url": "getcam",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Live Wireless",
+        "LİVE WİRELESS"
+      ]
+    },
+    {
+      "id": "creative-4",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "pc-cam750"
+      ]
+    },
+    {
+      "id": "creative-5",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "creative-6",
+      "url": "/getcam",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

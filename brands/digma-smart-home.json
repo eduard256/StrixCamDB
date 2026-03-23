@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Digma Smart Home",
+  "brand_id": "digma-smart-home",
+  "streams": [
+    {
+      "id": "digma-smart-home-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DiVision 100"
+      ]
+    }
+  ]
+}

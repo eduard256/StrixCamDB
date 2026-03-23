@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Usavision",
+  "brand_id": "usavision",
+  "streams": [
+    {
+      "id": "usavision-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AD1300"
+      ]
+    }
+  ]
+}

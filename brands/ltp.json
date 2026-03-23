@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ltp",
+  "brand_id": "ltp",
+  "streams": [
+    {
+      "id": "ltp-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Home Life",
+  "brand_id": "home-life",
+  "streams": [
+    {
+      "id": "home-life-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BY-780S"
+      ]
+    },
+    {
+      "id": "home-life-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C310"
+      ]
+    }
+  ]
+}

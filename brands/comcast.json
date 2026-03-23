@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Comcast",
+  "brand_id": "comcast",
+  "streams": [
+    {
+      "id": "comcast-1",
+      "url": "img/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "001",
+        "xcam",
+        "XHS"
+      ]
+    },
+    {
+      "id": "comcast-2",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "XCAM",
+        "XHS"
+      ]
+    },
+    {
+      "id": "comcast-3",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "https",
+      "port": 443,
+      "models": [
+        "xcam"
+      ]
+    }
+  ]
+}

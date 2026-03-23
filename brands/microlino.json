@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Microlino",
+  "brand_id": "microlino",
+  "streams": [
+    {
+      "id": "microlino-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "10"
+      ]
+    }
+  ]
+}

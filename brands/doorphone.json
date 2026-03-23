@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Doorphone",
+  "brand_id": "doorphone",
+  "streams": [
+    {
+      "id": "doorphone-1",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VTO"
+      ]
+    },
+    {
+      "id": "doorphone-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VTO",
+        "VTO155"
+      ]
+    }
+  ]
+}

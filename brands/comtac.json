@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "brand": "Comtac",
+  "brand_id": "comtac",
+  "streams": [
+    {
+      "id": "comtac-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS2",
+        "CS9267"
+      ]
+    },
+    {
+      "id": "comtac-2",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS9267",
+        "Other",
+        "v2.0"
+      ]
+    },
+    {
+      "id": "comtac-3",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CS9267",
+        "Other"
+      ]
+    },
+    {
+      "id": "comtac-4",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

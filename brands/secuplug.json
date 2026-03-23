@@ -1,0 +1,98 @@
+{
+  "version": 2,
+  "brand": "Secuplug",
+  "brand_id": "secuplug",
+  "streams": [
+    {
+      "id": "secuplug-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC-B130P-30X",
+        "IPD-D53Y0701",
+        "onvif",
+        "SP-APHD46F-4K3X",
+        "SPEED DOME"
+      ]
+    },
+    {
+      "id": "secuplug-2",
+      "url": "VideoInput/1/mpeg4/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-D53M02",
+        "IPD-D53M02-BS series",
+        "Other",
+        "SP-MG03AR-5.0MP-B"
+      ]
+    },
+    {
+      "id": "secuplug-3",
+      "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-D53M02",
+        "IPD-E2A5Y04-BS",
+        "SP-AMPHD48FDM324SP"
+      ]
+    },
+    {
+      "id": "secuplug-4",
+      "url": "/mpeg4main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-D53M02",
+        "Other"
+      ]
+    },
+    {
+      "id": "secuplug-5",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "IPD-E2A5Y04-BS",
+        "ONVIF"
+      ]
+    },
+    {
+      "id": "secuplug-6",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "onvif"
+      ]
+    },
+    {
+      "id": "secuplug-7",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "secuplug-8",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vision Gs",
+  "brand_id": "vision-gs",
+  "streams": [
+    {
+      "id": "vision-gs-1",
+      "url": "video/pull-[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Server"
+      ]
+    }
+  ]
+}

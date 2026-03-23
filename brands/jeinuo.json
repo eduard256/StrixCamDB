@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jeinuo",
+  "brand_id": "jeinuo",
+  "streams": [
+    {
+      "id": "jeinuo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JN-IP67AR-D-wifi"
+      ]
+    }
+  ]
+}

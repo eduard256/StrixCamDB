@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Trantech",
+  "brand_id": "trantech",
+  "streams": [
+    {
+      "id": "trantech-1",
+      "url": "/ufirststream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DVR"
+      ]
+    }
+  ]
+}

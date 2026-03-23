@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "brand": "Biovision",
+  "brand_id": "biovision",
+  "streams": [
+    {
+      "id": "biovision-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "biovison",
+        "BIOVISON",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "biovision-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "c6f0sg",
+        "C6F0SgZONOPfLt",
+        "C6F0SgZONOPgL2",
+        "HD22M102M",
+        "UNLISTED"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Marlboze",
+  "brand_id": "marlboze",
+  "streams": [
+    {
+      "id": "marlboze-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "720P P2P IR-Cut"
+      ]
+    },
+    {
+      "id": "marlboze-2",
+      "url": "/stream_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "c-p11-50",
+        "M-P09",
+        "Other"
+      ]
+    }
+  ]
+}

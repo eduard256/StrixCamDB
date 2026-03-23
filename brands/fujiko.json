@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Fujiko",
+  "brand_id": "fujiko",
+  "streams": [
+    {
+      "id": "fujiko-1",
+      "url": "cgi-bin/sf.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fujiko-007"
+      ]
+    },
+    {
+      "id": "fujiko-2",
+      "url": "stillimg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fujiko-01",
+        "Fujiko-02"
+      ]
+    },
+    {
+      "id": "fujiko-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Fujiko-01",
+        "Fujiko-02"
+      ]
+    },
+    {
+      "id": "fujiko-4",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Fujiko-02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "version": 2,
+  "brand": "Topica Cctv",
+  "brand_id": "topica-cctv",
+  "streams": [
+    {
+      "id": "topica-cctv-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "107",
+        "301",
+        "Other"
+      ]
+    },
+    {
+      "id": "topica-cctv-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "42352",
+        "42353",
+        "42532",
+        "4400",
+        "IPA-5857",
+        "IPA-6440",
+        "Other",
+        "TCAM-2390"
+      ]
+    },
+    {
+      "id": "topica-cctv-3",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FS-MPB20P-2812"
+      ]
+    },
+    {
+      "id": "topica-cctv-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPB-9389"
+      ]
+    },
+    {
+      "id": "topica-cctv-5",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MY-310"
+      ]
+    },
+    {
+      "id": "topica-cctv-6",
+      "url": "av2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topica-cctv-7",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "TOP-788HMP"
+      ]
+    },
+    {
+      "id": "topica-cctv-8",
+      "url": "h264/media.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topica-cctv-9",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topica-cctv-10",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "TOP-788",
+        "TOP-788HMP",
+        "TOP-788XMP"
+      ]
+    },
+    {
+      "id": "topica-cctv-11",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topica-cctv-12",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topica-cctv-13",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "topica-cctv-14",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "TIP-303EZ"
+      ]
+    },
+    {
+      "id": "topica-cctv-15",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TOP-107HMP",
+        "TOP-301"
+      ]
+    },
+    {
+      "id": "topica-cctv-16",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "top-23xip"
+      ]
+    },
+    {
+      "id": "topica-cctv-17",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TOP-757VPC",
+        "TOP-788HMP"
+      ]
+    },
+    {
+      "id": "topica-cctv-18",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TOP-757VPC-MIR"
+      ]
+    },
+    {
+      "id": "topica-cctv-19",
+      "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TOP-788HMP"
+      ]
+    },
+    {
+      "id": "topica-cctv-20",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TP-S26404DR"
+      ]
+    }
+  ]
+}

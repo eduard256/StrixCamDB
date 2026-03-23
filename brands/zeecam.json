@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zeecam",
+  "brand_id": "zeecam",
+  "streams": [
+    {
+      "id": "zeecam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "CA-R11A-R"
+      ]
+    }
+  ]
+}

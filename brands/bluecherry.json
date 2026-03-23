@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bluecherry",
+  "brand_id": "bluecherry",
+  "streams": [
+    {
+      "id": "bluecherry-1",
+      "url": "media/mjpeg.php?multipart=true&id=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR"
+      ]
+    }
+  ]
+}

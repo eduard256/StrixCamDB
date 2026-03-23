@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Yunshian",
+  "brand_id": "yunshian",
+  "streams": [
+    {
+      "id": "yunshian-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hg71",
+        "hg72"
+      ]
+    }
+  ]
+}

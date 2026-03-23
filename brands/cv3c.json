@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cv3c",
+  "brand_id": "cv3c",
+  "streams": [
+    {
+      "id": "cv3c-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mmmm-374820-eecaf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dixie",
+  "brand_id": "dixie",
+  "streams": [
+    {
+      "id": "dixie-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DX-IPD806A"
+      ]
+    }
+  ]
+}

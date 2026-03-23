@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Soohao",
+  "brand_id": "soohao",
+  "streams": [
+    {
+      "id": "soohao-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ev1001"
+      ]
+    }
+  ]
+}

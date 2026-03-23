@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Hqvision",
+  "brand_id": "hqvision",
+  "streams": [
+    {
+      "id": "hqvision-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EYE-4HD"
+      ]
+    },
+    {
+      "id": "hqvision-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HQ-MP3028BD-IR",
+        "HQ-MP3040T-IR",
+        "Other"
+      ]
+    }
+  ]
+}

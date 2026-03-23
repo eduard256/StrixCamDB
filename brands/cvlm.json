@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "brand": "Cvlm",
+  "brand_id": "cvlm",
+  "streams": [
+    {
+      "id": "cvlm-1",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "133 IP Camera",
+        "Other"
+      ]
+    },
+    {
+      "id": "cvlm-2",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "133 IP Camera",
+        "Other"
+      ]
+    },
+    {
+      "id": "cvlm-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "133 IP Camera",
+        "1342",
+        "dome",
+        "Other"
+      ]
+    },
+    {
+      "id": "cvlm-4",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "255"
+      ]
+    },
+    {
+      "id": "cvlm-5",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cvlm1243"
+      ]
+    }
+  ]
+}

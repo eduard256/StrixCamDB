@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "Bsti",
+  "brand_id": "bsti",
+  "streams": [
+    {
+      "id": "bsti-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "bsti-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PD100DV2"
+      ]
+    },
+    {
+      "id": "bsti-3",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PD100DV2"
+      ]
+    },
+    {
+      "id": "bsti-4",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PD100DV2",
+        "PD100HV2",
+        "PD100V2"
+      ]
+    },
+    {
+      "id": "bsti-5",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PD100DV2"
+      ]
+    }
+  ]
+}

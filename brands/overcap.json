@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Overcap",
+  "brand_id": "overcap",
+  "streams": [
+    {
+      "id": "overcap-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VSI-C809"
+      ]
+    }
+  ]
+}

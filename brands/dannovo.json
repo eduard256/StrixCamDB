@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Dannovo",
+  "brand_id": "dannovo",
+  "streams": [
+    {
+      "id": "dannovo-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Dannovo PTZ"
+      ]
+    },
+    {
+      "id": "dannovo-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Dannovo PTZ",
+        "Other"
+      ]
+    },
+    {
+      "id": "dannovo-3",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DannovoPTZ",
+        "Other"
+      ]
+    },
+    {
+      "id": "dannovo-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

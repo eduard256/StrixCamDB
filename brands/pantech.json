@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pantech",
+  "brand_id": "pantech",
+  "streams": [
+    {
+      "id": "pantech-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Flex"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ingressosede",
+  "brand_id": "ingressosede",
+  "streams": [
+    {
+      "id": "ingressosede-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "IP1"
+      ]
+    }
+  ]
+}

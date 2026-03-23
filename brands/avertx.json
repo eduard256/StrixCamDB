@@ -1,0 +1,97 @@
+{
+  "version": 2,
+  "brand": "Avertx",
+  "brand_id": "avertx",
+  "streams": [
+    {
+      "id": "avertx-1",
+      "url": "/onvif-stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "510",
+        "AVX-HD510",
+        "HD510"
+      ]
+    },
+    {
+      "id": "avertx-2",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8082,
+      "models": [
+        "AVX-HD820IR",
+        "HD300IR",
+        "HD90"
+      ]
+    },
+    {
+      "id": "avertx-3",
+      "url": "/media/video1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AVX-HD820IR",
+        "HD-80IP",
+        "HD820",
+        "HD820IR"
+      ]
+    },
+    {
+      "id": "avertx-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD420IR"
+      ]
+    },
+    {
+      "id": "avertx-5",
+      "url": "/live_st1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD420IR",
+        "PTC500S"
+      ]
+    },
+    {
+      "id": "avertx-6",
+      "url": "/onvif-stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8082,
+      "models": [
+        "HD510"
+      ]
+    },
+    {
+      "id": "avertx-7",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD820",
+        "HD90",
+        "Other"
+      ]
+    },
+    {
+      "id": "avertx-8",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD90"
+      ]
+    }
+  ]
+}

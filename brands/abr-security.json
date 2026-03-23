@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Abr Security",
+  "brand_id": "abr-security",
+  "streams": [
+    {
+      "id": "abr-security-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC6200W"
+      ]
+    }
+  ]
+}

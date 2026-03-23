@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lerch",
+  "brand_id": "lerch",
+  "streams": [
+    {
+      "id": "lerch-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ONVIF"
+      ]
+    }
+  ]
+}

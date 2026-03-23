@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Falke",
+  "brand_id": "falke",
+  "streams": [
+    {
+      "id": "falke-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Vandalproof"
+      ]
+    },
+    {
+      "id": "falke-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Vandalproof"
+      ]
+    }
+  ]
+}

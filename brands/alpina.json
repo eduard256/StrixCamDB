@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Alpina",
+  "brand_id": "alpina",
+  "streams": [
+    {
+      "id": "alpina-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "4024CSW"
+      ]
+    },
+    {
+      "id": "alpina-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "904"
+      ]
+    },
+    {
+      "id": "alpina-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "904"
+      ]
+    }
+  ]
+}

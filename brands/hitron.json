@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Hitron",
+  "brand_id": "hitron",
+  "streams": [
+    {
+      "id": "hitron-1",
+      "url": "/onvif-stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7070,
+      "models": [
+        "eneo"
+      ]
+    },
+    {
+      "id": "hitron-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HNCV-811PZ0S4"
+      ]
+    },
+    {
+      "id": "hitron-3",
+      "url": "1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "nut-8213r",
+        "Other"
+      ]
+    }
+  ]
+}

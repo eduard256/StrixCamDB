@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kamote",
+  "brand_id": "kamote",
+  "streams": [
+    {
+      "id": "kamote-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Sayote"
+      ]
+    }
+  ]
+}

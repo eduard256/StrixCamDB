@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "brand": "Vacron",
+  "brand_id": "vacron",
+  "streams": [
+    {
+      "id": "vacron-1",
+      "url": "/video0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2Mpx",
+        "5Mpx",
+        "VIG-DM755VE",
+        "VIG-M723",
+        "VIG-UM723"
+      ]
+    },
+    {
+      "id": "vacron-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "629",
+        "Other",
+        "VDH-DXG368",
+        "VIG-US731VE",
+        "VIT-UA629"
+      ]
+    },
+    {
+      "id": "vacron-3",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VIG-DM755VE"
+      ]
+    },
+    {
+      "id": "vacron-4",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

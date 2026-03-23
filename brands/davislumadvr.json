@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Davislumadvr",
+  "brand_id": "davislumadvr",
+  "streams": [
+    {
+      "id": "davislumadvr-1",
+      "url": "/Streaming/channels/902",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LUM-500-DVR-16CH"
+      ]
+    }
+  ]
+}

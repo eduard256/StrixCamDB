@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "brand": "Amazon",
+  "brand_id": "amazon",
+  "streams": [
+    {
+      "id": "amazon-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "B06W720HX"
+      ]
+    },
+    {
+      "id": "amazon-2",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "amazon-3",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fire hdx",
+        "Fire Tablet HD10"
+      ]
+    },
+    {
+      "id": "amazon-4",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KFDOWI"
+      ]
+    },
+    {
+      "id": "amazon-5",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NCS601W"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Vimtag",
+  "brand_id": "vimtag",
+  "streams": [
+    {
+      "id": "vimtag-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CP1"
+      ]
+    },
+    {
+      "id": "vimtag-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CP3",
+        "F300"
+      ]
+    },
+    {
+      "id": "vimtag-3",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VT361"
+      ]
+    }
+  ]
+}

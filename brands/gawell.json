@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Gawell",
+  "brand_id": "gawell",
+  "streams": [
+    {
+      "id": "gawell-1",
+      "url": "video.mp4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip106",
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Live-reporter",
+  "brand_id": "live-reporter",
+  "streams": [
+    {
+      "id": "live-reporter-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "iphone"
+      ]
+    }
+  ]
+}

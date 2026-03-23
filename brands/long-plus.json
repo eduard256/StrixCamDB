@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Long Plus",
+  "brand_id": "long-plus",
+  "streams": [
+    {
+      "id": "long-plus-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BR40W3200T",
+        "IPC-DSW3200T",
+        "Other"
+      ]
+    }
+  ]
+}

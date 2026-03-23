@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Idt",
+  "brand_id": "idt",
+  "streams": [
+    {
+      "id": "idt-1",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H"
+      ]
+    },
+    {
+      "id": "idt-2",
+      "url": "/live/av1?user=[USERNAME]&passwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPC100"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lylu",
+  "brand_id": "lylu",
+  "streams": [
+    {
+      "id": "lylu-1",
+      "url": "ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "Smart Sphere"
+      ]
+    }
+  ]
+}

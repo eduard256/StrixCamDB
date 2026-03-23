@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Evolylcam",
+  "brand_id": "evolylcam",
+  "streams": [
+    {
+      "id": "evolylcam-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MYDZTG3",
+        "Other"
+      ]
+    }
+  ]
+}

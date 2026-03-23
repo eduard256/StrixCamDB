@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Upupin",
+  "brand_id": "upupin",
+  "streams": [
+    {
+      "id": "upupin-1",
+      "url": "/LowResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP Xam"
+      ]
+    },
+    {
+      "id": "upupin-2",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP Xam"
+      ]
+    },
+    {
+      "id": "upupin-3",
+      "url": "/live/h264/HD1080",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

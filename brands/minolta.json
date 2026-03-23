@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Minolta",
+  "brand_id": "minolta",
+  "streams": [
+    {
+      "id": "minolta-1",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MD08"
+      ]
+    },
+    {
+      "id": "minolta-2",
+      "url": "/stream2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MD08"
+      ]
+    },
+    {
+      "id": "minolta-3",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MD08"
+      ]
+    }
+  ]
+}

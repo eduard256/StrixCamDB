@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Touralle",
+  "brand_id": "touralle",
+  "streams": [
+    {
+      "id": "touralle-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "N04"
+      ]
+    }
+  ]
+}

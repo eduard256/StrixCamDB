@@ -1,0 +1,264 @@
+{
+  "version": 2,
+  "brand": "Digoo",
+  "brand_id": "digoo",
+  "streams": [
+    {
+      "id": "digoo-1",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BB-M1X",
+        "p05"
+      ]
+    },
+    {
+      "id": "digoo-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BB-M1X",
+        "BB-MI X",
+        "CloudCamera",
+        "DG-M1Q 960P",
+        "DG-M1X",
+        "DG-M1Z",
+        "dg-myq",
+        "DG-W01f",
+        "DG-W01F 720P",
+        "dg-w02f",
+        "DG-ZX40",
+        "Digoo DG WO2f",
+        "Eye",
+        "GHC",
+        "M1Q",
+        "M1Z",
+        "MYQ",
+        "Other",
+        "W01f",
+        "WIFICAM"
+      ]
+    },
+    {
+      "id": "digoo-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "bb-m2"
+      ]
+    },
+    {
+      "id": "digoo-4",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "BB-M2",
+        "DG-MYQ",
+        "dg-w01f",
+        "MM-B2",
+        "MYQ",
+        "Other",
+        "w01f",
+        "WifiCam"
+      ]
+    },
+    {
+      "id": "digoo-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BB-M2",
+        "BB-MI",
+        "M2-BB"
+      ]
+    },
+    {
+      "id": "digoo-6",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BB-M2"
+      ]
+    },
+    {
+      "id": "digoo-7",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BB-M2",
+        "B-M2",
+        "DG1",
+        "MM==BB-M2"
+      ]
+    },
+    {
+      "id": "digoo-8",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "BB-M2",
+        "Other"
+      ]
+    },
+    {
+      "id": "digoo-9",
+      "url": "/1.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "BB-MI",
+        "DG-M1Q 960P",
+        "dg-w01f",
+        "Other"
+      ]
+    },
+    {
+      "id": "digoo-10",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CloudCamera"
+      ]
+    },
+    {
+      "id": "digoo-11",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DG-M1Q 960P",
+        "DG-MYQ",
+        "DG-W01F",
+        "DG-W02F",
+        "DG-W02F 720P",
+        "Other"
+      ]
+    },
+    {
+      "id": "digoo-12",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "dg-myq",
+        "gk7102"
+      ]
+    },
+    {
+      "id": "digoo-13",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dg-ufc",
+        "DG-UFC",
+        "DG-ULC",
+        "DG-W01f",
+        "DG-w02f",
+        "DG-ZXC 40",
+        "DG-ZXC40",
+        "Other"
+      ]
+    },
+    {
+      "id": "digoo-14",
+      "url": "/cam0/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DG-UFC",
+        "DG-ZXC41"
+      ]
+    },
+    {
+      "id": "digoo-15",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DG-ULC"
+      ]
+    },
+    {
+      "id": "digoo-16",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dg-w01f",
+        "DG-W02F",
+        "dg-zxc40",
+        "DG-ZXC41",
+        "Digoo DG WO1f",
+        "M1Q",
+        "w01",
+        "W02F",
+        "WIFICAM",
+        "wo1f"
+      ]
+    },
+    {
+      "id": "digoo-17",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DG-W01F",
+        "DG-W01f 720P",
+        "DG-W10",
+        "DG-WO2f",
+        "Digoo DG WO1f",
+        "digoo220",
+        "MYQ",
+        "Other",
+        "W02f"
+      ]
+    },
+    {
+      "id": "digoo-18",
+      "url": "/onvif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DG-ZX40"
+      ]
+    },
+    {
+      "id": "digoo-19",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

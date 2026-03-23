@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Kompernass",
+  "brand_id": "kompernass",
+  "streams": [
+    {
+      "id": "kompernass-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IUK 5 A1",
+        "iuk 5A!"
+      ]
+    },
+    {
+      "id": "kompernass-2",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IUK 5A1"
+      ]
+    }
+  ]
+}

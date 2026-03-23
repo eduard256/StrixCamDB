@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "brand": "Asoni",
+  "brand_id": "asoni",
+  "streams": [
+    {
+      "id": "asoni-1",
+      "url": "GetImage.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4xx Series",
+        "615",
+        "CAM619IR",
+        "CAM635",
+        "CAM6631FIR-POE",
+        "LAger 1",
+        "Other"
+      ]
+    },
+    {
+      "id": "asoni-2",
+      "url": "GetData.cgi?Status=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4xx Series",
+        "CAM635",
+        "Other",
+        "Series 4"
+      ]
+    },
+    {
+      "id": "asoni-3",
+      "url": "v2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "615",
+        "CAM619IR",
+        "CAM635"
+      ]
+    },
+    {
+      "id": "asoni-4",
+      "url": "/v2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CAM646MIR-POE"
+      ]
+    },
+    {
+      "id": "asoni-5",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CAM646MIR-POE",
+        "CAM6631FIR-PoE",
+        "CAM6691FiR-PoE"
+      ]
+    },
+    {
+      "id": "asoni-6",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CAM748FIR-W"
+      ]
+    },
+    {
+      "id": "asoni-7",
+      "url": "/GetImage.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "brand": "Infinova",
+  "brand_id": "infinova",
+  "streams": [
+    {
+      "id": "infinova-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "onvif",
+        "Other",
+        "V1492MP-30T",
+        "V1492MP-30T25HE",
+        "V6204",
+        "v6411",
+        "VH111-A20B-A0",
+        "VH224-A20B-A012"
+      ]
+    },
+    {
+      "id": "infinova-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "V2501-M"
+      ]
+    },
+    {
+      "id": "infinova-3",
+      "url": "1.AMP",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "V6204"
+      ]
+    },
+    {
+      "id": "infinova-4",
+      "url": "/1/mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "infinova-5",
+      "url": "/video1enc1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V6842"
+      ]
+    }
+  ]
+}

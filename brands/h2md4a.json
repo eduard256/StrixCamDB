@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "H2md4a",
+  "brand_id": "h2md4a",
+  "streams": [
+    {
+      "id": "h2md4a-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "tttt-203215-ucmrr"
+      ]
+    }
+  ]
+}

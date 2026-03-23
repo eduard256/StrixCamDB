@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Camsee",
+  "brand_id": "camsee",
+  "streams": [
+    {
+      "id": "camsee-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "1080p",
+        "1080P Dome",
+        "GgCam",
+        "Other"
+      ]
+    },
+    {
+      "id": "camsee-2",
+      "url": "1/cif",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SOME_ONVIF"
+      ]
+    }
+  ]
+}

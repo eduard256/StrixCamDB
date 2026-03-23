@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Powerbizt",
+  "brand_id": "powerbizt",
+  "streams": [
+    {
+      "id": "powerbizt-1",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "TCIP-LPro213WDRMDN"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Kassaba",
+  "brand_id": "kassaba",
+  "streams": [
+    {
+      "id": "kassaba-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TRX20WIFI-50"
+      ]
+    },
+    {
+      "id": "kassaba-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "TRX-ROBOT25"
+      ]
+    }
+  ]
+}

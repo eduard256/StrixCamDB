@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "brand": "Knc",
+  "brand_id": "knc",
+  "streams": [
+    {
+      "id": "knc-1",
+      "url": "ipcam/jpeg.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "230",
+        "HDi47",
+        "KTC230",
+        "Other"
+      ]
+    },
+    {
+      "id": "knc-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HDBi230"
+      ]
+    },
+    {
+      "id": "knc-3",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HDi47",
+        "KNC-p3BR4XIR"
+      ]
+    },
+    {
+      "id": "knc-4",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KNC-p3TR3XIR"
+      ]
+    },
+    {
+      "id": "knc-5",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KTC230",
+        "pin"
+      ]
+    },
+    {
+      "id": "knc-6",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "p3LR3IR"
+      ]
+    },
+    {
+      "id": "knc-7",
+      "url": "/Streaming/Channels/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "p3TR3XIR"
+      ]
+    }
+  ]
+}

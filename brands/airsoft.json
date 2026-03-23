@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Airsoft",
+  "brand_id": "airsoft",
+  "streams": [
+    {
+      "id": "airsoft-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "XC34",
+        "xc38"
+      ]
+    }
+  ]
+}

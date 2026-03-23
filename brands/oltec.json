@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Oltec",
+  "brand_id": "oltec",
+  "streams": [
+    {
+      "id": "oltec-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc-456"
+      ]
+    },
+    {
+      "id": "oltec-2",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-VR-362"
+      ]
+    }
+  ]
+}

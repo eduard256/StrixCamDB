@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Meriva",
+  "brand_id": "meriva",
+  "streams": [
+    {
+      "id": "meriva-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MFD-400S4L"
+      ]
+    },
+    {
+      "id": "meriva-2",
+      "url": "/profile2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MOB-400S3L"
+      ]
+    }
+  ]
+}

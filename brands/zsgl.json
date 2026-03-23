@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zsgl",
+  "brand_id": "zsgl",
+  "streams": [
+    {
+      "id": "zsgl-1",
+      "url": "/H264?ch=1&subtype=0&proto=Onvif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

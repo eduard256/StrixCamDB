@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "brand": "Webcamxp",
+  "brand_id": "webcamxp",
+  "streams": [
+    {
+      "id": "webcamxp-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip camera 720p",
+        "MXDBA"
+      ]
+    },
+    {
+      "id": "webcamxp-2",
+      "url": "/cam_1.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "minix"
+      ]
+    },
+    {
+      "id": "webcamxp-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "webcamxp-4",
+      "url": "cgi-bin/snapshot.cgi?1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OVNIF"
+      ]
+    },
+    {
+      "id": "webcamxp-5",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OVNIF"
+      ]
+    },
+    {
+      "id": "webcamxp-6",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ovnif IP"
+      ]
+    },
+    {
+      "id": "webcamxp-7",
+      "url": "out.jpg?id=0.5",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WINDOWS"
+      ]
+    }
+  ]
+}

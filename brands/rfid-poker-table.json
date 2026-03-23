@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Rfid Poker Table",
+  "brand_id": "rfid-poker-table",
+  "streams": [
+    {
+      "id": "rfid-poker-table-1",
+      "url": "snapshot/view[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "rfid-poker-table-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "version": 2,
+  "brand": "Leadtek",
+  "brand_id": "leadtek",
+  "streams": [
+    {
+      "id": "leadtek-1",
+      "url": "img/video.sav",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "8025",
+        "8025B",
+        "A-ADT-4HS2",
+        "ICAMERA 1000",
+        "ICAMERA-1000-ADT",
+        "RC8025B-ADT"
+      ]
+    },
+    {
+      "id": "leadtek-2",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8025",
+        "8025B",
+        "ADT8025B",
+        "OC810-ADT",
+        "RC8021W-ADT",
+        "RC8025B",
+        "RC8025B-ADT"
+      ]
+    },
+    {
+      "id": "leadtek-3",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8025B",
+        "ICAMERA",
+        "ICAMERA 1000",
+        "RC8025B-ADT"
+      ]
+    },
+    {
+      "id": "leadtek-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C101",
+        "VS-2001"
+      ]
+    },
+    {
+      "id": "leadtek-5",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c351"
+      ]
+    },
+    {
+      "id": "leadtek-6",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C351"
+      ]
+    },
+    {
+      "id": "leadtek-7",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C512",
+        "C522",
+        "c541"
+      ]
+    },
+    {
+      "id": "leadtek-8",
+      "url": "img/mjpeg.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICAMERA 1000"
+      ]
+    },
+    {
+      "id": "leadtek-9",
+      "url": "img/snapshot.cgi?img=vga",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ICAMERA-1000-ADT"
+      ]
+    },
+    {
+      "id": "leadtek-10",
+      "url": "cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "VS-2001"
+      ]
+    },
+    {
+      "id": "leadtek-11",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC8021W-ADT"
+      ]
+    },
+    {
+      "id": "leadtek-12",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "RC8025B",
+        "RC8025B-ADT"
+      ]
+    }
+  ]
+}

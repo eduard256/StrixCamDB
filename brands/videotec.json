@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "brand": "Videotec",
+  "brand_id": "videotec",
+  "streams": [
+    {
+      "id": "videotec-1",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "videotec-2",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SK-6008-HT"
+      ]
+    },
+    {
+      "id": "videotec-3",
+      "url": "cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ULISSE"
+      ]
+    },
+    {
+      "id": "videotec-4",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ULISSE"
+      ]
+    },
+    {
+      "id": "videotec-5",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "vd6304"
+      ]
+    },
+    {
+      "id": "videotec-6",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "vd6304"
+      ]
+    }
+  ]
+}

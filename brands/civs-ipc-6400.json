@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Civs-ipc-6400",
+  "brand_id": "civs-ipc-6400",
+  "streams": [
+    {
+      "id": "civs-ipc-6400-1",
+      "url": "/StreamingSetting",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6400",
+        "onvif"
+      ]
+    }
+  ]
+}

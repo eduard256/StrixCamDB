@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "brand": "Angel Electronics",
+  "brand_id": "angel-electronics",
+  "streams": [
+    {
+      "id": "angel-electronics-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ctipc-123c1080pw"
+      ]
+    },
+    {
+      "id": "angel-electronics-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CTIPC-224",
+        "CTIPC-245C",
+        "CTIPC-275C1080P",
+        "Other"
+      ]
+    },
+    {
+      "id": "angel-electronics-3",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "mms",
+      "port": 0,
+      "models": [
+        "CTIPC-275C1080P"
+      ]
+    },
+    {
+      "id": "angel-electronics-4",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CTIPC-285C"
+      ]
+    },
+    {
+      "id": "angel-electronics-5",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CTIPC-290C5MP-B",
+        "ctpt-90c1080p"
+      ]
+    },
+    {
+      "id": "angel-electronics-6",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Dreamstar"
+      ]
+    },
+    {
+      "id": "angel-electronics-7",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

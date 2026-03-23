@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Febfox Wifi Camera",
+  "brand_id": "febfox-wifi-camera",
+  "streams": [
+    {
+      "id": "febfox-wifi-camera-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "UHD camera"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smart Pixel",
+  "brand_id": "smart-pixel",
+  "streams": [
+    {
+      "id": "smart-pixel-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip-camera"
+      ]
+    }
+  ]
+}

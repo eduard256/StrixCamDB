@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Exacqvision",
+  "brand_id": "exacqvision",
+  "streams": [
+    {
+      "id": "exacqvision-1",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3125IR"
+      ]
+    },
+    {
+      "id": "exacqvision-2",
+      "url": "pull.web?[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR"
+      ]
+    },
+    {
+      "id": "exacqvision-3",
+      "url": "image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

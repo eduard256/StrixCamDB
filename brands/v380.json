@@ -1,0 +1,216 @@
+{
+  "version": 2,
+  "brand": "V380",
+  "brand_id": "v380",
+  "streams": [
+    {
+      "id": "v380-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "12431438",
+        "35600939",
+        "380S",
+        "mv26971511",
+        "MV48665747",
+        "Other",
+        "pro",
+        "q15",
+        "QST-V/Q16",
+        "SMart",
+        "v380 pro",
+        "WIFI CAM"
+      ]
+    },
+    {
+      "id": "v380-2",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "12435058",
+        "34297560",
+        "34818929",
+        "360",
+        "37673307",
+        "380s",
+        "380S",
+        "38172160",
+        "ALN",
+        "BANGOOD",
+        "C15-4MM",
+        "e12",
+        "gener",
+        "M38520549",
+        "MV11413653",
+        "MV20625290",
+        "MV50531089",
+        "MV53930730",
+        "OneW9",
+        "Other",
+        "smartcam",
+        "V-105r",
+        "v360",
+        "v380vv"
+      ]
+    },
+    {
+      "id": "v380-3",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "13283663",
+        "380",
+        "62849959",
+        "bullet",
+        "MV48665747",
+        "Other",
+        "q6S",
+        "v380 pro",
+        "xiaovv"
+      ]
+    },
+    {
+      "id": "v380-4",
+      "url": "1/cif",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "22872389"
+      ]
+    },
+    {
+      "id": "v380-5",
+      "url": "/live/ch00_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "22872389",
+        "380S",
+        "MV20625290",
+        "Other",
+        "PRO",
+        "q15",
+        "Q8-C",
+        "Shenzen",
+        "USB",
+        "V380 Pro",
+        "V380pro"
+      ]
+    },
+    {
+      "id": "v380-6",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "360 fisheye",
+        "380",
+        "e21",
+        "MV45114657",
+        "Other",
+        "pro",
+        "v380 pro"
+      ]
+    },
+    {
+      "id": "v380-7",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "47563328",
+        "Other",
+        "v380 pro",
+        "W7320WW"
+      ]
+    },
+    {
+      "id": "v380-8",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "c18pro-4mm wifi smart camera",
+        "IPCAM V380",
+        "MV45114657"
+      ]
+    },
+    {
+      "id": "v380-9",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ipc-v380-q5sy-1",
+        "Other",
+        "q15"
+      ]
+    },
+    {
+      "id": "v380-10",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MV13982138",
+        "MV48665747",
+        "Unlisted"
+      ]
+    },
+    {
+      "id": "v380-11",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MV45041718"
+      ]
+    },
+    {
+      "id": "v380-12",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "v380-13",
+      "url": "/1/cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "Round",
+        "W7320WW"
+      ]
+    },
+    {
+      "id": "v380-14",
+      "url": "live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

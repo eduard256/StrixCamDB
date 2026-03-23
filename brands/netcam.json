@@ -1,0 +1,388 @@
+{
+  "version": 2,
+  "brand": "Netcam",
+  "brand_id": "netcam",
+  "streams": [
+    {
+      "id": "netcam-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "360",
+        "720",
+        "720 HD IP cam",
+        "777",
+        "960",
+        "960P",
+        "b02w.723",
+        "BQ-NO6W",
+        "buyee",
+        "C2103W",
+        "C2104W",
+        "cam3",
+        "cam360",
+        "camspot3.3",
+        "china",
+        "chinese 1",
+        "CoolCam",
+        "cvi212",
+        "cxvxcv",
+        "dsfsadf",
+        "Dual-HD",
+        "GFVision",
+        "GoAhead",
+        "h264",
+        "Hiseeu",
+        "HSL-078517-XVJKY",
+        "HSL-232245-CWXES",
+        "HW00026-1",
+        "HW0036",
+        "i9811",
+        "i9831",
+        "icam 606",
+        "in LSB 327",
+        "inclick",
+        "Ip robot",
+        "ip65",
+        "ipc100",
+        "IPC360",
+        "iSee",
+        "isvp",
+        "Keyvay",
+        "L41CB",
+        "MW5080W",
+        "NCL610W",
+        "net360",
+        "Netcam360",
+        "nfi",
+        "ntv",
+        "NVT",
+        "onvif",
+        "Other",
+        "Ouvis",
+        "Ouvis Veezon VZ1",
+        "overmax",
+        "P2P",
+        "Phong Khach",
+        "QVU",
+        "qwe",
+        "qwew",
+        "right side",
+        "Robot",
+        "Robot_Z",
+        "S6211Y-WR",
+        "scricam",
+        "Secureeyes",
+        "secureye",
+        "Secureyes",
+        "Secureyes 1",
+        "Secureyes 2",
+        "SIEPEM",
+        "SkyGenius",
+        "SkyView",
+        "Some",
+        "SunEyes",
+        "SunEyes SS",
+        "SunLuxy720",
+        "sunny",
+        "Terasse",
+        "ts-620",
+        "Turcom",
+        "Unk",
+        "VEEZON",
+        "VZ1",
+        "VZ2",
+        "wans",
+        "wanscam",
+        "wanscam0004",
+        "wcam-043811-yxzuh",
+        "web",
+        "webvision",
+        "wet",
+        "wifi",
+        "WIFI CAM",
+        "wificam",
+        "xblitz",
+        "XLT-004829-YFBJV",
+        "xosy",
+        "z21",
+        "zen cam",
+        "Zoneway"
+      ]
+    },
+    {
+      "id": "netcam-2",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "360",
+        "CHINA",
+        "netcam ip",
+        "NETCAM360",
+        "NVT of NETCAM",
+        "Other",
+        "Ouvis",
+        "SUNLUXY720",
+        "WANSCAM"
+      ]
+    },
+    {
+      "id": "netcam-3",
+      "url": "/tcp/av0_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "5080",
+        "700",
+        "960P",
+        "CHINA",
+        "HSL-172296-JJGJW",
+        "Other",
+        "ouvis",
+        "Ouvis VZ1",
+        "p2p",
+        "ptz",
+        "qweqweqw",
+        "rere",
+        "RW-720S",
+        "Secureyes",
+        "Skygenius",
+        "SunLuxy",
+        "veskys",
+        "VZ1"
+      ]
+    },
+    {
+      "id": "netcam-4",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "CAM360",
+        "Dual-HD",
+        "HSL-232245-CWXES",
+        "nas1",
+        "Other",
+        "OUVIS VEEZON VZ1",
+        "WANSCAM0004"
+      ]
+    },
+    {
+      "id": "netcam-5",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "netcam-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "COOLCAM",
+        "Other",
+        "WANSCAM"
+      ]
+    },
+    {
+      "id": "netcam-7",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HI3518",
+        "one",
+        "Other",
+        "POE1080P",
+        "PT-161-D100W/DF4-W-S",
+        "PT-163",
+        "PT-163-D100W4-P",
+        "SN-IPC-HW20",
+        "WANSCAM",
+        "WANSCAM0004"
+      ]
+    },
+    {
+      "id": "netcam-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HI3518",
+        "IPC360",
+        "nc335pw",
+        "nc335pw-HD-1080p",
+        "NETCAM360",
+        "Other",
+        "WANSCAM"
+      ]
+    },
+    {
+      "id": "netcam-9",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "HSL-232245-CWXES",
+        "Other"
+      ]
+    },
+    {
+      "id": "netcam-10",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC360",
+        "nc223w-ir",
+        "WANSCAM0004"
+      ]
+    },
+    {
+      "id": "netcam-11",
+      "url": "[CHANNEL]/1:1/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "IPC360",
+        "Other",
+        "SCRICAM"
+      ]
+    },
+    {
+      "id": "netcam-12",
+      "url": "jpeg/qvga.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Netcam IP",
+        "Other"
+      ]
+    },
+    {
+      "id": "netcam-13",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "netcam-14",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WANSCAM"
+      ]
+    },
+    {
+      "id": "netcam-15",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PT-163",
+        "PT163S",
+        "PT-163S-D100W/DF2-W",
+        "SIEPEM",
+        "SUNEYES",
+        "WANSCAM",
+        "WANSCAM0004"
+      ]
+    },
+    {
+      "id": "netcam-16",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "netcam-17",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "netcam-18",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "OUVIS VEEZON VZ1"
+      ]
+    },
+    {
+      "id": "netcam-19",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "P2P"
+      ]
+    },
+    {
+      "id": "netcam-20",
+      "url": "/live/ch1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WANSVIEW1"
+      ]
+    },
+    {
+      "id": "netcam-21",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WANSVIEW1"
+      ]
+    },
+    {
+      "id": "netcam-22",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "XBLITZ"
+      ]
+    }
+  ]
+}

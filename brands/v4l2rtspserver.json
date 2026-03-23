@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "V4l2rtspserver",
+  "brand_id": "v4l2rtspserver",
+  "streams": [
+    {
+      "id": "v4l2rtspserver-1",
+      "url": "/unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "raspberrpi3"
+      ]
+    },
+    {
+      "id": "v4l2rtspserver-2",
+      "url": "/geo/bali1/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "RTSP"
+      ]
+    }
+  ]
+}

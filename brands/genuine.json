@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "brand": "Genuine",
+  "brand_id": "genuine",
+  "streams": [
+    {
+      "id": "genuine-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2.1",
+        "Dome",
+        "fgf",
+        "h264",
+        "htf",
+        "hyt",
+        "kce"
+      ]
+    }
+  ]
+}

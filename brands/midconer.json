@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Midconer",
+  "brand_id": "midconer",
+  "streams": [
+    {
+      "id": "midconer-1",
+      "url": "/ch0_1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Mid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smart Security",
+  "brand_id": "smart-security",
+  "streams": [
+    {
+      "id": "smart-security-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OUT"
+      ]
+    }
+  ]
+}

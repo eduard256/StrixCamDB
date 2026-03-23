@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Wish",
+  "brand_id": "wish",
+  "streams": [
+    {
+      "id": "wish-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HA-3050"
+      ]
+    },
+    {
+      "id": "wish-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

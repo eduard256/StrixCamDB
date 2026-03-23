@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Aida",
+  "brand_id": "aida",
+  "streams": [
+    {
+      "id": "aida-1",
+      "url": "/stream/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD-NDI-CUBE",
+        "HD-NDI-IP67"
+      ]
+    }
+  ]
+}

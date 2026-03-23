@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "brand": "Revo",
+  "brand_id": "revo",
+  "streams": [
+    {
+      "id": "revo-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "i6032BV200",
+        "RUBCB36-1A",
+        "RUCB36-1AX",
+        "RUWCB40-1"
+      ]
+    },
+    {
+      "id": "revo-2",
+      "url": "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC"
+      ]
+    },
+    {
+      "id": "revo-3",
+      "url": "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]&stream=1",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC: Wireless"
+      ]
+    },
+    {
+      "id": "revo-4",
+      "url": "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]&stream=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IPC: Wireless"
+      ]
+    },
+    {
+      "id": "revo-5",
+      "url": "1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "RUCFE4K-1C",
+        "RUCT2812-1",
+        "T320"
+      ]
+    }
+  ]
+}

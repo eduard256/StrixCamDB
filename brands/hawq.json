@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hawq",
+  "brand_id": "hawq",
+  "streams": [
+    {
+      "id": "hawq-1",
+      "url": "/snl/live/1/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "wingdome"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "P-link",
+  "brand_id": "p-link",
+  "streams": [
+    {
+      "id": "p-link-1",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TL-SC3130"
+      ]
+    }
+  ]
+}

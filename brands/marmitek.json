@@ -1,0 +1,223 @@
+{
+  "version": 2,
+  "brand": "Marmitek",
+  "brand_id": "marmitek",
+  "streams": [
+    {
+      "id": "marmitek-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet"
+      ]
+    },
+    {
+      "id": "marmitek-2",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Eye Anywhere 241",
+        "IP eye anywhere 241",
+        "IP RoboCam 21",
+        "robocam ip21",
+        "vivme"
+      ]
+    },
+    {
+      "id": "marmitek-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GM-8126"
+      ]
+    },
+    {
+      "id": "marmitek-4",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GM-8126"
+      ]
+    },
+    {
+      "id": "marmitek-5",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip eye 21",
+        "IP EYE ANYWHERE",
+        "IP Eye AnyWhere 11",
+        "IP ROBOCAM 10/11/541/641",
+        "IP ROBOCAM 21",
+        "Other",
+        "RoboCam 21",
+        "Robocam 541"
+      ]
+    },
+    {
+      "id": "marmitek-6",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Eye Anywhere",
+        "IP eye anywhere 241",
+        "IP RoboCam 10/11/541/641",
+        "IP RoboCam 21",
+        "ipeye anywhere",
+        "Other",
+        "robocam 10",
+        "robocam 11",
+        "Robocam 21",
+        "robocam21"
+      ]
+    },
+    {
+      "id": "marmitek-7",
+      "url": "mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP EYE ANYWHERE",
+        "IP EYE ANYWHERE 241",
+        "IP ROBOCAM 10/11/541/641",
+        "IP ROBOCAM 21",
+        "Other",
+        "robocam 21",
+        "Robocam 21",
+        "ROBOCAM 21",
+        "ROBOCAM 541"
+      ]
+    },
+    {
+      "id": "marmitek-8",
+      "url": "/cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP Eye AnyWhere 11"
+      ]
+    },
+    {
+      "id": "marmitek-9",
+      "url": "/cgi/mjpg/mjpg.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP eye anywhere 241",
+        "IP RoboCam 21",
+        "robocam ip21",
+        "robocam21"
+      ]
+    },
+    {
+      "id": "marmitek-10",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP ROBOCAM 10/11/541/641",
+        "IP ROBOCAM 21",
+        "Other",
+        "robocam 21"
+      ]
+    },
+    {
+      "id": "marmitek-11",
+      "url": "/VIDEO.CGI",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP RoboCam 21"
+      ]
+    },
+    {
+      "id": "marmitek-12",
+      "url": "/MJPEG.CGI",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP RoboCam 21"
+      ]
+    },
+    {
+      "id": "marmitek-13",
+      "url": "/cgi/mjpg/mjpeg.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP RoboCam 21"
+      ]
+    },
+    {
+      "id": "marmitek-14",
+      "url": "IMAGE.JPG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP RoboCam 8",
+        "Other"
+      ]
+    },
+    {
+      "id": "marmitek-15",
+      "url": "MJPEG.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP RoboCam 8",
+        "Robocam 8"
+      ]
+    },
+    {
+      "id": "marmitek-16",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP RoboCam 8"
+      ]
+    },
+    {
+      "id": "marmitek-17",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "marmitek-18",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

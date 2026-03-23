@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Celestrom",
+  "brand_id": "celestrom",
+  "streams": [
+    {
+      "id": "celestrom-1",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

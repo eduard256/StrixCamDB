@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Chino",
+  "brand_id": "chino",
+  "streams": [
+    {
+      "id": "chino-1",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "version": 2,
+  "brand": "Everfocus",
+  "brand_id": "everfocus",
+  "streams": [
+    {
+      "id": "everfocus-1",
+      "url": "/cgi-bin/rtspStreamOvf/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1360",
+        "3260",
+        "EBN268",
+        "EDN 3260",
+        "EHN3260",
+        "EHN3261",
+        "EMN2220",
+        "EPN4220",
+        "ezn",
+        "EZN1260",
+        "EZN268",
+        "EZN3160",
+        "Other"
+      ]
+    },
+    {
+      "id": "everfocus-2",
+      "url": "/live1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2260",
+        "ECOR264",
+        "EDN 2160",
+        "EDN 2260"
+      ]
+    },
+    {
+      "id": "everfocus-3",
+      "url": "imagep/picture.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2260"
+      ]
+    },
+    {
+      "id": "everfocus-4",
+      "url": "/cgi-bin/rtspStreamOvf/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3260",
+        "dvr",
+        "EAN3220",
+        "EBN268",
+        "ECOR",
+        "EDN 3260",
+        "EDN1120",
+        "EHN1320",
+        "EHN3260",
+        "EPN4220",
+        "EPN4220d",
+        "EZN1260",
+        "Other"
+      ]
+    },
+    {
+      "id": "everfocus-5",
+      "url": "streaming/channels/0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3260",
+        "EAN900",
+        "EDN 3260",
+        "EDN3240",
+        "EPN 4220",
+        "EQN2200",
+        "EZN3240",
+        "EZN3260",
+        "Other"
+      ]
+    },
+    {
+      "id": "everfocus-6",
+      "url": "m/camera[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVR",
+        "ECOR",
+        "EPARA",
+        "Other"
+      ]
+    },
+    {
+      "id": "everfocus-7",
+      "url": "image[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EBN268",
+        "EHN1320",
+        "EHN3261",
+        "EZN 268"
+      ]
+    },
+    {
+      "id": "everfocus-8",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EDN2210"
+      ]
+    },
+    {
+      "id": "everfocus-9",
+      "url": "/cgi-bin/rtspStream/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "EHN3200"
+      ]
+    },
+    {
+      "id": "everfocus-10",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "eqn2101",
+        "eqn2200"
+      ]
+    },
+    {
+      "id": "everfocus-11",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "eqn2101",
+        "eqn2200"
+      ]
+    },
+    {
+      "id": "everfocus-12",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "eqn2200"
+      ]
+    },
+    {
+      "id": "everfocus-13",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "EZN1540-A"
+      ]
+    }
+  ]
+}

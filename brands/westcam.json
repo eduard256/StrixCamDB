@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "brand": "Westcam",
+  "brand_id": "westcam",
+  "streams": [
+    {
+      "id": "westcam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "301655956206",
+        "Other",
+        "WM-351185110",
+        "WM-35185110",
+        "WM-35185115"
+      ]
+    },
+    {
+      "id": "westcam-2",
+      "url": "/PSIA/Streaming/channels/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "365IP"
+      ]
+    },
+    {
+      "id": "westcam-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "WM-128339"
+      ]
+    },
+    {
+      "id": "westcam-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "W201",
+        "W212",
+        "WM-35185029"
+      ]
+    }
+  ]
+}

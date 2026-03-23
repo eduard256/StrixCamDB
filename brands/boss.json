@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Boss",
+  "brand_id": "boss",
+  "streams": [
+    {
+      "id": "boss-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP3W-2MP"
+      ]
+    }
+  ]
+}

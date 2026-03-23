@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bridgevms",
+  "brand_id": "bridgevms",
+  "streams": [
+    {
+      "id": "bridgevms-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CV1300-PH"
+      ]
+    },
+    {
+      "id": "bridgevms-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "bm3000-ir-od"
+      ]
+    }
+  ]
+}

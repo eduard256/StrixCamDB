@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Xperia",
+  "brand_id": "xperia",
+  "streams": [
+    {
+      "id": "xperia-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Sony",
+        "x10"
+      ]
+    },
+    {
+      "id": "xperia-2",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "x10"
+      ]
+    }
+  ]
+}

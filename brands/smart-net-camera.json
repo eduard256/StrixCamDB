@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Smart Net Camera",
+  "brand_id": "smart-net-camera",
+  "streams": [
+    {
+      "id": "smart-net-camera-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CamHouse"
+      ]
+    },
+    {
+      "id": "smart-net-camera-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "IPC-V380-Q3S"
+      ]
+    }
+  ]
+}

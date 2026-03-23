@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Soggi",
+  "brand_id": "soggi",
+  "streams": [
+    {
+      "id": "soggi-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "orno"
+      ]
+    }
+  ]
+}

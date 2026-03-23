@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Stuart Cam",
+  "brand_id": "stuart-cam",
+  "streams": [
+    {
+      "id": "stuart-cam-1",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "qcp-a356"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "brand": "OpenMiko",
+  "brand_id": "openmiko",
+  "streams": [
+    {
+      "id": "openmiko-1",
+      "url": "/video3_unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "WYZE CAM V2",
+        "WyzeCam V2",
+        "Wyze V2",
+        "WYZEC1-JZ"
+      ],
+      "notes": "WyzeCam V2 with OpenMiko firmware - NON-STANDARD PORT 8554"
+    }
+  ]
+}

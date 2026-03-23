@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Gise",
+  "brand_id": "gise",
+  "streams": [
+    {
+      "id": "gise-1",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "gs-2cm4",
+        "GS-IP5S-V2",
+        "Other"
+      ]
+    },
+    {
+      "id": "gise-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "GS-IP5S-V2"
+      ]
+    }
+  ]
+}

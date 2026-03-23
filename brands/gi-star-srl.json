@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gi-star Srl",
+  "brand_id": "gi-star-srl",
+  "streams": [
+    {
+      "id": "gi-star-srl-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP6031W"
+      ]
+    }
+  ]
+}

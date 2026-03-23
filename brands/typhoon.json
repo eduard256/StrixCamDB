@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Typhoon",
+  "brand_id": "typhoon",
+  "streams": [
+    {
+      "id": "typhoon-1",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TM013"
+      ]
+    }
+  ]
+}

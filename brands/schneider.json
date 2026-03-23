@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Schneider",
+  "brand_id": "schneider",
+  "streams": [
+    {
+      "id": "schneider-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PoE Camera"
+      ]
+    }
+  ]
+}

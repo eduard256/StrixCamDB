@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Smartguard",
+  "brand_id": "smartguard",
+  "streams": [
+    {
+      "id": "smartguard-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DR-IPC-01",
+        "WIFI HD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "version": 2,
+  "brand": "Motorola",
+  "brand_id": "motorola",
+  "streams": [
+    {
+      "id": "motorola-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0085",
+        "AUTOFOCUS 73",
+        "CONNECT",
+        "FOCU85",
+        "focus",
+        "Focus 66 WiFi HD",
+        "Focus 73",
+        "Focus 73 HK",
+        "Focus 85",
+        "FOCUS_73",
+        "FOCUS_73DENNE",
+        "focus73",
+        "focus85-b",
+        "FOCUS85-B",
+        "Foucus 85",
+        "MBP85CONNECT",
+        "Other",
+        "SCOUT 73bbk"
+      ]
+    },
+    {
+      "id": "motorola-2",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0085",
+        "Blink 1",
+        "blink1",
+        "BLINK1",
+        "focus",
+        "FOCUS 66",
+        "focus 86",
+        "Focus86-W",
+        "Other"
+      ]
+    },
+    {
+      "id": "motorola-3",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1662",
+        "Autofocus 73",
+        "bad",
+        "BLINK",
+        "F66sb",
+        "F85",
+        "FCUS85",
+        "focu5665_blk2",
+        "focu85",
+        "focus",
+        "focus 0854",
+        "Focus 66",
+        "FOCUS 66",
+        "FOCUS 66 WIFI HD",
+        "Focus 66-B",
+        "FOCUS 66-B",
+        "FOCUS 66-B2",
+        "focus 66-s",
+        "Focus 85",
+        "FOCUS 85",
+        "FOCUS 86",
+        "Focus S66",
+        "Focus S73",
+        "FOCUS_73",
+        "fucus73",
+        "HD-0066113B20",
+        "Hubble",
+        "MBP 854",
+        "MBP85CONNECT",
+        "Mototrola Scout85",
+        "Other",
+        "SCOUT",
+        "SCOUT 73"
+      ]
+    },
+    {
+      "id": "motorola-4",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "1662",
+        "66-b",
+        "AUTOFOCUS 73",
+        "BABYMONITOR",
+        "CONNECT",
+        "fcus85",
+        "FCUS85",
+        "FOCU85",
+        "focu88",
+        "FOCUS",
+        "FOCUS 66",
+        "Focus 66 HD",
+        "FOCUS 66 WIFI HD",
+        "focus 66b",
+        "FOCUS 66-B2",
+        "FOCUS 66BBK",
+        "Focus 66-s2",
+        "Focus 73",
+        "FOCUS 73",
+        "Focus 85",
+        "Focus S66",
+        "FOCUS S66",
+        "Focus S73",
+        "focus_72",
+        "FOCUS_73",
+        "Focus66",
+        "FOCUS67",
+        "focus73",
+        "Focus85",
+        "FOCUS85-B",
+        "Foucs",
+        "Hubble",
+        "mbp85",
+        "MBP85",
+        "MBP-854",
+        "MBP855",
+        "MBP855CONNECT",
+        "motorola focus50-w",
+        "motorola mbp85",
+        "MOTOTROLA SCOUT85",
+        "Other",
+        "SCOUT 73"
+      ]
+    },
+    {
+      "id": "motorola-5",
+      "url": "image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "66-b",
+        "FOCUS-66"
+      ]
+    },
+    {
+      "id": "motorola-6",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8492-PTZ",
+        "Ptz1"
+      ]
+    },
+    {
+      "id": "motorola-7",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Atrix",
+        "atrix hd",
+        "AttirxII",
+        "Droid",
+        "Droid 2",
+        "Droid RAZR HD",
+        "Droid RAZR MAXX",
+        "Droid X",
+        "Drooid Bionic",
+        "FOCUS 66-B2",
+        "G5 Plus",
+        "G6 Play",
+        "Moto E",
+        "Moto G",
+        "Moto G 4G",
+        "Moto X Pure Edition",
+        "Other",
+        "phne",
+        "Phone",
+        "Photon",
+        "Razor",
+        "Razr",
+        "Xoom",
+        "Xoom 2",
+        "XT-1028",
+        "xt1077",
+        "XT-300"
+      ]
+    },
+    {
+      "id": "motorola-8",
+      "url": "axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Auto focas 85",
+        "AUTOFOCUS 73",
+        "FOCU85",
+        "focus",
+        "FOCUS 66",
+        "Focus 73",
+        "Focus 85",
+        "FOCUS 88",
+        "Focus S66",
+        "Focus S73",
+        "FOCUS85",
+        "MBP85CONNECT",
+        "scout",
+        "SCOUT 73"
+      ]
+    },
+    {
+      "id": "motorola-9",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AUTOFOCUS 73",
+        "FOCUS73",
+        "MBP-854",
+        "Other",
+        "SCOUT 73"
+      ]
+    },
+    {
+      "id": "motorola-10",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AUTOFOCUS 73",
+        "BLINK",
+        "FOCU85",
+        "FOCUS 66",
+        "Focus 73",
+        "Focus 85",
+        "Focus S66-B",
+        "FOCUS_73",
+        "fokus 73",
+        "fukus 73",
+        "Other",
+        "SCOUT 73",
+        "SCOUT 85"
+      ]
+    },
+    {
+      "id": "motorola-11",
+      "url": "-wvhttp-01-/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "babymonitor",
+        "CONNECT",
+        "FOCUS 66",
+        "FOCUS 66bbk",
+        "FOCUS 73",
+        "FOCUS 85",
+        "FOCUS 86",
+        "Focus73",
+        "MBP85",
+        "MBP853CONNECT",
+        "MBP-854",
+        "Other"
+      ]
+    },
+    {
+      "id": "motorola-12",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "babymonitor",
+        "BLINK1",
+        "FOCUS 66",
+        "FOCUS 66-B2",
+        "FOCUS 73",
+        "Focus S66",
+        "FOCUS S66",
+        "FOCUS85",
+        "HD-0066113b20",
+        "Other"
+      ]
+    },
+    {
+      "id": "motorola-13",
+      "url": "?action=appletvstream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Blink",
+        "Blink1",
+        "Other",
+        "Scout"
+      ]
+    },
+    {
+      "id": "motorola-14",
+      "url": "/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Blink",
+        "blink 1",
+        "Blink 1",
+        "focus 86",
+        "FOCUS 88"
+      ]
+    },
+    {
+      "id": "motorola-15",
+      "url": "?action=snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLINK",
+        "blink 1",
+        "BLINK1",
+        "FOCU85",
+        "SCOUT"
+      ]
+    },
+    {
+      "id": "motorola-16",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLINK",
+        "FOCUS 85",
+        "FOCUS_73DENNE",
+        "FOCUSs5",
+        "MBP853CONNECT"
+      ]
+    },
+    {
+      "id": "motorola-17",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLINK",
+        "CONNECT",
+        "focus",
+        "FOCUS 66",
+        "Focus 66-B2",
+        "Focus 66-s2",
+        "Focus 73",
+        "FOCUS 73",
+        "Focus 85",
+        "FOCUS_73DENNE",
+        "focus66",
+        "FOCUS85",
+        "MBP-854"
+      ]
+    },
+    {
+      "id": "motorola-18",
+      "url": "image.cgi?type=motion&camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "blink85",
+        "FCUS85",
+        "FOCUS 85",
+        "Focus_73",
+        "FOCUS73",
+        "FUKUS 73",
+        "SCOUT 73",
+        "Scout 83",
+        "Scout 85"
+      ]
+    },
+    {
+      "id": "motorola-19",
+      "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BLINK85",
+        "FOCUS",
+        "Focus 66",
+        "FOCUS 66",
+        "FOCUS 66 merob",
+        "FOCUS 66-B",
+        "FOCUS 73",
+        "focus66w",
+        "MBP-854"
+      ]
+    },
+    {
+      "id": "motorola-20",
+      "url": "image.cgi?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CONNECT",
+        "Focus 66",
+        "FOCUS 66-B",
+        "FOCUS 73",
+        "FUKUS 73",
+        "Other",
+        "SCOUT 73"
+      ]
+    },
+    {
+      "id": "motorola-21",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CONNECT",
+        "defy xt",
+        "Droid",
+        "Droid RAZR MAXX",
+        "Eris",
+        "Other",
+        "razr",
+        "xt1080"
+      ]
+    },
+    {
+      "id": "motorola-22",
+      "url": "shot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DROID",
+        "Droid 3",
+        "droid mini",
+        "maxx",
+        "mobile",
+        "Other",
+        "x1097",
+        "xt907"
+      ]
+    },
+    {
+      "id": "motorola-23",
+      "url": "video?profile=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Droid 2Global",
+        "Droid 4",
+        "DROID RAZR HD",
+        "Droid X",
+        "Milestone 2",
+        "Moto G",
+        "MOTO g",
+        "Other",
+        "xt1077"
+      ]
+    },
+    {
+      "id": "motorola-24",
+      "url": "/h264_ulaw.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8888,
+      "models": [
+        "Droid RAZR HD"
+      ]
+    },
+    {
+      "id": "motorola-25",
+      "url": "jpeg/qvga.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Droid X"
+      ]
+    },
+    {
+      "id": "motorola-26",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Edge",
+        "G13",
+        "Moto G"
+      ]
+    },
+    {
+      "id": "motorola-27",
+      "url": "/video?profile=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Edge",
+        "G13"
+      ]
+    },
+    {
+      "id": "motorola-28",
+      "url": "axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "focus",
+        "FOCUS 66-B2",
+        "focus 66-s",
+        "Focus 73",
+        "Focus 85",
+        "fokus 73",
+        "fous 66",
+        "HUBBLE"
+      ]
+    },
+    {
+      "id": "motorola-29",
+      "url": "axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "focus",
+        "FOCUS 85",
+        "MBP-854",
+        "Scout 73",
+        "SCOUT 85"
+      ]
+    },
+    {
+      "id": "motorola-30",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "focus",
+        "FOCUS 73",
+        "FOCUS 85",
+        "Other",
+        "Scout 73"
+      ]
+    },
+    {
+      "id": "motorola-31",
+      "url": "cgi-bin/jpg/image.cgi?",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "focus",
+        "FOCUS 73"
+      ]
+    },
+    {
+      "id": "motorola-32",
+      "url": "[CHANNEL]/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "focus",
+        "FOCUS 73",
+        "SCOUT 73"
+      ]
+    },
+    {
+      "id": "motorola-33",
+      "url": "/videostream.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "focus"
+      ]
+    },
+    {
+      "id": "motorola-34",
+      "url": "/blinkhd",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 6667,
+      "models": [
+        "Focus 66 HD",
+        "Focus 68",
+        "Focus 72"
+      ]
+    },
+    {
+      "id": "motorola-35",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Focus 66 WiFi HD"
+      ]
+    },
+    {
+      "id": "motorola-36",
+      "url": "/video.cgi?resolution=VGA",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Focus 73",
+        "FOCUS 88",
+        "moto g(8) plus"
+      ]
+    },
+    {
+      "id": "motorola-37",
+      "url": "/media/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FOCUS 85",
+        "FOCUS 86",
+        "Focus86-W",
+        "hubble",
+        "MBP853CONNECT"
+      ]
+    },
+    {
+      "id": "motorola-38",
+      "url": "cgi-bin/video.cgi?msubmenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FOCUS 85",
+        "FOCUS_73DENNE",
+        "FOKUS 73"
+      ]
+    },
+    {
+      "id": "motorola-39",
+      "url": "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "FOCUS 88"
+      ]
+    },
+    {
+      "id": "motorola-40",
+      "url": "/blinkhd/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 6667,
+      "models": [
+        "focus_72"
+      ]
+    },
+    {
+      "id": "motorola-41",
+      "url": "/h264_pcm.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8080,
+      "models": [
+        "g13"
+      ]
+    },
+    {
+      "id": "motorola-42",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MBP-854"
+      ]
+    },
+    {
+      "id": "motorola-43",
+      "url": "now.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MFV700BU"
+      ]
+    },
+    {
+      "id": "motorola-44",
+      "url": "/videofeed",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "Moto G 4G",
+        "Moto G6"
+      ]
+    },
+    {
+      "id": "motorola-45",
+      "url": "image.cgi?img=ch[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

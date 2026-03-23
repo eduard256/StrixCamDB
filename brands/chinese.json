@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "brand": "Chinese",
+  "brand_id": "chinese",
+  "streams": [
+    {
+      "id": "chinese-1",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "bosiwo",
+        "Bosiwoi",
+        "Other",
+        "wesecuu"
+      ]
+    },
+    {
+      "id": "chinese-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ipc",
+        "WESECUU"
+      ]
+    },
+    {
+      "id": "chinese-3",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC365"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Mrsafe",
+  "brand_id": "mrsafe",
+  "streams": [
+    {
+      "id": "mrsafe-1",
+      "url": "/1.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "mrsafe-2",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other",
+        "PRO"
+      ]
+    },
+    {
+      "id": "mrsafe-3",
+      "url": "/2.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "PRO",
+        "PRO1"
+      ]
+    }
+  ]
+}

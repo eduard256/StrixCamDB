@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "brand": "Digicom",
+  "brand_id": "digicom",
+  "streams": [
+    {
+      "id": "digicom-1",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100W"
+      ]
+    },
+    {
+      "id": "digicom-2",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "100W",
+        "300WEDNU",
+        "400HD",
+        "400HS",
+        "HD400",
+        "IPCAMERA 100WED",
+        "IpCamera100wed",
+        "Other"
+      ]
+    },
+    {
+      "id": "digicom-3",
+      "url": "/admin/view.cgi?profile=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IpCamera100wed"
+      ]
+    },
+    {
+      "id": "digicom-4",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAMERA100WED"
+      ]
+    },
+    {
+      "id": "digicom-5",
+      "url": "axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "digicom-6",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "digicom-7",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "digicom-8",
+      "url": "image.mpg",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Firstcam",
+  "brand_id": "firstcam",
+  "streams": [
+    {
+      "id": "firstcam-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCE-IP-20MDW3.60"
+      ]
+    },
+    {
+      "id": "firstcam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FCE-IP-20MEW3.60"
+      ]
+    }
+  ]
+}

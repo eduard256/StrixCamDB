@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Leopard Imaging",
+  "brand_id": "leopard-imaging",
+  "streams": [
+    {
+      "id": "leopard-imaging-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Omnivision"
+      ]
+    },
+    {
+      "id": "leopard-imaging-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ov9712"
+      ]
+    }
+  ]
+}

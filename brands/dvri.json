@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Dvri",
+  "brand_id": "dvri",
+  "streams": [
+    {
+      "id": "dvri-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H.264"
+      ]
+    },
+    {
+      "id": "dvri-2",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VIDO.AT"
+      ]
+    }
+  ]
+}

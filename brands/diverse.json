@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Diverse",
+  "brand_id": "diverse",
+  "streams": [
+    {
+      "id": "diverse-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DCS-930LB1",
+        "Other"
+      ]
+    },
+    {
+      "id": "diverse-2",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DCS-930LB1"
+      ]
+    }
+  ]
+}

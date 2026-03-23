@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "brand": "Hview",
+  "brand_id": "hview",
+  "streams": [
+    {
+      "id": "hview-1",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1312",
+        "HV-800G2A5",
+        "HV-PTZ502",
+        "Other"
+      ]
+    },
+    {
+      "id": "hview-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "264",
+        "tv-ip1012"
+      ]
+    },
+    {
+      "id": "hview-3",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "850PTZ",
+        "MC500L_5MP"
+      ]
+    },
+    {
+      "id": "hview-4",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HV-500E6",
+        "HV-500G2A",
+        "HV-800E6A5",
+        "HV-800G2A5",
+        "HV-E800",
+        "HV-PTZ500",
+        "HV-WF500G2"
+      ]
+    },
+    {
+      "id": "hview-5",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "HV-500ES",
+        "HV-800"
+      ]
+    },
+    {
+      "id": "hview-6",
+      "url": "/live/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HV-800E6A5",
+        "Other"
+      ]
+    },
+    {
+      "id": "hview-7",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MC500L_5MP"
+      ]
+    }
+  ]
+}

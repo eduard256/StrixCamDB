@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "brand": "Akai",
+  "brand_id": "akai",
+  "streams": [
+    {
+      "id": "akai-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AK7400"
+      ]
+    },
+    {
+      "id": "akai-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AK7400"
+      ]
+    },
+    {
+      "id": "akai-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AK7400",
+        "SP-T03WP"
+      ]
+    },
+    {
+      "id": "akai-4",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "AK7400"
+      ]
+    },
+    {
+      "id": "akai-5",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "AK7400"
+      ]
+    }
+  ]
+}

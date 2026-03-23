@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "brand": "Haiz",
+  "brand_id": "haiz",
+  "streams": [
+    {
+      "id": "haiz-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "3mp",
+        "ahd4",
+        "Hz-bltpoe-m2"
+      ]
+    },
+    {
+      "id": "haiz-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Dual 3k"
+      ]
+    },
+    {
+      "id": "haiz-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Dual 3k"
+      ]
+    },
+    {
+      "id": "haiz-4",
+      "url": "/stream_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Hz-bltpoe-m2"
+      ]
+    },
+    {
+      "id": "haiz-5",
+      "url": "/stream_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Hz-bltpoe-m2"
+      ]
+    },
+    {
+      "id": "haiz-6",
+      "url": "/ch0_1.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Hz-bltpoe-m2"
+      ]
+    }
+  ]
+}

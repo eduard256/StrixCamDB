@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Asia",
+  "brand_id": "asia",
+  "streams": [
+    {
+      "id": "asia-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Camera S"
+      ]
+    }
+  ]
+}

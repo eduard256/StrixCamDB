@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zeetopin",
+  "brand_id": "zeetopin",
+  "streams": [
+    {
+      "id": "zeetopin-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ZS-GX6S-T"
+      ]
+    }
+  ]
+}

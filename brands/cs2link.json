@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Cs2link",
+  "brand_id": "cs2link",
+  "streams": [
+    {
+      "id": "cs2link-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SY8001-WR"
+      ]
+    },
+    {
+      "id": "cs2link-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SY-8001WR"
+      ]
+    }
+  ]
+}

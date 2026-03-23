@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Atrix",
+  "brand_id": "atrix",
+  "streams": [
+    {
+      "id": "atrix-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "atrix-2",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

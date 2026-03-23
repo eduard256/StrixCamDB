@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Owl",
+  "brand_id": "owl",
+  "streams": [
+    {
+      "id": "owl-1",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "932l"
+      ]
+    },
+    {
+      "id": "owl-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

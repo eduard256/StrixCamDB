@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xshcam",
+  "brand_id": "xshcam",
+  "streams": [
+    {
+      "id": "xshcam-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M3-X_Cloud"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Biqu",
+  "brand_id": "biqu",
+  "streams": [
+    {
+      "id": "biqu-1",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F-Series"
+      ]
+    },
+    {
+      "id": "biqu-2",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F-Series"
+      ]
+    }
+  ]
+}

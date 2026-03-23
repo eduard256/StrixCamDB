@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Aspac",
+  "brand_id": "aspac",
+  "streams": [
+    {
+      "id": "aspac-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP1",
+        "IP2",
+        "IP3",
+        "IPCAM3",
+        "Other"
+      ]
+    },
+    {
+      "id": "aspac-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

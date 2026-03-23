@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lpr-hdcam",
+  "brand_id": "lpr-hdcam",
+  "streams": [
+    {
+      "id": "lpr-hdcam-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BN-CW20CW/HIP200M"
+      ]
+    }
+  ]
+}

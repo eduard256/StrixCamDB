@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Heimlink",
+  "brand_id": "heimlink",
+  "streams": [
+    {
+      "id": "heimlink-1",
+      "url": "/H.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CloudCam",
+        "hm202",
+        "HM203",
+        "hm311"
+      ]
+    }
+  ]
+}

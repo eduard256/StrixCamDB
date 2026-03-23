@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "brand": "Cricket",
+  "brand_id": "cricket",
+  "streams": [
+    {
+      "id": "cricket-1",
+      "url": "/rtsp/unicast/DefaultProfile-02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10556,
+      "models": [
+        "Camera_EXT1"
+      ]
+    },
+    {
+      "id": "cricket-2",
+      "url": "/rtsp/unicast/DefaultProfile-01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CR-POE-13S2C_14181850",
+        "CR-POE-13S2C_14181858",
+        "CR-POE-13S2C_14181859",
+        "CR-POE-20S2C_14050067",
+        "CR-POE-20S3C_14241655",
+        "Other",
+        "Point Grey",
+        "PointGrey Cricket 1.3MP"
+      ]
+    }
+  ]
+}

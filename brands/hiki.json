@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "brand": "Hiki",
+  "brand_id": "hiki",
+  "streams": [
+    {
+      "id": "hiki-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hike200"
+      ]
+    },
+    {
+      "id": "hiki-2",
+      "url": "/Streaming/channels/702",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hike200"
+      ]
+    },
+    {
+      "id": "hiki-3",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "hike200"
+      ]
+    },
+    {
+      "id": "hiki-4",
+      "url": "/Streaming/channels/201",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "hike200"
+      ]
+    },
+    {
+      "id": "hiki-5",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "hike200"
+      ]
+    }
+  ]
+}

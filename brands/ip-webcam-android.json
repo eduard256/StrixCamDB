@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "brand": "Ip Webcam Android",
+  "brand_id": "ip-webcam-android",
+  "streams": [
+    {
+      "id": "ip-webcam-android-1",
+      "url": "/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 4747,
+      "models": [
+        "IP WEBCAM FOR ANDROID",
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-android-2",
+      "url": "/video?1280x720",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 4747,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-android-3",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-android-4",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-android-5",
+      "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ip-webcam-android-6",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "White Phone"
+      ]
+    }
+  ]
+}

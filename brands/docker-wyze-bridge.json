@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Docker Wyze Bridge",
+  "brand_id": "docker-wyze-bridge",
+  "streams": [
+    {
+      "id": "docker-wyze-bridge-1",
+      "url": "/floodlight-cam",
+      "type": "FFMPEG",
+      "protocol": "rtmp",
+      "port": 1935,
+      "models": [
+        "Flood Camera"
+      ]
+    },
+    {
+      "id": "docker-wyze-bridge-2",
+      "url": "/sideway-cam",
+      "type": "FFMPEG",
+      "protocol": "rtmp",
+      "port": 1935,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "docker-wyze-bridge-3",
+      "url": "/aurora",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Wyze"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tl-sc3130g",
+  "brand_id": "tl-sc3130g",
+  "streams": [
+    {
+      "id": "tl-sc3130g-1",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

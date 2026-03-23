@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Nadatel",
+  "brand_id": "nadatel",
+  "streams": [
+    {
+      "id": "nadatel-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "camera 4"
+      ]
+    },
+    {
+      "id": "nadatel-2",
+      "url": "/stream0/Channel=0;Profile=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ip1"
+      ]
+    },
+    {
+      "id": "nadatel-3",
+      "url": "1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP1"
+      ]
+    }
+  ]
+}

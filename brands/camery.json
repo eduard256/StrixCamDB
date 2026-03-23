@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Camery",
+  "brand_id": "camery",
+  "streams": [
+    {
+      "id": "camery-1",
+      "url": "cam2/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "h.264 network dvr"
+      ]
+    },
+    {
+      "id": "camery-2",
+      "url": "cam[CHANNEL]/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "h.264 network dvr"
+      ]
+    }
+  ]
+}

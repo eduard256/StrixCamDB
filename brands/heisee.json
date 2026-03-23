@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Heisee",
+  "brand_id": "heisee",
+  "streams": [
+    {
+      "id": "heisee-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "360 DOM CHINA"
+      ]
+    }
+  ]
+}

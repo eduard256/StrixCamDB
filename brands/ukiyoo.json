@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ukiyoo",
+  "brand_id": "ukiyoo",
+  "streams": [
+    {
+      "id": "ukiyoo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "Mini"
+      ]
+    }
+  ]
+}

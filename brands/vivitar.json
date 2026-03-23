@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "brand": "Vivitar",
+  "brand_id": "vivitar",
+  "streams": [
+    {
+      "id": "vivitar-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "IP 113",
+        "IPC112N",
+        "IPC113",
+        "IPC117",
+        "IPC222",
+        "Other"
+      ]
+    },
+    {
+      "id": "vivitar-2",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "IP-117"
+      ]
+    },
+    {
+      "id": "vivitar-3",
+      "url": "cam[CHANNEL]/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "IPC113"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Orvibo",
+  "brand_id": "orvibo",
+  "streams": [
+    {
+      "id": "orvibo-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SC10W"
+      ]
+    }
+  ]
+}

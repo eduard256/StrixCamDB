@@ -1,0 +1,243 @@
+{
+  "version": 2,
+  "brand": "Gadspot",
+  "brand_id": "gadspot",
+  "streams": [
+    {
+      "id": "gadspot-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "002drnq",
+        "002drnx"
+      ]
+    },
+    {
+      "id": "gadspot-2",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GS-1000",
+        "nc1000",
+        "NC1000-L10",
+        "NC1000-W10"
+      ]
+    },
+    {
+      "id": "gadspot-3",
+      "url": "stillimg[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GS2002 DVR w/ Web Port"
+      ]
+    },
+    {
+      "id": "gadspot-4",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GS2102"
+      ]
+    },
+    {
+      "id": "gadspot-5",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GS-W221A",
+        "Other"
+      ]
+    },
+    {
+      "id": "gadspot-6",
+      "url": "cgi-bin/getimage.cgi?motion=1",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAM1200",
+        "NC-1000/1600 Series",
+        "nc1200",
+        "NC-1200 Series"
+      ]
+    },
+    {
+      "id": "gadspot-7",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N1000",
+        "N1250",
+        "NC800"
+      ]
+    },
+    {
+      "id": "gadspot-8",
+      "url": "Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N1000",
+        "N1250",
+        "NC-1000/1600 SERIES",
+        "NC1000-L10",
+        "nc1000-w10",
+        "NC-1200 SERIES",
+        "NC800",
+        "Other"
+      ]
+    },
+    {
+      "id": "gadspot-9",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N1000",
+        "NC-1200 Series"
+      ]
+    },
+    {
+      "id": "gadspot-10",
+      "url": "cgi-bin/jpg/image",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N1000"
+      ]
+    },
+    {
+      "id": "gadspot-11",
+      "url": "video.mp4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "N1000",
+        "N1250"
+      ]
+    },
+    {
+      "id": "gadspot-12",
+      "url": "GetData.cgi?Status=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N1250",
+        "NC-1200 SERIES",
+        "NC800",
+        "Other"
+      ]
+    },
+    {
+      "id": "gadspot-13",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N1250"
+      ]
+    },
+    {
+      "id": "gadspot-14",
+      "url": "cgi-bin/admin/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "n600e"
+      ]
+    },
+    {
+      "id": "gadspot-15",
+      "url": "GetData.cgi?Status=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-1000/1600 Series"
+      ]
+    },
+    {
+      "id": "gadspot-16",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-1000/1600 SERIES",
+        "nc1000-l10",
+        "NC1000-W10",
+        "Other"
+      ]
+    },
+    {
+      "id": "gadspot-17",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nc1000-l10"
+      ]
+    },
+    {
+      "id": "gadspot-18",
+      "url": "cgi-bin/getimage.cgi?motion=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC-1200 Series",
+        "Other"
+      ]
+    },
+    {
+      "id": "gadspot-19",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC800"
+      ]
+    },
+    {
+      "id": "gadspot-20",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "gadspot-21",
+      "url": "tmp/snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

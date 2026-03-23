@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Greentel",
+  "brand_id": "greentel",
+  "streams": [
+    {
+      "id": "greentel-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "mx90"
+      ]
+    }
+  ]
+}

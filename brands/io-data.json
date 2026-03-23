@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "brand": "Io Data",
+  "brand_id": "io-data",
+  "streams": [
+    {
+      "id": "io-data-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Qwatch",
+        "TS-NA220W",
+        "TS-NS410W"
+      ]
+    },
+    {
+      "id": "io-data-2",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "qwatch",
+        "Qwatch",
+        "TS-WLC2",
+        "TS-WPTCAM",
+        "ts-wrfe"
+      ]
+    },
+    {
+      "id": "io-data-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "io-data-4",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "qwatch",
+        "Qwatch",
+        "TS-WLC2"
+      ]
+    },
+    {
+      "id": "io-data-5",
+      "url": "/mjpg/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "qwatch",
+        "RTSTS-WRLP",
+        "TS-WRLP"
+      ]
+    },
+    {
+      "id": "io-data-6",
+      "url": "snapshot.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Qwatch"
+      ]
+    },
+    {
+      "id": "io-data-7",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Qwatch"
+      ]
+    }
+  ]
+}

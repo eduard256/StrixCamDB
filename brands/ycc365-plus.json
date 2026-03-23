@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "brand": "Ycc365 Plus",
+  "brand_id": "ycc365-plus",
+  "streams": [
+    {
+      "id": "ycc365-plus-1",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "365PLUS",
+        "CLOUD CAM"
+      ]
+    },
+    {
+      "id": "ycc365-plus-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "365PLUS"
+      ]
+    },
+    {
+      "id": "ycc365-plus-3",
+      "url": "/H264/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "365PLUS",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "ycc365-plus-4",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Cloud Cam",
+        "Other"
+      ]
+    },
+    {
+      "id": "ycc365-plus-5",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "Cloud Cam"
+      ]
+    },
+    {
+      "id": "ycc365-plus-6",
+      "url": "MediaInput/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Cloud Cam",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "ycc365-plus-7",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CLOUD CAM"
+      ]
+    }
+  ]
+}

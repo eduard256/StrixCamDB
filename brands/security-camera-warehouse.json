@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Security Camera Warehouse",
+  "brand_id": "security-camera-warehouse",
+  "streams": [
+    {
+      "id": "security-camera-warehouse-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "43230",
+        "Viking 4.0"
+      ]
+    },
+    {
+      "id": "security-camera-warehouse-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Warrior 2.0 v2"
+      ]
+    }
+  ]
+}

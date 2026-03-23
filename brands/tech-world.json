@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Tech World",
+  "brand_id": "tech-world",
+  "streams": [
+    {
+      "id": "tech-world-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fisheye"
+      ]
+    }
+  ]
+}

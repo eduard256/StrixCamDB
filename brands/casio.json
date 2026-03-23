@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Casio",
+  "brand_id": "casio",
+  "streams": [
+    {
+      "id": "casio-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "comm",
+        "GZ1",
+        "GzOne Commando"
+      ]
+    }
+  ]
+}

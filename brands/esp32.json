@@ -1,0 +1,212 @@
+{
+  "version": 2,
+  "brand": "Esp32",
+  "brand_id": "esp32",
+  "streams": [
+    {
+      "id": "esp32-1",
+      "url": "/stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "AI thinker",
+        "AI_THINKER",
+        "AiThinker",
+        "Ai-Thinker",
+        "AITHINKER",
+        "esp32cam",
+        "esp32-cam",
+        "ESP32-CAM",
+        "ESP32-S",
+        "Other",
+        "OV2460",
+        "selber",
+        "wde",
+        "Wrover"
+      ]
+    },
+    {
+      "id": "esp32-2",
+      "url": "/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "AI THINKER",
+        "esp32 cam",
+        "ESP32CAM",
+        "Other"
+      ]
+    },
+    {
+      "id": "esp32-3",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "AI THINKER",
+        "AI_THINKER",
+        "arduino",
+        "ESP32-CAM",
+        "Other"
+      ]
+    },
+    {
+      "id": "esp32-4",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "AI_THINKER",
+        "Enhanced Demo",
+        "ESP 32",
+        "esp32-cam",
+        "ESP32CAM",
+        "ESP32-CAM",
+        "ESP32-S",
+        "n/a",
+        "Other"
+      ]
+    },
+    {
+      "id": "esp32-5",
+      "url": "/cam.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "AiThinker",
+        "ESP32-CAM",
+        "ESP32CAM-S",
+        "Other"
+      ]
+    },
+    {
+      "id": "esp32-6",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Ameba82-Mini"
+      ]
+    },
+    {
+      "id": "esp32-7",
+      "url": "/deadbeef",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "diy"
+      ]
+    },
+    {
+      "id": "esp32-8",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "esp32cam"
+      ]
+    },
+    {
+      "id": "esp32-9",
+      "url": "/?action=stream",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ESP32-CAM"
+      ]
+    },
+    {
+      "id": "esp32-10",
+      "url": "/camera.jpg?camera=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ESP32-CAM"
+      ]
+    },
+    {
+      "id": "esp32-11",
+      "url": "/Stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "ESP32-CAM"
+      ]
+    },
+    {
+      "id": "esp32-12",
+      "url": "/mjpeg/1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ESP32-CAM",
+        "ESP32-CAM-MINE",
+        "Other",
+        "xiao esp32 sense cam"
+      ]
+    },
+    {
+      "id": "esp32-13",
+      "url": "/view",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "ESP32-S"
+      ]
+    },
+    {
+      "id": "esp32-14",
+      "url": "mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "esp32-15",
+      "url": "/snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other",
+        "Tasmota"
+      ]
+    },
+    {
+      "id": "esp32-16",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "esp32-17",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Tasmota"
+      ]
+    }
+  ]
+}

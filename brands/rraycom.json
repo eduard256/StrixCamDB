@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Rraycom",
+  "brand_id": "rraycom",
+  "streams": [
+    {
+      "id": "rraycom-1",
+      "url": "/h264?ch=0&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Wired HD Flood"
+      ]
+    }
+  ]
+}

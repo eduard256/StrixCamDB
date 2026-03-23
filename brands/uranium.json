@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Uranium",
+  "brand_id": "uranium",
+  "streams": [
+    {
+      "id": "uranium-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "D1011C"
+      ]
+    },
+    {
+      "id": "uranium-2",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SIP-10A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Awow",
+  "brand_id": "awow",
+  "streams": [
+    {
+      "id": "awow-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "E97A"
+      ]
+    }
+  ]
+}

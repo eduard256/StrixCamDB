@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Economato",
+  "brand_id": "economato",
+  "streams": [
+    {
+      "id": "economato-1",
+      "url": "/live/video_audio/profile3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 88,
+      "models": [
+        "AVTECH"
+      ]
+    }
+  ]
+}

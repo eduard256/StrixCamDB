@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Youluke",
+  "brand_id": "youluke",
+  "streams": [
+    {
+      "id": "youluke-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "p2-20x-5mp-wfat"
+      ]
+    },
+    {
+      "id": "youluke-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "p2-20x-5mp-wfat"
+      ]
+    }
+  ]
+}

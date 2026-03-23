@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Abron",
+  "brand_id": "abron",
+  "streams": [
+    {
+      "id": "abron-1",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AB-IPR506NB-US"
+      ]
+    }
+  ]
+}

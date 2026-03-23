@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Bv-security",
+  "brand_id": "bv-security",
+  "streams": [
+    {
+      "id": "bv-security-1",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPDF-3082M-28A"
+      ]
+    },
+    {
+      "id": "bv-security-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IPDF-3082M-28A"
+      ]
+    },
+    {
+      "id": "bv-security-3",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Tapo: C501 GW"
+      ]
+    }
+  ]
+}

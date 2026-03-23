@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "brand": "Corega",
+  "brand_id": "corega",
+  "streams": [
+    {
+      "id": "corega-1",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CG-NC034A",
+        "CG-NCMNL",
+        "CG-NCVD031A",
+        "NC",
+        "Other",
+        "wlncm4g"
+      ]
+    },
+    {
+      "id": "corega-2",
+      "url": "mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cg-ncmn",
+        "Other"
+      ]
+    },
+    {
+      "id": "corega-3",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cg-ncmnv2",
+        "Other"
+      ]
+    },
+    {
+      "id": "corega-4",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cg-ncmnv2",
+        "NC",
+        "Other"
+      ]
+    },
+    {
+      "id": "corega-5",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CG-WLNCM4G"
+      ]
+    },
+    {
+      "id": "corega-6",
+      "url": "goform/capture",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

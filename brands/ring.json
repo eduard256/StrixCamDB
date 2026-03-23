@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "brand": "Ring",
+  "brand_id": "ring",
+  "streams": [
+    {
+      "id": "ring-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Doorbell",
+        "pro",
+        "Pro"
+      ]
+    },
+    {
+      "id": "ring-2",
+      "url": "/ring.0/doorbell_82595437/livestream.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8082,
+      "models": [
+        "Doorbell"
+      ]
+    },
+    {
+      "id": "ring-3",
+      "url": "/image.cgi?type=motion&camera=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "doorbell 3",
+        "Doorbell 4",
+        "Stickup Cam",
+        "Video Doorbell Pro"
+      ]
+    },
+    {
+      "id": "ring-4",
+      "url": "/image.cgi?type=motion&camera=2",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ring 3"
+      ]
+    },
+    {
+      "id": "ring-5",
+      "url": "/343ea4d97645_live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Ring Dorbell Wired"
+      ]
+    },
+    {
+      "id": "ring-6",
+      "url": "image.cgi?type=motion&camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Stickup Cam"
+      ]
+    },
+    {
+      "id": "ring-7",
+      "url": "/api/camera_proxy_stream/camera.front_live_view",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8123,
+      "models": [
+        "Stickup Cam"
+      ]
+    },
+    {
+      "id": "ring-8",
+      "url": "/api/camera_proxy_stream/camera.gate_live_view",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8123,
+      "models": [
+        "Video Doorbell Pro"
+      ]
+    },
+    {
+      "id": "ring-9",
+      "url": "/api/camera_proxy_stream/camera.garden_live_view",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Video Doorbell Pro"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Banzoo",
+  "brand_id": "banzoo",
+  "streams": [
+    {
+      "id": "banzoo-1",
+      "url": "img/video.sav",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "8021"
+      ]
+    },
+    {
+      "id": "banzoo-2",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8021"
+      ]
+    }
+  ]
+}

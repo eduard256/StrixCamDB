@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Owluck",
+  "brand_id": "owluck",
+  "streams": [
+    {
+      "id": "owluck-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CloudCam"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Novicam",
+  "brand_id": "novicam",
+  "streams": [
+    {
+      "id": "novicam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "133",
+        "N12W",
+        "n22w",
+        "nc29wp",
+        "nc30",
+        "novicam n22w"
+      ]
+    },
+    {
+      "id": "novicam-2",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "basic",
+        "basic 30",
+        "Basic30",
+        "NC13WP",
+        "NC24FP",
+        "PRO 22",
+        "pro 225"
+      ]
+    },
+    {
+      "id": "novicam-3",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FR1208",
+        "NC49WP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "version": 2,
+  "brand": "Aipcam",
+  "brand_id": "aipcam",
+  "streams": [
+    {
+      "id": "aipcam-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "222"
+      ]
+    },
+    {
+      "id": "aipcam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "234",
+        "546577",
+        "C6F0SfZ0N0P3L0",
+        "C6F0SfZ3NOP5L0",
+        "c9f0sez0n0p0l0",
+        "imey",
+        "IP-CAM",
+        "IPCAM V380",
+        "IP-CAMERA"
+      ]
+    },
+    {
+      "id": "aipcam-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AMO",
+        "ID002A"
+      ]
+    },
+    {
+      "id": "aipcam-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "atasam",
+        "C9F0SeZ0N0P0L0",
+        "c9F0SeZ3N0P5L0",
+        "COOLCAM",
+        "IPCAM V380",
+        "Other",
+        "SRICAM SP007"
+      ]
+    },
+    {
+      "id": "aipcam-5",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "c9f0sez0n0p0l0"
+      ]
+    },
+    {
+      "id": "aipcam-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "coolcam"
+      ]
+    },
+    {
+      "id": "aipcam-7",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DB POWER",
+        "SRICAM AP006",
+        "SRICAM SP007"
+      ]
+    },
+    {
+      "id": "aipcam-8",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "e3429"
+      ]
+    },
+    {
+      "id": "aipcam-9",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "hhh",
+        "SRICAM AP006",
+        "SRICAM SP007",
+        "wanscam"
+      ]
+    },
+    {
+      "id": "aipcam-10",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "MS-C3263"
+      ]
+    },
+    {
+      "id": "aipcam-11",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aipcam-12",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aipcam-13",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aipcam-14",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aipcam-15",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "mms",
+      "port": 8557,
+      "models": [
+        "SRICAM AP006"
+      ]
+    }
+  ]
+}

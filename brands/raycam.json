@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Raycam",
+  "brand_id": "raycam",
+  "streams": [
+    {
+      "id": "raycam-1",
+      "url": "/1.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "720 X"
+      ]
+    },
+    {
+      "id": "raycam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "L100P"
+      ]
+    }
+  ]
+}

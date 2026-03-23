@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Konnek Stein",
+  "brand_id": "konnek-stein",
+  "streams": [
+    {
+      "id": "konnek-stein-1",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "m23"
+      ]
+    }
+  ]
+}

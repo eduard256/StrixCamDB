@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Vimar",
+  "brand_id": "vimar",
+  "streams": [
+    {
+      "id": "vimar-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "46238.036"
+      ]
+    }
+  ]
+}

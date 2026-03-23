@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hybsys",
+  "brand_id": "hybsys",
+  "streams": [
+    {
+      "id": "hybsys-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP200"
+      ]
+    }
+  ]
+}

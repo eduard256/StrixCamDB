@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Zee Cure",
+  "brand_id": "zee-cure",
+  "streams": [
+    {
+      "id": "zee-cure-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "121"
+      ]
+    },
+    {
+      "id": "zee-cure-2",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "121"
+      ]
+    },
+    {
+      "id": "zee-cure-3",
+      "url": "cgi-bin/view/image?pro_[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "121"
+      ]
+    }
+  ]
+}

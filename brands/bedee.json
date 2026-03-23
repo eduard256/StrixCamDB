@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Bedee",
+  "brand_id": "bedee",
+  "streams": [
+    {
+      "id": "bedee-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2.0 Mega",
+        "Other"
+      ]
+    },
+    {
+      "id": "bedee-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "CT0291",
+        "CT0291BKEU"
+      ]
+    }
+  ]
+}

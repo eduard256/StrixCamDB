@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "brand": "Scw",
+  "brand_id": "scw",
+  "streams": [
+    {
+      "id": "scw-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1025,
+      "models": [
+        "Deputy 2.0",
+        "HNC303-MB",
+        "Other",
+        "Sheriff 8.0",
+        "Warrior 8.0"
+      ]
+    },
+    {
+      "id": "scw-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Deputy 2.0",
+        "deputy 4.0",
+        "sheriff 4.0",
+        "Viking 4.0"
+      ]
+    },
+    {
+      "id": "scw-3",
+      "url": "/Streaming/Channels/3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Sheriff 8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Adv",
+  "brand_id": "adv",
+  "streams": [
+    {
+      "id": "adv-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "adv1",
+        "Other"
+      ]
+    }
+  ]
+}

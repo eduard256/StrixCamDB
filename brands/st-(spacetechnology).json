@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "St (spacetechnology)",
+  "brand_id": "st-(spacetechnology)",
+  "streams": [
+    {
+      "id": "st-(spacetechnology)-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "181 ip home"
+      ]
+    },
+    {
+      "id": "st-(spacetechnology)-2",
+      "url": "/h264Preview_01_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ST - 177 IP"
+      ]
+    }
+  ]
+}

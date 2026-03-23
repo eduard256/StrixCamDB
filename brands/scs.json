@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "brand": "Scs",
+  "brand_id": "scs",
+  "streams": [
+    {
+      "id": "scs-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "wf-100ah"
+      ]
+    },
+    {
+      "id": "scs-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WF-100AH",
+        "WF-100PCX",
+        "wf404",
+        "WF-450"
+      ]
+    },
+    {
+      "id": "scs-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WF-100AH",
+        "wf-100p",
+        "WF-100PCX"
+      ]
+    },
+    {
+      "id": "scs-4",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WF-100PCX"
+      ]
+    },
+    {
+      "id": "scs-5",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WF-100PCX"
+      ]
+    },
+    {
+      "id": "scs-6",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WF-100PCX"
+      ]
+    },
+    {
+      "id": "scs-7",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WF-402H"
+      ]
+    },
+    {
+      "id": "scs-8",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WF-450"
+      ]
+    }
+  ]
+}

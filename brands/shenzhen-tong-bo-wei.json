@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Shenzhen Tong Bo Wei",
+  "brand_id": "shenzhen-tong-bo-wei",
+  "streams": [
+    {
+      "id": "shenzhen-tong-bo-wei-1",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "shenzhen-tong-bo-wei-2",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "V380S"
+      ]
+    }
+  ]
+}

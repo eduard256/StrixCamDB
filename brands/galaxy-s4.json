@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Galaxy S4",
+  "brand_id": "galaxy-s4",
+  "streams": [
+    {
+      "id": "galaxy-s4-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP WebCAM",
+        "My phone"
+      ]
+    }
+  ]
+}

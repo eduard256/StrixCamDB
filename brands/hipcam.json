@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "brand": "Hipcam",
+  "brand_id": "hipcam",
+  "streams": [
+    {
+      "id": "hipcam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "1080P",
+        "c6f0snz0n0pml2",
+        "C7815WIP",
+        "C9F0SeZ0N0P0L0",
+        "C9F0SEZ0N0P0L0",
+        "ckbridg",
+        "Hami",
+        "IP-CAMERA",
+        "Ital;y",
+        "Mexico Closet",
+        "Other",
+        "RGB",
+        "SCM-SW2666FD-3.6HD",
+        "shodan",
+        "sof4"
+      ]
+    },
+    {
+      "id": "hipcam-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1080P",
+        "C6F0SeZ0N0P3L0",
+        "C9F0SEZ0N0P0L0",
+        "Other",
+        "ptz"
+      ]
+    },
+    {
+      "id": "hipcam-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2345",
+        "425",
+        "C6F0SEZ0N0P3L0",
+        "C7815WIP",
+        "C9F0SEZ0N0P0L0",
+        "FDT-FD7902",
+        "NCM620W",
+        "Other"
+      ]
+    },
+    {
+      "id": "hipcam-4",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "C7815WIP"
+      ]
+    },
+    {
+      "id": "hipcam-5",
+      "url": "/udp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "C7815WIP"
+      ]
+    },
+    {
+      "id": "hipcam-6",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "C7815WIP",
+        "Other"
+      ]
+    },
+    {
+      "id": "hipcam-7",
+      "url": "/tmpfs/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "C9F0SEZ0N0P0L0",
+        "Other"
+      ]
+    },
+    {
+      "id": "hipcam-8",
+      "url": "medias2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CMT"
+      ]
+    },
+    {
+      "id": "hipcam-9",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NCM620W",
+        "Other"
+      ]
+    },
+    {
+      "id": "hipcam-10",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

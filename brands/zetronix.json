@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Zetronix",
+  "brand_id": "zetronix",
+  "streams": [
+    {
+      "id": "zetronix-1",
+      "url": "/rtsp_live1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "300w"
+      ]
+    },
+    {
+      "id": "zetronix-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Nano"
+      ]
+    },
+    {
+      "id": "zetronix-3",
+      "url": "/LowResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Nano"
+      ]
+    },
+    {
+      "id": "zetronix-4",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "zCLOCK-4000w"
+      ]
+    }
+  ]
+}

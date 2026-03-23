@@ -1,0 +1,245 @@
+{
+  "version": 2,
+  "brand": "Shixin China",
+  "brand_id": "shixin-china",
+  "streams": [
+    {
+      "id": "shixin-china-1",
+      "url": "/Streaming/channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "10921",
+        "129HW",
+        "IP-05HW",
+        "IP-129HW"
+      ]
+    },
+    {
+      "id": "shixin-china-2",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "129HW",
+        "X9300-MH36"
+      ]
+    },
+    {
+      "id": "shixin-china-3",
+      "url": "/0/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "333"
+      ]
+    },
+    {
+      "id": "shixin-china-4",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H264DVR",
+        "IP-109H RTSP"
+      ]
+    },
+    {
+      "id": "shixin-china-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP Series (Other)",
+        "IP SERIES (Other)"
+      ]
+    },
+    {
+      "id": "shixin-china-6",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Series (Other)",
+        "IP-333"
+      ]
+    },
+    {
+      "id": "shixin-china-7",
+      "url": "pda.cgi?page=image&cam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP Series (Other)",
+        "IP06 v2"
+      ]
+    },
+    {
+      "id": "shixin-china-8",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP-05HW"
+      ]
+    },
+    {
+      "id": "shixin-china-9",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP06 v1",
+        "IP-109H",
+        "IP-129HW"
+      ]
+    },
+    {
+      "id": "shixin-china-10",
+      "url": "showimg_pda.cgi?cam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP06 v1"
+      ]
+    },
+    {
+      "id": "shixin-china-11",
+      "url": "0/video[CHANNEL]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-108H",
+        "IP-109H RTSP",
+        "IP-129HW"
+      ]
+    },
+    {
+      "id": "shixin-china-12",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-109H",
+        "IP-109H RTSP",
+        "ulko"
+      ]
+    },
+    {
+      "id": "shixin-china-13",
+      "url": "/live/stream3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-129HW"
+      ]
+    },
+    {
+      "id": "shixin-china-14",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-129HW"
+      ]
+    },
+    {
+      "id": "shixin-china-15",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-129HW"
+      ]
+    },
+    {
+      "id": "shixin-china-16",
+      "url": "HighResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-129HW",
+        "ONVIF"
+      ]
+    },
+    {
+      "id": "shixin-china-17",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-129HW"
+      ]
+    },
+    {
+      "id": "shixin-china-18",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7070,
+      "models": [
+        "IP-129HW",
+        "ONVIF"
+      ]
+    },
+    {
+      "id": "shixin-china-19",
+      "url": "snapshot.html",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-510"
+      ]
+    },
+    {
+      "id": "shixin-china-20",
+      "url": "live/ch00_0",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM P2P",
+        "Other",
+        "X9300-MH36"
+      ]
+    },
+    {
+      "id": "shixin-china-21",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ONVIF"
+      ]
+    },
+    {
+      "id": "shixin-china-22",
+      "url": "/mpeg4cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ptz1"
+      ]
+    }
+  ]
+}

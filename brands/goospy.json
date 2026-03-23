@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Goospy",
+  "brand_id": "goospy",
+  "streams": [
+    {
+      "id": "goospy-1",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Clock Cam"
+      ]
+    }
+  ]
+}

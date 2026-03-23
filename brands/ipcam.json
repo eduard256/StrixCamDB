@@ -1,0 +1,346 @@
+{
+  "version": 2,
+  "brand": "Ipcam",
+  "brand_id": "ipcam",
+  "streams": [
+    {
+      "id": "ipcam-1",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "121",
+        "125",
+        "4444",
+        "458",
+        "569",
+        "720",
+        "963",
+        "belakang",
+        "C6F0SgZ3N0P6L2",
+        "C9F0SgZ3N0P8L0",
+        "camhi",
+        "DIUS",
+        "G02",
+        "III",
+        "jidycam",
+        "monitoring mgcc",
+        "Other",
+        "PK4",
+        "PK5",
+        "PM1",
+        "RW-C360HD-1080p-dz",
+        "SD CARD Mul",
+        "side",
+        "SN-IPC-5033SW-UK",
+        "th661",
+        "uuu",
+        "WAJAH PK5",
+        "WAJAH PM1",
+        "WAJAH PM3",
+        "wer"
+      ]
+    },
+    {
+      "id": "ipcam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "125",
+        "6024PB-HX131",
+        "7902",
+        "8810",
+        "asdasd",
+        "B6C-CAM-WIFI-1080P-22X",
+        "Boavision",
+        "boh",
+        "C1329DN4-H",
+        "C6F0SfZ3N0P6L2",
+        "C6F0SgZ0N0PfL2",
+        "C6F0SgZ3N0P6L2",
+        "C6F0SgZ3N0PcL2",
+        "c6fos",
+        "C9F0SeZ3N0P8L0",
+        "C9F0SeZ3NOP8LO",
+        "C9F0SgZ3N0P8L0",
+        "cambassa",
+        "CARS",
+        "chima",
+        "CTIPC-285C",
+        "escamg12",
+        "Genbolt",
+        "H254",
+        "HX.9.6",
+        "HX-HD50M28AS",
+        "iegek",
+        "KAMERA CCTV",
+        "lane",
+        "Other",
+        "otp",
+        "P1-4X",
+        "Pan-Tilt",
+        "RT2860",
+        "s3vc",
+        "SD CARD MDv",
+        "sn-ipc-5033sw-uk",
+        "soullife",
+        "SV-B01W-960P-HX",
+        "SVBC",
+        "sxs",
+        "szinocam",
+        "t8809",
+        "tonda",
+        "wh0026",
+        "Y4A-ZA2"
+      ]
+    },
+    {
+      "id": "ipcam-3",
+      "url": "/stream_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 6554,
+      "models": [
+        "7links",
+        "ISNATCH",
+        "Sannce",
+        "WIBULL"
+      ]
+    },
+    {
+      "id": "ipcam-4",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C6F0SEZ0N0P0L0"
+      ]
+    },
+    {
+      "id": "ipcam-5",
+      "url": "/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C6F0SfZ3N0P6L2"
+      ]
+    },
+    {
+      "id": "ipcam-6",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C6F0SgZ3N0P6L2"
+      ]
+    },
+    {
+      "id": "ipcam-7",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C6F0SgZ3N0PdL2"
+      ]
+    },
+    {
+      "id": "ipcam-8",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C9F0SeZ3N0P0L1",
+        "Other",
+        "wxh"
+      ]
+    },
+    {
+      "id": "ipcam-9",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CLOUD"
+      ]
+    },
+    {
+      "id": "ipcam-10",
+      "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C-PO5"
+      ]
+    },
+    {
+      "id": "ipcam-11",
+      "url": "/live/1jfiegbrqhd4q_p0_FUZGACFWEXMY",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "FI-362B"
+      ]
+    },
+    {
+      "id": "ipcam-12",
+      "url": "/live/1jfiegbrqop2a_p0_CNCOZJTHRMYP",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "kamtron 826"
+      ]
+    },
+    {
+      "id": "ipcam-13",
+      "url": "/live/1jfiegbrqop2a_p0_LBRUMVRZOQXB",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "kt1"
+      ]
+    },
+    {
+      "id": "ipcam-14",
+      "url": "/live/1jfiegbrqop2a_p0_ISUOFYIAJSWB",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "KT1"
+      ]
+    },
+    {
+      "id": "ipcam-15",
+      "url": "/LowResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "onvif"
+      ]
+    },
+    {
+      "id": "ipcam-16",
+      "url": "/HighResolutionVideo",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "onvif"
+      ]
+    },
+    {
+      "id": "ipcam-17",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-18",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-19",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-20",
+      "url": "/videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8080,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-21",
+      "url": "/video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-22",
+      "url": "/videostream.cgi",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ipcam-23",
+      "url": "/stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "OV2460"
+      ]
+    },
+    {
+      "id": "ipcam-24",
+      "url": "/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "PE-5577"
+      ]
+    },
+    {
+      "id": "ipcam-25",
+      "url": "live/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PHD46F325AP"
+      ]
+    },
+    {
+      "id": "ipcam-26",
+      "url": "/video0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VIG-us723A"
+      ]
+    }
+  ]
+}

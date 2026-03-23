@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Giga",
+  "brand_id": "giga",
+  "streams": [
+    {
+      "id": "giga-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "gb 150"
+      ]
+    },
+    {
+      "id": "giga-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GB 150"
+      ]
+    },
+    {
+      "id": "giga-3",
+      "url": "jpg/1/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Giga01"
+      ]
+    },
+    {
+      "id": "giga-4",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "gigacam"
+      ]
+    }
+  ]
+}

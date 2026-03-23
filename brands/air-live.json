@@ -1,0 +1,167 @@
+{
+  "version": 2,
+  "brand": "Air Live",
+  "brand_id": "air-live",
+  "streams": [
+    {
+      "id": "air-live-1",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "2015",
+        "Gabinet",
+        "OD-2025HD",
+        "SC-300"
+      ]
+    },
+    {
+      "id": "air-live-2",
+      "url": "/Video?Codec=MPEG4&Width=720&Height=576&Fps=30",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "325HD"
+      ]
+    },
+    {
+      "id": "air-live-3",
+      "url": "/video.pro1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BU720"
+      ]
+    },
+    {
+      "id": "air-live-4",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CV-720IR"
+      ]
+    },
+    {
+      "id": "air-live-5",
+      "url": "live3.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FE-201DM"
+      ]
+    },
+    {
+      "id": "air-live-6",
+      "url": "/live1.sdp",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "FE-501HD"
+      ]
+    },
+    {
+      "id": "air-live-7",
+      "url": "/mpeg4/media.amp?resolution=640x480",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "MD-720",
+        "POE-200HD"
+      ]
+    },
+    {
+      "id": "air-live-8",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "OD2015HD",
+        "POE-200HD",
+        "WN-2600HD"
+      ]
+    },
+    {
+      "id": "air-live-9",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OD-2025HD"
+      ]
+    },
+    {
+      "id": "air-live-10",
+      "url": "/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "poe 200 cam"
+      ]
+    },
+    {
+      "id": "air-live-11",
+      "url": "/video.mp4",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "poe200",
+        "poe200 camv2",
+        "POE-200HD"
+      ]
+    },
+    {
+      "id": "air-live-12",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WL=350HD",
+        "wl-2600cam",
+        "wl-350hd"
+      ]
+    },
+    {
+      "id": "air-live-13",
+      "url": "/mjpg/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "wl-1200cam"
+      ]
+    },
+    {
+      "id": "air-live-14",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "WN-200HD"
+      ]
+    },
+    {
+      "id": "air-live-15",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "WN2600"
+      ]
+    }
+  ]
+}

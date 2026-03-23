@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Exotic Life",
+  "brand_id": "exotic-life",
+  "streams": [
+    {
+      "id": "exotic-life-1",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AP-001-A"
+      ]
+    }
+  ]
+}

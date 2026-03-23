@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Beenocam",
+  "brand_id": "beenocam",
+  "streams": [
+    {
+      "id": "beenocam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "SN-PC-4007W10"
+      ]
+    }
+  ]
+}

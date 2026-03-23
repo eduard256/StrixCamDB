@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hanhwa",
+  "brand_id": "hanhwa",
+  "streams": [
+    {
+      "id": "hanhwa-1",
+      "url": "/profile1/media.smp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "VDR-10002"
+      ]
+    }
+  ]
+}

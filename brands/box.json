@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Box",
+  "brand_id": "box",
+  "streams": [
+    {
+      "id": "box-1",
+      "url": "/rtsp_live1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BlackBox"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "Atheros",
+  "brand_id": "atheros",
+  "streams": [
+    {
+      "id": "atheros-1",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AR 9285"
+      ]
+    },
+    {
+      "id": "atheros-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ar9285"
+      ]
+    },
+    {
+      "id": "atheros-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AR9285"
+      ]
+    },
+    {
+      "id": "atheros-4",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "yi-hack-v4",
+  "brand_id": "yi-hack-v4",
+  "streams": [
+    {
+      "id": "yi-hack-v4-1",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "YI HOME 720P",
+        "Yi Home 720p",
+        "17CN",
+        "27US",
+        "47CN"
+      ],
+      "notes": "Yi Home 720p - Hi3518e chipset - HD stream"
+    },
+    {
+      "id": "yi-hack-v4-2",
+      "url": "/ch0_1.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "YI HOME 720P",
+        "Yi Home 720p",
+        "17CN",
+        "27US",
+        "47CN"
+      ],
+      "notes": "Yi Home 720p - Hi3518e chipset - SD stream"
+    }
+  ]
+}

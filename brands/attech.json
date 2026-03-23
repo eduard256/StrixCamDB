@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Attech",
+  "brand_id": "attech",
+  "streams": [
+    {
+      "id": "attech-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "starter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Micro View",
+  "brand_id": "micro-view",
+  "streams": [
+    {
+      "id": "micro-view-1",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "I13B",
+        "Other"
+      ]
+    },
+    {
+      "id": "micro-view-2",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NVR16"
+      ]
+    }
+  ]
+}

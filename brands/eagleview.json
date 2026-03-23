@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Eagleview",
+  "brand_id": "eagleview",
+  "streams": [
+    {
+      "id": "eagleview-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SS-IP13MPD55"
+      ]
+    }
+  ]
+}

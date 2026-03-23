@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Att",
+  "brand_id": "att",
+  "streams": [
+    {
+      "id": "att-1",
+      "url": "/img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "OC810"
+      ]
+    },
+    {
+      "id": "att-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8221",
+        "RC8221D"
+      ]
+    }
+  ]
+}

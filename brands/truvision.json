@@ -1,0 +1,189 @@
+{
+  "version": 2,
+  "brand": "Truvision",
+  "brand_id": "truvision",
+  "streams": [
+    {
+      "id": "truvision-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "1225",
+        "Flexidome HD",
+        "Other",
+        "TVA-1101",
+        "TVB-5506",
+        "TVB-5603",
+        "tvc-m5225e-3m-p",
+        "tvd-1103",
+        "TVD-5604",
+        "TVD-M2225V-2-P",
+        "TVW-3101",
+        "TVW-5605"
+      ]
+    },
+    {
+      "id": "truvision-2",
+      "url": "/Streaming/Unicast/channels/401",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2232P16",
+        "22s"
+      ]
+    },
+    {
+      "id": "truvision-3",
+      "url": "/Streaming/channels/301",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "2232P16",
+        "22s",
+        "TVN1008S"
+      ]
+    },
+    {
+      "id": "truvision-4",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "22s",
+        "Flexidome HD",
+        "TVB-5506",
+        "tvc-m5225e-3m-p",
+        "TVD-3101",
+        "tvd-6504",
+        "TVN-10S",
+        "TVP-1104",
+        "TVW-3101"
+      ]
+    },
+    {
+      "id": "truvision-5",
+      "url": "/Streaming/channels/902",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "22s",
+        "Other"
+      ]
+    },
+    {
+      "id": "truvision-6",
+      "url": "/Streaming/channels/702",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "22s"
+      ]
+    },
+    {
+      "id": "truvision-7",
+      "url": "/Streaming/Unicast/channels/202",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1024,
+      "models": [
+        "22s",
+        "22S"
+      ]
+    },
+    {
+      "id": "truvision-8",
+      "url": "/Streaming/channels/901",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "22s"
+      ]
+    },
+    {
+      "id": "truvision-9",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "T17924-16LS"
+      ]
+    },
+    {
+      "id": "truvision-10",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TVB-5603",
+        "TVD-1203",
+        "tvd-5303",
+        "TVD-5305",
+        "TVD-N210V-2-N",
+        "UVP-N120P-36X-P"
+      ]
+    },
+    {
+      "id": "truvision-11",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TVB-5603",
+        "TVF-3104"
+      ]
+    },
+    {
+      "id": "truvision-12",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TVB-5607"
+      ]
+    },
+    {
+      "id": "truvision-13",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "tvd-5303",
+        "TVD-5305",
+        "TVW-5605"
+      ]
+    },
+    {
+      "id": "truvision-14",
+      "url": "/rtsph2641080p",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "TVD-5303"
+      ]
+    },
+    {
+      "id": "truvision-15",
+      "url": "axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TVD-M2225V-2-P"
+      ]
+    }
+  ]
+}

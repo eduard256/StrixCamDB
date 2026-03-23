@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Reotech",
+  "brand_id": "reotech",
+  "streams": [
+    {
+      "id": "reotech-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "I712-POE-HS-4MP"
+      ]
+    }
+  ]
+}

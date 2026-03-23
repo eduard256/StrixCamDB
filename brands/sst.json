@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Sst",
+  "brand_id": "sst",
+  "streams": [
+    {
+      "id": "sst-1",
+      "url": "/mjpeg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SST-CNS-BUI18"
+      ]
+    },
+    {
+      "id": "sst-2",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SST-CNS-BUI18"
+      ]
+    }
+  ]
+}

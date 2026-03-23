@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Cop",
+  "brand_id": "cop",
+  "streams": [
+    {
+      "id": "cop-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

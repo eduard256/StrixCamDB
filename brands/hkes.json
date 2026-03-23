@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hkes",
+  "brand_id": "hkes",
+  "streams": [
+    {
+      "id": "hkes-1",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ONVIF"
+      ]
+    }
+  ]
+}

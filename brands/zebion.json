@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Zebion",
+  "brand_id": "zebion",
+  "streams": [
+    {
+      "id": "zebion-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C918IP"
+      ]
+    }
+  ]
+}

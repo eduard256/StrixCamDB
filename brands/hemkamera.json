@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hemkamera",
+  "brand_id": "hemkamera",
+  "streams": [
+    {
+      "id": "hemkamera-1",
+      "url": "/control/faststream.jpg?stream=MxPEG&needlength&fps=6",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sw30474689"
+      ]
+    }
+  ]
+}

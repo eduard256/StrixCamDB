@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pisocosina",
+  "brand_id": "pisocosina",
+  "streams": [
+    {
+      "id": "pisocosina-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

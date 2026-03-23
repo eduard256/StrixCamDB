@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Alltec",
+  "brand_id": "alltec",
+  "streams": [
+    {
+      "id": "alltec-1",
+      "url": "imagep/picture.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 5544,
+      "models": [
+        "30901213a"
+      ]
+    }
+  ]
+}

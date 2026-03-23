@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Videotronik",
+  "brand_id": "videotronik",
+  "streams": [
+    {
+      "id": "videotronik-1",
+      "url": "snap.jpg?JpegSize=XL",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC-8470-SFW"
+      ]
+    }
+  ]
+}

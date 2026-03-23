@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bersan",
+  "brand_id": "bersan",
+  "streams": [
+    {
+      "id": "bersan-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BSI-D114"
+      ]
+    },
+    {
+      "id": "bersan-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BSI-D114"
+      ]
+    }
+  ]
+}

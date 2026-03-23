@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Danmini",
+  "brand_id": "danmini",
+  "streams": [
+    {
+      "id": "danmini-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "doorbell"
+      ]
+    }
+  ]
+}

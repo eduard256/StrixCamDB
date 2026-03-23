@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "I Can See",
+  "brand_id": "i-can-see",
+  "streams": [
+    {
+      "id": "i-can-see-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Bullet"
+      ]
+    },
+    {
+      "id": "i-can-see-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BULLET",
+        "ICS-IP1300",
+        "ICSM-IP3000",
+        "Other"
+      ]
+    },
+    {
+      "id": "i-can-see-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICS-IP2000"
+      ]
+    }
+  ]
+}

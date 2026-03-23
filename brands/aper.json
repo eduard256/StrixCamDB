@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Aper",
+  "brand_id": "aper",
+  "streams": [
+    {
+      "id": "aper-1",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "dcs5013",
+        "dsc5013",
+        "NC-D5013"
+      ]
+    },
+    {
+      "id": "aper-2",
+      "url": "mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "i70"
+      ]
+    },
+    {
+      "id": "aper-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "I70"
+      ]
+    },
+    {
+      "id": "aper-4",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "nc e3"
+      ]
+    }
+  ]
+}

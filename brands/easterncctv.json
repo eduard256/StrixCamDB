@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Easterncctv",
+  "brand_id": "easterncctv",
+  "streams": [
+    {
+      "id": "easterncctv-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-IR3S24-2.8",
+        "IP-IRD2S02-W"
+      ]
+    }
+  ]
+}

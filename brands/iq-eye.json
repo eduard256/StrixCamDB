@@ -1,0 +1,365 @@
+{
+  "version": 2,
+  "brand": "Iq Eye",
+  "brand_id": "iq-eye",
+  "streams": [
+    {
+      "id": "iq-eye-1",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "216fd"
+      ]
+    },
+    {
+      "id": "iq-eye-2",
+      "url": "/rtsp/onvif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3",
+        "IQ8712",
+        "IQR53"
+      ]
+    },
+    {
+      "id": "iq-eye-3",
+      "url": "now.jpg?ds=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3",
+        "4 SERIES",
+        "501",
+        "511",
+        "711D",
+        "IP Cams",
+        "IP CAMS",
+        "IQ031S",
+        "IQ041S",
+        "IQ511",
+        "IQ732N",
+        "IQD10S",
+        "iqm52w",
+        "Other",
+        "SENTINEL 855"
+      ]
+    },
+    {
+      "id": "iq-eye-4",
+      "url": "/now.jpg?snap=spush?ww=1600?wh=1200?wx=0?wy=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "30S",
+        "4 Series",
+        "IQ711"
+      ]
+    },
+    {
+      "id": "iq-eye-5",
+      "url": "now.jpg?snap=spush",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4 series",
+        "4 SERIES",
+        "511DV",
+        "542S",
+        "703",
+        "732",
+        "752",
+        "832.33",
+        "832.34",
+        "832.35",
+        "832.36",
+        "A12S",
+        "IQ031S",
+        "IQ041S",
+        "IQ711",
+        "IQ732N",
+        "IQ865N",
+        "IQA15N",
+        "IQA32N",
+        "IQD32S",
+        "IQM32N",
+        "iqm61n",
+        "Other",
+        "S031"
+      ]
+    },
+    {
+      "id": "iq-eye-6",
+      "url": "now.jpg?snap=spush?ds=",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4 SERIES",
+        "511",
+        "IP Cams",
+        "IP CAMS",
+        "IQ4xx",
+        "IQ511",
+        "IQM32N",
+        "m53",
+        "Other",
+        "SENTINEL 855"
+      ]
+    },
+    {
+      "id": "iq-eye-7",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "501",
+        "705",
+        "752",
+        "855",
+        "A12n",
+        "A12S",
+        "IP Cams",
+        "iq511",
+        "IQ711",
+        "Other"
+      ]
+    },
+    {
+      "id": "iq-eye-8",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "501",
+        "511DV",
+        "711D",
+        "755",
+        "Other"
+      ]
+    },
+    {
+      "id": "iq-eye-9",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "511DV",
+        "803",
+        "iqa15n",
+        "IQeye753"
+      ]
+    },
+    {
+      "id": "iq-eye-10",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "705",
+        "755",
+        "802",
+        "A12S",
+        "IP CAMS",
+        "IQA15N",
+        "IQeye753"
+      ]
+    },
+    {
+      "id": "iq-eye-11",
+      "url": "now.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "705",
+        "855",
+        "862",
+        "IP CAMS",
+        "IQ031s",
+        "IQ031S",
+        "IQ732N",
+        "IQ862N",
+        "IQ863N",
+        "IQA32N",
+        "IQD32S",
+        "IQD41s",
+        "IQD62",
+        "IQM31N",
+        "IQM32N",
+        "Other",
+        "Sentinel 855",
+        "SENTINEL 855",
+        "serie 4"
+      ]
+    },
+    {
+      "id": "iq-eye-12",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "752",
+        "753",
+        "803",
+        "Other"
+      ]
+    },
+    {
+      "id": "iq-eye-13",
+      "url": "//now.jpg?snap=spush0.033?ds=1",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "752"
+      ]
+    },
+    {
+      "id": "iq-eye-14",
+      "url": "/mjpg/video.mjpg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "775"
+      ]
+    },
+    {
+      "id": "iq-eye-15",
+      "url": "/rtsp/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "862"
+      ]
+    },
+    {
+      "id": "iq-eye-16",
+      "url": "now.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IQ732N",
+        "IQD31SV-F1"
+      ]
+    },
+    {
+      "id": "iq-eye-17",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IQ862n"
+      ]
+    },
+    {
+      "id": "iq-eye-18",
+      "url": "/now.jpg?snap=spush",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IQ865N",
+        "iqa15n",
+        "Sentinel 853",
+        "Sentinel 855"
+      ]
+    },
+    {
+      "id": "iq-eye-19",
+      "url": "/now.mp4&res=high",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IQD32S"
+      ]
+    },
+    {
+      "id": "iq-eye-20",
+      "url": "/now.mp4&res=low",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IQD32S"
+      ]
+    },
+    {
+      "id": "iq-eye-21",
+      "url": "mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IQM31N",
+        "IQM32N"
+      ]
+    },
+    {
+      "id": "iq-eye-22",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "iq-eye-23",
+      "url": "0/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "iq-eye-24",
+      "url": "/rtsp/now.mp4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "iq-eye-25",
+      "url": "/rtsp/now.jpg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "iq-eye-26",
+      "url": "video?submenu=mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

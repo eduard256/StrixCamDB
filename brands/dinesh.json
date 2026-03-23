@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dinesh",
+  "brand_id": "dinesh",
+  "streams": [
+    {
+      "id": "dinesh-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP-CAM"
+      ]
+    }
+  ]
+}

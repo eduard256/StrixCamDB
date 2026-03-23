@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Avilink",
+  "brand_id": "avilink",
+  "streams": [
+    {
+      "id": "avilink-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NVC208"
+      ]
+    }
+  ]
+}

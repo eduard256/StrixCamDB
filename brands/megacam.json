@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Megacam",
+  "brand_id": "megacam",
+  "streams": [
+    {
+      "id": "megacam-1",
+      "url": "/axis-cgi/mjpg/video.cgi",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4220"
+      ]
+    },
+    {
+      "id": "megacam-2",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "brand": "Leftek",
+  "brand_id": "leftek",
+  "streams": [
+    {
+      "id": "leftek-1",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2mp",
+        "CA11",
+        "ca11-sc-i-poe-223",
+        "LF-CE11-SB-I-POE-223",
+        "Minicam",
+        "Other",
+        "S2018V1"
+      ]
+    },
+    {
+      "id": "leftek-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720P",
+        "Other"
+      ]
+    },
+    {
+      "id": "leftek-3",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720P"
+      ]
+    },
+    {
+      "id": "leftek-4",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "CA11",
+        "CA11-SC-I-POE-223",
+        "LF-CE11-SB-1-POE-223",
+        "LF-CE11-SB-I-PODE-223",
+        "LF-CE11-SB-I-POE-223",
+        "Other"
+      ]
+    },
+    {
+      "id": "leftek-5",
+      "url": "live/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ca11-sc-i-poe-223",
+        "F1-10I",
+        "Other"
+      ]
+    },
+    {
+      "id": "leftek-6",
+      "url": "/2.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "F1-10I"
+      ]
+    },
+    {
+      "id": "leftek-7",
+      "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ptz"
+      ]
+    },
+    {
+      "id": "leftek-8",
+      "url": "mpeg4/[CHANNEL]/media.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ptz"
+      ]
+    }
+  ]
+}

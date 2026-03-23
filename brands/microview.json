@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Microview",
+  "brand_id": "microview",
+  "streams": [
+    {
+      "id": "microview-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "i13d",
+        "I30VD"
+      ]
+    },
+    {
+      "id": "microview-2",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "I30C"
+      ]
+    }
+  ]
+}

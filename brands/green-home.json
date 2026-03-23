@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Green Home",
+  "brand_id": "green-home",
+  "streams": [
+    {
+      "id": "green-home-1",
+      "url": "/video.mjpg?q=30&fps=33&id=0.5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "B-300V2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Hd Ip Camera Depan",
+  "brand_id": "hd-ip-camera-depan",
+  "streams": [
+    {
+      "id": "hd-ip-camera-depan-1",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 8557,
+      "models": [
+        "IPCC N13NW"
+      ]
+    },
+    {
+      "id": "hd-ip-camera-depan-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCC-B15N-W"
+      ]
+    }
+  ]
+}

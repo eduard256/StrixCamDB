@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Shindai",
+  "brand_id": "shindai",
+  "streams": [
+    {
+      "id": "shindai-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "sv-b06w-1080p-hx"
+      ]
+    }
+  ]
+}

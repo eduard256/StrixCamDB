@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Kucam",
+  "brand_id": "kucam",
+  "streams": [
+    {
+      "id": "kucam-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "K201B",
+        "X Series"
+      ]
+    }
+  ]
+}

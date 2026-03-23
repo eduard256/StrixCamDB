@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Sudvision",
+  "brand_id": "sudvision",
+  "streams": [
+    {
+      "id": "sudvision-1",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ib131w",
+        "IP-Pro"
+      ]
+    }
+  ]
+}

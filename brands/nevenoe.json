@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Nevenoe",
+  "brand_id": "nevenoe",
+  "streams": [
+    {
+      "id": "nevenoe-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HD Series"
+      ]
+    }
+  ]
+}

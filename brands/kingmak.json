@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kingmak",
+  "brand_id": "kingmak",
+  "streams": [
+    {
+      "id": "kingmak-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "icam"
+      ]
+    }
+  ]
+}

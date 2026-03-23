@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Doorcam",
+  "brand_id": "doorcam",
+  "streams": [
+    {
+      "id": "doorcam-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "doorcam-2",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

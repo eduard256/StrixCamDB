@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hidrokemel",
+  "brand_id": "hidrokemel",
+  "streams": [
+    {
+      "id": "hidrokemel-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "greatek"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Dvs",
+  "brand_id": "dvs",
+  "streams": [
+    {
+      "id": "dvs-1",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Dome",
+        "FULLHD"
+      ]
+    },
+    {
+      "id": "dvs-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVS-MP5036ET-IRWS",
+        "FULLHD"
+      ]
+    },
+    {
+      "id": "dvs-3",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Egal"
+      ]
+    },
+    {
+      "id": "dvs-4",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Lite wifi"
+      ]
+    }
+  ]
+}

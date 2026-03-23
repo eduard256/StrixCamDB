@@ -1,0 +1,924 @@
+{
+  "version": 2,
+  "brand": "China",
+  "brand_id": "china",
+  "streams": [
+    {
+      "id": "china-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0000",
+        "002hit",
+        "IPCAM P2P",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "0020a",
+        "H264DVR",
+        "Other",
+        "wifi"
+      ]
+    },
+    {
+      "id": "china-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "01",
+        "General area",
+        "ID002A",
+        "ip607wx",
+        "Movable",
+        "nose2",
+        "ONVIF",
+        "Other",
+        "RESORT",
+        "SECRET CLOCK",
+        "Something"
+      ]
+    },
+    {
+      "id": "china-4",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 8554,
+      "models": [
+        "1 Channel",
+        "CHINO",
+        "ONVIF",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080",
+        "12345",
+        "30xzoom",
+        "C9f0se",
+        "CAM-IP1402DV19l",
+        "china2",
+        "chinaEingang",
+        "custem",
+        "goke",
+        "gw-p2vfd-m4x",
+        "HDIPC",
+        "Hof",
+        "IPCAM P2P",
+        "nr1",
+        "Other",
+        "P2P IP CAM",
+        "P2P IP CAMERA",
+        "pinhole",
+        "PTZ",
+        "Robotics",
+        "SOME_ONVIF",
+        "V380",
+        "wifi"
+      ]
+    },
+    {
+      "id": "china-6",
+      "url": "1/cif",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P",
+        "IPCAM P2P",
+        "ONVIF",
+        "Other",
+        "SOME_ONVIF",
+        "V380"
+      ]
+    },
+    {
+      "id": "china-7",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1122",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-8",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "12345",
+        "boavision",
+        "jk-phd54fdm523hs",
+        "SOME_ONVIF"
+      ]
+    },
+    {
+      "id": "china-9",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "360eyes"
+      ]
+    },
+    {
+      "id": "china-10",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "360eyes"
+      ]
+    },
+    {
+      "id": "china-11",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3D cam",
+        "External",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-12",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4830",
+        "Other",
+        "W3200sG-B"
+      ]
+    },
+    {
+      "id": "china-13",
+      "url": "user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp?",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720",
+        "dome",
+        "GENERAL AREA",
+        "H264DVR",
+        "IPCAM P2P",
+        "ONVIF",
+        "Other",
+        "P2P IP CAMERA"
+      ]
+    },
+    {
+      "id": "china-14",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "8904W",
+        "np-02",
+        "ONVIF",
+        "Other",
+        "P2P IP Camera"
+      ]
+    },
+    {
+      "id": "china-15",
+      "url": "cgi-bin/view.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "anben"
+      ]
+    },
+    {
+      "id": "china-16",
+      "url": "/1/cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "aussen",
+        "P2P IP CAM"
+      ]
+    },
+    {
+      "id": "china-17",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "boo",
+        "Dome",
+        "domo",
+        "Other",
+        "wish"
+      ]
+    },
+    {
+      "id": "china-18",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "China 12"
+      ]
+    },
+    {
+      "id": "china-19",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "China1080"
+      ]
+    },
+    {
+      "id": "china-20",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "chinaptz",
+        "IPC2002W",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-21",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CN-6001",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-22",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ct-902",
+        "IH13-KW",
+        "Other",
+        "Tag_Nacht",
+        "v380",
+        "wifi",
+        "wireless",
+        "Xing Ling"
+      ]
+    },
+    {
+      "id": "china-23",
+      "url": "/mpeg4cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dome",
+        "DSSS",
+        "H264DVR",
+        "HDIPC",
+        "HDIPCAM",
+        "IPC4311",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-24",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "dome",
+        "ec60-t11",
+        "IPCAM P2P",
+        "ivideon Bullet",
+        "TEE3760308451597",
+        "tutk"
+      ]
+    },
+    {
+      "id": "china-25",
+      "url": "/onvif/device_service",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "dome"
+      ]
+    },
+    {
+      "id": "china-26",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "easyn p1",
+        "HDIPC",
+        "HDIPCAM",
+        "model",
+        "Other",
+        "ptz",
+        "RG-IP03+",
+        "SKU 64023",
+        "TTTT-030400THFXR",
+        "web",
+        "WVC Series"
+      ]
+    },
+    {
+      "id": "china-27",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EASYN P1",
+        "Other",
+        "SN-IPC-5033SWChin"
+      ]
+    },
+    {
+      "id": "china-28",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "eyeplus",
+        "minispycamera",
+        "MSC316DM-V02",
+        "onvif",
+        "P2P IP Camera",
+        "V380"
+      ]
+    },
+    {
+      "id": "china-29",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "fm105",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-30",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Generic Chinese Onvif",
+        "H264DVR",
+        "hc615-p"
+      ]
+    },
+    {
+      "id": "china-31",
+      "url": "/live1.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H210",
+        "ONVIF"
+      ]
+    },
+    {
+      "id": "china-32",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "H246",
+        "y5a-wa"
+      ]
+    },
+    {
+      "id": "china-33",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HDIPC",
+        "idk",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-34",
+      "url": "video/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDIPC"
+      ]
+    },
+    {
+      "id": "china-35",
+      "url": "/live0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "HDIPC",
+        "ONVIF",
+        "SOME_ONVIF"
+      ]
+    },
+    {
+      "id": "china-36",
+      "url": "snapshot.cgi?camera=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDIPC",
+        "IPC2002W",
+        "SECRET CLOCK",
+        "wifi"
+      ]
+    },
+    {
+      "id": "china-37",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 5544,
+      "models": [
+        "HDIPC",
+        "IP-02OAM",
+        "ONVIF",
+        "Other",
+        "SECRET CLOCK",
+        "Something"
+      ]
+    },
+    {
+      "id": "china-38",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDIPCAM",
+        "Other",
+        "P2P IP CAMERA",
+        "PTZCAM"
+      ]
+    },
+    {
+      "id": "china-39",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDIPCAM",
+        "IPCAM P2P",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-40",
+      "url": "cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDIPCAM",
+        "P2P IP CAMERA"
+      ]
+    },
+    {
+      "id": "china-41",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HDIPCAM",
+        "ONVIF",
+        "SOME_ONVIF"
+      ]
+    },
+    {
+      "id": "china-42",
+      "url": "cam[CHANNEL]/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "idk",
+        "noname 130",
+        "Other",
+        "SOME_ONVIF"
+      ]
+    },
+    {
+      "id": "china-43",
+      "url": "/ROH/channel/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "inocom"
+      ]
+    },
+    {
+      "id": "china-44",
+      "url": "mjpg/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "internet survillance"
+      ]
+    },
+    {
+      "id": "china-45",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip camera 002a",
+        "moja",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-46",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCAM P2P",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-47",
+      "url": "cam1/mpeg4?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-D53M02-BS"
+      ]
+    },
+    {
+      "id": "china-48",
+      "url": "/stream0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "minispycamera",
+        "UniNet"
+      ]
+    },
+    {
+      "id": "china-49",
+      "url": "/goform/video",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ncs601w"
+      ]
+    },
+    {
+      "id": "china-50",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nejaka"
+      ]
+    },
+    {
+      "id": "china-51",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "onvif"
+      ]
+    },
+    {
+      "id": "china-52",
+      "url": "/ch0_0.h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "onvif"
+      ]
+    },
+    {
+      "id": "china-53",
+      "url": "/h264/ch1/sub/av_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "onvif"
+      ]
+    },
+    {
+      "id": "china-54",
+      "url": "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 82,
+      "models": [
+        "onvif"
+      ]
+    },
+    {
+      "id": "china-55",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ONVIF",
+        "V380"
+      ]
+    },
+    {
+      "id": "china-56",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ONVIF",
+        "Other"
+      ]
+    },
+    {
+      "id": "china-57",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other",
+        "PST-WHM10E",
+        "some_onvif"
+      ]
+    },
+    {
+      "id": "china-58",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "china-59",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "R80X20"
+      ]
+    },
+    {
+      "id": "china-60",
+      "url": "snapshot.html",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "china-61",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "china-62",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "china-63",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "china-64",
+      "url": "h264.sdp?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "china-65",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "china-66",
+      "url": "iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "china-67",
+      "url": "/live/ch00_1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "V380"
+      ]
+    },
+    {
+      "id": "china-68",
+      "url": "/cgi-bin/view.cgi?chn=0&u=[USERNAME]&p=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other",
+        "v380"
+      ]
+    },
+    {
+      "id": "china-69",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "P2P IP CAM"
+      ]
+    },
+    {
+      "id": "china-70",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SD_OD_Cam"
+      ]
+    },
+    {
+      "id": "china-71",
+      "url": "/cgi-bin/view.cgi?chn=1&u=[USERNAME]&p=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "v380"
+      ]
+    },
+    {
+      "id": "china-72",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320*240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "v380"
+      ]
+    },
+    {
+      "id": "china-73",
+      "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "v380"
+      ]
+    },
+    {
+      "id": "china-74",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "V380"
+      ]
+    },
+    {
+      "id": "china-75",
+      "url": "/videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "V380"
+      ]
+    },
+    {
+      "id": "china-76",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WIRELESS"
+      ]
+    },
+    {
+      "id": "china-77",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46MTE3TGFrZXdvb2Q=",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "X6E-WEQ"
+      ]
+    }
+  ]
+}

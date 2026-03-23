@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "brand": "Atv",
+  "brand_id": "atv",
+  "streams": [
+    {
+      "id": "atv-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CMIP7442-28M"
+      ]
+    },
+    {
+      "id": "atv-2",
+      "url": "1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPFD2MT",
+        "IPVD2TW"
+      ]
+    },
+    {
+      "id": "atv-3",
+      "url": "/1/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NB237"
+      ]
+    },
+    {
+      "id": "atv-4",
+      "url": "/1/stream1/Profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NB237",
+        "Other"
+      ]
+    },
+    {
+      "id": "atv-5",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VLD4500"
+      ]
+    },
+    {
+      "id": "atv-6",
+      "url": "cgi-bin/net_video.cgi?channel=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "VLD4500"
+      ]
+    }
+  ]
+}

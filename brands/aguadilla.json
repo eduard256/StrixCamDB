@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aguadilla",
+  "brand_id": "aguadilla",
+  "streams": [
+    {
+      "id": "aguadilla-1",
+      "url": "/live/main",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "onvif"
+      ]
+    }
+  ]
+}

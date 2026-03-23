@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Q-nest",
+  "brand_id": "q-nest",
+  "streams": [
+    {
+      "id": "q-nest-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "qn-100s"
+      ]
+    },
+    {
+      "id": "q-nest-2",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "QN-100S"
+      ]
+    },
+    {
+      "id": "q-nest-3",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "QN-130M"
+      ]
+    }
+  ]
+}

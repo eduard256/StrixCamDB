@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "brand": "Hongjingtian",
+  "brand_id": "hongjingtian",
+  "streams": [
+    {
+      "id": "hongjingtian-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1vp-p75",
+        "720P",
+        "bullet",
+        "Bullet",
+        "HJT IP CAMERA",
+        "HJT-IPC6100-B1",
+        "HJT-IPC6100-B1W",
+        "HJT-IPC6200-B1W",
+        "HJT-IPC6200-B2",
+        "HJT-IPC6200-D1",
+        "Other",
+        "Wired"
+      ]
+    },
+    {
+      "id": "hongjingtian-2",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1vp-p75"
+      ]
+    },
+    {
+      "id": "hongjingtian-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720",
+        "720P",
+        "Bullet",
+        "HJT IP CAMERA",
+        "hjt-ipc6100-b1w",
+        "HJT-IPC6100-B1W",
+        "hjt-ipc6100-d1",
+        "HJT-IPC6200-B1W",
+        "HJT-IPC6200-D1",
+        "HJT-IPC6200-D2",
+        "Other",
+        "V6.1.1.2.1-20150320"
+      ]
+    },
+    {
+      "id": "hongjingtian-4",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bullet",
+        "HJT IP CAMERA",
+        "Other"
+      ]
+    },
+    {
+      "id": "hongjingtian-5",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HJT-IPC100-D1W"
+      ]
+    }
+  ]
+}

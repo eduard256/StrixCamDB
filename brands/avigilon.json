@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "brand": "Avigilon",
+  "brand_id": "avigilon",
+  "streams": [
+    {
+      "id": "avigilon-1",
+      "url": "/media/cam0/still.jpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "1.0-H3-D1",
+        "HD H.264 Camera"
+      ]
+    },
+    {
+      "id": "avigilon-2",
+      "url": "/defaultPrimary?streamType=u",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1.0-H3-PO2",
+        "gjgj"
+      ]
+    },
+    {
+      "id": "avigilon-3",
+      "url": "/defaultPrimary?streamType=m",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3.0C-H4A-BO2-IR-B",
+        "6.0MP H5A WDR",
+        "MP5"
+      ]
+    },
+    {
+      "id": "avigilon-4",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "4.0mp h5a wdr"
+      ]
+    },
+    {
+      "id": "avigilon-5",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "C2-0-H3-D1-101505051742"
+      ]
+    },
+    {
+      "id": "avigilon-6",
+      "url": "/defaultPrimary3?streamType=u",
+      "type": "MJPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ENC-4P-H264"
+      ]
+    },
+    {
+      "id": "avigilon-7",
+      "url": "media/still.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H4sl",
+        "HD H.264 Camera"
+      ]
+    },
+    {
+      "id": "avigilon-8",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "HD H.264 Camera"
+      ]
+    },
+    {
+      "id": "avigilon-9",
+      "url": "/defaultPrimary-3?streamType=u",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "M4 Multisensor"
+      ]
+    },
+    {
+      "id": "avigilon-10",
+      "url": "image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

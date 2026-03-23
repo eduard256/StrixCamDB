@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Illumivue",
+  "brand_id": "illumivue",
+  "streams": [
+    {
+      "id": "illumivue-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ILV-IP8T-NC.2-BK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Bikal Ip Cctv",
+  "brand_id": "bikal-ip-cctv",
+  "streams": [
+    {
+      "id": "bikal-ip-cctv-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B22"
+      ]
+    },
+    {
+      "id": "bikal-ip-cctv-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "bikal-ip-cctv-3",
+      "url": "user.pin.mp2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

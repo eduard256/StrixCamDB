@@ -1,0 +1,214 @@
+{
+  "version": 2,
+  "brand": "Huacam",
+  "brand_id": "huacam",
+  "streams": [
+    {
+      "id": "huacam-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5150",
+        "701",
+        "712",
+        "720",
+        "721",
+        "bullet",
+        "Color CCD",
+        "Cyclops",
+        "diagen",
+        "Dome",
+        "FezDW",
+        "foo",
+        "h264",
+        "Hcv 724",
+        "hcv207",
+        "HCV701",
+        "HCV701264x",
+        "HCV712",
+        "HCV720",
+        "HCV724",
+        "HCV724-AL",
+        "HCV824",
+        "HCV824g",
+        "hcv901",
+        "High Res",
+        "hill",
+        "hooha",
+        "HPV701",
+        "Huacam2",
+        "mti1",
+        "noidea",
+        "onvif-vlc",
+        "Other",
+        "UpstairsDeck"
+      ]
+    },
+    {
+      "id": "huacam-2",
+      "url": "snapshot/view[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5150",
+        "703",
+        "712",
+        "714",
+        "724",
+        "Cyclops",
+        "HCV701",
+        "HCV712",
+        "HCV724",
+        "High Res",
+        "hv724",
+        "Other"
+      ]
+    },
+    {
+      "id": "huacam-3",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "7010"
+      ]
+    },
+    {
+      "id": "huacam-4",
+      "url": "/4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "712",
+        "720",
+        "Color CCD",
+        "HCV701",
+        "HCV712",
+        "hcv724",
+        "HCV724",
+        "HCV725",
+        "HCV822",
+        "HCV824",
+        "Huacam2",
+        "Other"
+      ]
+    },
+    {
+      "id": "huacam-5",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "712",
+        "H4RS-S",
+        "HCV701",
+        "HCV701-vlc",
+        "HCV712",
+        "HCV724",
+        "Other",
+        "vlc-me"
+      ]
+    },
+    {
+      "id": "huacam-6",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Cyclops",
+        "Other"
+      ]
+    },
+    {
+      "id": "huacam-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HCV701"
+      ]
+    },
+    {
+      "id": "huacam-8",
+      "url": "goform/stream?cmd=get&channel=[CHANNEL]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HCV712",
+        "High Res"
+      ]
+    },
+    {
+      "id": "huacam-9",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HCV712",
+        "HCV712w"
+      ]
+    },
+    {
+      "id": "huacam-10",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HCV712"
+      ]
+    },
+    {
+      "id": "huacam-11",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HCV712",
+        "Other"
+      ]
+    },
+    {
+      "id": "huacam-12",
+      "url": "LowResolutionVideo",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HCV712",
+        "High Res"
+      ]
+    },
+    {
+      "id": "huacam-13",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HCV720"
+      ]
+    },
+    {
+      "id": "huacam-14",
+      "url": "live.sdp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "sdp"
+      ]
+    }
+  ]
+}

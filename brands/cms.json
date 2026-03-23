@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Cms",
+  "brand_id": "cms",
+  "streams": [
+    {
+      "id": "cms-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NVT",
+        "oprit",
+        "Other",
+        "VoTu"
+      ]
+    },
+    {
+      "id": "cms-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "oprit"
+      ]
+    },
+    {
+      "id": "cms-3",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8899,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

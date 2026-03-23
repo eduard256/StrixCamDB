@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Toughdog",
+  "brand_id": "toughdog",
+  "streams": [
+    {
+      "id": "toughdog-1",
+      "url": "/cam/realmonitor?channel=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HCVR"
+      ]
+    },
+    {
+      "id": "toughdog-2",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

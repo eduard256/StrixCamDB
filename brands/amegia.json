@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Amegia",
+  "brand_id": "amegia",
+  "streams": [
+    {
+      "id": "amegia-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AM5211-E"
+      ]
+    },
+    {
+      "id": "amegia-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

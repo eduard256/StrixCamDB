@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "brand": "Homeguard",
+  "brand_id": "homeguard",
+  "streams": [
+    {
+      "id": "homeguard-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720p",
+        "720P",
+        "CARE",
+        "HD CAM",
+        "HD720P",
+        "HGWIP711",
+        "HGWOB751",
+        "HGWOB851",
+        "HGWOB852",
+        "HOMEGUARD HGWIP711",
+        "HOMEGUARD HGWIP811",
+        "homeguard hgwip818",
+        "IP HD",
+        "ip720",
+        "Other",
+        "WIFI CAM",
+        "WIRELESS CAMERA",
+        "Wireless IP"
+      ]
+    },
+    {
+      "id": "homeguard-2",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720P"
+      ]
+    },
+    {
+      "id": "homeguard-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "720P",
+        "HOMECAMERA",
+        "Other",
+        "wifi cam",
+        "Wireless Camera",
+        "WIRELESS IP"
+      ]
+    },
+    {
+      "id": "homeguard-4",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD720P",
+        "Other",
+        "WIRELESS IP"
+      ]
+    },
+    {
+      "id": "homeguard-5",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HomeCamera"
+      ]
+    },
+    {
+      "id": "homeguard-6",
+      "url": "cam1/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IP HD"
+      ]
+    },
+    {
+      "id": "homeguard-7",
+      "url": "image/[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP HD"
+      ]
+    }
+  ]
+}

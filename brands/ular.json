@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ular",
+  "brand_id": "ular",
+  "streams": [
+    {
+      "id": "ular-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "S3 Spy Cam"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Hengda",
+  "brand_id": "hengda",
+  "streams": [
+    {
+      "id": "hengda-1",
+      "url": "/h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "HD-119"
+      ]
+    },
+    {
+      "id": "hengda-2",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HIP-31L2J"
+      ]
+    }
+  ]
+}

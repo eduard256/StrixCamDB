@@ -1,0 +1,100 @@
+{
+  "version": 2,
+  "brand": "Konig",
+  "brand_id": "konig",
+  "streams": [
+    {
+      "id": "konig-1",
+      "url": "cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4CH digital video recoder"
+      ]
+    },
+    {
+      "id": "konig-2",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "bm60",
+        "H264",
+        "iPCAM100w",
+        "kn-8m60",
+        "kn-bm 60",
+        "KN-BM40",
+        "sas-ipcam115",
+        "SAS-IPCAM116",
+        "SEC-CAMIP20"
+      ]
+    },
+    {
+      "id": "konig-3",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CMP-NWIPCAM20",
+        "COR"
+      ]
+    },
+    {
+      "id": "konig-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cmp-nwipcam22",
+        "CMP-NWIPCAM31",
+        "H264",
+        "ip10",
+        "Other"
+      ]
+    },
+    {
+      "id": "konig-5",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CMP-NWIPCAM31"
+      ]
+    },
+    {
+      "id": "konig-6",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "konig-7",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "konig-8",
+      "url": "video.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SEC-CAMIP20"
+      ]
+    }
+  ]
+}

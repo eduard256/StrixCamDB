@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "brand": "Imporx",
+  "brand_id": "imporx",
+  "streams": [
+    {
+      "id": "imporx-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "8MP 4K 600X ZOOM",
+        "IMP-HC7P08",
+        "IMP-HD5MP73-W"
+      ]
+    },
+    {
+      "id": "imporx-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GartenCam",
+        "IMP-HK6127C-20X"
+      ]
+    },
+    {
+      "id": "imporx-3",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GARTENCAM",
+        "IMP-HC7286-K20X",
+        "Other"
+      ]
+    },
+    {
+      "id": "imporx-4",
+      "url": "/RtspTranslator.25",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HC7286-K20X",
+        "IMP-HC7286-K20x",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "imporx-5",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "IMP-2MP755",
+        "IMP-HD5MP73-W"
+      ]
+    },
+    {
+      "id": "imporx-6",
+      "url": "/Onvif/live/1/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IMP-3MP98A-AMZ-H",
+        "IMP-3MP98A-H",
+        "imp3mp98-amz-l",
+        "IMP-HC7286-K20X",
+        "imp-scb405ip-v10",
+        "PTZ",
+        "YC-110AR",
+        "YC-HD785R-20X"
+      ]
+    },
+    {
+      "id": "imporx-7",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IMP-RH6116-IR-Z",
+        "Other"
+      ]
+    }
+  ]
+}

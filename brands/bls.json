@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bls",
+  "brand_id": "bls",
+  "streams": [
+    {
+      "id": "bls-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NC326G"
+      ]
+    }
+  ]
+}

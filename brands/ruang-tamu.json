@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ruang Tamu",
+  "brand_id": "ruang-tamu",
+  "streams": [
+    {
+      "id": "ruang-tamu-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

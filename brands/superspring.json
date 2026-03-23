@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Superspring",
+  "brand_id": "superspring",
+  "streams": [
+    {
+      "id": "superspring-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "505",
+        "IP550",
+        "Other"
+      ]
+    }
+  ]
+}

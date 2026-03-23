@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Merlan",
+  "brand_id": "merlan",
+  "streams": [
+    {
+      "id": "merlan-1",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "xyx-ipc"
+      ]
+    }
+  ]
+}

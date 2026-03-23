@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Digihero",
+  "brand_id": "digihero",
+  "streams": [
+    {
+      "id": "digihero-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DIY"
+      ]
+    }
+  ]
+}

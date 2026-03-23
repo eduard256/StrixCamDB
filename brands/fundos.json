@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Fundos",
+  "brand_id": "fundos",
+  "streams": [
+    {
+      "id": "fundos-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "21331",
+        "360"
+      ]
+    },
+    {
+      "id": "fundos-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "APM-J011"
+      ]
+    },
+    {
+      "id": "fundos-3",
+      "url": "/profile1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "china"
+      ]
+    }
+  ]
+}

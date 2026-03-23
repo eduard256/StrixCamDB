@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Xinfi",
+  "brand_id": "xinfi",
+  "streams": [
+    {
+      "id": "xinfi-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C008-720POE",
+        "C013-1080POE"
+      ]
+    }
+  ]
+}

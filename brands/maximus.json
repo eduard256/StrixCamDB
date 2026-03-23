@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Maximus",
+  "brand_id": "maximus",
+  "streams": [
+    {
+      "id": "maximus-1",
+      "url": "mpeg4/[CHANNEL]/media.amp",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "8ch"
+      ]
+    }
+  ]
+}

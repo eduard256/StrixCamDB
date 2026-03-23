@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Eclipse",
+  "brand_id": "eclipse",
+  "streams": [
+    {
+      "id": "eclipse-1",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ESG-IPDM4F2"
+      ]
+    },
+    {
+      "id": "eclipse-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ESG-IPDM4F2"
+      ]
+    }
+  ]
+}

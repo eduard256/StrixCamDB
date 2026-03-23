@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "brand": "Launch",
+  "brand_id": "launch",
+  "streams": [
+    {
+      "id": "launch-1",
+      "url": "[CHANNEL]/1:1/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LC5000",
+        "Other"
+      ]
+    },
+    {
+      "id": "launch-2",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "LC5000",
+        "lc5201b6",
+        "Other"
+      ]
+    },
+    {
+      "id": "launch-3",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "LC5000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Hivdc-2300v",
+  "brand_id": "hivdc-2300v",
+  "streams": [
+    {
+      "id": "hivdc-2300v-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "hivdc-2300",
+        "HIVDC-2300"
+      ]
+    },
+    {
+      "id": "hivdc-2300v-2",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

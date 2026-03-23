@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ecam",
+  "brand_id": "ecam",
+  "streams": [
+    {
+      "id": "ecam-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "qd330"
+      ]
+    },
+    {
+      "id": "ecam-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "qd330"
+      ]
+    }
+  ]
+}

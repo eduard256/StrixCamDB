@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Omni",
+  "brand_id": "omni",
+  "streams": [
+    {
+      "id": "omni-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KNC-p3LR4IR",
+        "Other"
+      ]
+    },
+    {
+      "id": "omni-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KNC-p3LR4IR"
+      ]
+    }
+  ]
+}

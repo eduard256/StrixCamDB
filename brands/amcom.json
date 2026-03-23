@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Amcom",
+  "brand_id": "amcom",
+  "streams": [
+    {
+      "id": "amcom-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 2600,
+      "models": [
+        "z32001"
+      ]
+    }
+  ]
+}

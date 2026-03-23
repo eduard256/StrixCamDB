@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Oude Camera",
+  "brand_id": "oude-camera",
+  "streams": [
+    {
+      "id": "oude-camera-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AHD"
+      ]
+    },
+    {
+      "id": "oude-camera-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AHD"
+      ]
+    }
+  ]
+}

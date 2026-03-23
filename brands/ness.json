@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Ness",
+  "brand_id": "ness",
+  "streams": [
+    {
+      "id": "ness-1",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NIP-200",
+        "NIP-300"
+      ]
+    },
+    {
+      "id": "ness-2",
+      "url": "cgi-bin/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NIP-300"
+      ]
+    },
+    {
+      "id": "ness-3",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

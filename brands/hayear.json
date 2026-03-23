@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hayear",
+  "brand_id": "hayear",
+  "streams": [
+    {
+      "id": "hayear-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Omnivision"
+      ]
+    }
+  ]
+}

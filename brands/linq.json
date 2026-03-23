@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Linq",
+  "brand_id": "linq",
+  "streams": [
+    {
+      "id": "linq-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

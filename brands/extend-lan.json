@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Extend Lan",
+  "brand_id": "extend-lan",
+  "streams": [
+    {
+      "id": "extend-lan-1",
+      "url": "GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IVS100"
+      ]
+    }
+  ]
+}

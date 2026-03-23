@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "brand": "Eescam",
+  "brand_id": "eescam",
+  "streams": [
+    {
+      "id": "eescam-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "icsee"
+      ]
+    },
+    {
+      "id": "eescam-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "icsee",
+        "icseeX",
+        "UNLISTED"
+      ]
+    },
+    {
+      "id": "eescam-3",
+      "url": "/user=[USERNAME]admin_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "ICSEE"
+      ]
+    },
+    {
+      "id": "eescam-4",
+      "url": "live_mpeg4.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ICSEE"
+      ]
+    },
+    {
+      "id": "eescam-5",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ICSEE"
+      ]
+    }
+  ]
+}

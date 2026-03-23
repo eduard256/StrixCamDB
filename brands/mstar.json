@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Mstar",
+  "brand_id": "mstar",
+  "streams": [
+    {
+      "id": "mstar-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AM8000NC",
+        "mc500l_af"
+      ]
+    },
+    {
+      "id": "mstar-2",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AM8000NC"
+      ]
+    }
+  ]
+}

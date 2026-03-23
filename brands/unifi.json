@@ -1,0 +1,233 @@
+{
+  "version": 2,
+  "brand": "Unifi",
+  "brand_id": "unifi",
+  "streams": [
+    {
+      "id": "unifi-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "aircam",
+        "G2 Micro",
+        "G3 Dome"
+      ]
+    },
+    {
+      "id": "unifi-2",
+      "url": "/s0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "G3 Dome",
+        "G3 Flex",
+        "G3Pro",
+        "G4 BULLET",
+        "Other",
+        "pro a3",
+        "U3 Pro",
+        "unifi A3PRO",
+        "UVC",
+        "UVC G3",
+        "UVC G3 Dome",
+        "UVC G3 DOME",
+        "UVC G3 Flex",
+        "UVC-G3-Pro",
+        "UVC-G3-PRO",
+        "UVG G3 Dome"
+      ]
+    },
+    {
+      "id": "unifi-3",
+      "url": "/Y6LkiH8UDTSbjlyR",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "G4 Bullet"
+      ]
+    },
+    {
+      "id": "unifi-4",
+      "url": "/7k9wbmWV4capQOJn",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "G4 Doorbell"
+      ]
+    },
+    {
+      "id": "unifi-5",
+      "url": "/ZOeooeCNUzrdEMBB",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "g4 instant"
+      ]
+    },
+    {
+      "id": "unifi-6",
+      "url": "/CfoWfNYSi2Uto1Va",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "G4 Pro"
+      ]
+    },
+    {
+      "id": "unifi-7",
+      "url": "/s1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "G4 Pro",
+        "G4-KM",
+        "UVC G3",
+        "UVC G3 Dome",
+        "UVC G3 Flex"
+      ]
+    },
+    {
+      "id": "unifi-8",
+      "url": "/gwQPQxLdpAcz83Oy?enableSrtp",
+      "type": "FFMPEG",
+      "protocol": "rtsps",
+      "port": 7441,
+      "models": [
+        "G5 Flex"
+      ]
+    },
+    {
+      "id": "unifi-9",
+      "url": "/FDIahGtqNYurTDpc?enableSrtp",
+      "type": "FFMPEG",
+      "protocol": "rtsps",
+      "port": 7441,
+      "models": [
+        "NVR-pro"
+      ]
+    },
+    {
+      "id": "unifi-10",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "NVR-pro",
+        "PRO",
+        "uvc micro"
+      ]
+    },
+    {
+      "id": "unifi-11",
+      "url": "/euwkG3hjFjvc4Hgv",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "unifi-12",
+      "url": "/FWIpiqzfEvvdCAAY",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "unifi-13",
+      "url": "/bGQUCKWG5my3BRIt",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "unifi-14",
+      "url": "/G3dyqVoAMRY4sIhg",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "unifi-15",
+      "url": "/s2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "UVC G3",
+        "UVC G3 Flex",
+        "UVC G3 MICRO",
+        "UVC-G3-db73.localdomain"
+      ]
+    },
+    {
+      "id": "unifi-16",
+      "url": "/C871oCwtXekmFfOJ",
+      "type": "FFMPEG",
+      "protocol": "rtsps",
+      "port": 7447,
+      "models": [
+        "UVC G3 BULLET"
+      ]
+    },
+    {
+      "id": "unifi-17",
+      "url": "/hQ0t5jE5wP4yYVzD",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "UVC G3 Flex"
+      ]
+    },
+    {
+      "id": "unifi-18",
+      "url": "/jkRzYFwDgmCnVTMB",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "UVC G3 Flex"
+      ]
+    },
+    {
+      "id": "unifi-19",
+      "url": "/87eIzaVpJHI5qkeU",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "UVC G3 Flex"
+      ]
+    },
+    {
+      "id": "unifi-20",
+      "url": "/4NifILe1B0uQyMcN?enablertsp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 7447,
+      "models": [
+        "UVC G3 Micro"
+      ]
+    }
+  ]
+}

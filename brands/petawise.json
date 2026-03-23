@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Petawise",
+  "brand_id": "petawise",
+  "streams": [
+    {
+      "id": "petawise-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PW424F"
+      ]
+    }
+  ]
+}

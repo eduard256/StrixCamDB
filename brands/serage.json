@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Serage",
+  "brand_id": "serage",
+  "streams": [
+    {
+      "id": "serage-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "HD IP"
+      ]
+    }
+  ]
+}

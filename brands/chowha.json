@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Chowha",
+  "brand_id": "chowha",
+  "streams": [
+    {
+      "id": "chowha-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CloudCam"
+      ]
+    },
+    {
+      "id": "chowha-2",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CloudCam"
+      ]
+    }
+  ]
+}

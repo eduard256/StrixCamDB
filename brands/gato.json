@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gato",
+  "brand_id": "gato",
+  "streams": [
+    {
+      "id": "gato-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Nohay"
+      ]
+    }
+  ]
+}

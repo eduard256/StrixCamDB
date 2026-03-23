@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Iptz-h20xx",
+  "brand_id": "iptz-h20xx",
+  "streams": [
+    {
+      "id": "iptz-h20xx-1",
+      "url": "/profile/profile01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Drop Deiling"
+      ]
+    },
+    {
+      "id": "iptz-h20xx-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "P14"
+      ]
+    }
+  ]
+}

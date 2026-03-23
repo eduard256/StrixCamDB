@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "brand": "Videoteknika",
+  "brand_id": "videoteknika",
+  "streams": [
+    {
+      "id": "videoteknika-1",
+      "url": "/Streaming/channels/401",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VN2008/8P"
+      ]
+    },
+    {
+      "id": "videoteknika-2",
+      "url": "/Streaming/channels/601",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VN2008/8P"
+      ]
+    },
+    {
+      "id": "videoteknika-3",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VN2008/8P"
+      ]
+    },
+    {
+      "id": "videoteknika-4",
+      "url": "/Streaming/Unicast/channels/501",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VN2008/8P"
+      ]
+    },
+    {
+      "id": "videoteknika-5",
+      "url": "/Streaming/channels/301",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VN2008/8P"
+      ]
+    },
+    {
+      "id": "videoteknika-6",
+      "url": "/Streaming/channels/702",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VN2008/8P"
+      ]
+    },
+    {
+      "id": "videoteknika-7",
+      "url": "/Streaming/channels/202",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "VN2008/8P"
+      ]
+    },
+    {
+      "id": "videoteknika-8",
+      "url": "/Streaming/Unicast/channels/801",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8002,
+      "models": [
+        "VN2008/8P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Orllo",
+  "brand_id": "orllo",
+  "streams": [
+    {
+      "id": "orllo-1",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "GOODCAM Z1"
+      ]
+    }
+  ]
+}

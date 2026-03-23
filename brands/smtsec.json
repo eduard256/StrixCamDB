@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Smtsec",
+  "brand_id": "smtsec",
+  "streams": [
+    {
+      "id": "smtsec-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H15HP",
+        "SIP-E0312-178D",
+        "UNLISTED"
+      ]
+    }
+  ]
+}

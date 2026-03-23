@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Endoscope",
+  "brand_id": "endoscope",
+  "streams": [
+    {
+      "id": "endoscope-1",
+      "url": "/webcam/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

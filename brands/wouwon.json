@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wouwon",
+  "brand_id": "wouwon",
+  "streams": [
+    {
+      "id": "wouwon-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "WiFi Smart Camera"
+      ]
+    }
+  ]
+}

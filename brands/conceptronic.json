@@ -1,0 +1,323 @@
+{
+  "version": 2,
+  "brand": "Conceptronic",
+  "brand_id": "conceptronic",
+  "streams": [
+    {
+      "id": "conceptronic-1",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720",
+        "CIPCAM1080OD",
+        "CIPCAM720",
+        "CIPCAM720OD",
+        "CIPCAM720PTIWL V2",
+        "CIPCAM720S",
+        "CLOUD IP CAMERA",
+        "Other",
+        "PTZ-CAM"
+      ]
+    },
+    {
+      "id": "conceptronic-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B series",
+        "CIPCAMPTIWL V1",
+        "Rotativa"
+      ]
+    },
+    {
+      "id": "conceptronic-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B SERIES",
+        "B-Series",
+        "cipcamptiwl",
+        "Rotativa"
+      ]
+    },
+    {
+      "id": "conceptronic-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B SERIES",
+        "c07-082"
+      ]
+    },
+    {
+      "id": "conceptronic-5",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C07-080",
+        "C54NETCAM",
+        "C54NETCAM2",
+        "CIPCAMPTIWL",
+        "CNETCAM2",
+        "Other",
+        "secure2",
+        "Slim 1320"
+      ]
+    },
+    {
+      "id": "conceptronic-6",
+      "url": "IMAGE.JPG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C54NETCAM"
+      ]
+    },
+    {
+      "id": "conceptronic-7",
+      "url": "MJPEG.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C54NETCAM",
+        "C54NETCAM2",
+        "Other"
+      ]
+    },
+    {
+      "id": "conceptronic-8",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C54NETCAM",
+        "Other"
+      ]
+    },
+    {
+      "id": "conceptronic-9",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C54NETCAM",
+        "CIPCAM720PTIWL V1",
+        "cipcamptiwl"
+      ]
+    },
+    {
+      "id": "conceptronic-10",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C54NETCAM",
+        "C54NETCAM2",
+        "cnetcam2",
+        "Other"
+      ]
+    },
+    {
+      "id": "conceptronic-11",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C54NETCAM_F",
+        "cipcamptiwl",
+        "Other",
+        "PTZ-Cam",
+        "thuis"
+      ]
+    },
+    {
+      "id": "conceptronic-12",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C54NETCAM2",
+        "cipcam720ptiwl",
+        "cipcamptiwl",
+        "Other",
+        "PTZ-Cam"
+      ]
+    },
+    {
+      "id": "conceptronic-13",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "C54NETCAM2",
+        "C54NETCAM2OK"
+      ]
+    },
+    {
+      "id": "conceptronic-14",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C54NETCAM2OK",
+        "cipcam720OD",
+        "cipcam720ptiwl",
+        "Other"
+      ]
+    },
+    {
+      "id": "conceptronic-15",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=0&stream=0.sdp?real_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C8CHCCTVKITP"
+      ]
+    },
+    {
+      "id": "conceptronic-16",
+      "url": "/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CIPCAM720",
+        "CIPCAM720PTIWL V1",
+        "Other"
+      ]
+    },
+    {
+      "id": "conceptronic-17",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "CIPCAM720"
+      ]
+    },
+    {
+      "id": "conceptronic-18",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cipcam720OD",
+        "cipcam720ptiwl",
+        "Other"
+      ]
+    },
+    {
+      "id": "conceptronic-19",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CIPCAM720OD",
+        "CIPCAM720PTIWL",
+        "CIPCAM720PTIWL V2"
+      ]
+    },
+    {
+      "id": "conceptronic-20",
+      "url": "/live/ch2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CIPCAM720OD",
+        "CIPCAM720PTIWL V2",
+        "CIPCAMPTIWL",
+        "SmartP2P"
+      ]
+    },
+    {
+      "id": "conceptronic-21",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CIPCAM720PTIWL V2",
+        "cipcamptiwl",
+        "CIPCAMPTIWL V1",
+        "Other"
+      ]
+    },
+    {
+      "id": "conceptronic-22",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CIPCAM720PTIWL V2",
+        "cipcamptiwl"
+      ]
+    },
+    {
+      "id": "conceptronic-23",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CIPCAM720PTIWL V2",
+        "cipcamptiwl"
+      ]
+    },
+    {
+      "id": "conceptronic-24",
+      "url": "snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "cipcamptiwl",
+        "mkx"
+      ]
+    },
+    {
+      "id": "conceptronic-25",
+      "url": "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "cipcamptiwl"
+      ]
+    },
+    {
+      "id": "conceptronic-26",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

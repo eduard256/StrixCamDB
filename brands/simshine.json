@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Simshine",
+  "brand_id": "simshine",
+  "streams": [
+    {
+      "id": "simshine-1",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "simcam s1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Invidtech",
+  "brand_id": "invidtech",
+  "streams": [
+    {
+      "id": "invidtech-1",
+      "url": "/Streaming/Channels/101",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ULT-P4DRIR28"
+      ]
+    },
+    {
+      "id": "invidtech-2",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ULT-P4DRIR28"
+      ]
+    }
+  ]
+}

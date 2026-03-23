@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "brand": "B-qtech",
+  "brand_id": "b-qtech",
+  "streams": [
+    {
+      "id": "b-qtech-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3007",
+        "bq-nr3007"
+      ]
+    },
+    {
+      "id": "b-qtech-2",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "720p",
+        "BQ-ND7202RW"
+      ]
+    },
+    {
+      "id": "b-qtech-3",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BQ-ND7202RW"
+      ]
+    },
+    {
+      "id": "b-qtech-4",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "BQ-NO5WS"
+      ]
+    },
+    {
+      "id": "b-qtech-5",
+      "url": "snapshot/view[CHANNEL].jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BQ-P6182M",
+        "Other"
+      ]
+    },
+    {
+      "id": "b-qtech-6",
+      "url": "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NR3007"
+      ]
+    },
+    {
+      "id": "b-qtech-7",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

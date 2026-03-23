@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anbentech",
+  "brand_id": "anbentech",
+  "streams": [
+    {
+      "id": "anbentech-1",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "BP20S-1H"
+      ]
+    }
+  ]
+}

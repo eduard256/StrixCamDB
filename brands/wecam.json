@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Wecam",
+  "brand_id": "wecam",
+  "streams": [
+    {
+      "id": "wecam-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "360"
+      ]
+    },
+    {
+      "id": "wecam-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IIII-560941-DBDCC"
+      ]
+    }
+  ]
+}

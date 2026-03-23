@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Redvision",
+  "brand_id": "redvision",
+  "streams": [
+    {
+      "id": "redvision-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "RVX"
+      ]
+    }
+  ]
+}

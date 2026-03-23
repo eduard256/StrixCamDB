@@ -1,0 +1,147 @@
+{
+  "version": 2,
+  "brand": "Praxis",
+  "brand_id": "praxis",
+  "streams": [
+    {
+      "id": "praxis-1",
+      "url": "mjpg/1/video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1013",
+        "M3047-P"
+      ]
+    },
+    {
+      "id": "praxis-2",
+      "url": "axis-media/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1343",
+        "5914",
+        "AXIS M7010",
+        "Q6034-E"
+      ]
+    },
+    {
+      "id": "praxis-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "213 PTZ",
+        "P3301"
+      ]
+    },
+    {
+      "id": "praxis-4",
+      "url": "mpeg4/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "213 PTZ"
+      ]
+    },
+    {
+      "id": "praxis-5",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "216fd"
+      ]
+    },
+    {
+      "id": "praxis-6",
+      "url": "axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "240Q"
+      ]
+    },
+    {
+      "id": "praxis-7",
+      "url": "axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "240Q"
+      ]
+    },
+    {
+      "id": "praxis-8",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "3025",
+        "AXIS M7010",
+        "mkv"
+      ]
+    },
+    {
+      "id": "praxis-9",
+      "url": "axis-media/media.amp?videocodec=h264&resolution=640x480",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "P1344-E",
+        "P3214-V"
+      ]
+    },
+    {
+      "id": "praxis-10",
+      "url": "jpg/image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P3214",
+        "ptz 5914",
+        "Q6042-E"
+      ]
+    },
+    {
+      "id": "praxis-11",
+      "url": "axis-cgi/mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "P3215-VE NETWORK CAMERA"
+      ]
+    },
+    {
+      "id": "praxis-12",
+      "url": "/onvif-media/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "P3224-VE"
+      ]
+    },
+    {
+      "id": "praxis-13",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PB-7145IP 2.8-12"
+      ]
+    }
+  ]
+}

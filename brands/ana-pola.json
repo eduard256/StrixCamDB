@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ana Pola",
+  "brand_id": "ana-pola",
+  "streams": [
+    {
+      "id": "ana-pola-1",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Polaroid"
+      ]
+    }
+  ]
+}

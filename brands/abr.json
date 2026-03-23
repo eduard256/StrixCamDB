@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "brand": "Abr",
+  "brand_id": "abr",
+  "streams": [
+    {
+      "id": "abr-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "6100",
+        "720p",
+        "ipc6100w"
+      ]
+    },
+    {
+      "id": "abr-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "6100",
+        "6200",
+        "ABR-IPD6200W",
+        "IPC6100W",
+        "IPD6200W"
+      ]
+    }
+  ]
+}

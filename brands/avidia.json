@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Avidia",
+  "brand_id": "avidia",
+  "streams": [
+    {
+      "id": "avidia-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "A-24W",
+        "A-34W"
+      ]
+    },
+    {
+      "id": "avidia-2",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "a-30"
+      ]
+    },
+    {
+      "id": "avidia-3",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "A-34W"
+      ]
+    },
+    {
+      "id": "avidia-4",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "A-35"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "version": 2,
+  "brand": "Asante",
+  "brand_id": "asante",
+  "streams": [
+    {
+      "id": "asante-1",
+      "url": "image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SMARTBOT PT",
+        "Voiager 1",
+        "Voiager 2PT",
+        "voyager",
+        "VOYAGER 1",
+        "Voyager I",
+        "Voyager I/II",
+        "VOYAGER SMARTBOT",
+        "VoyagerII"
+      ]
+    },
+    {
+      "id": "asante-2",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "smartbot",
+        "VOYAGER I",
+        "VOYAGER I/II",
+        "VOYAGER II"
+      ]
+    },
+    {
+      "id": "asante-3",
+      "url": "image.jpg?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "SmartBot",
+        "Voyager 1",
+        "VOYAGER I",
+        "VOYAGER I/II",
+        "VOYAGER II",
+        "Voyager Smartbot"
+      ]
+    },
+    {
+      "id": "asante-4",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "Voyager I"
+      ]
+    },
+    {
+      "id": "asante-5",
+      "url": "image.cgi?type=motion",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "pl29",
+        "smartbot",
+        "Voyager 1",
+        "Voyager I",
+        "Voyager I/II",
+        "VOYAGER SMARTBOT"
+      ]
+    },
+    {
+      "id": "asante-6",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SMARTBOT",
+        "Voyager 1",
+        "VOYAGER II",
+        "VoyagerI"
+      ]
+    },
+    {
+      "id": "asante-7",
+      "url": "cam[CHANNEL]/mpeg4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Voyager I"
+      ]
+    },
+    {
+      "id": "asante-8",
+      "url": "GetData.cgi",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Voyager II"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Neostar",
+  "brand_id": "neostar",
+  "streams": [
+    {
+      "id": "neostar-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NTI-D3006IR"
+      ]
+    },
+    {
+      "id": "neostar-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "NTI-D3012IR"
+      ]
+    },
+    {
+      "id": "neostar-3",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NTI-D3015IR"
+      ]
+    }
+  ]
+}

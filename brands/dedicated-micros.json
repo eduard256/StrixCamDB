@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "brand": "Dedicated Micros",
+  "brand_id": "dedicated-micros",
+  "streams": [
+    {
+      "id": "dedicated-micros-1",
+      "url": "display_pic.cgi?cam=[CHANNEL]&res=hi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CamVu DN",
+        "dedicated micros eco dvr",
+        "DS2",
+        "eco dvr",
+        "Other"
+      ]
+    },
+    {
+      "id": "dedicated-micros-2",
+      "url": "medias[CHANNEL]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CamVu DN"
+      ]
+    },
+    {
+      "id": "dedicated-micros-3",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CamVU DN",
+        "Other"
+      ]
+    },
+    {
+      "id": "dedicated-micros-4",
+      "url": "medias2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Codnida",
+  "brand_id": "codnida",
+  "streams": [
+    {
+      "id": "codnida-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "PTZ Camera",
+        "PTZ Security Camera"
+      ]
+    }
+  ]
+}

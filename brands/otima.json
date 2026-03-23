@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "brand": "Otima",
+  "brand_id": "otima",
+  "streams": [
+    {
+      "id": "otima-1",
+      "url": "cgi-bin/video.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANC-800",
+        "Other"
+      ]
+    },
+    {
+      "id": "otima-2",
+      "url": "cgi-bin/video.jpg?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ANC-800V",
+        "ANC-808 G",
+        "ANC-808 V",
+        "Other"
+      ]
+    }
+  ]
+}

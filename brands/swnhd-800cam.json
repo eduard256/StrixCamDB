@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Swnhd-800cam",
+  "brand_id": "swnhd-800cam",
+  "streams": [
+    {
+      "id": "swnhd-800cam-1",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

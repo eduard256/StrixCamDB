@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ego",
+  "brand_id": "ego",
+  "streams": [
+    {
+      "id": "ego-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ego-2",
+      "url": "cgi-bin/sf.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PT-200"
+      ]
+    }
+  ]
+}

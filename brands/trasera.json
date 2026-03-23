@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Trasera",
+  "brand_id": "trasera",
+  "streams": [
+    {
+      "id": "trasera-1",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CIPCAMPTIWL V1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Magic Vision Box Series",
+  "brand_id": "magic-vision-box-series",
+  "streams": [
+    {
+      "id": "magic-vision-box-series-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "MV-81031IRWPR-3D"
+      ]
+    }
+  ]
+}

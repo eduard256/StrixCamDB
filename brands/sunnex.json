@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sunnex",
+  "brand_id": "sunnex",
+  "streams": [
+    {
+      "id": "sunnex-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "sx-ip-dm412f"
+      ]
+    }
+  ]
+}

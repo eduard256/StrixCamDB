@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Pixus",
+  "brand_id": "pixus",
+  "streams": [
+    {
+      "id": "pixus-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8008,
+      "models": [
+        "PXD-IWN2E1 RF"
+      ]
+    }
+  ]
+}

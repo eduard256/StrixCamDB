@@ -1,0 +1,121 @@
+{
+  "version": 2,
+  "brand": "Inesun",
+  "brand_id": "inesun",
+  "streams": [
+    {
+      "id": "inesun-1",
+      "url": "MediaInput/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2mp",
+        "HD-IPC",
+        "INS-HD360AE-2.0MP",
+        "INS-HD42-2MP-3X-Plastic",
+        "INS-HD54F-WIFI",
+        "IP66",
+        "IPD-D53Y00",
+        "IPD-E36Y0701-BS",
+        "Other",
+        "PTZ"
+      ]
+    },
+    {
+      "id": "inesun-2",
+      "url": "1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "5MP",
+        "INS-HD360AE-2.0MP",
+        "INS-HD361-2.0MP",
+        "INS-HD46A-5",
+        "INS-HD54FAL-5.0MP+POE",
+        "INS-HD64FAL-5",
+        "IPD-D53L02-BS",
+        "IPD-E2A5L18-BS",
+        "Other",
+        "PTZ",
+        "PZT IP",
+        "THEBEST"
+      ]
+    },
+    {
+      "id": "inesun-3",
+      "url": "/mpeg4cif",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "5MP",
+        "HDIPC",
+        "Inesun PTZ",
+        "INS-HD360AE-2.0MP",
+        "INS-HD46A-5",
+        "INS-HD54FAL-5",
+        "Other",
+        "ptz",
+        "pzt ip"
+      ]
+    },
+    {
+      "id": "inesun-4",
+      "url": "cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "INS-HD360AE-2.0MP",
+        "INS-HD43AE-2.0MP",
+        "INS-HD616-5",
+        "IPD-E36Y0701-BS",
+        "Other",
+        "PTZ camera",
+        "PZT IP"
+      ]
+    },
+    {
+      "id": "inesun-5",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "INS-HD46RM-5.0MP+poe"
+      ]
+    },
+    {
+      "id": "inesun-6",
+      "url": "/cam1/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "INS-HD54F-WIFI"
+      ]
+    },
+    {
+      "id": "inesun-7",
+      "url": "/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-D53Y0701-BS"
+      ]
+    },
+    {
+      "id": "inesun-8",
+      "url": "/h264minor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPD-D53Y0701-BS"
+      ]
+    }
+  ]
+}

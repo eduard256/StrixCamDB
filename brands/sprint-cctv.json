@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sprint Cctv",
+  "brand_id": "sprint-cctv",
+  "streams": [
+    {
+      "id": "sprint-cctv-1",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SSC313"
+      ]
+    }
+  ]
+}

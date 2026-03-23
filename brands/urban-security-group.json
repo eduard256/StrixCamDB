@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Urban Security Group",
+  "brand_id": "urban-security-group",
+  "streams": [
+    {
+      "id": "urban-security-group-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DK-7043S-GP-AF"
+      ]
+    },
+    {
+      "id": "urban-security-group-2",
+      "url": "snap.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "USGLBH24T200"
+      ]
+    }
+  ]
+}

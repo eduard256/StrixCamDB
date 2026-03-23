@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wisevision",
+  "brand_id": "wisevision",
+  "streams": [
+    {
+      "id": "wisevision-1",
+      "url": "/ch01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "777"
+      ]
+    }
+  ]
+}

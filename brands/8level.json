@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "8level",
+  "brand_id": "8level",
+  "streams": [
+    {
+      "id": "8level-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPED-2MP-36-1",
+        "Other"
+      ]
+    },
+    {
+      "id": "8level-2",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "8level-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "v380"
+      ]
+    }
+  ]
+}

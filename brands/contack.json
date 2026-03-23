@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Contack",
+  "brand_id": "contack",
+  "streams": [
+    {
+      "id": "contack-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kit-200"
+      ]
+    },
+    {
+      "id": "contack-2",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "kit-200"
+      ]
+    }
+  ]
+}

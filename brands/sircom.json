@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sircom",
+  "brand_id": "sircom",
+  "streams": [
+    {
+      "id": "sircom-1",
+      "url": "videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ap004"
+      ]
+    }
+  ]
+}

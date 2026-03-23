@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Easyz",
+  "brand_id": "easyz",
+  "streams": [
+    {
+      "id": "easyz-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "FS613B"
+      ]
+    }
+  ]
+}

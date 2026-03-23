@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Kantoor",
+  "brand_id": "kantoor",
+  "streams": [
+    {
+      "id": "kantoor-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Lock-cam"
+      ]
+    }
+  ]
+}

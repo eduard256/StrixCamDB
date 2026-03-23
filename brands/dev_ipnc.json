@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dev_ipnc",
+  "brand_id": "dev_ipnc",
+  "streams": [
+    {
+      "id": "dev_ipnc-1",
+      "url": "/Onvif/Streaming/2",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DM368_IPNC"
+      ]
+    }
+  ]
+}

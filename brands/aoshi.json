@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aoshi",
+  "brand_id": "aoshi",
+  "streams": [
+    {
+      "id": "aoshi-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TE110FD"
+      ]
+    }
+  ]
+}

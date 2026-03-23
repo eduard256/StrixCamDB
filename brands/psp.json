@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Psp",
+  "brand_id": "psp",
+  "streams": [
+    {
+      "id": "psp-1",
+      "url": "/ucast/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SN-IPC-4036SW-US"
+      ]
+    }
+  ]
+}

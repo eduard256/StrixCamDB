@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Mtstar",
+  "brand_id": "mtstar",
+  "streams": [
+    {
+      "id": "mtstar-1",
+      "url": "/1/h264major",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "AM8000N2"
+      ]
+    },
+    {
+      "id": "mtstar-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "ASRIH492-005-20"
+      ]
+    }
+  ]
+}

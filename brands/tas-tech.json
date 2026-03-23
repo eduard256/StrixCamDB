@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Tas-tech",
+  "brand_id": "tas-tech",
+  "streams": [
+    {
+      "id": "tas-tech-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPHD",
+        "Other"
+      ]
+    },
+    {
+      "id": "tas-tech-2",
+      "url": "live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPHD",
+        "Other"
+      ]
+    },
+    {
+      "id": "tas-tech-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "tas-tech-4",
+      "url": "snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

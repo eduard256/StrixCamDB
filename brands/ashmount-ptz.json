@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Ashmount Ptz",
+  "brand_id": "ashmount-ptz",
+  "streams": [
+    {
+      "id": "ashmount-ptz-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "ashmount-ptz-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

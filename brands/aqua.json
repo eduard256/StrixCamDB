@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Aqua",
+  "brand_id": "aqua",
+  "streams": [
+    {
+      "id": "aqua-1",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip4"
+      ]
+    }
+  ]
+}

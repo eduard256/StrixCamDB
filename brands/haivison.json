@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Haivison",
+  "brand_id": "haivison",
+  "streams": [
+    {
+      "id": "haivison-1",
+      "url": "/mpeg4",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080P",
+        "5mp"
+      ]
+    },
+    {
+      "id": "haivison-2",
+      "url": "cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080P",
+        "720p"
+      ]
+    }
+  ]
+}

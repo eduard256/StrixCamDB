@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Smtkey",
+  "brand_id": "smtkey",
+  "streams": [
+    {
+      "id": "smtkey-1",
+      "url": "/media/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

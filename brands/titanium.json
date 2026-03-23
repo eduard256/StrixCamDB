@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Titanium",
+  "brand_id": "titanium",
+  "streams": [
+    {
+      "id": "titanium-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1242,
+      "models": [
+        "IP-5IRD5S44/28"
+      ]
+    }
+  ]
+}

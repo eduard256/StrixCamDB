@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Viofo",
+  "brand_id": "viofo",
+  "streams": [
+    {
+      "id": "viofo-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "A229 Pro"
+      ]
+    }
+  ]
+}

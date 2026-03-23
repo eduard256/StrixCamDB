@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Declink",
+  "brand_id": "declink",
+  "streams": [
+    {
+      "id": "declink-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "000"
+      ]
+    }
+  ]
+}

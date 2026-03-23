@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Torv",
+  "brand_id": "torv",
+  "streams": [
+    {
+      "id": "torv-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AR-HK02W-IP"
+      ]
+    }
+  ]
+}

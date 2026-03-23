@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Anscam",
+  "brand_id": "anscam",
+  "streams": [
+    {
+      "id": "anscam-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "waterproof"
+      ]
+    }
+  ]
+}

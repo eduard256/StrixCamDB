@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Vaddio",
+  "brand_id": "vaddio",
+  "streams": [
+    {
+      "id": "vaddio-1",
+      "url": "/vaddio-conferenceshot-stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "ConferenceShot 10",
+        "ConferenceShot AV"
+      ]
+    },
+    {
+      "id": "vaddio-2",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "primeshot"
+      ]
+    },
+    {
+      "id": "vaddio-3",
+      "url": "/vaddio-roboshot-usb-stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "roboshot 12"
+      ]
+    },
+    {
+      "id": "vaddio-4",
+      "url": "/vaddio-roboshot-hd-sdi-stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ROBOSHOT 30 HD-SDI WHITE"
+      ]
+    }
+  ]
+}

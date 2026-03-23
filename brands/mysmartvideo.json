@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Mysmartvideo",
+  "brand_id": "mysmartvideo",
+  "streams": [
+    {
+      "id": "mysmartvideo-1",
+      "url": "jpg/image.jpg?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "N6600"
+      ]
+    }
+  ]
+}

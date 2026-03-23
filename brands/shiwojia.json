@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Shiwojia",
+  "brand_id": "shiwojia",
+  "streams": [
+    {
+      "id": "shiwojia-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other",
+        "PTZ security camera",
+        "ST-426-TY"
+      ]
+    }
+  ]
+}

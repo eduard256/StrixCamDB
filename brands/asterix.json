@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Asterix",
+  "brand_id": "asterix",
+  "streams": [
+    {
+      "id": "asterix-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

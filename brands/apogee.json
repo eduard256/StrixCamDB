@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Apogee",
+  "brand_id": "apogee",
+  "streams": [
+    {
+      "id": "apogee-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TA-420B200"
+      ]
+    },
+    {
+      "id": "apogee-2",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TA-420B200"
+      ]
+    }
+  ]
+}

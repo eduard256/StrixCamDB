@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ip400",
+  "brand_id": "ip400",
+  "streams": [
+    {
+      "id": "ip400-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

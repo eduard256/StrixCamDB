@@ -1,0 +1,175 @@
+{
+  "version": 2,
+  "brand": "Avacom",
+  "brand_id": "avacom",
+  "streams": [
+    {
+      "id": "avacom-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 10554,
+      "models": [
+        "1080",
+        "1080W",
+        "5060",
+        "5980",
+        "h5060w",
+        "h5080w",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-2",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080w",
+        "M1060W",
+        "M1080w",
+        "M1080-W",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-3",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1080W",
+        "5060W",
+        "H5080W",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-4",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5060",
+        "5060w",
+        "H5060W",
+        "H5080W",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-5",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "5060w",
+        "H5060W",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-6",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "5080w",
+        "H5060W",
+        "H5080W"
+      ]
+    },
+    {
+      "id": "avacom-7",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H5060W"
+      ]
+    },
+    {
+      "id": "avacom-8",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H5060W"
+      ]
+    },
+    {
+      "id": "avacom-9",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H5160W",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-10",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H6080AW",
+        "H6081",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-11",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M1060W"
+      ]
+    },
+    {
+      "id": "avacom-12",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M1060W",
+        "M1080w",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-13",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M1060W",
+        "Other"
+      ]
+    },
+    {
+      "id": "avacom-14",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "M1080W",
+        "Other"
+      ]
+    }
+  ]
+}

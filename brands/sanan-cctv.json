@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "brand": "Sanan-cctv",
+  "brand_id": "sanan-cctv",
+  "streams": [
+    {
+      "id": "sanan-cctv-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B-Series",
+        "Other"
+      ]
+    },
+    {
+      "id": "sanan-cctv-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B-Series"
+      ]
+    },
+    {
+      "id": "sanan-cctv-3",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B-Series"
+      ]
+    },
+    {
+      "id": "sanan-cctv-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B-Series"
+      ]
+    },
+    {
+      "id": "sanan-cctv-5",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B-Series"
+      ]
+    },
+    {
+      "id": "sanan-cctv-6",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "B-Series"
+      ]
+    },
+    {
+      "id": "sanan-cctv-7",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dl81a",
+        "Other"
+      ]
+    },
+    {
+      "id": "sanan-cctv-8",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPCAM-100"
+      ]
+    },
+    {
+      "id": "sanan-cctv-9",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Itthon",
+        "Other"
+      ]
+    },
+    {
+      "id": "sanan-cctv-10",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

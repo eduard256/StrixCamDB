@@ -1,0 +1,139 @@
+{
+  "version": 2,
+  "brand": "Genius",
+  "brand_id": "genius",
+  "streams": [
+    {
+      "id": "genius-1",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "101"
+      ]
+    },
+    {
+      "id": "genius-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300"
+      ]
+    },
+    {
+      "id": "genius-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300"
+      ]
+    },
+    {
+      "id": "genius-4",
+      "url": "cgi-bin/getimage",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300",
+        "300R",
+        "310R",
+        "IPCAM SECURE 300",
+        "Other"
+      ]
+    },
+    {
+      "id": "genius-5",
+      "url": "IMAGE.JPG",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300"
+      ]
+    },
+    {
+      "id": "genius-6",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300",
+        "IPCam Secure 300",
+        "Other",
+        "secure300"
+      ]
+    },
+    {
+      "id": "genius-7",
+      "url": "videostream.cgi?",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300"
+      ]
+    },
+    {
+      "id": "genius-8",
+      "url": "cgi-bin/getimage?java=0",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300R",
+        "IPCam Secure 300",
+        "Other"
+      ]
+    },
+    {
+      "id": "genius-9",
+      "url": "avn=2",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "310R",
+        "350TR",
+        "IPCAM SECURE 300"
+      ]
+    },
+    {
+      "id": "genius-10",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPCam Secure 300",
+        "Other"
+      ]
+    },
+    {
+      "id": "genius-11",
+      "url": "out.jpg?id=0.5",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "islim 1300"
+      ]
+    },
+    {
+      "id": "genius-12",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

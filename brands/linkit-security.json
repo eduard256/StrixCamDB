@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Linkit Security",
+  "brand_id": "linkit-security",
+  "streams": [
+    {
+      "id": "linkit-security-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "IP-Viking"
+      ]
+    },
+    {
+      "id": "linkit-security-2",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "p2p ipcam"
+      ]
+    }
+  ]
+}

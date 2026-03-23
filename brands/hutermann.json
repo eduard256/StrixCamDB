@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Hutermann",
+  "brand_id": "hutermann",
+  "streams": [
+    {
+      "id": "hutermann-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "HiP"
+      ]
+    }
+  ]
+}

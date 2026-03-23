@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Actiontec",
+  "brand_id": "actiontec",
+  "streams": [
+    {
+      "id": "actiontec-1",
+      "url": "img/video.asf",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "rc8021v"
+      ]
+    }
+  ]
+}

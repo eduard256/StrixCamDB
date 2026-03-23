@@ -1,0 +1,118 @@
+{
+  "version": 2,
+  "brand": "Cantonk",
+  "brand_id": "cantonk",
+  "streams": [
+    {
+      "id": "cantonk-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "200SR40N",
+        "IPDE20A600",
+        "KIP-100CZ40H",
+        "KIP-100R30N",
+        "KIP-130RT45H",
+        "KIP-130SHR30H",
+        "KIP-130SHV30H",
+        "KIP-130SL20H",
+        "KIP20040N",
+        "kip-200a40h",
+        "KIP-200CY60N",
+        "KIP-200HV20H",
+        "KIP-200PT40",
+        "KIP200PT40N",
+        "KIP-200SHR30N",
+        "KIP30-1080p-MX",
+        "Other",
+        "WFIP500R25F"
+      ]
+    },
+    {
+      "id": "cantonk-2",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264/265 port 34567",
+        "KHJSL200W",
+        "KIP-130RT45H",
+        "KIP-200CZ60N",
+        "KIP-200PT40",
+        "KIP-200SHR30N",
+        "kip-200w25n",
+        "Other"
+      ]
+    },
+    {
+      "id": "cantonk-3",
+      "url": "snap.jpg?JpegSize=M",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "H.264/265 port 34567",
+        "KIP-300HV20A",
+        "kit200nf60"
+      ]
+    },
+    {
+      "id": "cantonk-4",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KIP-130RT45H",
+        "KIP-130SL20H",
+        "Other"
+      ]
+    },
+    {
+      "id": "cantonk-5",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KIP-130Y20",
+        "KIP-200PT40",
+        "Other"
+      ]
+    },
+    {
+      "id": "cantonk-6",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "KIP-200NF60N",
+        "KIP200PT40N"
+      ]
+    },
+    {
+      "id": "cantonk-7",
+      "url": "/Streaming/Channels/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "KIP-200SL20G"
+      ]
+    },
+    {
+      "id": "cantonk-8",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "XM76"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Gpi360",
+  "brand_id": "gpi360",
+  "streams": [
+    {
+      "id": "gpi360-1",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

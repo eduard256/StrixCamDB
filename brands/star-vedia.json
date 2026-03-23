@@ -1,0 +1,210 @@
+{
+  "version": 2,
+  "brand": "Star Vedia",
+  "brand_id": "star-vedia",
+  "streams": [
+    {
+      "id": "star-vedia-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "6836",
+        "T-6836WTP"
+      ]
+    },
+    {
+      "id": "star-vedia-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "7837-WIP",
+        "C-7835WIP",
+        "Other",
+        "T-7837WIP",
+        "T-7838WIP"
+      ]
+    },
+    {
+      "id": "star-vedia-3",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "C-7837WIP",
+        "Other",
+        "T-7838WIP"
+      ]
+    },
+    {
+      "id": "star-vedia-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "F-6815W",
+        "F-6836w",
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-5",
+      "url": "H264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "H-6837EI",
+        "H-6837WI",
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-6",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IC-202"
+      ]
+    },
+    {
+      "id": "star-vedia-7",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IC-202",
+        "IC502w"
+      ]
+    },
+    {
+      "id": "star-vedia-8",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IC-202",
+        "IC502W",
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-9",
+      "url": "[CHANNEL]/[USERNAME]:[PASSWORD]/main",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IC-202",
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-10",
+      "url": "snapshot.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-11",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "T-7833WIP",
+        "T-7837WIP",
+        "T-7838WIP"
+      ]
+    },
+    {
+      "id": "star-vedia-12",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "T-7815WIP",
+        "T-7837WIP"
+      ]
+    },
+    {
+      "id": "star-vedia-13",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-14",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-15",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "T-7833WIP",
+        "T-7837WIP",
+        "T-7838WIP"
+      ]
+    },
+    {
+      "id": "star-vedia-16",
+      "url": "user/videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-17",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "star-vedia-18",
+      "url": "img/snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "T-7833WIP"
+      ]
+    }
+  ]
+}

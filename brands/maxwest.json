@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Maxwest",
+  "brand_id": "maxwest",
+  "streams": [
+    {
+      "id": "maxwest-1",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "tab-9150"
+      ]
+    }
+  ]
+}

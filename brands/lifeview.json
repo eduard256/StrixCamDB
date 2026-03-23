@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Lifeview",
+  "brand_id": "lifeview",
+  "streams": [
+    {
+      "id": "lifeview-1",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Outside"
+      ]
+    }
+  ]
+}

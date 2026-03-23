@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Alonma",
+  "brand_id": "alonma",
+  "streams": [
+    {
+      "id": "alonma-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "inwp2ac40"
+      ]
+    }
+  ]
+}

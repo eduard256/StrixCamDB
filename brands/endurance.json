@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Endurance",
+  "brand_id": "endurance",
+  "streams": [
+    {
+      "id": "endurance-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "oipc-10"
+      ]
+    },
+    {
+      "id": "endurance-2",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "opic-10"
+      ]
+    }
+  ]
+}

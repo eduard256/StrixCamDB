@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Citystar",
+  "brand_id": "citystar",
+  "streams": [
+    {
+      "id": "citystar-1",
+      "url": "/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

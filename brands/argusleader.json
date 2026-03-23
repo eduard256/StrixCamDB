@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Argusleader",
+  "brand_id": "argusleader",
+  "streams": [
+    {
+      "id": "argusleader-1",
+      "url": "image.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AS21231"
+      ]
+    }
+  ]
+}

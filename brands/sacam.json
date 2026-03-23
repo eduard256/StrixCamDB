@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "brand": "Sacam",
+  "brand_id": "sacam",
+  "streams": [
+    {
+      "id": "sacam-1",
+      "url": "/onvif1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cn-72m1wl",
+        "CN-72M2WL"
+      ]
+    },
+    {
+      "id": "sacam-2",
+      "url": "/1.3gp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CN-72M2WH",
+        "CN-72M2WL",
+        "p2p",
+        "p2p hd",
+        "SW27897964"
+      ]
+    }
+  ]
+}

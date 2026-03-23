@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Hiklook",
+  "brand_id": "hiklook",
+  "streams": [
+    {
+      "id": "hiklook-1",
+      "url": "/live1.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2mp"
+      ]
+    },
+    {
+      "id": "hiklook-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2mp"
+      ]
+    },
+    {
+      "id": "hiklook-3",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "2mp",
+        "IPC-T250H"
+      ]
+    }
+  ]
+}

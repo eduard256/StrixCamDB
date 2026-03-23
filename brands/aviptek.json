@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Aviptek",
+  "brand_id": "aviptek",
+  "streams": [
+    {
+      "id": "aviptek-1",
+      "url": "GetData.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "nc1600"
+      ]
+    },
+    {
+      "id": "aviptek-2",
+      "url": "GetData.cgi?Status=1",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "aviptek-3",
+      "url": "live/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

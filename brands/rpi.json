@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "brand": "Rpi",
+  "brand_id": "rpi",
+  "streams": [
+    {
+      "id": "rpi-1",
+      "url": "/stream.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8000,
+      "models": [
+        "1st"
+      ]
+    },
+    {
+      "id": "rpi-2",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "rpi1",
+        "usbcam",
+        "zero"
+      ]
+    },
+    {
+      "id": "rpi-3",
+      "url": "/",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 8081,
+      "models": [
+        "wzero"
+      ]
+    },
+    {
+      "id": "rpi-4",
+      "url": "/video.mjpg?oids=1&username=[USERNAME]&password=[USERNAME]pass&balls=balls5",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "zero"
+      ]
+    }
+  ]
+}

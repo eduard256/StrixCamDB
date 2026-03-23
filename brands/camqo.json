@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Camqo",
+  "brand_id": "camqo",
+  "streams": [
+    {
+      "id": "camqo-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CMWIFI8CHKITSHD"
+      ]
+    }
+  ]
+}

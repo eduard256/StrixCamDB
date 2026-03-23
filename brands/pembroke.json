@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Pembroke",
+  "brand_id": "pembroke",
+  "streams": [
+    {
+      "id": "pembroke-1",
+      "url": "/media.amp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PLANETICA-2200",
+        "PLANETICA-4500V"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Dizink",
+  "brand_id": "dizink",
+  "streams": [
+    {
+      "id": "dizink-1",
+      "url": "VIDEO.CGI",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "930L"
+      ]
+    }
+  ]
+}

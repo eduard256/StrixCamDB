@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Redrock",
+  "brand_id": "redrock",
+  "streams": [
+    {
+      "id": "redrock-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPHS615HD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Sjet",
+  "brand_id": "sjet",
+  "streams": [
+    {
+      "id": "sjet-1",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "544545d"
+      ]
+    }
+  ]
+}

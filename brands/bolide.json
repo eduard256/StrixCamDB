@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Bolide",
+  "brand_id": "bolide",
+  "streams": [
+    {
+      "id": "bolide-1",
+      "url": "/ch01/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "BN7009HA"
+      ]
+    },
+    {
+      "id": "bolide-2",
+      "url": "/cam/realmonitor?channel=1&subtype=1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VCI-252-05"
+      ]
+    },
+    {
+      "id": "bolide-3",
+      "url": "/cam/realmonitor?channel=1&subtype=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "VCI-252-05"
+      ]
+    }
+  ]
+}

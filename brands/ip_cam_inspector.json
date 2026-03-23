@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Ip_cam_inspector",
+  "brand_id": "ip_cam_inspector",
+  "streams": [
+    {
+      "id": "ip_cam_inspector-1",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Turbo-X"
+      ]
+    }
+  ]
+}

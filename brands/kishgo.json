@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "brand": "Kishgo",
+  "brand_id": "kishgo",
+  "streams": [
+    {
+      "id": "kishgo-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1234",
+        "dh46h 960p"
+      ]
+    },
+    {
+      "id": "kishgo-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "960",
+        "960P"
+      ]
+    }
+  ]
+}

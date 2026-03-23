@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Jetvision",
+  "brand_id": "jetvision",
+  "streams": [
+    {
+      "id": "jetvision-1",
+      "url": "/0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "5meg"
+      ]
+    }
+  ]
+}

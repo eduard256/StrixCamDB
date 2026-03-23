@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Homeviz",
+  "brand_id": "homeviz",
+  "streams": [
+    {
+      "id": "homeviz-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8899,
+      "models": [
+        "ob10"
+      ]
+    }
+  ]
+}

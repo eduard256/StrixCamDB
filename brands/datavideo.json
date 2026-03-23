@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Datavideo",
+  "brand_id": "datavideo",
+  "streams": [
+    {
+      "id": "datavideo-1",
+      "url": "/live",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "NVS-25"
+      ]
+    }
+  ]
+}

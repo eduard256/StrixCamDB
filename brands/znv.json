@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "brand": "Znv",
+  "brand_id": "znv",
+  "streams": [
+    {
+      "id": "znv-1",
+      "url": "/H264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ZBIE-2020W",
+        "ZBIE-2151W-N3/4T-A",
+        "Zdie-2031u-n4t-s",
+        "ZNV-633"
+      ]
+    },
+    {
+      "id": "znv-2",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ZBIE-2020W-N4T",
+        "ZBIE-2151W-N3/4T-A",
+        "ZDIE-2010W-N3T-3.6"
+      ]
+    }
+  ]
+}

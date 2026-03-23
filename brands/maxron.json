@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Maxron",
+  "brand_id": "maxron",
+  "streams": [
+    {
+      "id": "maxron-1",
+      "url": "/cam/realmonitor",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Tokhmi"
+      ]
+    },
+    {
+      "id": "maxron-2",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "TOKHMI",
+        "x12"
+      ]
+    }
+  ]
+}

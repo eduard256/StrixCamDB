@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Acvil",
+  "brand_id": "acvil",
+  "streams": [
+    {
+      "id": "acvil-1",
+      "url": "/Streaming/Channels/[CHANNEL+1]02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "acvil-2",
+      "url": "/Streaming/Channels/[CHANNEL]02",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "*"
+      ]
+    },
+    {
+      "id": "acvil-3",
+      "url": "/Streaming/channels/702",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "WIFI-5MP-30"
+      ]
+    }
+  ]
+}

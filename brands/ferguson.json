@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Ferguson",
+  "brand_id": "ferguson",
+  "streams": [
+    {
+      "id": "ferguson-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Doorbel"
+      ]
+    },
+    {
+      "id": "ferguson-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Doorbell",
+        "Smart Eye 300"
+      ]
+    },
+    {
+      "id": "ferguson-3",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5544,
+      "models": [
+        "EyeSmart",
+        "Smart Eye 300"
+      ]
+    }
+  ]
+}

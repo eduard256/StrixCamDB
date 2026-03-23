@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "brand": "Urmet",
+  "brand_id": "urmet",
+  "streams": [
+    {
+      "id": "urmet-1",
+      "url": "/v01",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "1080p",
+        "M-12",
+        "Other"
+      ]
+    },
+    {
+      "id": "urmet-2",
+      "url": "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "M-12"
+      ]
+    },
+    {
+      "id": "urmet-3",
+      "url": "/stremming1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "M-12",
+        "Other"
+      ]
+    },
+    {
+      "id": "urmet-4",
+      "url": "cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "urmet-5",
+      "url": "VideoInput/[CHANNEL]/h264/1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

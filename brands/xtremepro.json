@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Xtremepro",
+  "brand_id": "xtremepro",
+  "streams": [
+    {
+      "id": "xtremepro-1",
+      "url": "/videoMain",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8001,
+      "models": [
+        "ipw1-1080p"
+      ]
+    }
+  ]
+}

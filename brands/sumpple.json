@@ -1,0 +1,108 @@
+{
+  "version": 2,
+  "brand": "Sumpple",
+  "brand_id": "sumpple",
+  "streams": [
+    {
+      "id": "sumpple-1",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "610",
+        "610S",
+        "631",
+        "A610",
+        "S610",
+        "S631",
+        "S650",
+        "Sumpple S610"
+      ]
+    },
+    {
+      "id": "sumpple-2",
+      "url": "cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "610",
+        "610S",
+        "631",
+        "960P",
+        "Other",
+        "qd300",
+        "S601",
+        "S610",
+        "s631",
+        "S631",
+        "S6312",
+        "S651",
+        "SUMPPLE S610"
+      ]
+    },
+    {
+      "id": "sumpple-3",
+      "url": "cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "610",
+        "s601",
+        "s610",
+        "S610",
+        "s650",
+        "S651",
+        "SC631"
+      ]
+    },
+    {
+      "id": "sumpple-4",
+      "url": "live/av0?user=[USERNAME]&passwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "610",
+        "610S",
+        "S610",
+        "S631",
+        "SUMPPLE S610"
+      ]
+    },
+    {
+      "id": "sumpple-5",
+      "url": "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "610S",
+        "s310",
+        "S822"
+      ]
+    },
+    {
+      "id": "sumpple-6",
+      "url": "/live/av1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 5546,
+      "models": [
+        "631"
+      ]
+    },
+    {
+      "id": "sumpple-7",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "mms",
+      "port": 554,
+      "models": [
+        "S610"
+      ]
+    }
+  ]
+}

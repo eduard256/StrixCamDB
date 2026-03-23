@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Antrica",
+  "brand_id": "antrica",
+  "streams": [
+    {
+      "id": "antrica-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CMBC MIMIC 4",
+        "Encoder"
+      ]
+    }
+  ]
+}

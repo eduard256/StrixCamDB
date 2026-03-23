@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Katway",
+  "brand_id": "katway",
+  "streams": [
+    {
+      "id": "katway-1",
+      "url": "/H264/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3516C"
+      ]
+    },
+    {
+      "id": "katway-2",
+      "url": "/H264/ch1/sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "3518C0"
+      ]
+    },
+    {
+      "id": "katway-3",
+      "url": "ch0_0.h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "cam20-a-2",
+        "Other"
+      ]
+    }
+  ]
+}

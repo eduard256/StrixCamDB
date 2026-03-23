@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Sv3p",
+  "brand_id": "sv3p",
+  "streams": [
+    {
+      "id": "sv3p-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SV-B02W-720P"
+      ]
+    },
+    {
+      "id": "sv3p-2",
+      "url": "/stream1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "SV-B06PoE-1080P-A"
+      ]
+    }
+  ]
+}

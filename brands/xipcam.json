@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "brand": "Xipcam",
+  "brand_id": "xipcam",
+  "streams": [
+    {
+      "id": "xipcam-1",
+      "url": "videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "000C5DDC7754",
+        "Other",
+        "wifi"
+      ]
+    },
+    {
+      "id": "xipcam-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "onbekend"
+      ]
+    },
+    {
+      "id": "xipcam-3",
+      "url": "mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

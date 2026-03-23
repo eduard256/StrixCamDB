@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "brand": "Avipas",
+  "brand_id": "avipas",
+  "streams": [
+    {
+      "id": "avipas-1",
+      "url": "/live/av0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "av1082w",
+        "ptz",
+        "x1280"
+      ]
+    }
+  ]
+}

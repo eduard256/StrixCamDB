@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Bluepix",
+  "brand_id": "bluepix",
+  "streams": [
+    {
+      "id": "bluepix-1",
+      "url": "snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Bluestork IPCAM"
+      ]
+    }
+  ]
+}

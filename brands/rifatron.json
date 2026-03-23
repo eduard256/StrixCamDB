@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "brand": "Rifatron",
+  "brand_id": "rifatron",
+  "streams": [
+    {
+      "id": "rifatron-1",
+      "url": "cgi-bin/animate.cgi?[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "HD1 Series DVR",
+        "MH Series DVR",
+        "MM Series DVR",
+        "MM SERİES DVR",
+        "Other"
+      ]
+    }
+  ]
+}

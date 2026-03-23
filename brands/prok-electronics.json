@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "brand": "Prok Electronics",
+  "brand_id": "prok-electronics",
+  "streams": [
+    {
+      "id": "prok-electronics-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CVCIP",
+        "CVIP"
+      ]
+    },
+    {
+      "id": "prok-electronics-2",
+      "url": "ipcam/avc.cgi?audiostream=[CHANNEL]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "CVCIP"
+      ]
+    },
+    {
+      "id": "prok-electronics-3",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "CVCIP"
+      ]
+    }
+  ]
+}

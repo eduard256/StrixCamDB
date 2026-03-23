@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "brand": "Black Label",
+  "brand_id": "black-label",
+  "streams": [
+    {
+      "id": "black-label-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B2601",
+        "BL2605",
+        "Other"
+      ]
+    },
+    {
+      "id": "black-label-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "B2601"
+      ]
+    },
+    {
+      "id": "black-label-3",
+      "url": "/udp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "BL2305",
+        "BL2605"
+      ]
+    },
+    {
+      "id": "black-label-4",
+      "url": "/tcp/av0_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 10554,
+      "models": [
+        "BL2605"
+      ]
+    }
+  ]
+}

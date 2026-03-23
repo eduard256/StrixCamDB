@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Crl",
+  "brand_id": "crl",
+  "streams": [
+    {
+      "id": "crl-1",
+      "url": "/media/?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "SK-50"
+      ]
+    }
+  ]
+}

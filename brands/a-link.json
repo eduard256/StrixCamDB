@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "brand": "A-link",
+  "brand_id": "a-link",
+  "streams": [
+    {
+      "id": "a-link-1",
+      "url": "cgi/jpg/image.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "101",
+        "IPC1",
+        "IPC2",
+        "IPC3"
+      ]
+    },
+    {
+      "id": "a-link-2",
+      "url": "cgi/mjpg/mjpeg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "101",
+        "IPC1",
+        "IPC2"
+      ]
+    },
+    {
+      "id": "a-link-3",
+      "url": "cgi/mjpg/mjpg.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AICN500W",
+        "IPC1"
+      ]
+    },
+    {
+      "id": "a-link-4",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC2"
+      ]
+    },
+    {
+      "id": "a-link-5",
+      "url": "image.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC3",
+        "Other"
+      ]
+    },
+    {
+      "id": "a-link-6",
+      "url": "video.cgi?resolution=[WIDTH]x[HEIGHT]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IPC3",
+        "Other"
+      ]
+    },
+    {
+      "id": "a-link-7",
+      "url": "/Video?Codec=MPEG4&Width=720&Height=576&Fps=30",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "IPC3",
+        "Other"
+      ]
+    }
+  ]
+}

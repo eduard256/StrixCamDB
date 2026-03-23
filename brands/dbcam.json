@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Dbcam",
+  "brand_id": "dbcam",
+  "streams": [
+    {
+      "id": "dbcam-1",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "003ccys"
+      ]
+    },
+    {
+      "id": "dbcam-2",
+      "url": "/live/ch0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "dbpower",
+        "Other"
+      ]
+    }
+  ]
+}

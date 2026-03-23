@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Bigasua",
+  "brand_id": "bigasua",
+  "streams": [
+    {
+      "id": "bigasua-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "BMT101016034"
+      ]
+    },
+    {
+      "id": "bigasua-2",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "BMT101016034"
+      ]
+    }
+  ]
+}

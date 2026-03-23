@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Alaterassi",
+  "brand_id": "alaterassi",
+  "streams": [
+    {
+      "id": "alaterassi-1",
+      "url": "/live.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "fd8134v"
+      ]
+    }
+  ]
+}

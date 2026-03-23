@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "brand": "Pixpo",
+  "brand_id": "pixpo",
+  "streams": [
+    {
+      "id": "pixpo-1",
+      "url": "videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "1Z074A2A0301627785",
+        "PIX006428BFYZY",
+        "PIX009491MLJYM",
+        "PIX009495HURFE",
+        "PIX010584DFACE"
+      ]
+    },
+    {
+      "id": "pixpo-2",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other",
+        "PIX006428BFYZY"
+      ]
+    },
+    {
+      "id": "pixpo-3",
+      "url": "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "pixpo-4",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PIX006428BFYZY"
+      ]
+    },
+    {
+      "id": "pixpo-5",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PIX006428BFYZY"
+      ]
+    },
+    {
+      "id": "pixpo-6",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "PIX006428BFYZY"
+      ]
+    }
+  ]
+}

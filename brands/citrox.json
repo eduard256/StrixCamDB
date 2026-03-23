@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "brand": "Citrox",
+  "brand_id": "citrox",
+  "streams": [
+    {
+      "id": "citrox-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "DVX 5X1",
+        "IPD04",
+        "LIXODECAMERA",
+        "XVR 5X1"
+      ]
+    }
+  ]
+}

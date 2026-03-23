@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Evonet",
+  "brand_id": "evonet",
+  "streams": [
+    {
+      "id": "evonet-1",
+      "url": "/?trackID=0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "C-SD220-Z18"
+      ]
+    },
+    {
+      "id": "evonet-2",
+      "url": "/onvif/media",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "C-VD310IR"
+      ]
+    }
+  ]
+}

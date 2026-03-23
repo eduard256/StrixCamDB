@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Wallcharger",
+  "brand_id": "wallcharger",
+  "streams": [
+    {
+      "id": "wallcharger-1",
+      "url": "/rtsp_live0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

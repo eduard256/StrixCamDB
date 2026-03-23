@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Seif",
+  "brand_id": "seif",
+  "streams": [
+    {
+      "id": "seif-1",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "POE-280HD"
+      ]
+    }
+  ]
+}

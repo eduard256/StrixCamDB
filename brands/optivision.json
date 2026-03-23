@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Optivision",
+  "brand_id": "optivision",
+  "streams": [
+    {
+      "id": "optivision-1",
+      "url": "ivop.get?action=live&THREAD_ID=",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "DVRMINIH4"
+      ]
+    },
+    {
+      "id": "optivision-2",
+      "url": "jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OV Series"
+      ]
+    },
+    {
+      "id": "optivision-3",
+      "url": "/Streaming/Channels/3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "OV Series"
+      ]
+    }
+  ]
+}

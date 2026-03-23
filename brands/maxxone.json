@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Maxxone",
+  "brand_id": "maxxone",
+  "streams": [
+    {
+      "id": "maxxone-1",
+      "url": "/h264_stream",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "Bullet"
+      ]
+    },
+    {
+      "id": "maxxone-2",
+      "url": "h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "m1p"
+      ]
+    },
+    {
+      "id": "maxxone-3",
+      "url": "/media/video3",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "M1P-C3A40F-E-G"
+      ]
+    }
+  ]
+}

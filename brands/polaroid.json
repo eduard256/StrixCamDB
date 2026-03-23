@@ -1,0 +1,242 @@
+{
+  "version": 2,
+  "brand": "Polaroid",
+  "brand_id": "polaroid",
+  "streams": [
+    {
+      "id": "polaroid-1",
+      "url": "videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "2.6",
+        "IP-100",
+        "IP-200B",
+        "IP-200W",
+        "IP-302",
+        "Other"
+      ]
+    },
+    {
+      "id": "polaroid-2",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "201B",
+        "IP-101",
+        "IP-302",
+        "IP351",
+        "Other",
+        "POLIP201W",
+        "POLIP351S"
+      ]
+    },
+    {
+      "id": "polaroid-3",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300",
+        "300B",
+        "350",
+        "IP-200B",
+        "IP-200W",
+        "IP-300",
+        "IP-300B",
+        "IP300W",
+        "IP-302",
+        "IP-350",
+        "Other"
+      ]
+    },
+    {
+      "id": "polaroid-4",
+      "url": "videostream.cgi?rate=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "300",
+        "351s",
+        "IP-300",
+        "IP-810RW",
+        "POLIP201W"
+      ]
+    },
+    {
+      "id": "polaroid-5",
+      "url": "videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 152,
+      "models": [
+        "300",
+        "IP-101",
+        "IP201W",
+        "POLIP351S"
+      ]
+    },
+    {
+      "id": "polaroid-6",
+      "url": "videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "351S",
+        "IP-100",
+        "IP-101W",
+        "IP200",
+        "IP-200B",
+        "IP-201B",
+        "IP-350",
+        "IP-351S",
+        "IP-360S",
+        "IP-810W",
+        "IP-810WZ",
+        "Other",
+        "P351S",
+        "POLIP101W",
+        "POLIP201B",
+        "POLIP201W",
+        "POLIP351S",
+        "POLIP35i5"
+      ]
+    },
+    {
+      "id": "polaroid-7",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "b300"
+      ]
+    },
+    {
+      "id": "polaroid-8",
+      "url": "videostream.cgi?rate=11",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "ip 300"
+      ]
+    },
+    {
+      "id": "polaroid-9",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-100",
+        "IP-200B",
+        "IP-300",
+        "IP-300W",
+        "IP-302",
+        "IP302B",
+        "IP350",
+        "Other"
+      ]
+    },
+    {
+      "id": "polaroid-10",
+      "url": "/videostream.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "ip-200w"
+      ]
+    },
+    {
+      "id": "polaroid-11",
+      "url": "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=320x240",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "IP-200W"
+      ]
+    },
+    {
+      "id": "polaroid-12",
+      "url": "videostream.asf?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "VLC",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "IP-300",
+        "IP-302",
+        "IP-302W",
+        "IP-350"
+      ]
+    },
+    {
+      "id": "polaroid-13",
+      "url": "cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "polaroid-14",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "polaroid-15",
+      "url": "/videostream.cgi?resolution=8&rate=13",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "POLI201W"
+      ]
+    },
+    {
+      "id": "polaroid-16",
+      "url": "/videostream.cgi?rate=11",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "POLI201W"
+      ]
+    },
+    {
+      "id": "polaroid-17",
+      "url": "videofeed",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "tablet"
+      ]
+    },
+    {
+      "id": "polaroid-18",
+      "url": "snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "www"
+      ]
+    }
+  ]
+}

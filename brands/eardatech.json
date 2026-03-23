@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "brand": "Eardatech",
+  "brand_id": "eardatech",
+  "streams": [
+    {
+      "id": "eardatech-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v380",
+        "V380"
+      ]
+    },
+    {
+      "id": "eardatech-2",
+      "url": "/cam1/onvif-h264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v380"
+      ]
+    },
+    {
+      "id": "eardatech-3",
+      "url": "cam[CHANNEL]/h264",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v380"
+      ]
+    },
+    {
+      "id": "eardatech-4",
+      "url": "/ch0_0.264",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "v380"
+      ]
+    }
+  ]
+}

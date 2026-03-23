@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "brand": "Oncam Grandeye",
+  "brand_id": "oncam-grandeye",
+  "streams": [
+    {
+      "id": "oncam-grandeye-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "EvoMini",
+        "grandeye",
+        "Other"
+      ]
+    },
+    {
+      "id": "oncam-grandeye-2",
+      "url": "video.cgi?resolution=VGA",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Grandeye",
+        "GRANDEYE",
+        "ip360",
+        "Other"
+      ]
+    },
+    {
+      "id": "oncam-grandeye-3",
+      "url": "mjpg/video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "GRANDEYE",
+        "Other"
+      ]
+    },
+    {
+      "id": "oncam-grandeye-4",
+      "url": "video.mp4",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "oncam-grandeye-5",
+      "url": "img/video.mjpeg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

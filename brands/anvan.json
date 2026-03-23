@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Anvan",
+  "brand_id": "anvan",
+  "streams": [
+    {
+      "id": "anvan-1",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "AR-PTZ22-IP"
+      ]
+    },
+    {
+      "id": "anvan-2",
+      "url": "/1",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    },
+    {
+      "id": "anvan-3",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

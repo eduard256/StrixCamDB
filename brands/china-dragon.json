@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "brand": "China Dragon",
+  "brand_id": "china-dragon",
+  "streams": [
+    {
+      "id": "china-dragon-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "593amtmy6g8h",
+        "C9F0SEZ0N0P2L0",
+        "C9F0SeZ0N0P7L0",
+        "IIII-718128-EADFC",
+        "IPCAM P2P",
+        "Other",
+        "PTZ H3-187V"
+      ]
+    },
+    {
+      "id": "china-dragon-2",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "c9f0sez0n0p2l0",
+        "C9F0SeZ0N0P7L0",
+        "IPCAM P2P"
+      ]
+    },
+    {
+      "id": "china-dragon-3",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "JKN06204",
+        "TC55",
+        "TC56"
+      ]
+    }
+  ]
+}

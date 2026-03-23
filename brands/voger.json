@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Voger",
+  "brand_id": "voger",
+  "streams": [
+    {
+      "id": "voger-1",
+      "url": "/img/video.asf",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "VG360"
+      ]
+    },
+    {
+      "id": "voger-2",
+      "url": "/img/video.mjpeg",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "VG360"
+      ]
+    }
+  ]
+}

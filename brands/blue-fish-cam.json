@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Blue Fish Cam",
+  "brand_id": "blue-fish-cam",
+  "streams": [
+    {
+      "id": "blue-fish-cam-1",
+      "url": "/11",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

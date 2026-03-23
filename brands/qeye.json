@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Qeye",
+  "brand_id": "qeye",
+  "streams": [
+    {
+      "id": "qeye-1",
+      "url": "videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "QE-100"
+      ]
+    },
+    {
+      "id": "qeye-2",
+      "url": "videostream.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "QE-100"
+      ]
+    }
+  ]
+}

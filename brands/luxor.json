@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Luxor",
+  "brand_id": "luxor",
+  "streams": [
+    {
+      "id": "luxor-1",
+      "url": "GetImage.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "lx-515sh"
+      ]
+    }
+  ]
+}

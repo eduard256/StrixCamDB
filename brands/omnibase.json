@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Omnibase",
+  "brand_id": "omnibase",
+  "streams": [
+    {
+      "id": "omnibase-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 80,
+      "models": [
+        "minidome4"
+      ]
+    }
+  ]
+}

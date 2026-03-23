@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Balkong",
+  "brand_id": "balkong",
+  "streams": [
+    {
+      "id": "balkong-1",
+      "url": "/ucast/12",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "Billig"
+      ]
+    }
+  ]
+}

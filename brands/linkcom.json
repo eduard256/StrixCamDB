@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Linkcom",
+  "brand_id": "linkcom",
+  "streams": [
+    {
+      "id": "linkcom-1",
+      "url": "video.mjpg",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "doorvideo",
+        "Other"
+      ]
+    }
+  ]
+}

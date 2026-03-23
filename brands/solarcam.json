@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Solarcam",
+  "brand_id": "solarcam",
+  "streams": [
+    {
+      "id": "solarcam-1",
+      "url": "tmpfs/auto.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "4G_UFI_1839"
+      ]
+    }
+  ]
+}

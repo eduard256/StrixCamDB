@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Prada",
+  "brand_id": "prada",
+  "streams": [
+    {
+      "id": "prada-1",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=00",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "PC-NVD-325R"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Juning",
+  "brand_id": "juning",
+  "streams": [
+    {
+      "id": "juning-1",
+      "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 81,
+      "models": [
+        "C42"
+      ]
+    }
+  ]
+}

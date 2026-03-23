@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Unidvr",
+  "brand_id": "unidvr",
+  "streams": [
+    {
+      "id": "unidvr-1",
+      "url": "snap.jpg?JpegCam=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

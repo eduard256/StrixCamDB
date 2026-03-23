@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "brand": "Idis Global",
+  "brand_id": "idis-global",
+  "streams": [
+    {
+      "id": "idis-global-1",
+      "url": "/onvif/media",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "DC-D1323FR",
+        "MNC222SH"
+      ]
+    }
+  ]
+}

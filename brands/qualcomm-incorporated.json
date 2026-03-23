@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "brand": "Qualcomm Incorporated",
+  "brand_id": "qualcomm-incorporated",
+  "streams": [
+    {
+      "id": "qualcomm-incorporated-1",
+      "url": "snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AR81"
+      ]
+    },
+    {
+      "id": "qualcomm-incorporated-2",
+      "url": "/user=[USERNAME]_password=[PASSWORD]_channel=1_stream=0.sdp",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "ESCAM"
+      ]
+    },
+    {
+      "id": "qualcomm-incorporated-3",
+      "url": "/h264Preview_01_sub",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 1030,
+      "models": [
+        "IP3M952E"
+      ]
+    }
+  ]
+}

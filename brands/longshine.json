@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "brand": "Longshine",
+  "brand_id": "longshine",
+  "streams": [
+    {
+      "id": "longshine-1",
+      "url": "video.cgi",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "AVN362",
+        "Other"
+      ]
+    },
+    {
+      "id": "longshine-2",
+      "url": "snapshot.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

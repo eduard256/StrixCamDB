@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "brand": "Smvi",
+  "brand_id": "smvi",
+  "streams": [
+    {
+      "id": "smvi-1",
+      "url": "img/snapshot.cgi?size=2",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "orion"
+      ]
+    },
+    {
+      "id": "smvi-2",
+      "url": "img/snapshot.cgi?size=3",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "orion"
+      ]
+    }
+  ]
+}

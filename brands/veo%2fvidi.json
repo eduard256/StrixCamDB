@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "brand": "Veo/vidi",
+  "brand_id": "veo%2fvidi",
+  "streams": [
+    {
+      "id": "veo%2fvidi-1",
+      "url": "?action=snapshot",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OBSERVER",
+        "Other"
+      ]
+    },
+    {
+      "id": "veo%2fvidi-2",
+      "url": "?action=stream",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OBSERVER",
+        "Other"
+      ]
+    },
+    {
+      "id": "veo%2fvidi-3",
+      "url": "GetData.cgi",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OBSERVER",
+        "Other"
+      ]
+    },
+    {
+      "id": "veo%2fvidi-4",
+      "url": "Jpeg/CamImg.jpg",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OBSERVER",
+        "Other"
+      ]
+    },
+    {
+      "id": "veo%2fvidi-5",
+      "url": "GetData.cgi?Status=0",
+      "type": "MJPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "OBSERVER"
+      ]
+    },
+    {
+      "id": "veo%2fvidi-6",
+      "url": "cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+      "type": "JPEG",
+      "protocol": "http",
+      "port": 0,
+      "models": [
+        "Other"
+      ]
+    }
+  ]
+}

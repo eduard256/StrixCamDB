@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "brand": "fang-hacks",
+  "brand_id": "fang-hacks",
+  "streams": [
+    {
+      "id": "fang-hacks-1",
+      "url": "/unicast",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "XIAOFANG ARM PROCESSOR",
+        "XiaoFang ARM",
+        "Classic XiaoFang",
+        "ARM926EJ-S"
+      ],
+      "notes": "Classic XiaoFang with ARM processor (not Ingenic)"
+    }
+  ]
+}

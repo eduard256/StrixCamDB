@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "brand": "Vanderbilt",
+  "brand_id": "vanderbilt",
+  "streams": [
+    {
+      "id": "vanderbilt-1",
+      "url": "/live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CVMS1310-IR",
+        "CVMS2011-IR"
+      ]
+    },
+    {
+      "id": "vanderbilt-2",
+      "url": "live/ch00_0",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 0,
+      "models": [
+        "GATOTHER",
+        "Other",
+        "STANF OTHER"
+      ]
+    }
+  ]
+}

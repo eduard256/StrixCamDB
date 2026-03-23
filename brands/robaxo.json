@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "brand": "Robaxo",
+  "brand_id": "robaxo",
+  "streams": [
+    {
+      "id": "robaxo-1",
+      "url": "/",
+      "type": "FFMPEG",
+      "protocol": "http",
+      "port": 8090,
+      "models": [
+        "204B",
+        "RC204B"
+      ]
+    },
+    {
+      "id": "robaxo-2",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=1",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "4RC204A",
+        "Other",
+        "RC204",
+        "RC204A"
+      ]
+    },
+    {
+      "id": "robaxo-3",
+      "url": "/cam/realmonitor?channel=1&subtype=00&authbasic=[AUTH]",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "RC204",
+        "RC204A"
+      ]
+    },
+    {
+      "id": "robaxo-4",
+      "url": "cam/realmonitor?channel=[CHANNEL]&subtype=01",
+      "type": "VLC",
+      "protocol": "rtsp",
+      "port": 1935,
+      "models": [
+        "RC204",
+        "RC204A"
+      ]
+    },
+    {
+      "id": "robaxo-5",
+      "url": "/Streaming/Channels/102",
+      "type": "FFMPEG",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "RC360Z"
+      ]
+    }
+  ]
+}
