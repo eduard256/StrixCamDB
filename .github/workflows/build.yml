@@ -8,7 +8,6 @@ on:
       - "presets/**"
       - "scripts/build_sqlite.py"
       - "scripts/generate_presets.py"
-  push_tags:
     tags:
       - "v*"
 
