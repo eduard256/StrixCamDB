@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/eduard256/StrixCamDB/schemas/preset.schema.json",
+  "title": "StrixCamDB Preset File",
+  "description": "Schema for curated stream URL pattern lists",
+  "type": "object",
+  "required": ["version", "name", "preset_id", "streams"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1,
+      "description": "Preset format version"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable preset name"
+    },
+    "preset_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9\\-]*[a-z0-9]$",
+      "description": "URL-safe preset identifier, must match filename"
+    },
+    "description": {
+      "type": "string",
+      "description": "What this preset contains and when to use it"
+    },
+    "streams": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/preset_stream"
+      }
+    }
+  },
+  "$defs": {
+    "preset_stream": {
+      "type": "object",
+      "required": ["url", "type", "protocol", "port"],
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "URL path with optional placeholders"
+        },
+        "type": {
+          "type": "string",
+          "description": "Stream type"
+        },
+        "protocol": {
+          "type": "string",
+          "description": "Network protocol"
+        },
+        "port": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 65535,
+          "description": "Port number"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes"
+        },
+        "brand_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of brands that use this pattern"
+        }
+      }
+    }
+  }
+}

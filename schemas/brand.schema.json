@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/eduard256/StrixCamDB/schemas/brand.schema.json",
+  "title": "StrixCamDB Brand File",
+  "description": "Schema for IP camera brand files in StrixCamDB v2 format",
+  "type": "object",
+  "required": ["version", "brand", "brand_id", "streams"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 2,
+      "description": "Format version, always 2"
+    },
+    "brand": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable brand name"
+    },
+    "brand_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9\\-]*[a-z0-9]$|^[a-z0-9]$",
+      "description": "URL-safe brand identifier, must match filename"
+    },
+    "streams": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/stream"
+      },
+      "description": "List of stream URL patterns for this brand"
+    }
+  },
+  "$defs": {
+    "stream": {
+      "type": "object",
+      "required": ["id", "url", "type", "protocol", "port", "models"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unique stream identifier within this brand file"
+        },
+        "url": {
+          "type": "string",
+          "description": "URL path with optional placeholders: [CHANNEL], [CHANNEL+1], [USERNAME], [PASSWORD], [WIDTH], [HEIGHT], [IP], [PORT], [AUTH], [TOKEN], [USER], [PASS], [PWD], [PASWORD]"
+        },
+        "type": {
+          "type": "string",
+          "description": "Stream type: FFMPEG, MJPEG, JPEG, VLC, BUBBLE, or future types"
+        },
+        "protocol": {
+          "type": "string",
+          "description": "Network protocol: rtsp, http, https, mms, rtmp, rtsps, bubble, rtp, or future protocols"
+        },
+        "port": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 65535,
+          "description": "Port number. 0 means unknown/use default for protocol"
+        },
+        "models": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "description": "Camera models this stream works for. [\"*\"] means all models of this brand"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Classification tags: main, sub, snapshot, mjpeg, audio, ptz, onvif, etc."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Human-readable notes about this stream"
+        }
+      }
+    }
+  }
+}
