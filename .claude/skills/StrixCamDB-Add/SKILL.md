@@ -27,6 +27,36 @@ If the user provided details in the command arguments -- parse them and determin
 1. **Add new brand** -- create a new JSON file for a brand that doesn't exist yet
 2. **Add stream URL** -- add a new stream entry to an existing brand
 3. **Add model to stream** -- add a model name to an existing stream's `models` array
+4. **Process contribution issues** -- review and apply data from GitHub issues
+
+### Processing contribution issues
+
+When user selects "Process contribution issues":
+
+1. Run `gh issue list --repo eduard256/StrixCamDB --label contribution --state open` to list pending contributions
+2. Show the list to the user
+3. For each issue the user wants to process:
+   a. Run `gh issue view {number} --repo eduard256/StrixCamDB` to read the YAML data
+   b. Parse the YAML block from the issue body:
+      ```yaml
+      brand: Dahua
+      model: IPC-HDW1220S
+      url: /live
+      protocol: rtsp
+      port: 554
+      mac_prefix: 3C:EF:8C
+      comment: Works on firmware v2.800
+      ```
+   c. Validate the data:
+      - Is the protocol known? If not -- warn the user, suggest `/StrixCamDB-New-Protocol-Or-Placeholders`
+      - Does the brand file exist? If not -- this is "Add new brand" operation
+      - Is this URL already in the brand file? If yes -- warn about duplicate
+      - Does the model look suspicious? Warn but don't block
+   d. Apply the data using the normal add flow (STEP 3-5 below)
+   e. After successful commit, close the issue:
+      `gh issue close {number} --repo eduard256/StrixCamDB --comment "Added to database"`
+   f. If the data is invalid or rejected by user:
+      `gh issue close {number} --repo eduard256/StrixCamDB --reason "not planned" --comment "Rejected: {reason}"`
 
 ---
 
