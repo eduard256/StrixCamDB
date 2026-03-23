@@ -8,6 +8,7 @@ on:
       - "presets/**"
       - "scripts/build_sqlite.py"
       - "scripts/generate_presets.py"
+      - ".github/workflows/build.yml"
     tags:
       - "v*"
 
