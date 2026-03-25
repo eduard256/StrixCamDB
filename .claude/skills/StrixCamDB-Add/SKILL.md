@@ -27,7 +27,32 @@ If the user provided details in the command arguments -- parse them and determin
 1. **Add new brand** -- create a new JSON file for a brand that doesn't exist yet
 2. **Add stream URL** -- add a new stream entry to an existing brand
 3. **Add model to stream** -- add a model name to an existing stream's `models` array
-4. **Process contribution issues** -- review and apply data from GitHub issues
+4. **Add OUI prefix** -- add MAC address prefix to brand mapping in `oui.json`
+5. **Process contribution issues** -- review and apply data from GitHub issues
+
+### Adding OUI prefix
+
+When user selects "Add OUI prefix":
+
+1. Ask for MAC prefix (e.g. `3C:EF:8C`) and brand name (e.g. `Dahua`)
+2. Multiple entries can be added at once
+3. Normalize prefix to uppercase: `3c:ef:8c` -> `3C:EF:8C`
+4. Validate format: must be `XX:XX:XX` (uppercase hex, colon-separated)
+5. Read `oui.json`, check if prefix already exists -- if yes, warn and show current mapping
+6. Add new entries, sort keys alphabetically
+7. Write back with 2-space indent, `ensure_ascii: false`, trailing newline
+8. Verify: `python3 -c "import json; json.load(open('oui.json'))"`
+
+**OUI file format** (`oui.json` in repository root):
+
+```json
+{
+  "3C:EF:8C": "Dahua",
+  "44:47:CC": "Hikvision"
+}
+```
+
+Key: MAC prefix (first 3 octets). Value: brand name (human-readable).
 
 ### Processing contribution issues
 
