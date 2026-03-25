@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/eduard256/StrixCamDB/schemas/oui.schema.json",
+  "title": "StrixCamDB OUI Database",
+  "description": "MAC address prefix (OUI) to camera brand mapping",
+  "type": "object",
+  "additionalProperties": {
+    "type": "string",
+    "minLength": 1
+  },
+  "propertyNames": {
+    "pattern": "^[0-9A-F]{2}:[0-9A-F]{2}:[0-9A-F]{2}$"
+  }
+}
