@@ -13,6 +13,41 @@ Chat with the user in Russian. All file content -- in English.
 
 ---
 
+## STEP 0: Check GitHub issues
+
+On every invocation, BEFORE asking the user anything:
+
+1. Run `gh issue list --repo eduard256/StrixCamDB --label new-protocol --state open`
+2. Run `gh issue list --repo eduard256/StrixCamDB --label new-placeholder --state open`
+3. If there are open issues -- show them to the user and ask which one to work on
+4. If user picks an issue -- run `gh issue view {number} --repo eduard256/StrixCamDB` and parse the data:
+
+**Protocol issue format:**
+```yaml
+protocol: bubble
+default_port: 80
+url_format: /bubble/live?ch={channel}&stream={subtype}
+```
+Plus free-text sections: Description, Known brands, URL patterns, Where to research, Notes.
+
+**Placeholder issue format:**
+```yaml
+placeholder: "[STREAM]"
+alternatives: ["{stream}", "[STREAM_ID]"]
+description: "Stream profile index (0=main, 1=sub)"
+example_values: ["0", "1", "2"]
+```
+Plus free-text sections: Description, URL examples, Known brands using this, Notes.
+
+5. Use parsed data to pre-fill STEP 2 (don't ask what the user already provided in the issue)
+6. Read the "Where to research" section and investigate those sources before adding
+7. After successful push, close the issue:
+   `gh issue close {number} --repo eduard256/StrixCamDB --comment "Added to database"`
+
+If no open issues or user wants to add manually -- proceed to STEP 1.
+
+---
+
 ## STEP 1: Determine the operation
 
 If the user provided details in the command arguments -- parse them. If not -- ask using AskUserQuestion:
