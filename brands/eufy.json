@@ -101,15 +101,6 @@
     },
     {
       "id": "eufy-4",
-      "url": "D:/",
-      "protocol": "file",
-      "port": 0,
-      "models": [
-        "Cam2c"
-      ]
-    },
-    {
-      "id": "eufy-5",
       "url": "/",
       "protocol": "https",
       "port": 443,
@@ -124,7 +115,7 @@
       ]
     },
     {
-      "id": "eufy-6",
+      "id": "eufy-5",
       "url": "/live3",
       "protocol": "rtsp",
       "port": 0,
@@ -134,7 +125,7 @@
       ]
     },
     {
-      "id": "eufy-7",
+      "id": "eufy-6",
       "url": "/live4",
       "protocol": "rtsp",
       "port": 0,
@@ -143,7 +134,7 @@
       ]
     },
     {
-      "id": "eufy-8",
+      "id": "eufy-7",
       "url": "/img/video.asf",
       "protocol": "mms",
       "port": 554,
@@ -157,7 +148,7 @@
       ]
     },
     {
-      "id": "eufy-9",
+      "id": "eufy-8",
       "url": "/11",
       "protocol": "rtsp",
       "port": 554,
@@ -166,7 +157,7 @@
       ]
     },
     {
-      "id": "eufy-10",
+      "id": "eufy-9",
       "url": "/mjpg/video.mjpg",
       "protocol": "http",
       "port": 10002,
@@ -175,7 +166,7 @@
       ]
     },
     {
-      "id": "eufy-11",
+      "id": "eufy-10",
       "url": "/img/media.sav",
       "protocol": "rtsp",
       "port": 554,
@@ -184,7 +175,7 @@
       ]
     },
     {
-      "id": "eufy-12",
+      "id": "eufy-11",
       "url": "/live0.264",
       "protocol": "rtsp",
       "port": 554,
@@ -193,7 +184,7 @@
       ]
     },
     {
-      "id": "eufy-13",
+      "id": "eufy-12",
       "url": "/0",
       "protocol": "rtsp",
       "port": 554,
@@ -202,7 +193,7 @@
       ]
     },
     {
-      "id": "eufy-14",
+      "id": "eufy-13",
       "url": "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
       "protocol": "http",
       "port": 554,
