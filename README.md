@@ -91,6 +91,17 @@ Available in `presets/` directory:
 
 `brand_count` -- number of brands that use this URL pattern.
 
+## OUI Database
+
+`oui.json` maps MAC address prefixes to camera brands. Used for auto-detecting camera brand by MAC address during network scanning. 2400+ entries.
+
+```json
+{
+  "3C:EF:8C": "Dahua",
+  "44:47:CC": "Hikvision"
+}
+```
+
 ## SQLite
 
 Pre-built `cameras.db` is available in [GitHub Releases](https://github.com/eduard256/StrixCamDB/releases). Updated automatically on every push to `main`.
@@ -109,6 +120,7 @@ streams (id, brand_id, stream_id, url, protocol, port, notes)
 stream_models (stream_id, model)
 presets (id, preset_id, name, description)
 preset_streams (id, preset_id, url, protocol, port, notes, brand_count)
+oui (prefix, brand)
 meta (key, value)
 ```
 
@@ -124,6 +136,9 @@ FROM stream_models sm
 JOIN streams s ON s.id = sm.stream_id
 JOIN brands b ON b.brand_id = s.brand_id
 WHERE sm.model = 'DCS-930L';
+
+-- Detect brand by MAC address
+SELECT brand FROM oui WHERE prefix = '44:47:CC';
 
 -- Top 10 most popular URL patterns
 SELECT url, brand_count FROM preset_streams
