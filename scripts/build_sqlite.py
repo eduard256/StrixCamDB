@@ -20,6 +20,7 @@ import time
 
 BRANDS_DIR = os.path.join(os.path.dirname(__file__), "..", "brands")
 PRESETS_DIR = os.path.join(os.path.dirname(__file__), "..", "presets")
+OUI_FILE = os.path.join(os.path.dirname(__file__), "..", "oui.json")
 
 SCHEMA = """
 -- Database metadata
@@ -72,6 +73,12 @@ CREATE TABLE preset_streams (
     notes       TEXT,
     brand_count INTEGER NOT NULL DEFAULT 0,
     FOREIGN KEY (preset_id) REFERENCES presets(preset_id)
+);
+
+-- OUI (MAC prefix to brand mapping)
+CREATE TABLE oui (
+    prefix  TEXT PRIMARY KEY,
+    brand   TEXT NOT NULL
 );
 
 -- Indexes for fast lookups
@@ -201,6 +208,19 @@ def build(output_path):
             )
             preset_stream_count += 1
 
+    # Insert OUI data
+    oui_count = 0
+    oui_file = os.path.abspath(OUI_FILE)
+    if os.path.exists(oui_file):
+        with open(oui_file) as f:
+            oui_data = json.load(f)
+        for prefix, brand in oui_data.items():
+            conn.execute(
+                "INSERT OR IGNORE INTO oui (prefix, brand) VALUES (?, ?)",
+                (prefix, brand),
+            )
+            oui_count += 1
+
     # Insert metadata
     elapsed = time.time() - start
     conn.execute("INSERT INTO meta VALUES ('version', '2')")
@@ -208,6 +228,7 @@ def build(output_path):
     conn.execute(f"INSERT INTO meta VALUES ('brands', '{brand_count}')")
     conn.execute(f"INSERT INTO meta VALUES ('streams', '{stream_count}')")
     conn.execute(f"INSERT INTO meta VALUES ('presets', '{preset_count}')")
+    conn.execute(f"INSERT INTO meta VALUES ('oui', '{oui_count}')")
 
     conn.commit()
 
@@ -230,6 +251,7 @@ def build(output_path):
     print(f"  Model refs:      {model_ref_count}")
     print(f"  Presets:         {preset_count}")
     print(f"  Preset streams:  {preset_stream_count}")
+    print(f"  OUI entries:     {oui_count}")
     print(f"  Build time:      {elapsed:.2f}s")
 
 
