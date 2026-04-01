@@ -5,33 +5,23 @@
   "streams": [
     {
       "id": "zosi-1",
-      "url": "/bubble/live?ch={channel}&stream=0",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=0",
       "protocol": "bubble",
       "port": 80,
       "models": [
-        "NVR",
-        "DVR",
-        "H.264",
-        "H.265",
-        "HiSilicon",
-        "Other"
+        "*"
       ],
-      "notes": "Bubble Protocol - main stream (works with go2rtc bubble:// source)"
+      "notes": "Bubble protocol main stream - XiongMai/XM-based firmware"
     },
     {
       "id": "zosi-2",
-      "url": "/bubble/live?ch={channel}&stream=1",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=1",
       "protocol": "bubble",
       "port": 80,
       "models": [
-        "NVR",
-        "DVR",
-        "H.264",
-        "H.265",
-        "HiSilicon",
-        "Other"
+        "*"
       ],
-      "notes": "Bubble Protocol - sub stream (lower quality)"
+      "notes": "Bubble protocol sub stream - XiongMai/XM-based firmware"
     },
     {
       "id": "zosi-3",

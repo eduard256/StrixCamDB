@@ -190,6 +190,26 @@
       "models": [
         "CP35IP"
       ]
+    },
+    {
+      "id": "smartwares-16",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=0",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol main stream - confirmed on CIP-39220"
+    },
+    {
+      "id": "smartwares-17",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=1",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol sub stream - confirmed on CIP-39220"
     }
   ]
 }

@@ -210,6 +210,26 @@
       "models": [
         "tit"
       ]
+    },
+    {
+      "id": "genbolt-14",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=0",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol main stream - XiongMai/XM-based firmware"
+    },
+    {
+      "id": "genbolt-15",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=1",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol sub stream - XiongMai/XM-based firmware"
     }
   ]
 }

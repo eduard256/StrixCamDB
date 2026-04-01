@@ -42,6 +42,26 @@
       "models": [
         "pk1100"
       ]
+    },
+    {
+      "id": "gadinan-5",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=0",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol main stream - XiongMai/XM-based firmware"
+    },
+    {
+      "id": "gadinan-6",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=1",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol sub stream - XiongMai/XM-based firmware"
     }
   ]
 }

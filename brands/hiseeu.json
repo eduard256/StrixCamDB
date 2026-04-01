@@ -465,6 +465,26 @@
       "models": [
         "WHD812B"
       ]
+    },
+    {
+      "id": "hiseeu-37",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=0",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol main stream - XiongMai/XM-based firmware"
+    },
+    {
+      "id": "hiseeu-38",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=1",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol sub stream - XiongMai/XM-based firmware"
     }
   ]
 }

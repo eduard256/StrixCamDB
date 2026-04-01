@@ -54,6 +54,26 @@
       "models": [
         "RC720AW"
       ]
+    },
+    {
+      "id": "amorvue-6",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=0",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol main stream - ESeeCloud/dvr163 NVR firmware"
+    },
+    {
+      "id": "amorvue-7",
+      "url": "/bubble/live?ch=[CHANNEL]&stream=1",
+      "protocol": "bubble",
+      "port": 80,
+      "models": [
+        "*"
+      ],
+      "notes": "Bubble protocol sub stream - ESeeCloud/dvr163 NVR firmware"
     }
   ]
 }
