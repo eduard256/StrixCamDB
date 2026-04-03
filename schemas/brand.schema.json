@@ -47,7 +47,7 @@
         },
         "protocol": {
           "type": "string",
-          "description": "Network protocol: rtsp, http, https, mms, rtmp, rtsps, bubble, rtp, or future protocols"
+          "description": "Network protocol: rtsp, http, https, mms, rtmp, rtsps, bubble, rtp, dvrip, or future protocols"
         },
         "port": {
           "type": "integer",

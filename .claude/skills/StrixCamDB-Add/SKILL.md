@@ -100,7 +100,7 @@ Brand ID is auto-generated from brand name: lowercase, spaces to hyphens, specia
 Ask (or parse from input):
 - Brand name or brand_id (search in `brands/` directory if unclear)
 - URL path (e.g. `/Streaming/Channels/101`)
-- Protocol (`rtsp`, `http`, `https`, `rtsps`, `rtmp`, `mms`, `bubble`, `rtp`)
+- Protocol (`rtsp`, `http`, `https`, `rtsps`, `rtmp`, `mms`, `bubble`, `rtp`, `dvrip`)
 - Port number (e.g. `554`, `80`. Use `0` if unknown)
 - Which models this stream works for (list of model names, or `*` for all)
 
@@ -152,7 +152,7 @@ Every brand file is `brands/{brand_id}.json`:
 |-------|------|----------|-------|
 | `id` | string | yes | Format: `{brand_id}-{N}` where N is sequential. Must be unique within file |
 | `url` | string | yes | URL path only (no protocol://host:port prefix). Can contain placeholders |
-| `protocol` | string | yes | One of: `rtsp`, `http`, `https`, `rtsps`, `rtmp`, `mms`, `bubble`, `rtp` |
+| `protocol` | string | yes | One of: `rtsp`, `http`, `https`, `rtsps`, `rtmp`, `mms`, `bubble`, `rtp`, `dvrip` |
 | `port` | int | yes | 0-65535. Use `0` if unknown (means "use default for protocol") |
 | `models` | array | yes | Non-empty. Use `["*"]` if stream works for all models of this brand |
 | `notes` | string | no | Only add if genuinely useful context exists |

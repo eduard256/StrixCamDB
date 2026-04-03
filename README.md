@@ -38,7 +38,7 @@ Each brand is a separate JSON file in `brands/` directory. Filename matches `bra
 |-------|------|-------------|
 | `id` | string | Unique within brand |
 | `url` | string | URL path with placeholders |
-| `protocol` | string | `rtsp`, `http`, `https`, `rtsps`, `rtmp`, `mms`, `bubble`, `rtp` |
+| `protocol` | string | `rtsp`, `http`, `https`, `rtsps`, `rtmp`, `mms`, `bubble`, `rtp`, `dvrip` |
 | `port` | int | Port number. `0` = unknown, use default for protocol |
 | `models` | array | Camera models. `["*"]` = works for all models of this brand |
 | `notes` | string | Optional. Human-readable notes |
