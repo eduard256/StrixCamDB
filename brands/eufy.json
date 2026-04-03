@@ -200,6 +200,15 @@
       "models": [
         "T8410"
       ]
+    },
+    {
+      "id": "eufy-14",
+      "url": "/live",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Solo 2k"
+      ]
     }
   ]
 }

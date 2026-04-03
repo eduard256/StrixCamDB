@@ -98,6 +98,15 @@
       "models": [
         "wy0530"
       ]
+    },
+    {
+      "id": "ali-express-11",
+      "url": "/live",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "V380"
+      ]
     }
   ]
 }
