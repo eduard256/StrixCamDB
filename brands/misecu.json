@@ -69,6 +69,26 @@
       "models": [
         "IPC-DM13EW-1.3"
       ]
+    },
+    {
+      "id": "misecu-6",
+      "url": "?channel=[CHANNEL]&subtype=0",
+      "protocol": "dvrip",
+      "port": 34567,
+      "models": [
+        "*"
+      ],
+      "notes": "DVR-IP/Sofia main stream (Xiongmai-based firmware)"
+    },
+    {
+      "id": "misecu-7",
+      "url": "?channel=[CHANNEL]&subtype=1",
+      "protocol": "dvrip",
+      "port": 34567,
+      "models": [
+        "*"
+      ],
+      "notes": "DVR-IP/Sofia sub stream (Xiongmai-based firmware)"
     }
   ]
 }
