@@ -170,8 +170,9 @@ Every brand file is `brands/{brand_id}.json`:
 | `[IP]` | Camera IP address | `192.168.1.100` |
 | `[PORT]` | Port number | `554` |
 | `[AUTH]` | Base64-encoded `username:password` | |
+| `[TOKEN]` | Authorization token | |
 
-Alternative forms: `[USER]`, `[PASS]`, `[PWD]`, `[PASWORD]`, `{CHANNEL}`, `{channel+1}` -- all supported.
+Alternative forms: `[USER]`, `[PASS]`, `[PWD]`, `{CHANNEL}`, `{channel+1}` -- all supported.
 
 ### Validation rules
 

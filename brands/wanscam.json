@@ -2185,7 +2185,7 @@
     },
     {
       "id": "wanscam-79",
-      "url": "/iphone/11?[USERNAME]:[PASWORD]&",
+      "url": "/iphone/11?[USERNAME]:[PASSWORD]&",
       "protocol": "http",
       "port": 9100,
       "models": [

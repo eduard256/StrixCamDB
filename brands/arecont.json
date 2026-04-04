@@ -240,17 +240,6 @@
       ]
     },
     {
-      "id": "arecont-8",
-      "url": "/image?res=full&x0=0%25&y0=[object%20Window]%25&x1=100%25&y1=100%25&quality=21&doublescan=0",
-      "protocol": "http",
-      "port": 80,
-      "models": [
-        "11455DN",
-        "3100",
-        "av3130"
-      ]
-    },
-    {
       "id": "arecont-9",
       "url": "mjpeg[CHANNEL]?res=half&x1=0&y1=0",
       "protocol": "http",

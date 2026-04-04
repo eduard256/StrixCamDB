@@ -132,20 +132,6 @@
       ]
     },
     {
-      "id": "cisco-7",
-      "url": "[code]",
-      "protocol": "rtsp",
-      "port": 0,
-      "models": [
-        "2500 IP CAMERA",
-        "Other",
-        "PVC2300",
-        "VC240",
-        "WVC SERIES",
-        "WVC210"
-      ]
-    },
-    {
       "id": "cisco-8",
       "url": "img/mjpeg.cgi",
       "protocol": "http",
@@ -390,16 +376,6 @@
         "WV200",
         "WV210",
         "WVC2300"
-      ]
-    },
-    {
-      "id": "cisco-29",
-      "url": "/[code]",
-      "protocol": "rtsp",
-      "port": 554,
-      "models": [
-        "PVC2300",
-        "PVC300"
       ]
     },
     {

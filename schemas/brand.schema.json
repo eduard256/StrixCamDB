@@ -43,7 +43,7 @@
         },
         "url": {
           "type": "string",
-          "description": "URL path with optional placeholders: [CHANNEL], [CHANNEL+1], [USERNAME], [PASSWORD], [WIDTH], [HEIGHT], [IP], [PORT], [AUTH], [TOKEN], [USER], [PASS], [PWD], [PASWORD]"
+          "description": "URL path with optional placeholders: [CHANNEL], [CHANNEL+1], [USERNAME], [PASSWORD], [WIDTH], [HEIGHT], [IP], [PORT], [AUTH], [TOKEN], [USER], [PASS], [PWD]"
         },
         "protocol": {
           "type": "string",

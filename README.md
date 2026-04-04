@@ -58,6 +58,7 @@ URL paths can contain placeholders. The application replaces them before making 
 | `[IP]` | Camera IP address |
 | `[PORT]` | Port number |
 | `[AUTH]` | Base64-encoded `username:password` |
+| `[TOKEN]` | Authorization token |
 
 Alternative forms are also supported: `[USER]`, `[PASS]`, `[PWD]`, `{CHANNEL}`, `{channel+1}`, etc.
 
