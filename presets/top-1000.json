@@ -6003,6 +6003,30 @@
       "protocol": "rtsp",
       "port": 8080,
       "brand_count": 2
+    },
+    {
+      "url": "?channel=[CHANNEL]&subtype=0",
+      "protocol": "dvrip",
+      "port": 34567,
+      "brand_count": 108
+    },
+    {
+      "url": "?channel=[CHANNEL]&subtype=1",
+      "protocol": "dvrip",
+      "port": 34567,
+      "brand_count": 108
+    },
+    {
+      "url": "/bubble/live?ch=[CHANNEL]&stream=0",
+      "protocol": "bubble",
+      "port": 80,
+      "brand_count": 13
+    },
+    {
+      "url": "/bubble/live?ch=[CHANNEL]&stream=1",
+      "protocol": "bubble",
+      "port": 80,
+      "brand_count": 13
     }
   ]
 }
