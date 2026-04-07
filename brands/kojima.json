@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "brand": "Kojima",
+  "brand_id": "kojima",
+  "streams": [
+    {
+      "id": "kojima-1",
+      "url": "/stream0",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": ["ssc-3mp-2k"]
+    },
+    {
+      "id": "kojima-2",
+      "url": "/stream1",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": ["ssc-3mp-2k"]
+    }
+  ]
+}
