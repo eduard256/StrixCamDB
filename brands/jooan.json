@@ -103,6 +103,7 @@
       "port": 554,
       "models": [
         "2TR-U",
+        "A2R",
         "A2R-U",
         "A6M-U",
         "F10T",
@@ -366,6 +367,15 @@
         "*"
       ],
       "notes": "DVR-IP/Sofia sub stream (Xiongmai-based firmware)"
+    },
+    {
+      "id": "jooan-27",
+      "url": "/live/ch00_1",
+      "protocol": "rtsp",
+      "port": 8554,
+      "models": [
+        "A2R"
+      ]
     }
   ]
 }
