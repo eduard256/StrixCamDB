@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Karotz",
+  "brand_id": "karotz",
+  "streams": [
+    {
+      "id": "karotz-1",
+      "url": "/cgi-bin/snapshot_view?silent=1",
+      "protocol": "http",
+      "port": 80,
+      "models": [
+        "Karotz"
+      ],
+      "notes": "FreeRabbits OS / OpenKarotz"
+    }
+  ]
+}

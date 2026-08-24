@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "brand": "Yi-hack Dome Guard",
+  "brand_id": "yi-hack-dome-guard",
+  "streams": [
+    {
+      "id": "yi-hack-dome-guard-1",
+      "url": "/ch0_0.h264",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Dome Guard"
+      ],
+      "notes": "Custom firmware for Yi Dome Guard R35GB"
+    }
+  ]
+}

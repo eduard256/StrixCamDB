@@ -22,6 +22,15 @@
         "xm530_rh50x20_8m",
         "xm530_rh80x20-PQ_8m"
       ]
+    },
+    {
+      "id": "anbiux-2",
+      "url": "/cam/realmonitor?channel=1&subtype=1",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "*"
+      ]
     }
   ]
 }

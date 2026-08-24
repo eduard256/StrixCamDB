@@ -195,6 +195,7 @@
         "Bullet 2C",
         "Cue2",
         "IPC-S42F",
+        "IPC-S42F-D",
         "IPC-S7XEN-10M0WED",
         "k.a.",
         "Looc2",
@@ -392,6 +393,15 @@
       "port": 0,
       "models": [
         "Ranger IQ-B6E4"
+      ]
+    },
+    {
+      "id": "imou-28",
+      "url": "/cam/realmonitor?channel=2&subtype=1",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "Cruiser Dual 10MP"
       ]
     }
   ]

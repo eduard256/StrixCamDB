@@ -32,6 +32,15 @@
         "*"
       ],
       "notes": "DVR-IP/Sofia sub stream (Xiongmai-based firmware)"
+    },
+    {
+      "id": "wistino-4",
+      "url": "/avstream/channel=1/stream=0-mainstream.sdp",
+      "protocol": "rtsp",
+      "port": 554,
+      "models": [
+        "CCTV 5MP WiFi Outdoor Camera"
+      ]
     }
   ]
 }
